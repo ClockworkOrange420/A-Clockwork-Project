@@ -1299,7 +1299,6 @@
     <item name="canHam" count="1,5"/>
     <item group="coldfood" />
     <item group="beverages" count="1,2" />
-	<item group="seeds" count="1,4" />
 	<item name="foodHoney" count="1" prob="0.1" />
   </lootcontainer>
 
