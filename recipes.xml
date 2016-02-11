@@ -717,11 +717,11 @@
         <ingredient name="goldenrod" count="1"/>
     </recipe>
 
-    <recipe name="gravel" count="1" scrapable="False" >
+    <recipe name="gravel" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
         <ingredient name="rockSmall" count="4"/>
     </recipe>
 
-    <recipe name="gravel" count="1" scrapable="False" >
+    <recipe name="gravel" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
         <ingredient name="destroyedStone" count="1"/>
     </recipe>
 
@@ -1173,11 +1173,11 @@
 		<ingredient name="unit_lead" count="50"/>
     </recipe>		
 
-    <recipe name="rockSmall" count="4" scrapable="False" >
+    <recipe name="rockSmall" count="4" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
         <ingredient name="destroyedStone" count="1"/>
     </recipe>
 
-    <recipe name="rockSmall" count="10" scrapable="False" >
+    <recipe name="rockSmall" count="10" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
         <ingredient name="stone" count="1"/>
     </recipe>
 	
