@@ -1583,6 +1583,10 @@
 	
 	<!-- Modded -->
 	
+	<recipe name="chrysanthemumSeed" count="2" scrapable="False" >
+        <ingredient name="plantChrysanthemum" count="1"/>
+    </recipe>
+	
 	<recipe name="aloeSeed" count="2" scrapable="False" >
         <ingredient name="plantAloe" count="1"/>
     </recipe>
