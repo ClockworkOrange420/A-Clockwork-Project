@@ -2534,7 +2534,7 @@
     <property name="Light" value="0.5" />
     <property name="Collide" value="bullet,melee" />
     <property name="Model" value="Entities/Lighting/porchLight01Prefab" />
-    <drop event="Destroy" name="ironFragment" count="1" prob="1" />
+    <drop event="Destroy" name="scrapBrass" count="1" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
   <block id="317" name="porchLight04">
@@ -2545,7 +2545,7 @@
     <property name="Light" value="0.5" />
     <property name="Collide" value="bullet,melee" />
     <property name="Model" value="Entities/Lighting/porchLight04Prefab" />
-    <drop event="Destroy" name="ironFragment" count="1" prob="1" />
+    <drop event="Destroy" name="scrapBrass" count="1" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
   <block id="318" name="porchLight04Brass">
@@ -2567,7 +2567,7 @@
     <property name="Light" value="0.5" />
     <property name="Collide" value="bullet,melee" />
     <property name="Model" value="Entities/Lighting/ceilingLight01Prefab" />
-    <drop event="Destroy" count="0" />
+    <drop event="Destroy" name="scrapBrass" count="1" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
   <block id="320" name="ceilingLight02">
@@ -2578,7 +2578,7 @@
     <property name="Light" value="0.5" />
     <property name="Collide" value="bullet,melee" />
     <property name="Model" value="Entities/Lighting/ceilingLight02Prefab" />
-    <drop event="Destroy" name="ironFragment" count="1" prob="1" />
+    <drop event="Destroy" name="scrapBrass" count="1" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
   <block id="321" name="ceilingLight02Brass">
@@ -2600,7 +2600,7 @@
     <property name="Light" value="0.5" />
     <property name="Collide" value="bullet,melee" />
     <property name="Model" value="Entities/Lighting/ceilingLight04Prefab" />
-    <drop event="Destroy" name="ironFragment" count="1" prob="1" />
+    <drop event="Destroy" name="scrapBrass" count="1" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
   <block id="323" name="ceilingLight05">
@@ -2611,7 +2611,7 @@
     <property name="Light" value="0.5" />
     <property name="Collide" value="bullet,melee" />
     <property name="Model" value="Entities/Lighting/ceilingLight05Prefab" />
-    <drop event="Destroy" name="ironFragment" count="1" prob="1" />
+    <drop event="Destroy" name="scrapBrass" count="1" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
   <block id="324" name="ceilingLight05Brass">
@@ -2633,7 +2633,7 @@
     <property name="Light" value="0.5" />
     <property name="Collide" value="bullet,melee" />
     <property name="Model" value="Entities/Lighting/wall_light01Prefab" />
-    <drop event="Destroy" name="ironFragment" count="1" prob="1" />
+    <drop event="Destroy" name="scrapBrass" count="1" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
   <block id="326" name="ceilingLight07">
@@ -2644,7 +2644,7 @@
     <property name="Light" value="0.5" />
     <property name="Collide" value="bullet,melee" />
     <property name="Model" value="Entities/Lighting/ceilingLight07Prefab" />
-    <drop event="Destroy" name="ironFragment" count="1" prob="1" />
+    <drop event="Destroy" name="scrapBrass" count="1" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
   <block id="327" name="mailbox">
@@ -16228,7 +16228,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
 	<property name="CustomIcon" value="desk01" />
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="Stacknumber" value="1" />
-	<property name="HeatMapStrength" value="1"/>
+	<property name="HeatMapStrength" value="0.5"/>
 	<property name="HeatMapTime" value="1200"/>
 	<property name="HeatMapFrequency" value="25"/>
 	<property class="Workstation">
@@ -16328,7 +16328,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="Texture" value="54" />
 	<property name="CustomIcon" value="tableWhitewood" />
 	<property name="Stacknumber" value="1" />
-	<property name="HeatMapStrength" value="0.5"/>
+	<property name="HeatMapStrength" value="1"/>
 	<property name="HeatMapTime" value="1200"/>
 	<property name="HeatMapFrequency" value="25"/>
 	<property class="Workstation">
@@ -16350,7 +16350,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="Texture" value="282" />
 	<property name="CustomIcon" value="tableIron" />
 	<property name="Stacknumber" value="1" />
-	<property name="HeatMapStrength" value="0.5"/>
+	<property name="HeatMapStrength" value="1"/>
 	<property name="HeatMapTime" value="1200"/>
 	<property name="HeatMapFrequency" value="25"/>
 	<property class="Workstation">
