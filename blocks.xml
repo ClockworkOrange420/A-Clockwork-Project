@@ -16376,7 +16376,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
 	<property name="HeatMapTime" value="1200"/>
 	<property name="HeatMapFrequency" value="25"/>
 	<property class="Workstation">
-		<property name="Modules" value="tools,output,input,"/>
+		<property name="Modules" value="tools,output,input"/>
 	</property>
 	<property class="RepairItems">
 		<property name="wood" value="10" />
