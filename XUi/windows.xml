@@ -569,7 +569,7 @@
 			
 			<grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
 				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="nailgun" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true" />
+					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="hammer" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true" />
 				</rect>
 				<rect>
 					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="boneShiv" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true"/>

@@ -369,7 +369,7 @@
         <ingredient name="forgedIron" count="1"/>
     </recipe>
 
-    <recipe name="barnWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="barnWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
         <ingredient name="plantChrysanthemum" count="1"/>
     </recipe>
@@ -477,12 +477,12 @@
 		<ingredient name="unit_clay" count="1"/>
     </recipe>
 
-    <recipe name="cabinet" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="cabinet" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="cobblestones" count="5"/>
         <ingredient name="cabinetTop" count="1"/>
     </recipe>
 
-    <recipe name="cabinetTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="cabinetTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 
@@ -553,13 +553,13 @@
         <ingredient name="wood" count="5"/>
     </recipe>
 
-    <recipe name="cobblestoneFrame" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="cobblestoneFrame" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="5"/>
         <ingredient name="yuccaFibers" count="1"/>
     </recipe>
 	
 	
-    <recipe name="cobblestoneRampFrame" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="cobblestoneRampFrame" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="5"/>
         <ingredient name="yuccaFibers" count="1"/>
     </recipe>
@@ -853,7 +853,7 @@
         <ingredient name="forgedSteel" count="10"/>
     </recipe>
 
-    <recipe name="ladder" count="3" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="ladder" count="3" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 
@@ -897,7 +897,7 @@
         <ingredient name="leather" count="10"/>
     </recipe>
 
-    <recipe name="logCabin" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="logCabin" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 
@@ -963,7 +963,7 @@
         <ingredient name="unit_iron" count="1"/>
     </recipe>
 
-    <recipe name="nightstand" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="nightstand" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="10"/>
     </recipe>
@@ -972,7 +972,7 @@
         <ingredient name="gasCan" count="600"/>
     </recipe>
 
-    <recipe name="oldChair" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="oldChair" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="10"/>
     </recipe>
@@ -987,7 +987,7 @@
         <ingredient name="forgedIron" count="10"/>
     </recipe>	
 
-    <recipe name="woodPillar" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="woodPillar" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 
@@ -1023,7 +1023,7 @@
         <ingredient name="pistol_grip" count="1"/>
     </recipe>
 
-    <recipe name="planks4" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="planks4" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
@@ -1082,7 +1082,7 @@
         <ingredient name="PumpShotgun_stock" count="1"/>
     </recipe>
 
-    <recipe name="pyramidShinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="pyramidShinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
@@ -1090,11 +1090,11 @@
         <ingredient name="shortMetalPipe" count="5"/>
     </recipe>
 	
-	<recipe name="railingWoodWhite" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="railingWoodWhite" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="4"/>
     </recipe>
 
-    <recipe name="railingOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="railingOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="4"/>
     </recipe>
 
@@ -1132,7 +1132,7 @@
         <ingredient name="unit_iron" count="2"/>
     </recipe>		
 
-    <recipe name="redWoodPillar" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="redWoodPillar" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="plantChrysanthemum" count="1"/>
     </recipe>
@@ -1305,7 +1305,7 @@
 		<ingredient name="nail" count="10"/>
     </recipe>
 
-    <recipe name="secureDoorWooden" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="secureDoorWooden" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 
@@ -1314,11 +1314,11 @@
 		<ingredient name="spring" count="5"/>
     </recipe>
 
-    <recipe name="secureStorageChest" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="secureStorageChest" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 
-    <recipe name="shinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="shinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 
@@ -1380,7 +1380,7 @@
         <ingredient name="brickPaver" count="1"/>
     </recipe>
 
-    <recipe name="stairsSmallRichwood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="stairsSmallRichwood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 
@@ -1421,32 +1421,32 @@
         <ingredient name="rockSmall" count="3"/>
     </recipe>
 
-    <recipe name="storageAmmo" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="storageAmmo" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="10"/>
     </recipe>
 
-    <recipe name="storageBuilding" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="storageBuilding" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="10"/>
     </recipe>
 
-    <recipe name="storageExplosives" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="storageExplosives" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="10"/>
     </recipe>
 
-    <recipe name="storageFood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="storageFood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="10"/>
     </recipe>
 
-    <recipe name="storageHealth" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="storageHealth" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="10"/>
     </recipe>
 
-    <recipe name="storageWeapons" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="storageWeapons" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="10"/>
     </recipe>
@@ -1455,7 +1455,7 @@
         <ingredient name="forgedIron" count="7"/>
     </recipe>
 
-    <recipe name="tableRedwood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="tableRedwood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="plantChrysanthemum" count="1"/>
         <ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="10"/>
@@ -1465,7 +1465,7 @@
         <ingredient name="scrapIron" count="10"/>
     </recipe>
 
-    <recipe name="tableWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="tableWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="10"/>
     </recipe>
@@ -1492,7 +1492,7 @@
         <ingredient name="wood" count="10"/>
     </recipe>
 
-    <recipe name="trunkPine" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="trunkPine" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="40"/>
     </recipe>
 
@@ -1523,11 +1523,11 @@
         <ingredient name="rockSmall" count="10"/>
     </recipe>
 
-    <recipe name="wedgeWoodShingles" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="wedgeWoodShingles" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 
-    <recipe name="window03Wood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="window03Wood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="glass" count="1"/>
         <ingredient name="wood" count="8"/>
     </recipe>
@@ -1541,39 +1541,39 @@
         <ingredient name="yuccaFibers" count="3"/>
     </recipe>
 
-    <recipe name="woodenHatch1_v1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="woodenHatch1_v1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 
-    <recipe name="woodenStairs" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="woodenStairs" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 
-    <recipe name="woodFence" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="woodFence" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="9"/>
     </recipe>
 
-    <recipe name="woodFenceOldFarm" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="woodFenceOldFarm" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="5"/>
     </recipe>
 
-    <recipe name="woodFrame" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="woodFrame" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 
-    <recipe name="woodInsideCornerFrame" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="woodInsideCornerFrame" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 
-    <recipe name="woodOutsideCornerFrame" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="woodOutsideCornerFrame" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 
-    <recipe name="woodRampFrame" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="woodRampFrame" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="5"/>
     </recipe>
 
-    <recipe name="woodShinglesCorner" count="2" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+    <recipe name="woodShinglesCorner" count="2" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 
@@ -1632,7 +1632,7 @@
 	    <ingredient name="animalHide" count="10"/>
     </recipe>
 	
-	<recipe name="chickenCoop_stage1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="chickenCoop_stage1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20" />
 		<ingredient name="egg" count="8" />
 	    <ingredient name="yuccaFibers" count="20"/>
@@ -1702,7 +1702,7 @@
         <ingredient name="shamSandwich" count="5"/>
     </recipe>
 	
-	<recipe name="bookcase" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="bookcase" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="book" count="10"/>
 		<ingredient name="wood" count="20"/>
     </recipe>
@@ -1743,13 +1743,6 @@
 	<recipe name="chisel" count="1" scrapable="False" craft_area="forge" material_based="true">
         <ingredient name="unit_clay" count="10"/>
 		<ingredient name="unit_iron" count="20"/>
-    </recipe>
-	
-	<recipe name="nailgun" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
-        <ingredient name="forgedIron" count="10"/>
-        <ingredient name="hammer" count="1"/>
-		<ingredient name="spring" count="1"/>
-		<ingredient name="ductTape" count="2"/>
     </recipe>
 	
 	<recipe name="Tailoring_Table" count="1" scrapable="False" >
@@ -2352,179 +2345,179 @@
 	<!--Aesthetic Blocks-->
 	
 	
-	<recipe name="fenceWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="fenceWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="9"/>
     </recipe>
 	
-	<recipe name="poleBlockWoodPainted1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="poleBlockWoodPainted1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="woodPainted3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="woodPainted3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="cornerHouseShinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cornerHouseShinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedge60EndShinglesAsphaltGreen" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60EndShinglesAsphaltGreen" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedge60EndShinglesAsphaltWhite" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60EndShinglesAsphaltWhite" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedge60EndShinglesAsphaltYellow" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60EndShinglesAsphaltYellow" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedge60TipShinglesAsphaltGreen" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60TipShinglesAsphaltGreen" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedge60TipShinglesAsphaltWhite" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60TipShinglesAsphaltWhite" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedge60TipShinglesAsphaltYellow" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60TipShinglesAsphaltYellow" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="logCabinWedge" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="logCabinWedge" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="logCabin" count="1"/>
     </recipe>
 	
-	<recipe name="wedge60TipShinglesAsphaltTan" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60TipShinglesAsphaltTan" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedge60TipShinglesAsphaltBurnt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60TipShinglesAsphaltBurnt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="insideCornerWedgeShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="insideCornerWedgeShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="insideCornerWedgeShinglesAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="insideCornerWedgeShinglesAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="insideCornerWedgeShinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="insideCornerWedgeShinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="insideCornerWedgeShinglesWood2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="insideCornerWedgeShinglesWood2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="gableWhiteWoodShinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="gableWhiteWoodShinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="woodShinglesGable" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="woodShinglesGable" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="insideCornerWedgeOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="insideCornerWedgeOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedge60EndShinglesAsphaltTan" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60EndShinglesAsphaltTan" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedge60EndShinglesAsphaltBurnt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60EndShinglesAsphaltBurnt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedgeSidingWhiteBurnt02" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeSidingWhiteBurnt02" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="gableWhiteWoodShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="gableWhiteWoodShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="gableWhiteWoodShinglesAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="gableWhiteWoodShinglesAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="pyramidShinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="pyramidShinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedgeWoodShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeWoodShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="cornerFullWedgeShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cornerFullWedgeShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedgeCabinShinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeCabinShinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedgeCabinOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeCabinOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedgeWoodWhiteShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeWoodWhiteShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="cornerHouseShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cornerHouseShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="pyramidShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="pyramidShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedgeWoodShinglesAlsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeWoodShinglesAlsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="cornerFullWedgeAsphaltShingles" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cornerFullWedgeAsphaltShingles" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="cornerFullWedgeShinglesAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cornerFullWedgeShinglesAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="pyramidShinglesAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="pyramidShinglesAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="cornerHouseShinglesAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cornerHouseShinglesAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedgeWoodWhiteShinglesAlsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeWoodWhiteShinglesAlsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedgeOldWoodShinglesAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeOldWoodShinglesAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedgeWoodWhiteShinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeWoodWhiteShinglesWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedgeOldStuccoWoodShake" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeOldStuccoWoodShake" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedge60Shingle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60Shingle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="woodShingleTip" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="woodShingleTip" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="20"/>
     </recipe>
 	
@@ -2544,12 +2537,12 @@
         <ingredient name="flagstone" count="1"/>
     </recipe>
 	
-	<recipe name="wedgeDrywallCeiling" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeDrywallCeiling" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
 	
-	<recipe name="orangeDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="orangeDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
@@ -2558,19 +2551,19 @@
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="wedgeBarnShingles" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeBarnShingles" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="barnWood" count="1"/>
     </recipe>
 	
-	<recipe name="whitePicketFence" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="whitePicketFence" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="9"/>
     </recipe>
 	
-	<recipe name="woodFloor01" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="woodFloor01" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="wedge60EndBarnWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60EndBarnWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="barnWood" count="1"/>
     </recipe>
 	
@@ -2582,37 +2575,37 @@
         <ingredient name="glass" count="4"/>
     </recipe>
 	
-	<recipe name="glassBusiness" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="glassBusiness" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="glass" count="1"/>
 		<ingredient name="wood" count="8"/>
     </recipe>
 	
-	<recipe name="glassBusinessCentered" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="glassBusinessCentered" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="glass" count="1"/>
 		<ingredient name="wood" count="8"/>
     </recipe>
 	
-	<recipe name="glassBusinessBlock" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="glassBusinessBlock" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="glass" count="1"/>
 		<ingredient name="wood" count="8"/>
     </recipe>
 	
-	<recipe name="glassIndustrial" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="glassIndustrial" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="glass" count="1"/>
 		<ingredient name="wood" count="8"/>
     </recipe>
 	
-	<recipe name="glassIndustrial02" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="glassIndustrial02" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="glass" count="1"/>
 		<ingredient name="wood" count="8"/>
     </recipe>
 	
-	<recipe name="glassIndustrial02Broken01" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="glassIndustrial02Broken01" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="glass" count="1"/>
 		<ingredient name="wood" count="8"/>
     </recipe>
 	
-	<recipe name="glassIndustrial02Broken02" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="glassIndustrial02Broken02" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="glass" count="1"/>
 		<ingredient name="wood" count="8"/>
     </recipe>
@@ -2709,161 +2702,161 @@
         <ingredient name="cloth" count="10"/>
     </recipe>
 	
-	<recipe name="rug01" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="rug01" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cloth" count="4"/>
     </recipe>
 	
-	<recipe name="Carpet1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="Carpet1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cloth" count="4"/>
     </recipe>
 	
-	<recipe name="furRug" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="furRug" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cloth" count="4"/>
     </recipe>
 	
-	<recipe name="powerPoleQuarter" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="powerPoleQuarter" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="chair01" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="chair01" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="10"/>
     </recipe>
 	
-	<recipe name="endTable" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="endTable" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="10"/>
     </recipe>
 	
-	<recipe name="endTableLamp" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="endTableLamp" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="10"/>
 		<ingredient name="glass" count="1"/>
     </recipe>
 	
-	<recipe name="shutters1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="shutters1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="4"/>
     </recipe>
 	
-	<recipe name="plywoodOsb" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="plywoodOsb" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="4"/>
     </recipe>
 	
-	<recipe name="plywoodOsbCentered" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="plywoodOsbCentered" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="4"/>
     </recipe>
 	
-	<recipe name="window04" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="window04" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="glass" count="1"/>
 		<ingredient name="wood" count="8"/>
     </recipe>
 	
-	<recipe name="window02" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="window02" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="glass" count="1"/>
 		<ingredient name="wood" count="8"/>
     </recipe>
 	
-	<recipe name="woodPainted1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="woodPainted1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="woodPainted1ShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="woodPainted1ShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="woodPainted2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="woodPainted2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="tileFloor2WoodPainted2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tileFloor2WoodPainted2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="tileFloor1WoodPainted2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tileFloor1WoodPainted2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="Carpet1WoodPainted2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="Carpet1WoodPainted2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="cloth" count="4"/>
     </recipe>
 	
-	<recipe name="halfBlockOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="halfBlockOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="5"/>
     </recipe>
 	
-	<recipe name="wedge60EndShinglesAspaltBlue" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60EndShinglesAspaltBlue" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="wedgeSidingWhiteBurnt01" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeSidingWhiteBurnt01" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingBluePlasterMiddle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingBluePlasterMiddle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingBluePlasterTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingBluePlasterTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingBlueOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingBlueOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingGreenPlasterMiddle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingGreenPlasterMiddle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingGreenPlasterTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingGreenPlasterTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingGreenOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingGreenOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingWhitePlasterMiddle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingWhitePlasterMiddle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingWhitePlasterTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingWhitePlasterTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingWhiteOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingWhiteOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingWhiteBurnt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingWhiteBurnt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingYellowPlasterMiddle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingYellowPlasterMiddle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingYellowPlasterTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingYellowPlasterTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingYellowOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingYellowOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingTanPlasterMiddle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingTanPlasterMiddle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingTanPlasterTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingTanPlasterTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingTanOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingTanOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
@@ -2871,67 +2864,67 @@
 		<ingredient name="stone" count="1"/>
     </recipe>
 	
-	<recipe name="wedge60TipShinglesAspaltBlue" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60TipShinglesAspaltBlue" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="shinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="shinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="wedgeOldWoodShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeOldWoodShinglesOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingBluePlasterBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingBluePlasterBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingGreenPlasterBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingGreenPlasterBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingWhitePlasterBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingWhitePlasterBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingYellowPlasterBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingYellowPlasterBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="sidingTanPlasterBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="sidingTanPlasterBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="panelingBurnt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="panelingBurnt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="whiteSidingWoodPanelBurnt1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="whiteSidingWoodPanelBurnt1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="whiteSidingWoodPanelBurnt2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="whiteSidingWoodPanelBurnt2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="whiteSidingWoodPanelBurnt3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="whiteSidingWoodPanelBurnt3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="whiteSidingWoodPanelBurnt4" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="whiteSidingWoodPanelBurnt4" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="whiteSidingWoodPanelBurnt5" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="whiteSidingWoodPanelBurnt5" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="whiteSidingWoodPanelBurnt6" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="whiteSidingWoodPanelBurnt6" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="whiteSidingWoodPanelBurnt7" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="whiteSidingWoodPanelBurnt7" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
@@ -2965,62 +2958,62 @@
 		<ingredient name="wood" count="4"/>
     </recipe>
 	
-	<recipe name="DrywallIndustrialTile" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="DrywallIndustrialTile" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
 	
-	<recipe name="wedgeTanDrywallBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeTanDrywallBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
 	
-	<recipe name="wedgeTanDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedgeTanDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
 	
-	<recipe name="tanStucco" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tanStucco" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
 	
-	<recipe name="tanStuccoPlasterMiddle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tanStuccoPlasterMiddle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
 	
-	<recipe name="tanStuccoPlasterTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tanStuccoPlasterTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
 	
-	<recipe name="tanStuccoOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tanStuccoOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
 	
-	<recipe name="tanStuccotileFloor1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tanStuccotileFloor1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
 	
-	<recipe name="tanStuccoPlasterBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tanStuccoPlasterBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
 	
-	<recipe name="oldStuccoWoodShake" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="oldStuccoWoodShake" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
 	
-	<recipe name="oldStuccoWoodShakeTip" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="oldStuccoWoodShakeTip" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
 	
-	<recipe name="dropCeilingRedWoodTrim" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="dropCeilingRedWoodTrim" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
 		<ingredient name="plantChrysanthemum" count="1"/>
@@ -3042,12 +3035,12 @@
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="asphaltDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="asphaltDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
 	
-	<recipe name="insideCornerWedgeAsphaltShingle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="insideCornerWedgeAsphaltShingle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
@@ -3055,53 +3048,53 @@
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="tubepowerPoleWoodFull" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tubepowerPoleWoodFull" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="tubeHalfPoleWoodFull" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tubeHalfPoleWoodFull" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="5"/>
     </recipe>
 	
-	<recipe name="rug01Drywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="rug01Drywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cloth" count="4"/>
     </recipe>
 	
-	<recipe name="carpet3Drywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="carpet3Drywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="cloth" count="4"/>
     </recipe>
 	
-	<recipe name="tileFloor3Drywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tileFloor3Drywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="tileBackspashDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tileBackspashDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="drywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="drywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="drywallTrim" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="drywallTrim" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="dropCeiling" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="dropCeiling" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="tubeDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tubeDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="tubeDrywallBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tubeDrywallBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="plateCenteredDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="plateCenteredDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
@@ -3161,19 +3154,19 @@
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="drywallTrim2Sides" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="drywallTrim2Sides" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="cremeBacksplash" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cremeBacksplash" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="drywallOldwood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="drywallOldwood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="drywallCeiling" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="drywallCeiling" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
@@ -3237,23 +3230,23 @@
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="wallPlasterBaseboard2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wallPlasterBaseboard2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="wallPlasterMiddle2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wallPlasterMiddle2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="wallPlasterTop2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wallPlasterTop2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="WedgedCornerFullOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="WedgedCornerFullOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="WedgedInnerFullDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="WedgedInnerFullDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
@@ -3279,11 +3272,11 @@
 		<ingredient name="blueberries" count="1"/>
     </recipe>
 	
-	<recipe name="houseFrontDoor1_v1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="houseFrontDoor1_v1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="houseFrontDoor2_v1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="houseFrontDoor2_v1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
@@ -3304,19 +3297,19 @@
         <ingredient name="forgedIron" count="8"/>
     </recipe>
 	
-	<recipe name="woodWedge60" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="woodWedge60" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="cabinWoodShakes60" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cabinWoodShakes60" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="cabinWoodShakeTip" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cabinWoodShakeTip" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="wedge60EndWoodOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60EndWoodOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
@@ -3400,7 +3393,7 @@
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="wedge60TipWoodOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60TipWoodOld" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
@@ -3420,7 +3413,7 @@
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="wedge60TipBarnWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="wedge60TipBarnWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="barnWood" count="1"/>
     </recipe>
 	
@@ -3737,49 +3730,49 @@
 		<ingredient name="forgedIron" count="10"/>
     </recipe>
 	
-	<recipe name="stairsWoodPainted1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="stairsWoodPainted1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="stairsCarpet1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
-		<ingredient name="wood" count="10"/>
-		<ingredient name="cloth" count="4"/>
-    </recipe>
-	
-	<recipe name="stairsCarpet2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="stairsCarpet1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="cloth" count="4"/>
     </recipe>
 	
-	<recipe name="Carpet2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="stairsCarpet2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="cloth" count="4"/>
     </recipe>
 	
-	<recipe name="Carpet2WoodPainted2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="Carpet2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="cloth" count="4"/>
     </recipe>
 	
-	<recipe name="tanStuccotileFloor2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
-		<ingredient name="wood" count="10"/>
-    </recipe>
-	
-	<recipe name="tanStuccoCarpet1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="Carpet2WoodPainted2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="cloth" count="4"/>
     </recipe>
 	
-	<recipe name="tanStuccoCarpet2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tanStuccotileFloor2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
+		<ingredient name="wood" count="10"/>
+    </recipe>
+	
+	<recipe name="tanStuccoCarpet1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="cloth" count="4"/>
     </recipe>
 	
-	<recipe name="OldWoodWoodPainted2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="tanStuccoCarpet2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="cloth" count="4"/>
+    </recipe>
+	
+	<recipe name="OldWoodWoodPainted2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="ShinglesAsphaultFlat" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="ShinglesAsphaultFlat" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
@@ -4102,11 +4095,11 @@
         <ingredient name="concrete" count="4"/>
     </recipe>
 	
-	<recipe name="panelingBurntStairs" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="panelingBurntStairs" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="4"/>
     </recipe>
 	
-	<recipe name="stairsQuarterFilledWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="stairsQuarterFilledWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="4"/>
     </recipe>
 	
@@ -4268,12 +4261,12 @@
         <ingredient name="forgedIron" count="10"/>
     </recipe>
 	
-	<recipe name="schoolDesk" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="schoolDesk" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="10"/>
     </recipe>
 	
-	<recipe name="chaulkboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="chaulkboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="5"/>
 		<ingredient name="cement" count="1"/>
     </recipe>
@@ -4323,11 +4316,11 @@
 		<ingredient name="shortMetalPipe" count="3"/>
     </recipe>
 	
-	<recipe name="cabinetOldBottom" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cabinetOldBottom" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="cabinet" count="1"/>
     </recipe>
 	
-	<recipe name="cabinetOldTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cabinetOldTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="cabinetTop" count="1"/>
     </recipe>
 	
@@ -4337,27 +4330,27 @@
 		<ingredient name="shortMetalPipe" count="3"/>
     </recipe>
 	
-	<recipe name="cabinetOldFiller" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cabinetOldFiller" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="cabinetOldFiller2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cabinetOldFiller2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="cabinetFiller" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cabinetFiller" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="cabinetFiller2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cabinetFiller2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="cabinetOldTopPlate" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cabinetOldTopPlate" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="cabinetTopPlate" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="cabinetTopPlate" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="10"/>
     </recipe>
 	
@@ -4463,19 +4456,19 @@
         <ingredient name="scrapIron" count="5"/>
     </recipe>
 	
-	<recipe name="coffin" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="coffin" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="pew_segment01" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="pew_segment01" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="pew_segment02" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="pew_segment02" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="pew_segment03" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="nailgun" >
+	<recipe name="pew_segment03" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
 		<ingredient name="wood" count="20"/>
     </recipe>
 	
