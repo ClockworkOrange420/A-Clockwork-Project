@@ -1737,7 +1737,7 @@
 	<recipe name="Crafting_Table" count="1" scrapable="False" >
         <ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="15"/>
-		<ingredient name="glue" count="10"/>
+		<ingredient name="glue" count="5"/>
     </recipe>
 	
 	<recipe name="chisel" count="1" scrapable="False" craft_area="forge" material_based="true">
@@ -1748,7 +1748,7 @@
 	<recipe name="Tailoring_Table" count="1" scrapable="False" >
         <ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="15"/>
-		<ingredient name="glue" count="10"/>
+		<ingredient name="glue" count="5"/>
     </recipe>
 	
 	<recipe name="Sewing_Machine" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="wrench" >
