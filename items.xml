@@ -436,6 +436,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="DamageBonus.head" value="4" />
             <property name="DamageBonus.concrete" value=".5" />
             <property name="DamageBonus.glass" value="20" />
+			<property name="DamageBonus.earth" value=".25" />
 		</property>
         <property class="Attributes">
             <property name="EntityDamage" value="20,50" />
@@ -733,13 +734,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sphere" value="0.1" />
             <property name="Sound_start" value="swoosh" />
             <property name="Stamina_usage" value="8" />
-			<property name="DamageBonus.wood" value="0.15" />
+			<property name="DamageBonus.wood" value=".5" />
             <property name="DamageBonus.head" value="5" />
             <property name="DamageBonus.glass" value="25" />
             <property name="DamageBonus.stone" value=".5" />
             <property name="DamageBonus.concrete" value=".5" />
-            <property name="DamageBonus.metal" value=".05" />
-            <property name="DamageBonus.earth" value=".05" />
+            <property name="DamageBonus.metal" value=".25" />
+            <property name="DamageBonus.earth" value=".25" />
         </property>
         <property class="Action1">
             <!-- UseAction -->
