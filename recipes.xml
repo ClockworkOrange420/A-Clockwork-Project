@@ -329,7 +329,7 @@
         <ingredient name="bulletCasing" count="1"/>
     </recipe>
 
-    <recipe name="adobeTan" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="adobeTan" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="cement" count="5"/>
         <ingredient name="crushedSand" count="10"/>
     </recipe>
@@ -449,7 +449,7 @@
         <ingredient name="unit_clay" count="20"/>
     </recipe>
 
-    <recipe name="brickDecayed" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="brickDecayed" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="fertileDirt" count="1"/>
         <ingredient name="brick" count="1"/>
     </recipe>
@@ -583,7 +583,7 @@
         <ingredient name="gravel" count="1"/>
     </recipe>
 
-    <recipe name="concreteSlope" count="6" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="concreteSlope" count="6" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="3"/>
     </recipe>
 
@@ -658,12 +658,12 @@
 		<ingredient name="ductTape" count="1"/>
     </recipe>
 
-    <recipe name="flagstone" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="flagstone" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="cement" count="1"/>
         <ingredient name="rockSmall" count="10"/>
     </recipe>
 
-    <recipe name="flagstoneStairs" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="flagstoneStairs" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="cement" count="1"/>
         <ingredient name="rockSmall" count="10"/>
     </recipe>
@@ -717,11 +717,11 @@
         <ingredient name="goldenrod" count="1"/>
     </recipe>
 
-    <recipe name="gravel" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="gravel" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="rockSmall" count="4"/>
     </recipe>
 
-    <recipe name="gravel" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="gravel" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="destroyedStone" count="1"/>
     </recipe>
 
@@ -730,7 +730,7 @@
         <ingredient name="potassiumNitratePowder" count="1"/>
     </recipe>
 
-    <recipe name="halfBlockConcrete" count="2" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="halfBlockConcrete" count="2" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 
@@ -1173,11 +1173,11 @@
 		<ingredient name="unit_lead" count="50"/>
     </recipe>		
 
-    <recipe name="rockSmall" count="4" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="rockSmall" count="4" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="destroyedStone" count="1"/>
     </recipe>
 
-    <recipe name="rockSmall" count="10" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="rockSmall" count="10" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="stone" count="1"/>
     </recipe>
 	
@@ -1322,7 +1322,7 @@
         <ingredient name="wood" count="20"/>
     </recipe>
 
-    <recipe name="shortMetalPipe" count="2" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="shortMetalPipe" count="2" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="forgedIron" count="1"/>
     </recipe>
 
@@ -1372,11 +1372,11 @@
         <ingredient name="scrapIron" count="20"/>
     </recipe>
 
-    <recipe name="stairsConcrete" count="4" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="stairsConcrete" count="4" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="4"/>
     </recipe>
 
-    <recipe name="stairsPavers" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="stairsPavers" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brickPaver" count="1"/>
     </recipe>
 
@@ -1384,7 +1384,7 @@
         <ingredient name="wood" count="10"/>
     </recipe>
 
-    <recipe name="stairsStone" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="stairsStone" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="cobblestones" count="4"/>
     </recipe>
 
@@ -1496,11 +1496,11 @@
         <ingredient name="wood" count="40"/>
     </recipe>
 
-    <recipe name="trunkPineTip" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="trunkPineTip" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="wood" count="30"/>
     </recipe>
 
-    <recipe name="tubeConcrete" count="3" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="tubeConcrete" count="3" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="3"/>
     </recipe>
 
@@ -1518,7 +1518,7 @@
         <ingredient name="cloth" count="10"/>
     </recipe>
 
-    <recipe name="wedgeCabinFlagstone" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+    <recipe name="wedgeCabinFlagstone" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="cement" count="1"/>
         <ingredient name="rockSmall" count="10"/>
     </recipe>
@@ -1740,7 +1740,7 @@
 		<ingredient name="glue" count="5"/>
     </recipe>
 	
-	<recipe name="chisel" count="1" scrapable="False" craft_area="forge" material_based="true">
+	<recipe name="Chisel" count="1" scrapable="False" craft_area="forge" material_based="true">
         <ingredient name="unit_clay" count="10"/>
 		<ingredient name="unit_iron" count="20"/>
     </recipe>
@@ -2521,19 +2521,19 @@
         <ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="wedgeBrickModern01Shingles" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wedgeBrickModern01Shingles" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="wedgeFlagstoneShingles" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wedgeFlagstoneShingles" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="flagstone" count="1"/>
     </recipe>
 	
-	<recipe name="gableFlagstone" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="gableFlagstone" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="flagstone" count="1"/>
     </recipe>
 	
-	<recipe name="wedgeCabinFlagstone" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wedgeCabinFlagstone" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="flagstone" count="1"/>
     </recipe>
 	
@@ -2547,7 +2547,7 @@
 		<ingredient name="cement" count="1"/>
     </recipe>
 	
-	<recipe name="brickModernOrangeDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickModernOrangeDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
@@ -2567,7 +2567,7 @@
         <ingredient name="barnWood" count="1"/>
     </recipe>
 	
-	<recipe name="wedge60EndBrickMetal" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wedge60EndBrickMetal" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
@@ -2860,7 +2860,7 @@
 		<ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="graveStone1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="graveStone1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="stone" count="1"/>
     </recipe>
 	
@@ -2933,27 +2933,27 @@
 		<ingredient name="forgedIron" count="6"/>
     </recipe>
 	
-	<recipe name="clayRoof" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="clayRoof" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="clayRoofWedge" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="clayRoofWedge" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="20"/>
     </recipe>
 	
-	<recipe name="insideCornerWedgeClayRoof" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="insideCornerWedgeClayRoof" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="20"/>
     </recipe>
 	
-	<recipe name="clayRoofCorner" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="clayRoofCorner" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="20"/>
     </recipe>
 	
-	<recipe name="flagstoneDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="flagstoneDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="flagstone" count="1"/>
     </recipe>
 	
-	<recipe name="flagstoneDrywallBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="flagstoneDrywallBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="flagstone" count="1"/>
 		<ingredient name="wood" count="4"/>
     </recipe>
@@ -3019,19 +3019,19 @@
 		<ingredient name="plantChrysanthemum" count="1"/>
     </recipe>
 	
-	<recipe name="brickAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="brickPlasterMiddle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickPlasterMiddle" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="brickPlasterTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickPlasterTop" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="brickOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickOldWood" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
@@ -3044,7 +3044,7 @@
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="dropCeiling2RoofAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="dropCeiling2RoofAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
@@ -3098,59 +3098,59 @@
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="adobeTanRamp" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="adobeTanRamp" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="adobeWhite" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="adobeWhite" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="adobeWhiteDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="adobeWhiteDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="adobeWhiteDrywallBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="adobeWhiteDrywallBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="adobeWhitePole" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="adobeWhitePole" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="adobeWhiteRampTrim" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="adobeWhiteRampTrim" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="adobeWhiteRamp" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="adobeWhiteRamp" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="adobeWhiteTrimCorner" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="adobeWhiteTrimCorner" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="adobeWhiteInsideTrimCorner" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="adobeWhiteInsideTrimCorner" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="adobePeach" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="adobePeach" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="adobePeachDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="adobePeachDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="adobePeachDrywallBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="adobePeachDrywallBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="adobePeachPole" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="adobePeachPole" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="adobePeachTube" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="adobePeachTube" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
@@ -3170,63 +3170,63 @@
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="cremeDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="cremeDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="cremeDrywallBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="cremeDrywallBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="cremeDrywallBaseboard2Sides" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="cremeDrywallBaseboard2Sides" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrim2TanBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim2TanBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrim2IndustrialTile" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim2IndustrialTile" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrim3TanBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim3TanBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrim2TanBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim2TanBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrim3IndustrialTile" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim3IndustrialTile" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrimTanBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrimTanBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrimIndustrialTile" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrimIndustrialTile" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTanDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTanDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTanBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTanBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteIndustrialTile" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteIndustrialTile" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrimTanDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrimTanDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrim2TanDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim2TanDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
@@ -3250,24 +3250,24 @@
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="brickPlasterBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickPlasterBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="brickPaintedTanDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickPaintedTanDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="brickPaintedTanBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickPaintedTanBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="brickPaintedBlueDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickPaintedBlueDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
 		<ingredient name="blueberries" count="1"/>
     </recipe>
 	
-	<recipe name="blueDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="blueDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="10"/>
 		<ingredient name="blueberries" count="1"/>
     </recipe>
@@ -3313,83 +3313,83 @@
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="brickModern" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickModern" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="brickModernTanDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickModernTanDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="brickModernTanBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickModernTanBaseboard" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="brickModernTanIndustrialTile" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickModernTanIndustrialTile" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="gableBrickModern" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="gableBrickModern" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="brickPaintedIndustrialTile" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickPaintedIndustrialTile" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="wedgeBrick" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wedgeBrick" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="halfBlockBrickMetal" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="halfBlockBrickMetal" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="sidewalkHalf" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="sidewalkHalf" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="sidewalkFull" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="sidewalkFull" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="sidewalkCurb" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="sidewalkCurb" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="sidewalkWedge60" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="sidewalkWedge60" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="wedge60EndAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wedge60EndAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="brickDecayedAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickDecayedAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brickDecayed" count="1"/>
     </recipe>
 	
-	<recipe name="brickDecayedTan" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brickDecayedTan" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brickDecayed" count="1"/>
     </recipe>
 	
-	<recipe name="brick_decayed_broke1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brick_decayed_broke1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brickDecayed" count="1"/>
     </recipe>
 	
-	<recipe name="brick_decayed_broke2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brick_decayed_broke2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brickDecayed" count="1"/>
     </recipe>
 	
-	<recipe name="brick_decayed_broke3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="brick_decayed_broke3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brickDecayed" count="1"/>
     </recipe>
 	
-	<recipe name="tileIndustrialDecayedBrick" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="tileIndustrialDecayedBrick" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brickDecayed" count="1"/>
     </recipe>
 	
-	<recipe name="asphaltSlope" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="asphaltSlope" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
@@ -3397,19 +3397,19 @@
         <ingredient name="wood" count="10"/>
     </recipe>
 	
-	<recipe name="wedge60TipBrickMetal" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wedge60TipBrickMetal" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
-	<recipe name="wedge60TipConcrete" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wedge60TipConcrete" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="wedge60TipAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wedge60TipAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="wedge60TipGravel" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wedge60TipGravel" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
@@ -3417,135 +3417,135 @@
         <ingredient name="barnWood" count="1"/>
     </recipe>
 	
-	<recipe name="tileIndustrial" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="tileIndustrial" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="roofAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="roofAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="dropCeilingRoofAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="dropCeilingRoofAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTileGreen" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTileGreen" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTileBrown" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTileBrown" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="halfBlockConcreteAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="halfBlockConcreteAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="plateBlockTileIndustrial" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="plateBlockTileIndustrial" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brickDecayed" count="1"/>
     </recipe>
 	
-	<recipe name="eighthBlock" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="eighthBlock" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="quarterBlock" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="quarterBlock" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteBlock" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteBlock" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="poleBlock" count="4" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="poleBlock" count="4" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="plateBlock" count="4" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="plateBlock" count="4" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="cornerWedgeConcrete" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="cornerWedgeConcrete" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="cornerFullWedgeConcrete" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="cornerFullWedgeConcrete" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="pyramidConcrete" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="pyramidConcrete" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteBarrier" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteBarrier" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteDestroyed1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteDestroyed1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteDestroyed2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteDestroyed2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteDestroyed3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteDestroyed3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteDestroyed4" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteDestroyed4" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteDestroyed5" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteDestroyed5" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteDestroyed6" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteDestroyed6" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteDestroyed7" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteDestroyed7" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteDestroyed8" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteDestroyed8" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteDestroyed9" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteDestroyed9" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrim" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrim2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrim3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrimWedge" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrimWedge" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrimCorner" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrimCorner" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteInsideCorner" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteInsideCorner" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="tubeHalfConreteNoDistort" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="tubeHalfConreteNoDistort" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="halfBlockMetalAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="halfBlockMetalAsphalt" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brick" count="1"/>
     </recipe>
 	
@@ -3585,43 +3585,43 @@
         <ingredient name="scrapIron" count="10"/>
     </recipe>
 	
-	<recipe name="wedge60EndConcrete" count="3" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wedge60EndConcrete" count="3" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="tubeConcretePaintedBlue" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="tubeConcretePaintedBlue" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="3"/>
         <ingredient name="blueberries" count="1"/>
     </recipe>
 	
-	<recipe name="tubeConcretePaintedOrange" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="tubeConcretePaintedOrange" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
 		<ingredient name="plantChrysanthemum" count="1"/>
     </recipe>
 	
-	<recipe name="tanBrickDecayedBroke1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="tanBrickDecayedBroke1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brickDecayed" count="1"/>
     </recipe>
 	
-	<recipe name="tanBrickDecayedBroke2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="tanBrickDecayedBroke2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brickDecayed" count="1"/>
     </recipe>
 	
-	<recipe name="tanBrickDecayedBroke3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="tanBrickDecayedBroke3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brickDecayed" count="1"/>
     </recipe>
 	
-	<recipe name="paintedBrickBroke1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
-        <ingredient name="brickDecayed" count="1"/>
-		<ingredient name="plantChrysanthemum" count="1"/>
-    </recipe>
-	
-	<recipe name="paintedBrickBroke2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="paintedBrickBroke1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brickDecayed" count="1"/>
 		<ingredient name="plantChrysanthemum" count="1"/>
     </recipe>
 	
-	<recipe name="paintedBrickBroke3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="paintedBrickBroke2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
+        <ingredient name="brickDecayed" count="1"/>
+		<ingredient name="plantChrysanthemum" count="1"/>
+    </recipe>
+	
+	<recipe name="paintedBrickBroke3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="brickDecayed" count="1"/>
 		<ingredient name="plantChrysanthemum" count="1"/>
     </recipe>
@@ -3634,27 +3634,27 @@
         <ingredient name="scrapIron" count="10"/>
     </recipe>
 	
-	<recipe name="concreteTrim2Broke1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim2Broke1" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrim2Broke2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim2Broke2" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrim3TanDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim3TanDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrim2Wedge" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim2Wedge" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrim2Broke3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim2Broke3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="concreteTrim2Broke4" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteTrim2Broke4" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
@@ -3792,7 +3792,7 @@
         <ingredient name="metalTrussing" count="6"/>
     </recipe>
 	
-	<recipe name="coldBeer" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="coldBeer" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="scrapIron" count="5"/>
     </recipe>
 	
@@ -4035,63 +4035,63 @@
         <ingredient name="forgedIron" count="5"/>
     </recipe>
 	
-	<recipe name="wastelandCurb" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wastelandCurb" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="wastelandCurbCorner" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wastelandCurbCorner" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="wedge60Curb" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wedge60Curb" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="wedge60CurbCorner" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wedge60CurbCorner" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
     </recipe>
 	
-	<recipe name="wedge60CurbWithGrass" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="wedge60CurbWithGrass" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
 		<ingredient name="yuccaFibers" count="10"/>
     </recipe>
 	
-	<recipe name="concreteBlueDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="concreteBlueDrywall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
 		<ingredient name="blueberries" count="1"/>
     </recipe>
 	
-	<recipe name="tileFloor3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="tileFloor3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
 		<ingredient name="wood" count="2"/>
     </recipe>
 	
-	<recipe name="stairsTileFloor3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="stairsTileFloor3" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
 		<ingredient name="wood" count="2"/>
     </recipe>
 	
-	<recipe name="tileFloor4" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="tileFloor4" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
 		<ingredient name="wood" count="2"/>
     </recipe>
 	
-	<recipe name="stairstileFloor4" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="stairstileFloor4" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
 		<ingredient name="wood" count="2"/>
     </recipe>
 	
-	<recipe name="tileFloor5" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="tileFloor5" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
 		<ingredient name="wood" count="2"/>
     </recipe>
 	
-	<recipe name="stairsTileFloor5" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="stairsTileFloor5" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="1"/>
 		<ingredient name="wood" count="2"/>
     </recipe>
 	
-	<recipe name="tile3StairsQF" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="tile3StairsQF" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
         <ingredient name="concrete" count="4"/>
     </recipe>
 	
@@ -4103,7 +4103,7 @@
 		<ingredient name="wood" count="4"/>
     </recipe>
 	
-	<recipe name="stairsQuarterFilledConcrete" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="stairsQuarterFilledConcrete" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="concrete" count="4"/>
     </recipe>
 	
@@ -4472,35 +4472,35 @@
 		<ingredient name="wood" count="20"/>
     </recipe>
 	
-	<recipe name="graveStone01" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="graveStone01" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="stone" count="1"/>
     </recipe>
 	
-	<recipe name="graveStone02" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="graveStone02" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="stone" count="1"/>
     </recipe>
 	
-	<recipe name="graveStone03" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="graveStone03" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="stone" count="1"/>
     </recipe>
 	
-	<recipe name="graveStone04" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="graveStone04" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="stone" count="1"/>
     </recipe>
 	
-	<recipe name="graveStone05" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="graveStone05" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="stone" count="1"/>
     </recipe>
 	
-	<recipe name="graveStone06" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="graveStone06" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="stone" count="1"/>
     </recipe>
 	
-	<recipe name="graveStone07" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="graveStone07" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="stone" count="1"/>
     </recipe>
 	
-	<recipe name="graveStone08" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="chisel" >
+	<recipe name="graveStone08" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel" >
 		<ingredient name="stone" count="1"/>
     </recipe>
 

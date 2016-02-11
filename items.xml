@@ -10128,7 +10128,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Stacknumber" value="1" />
         <property name="Group" value="Resources" />
     </item>
-	<item id="931" name="chisel">
+	<item id="931" name="Chisel">
         <property name="Meshfile" value="Items/Weapons/Melee/Knives/boneShiv" />
         <property name="Material" value="metal" />
         <property name="HoldType" value="36" />
