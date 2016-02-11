@@ -16328,7 +16328,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="Texture" value="54" />
 	<property name="CustomIcon" value="tableWhitewood" />
 	<property name="Stacknumber" value="1" />
-	<property name="HeatMapStrength" value="1"/>
+	<property name="HeatMapStrength" value="0.5"/>
 	<property name="HeatMapTime" value="1200"/>
 	<property name="HeatMapFrequency" value="25"/>
 	<property class="Workstation">
@@ -16350,7 +16350,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="Texture" value="282" />
 	<property name="CustomIcon" value="tableIron" />
 	<property name="Stacknumber" value="1" />
-	<property name="HeatMapStrength" value="1"/>
+	<property name="HeatMapStrength" value="0.5"/>
 	<property name="HeatMapTime" value="1200"/>
 	<property name="HeatMapFrequency" value="25"/>
 	<property class="Workstation">
@@ -16372,7 +16372,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="Texture" value="214" />
 	<property name="CustomIcon" value="tableRedwood" />
 	<property name="Stacknumber" value="1" />
-	<property name="HeatMapStrength" value="1"/>
+	<property name="HeatMapStrength" value="0.5"/>
 	<property name="HeatMapTime" value="1200"/>
 	<property name="HeatMapFrequency" value="25"/>
 	<property class="Workstation">
