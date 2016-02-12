@@ -1,7 +1,7 @@
 Install Instrictions:
 
-Drag and drop both Config and Prefab folders into your 7 Dats To Die Data folder found here:
+Open A Clockwork Project Master folder and Copy and Paste both the Config and Prefabs folders into your 7 Dats To Die Data folder found here:
 
 C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Data
 
-Copy and replace everything when prompted!
+Merge, Copy and replace everything when prompted!
