@@ -137,6 +137,9 @@
 			<window name="windowToolbelt" anchor="CenterBottom" />
 			<window name="HUDLeftStatBars" anchor="LeftBottom" />
 			<window name="HUDRightStatBars" anchor="RightBottom" />
+			<!--Modded-->
+			<window name="windowToolbeltNumbersHUD" />
+			<!--End-->
 		</window_group>
 		
 		<window_group name="vehicle" controller="XUiC_VehicleWindowGroup">
