@@ -20,7 +20,7 @@
 			<rect width="168" height="43" controller="PlayerStatsWindow">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="2" pos="3,-3"  name="background" height="37" width="162" color="64,64,64,100" type="sliced"/>
-				<sprite depth="3" pos="3,-3"  color="255,120,0" type="filled" height="37" width="162" fill="100" />
+				<sprite depth="3" pos="3,-3"  color="0,191,255" type="filled" height="37" width="162" fill="100" />
 				<sprite depth="4" name="Icon" sprite="ui_game_symbol_temperature" size="32,32" pos="8,-6" foregroundlayer="true"/>
 				<label depth="6" name="TextContent" pos="0,-10" font_size="24" color="[white]" justify="center" pivot="topleft" text="{PlayerCoreTemp}" height="30" />
 			</rect>
@@ -60,7 +60,7 @@
 		</rect>
 	</window>
 	
-	<window name="windowToolbeltNumbersHUD" depth="10" width="603" height="22" pos="-313,92" anchor="CenterBottom">		
+	<window name="windowToolbeltNumbersHUD" depth="10" width="603" height="22" pos="-313,100" anchor="CenterBottom">		
 				<label name="slot1" pos="22,0" width="22" height="22" text="  [DECEA3]1" font_size="20" justify="center"/>
 				<label name="slot2" pos="97,0" width="22" height="22" text="  [DECEA3]2" font_size="20" justify="center"/>
 				<label name="slot3" pos="172,0" width="22" height="22" text="  [DECEA3]3" font_size="20" justify="center"/>
