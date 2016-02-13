@@ -4,7 +4,7 @@
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="Stamina" visible="{StatVisible}">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="2" pos="3,-3"  name="background" height="37" width="162" color="64,64,64,100" type="sliced" />
-				<sprite depth="3" pos="3,-3" name="BarContent" sprite="{StatImage|once}" type="filled" height="37" width="162" fill="{StatFill}"  />
+				<sprite depth="3" pos="3,-3"  name="BarContent" sprite="{StatImage|once}" type="filled" height="37" width="162" fill="{StatFill}"  />
 				<sprite depth="4" name="Icon" atlas="{StatIconAtlas|once}" sprite="{StatIcon|once}" size="32,32" pos="8,-6" foregroundlayer="true"/>
 				<label depth="6" name="TextContent" pos="0,-10" font_size="24" color="[white]" justify="center" pivot="topleft" text="{StatCurrentWithMax}" height="30"/>
 			</rect>
@@ -12,7 +12,7 @@
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="Water" visible="{StatVisible}">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="2" pos="3,-3"  name="background" height="37" width="162" color="64,64,64,100" type="sliced" />
-				<sprite depth="3" pos="3,-3" name="BarContent" sprite="{StatImage|once}" type="filled" height="37" width="162" fill="{StatFill}"  />
+				<sprite depth="3" pos="3,-3"  name="BarContent" sprite="{StatImage|once}" type="filled" height="37" width="162" fill="{StatFill}"  />
 				<sprite depth="4" name="Icon" atlas="{StatIconAtlas|once}" sprite="{StatIcon|once}" size="32,32" pos="8,-6" foregroundlayer="true"/>
 				<label depth="6" name="TextContent" pos="0,-10" font_size="24" color="[white]" justify="center" pivot="topleft" text="{StatCurrentWithMax}" height="30"/>
 			</rect>
@@ -36,7 +36,7 @@
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="Food" visible="{StatVisible}">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="2" pos="3,-3"  name="background" height="37" width="162" color="64,64,64,100" type="sliced" />
-				<sprite depth="3" pos="3,-3" name="BarContent" sprite="{StatImage|once}" type="filled" height="37" width="162" fill="{StatFill}"  />
+				<sprite depth="3" pos="3,-3"  name="BarContent" sprite="{StatImage|once}" type="filled" height="37" width="162" fill="{StatFill}"  />
 				<sprite depth="4" name="Icon" atlas="{StatIconAtlas|once}" sprite="{StatIcon|once}" size="32,32" pos="8,-6" foregroundlayer="true"/>
 				<label depth="6" name="TextContent" pos="0,-10" font_size="24" color="[white]" justify="center" pivot="topleft" text="{StatCurrentWithMax}" height="30"/>
 			</rect>
@@ -61,14 +61,30 @@
 	</window>
 	
 	<window name="windowToolbeltNumbersHUD" depth="10" width="603" height="22" pos="-313,100" anchor="CenterBottom">		
-				<label name="slot1" pos="22,0" width="22" height="22" text="  [DECEA3]1" font_size="20" justify="center"/>
-				<label name="slot2" pos="97,0" width="22" height="22" text="  [DECEA3]2" font_size="20" justify="center"/>
-				<label name="slot3" pos="172,0" width="22" height="22" text="  [DECEA3]3" font_size="20" justify="center"/>
-				<label name="slot4" pos="247,0" width="22" height="22" text="  [DECEA3]4" font_size="20" justify="center"/>
-				<label name="slot5" pos="322,0" width="22" height="22" text="  [DECEA3]5" font_size="20" justify="center"/>
-				<label name="slot6" pos="397,0" width="22" height="22" text="  [DECEA3]6" font_size="20" justify="center"/>
-				<label name="slot7" pos="472,0" width="22" height="22" text="  [DECEA3]7" font_size="20" justify="center"/>
-				<label name="slot8" pos="547,0" width="22" height="22" text="  [DECEA3]8" font_size="20" justify="center"/>
+		<label name="slot1" pos="22,0" width="22" height="22" text="  [DECEA3]1" font_size="20" justify="center"/>
+		<label name="slot2" pos="97,0" width="22" height="22" text="  [DECEA3]2" font_size="20" justify="center"/>
+		<label name="slot3" pos="172,0" width="22" height="22" text="  [DECEA3]3" font_size="20" justify="center"/>
+		<label name="slot4" pos="247,0" width="22" height="22" text="  [DECEA3]4" font_size="20" justify="center"/>
+		<label name="slot5" pos="322,0" width="22" height="22" text="  [DECEA3]5" font_size="20" justify="center"/>
+		<label name="slot6" pos="397,0" width="22" height="22" text="  [DECEA3]6" font_size="20" justify="center"/>
+		<label name="slot7" pos="472,0" width="22" height="22" text="  [DECEA3]7" font_size="20" justify="center"/>
+		<label name="slot8" pos="547,0" width="22" height="22" text="  [DECEA3]8" font_size="20" justify="center"/>
+	</window>
+	
+	<window name="mapStatsHUD1" width="400" height="50" pos="-200,-49" controller="MapStats" anchor="CenterTop">
+		<sprite depth="2" name="dayTimeIcon" size="35,35" pos="65,-4" sprite="ui_game_symbol_clock" color="[iconColor]" foregroundlayer="true"/>
+		<label depth="2" name="dayTimeLabel" pos="108,-10" width="172" height="35" text=" [DECEA3]{MapDayTime}[-]" font_size="24"/>
+		
+		<sprite depth="2" name="tempIcon" size="35,35" pos="250,-4" sprite="ui_game_symbol_temperature" color="[iconColor]" foregroundlayer="true"/>
+		<label depth="2" name="tempLabel" pos="290,-10" width="172" height="35" text=" [DECEA3]{MapTemperature}[-]" font_size="24"/>
+	</window>
+	<window name="mapStatsHUD2" width="200" height="50" pos="-330,-5" controller="MapStats" anchor="CenterTop">
+		<sprite depth="2" name="windIcon" size="35,35" pos="135,-6" sprite="ui_game_symbol_wind" color="[iconColor]" foregroundlayer="true"/>
+		<label depth="2" name="windLabel" pos="50,-12" width="172" height="35" text=" [DECEA3]{MapWind} MPH[-]" font_size="24"/>
+	</window>
+	<window name="mapStatsHUD3" width="200" height="50" pos="130,-5" controller="MapStats" anchor="CenterTop">
+		<sprite depth="2" name="elevIcon" size="35,35" pos="35,-6" sprite="ui_game_symbol_climb" color="[iconColor]" foregroundlayer="true"/>
+		<label depth="2" name="elevLabel" pos="85,-12" width="172" height="35" text=" [DECEA3]{MapElevation} M[-]" font_size="24"/>
 	</window>
 	
 	<window name="HUDRightStatBars">
@@ -154,10 +170,10 @@
 		</sprite>
 		<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0" >
 				
-		</texture>
+		</texture><!--Removed for mod--><!--
 		<sprite pos="200,-60" sprite="" color="255,255,255,255" globalopacitymod="1.8">
 			<label depth="2" width="300" height="28" text="Day: {Day|always}  Time: {Time|always}" font_size="24" pivot="center" effect="outline" upper_case="true" justify="center"/>
-		</sprite>
+		</sprite>-->
 	</window>
 	
 	<window name="windowCraftingList"  width="397" height="767" controller="CraftingListInfo" panel="Left" anchor_side="topright">

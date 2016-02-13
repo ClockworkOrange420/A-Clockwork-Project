@@ -122,6 +122,11 @@
 		
 		<window_group name="compass">
 			<window name="windowCompass" />
+			<!--Modded-->
+			<window name="mapStatsHUD1" />
+			<window name="mapStatsHUD2" />
+			<window name="mapStatsHUD3" />
+			<!--End-->
 		</window_group>
 		
 		<window_group name="toolTip">
