@@ -72,10 +72,10 @@
 	</window>
 	
 	<window name="mapStatsHUD1" width="400" height="50" pos="-200,-49" controller="MapStats" anchor="CenterTop">
-		<sprite depth="2" name="dayTimeIcon" size="35,35" pos="65,-4" sprite="ui_game_symbol_clock" color="[iconColor]" foregroundlayer="true"/>
+		<sprite depth="2" name="dayTimeIcon" size="25,25" pos="65,-8" sprite="ui_game_symbol_clock" color="[iconColor]" foregroundlayer="true"/>
 		<label depth="2" name="dayTimeLabel" pos="108,-10" width="172" height="35" text=" [DECEA3]{MapDayTime}[-]" font_size="24"/>
 		
-		<sprite depth="2" name="tempIcon" size="35,35" pos="250,-4" sprite="ui_game_symbol_temperature" color="[iconColor]" foregroundlayer="true"/>
+		<sprite depth="2" name="tempIcon" size="25,25" pos="250,-8" sprite="ui_game_symbol_temperature" color="[iconColor]" foregroundlayer="true"/>
 		<label depth="2" name="tempLabel" pos="290,-10" width="172" height="35" text=" [DECEA3]{MapTemperature}[-]" font_size="24"/>
 	</window>
 	<window name="mapStatsHUD2" width="200" height="50" pos="-330,-5" controller="MapStats" anchor="CenterTop">
