@@ -9605,7 +9605,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="CustomIconTint" value="ffd700" />
 		<property name="Material" value="stone" />
         <property name="Stacknumber" value="1" />
-        <property name="RepairTools" value="stone" />
+        <property name="RepairTools" value="rockSmall" />
         <property name="Degradation" value="250" param1="true" />
         <property name="FuelValue" value="4" />
         <property name="SoundDestroy" value="wooddestroy1" />

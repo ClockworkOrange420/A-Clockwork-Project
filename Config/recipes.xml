@@ -1619,7 +1619,7 @@
     </recipe>
 	
 	<recipe name="stoneTippedSpear" count="1" scrapable="False" >
-        <ingredient name="stone" count="1" />
+        <ingredient name="rockSmall" count="2" />
         <ingredient name="wood" count="4"/>
         <ingredient name="yuccaFibers" count="2"/>
     </recipe>
