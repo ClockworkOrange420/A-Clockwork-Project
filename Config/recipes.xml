@@ -1800,6 +1800,10 @@
 		<ingredient name="spring" count="2"/>
     </recipe>
 	
+	<recipe name="brokenGlass" count="1" scrapable="False" tooltip="ttScrapMetalBrass" >
+		<wildcard_forge_category />
+	</recipe>
+	
 	<!-- Schematics -->
 	
 	<recipe name="chainsawSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
