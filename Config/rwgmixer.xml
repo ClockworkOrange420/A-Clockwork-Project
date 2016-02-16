@@ -52,8 +52,8 @@
 		
 		<hub_rule name="townSmall">
 			<hub_type value="town"/>
-			<width value="450, 500" />
-			<height value="450, 500" />
+			<width value="500, 550" />
+			<height value="500, 550" />
 			<path_material value="asphalt" /> 
 			<path_radius value="7" />
 			<prefab_rule name="Small" prob="1"/>
@@ -134,10 +134,10 @@
 			<prefab rule="bunkers" min_count="1" max_count="1" prob="20" />
 			<prefab rule="garages" max_count="2" prob="5"/>
 			<prefab rule="trailerPark" min_count="1" max_count="3" prob="8"/>
-			<prefab rule="lowerClassHousing" min_count="1" max_count="4" prob="10"/>
-			<prefab rule="middleClassHousing" min_count="4" prob="10"/>
+			<prefab rule="lowerClassHousing" min_count="3" prob="10"/>
+			<prefab rule="middleClassHousing" min_count="1" prob="10"/>
 			<prefab rule="businessBrick" min_count="1" max_count="2" prob="10"/>
-			<prefab rule="businessTan" min_count="1" max_count="2" prob="10" />
+			<prefab rule="businessTan" min_count="2" max_count="2" prob="10" />
 			<prefab rule="upperClassHousing" min_count="1" max_count="1" prob="10" />
 			<prefab rule="gasStations" min_count="1" max_count="1" prob="40" />
 			<prefab rule="groceryStores" min_count="1" max_count="1" prob="40" />
