@@ -2214,6 +2214,12 @@
 	<recipe name="tankTopPurple" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
         <ingredient name="cloth" count="6"/>
     </recipe>
+	<recipe name="tankTopGreen" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+        <ingredient name="cloth" count="6"/>
+    </recipe>
+	<recipe name="tankTopBlue" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+        <ingredient name="cloth" count="6"/>
+    </recipe>
 	
 	<recipe name="denimJacket" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
         <ingredient name="cloth" count="8"/>
