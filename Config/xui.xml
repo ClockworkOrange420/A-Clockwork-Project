@@ -89,6 +89,14 @@
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
+		<window_group name="workstation_Crafting_Table_Misc" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsCraftingTable" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
 		
 		<window_group name="workstation_forge" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>

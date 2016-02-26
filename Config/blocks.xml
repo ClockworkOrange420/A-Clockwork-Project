@@ -810,6 +810,7 @@
     <property name="Shape" value="CubeCutoutBackFaces" />
     <property name="Mesh" value="cutout" />
     <property name="Texture" value="289" />
+	<property name="Weight" value="16" />
     <property name="Collide" value="movement,rocket,melee" />
     <property class="UpgradeBlock">
       <property name="ToBlock" value="concreteForm" />
@@ -1620,6 +1621,7 @@
     <property name="Shape" value="WedgedBackFaces" />
     <property name="Mesh" value="cutout" />
     <property name="Texture" value="289" />
+	<property name="Weight" value="16" />
     <property name="Place" value="TowardsPlacer90" />
     <property name="Collide" value="movement,rocket,melee" />
     <property name="CanPickup" value="true" />
@@ -3863,7 +3865,7 @@
 	<property name="Model" value="trap_barbed_fence_shape" />
     <property name="Place" value="TowardsPlacer" />
     <property name="Collide" value="melee" />
-    <property name="CanPickup" value="false" />
+    <property name="CanPickup" value="true" />
 	<property name="Texture" value="518" />
     <drop event="Destroy" count="0" />
     <property name="Group" value="Tools/Traps" />
@@ -8427,7 +8429,7 @@
     <property name="Shape" value="BillboardSingleOnWall" />
     <property name="Mesh" value="cutout" />
     <property name="Texture" value="274" />
-	<property name="FuelValue" value="50" />
+	<property name="FuelValue" value="90" />
     <property name="ShapeMinBB" value="0.3,0,0.3" />
 	<property class="RepairItems">
 		<property name="wood" value="3" />
@@ -8441,6 +8443,7 @@
     <property name="Shape" value="BillboardSingleOnWall" />
     <property name="Mesh" value="cutout" />
     <property name="Texture" value="275" />
+	<property name="FuelValue" value="90" />
     <property name="ShapeMinBB" value="0.3,0,0.3" />
 	<property class="RepairItems">
 		<property name="wood" value="3" />
@@ -10194,6 +10197,7 @@
     <property name="Material" value="wood_weak" />
     <property name="Shape" value="Plate" />
     <property name="Texture" value="246" />
+	<property name="FuelValue" value="90" />
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
@@ -10518,7 +10522,7 @@
     <property name="Mesh" value="cutout" />
     <property name="Texture" value="60" />
     <property name="ShapeMinBB" value="0.3,0,0.3" />
-	<property name="FuelValue" value="40" />
+	<property name="FuelValue" value="80" />
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
@@ -15178,7 +15182,13 @@
   <block id="1531" name="WindowPlug06">
     <property name="Material" value="metal_medium" />
     <property name="Shape" value="PlateCentered" />
-    <property name="Texture" value="352" />	
+    <property name="Texture" value="352" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="concreteBarrier" />
+      <property name="Item" value="concreteMix" />
+      <property name="ItemCount" value="10" />
+      <property name="UpgradeHitCount" value="4" />
+    </property> 
     <property name="DowngradeBlock" value="WindowPlug05" />
     <drop event="Destroy" count="0" />
 	<property class="RepairItems">
@@ -16371,6 +16381,28 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="Model" value="table" />
     <property name="Texture" value="214" />
 	<property name="CustomIcon" value="tableRedwood" />
+	<property name="Stacknumber" value="1" />
+	<property name="HeatMapStrength" value="0.5"/>
+	<property name="HeatMapTime" value="1200"/>
+	<property name="HeatMapFrequency" value="25"/>
+	<property class="Workstation">
+		<property name="Modules" value="tools,output,input"/>
+	</property>
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
+	<drop event="Destroy" name="woodDebris" count="1" />
+    <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+	<property name="CanMobsSpawnOn" value="false" />
+	<property name="Group" value="Building" />
+  </block>
+  <block id="1630" name="Crafting_Table_Misc">
+    <property name="Class" value="Campfire" />
+    <property name="Material" value="wood" />
+    <property name="Shape" value="New" />
+    <property name="Model" value="table" />
+    <property name="Texture" value="241" />
+	<property name="CustomIcon" value="tableWood" />
 	<property name="Stacknumber" value="1" />
 	<property name="HeatMapStrength" value="0.5"/>
 	<property name="HeatMapTime" value="1200"/>
