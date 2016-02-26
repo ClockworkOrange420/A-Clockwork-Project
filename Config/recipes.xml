@@ -298,13 +298,13 @@
         <ingredient name="animalFat" count="1"/>
     </recipe>
 
-    <recipe name="10mmBullet" count="1" scrapable="True" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="10mmBullet" count="1" scrapable="True" craft_area="Ammunition_Table" craft_tool="calipers" >
 		<ingredient name="bulletTip" count="1"/>
         <ingredient name="gunPowder" count="2"/>
         <ingredient name="bulletCasing" count="1"/>
     </recipe>
 
-    <recipe name="44MagBullet" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="44MagBullet" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="bulletTip" count="1"/>
         <ingredient name="gunPowder" count="3"/>
         <ingredient name="bulletCasing" count="1"/>
@@ -318,13 +318,13 @@
         <ingredient name="44MagnumGrip" count="1"/>
     </recipe>
 
-    <recipe name="762mmBullet" count="1" scrapable="True" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="762mmBullet" count="1" scrapable="True" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="bulletTip" count="1"/>
         <ingredient name="gunPowder" count="3"/>
         <ingredient name="bulletCasing" count="1"/>
     </recipe>
 
-    <recipe name="9mmBullet" count="1" scrapable="True" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="9mmBullet" count="1" scrapable="True" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="bulletTip" count="1"/>
         <ingredient name="gunPowder" count="1"/>
         <ingredient name="bulletCasing" count="1"/>
@@ -462,7 +462,7 @@
         <ingredient name="unit_clay" count="25"/>
     </recipe>
 
-    <recipe name="bucket" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
+    <recipe name="bucket" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" >
         <ingredient name="forgedIron" count="7"/>
     </recipe>
 
@@ -598,7 +598,7 @@
         <ingredient name="shortMetalPipe" count="10"/>
     </recipe>
 
-    <recipe name="cookingPot" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
+    <recipe name="cookingPot" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" >
         <ingredient name="forgedIron" count="10"/>
     </recipe>
 
@@ -626,7 +626,7 @@
         <ingredient name="feather" count="1"/>
     </recipe>	
 
-    <recipe name="deskSafe" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
+    <recipe name="deskSafe" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" >
         <ingredient name="forgedIron" count="5"/>
     </recipe>
 
@@ -640,7 +640,7 @@
         <ingredient name="unit_clay" count="1"/>
     </recipe>
 
-    <recipe name="explodingCrossbowBolt" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="explodingCrossbowBolt" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="gunPowder" count="25"/>
         <ingredient name="steelArrowHead" count="1"/>
         <ingredient name="wood" count="1"/>
@@ -679,7 +679,7 @@
         <ingredient name="scrapIron" count="10"/>
     </recipe>	
 
-    <recipe name="flamingArrow" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="flamingArrow" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="gunPowder" count="2"/>
         <ingredient name="cloth" count="1"/>
         <ingredient name="tallow" count="1"/>
@@ -732,7 +732,7 @@
         <ingredient name="destroyedStone" count="1"/>
     </recipe>
 
-    <recipe name="gunPowder" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="bowl" >
+    <recipe name="gunPowder" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="bowl" >
         <ingredient name="coal" count="1"/>
         <ingredient name="potassiumNitratePowder" count="1"/>
     </recipe>
@@ -809,7 +809,7 @@
 		<ingredient name="unit_iron" count="20"/>
     </recipe>
 
-    <recipe name="ironArrow" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="ironArrow" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="ironArrowHead" count="1"/>
         <ingredient name="wood" count="1"/>
         <ingredient name="feather" count="1"/>
@@ -835,7 +835,7 @@
         <ingredient name="leather" count="3"/>
     </recipe>
 
-    <recipe name="ironCrossbowBolt" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
+    <recipe name="ironCrossbowBolt" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="ironArrowHead" count="1"/>
         <ingredient name="wood" count="1"/>
         <ingredient name="feather" count="1"/>
@@ -919,19 +919,19 @@
 		<ingredient name="ductTape" count="2"/>
     </recipe>
 
-    <recipe name="mineAirFilter" count="1" scrapable="True" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="mineAirFilter" count="1" scrapable="True" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="nail" count="10"/>
         <ingredient name="gunPowder" count="3"/>
         <ingredient name="airFilter" count="1"/>
     </recipe>
 
-    <recipe name="mineCandyTin" count="1" scrapable="True" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="mineCandyTin" count="1" scrapable="True" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="nail" count="10"/>
         <ingredient name="gunPowder" count="1"/>
         <ingredient name="candyTin" count="1"/>
     </recipe>
 
-    <recipe name="mineHubcap" count="1" scrapable="True" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="mineHubcap" count="1" scrapable="True" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="hubcap" count="2"/>
         <ingredient name="nail" count="10"/>
         <ingredient name="gunPowder" count="2"/>
@@ -1017,7 +1017,7 @@
         <ingredient name="wood" count="5"/>
     </recipe>
 
-    <recipe name="pipeBomb" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="pipeBomb" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="yuccaFibers" count="1"/>
         <ingredient name="gunPowder" count="10"/>
         <ingredient name="shortMetalPipe" count="1"/>
@@ -1076,7 +1076,7 @@
         <ingredient name="potato" count="1"/>
     </recipe>
 
-    <recipe name="pressurePlateMine" count="1" scrapable="True" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="pressurePlateMine" count="1" scrapable="True" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="scrapIron" count="2"/>
 		<ingredient name="nail" count="10"/>
         <ingredient name="gunPowder" count="3"/>
@@ -1147,7 +1147,7 @@
 		<ingredient name="plantChrysanthemum" count="1"/>
     </recipe>
 
-    <recipe name="reinforcedMetalSiding" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
+    <recipe name="reinforcedMetalSiding" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="scrapIron" count="5"/>
     </recipe>
 
@@ -1163,7 +1163,7 @@
 		<ingredient name="unit_iron" count="50"/>
     </recipe>	
 	
-    <recipe name="rocket" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="rocket" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="rocketCasing" count="1"/>
 		<ingredient name="rocketTip" count="1"/>
 		<ingredient name="gunPowder" count="50"/>
@@ -1275,7 +1275,7 @@
         <ingredient name="ductTape" count="1"/>
     </recipe>
 
-    <recipe name="scrapMetalWall" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
+    <recipe name="scrapMetalWall" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="wrench" >
         <ingredient name="scrapIron" count="10"/>
     </recipe>
 
@@ -1320,7 +1320,7 @@
 		<ingredient name="nail" count="5"/>
     </recipe>
 
-    <recipe name="secureGunSafe" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
+    <recipe name="secureGunSafe" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="wrench" >
         <ingredient name="forgedIron" count="15"/>
 		<ingredient name="spring" count="5"/>
     </recipe>
@@ -1339,13 +1339,13 @@
         <ingredient name="forgedIron" count="1"/>
     </recipe>
 
-    <recipe name="shotgunShell" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="shotgunShell" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="buckshot" count="1"/>
         <ingredient name="gunPowder" count="1"/>
         <ingredient name="paper" count="1"/>
     </recipe>
 
-    <recipe name="shotgunSlug" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="shotgunSlug" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="bulletTip" count="5"/>
         <ingredient name="gunPowder" count="11"/>
         <ingredient name="bulletCasing" count="3"/>
@@ -1401,7 +1401,7 @@
         <ingredient name="cobblestones" count="4"/>
     </recipe>
 
-    <recipe name="steelArrow" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="steelArrow" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="steelArrowHead" count="1"/>
         <ingredient name="wood" count="1"/>
         <ingredient name="feather" count="1"/>
@@ -1412,7 +1412,7 @@
         <ingredient name="unit_iron" count="5"/>
     </recipe>
 
-    <recipe name="steelCrossbowBolt" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="steelCrossbowBolt" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="steelArrowHead" count="1"/>
         <ingredient name="wood" count="1"/>
         <ingredient name="feather" count="1"/>
@@ -1483,7 +1483,7 @@
 		<ingredient name="nail" count="10"/>
     </recipe>
 
-    <recipe name="tnt" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="calipers" >
+    <recipe name="tnt" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="calipers" >
         <ingredient name="yuccaFibers" count="1"/>
         <ingredient name="paper" count="10"/>
         <ingredient name="gunPowder" count="50"/>
