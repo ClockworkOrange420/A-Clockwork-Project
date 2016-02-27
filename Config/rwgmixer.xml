@@ -116,11 +116,12 @@
 			<prefab name="indian_burial_grounds_01" prob="0.02"/>			
 			<prefab rule="militaryCamps" prob="0.07"/>
 			<prefab rule="waterPOIs" prob="0.12"/>
-			<prefab rule="countryHousing" prob="0.17"/>
+			<prefab rule="bunkers2" prob="0.12"/>
+			<prefab rule="countryHousing" prob="0.10"/>
 			<prefab rule="campsites" prob="0.12"/>
 			<prefab rule="churches" prob="0.02"/>
 			<prefab rule="ruralHotel" prob="0.12" />
-			<prefab rule="cabins" prob="0.17"/>
+			<prefab rule="cabins" prob="0.12"/>
 			<prefab rule="barnsAndSheds" prob="0.07"/>
 		</prefab_rule>
 		
@@ -147,6 +148,9 @@
 		
 		<prefab_rule name="bunkers">
 			<prefab name="bombshelter_lg_01" min_count="1" max_count="1" prob="80"/>
+		</prefab_rule>
+		<prefab_rule name="bunkers2">
+			<prefab name="bombshelter_lg_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="churches">
@@ -184,7 +188,7 @@
 			<prefab rule="burntHousing" min_count="3" prob="2" />
 		</prefab_rule>
 		<prefab_rule name="townhouses">
-			<prefab rule="townupperClassHousing" prob="0.4" min_count="1" />
+			<prefab rule="townupperClassHousing" prob="0.4" />
 			<prefab rule="lowerClassHousing" prob="0.3" />
 			<prefab rule="middleClassHousing" prob="0.2" />
 			<prefab rule="trailerPark" prob="0.1" />
@@ -286,7 +290,7 @@
 			<prefab name="house_new_mansion_03" />
 		</prefab_rule>
 		<prefab_rule name="townupperClassHousing">
-			<prefab name="house_new_mansion_03" max_count="1" />
+			<prefab name="house_new_mansion_03" />
 		</prefab_rule>
 
 		<prefab_rule name="businessBrick">
