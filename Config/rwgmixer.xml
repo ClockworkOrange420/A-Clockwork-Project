@@ -94,7 +94,10 @@
 		</prefab_rule>
 		
 		<prefab_rule name="Small">
-			<prefab rule="small_POIs" prob="1"/>
+			<prefab rule="small_POIs" />
+			<prefab rule="townIndustrial" min_count="1" max_count="1" />
+			<prefab rule="townstores2" min_count="1" max_count="1" />
+			<prefab rule="townstores3" min_count="1" max_count="1" />
 		</prefab_rule>
 		
 		<prefab_rule name="Large">
@@ -128,30 +131,22 @@
 			<prefab rule="oldWesternHotel" min_count="1" max_count="1" />
 		</prefab_rule>
 		
-		<prefab_rule name="small_POIs">
+		<prefab_rule name="small_POIs"><!--
 			<prefab rule="signsAndLights" prob="0.75"/>
-			<prefab rule="vacant_lots" max_count="1" prob="0.1"/>
-			<prefab rule="bunkers" min_count="1" max_count="1" prob="20" />
-			<prefab rule="garages" max_count="2" prob="5"/>
-			<prefab rule="trailerPark" min_count="1" max_count="3" prob="8"/>
-			<prefab rule="lowerClassHousing" min_count="3" prob="10"/>
-			<prefab rule="middleClassHousing" min_count="1" prob="10"/>
-			<prefab rule="businessBrick" min_count="1" max_count="2" prob="10"/>
-			<prefab rule="businessTan" min_count="2" max_count="2" prob="10" />
-			<prefab rule="upperClassHousing" min_count="1" max_count="1" prob="10" />
-			<prefab rule="gasStations" min_count="1" max_count="1" prob="40" />
-			<prefab rule="groceryStores" min_count="1" max_count="1" prob="40" />
-			<prefab rule="bookStores" min_count="1" max_count="1" prob="40" />
-			<prefab rule="pharmacies" min_count="1" max_count="1" prob="40" />
-			<prefab rule="gunStores" min_count="1" max_count="1" prob="40" />
-			<prefab rule="hardwareStores" min_count="1" max_count="1" prob="40" />
-			<prefab rule="burntHousing" max_count="3" prob="0.1" />
-			<prefab rule="abandoned_houses" max_count="1" prob="5"/>
-			<prefab rule="junk" max_count="1" prob="1" />
+			<prefab rule="bunkers" min_count="1" max_count="1" />
+			<prefab rule="upperClassHousing" min_count="1" max_count="1" />
+			<prefab rule="gasStations" min_count="1" max_count="1" />
+			<prefab rule="groceryStores" min_count="1" max_count="1" />
+			<prefab rule="bookStores" min_count="1" max_count="1" />
+			<prefab rule="gunStores" min_count="1" max_count="1" />
+			<prefab rule="hardwareStores" min_count="1" max_count="1" />-->
+			<prefab rule="townBrickhouses" min_count="1" prob="80"/>
+			<prefab rule="townhouses"/>
+			<prefab rule="junk_lots" max_count="1"/>
 		</prefab_rule>
 		
 		<prefab_rule name="bunkers">
-			<prefab name="bombshelter_lg_01"/>
+			<prefab name="bombshelter_lg_01" min_count="1" max_count="1" prob="80"/>
 		</prefab_rule>
 		
 		<prefab_rule name="churches">
@@ -176,6 +171,9 @@
 			<prefab rule="factories" min_count="1" max_count="1" prob="2" />
 			<prefab rule="entertainment" min_count="1" max_count="1" prob="1" />
 		</prefab_rule>
+		<prefab_rule name="townIndustrial">
+			<prefab rule="factories" min_count="1" max_count="1" />
+		</prefab_rule>
 		
 		<prefab_rule name="cityhouses">
 			<prefab rule="lowerClassHousing" prob="4" />
@@ -185,10 +183,19 @@
 			<prefab rule="abandoned_houses" min_count="3" max_count="6" prob="3" />
 			<prefab rule="burntHousing" min_count="3" prob="2" />
 		</prefab_rule>
+		<prefab_rule name="townhouses">
+			<prefab rule="townupperClassHousing" prob="0.4" min_count="1" />
+			<prefab rule="lowerClassHousing" prob="0.3" />
+			<prefab rule="middleClassHousing" prob="0.2" />
+			<prefab rule="trailerPark" prob="0.1" />
+		</prefab_rule>
 		
 		<prefab_rule name="cityBrickhouses">
 			<prefab rule="businessBrick" min_count="5" max_count="6" />
 			<prefab rule="businessTan" min_count="5" max_count="6" />
+		</prefab_rule>
+		<prefab_rule name="townBrickhouses">
+			<prefab name="business_tan_brick_02" max_count="1" />
 		</prefab_rule>
 		
 		<prefab_rule name="citystores">
@@ -198,6 +205,15 @@
 			<prefab rule="groceryStores" min_count="1" max_count="1" prob="20" />
 			<prefab rule="bookStores" min_count="1" max_count="1" prob="20" />
 			<prefab rule="pharmacies" min_count="1" prob="20" />
+		</prefab_rule>
+		<prefab_rule name="townstores">
+			<prefab name="store_grocery_sm_01"  min_count="1" max_count="1" />
+		</prefab_rule>
+		<prefab_rule name="townstores2">
+			<prefab name="store_pharmacy_sm_01" min_count="1" max_count="1" />
+		</prefab_rule>
+		<prefab_rule name="townstores3">
+			<prefab name="store_book_lg_01" min_count="1" max_count="1" />
 		</prefab_rule>
 		
 		<prefab_rule name="cityMisc">
@@ -265,9 +281,12 @@
 		</prefab_rule>
 
 		<prefab_rule name="upperClassHousing">
-			<prefab name="house_new_mansion_01" prob="1"/>
-			<prefab name="house_new_mansion_02" prob="1"/>
-			<prefab name="house_new_mansion_03" prob="1"/>
+			<prefab name="house_new_mansion_01" />
+			<prefab name="house_new_mansion_02" />
+			<prefab name="house_new_mansion_03" />
+		</prefab_rule>
+		<prefab_rule name="townupperClassHousing">
+			<prefab name="house_new_mansion_03" max_count="1" />
 		</prefab_rule>
 
 		<prefab_rule name="businessBrick">
@@ -328,35 +347,35 @@
 		</prefab_rule>
 		
 		<prefab_rule name="gunStores">
-			<prefab name="store_gun_sm_01" prob="0.6"/>
-			<prefab name="store_gun_lg_01" prob="0.4"/>
+			<prefab name="store_gun_sm_01" />
+			<prefab name="store_gun_lg_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="pharmacies">
-			<prefab name="store_pharmacy_sm_01" prob="1"/>
+			<prefab name="store_pharmacy_sm_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="schools">
-			<prefab name="school_01" prob="1"/>
+			<prefab name="school_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="hospitals">
-			<prefab name="hospital_01" prob="1"/>
+			<prefab name="hospital_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="hardwareStores">
-			<prefab name="store_hardware_sm_01" prob="0.6"/>
-			<prefab name="store_hardware_lg_01" prob="0.4"/>
+			<prefab name="store_hardware_sm_01" />
+			<prefab name="store_hardware_lg_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="bookStores">
-			<prefab name="store_book_sm_01" prob="0.6"/>
-			<prefab name="store_book_lg_01" prob="0.4"/>
+			<prefab name="store_book_sm_01" />
+			<prefab name="store_book_lg_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="groceryStores">
-			<prefab name="store_grocery_lg_01" prob="0.4"/>
-			<prefab name="store_grocery_sm_01" prob="0.6"/>
+			<prefab name="store_grocery_lg_01" />
+			<prefab name="store_grocery_sm_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="cityBlocks">
@@ -446,15 +465,15 @@
 		</prefab_rule>
 		
 		<prefab_rule name="gasStations">
-			<prefab name="gas_station1" prob="1"/>
-			<prefab name="gas_station2" prob="1"/>
-			<prefab name="gas_station3" prob="1"/>
-			<prefab name="gas_station4" prob="1"/>
-			<prefab name="gas_station5" prob="1"/>
+			<prefab name="gas_station1" />
+			<prefab name="gas_station2" />
+			<prefab name="gas_station3" />
+			<prefab name="gas_station4" />
+			<prefab name="gas_station5" />
 		</prefab_rule>
 		
 		<prefab_rule name="factories">
-			<prefab name="utility_waterworks_01" prob="1"/>
+			<prefab name="utility_waterworks_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="ruralSnow">
@@ -466,11 +485,11 @@
 		</prefab_rule>
 		
 		<prefab_rule name="ruralHotel">
-			<prefab name="hotel_new_01" max_count="1" prob="1"/>
+			<prefab name="hotel_new_01" max_count="1" />
 		</prefab_rule>
 		
 		<prefab_rule name="ruralFactory">
-			<prefab name="factory_lg_01" max_count="1" prob="1"/>
+			<prefab name="factory_lg_01" max_count="1" />
 			<!--
 			<prefab name="factory_lg_02" max_count="1" prob="1"/>
 			-->
@@ -480,7 +499,7 @@
 		<!--
 			<prefab name="junkyard_lg_01" max_count="1" prob="1"/>
 			-->
-			<prefab name="junkyard_med_01" max_count="1" prob="1"/>
+			<prefab name="junkyard_med_01" max_count="1" />
 		</prefab_rule>
 		
 		<prefab_rule name="barnsAndSheds">
@@ -517,10 +536,10 @@
 		</prefab_rule>
 		
 		<prefab_rule name="waterPOIs">
-			<prefab name="pond02" prob="1"/>
-			<prefab name="pond01" prob="1"/>	
-			<prefab name="water_tower_02" prob="1"/>
-			<prefab name="water_tower_01" prob="1"/>
+			<prefab name="pond02" />
+			<prefab name="pond01" />	
+			<prefab name="water_tower_02" />
+			<prefab name="water_tower_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="militaryCamps">
@@ -541,10 +560,14 @@
 		</prefab_rule>
 		
 		<prefab_rule name="vacant_lots">
-			<prefab name="vacant_lot_med_01" max_count="1" prob="1"/>
-			<prefab name="vacant_lot_med_02" max_count="1" prob="1"/>
-			<prefab name="vacant_lot_sm_01" max_count="1" prob="1"/>
-			<prefab name="vacant_lot_sm_02" max_count="1" prob="1"/>
+			<prefab name="vacant_lot_med_01" max_count="1" />
+			<prefab name="vacant_lot_med_02" max_count="1" />
+			<prefab name="vacant_lot_sm_01" max_count="1" />
+			<prefab name="vacant_lot_sm_02" max_count="1" />
+		</prefab_rule>
+		<prefab_rule name="junk_lots">
+			<prefab name="vacant_lot_sm_01" max_count="1" />
+			<prefab name="vacant_lot_sm_02" max_count="1" />
 		</prefab_rule>
 		
 	</prefab_rules>
