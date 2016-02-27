@@ -434,6 +434,7 @@
 	</lootgroup>
 	<lootgroup name="gunpartsferal">
 		<item group="magnumparts"/>
+		<item group="rareBooks" loot_prob_template="rareBookTemplate"/>
 		<item name="Schematic_Page" count="1" />
 	</lootgroup>
 	
