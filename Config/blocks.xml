@@ -15994,51 +15994,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     </property>
   </block>
   
-  <block id="1612" name="plantCactusSprout">
-    <property name="Class" value="Cactus" />
-    <property name="Material" value="cactus" />
-    <property name="Shape" value="ModelEntity" />
-    <property name="Texture" value="390" />
-    <property name="Model" value="Entities/Plants/cactus04Prefab" />
-    <property name="Damage" value="5" />
-    <property name="UpwardsCount" value="1" />
-    <property name="IsPlant" value="true" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantCactusGrowing" />
-      <property name="GrowthRate" value="30" />
-      <property name="FertileLevel" value="1" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantCactusGrowing" />
-      <property name="Item" value="fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  
-  <block id="1613" name="plantCactusGrowing">
-    <property name="Class" value="Cactus" />
-    <property name="Material" value="cactus" />
-    <property name="Shape" value="ModelEntity" />
-    <property name="Texture" value="390" />
-    <property name="Model" value="Entities/Plants/cactus06Prefab" />
-    <property name="Damage" value="5" />
-    <property name="UpwardsCount" value="1" />
-    <property name="IsPlant" value="true" />
-    <property class="PlantGrowing">
-      <property name="Next" value="cactus01" />
-      <property name="GrowthRate" value="30" />
-      <property name="FertileLevel" value="1" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="cactus01" />
-      <property name="Item" value="fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
+  <!--1612 1613 free-->
   
   <block id="1614" name="dewCollector_filling">
 	<property name="Class" value="PlantGrowing" />

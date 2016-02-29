@@ -9893,24 +9893,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-	<item id="918" name="cactusSeed">
-        <property name="Meshfile" value="Items/Food/seed_blueberry" />
-        <property name="Material" value="organic" />
-        <property name="HoldType" value="21" />
-        <property name="CustomIcon" value="mapleSeed" />
-		<property name="CustomIconTint" value="bac4c8" />
-		<property class="Action1">
-            <property name="Class" value="PlaceAsBlock" />
-            <property name="Delay" value="0.5" />
-            <property name="Blockname" value="plantCactusSprout" />
-        </property>
-        <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="25" />
-            <property name="Pos" value="0,-0.05" />
-            <property name="Rot" value="90,45,0" />
-        </property>
-    </item>
+	
+	<!--918 free-->
+	
 	<item id="919" name="yuccaSeed">
         <property name="Meshfile" value="Items/Food/seed_blueberry" />
         <property name="Material" value="organic" />

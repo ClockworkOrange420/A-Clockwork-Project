@@ -606,7 +606,7 @@
         <ingredient name="corn" count="1"/>
     </recipe>
 
-    <recipe name="cornSeed" count="2" scrapable="False" >
+    <recipe name="cornSeed" count="1" scrapable="False" >
         <ingredient name="corn" count="1"/>
     </recipe>
 
@@ -1072,7 +1072,7 @@
         <ingredient name="wood" count="3"/>
     </recipe>
 
-    <recipe name="potatoSeed" count="2" scrapable="False" >
+    <recipe name="potatoSeed" count="1" scrapable="False" >
         <ingredient name="potato" count="1"/>
     </recipe>
 
@@ -1618,7 +1618,7 @@
         <ingredient name="plantYucca" count="1"/>
     </recipe>
 	
-	<recipe name="tomatoSeed" count="2" scrapable="False">
+	<recipe name="tomatoSeed" count="1" scrapable="False">
         <ingredient name="tomato" count="1"/>
     </recipe>
 	
@@ -1626,7 +1626,7 @@
         <ingredient name="mushrooms" count="1"/>
     </recipe>
 	
-	<recipe name="wheatSeed" count="2" scrapable="False">
+	<recipe name="wheatSeed" count="1" scrapable="False">
         <ingredient name="wheat" count="1"/>
     </recipe>
 	
