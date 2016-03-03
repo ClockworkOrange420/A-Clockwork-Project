@@ -842,6 +842,11 @@
         <ingredient name="forgedIron" count="5"/>
         <ingredient name="wood" count="5"/>
     </recipe>
+	
+	<recipe name="Steel_Fireaxe" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
+        <ingredient name="forgedSteel" count="5"/>
+        <ingredient name="wood" count="5"/>
+    </recipe>
 
     <recipe name="firstAidBandage" count="1" scrapable="False" >
         <ingredient name="aloeCream" count="1"/>

@@ -10805,5 +10805,45 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
+	<item id="997" name="Steel_Fireaxe">
+		<property name="Meshfile" value="Items/Weapons/Melee/Axe/fireaxePrefab" />
+		<property name="Material" value="metal" />
+		<property name="HoldType" value="17" />
+		<property name="Stacknumber" value="1" />
+		<property name="RepairTools" value="forgedSteel" />
+		<property name="DegradationBreaksAfter" value="false" />
+		<property name="SoundJammed" value="ItemNeedsRepair" />
+		<property name="FuelValue" value="16" />
+		<property name="Weight" value="48" />
+		<property name="SoundDestroy" value="wooddestroy1" />
+		<property class="Action0">
+			<!-- AttackAction -->
+			<property name="Class" value="Melee" />
+			<property name="Delay" value="1.1" />
+			<property name="Range" value="2.1" />
+			<property name="Sphere" value="0.1" />
+			<property name="Block_range" value="4" />
+			<property name="Sound_start" value="swoosh" />
+			<property name="Stamina_usage" value="5" />
+			<property name="DamageBonus.wood" value="1" />
+			<property name="DamageBonus.head" value="2" />
+			<property name="DamageBonus.glass" value="25" />
+			<property name="DamageBonus.stone" value=".15" />
+			<property name="DamageBonus.metal" value=".15" />
+			<property name="DamageBonus.earth" value=".05" />
+			<property name="ToolCategory.Butcher" value="0.25" />
+		</property>
+		<property class="Attributes">
+			<property name="EntityDamage" value="9,18" />
+			<property name="BlockDamage" value="25,65" />
+			<property name="DegradationMax" value="150,600" />
+			<property name="DegradationRate" value="2,1" />
+			<property name="DismembermentBaseChance" value="0.2,0.4"/>
+			<property name="DismembermentBonus" value="0.001,0.005"/>
+		</property>
+		<property name="Group" value="Tools/Traps" />
+		<property name="ActionSkillGroup" value="Mining Tools"/>
+		<property name="CraftingSkillGroup" value="Tool Smithing"/>
+	</item>
     
 </items>
