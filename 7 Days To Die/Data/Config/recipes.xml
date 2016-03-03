@@ -1143,9 +1143,8 @@
         <ingredient name="gunPowder" count="2"/>
     </recipe>
 	
-    <recipe name="minibikeChassis" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-        <ingredient name="unit_clay" count="20"/>
-        <ingredient name="unit_iron" count="200"/>
+    <recipe name="minibikeChassis" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
+        <ingredient name="shortMetalPipe" count="40"/>
     </recipe>
 
     <recipe name="minibikeHandlebars" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="wrench" >
