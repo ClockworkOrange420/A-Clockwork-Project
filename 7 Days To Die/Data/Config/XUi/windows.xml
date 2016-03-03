@@ -573,13 +573,16 @@
 		</panel>
 		
 		<panel name="content" depth="0" pos="0,-46" backgroundcolor="[black]">
-			<grid name="inventory" rows="1" cols="2" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true">
+			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true">
 				<item_stack name="0"/>
 			</grid>		
 			
-			<grid name="slot_preview" depth="1" rows="1" cols="2" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
+			<grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
 				<rect>
 					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="anvil" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true" />
+				</rect>
+				<rect>
+					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="wrench" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true" />
 				</rect>
 				<rect>
 					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="Blank_Mold" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true" />
