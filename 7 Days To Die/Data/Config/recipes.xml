@@ -885,6 +885,10 @@
         <ingredient name="plantYucca" count="4"/>
         <ingredient name="emptyJar" count="1"/>
     </recipe>
+	<recipe name="foodYuccaJuice" count="1" scrapable="False" >
+        <ingredient name="foodYuccaFruit" count="4"/>
+        <ingredient name="emptyJar" count="1"/>
+    </recipe>
 
     <recipe name="forge" count="1" scrapable="False" >
         <ingredient name="rockSmall" count="50"/>
