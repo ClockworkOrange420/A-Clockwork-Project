@@ -1902,6 +1902,12 @@
 		<ingredient name="nail" count="10"/>
     </recipe>
 	
+	<recipe name="Empty_Composter" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
+        <ingredient name="wood" count="20" />
+	    <ingredient name="Cordage" count="4"/>
+		<ingredient name="nail" count="10"/>
+    </recipe>
+	
 	<recipe name="mushroomGrilled" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingGrill" >
         <ingredient name="mushrooms" count="2"/>
     </recipe>
