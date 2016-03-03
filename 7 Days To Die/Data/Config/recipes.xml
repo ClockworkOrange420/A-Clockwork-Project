@@ -1174,7 +1174,7 @@
         <ingredient name="mp5_parts" count="1"/>
     </recipe>
 
-    <recipe name="nail" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
+    <recipe name="nail" count="1" scrapable="False" craft_area="forge" craft_tool="Nail_Mold" material_based="true">
         <ingredient name="unit_clay" count="1"/>
         <ingredient name="unit_iron" count="1"/>
     </recipe>
