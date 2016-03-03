@@ -2427,6 +2427,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="organic" />
         <property name="HoldType" value="23" />
 		<property name="Stacknumber" value="10" />
+		<property name="CustomIcon" value="Bear_Stew" />
         <property class="Action1">
             <!-- UseAction -->
             <property name="Class" value="Eat" />
@@ -10732,6 +10733,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="organic" />
         <property name="HoldType" value="23" />
 		<property name="Stacknumber" value="10" />
+		<property name="CustomIcon" value="meatStew" />
         <property class="Action1">
             <!-- UseAction -->
             <property name="Class" value="Eat" />
