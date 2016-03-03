@@ -1636,13 +1636,13 @@
     </recipe>
 
     <recipe name="stoneAxe" count="1" scrapable="False" >
-        <ingredient name="Cordage" count="2"/>
+        <ingredient name="Cordage" count="1"/>
         <ingredient name="wood" count="2"/>
         <ingredient name="rockSmall" count="2"/>
     </recipe>
 
     <recipe name="stoneShovel" count="1" scrapable="False" >
-		<ingredient name="Cordage" count="3"/>
+		<ingredient name="Cordage" count="1"/>
 		<ingredient name="wood" count="3"/>
         <ingredient name="rockSmall" count="3"/>
     </recipe>
