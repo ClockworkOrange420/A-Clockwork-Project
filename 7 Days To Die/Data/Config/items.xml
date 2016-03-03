@@ -3193,6 +3193,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="278" name="mp5_stock">
 		<property name="DescriptionKey" value="mp5PartsGroupDesc"/>
@@ -3213,6 +3214,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="279" name="mp5_receiver">
 		<property name="DescriptionKey" value="mp5PartsGroupDesc"/>
@@ -3233,6 +3235,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="280" name="pistol_barrel">
 		<property name="DescriptionKey" value="pistolPartsGroupDesc"/>
@@ -3256,6 +3259,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="281" name="pistol_parts">
 		<property name="DescriptionKey" value="pistolPartsGroupDesc"/>
@@ -3277,6 +3281,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="282" name="pistol_receiver">
 		<property name="DescriptionKey" value="pistolPartsGroupDesc"/>
@@ -3299,6 +3304,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="283" name="PumpShotgun_barrel">
 		<property name="DescriptionKey" value="longShotgunPartsGroupDesc"/>
@@ -3322,6 +3328,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="284" name="PumpShotgun_parts">
 		<property name="DescriptionKey" value="commonShotgunPartsGroupDesc"/>
@@ -3343,6 +3350,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="285" name="PumpShotgun_shortBarrel">
 		<property name="DescriptionKey" value="sawedOffShotgunPartsGroupDesc"/>
@@ -3366,6 +3374,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="286" name="PumpShotgun_shortStock">
 		<property name="DescriptionKey" value="sawedOffShotgunPartsGroupDesc"/>
@@ -3429,6 +3438,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="289" name="sniperRifleBarrel">
 		<property name="DescriptionKey" value="sniperPartsGroupDesc"/>
@@ -3451,6 +3461,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
 <!-- free -->
     <item id="292" name="sniperRifle_stock">
@@ -3473,6 +3484,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="293" name="sniperRifle_triggerHousing">
 		<property name="DescriptionKey" value="sniperPartsGroupDesc"/>
@@ -3494,6 +3506,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
 <!-- free -->
     <item id="310" name="bandage">
@@ -3963,6 +3976,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
 <!-- free -->
     <item id="369" name="huntingRifleStock">
@@ -4006,6 +4020,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
 <!-- free -->
     <item id="372" name="animalHide">
@@ -4764,6 +4779,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="401" name="44MagnumFrame">
 		<property name="DescriptionKey" value="44MagnumPartsGroupDesc"/>
@@ -4786,6 +4802,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="402" name="44MagnumGrip">
 		<property name="DescriptionKey" value="44MagnumPartsGroupDesc"/>
@@ -4807,6 +4824,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="403" name="44MagnumParts">
 		<property name="DescriptionKey" value="44MagnumPartsGroupDesc"/>
@@ -4828,6 +4846,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="404" name="shades">
 		<property name="Insulation" value="-5"/>
@@ -7313,6 +7332,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="742" name="mp5_parts">
 		<property name="DescriptionKey" value="mp5PartsGroupDesc"/>
@@ -7334,6 +7354,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="743" name="huntingRifleParts">
 		<property name="DescriptionKey" value="huntingRiflePartsGroupDesc"/>
@@ -7355,6 +7376,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="744" name="sniperRifleParts">
 		<property name="DescriptionKey" value="sniperPartsGroupDesc"/>
@@ -7375,6 +7397,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
      <item id="745" name="setInConcrete">
         <property name="Meshfile" value="Items/Misc/Book" />
@@ -8986,6 +9009,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="817" name="ak47_stock">
 		<property name="DescriptionKey" value="ak47PartsGroupDesc"/>
@@ -9006,6 +9030,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="818" name="ak47_receiver">
 		<property name="DescriptionKey" value="ak47PartsGroupDesc"/>
@@ -9026,6 +9051,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="819" name="ak47_parts">
 		<property name="DescriptionKey" value="ak47PartsGroupDesc"/>
@@ -9047,6 +9073,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="820" name="anvil">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -9420,6 +9447,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="840" name="rocketLauncherStock">
 		<property name="DescriptionKey" value="rocketLauncherPartsGroupDesc"/>
@@ -9440,6 +9468,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="841" name="rocketLauncherReceiver">
 		<property name="DescriptionKey" value="rocketLauncherPartsGroupDesc"/>
@@ -9460,6 +9489,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="842" name="rocketLauncherParts">
 		<property name="DescriptionKey" value="rocketLauncherPartsGroupDesc"/>
@@ -9481,6 +9511,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="843" name="rocketLauncherSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
