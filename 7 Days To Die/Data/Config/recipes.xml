@@ -635,7 +635,7 @@
         <ingredient name="unit_clay" count="20"/>
     </recipe>
 	
-	<recipe name="Mortar_and_Pestal" count="1" scrapable="False" craft_area="forge" material_based="true" >
+	<recipe name="Mortar_and_Pestle" count="1" scrapable="False" craft_area="forge" material_based="true" >
         <ingredient name="unit_clay" count="25"/>
     </recipe>
 
@@ -927,7 +927,7 @@
         <ingredient name="destroyedStone" count="1"/>
     </recipe>
 
-    <recipe name="gunPowder" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="Mortar_and_Pestal" >
+    <recipe name="gunPowder" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="Mortar_and_Pestle" >
         <ingredient name="coal" count="1"/>
         <ingredient name="potassiumNitratePowder" count="1"/>
     </recipe>

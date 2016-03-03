@@ -604,7 +604,7 @@
 					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="toolAndDieSet" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true" />
 				</rect>
 				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="Mortar_and_Pestal" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true"/>
+					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="Mortar_and_Pestle" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true"/>
 				</rect>
 			</grid>
 		</panel>

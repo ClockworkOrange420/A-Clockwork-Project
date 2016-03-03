@@ -10165,7 +10165,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="HoldType" value="16" />
         <property name="Group" value="Resources" />
     </item>
-	<item id="936" name="Mortar_and_Pestal">
+	<item id="936" name="Mortar_and_Pestle">
         <property name="Meshfile" value="Items/Crafting/clay_bowl" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="3" />
