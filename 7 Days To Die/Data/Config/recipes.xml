@@ -1849,6 +1849,10 @@
         <ingredient name="yuccaFibers" count="5"/>
     </recipe>
 	
+	<recipe name="Grass_Seed" count="2" scrapable="False">
+        <ingredient name="yuccaFibers" count="1"/>
+    </recipe>
+	
 	<recipe name="Fertilizer" count="2" scrapable="False">
         <ingredient name="turd" count="1"/>
         <ingredient name="yuccaFibers" count="1"/>

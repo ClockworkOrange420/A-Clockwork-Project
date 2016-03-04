@@ -10878,5 +10878,23 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="Tool Smithing"/>
 	</item>
+	<item id="998" name="Grass_Seed">
+        <property name="Meshfile" value="Items/Food/seed_blueberry" />
+        <property name="Material" value="organic" />
+        <property name="HoldType" value="21" />
+		<property name="CustomIcon" value="pineSeed" />
+        <property class="Action1">
+            <!-- UseAction -->
+            <property name="Class" value="PlaceAsBlock" />
+            <property name="Delay" value="0.5" />
+            <property name="Blockname" value="tallGrassDiagonalSprout" />
+        </property>
+        <property name="Group" value="Resources" />
+        <property class="Preview">
+            <property name="Zoom" value="35" />
+            <property name="Pos" value="0,-0.05" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+    </item>
     
 </items>
