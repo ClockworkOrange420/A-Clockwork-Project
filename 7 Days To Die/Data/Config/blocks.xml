@@ -16899,23 +16899,11 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="IsTerrainDecoration" value="true" />
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
-      <property name="Next" value="tallGrassDiagonal2" />
+      <property name="Next" value="tallGrassDiagonal" />
       <property name="GrowthRate" value="120" />
       <property name="FertileLevel" value="1" />
       <property name="IsRandom" value="false" />
     </property>
-  </block>
-  <block id="1659" name="tallGrassDiagonal2">
-    <property name="Class" value="CropsGrown" />
-    <property name="Material" value="tallgrass" />
-    <property name="Shape" value="Grass" />
-    <property name="Mesh" value="grass" />
-    <property name="Texture" value="39,40,364,365,39,364" />
-    <property name="Collide" value="melee" />
-    <property name="CanDecorateOnSlopes" value="true" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" name="yuccaFibers" count="1" />
-    <property name="DropScale" value="2" />
   </block>
   
 </blocks>
