@@ -16878,7 +16878,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantYucca" />
-      <property name="GrowthRate" value="180" />
+      <property name="GrowthRate" value="120" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16900,7 +16900,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="tallGrassDiagonal" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="1" />
       <property name="IsRandom" value="false" />
     </property>
