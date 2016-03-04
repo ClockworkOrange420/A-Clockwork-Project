@@ -1846,7 +1846,7 @@
     </recipe>
 	
 	<recipe name="Cordage" count="1" scrapable="False">
-        <ingredient name="yuccaFibers" count="5"/>
+        <ingredient name="yuccaFibers" count="2"/>
     </recipe>
 	
 	<recipe name="Grass_Seed" count="2" scrapable="False">

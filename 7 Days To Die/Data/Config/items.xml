@@ -10188,8 +10188,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     </item>
 	<item id="935" name="Cordage">
         <property name="Meshfile" value="Items/Crafting/plant_fibers" />
-		<property name="Weight" value="5" />
-		<property name="FuelValue" value="5" />
+		<property name="Weight" value="2" />
+		<property name="FuelValue" value="2" />
         <property name="Material" value="plants" />
 		<property name="Stacknumber" value="250" />
         <property name="RepairTime" value="1" />
