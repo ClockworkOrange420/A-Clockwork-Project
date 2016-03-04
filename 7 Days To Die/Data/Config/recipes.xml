@@ -2697,12 +2697,12 @@
 		<ingredient name="Schematic_Page" count="10"/>
     </recipe>
 	
-	<recipe name="omnigel" count="10" scrapable="False" craft_area="Omnigel_Station" craft_tool="beaker" >
-        <ingredient name="potato" count="5"/>
-        <ingredient name="blueberries" count="5"/>
-		<ingredient name="mushrooms" count="2"/>
-		<ingredient name="Wheat" count="5"/>
-		<ingredient name="Tomato" count="5"/>
+	<recipe name="omnigel" count="100" scrapable="False" craft_area="Omnigel_Station" craft_tool="beaker" >
+        <ingredient name="potato" count="8"/>
+        <ingredient name="blueberries" count="8"/>
+		<ingredient name="mushrooms" count="4"/>
+		<ingredient name="Wheat" count="8"/>
+		<ingredient name="Tomato" count="8"/>
     </recipe>
 	
 	<recipe name="oilShale" count="100" scrapable="False" craft_area="Omnigel_Station" >
