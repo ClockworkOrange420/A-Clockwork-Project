@@ -1857,7 +1857,7 @@
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="blueberryYoung" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -1886,7 +1886,7 @@
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="potatoesYoung" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -1903,7 +1903,7 @@
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="potatoes" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -1932,7 +1932,7 @@
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="blueberry" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -6479,7 +6479,7 @@
     <property name="ParticleOnDeath" value="treeGib_burnt" />
     <property class="PlantGrowing">
       <property name="Next" value="plantedMountainPine6m" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="1" />
       <property name="IsRandom" value="false" />
     </property>
@@ -6501,7 +6501,7 @@
 	<property name="ModelOffset" value="0,-1.2,0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantedMountainPine8m" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="1" />
       <property name="IsRandom" value="false" />
     </property>
@@ -6523,7 +6523,7 @@
 	<property name="ModelOffset" value="0,-1.2,0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantedMountainPine13m" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="1" />
       <property name="IsRandom" value="false" />
     </property>
@@ -6542,7 +6542,7 @@
     <property name="Model" value="Entities/Trees/MountainPine55mPrefab" />
     <property class="PlantGrowing">
       <property name="Next" value="plantedMountainPine16m" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="1" />
       <property name="IsRandom" value="false" />
     </property>
@@ -6565,7 +6565,7 @@
     <property name="Model" value="Entities/Trees/MountainPine60mPrefab" />
     <property class="PlantGrowing">
       <property name="Next" value="plantedMountainPine19m" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="1" />
       <property name="IsRandom" value="false" />
     </property>
@@ -6588,7 +6588,7 @@
     <property name="Model" value="Entities/Trees/MountainPine75Prefab" />
     <property class="PlantGrowing">
       <property name="Next" value="MountainPine20m" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="1" />
       <property name="IsRandom" value="false" />
     </property>
@@ -6615,7 +6615,7 @@
     <property name="ParticleOnDeath" value="treeGib_burnt" />
     <property class="PlantGrowing">
       <property name="Next" value="plantedMaple6m" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="1" />
       <property name="IsRandom" value="false" />
     </property>
@@ -6635,7 +6635,7 @@
 	<property name="ModelOffset" value="0,-1.2,0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantedMaple13m" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="1" />
       <property name="IsRandom" value="false" />
     </property>
@@ -6659,7 +6659,7 @@
     <property name="IsPlant" value="true" />
     <property class="PlantGrowing">
       <property name="Next" value="plantedMaple15m" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="1" />
       <property name="IsRandom" value="false" />
     </property>
@@ -6682,7 +6682,7 @@
 	<property name="ModelOffset" value="0,-1.2,0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantedMaple17m" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="1" />
       <property name="IsRandom" value="false" />
     </property>
@@ -7038,7 +7038,7 @@
     <property name="IsTerrainDecoration" value="true" />
     <property class="PlantGrowing">
       <property name="Next" value="cottonYoung" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="IsRandom" value="false" />
       <property name="FertileLevel" value="1" />
     </property>
@@ -7271,7 +7271,7 @@
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="coffeeGrowing" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -7287,7 +7287,7 @@
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="coffeePlant" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -7314,7 +7314,7 @@
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="goldenrodGrowing" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -7330,7 +7330,7 @@
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="goldenrod" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -8446,7 +8446,7 @@
     <property name="IsTerrainDecoration" value="true" />
     <property name="PlantGrowing.FertileLevel" value="1" />
     <property name="PlantGrowing.Next" value="growableCornTop1" />
-    <property name="PlantGrowing.GrowthRate" value="60" />
+    <property name="PlantGrowing.GrowthRate" value="90" />
     <property name="PlantGrowing.LightLevelStay" value="0" />
     <property name="PlantGrowing.IsRandom" value="false" />
     <property name="PlantGrowing.IsGrowOnTopEnabled" value="true" />
@@ -8462,7 +8462,7 @@
     <property name="IsTerrainDecoration" value="true" />
     <property name="PlantGrowing.FertileLevel" value="0" />
     <property name="PlantGrowing.Next" value="growableCornTop2" />
-    <property name="PlantGrowing.GrowthRate" value="60" />
+    <property name="PlantGrowing.GrowthRate" value="90" />
     <property name="PlantGrowing.LightLevelStay" value="0" />
     <property name="PlantGrowing.IsRandom" value="false" />
     <property name="PlantGrowing.IsGrowOnTopEnabled" value="true" />
@@ -8478,7 +8478,7 @@
     <property name="IsTerrainDecoration" value="true" />
     <property name="PlantGrowing.FertileLevel" value="0" />
     <property name="PlantGrowing.Next" value="grownUpCornStalk1" />
-    <property name="PlantGrowing.GrowthRate" value="60" />
+    <property name="PlantGrowing.GrowthRate" value="90" />
     <property name="PlantGrowing.LightLevelStay" value="0" />
     <property name="PlantGrowing.IsRandom" value="false" />
     <property name="PlantGrowing.IsGrowOnTopEnabled" value="true" />
@@ -10507,7 +10507,7 @@
     <property name="IsTerrainDecoration" value="true" />
     <property class="PlantGrowing">
       <property name="Next" value="cotton" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="IsRandom" value="false" />
       <property name="FertileLevel" value="1" />
     </property>
@@ -15694,7 +15694,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantChrysanthemumGrowing" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -15711,7 +15711,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantChrysanthemum" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -15728,7 +15728,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantTomatoGrowing" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -15745,7 +15745,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantTomato" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -15778,7 +15778,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantWheatYoung" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -15797,7 +15797,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantWheat" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -15829,7 +15829,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantAloeYoung" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -15846,7 +15846,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantAloe" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -15863,7 +15863,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantMushroomYoung" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -15880,7 +15880,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="mushroom01" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -15915,7 +15915,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="Texture" value="379" />
 	<property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="Full_Composter" />
-	<property name="PlantGrowing.GrowthRate" value="120" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
 	<property name="PlantGrowing.LightLevelStay" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.GrowIfAnythinOnTop" value="true" />
@@ -15955,7 +15955,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="CustomIcon" value="airConditioner" />		
     <property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="dewCollector_filled" />
-	<property name="PlantGrowing.GrowthRate" value="60" />
+	<property name="PlantGrowing.GrowthRate" value="90" />
 	<property name="PlantGrowing.LightLevelStay" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.GrowIfAnythinOnTop" value="true" />
@@ -16019,7 +16019,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="CustomIcon" value="whiteSidingWoodPanelBurnt4" />
     <property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="chickenCoop_stage3" />
-	<property name="PlantGrowing.GrowthRate" value="60" />
+	<property name="PlantGrowing.GrowthRate" value="90" />
 	<property name="PlantGrowing.LightLevelStay" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.GrowIfAnythinOnTop" value="true" />
@@ -16043,7 +16043,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="CustomIcon" value="whiteSidingWoodPanelBurnt3" />
     <property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="chickenCoop_stage4" />
-	<property name="PlantGrowing.GrowthRate" value="60" />
+	<property name="PlantGrowing.GrowthRate" value="90" />
 	<property name="PlantGrowing.LightLevelStay" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.GrowIfAnythinOnTop" value="true" />
@@ -16082,7 +16082,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantYuccaYoung" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16099,7 +16099,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantYucca" />
-      <property name="GrowthRate" value="60" />
+      <property name="GrowthRate" value="90" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16345,7 +16345,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="blueberryYoung2" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16367,7 +16367,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="blueberry" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16389,7 +16389,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="potatoesYoung2" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16411,7 +16411,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="potatoes" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16433,7 +16433,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="IsTerrainDecoration" value="true" />
     <property class="PlantGrowing">
       <property name="Next" value="cottonYoung2" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="IsRandom" value="false" />
       <property name="FertileLevel" value="1" />
     </property>
@@ -16455,7 +16455,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="IsTerrainDecoration" value="true" />
     <property class="PlantGrowing">
       <property name="Next" value="cotton" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="IsRandom" value="false" />
       <property name="FertileLevel" value="1" />
     </property>
@@ -16477,7 +16477,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="coffeeGrowing2" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16499,7 +16499,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="coffeePlant" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16521,7 +16521,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="goldenrodGrowing2" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16543,7 +16543,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="goldenrod" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16565,7 +16565,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="IsTerrainDecoration" value="true" />
     <property name="PlantGrowing.FertileLevel" value="5" />
     <property name="PlantGrowing.Next" value="growableCornTop12" />
-    <property name="PlantGrowing.GrowthRate" value="120" />
+    <property name="PlantGrowing.GrowthRate" value="180" />
     <property name="PlantGrowing.LightLevelStay" value="0" />
     <property name="PlantGrowing.IsRandom" value="false" />
     <property name="PlantGrowing.IsGrowOnTopEnabled" value="true" />
@@ -16587,7 +16587,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="IsTerrainDecoration" value="true" />
     <property name="PlantGrowing.FertileLevel" value="0" />
     <property name="PlantGrowing.Next" value="growableCornTop22" />
-    <property name="PlantGrowing.GrowthRate" value="120" />
+    <property name="PlantGrowing.GrowthRate" value="180" />
     <property name="PlantGrowing.LightLevelStay" value="0" />
     <property name="PlantGrowing.IsRandom" value="false" />
     <property name="PlantGrowing.IsGrowOnTopEnabled" value="true" />
@@ -16609,7 +16609,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="IsTerrainDecoration" value="true" />
     <property name="PlantGrowing.FertileLevel" value="0" />
     <property name="PlantGrowing.Next" value="grownUpCornStalk1" />
-    <property name="PlantGrowing.GrowthRate" value="120" />
+    <property name="PlantGrowing.GrowthRate" value="180" />
     <property name="PlantGrowing.LightLevelStay" value="0" />
     <property name="PlantGrowing.IsRandom" value="false" />
     <property name="PlantGrowing.IsGrowOnTopEnabled" value="true" />
@@ -16632,7 +16632,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantChrysanthemumGrowing2" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16654,7 +16654,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantChrysanthemum" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16676,7 +16676,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantTomatoGrowing2" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16698,7 +16698,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantTomato" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16722,7 +16722,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantWheatYoung2" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16746,7 +16746,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantWheat" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16768,7 +16768,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantAloeYoung2" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16790,7 +16790,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantAloe" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16812,7 +16812,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantMushroomYoung2" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16834,7 +16834,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="mushroom01" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16856,7 +16856,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantYuccaYoung2" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
@@ -16878,7 +16878,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
       <property name="Next" value="plantYucca" />
-      <property name="GrowthRate" value="120" />
+      <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
     </property>
