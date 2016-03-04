@@ -15958,7 +15958,7 @@ This will be "done right" at a later time. For now it needs to WORK. Gazz-->
     <property name="CustomIcon" value="airConditioner" />		
     <property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="dewCollector_filled" />
-	<property name="PlantGrowing.GrowthRate" value="90" />
+	<property name="PlantGrowing.GrowthRate" value="60" />
 	<property name="PlantGrowing.LightLevelStay" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.GrowIfAnythinOnTop" value="true" />
