@@ -6255,6 +6255,7 @@
     <property name="DowngradeBlock" value="rockResourceBroke2" />
 	<property name="MultiBlockDim" value="2,2,2" />
 	<property name="Collide" value="melee,bullet,rocket,movement" />
+	<drop event="Fall" name="rockResourceBroke1" count="1" prob="1.0"  stick_chance="1" />
   </block>
   <block id="645" name="rockResourceBroke2">
     <property name="Material" value="boulder" />
@@ -6269,6 +6270,7 @@
     <drop event="Destroy" name="ironFragment" count="5" prob="1" />
 	<property name="MultiBlockDim" value="2,2,2" />
 	<property name="Collide" value="melee,bullet,rocket,movement" />
+	<drop event="Fall" name="rockResourceBroke2" count="1" prob="1.0"  stick_chance="1" />
   </block>
   <block id="646" name="rockResource02Broke1">
     <property name="Material" value="boulder" />
@@ -6284,6 +6286,7 @@
     <property name="DowngradeBlock" value="rockResource02Broke2" />
 	<property name="MultiBlockDim" value="2,2,2" />
 	<property name="Collide" value="melee,bullet,rocket,movement" />
+	<drop event="Fall" name="rockResource02Broke1" count="1" prob="1.0"  stick_chance="1" />
   </block>
   <block id="647" name="rockResource02Broke2">
     <property name="Material" value="boulder" />
@@ -6298,7 +6301,7 @@
     <drop event="Destroy" name="ironFragment" count="5" prob="1" />
 	<property name="MultiBlockDim" value="2,2,2" />
 	<property name="Collide" value="melee,bullet,rocket,movement" />
-    <!-- <property name="DowngradeBlock" value="rockResource02Broke3" /> -->
+    <drop event="Fall" name="rockResource02Broke2" count="1" prob="1.0"  stick_chance="1" />
   </block>
   <block id="648" name="rockResource02Broke3">
     <property name="Material" value="boulder" />
