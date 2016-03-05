@@ -10923,6 +10923,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_stamina" value="40" />
             <property name="Sound_start" value="UseActions/player_drinking" />
 			<property name="Debuff" value="infection" />
+			<property name="Create_item" value="emptyJar" />
         </property>
         <property name="Group" value="Food/Cooking" />
         <property class="Preview">
