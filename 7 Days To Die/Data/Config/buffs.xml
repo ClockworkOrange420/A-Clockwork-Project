@@ -217,14 +217,14 @@
 	
 	<buff id="smelly" duration="30" name_key="smelly" smell="largeSmell" description_key="smellyDesc" tooltip_key="smellyTooltip" icon="ui_game_symbol_dysentery"/>
 
-	<buff id="infection" name_key="infection" type="sickness" mutex="cured,infection1,infection2,infection3,infection4" onexpired="infection1" duration="7200t" description_key="infectionDesc" tooltip_key="infectionTooltip" icon="ui_game_symbol_infection" cures="foodHoney,antibiotics,herbalAntibiotics">
+	<buff id="infection" name_key="infection" type="sickness" mutex="cured,infection1,infection2,infection3,infection4" onexpired="infection1" duration="2400t" description_key="infectionDesc" tooltip_key="infectionTooltip" icon="ui_game_symbol_infection" cures="Honey_Poultice,antibiotics,herbalAntibiotics">
 	</buff>
 	
-	<buff id="infection1" name_key="infection1" type="sickness" onexpired="infection2" duration="7200t" description_key="infection1Desc" tooltip_key="infection1Tooltip" icon="ui_game_symbol_infection" cures="antibiotics">
+	<buff id="infection1" name_key="infection1" type="sickness" onexpired="infection2" duration="2400t" description_key="infection1Desc" tooltip_key="infection1Tooltip" icon="ui_game_symbol_infection" cures="antibiotics">
 		<modify id="0" stat="stamina" amount="-0.3" rate="1"/>
 	</buff>
 	
-	<buff id="infection2" name_key="infection2" type="sickness" duration="7200t" actions="damage(25,2100t,0,3);increment(@wellness, -0.25, 100t, 0, 0)" onexpired="infection3" description_key="infection2Desc" tooltip_key="infection2Tooltip" icon="ui_game_symbol_infection" cures="antibiotics">
+	<buff id="infection2" name_key="infection2" type="sickness" duration="2400t" actions="damage(25,2100t,0,3);increment(@wellness, -0.25, 100t, 0, 0)" onexpired="infection3" description_key="infection2Desc" tooltip_key="infection2Tooltip" icon="ui_game_symbol_infection" cures="antibiotics">
 		<modify id="0" stat="stamina" amount="-1" rate="1"/>
 	</buff>
 	
@@ -360,6 +360,8 @@
 		<modify id="0" stat="stamina" amount="1" rate="1" />
 	</buff>
 	<!--Modded-->
+	
+	<buff id="cured2" stack="reset" duration="2400t" actions="increment(@wellness, 0.035, 100, 0, 0)" />
 	
 	<buff id="warmByFire" onexpired="warmByFire2" stack="discard" duration="10" name_key="warmByFire" buffif="+heatSource gequal 1" debuffif="+heatSource less 1" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip" icon="ui_game_symbol_campfire" type="coretemp">
 		<modify id="0" stat="coretemp" modifyValue="30"/>

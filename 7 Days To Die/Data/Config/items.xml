@@ -2924,9 +2924,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_food" value="5" />
             <property name="Gain_water" value="0" />
             <property name="Gain_stamina" value="40" />
-            <property name="Gain_wellness" value="0.4" />
+            <property name="Gain_wellness" value="0.1" />
             <property name="Sound_start" value="UseActions/player_drinking" />
-			<property name="Debuff" value="infection" />
         </property>
         <property name="Group" value="Food/Cooking" />
         <property class="Preview">
@@ -6828,9 +6827,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="0" />
             <property name="Gain_food" value="0" />
             <property name="Gain_water" value="0" />
-            <property name="Gain_wellness" value="0.25" />
             <property name="Sound_start" value="UseActions/player_painkillers" />
-            <property name="Debuff" value="dysentery" />
+			<property name="Buff" value="cured2" />
         </property>
         <property name="Group" value="Medicine" />
         <property class="Preview">
@@ -10906,6 +10904,30 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Preview">
             <property name="Zoom" value="35" />
             <property name="Pos" value="0,-0.05" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+    </item>
+	<item id="999" name="Honey_Poultice">
+        <property name="Meshfile" value="Items/Food/honeyPrefab" />
+        <property name="Material" value="organic" />
+        <property name="HoldType" value="3" />
+        <property name="Stacknumber" value="10" />
+        <property class="Action1">
+            <!-- UseAction -->
+            <property name="Class" value="Eat" />
+            <property name="Delay" value="1.0" />
+            <property name="Use_time" value="..." />
+            <property name="Gain_health" value="0" />
+            <property name="Gain_food" value="5" />
+            <property name="Gain_water" value="0" />
+            <property name="Gain_stamina" value="40" />
+            <property name="Sound_start" value="UseActions/player_drinking" />
+			<property name="Debuff" value="infection" />
+        </property>
+        <property name="Group" value="Food/Cooking" />
+        <property class="Preview">
+            <property name="Zoom" value="24" />
+            <property name="Pos" value="-0.02,-0.1" />
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
