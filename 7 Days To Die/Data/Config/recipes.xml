@@ -454,6 +454,7 @@
         <ingredient name="foodHoney" count="1"/>
 		<ingredient name="potato" count="1"/>
 		<ingredient name="cloth" count="1"/>
+		<ingredient name="emptyJar" count="1"/>
     </recipe>
 	<recipe name="Honey_Poultice" count="1" scrapable="False" craft_area="New_Oven" craft_tool="cookingPot" >
         <ingredient name="aloeCream" count="1"/>
