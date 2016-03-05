@@ -1740,6 +1740,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="10" />
             <property name="Gain_food" value="15" />
             <property name="Gain_water" value="-10" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Sound_start" value="UseActions/player_eating" />
             <property name="Create_item" value="canEmpty" />
         </property>
@@ -1762,6 +1763,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="2" />
             <property name="Gain_food" value="5" />
             <property name="Gain_water" value="-2" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Gain_gas" value="10" />
             <property name="Sound_start" value="UseActions/player_eating" />
             <property name="Create_item" value="canEmpty" />
@@ -1785,6 +1787,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="10" />
             <property name="Gain_food" value="15" />
             <property name="Gain_water" value="-10" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Sound_start" value="UseActions/player_eating" />
             <property name="Create_item" value="canEmpty" />
         </property>
@@ -1807,6 +1810,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="5" />
             <property name="Gain_food" value="10" />
             <property name="Gain_water" value="-5" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Sound_start" value="UseActions/player_eating" />
             <property name="Gain_gas" value="15" />
             <property name="Create_item" value="canEmpty" />
@@ -1830,6 +1834,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="2" />
             <property name="Gain_food" value="5" />
             <property name="Gain_water" value="-2" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Gain_gas" value="15" />
             <property name="Sound_start" value="UseActions/player_eating" />
             <property name="Create_item" value="canEmpty" />
@@ -1853,6 +1858,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="2" />
             <property name="Gain_food" value="7" />
             <property name="Gain_water" value="-5" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Sound_start" value="UseActions/player_eating" />
             <property name="Create_item" value="canEmpty" />
         </property>
@@ -1875,6 +1881,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="2" />
             <property name="Gain_food" value="15" />
             <property name="Gain_water" value="-10" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Sound_start" value="UseActions/player_eating" />
             <property name="Create_item" value="canEmpty" />
         </property>
@@ -1897,6 +1904,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="1" />
             <property name="Gain_food" value="5" />
             <property name="Gain_water" value="10" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Sound_start" value="UseActions/player_eating" />
             <property name="Create_item" value="canEmpty" />
         </property>
@@ -1919,6 +1927,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="0" />
             <property name="Gain_food" value="7" />
             <property name="Gain_water" value="0" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Sound_start" value="UseActions/player_eating" />
             <property name="Create_item" value="canEmpty" />
         </property>
@@ -1941,6 +1950,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="0" />
             <property name="Gain_food" value="5" />
             <property name="Gain_water" value="0" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Sound_start" value="UseActions/player_eating" />
             <property name="Create_item" value="canEmpty" />
         </property>
@@ -1963,6 +1973,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="0" />
             <property name="Gain_food" value="5" />
             <property name="Gain_water" value="10" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Sound_start" value="UseActions/player_eating" />
             <property name="Create_item" value="canEmpty" />
         </property>
@@ -1985,6 +1996,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="2" />
             <property name="Gain_food" value="5" />
             <property name="Gain_water" value="-5" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Sound_start" value="UseActions/player_eating" />
             <property name="Create_item" value="canEmpty" />
         </property>
@@ -2007,6 +2019,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="0" />
             <property name="Gain_food" value="5" />
             <property name="Gain_water" value="10" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Sound_start" value="UseActions/player_drinking" />
             <property name="Create_item" value="canEmpty" />
         </property>
@@ -2029,6 +2042,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="0" />
             <property name="Gain_food" value="5" />
             <property name="Gain_water" value="10" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Sound_start" value="UseActions/player_eating" />
             <property name="Create_item" value="canEmpty" />
         </property>
@@ -2051,6 +2065,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_health" value="2" />
             <property name="Gain_food" value="5" />
             <property name="Gain_water" value="-2" />
+			<property name="Gain_wellness" value="-0.1" />
             <property name="Sound_start" value="UseActions/player_eating" />
             <property name="Create_item" value="canEmpty" />
         </property>
