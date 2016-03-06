@@ -673,7 +673,7 @@
 
     <recipe name="bucket" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
         <ingredient name="unit_iron" count="100"/>
-		<ingredient name="unit_clay" count="20"/>
+		<ingredient name="unit_clay" count="50"/>
     </recipe>
 
     <recipe name="buckshot" count="1" scrapable="False" craft_area="forge" craft_tool="calipers" material_based="true">
@@ -810,7 +810,7 @@
 
     <recipe name="cookingPot" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
         <ingredient name="unit_iron" count="100"/>
-		<ingredient name="unit_clay" count="20"/>
+		<ingredient name="unit_clay" count="50"/>
     </recipe>
 
     <recipe name="cornMeal" count="1" scrapable="False" >
