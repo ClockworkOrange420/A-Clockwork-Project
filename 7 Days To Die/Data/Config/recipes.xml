@@ -572,7 +572,7 @@
 
     <recipe name="barbedFence" count="1" scrapable="True" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="4"/>
-        <ingredient name="barbedWire" count="1"/>
+        <ingredient name="Barbed_Wire" count="1"/>
 		<ingredient name="nail" count="5"/>
     </recipe>
 
@@ -671,8 +671,9 @@
         <ingredient name="unit_clay" count="25"/>
     </recipe>
 
-    <recipe name="bucket" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" >
-        <ingredient name="forgedIron" count="7"/>
+    <recipe name="bucket" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
+        <ingredient name="unit_iron" count="100"/>
+		<ingredient name="unit_clay" count="20"/>
     </recipe>
 
     <recipe name="buckshot" count="1" scrapable="False" craft_area="forge" craft_tool="calipers" material_based="true">
@@ -749,7 +750,7 @@
     </recipe>
 
     <recipe name="clubBarbed" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
-        <ingredient name="barbedWire" count="1"/>
+        <ingredient name="Barbed_Wire" count="1"/>
         <ingredient name="wood" count="5"/>
     </recipe>
 
@@ -807,8 +808,9 @@
         <ingredient name="shortMetalPipe" count="10"/>
     </recipe>
 
-    <recipe name="cookingPot" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" >
-        <ingredient name="forgedIron" count="10"/>
+    <recipe name="cookingPot" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
+        <ingredient name="unit_iron" count="100"/>
+		<ingredient name="unit_clay" count="20"/>
     </recipe>
 
     <recipe name="cornMeal" count="1" scrapable="False" >
@@ -2118,6 +2120,7 @@
 	
 	<recipe name="Smithing_Table" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
         <ingredient name="unit_iron" count="200"/>
+		<ingredient name="unit_clay" count="100"/>
     </recipe>
 	
 	<recipe name="Research_Table" count="1" scrapable="False" >
@@ -2954,7 +2957,7 @@
 	
 	<!--Aesthetic Blocks-->
 	
-	<recipe name="barbedWire" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
+	<recipe name="Barbed_Wire" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
         <ingredient name="unit_clay" count="10"/>
 		<ingredient name="unit_iron" count="40"/>
     </recipe>

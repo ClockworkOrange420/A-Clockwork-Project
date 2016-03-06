@@ -10932,5 +10932,14 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
+	<item id="1000" name="Barbed_Wire">
+        <property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+        <property name="Material" value="metal" />
+		<property name="Weight" value="40" />
+        <property name="HoldType" value="45" />
+        <property name="Stacknumber" value="1" />
+		<property name="Group" value="Resources" />
+    </item>
     
 </items>
