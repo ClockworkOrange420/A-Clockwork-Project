@@ -771,7 +771,6 @@
     <recipe name="cobblestoneFrame" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="hammer" >
         <ingredient name="wood" count="5"/>
         <ingredient name="Cordage" count="1"/>
-		<ingredient name="nail" count="5"/>
     </recipe>
 	
 	
