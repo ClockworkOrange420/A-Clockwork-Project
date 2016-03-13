@@ -786,7 +786,7 @@
     </recipe>
 	-->
 
-    <recipe name="cobblestones" count="1" scrapable="False" craft_area="Crafting_Table" >
+    <recipe name="cobblestones" count="1" scrapable="False" craft_area="Crafting_Table" craft_tool="Chisel">
         <ingredient name="clayLump" count="1"/>
         <ingredient name="rockSmall" count="1"/>
     </recipe>
