@@ -2415,308 +2415,308 @@
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="ak47Schematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="hammerSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="huntingKnifeBook" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="pistolBook" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="pumpShotgunSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="ammunitionNationBook" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="shotgunShellSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="theEnforcerMagazine" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="smgSchematics" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="leatherTanning" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="ironHelmetSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="ironChestArmorSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="ironLegArmorSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="ironBootsSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="ironGlovesSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="sledgehammerSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="macDyverBook" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="huntingRifleSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="sniperRifleSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="setInConcrete" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="minibikesForDumbshits" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="theRiddleOfSteel" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="herbalAntibioticsRecipe" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="shotgunSlugSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="762mmBulletSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="10mmBulletSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="9mmBulletSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="handleBarsSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="leatherBootsSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="leatherPantsSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="leatherJacketSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="leatherHoodSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="leatherGlovesSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="firstAidKitSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="gasCanSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="clubSpikedSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="sawedoffPumpShotgunSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="flamingArrowSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="augerSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="wrenchSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="crossbowSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="explodingCrossbowBoltSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="rocketLauncherSchematic" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
         <ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="book" count="1"/>
-		<ingredient name="Schematic_Page" count="10"/>
+		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
 	<recipe name="omnigel" count="100" scrapable="False" craft_area="Omnigel_Station" craft_tool="beaker" >
