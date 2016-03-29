@@ -291,7 +291,7 @@ then add recipes for those white/red/green metals
 	<drop event="Fall" name="fertileDirt" count="1" prob="0.4"  stick_chance=".25" />
 	<property name="CanMobsSpawnOn" value="true" />
 </block>
-<!-- commenting out for optimization
+
 <block id="21" name="gore">
     	<property name="IsDeveloper" value="true" />
 	<property name="Class" value="Gore" />
@@ -306,7 +306,7 @@ then add recipes for those white/red/green metals
 	<drop event="Destroy" count="0" prob="1" />
 	<property name="UpgradeRated.ToBlock" value="air" />
 	<property name="UpgradeRated.Rate" value="15" />
-</block>-->
+</block>
 
 <block id="22" name="fertileFarmland">
 	<property name="Material" value="Mfarmland" />
@@ -1749,7 +1749,7 @@ group desc for stuff like metal siding
 	<property name="Tag" value="Gore" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="FallDamage" value="false" />
-	<property name="UpgradeRated.ToBlock" value="air" /> <!-- 1=min, 15=max NOTE: 1 tick is approximately a 1 to 2 minute real-time interval. -->
+	<property name="UpgradeRated.ToBlock" value="gore" /> <!-- 1=min, 15=max NOTE: 1 tick is approximately a 1 to 2 minute real-time interval. -->
 	<property name="UpgradeRated.Rate" value="15" /> <!-- 15 is max for the Rate -->
 	<property name="Density" value="0.1" />
 	<property name="HeatMapStrength" value="5"/>
@@ -5526,9 +5526,8 @@ kind of free
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="FallDamage" value="false" />
 		<!-- <property name="UpgradeRated.BlockCombined" value="air" /> -->
-		<property name="UpgradeRated.ToBlock" value="GoreBlock1BonesPrefab" />
+		<property name="UpgradeRated.ToBlock" value="gore" />
 		<property name="UpgradeRated.Rate" value="15" /> <!-- 15 is max for the Rate -->
-	<property name="DowngradeBlock" value="GoreBlock1BonesPrefab" />
 	<drop event="Destroy" count="0" />
 </block>
 
