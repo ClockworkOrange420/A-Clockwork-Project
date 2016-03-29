@@ -13550,7 +13550,7 @@ kind of free
     <property name="IsTerrainDecoration" value="true" />
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
-      <property name="Next" value="plantedGoldenrod3Harvest" />
+      <property name="Next" value="plantedGoldenrod3HarvestLarge" />
       <property name="GrowthRate" value="180" />
       <property name="FertileLevel" value="5" />
       <property name="IsRandom" value="false" />
