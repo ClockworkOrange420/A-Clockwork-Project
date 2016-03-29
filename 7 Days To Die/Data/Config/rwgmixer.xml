@@ -168,7 +168,8 @@
 		<prefab_rule name="cityPois">
 			<prefab rule="signsAndLights" prob="1"/>
 			<prefab rule="cityIndustrial" prob="10" />
-			<prefab rule="cityMisc" prob="10" />
+			<prefab rule="cityMisc" min_count="1" max_count="1" prob="10" />
+			<prefab rule="cityMisc2" min_count="1" max_count="1" prob="10" />
 			<prefab rule="bunkers" min_count="1" max_count="1" prob="20" />
 			<prefab rule="cityhouses" prob="10" />
 			<prefab rule="cityBrickhouses" prob="10" />
@@ -363,6 +364,7 @@
 			<prefab name="parking_lot_03"/>
 		</prefab_rule>
 		<prefab_rule name="parking2">
+			<prefab name="parking_garage_01" min_count="1" max_count="1"/>
 		</prefab_rule>
 		
 		<prefab_rule name="gunStores">
