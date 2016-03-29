@@ -232,7 +232,10 @@
 		</prefab_rule>
 		
 		<prefab_rule name="cityMisc">
-			<prefab rule="parking" min_count="2" max_count="4" />
+			<prefab rule="parking" min_count="1" max_count="1" />
+		</prefab_rule>
+		<prefab_rule name="cityMisc2">
+			<prefab rule="parking2" min_count="1" max_count="1" />
 		</prefab_rule>
 		
 		<prefab_rule name="cityrubble">
@@ -358,7 +361,8 @@
 			<prefab name="parking_lot_01"/>
 			<prefab name="parking_lot_02"/>
 			<prefab name="parking_lot_03"/>
-			<prefab name="parking_garage_01" min_count="1" prob="20"/>
+		</prefab_rule>
+		<prefab_rule name="parking2">
 		</prefab_rule>
 		
 		<prefab_rule name="gunStores">
