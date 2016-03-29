@@ -5536,6 +5536,7 @@ kind of free
 		<property name="UpgradeRated.ToBlock" value="gore" />
 		<property name="UpgradeRated.Rate" value="5" /> <!-- 15 is max for the Rate -->
 	<drop event="Destroy" count="0" />
+	<drop event="Fall" name="gore" count="1" prob="1.0"  stick_chance="1" />
 </block>
 
 <block id="702" name="GoreBlock1BonesPrefab">
