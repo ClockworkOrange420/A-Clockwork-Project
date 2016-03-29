@@ -129,6 +129,7 @@
 		<prefab_rule name="rural_POIs1">
 			<prefab rule="gasStationsRural" min_count="1" max_count="1" prob="20" />
 			<prefab name="business_tan_brick_02" min_count="1" max_count="1"/>
+			<prefab rule="settlements" max_count="1"/>
 			<prefab rule="oldWesternShop" min_count="1" max_count="1" />
 			<prefab rule="oldWesternHotel" min_count="1" max_count="1" />
 		</prefab_rule>
