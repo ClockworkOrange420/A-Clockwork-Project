@@ -387,29 +387,39 @@
 	<perk name="Stage 1 Tool Crafting" icon="tool_smithing" description_key="StageOneToolDesc" title_key="StageOneToolCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
 		<requirement skill_level="1" required_skill_name="Tool Smithing" required_skill_level="10"/>
 		<recipe name="fireaxeIron" unlock_level="1"/>
+		<recipe name="pickaxeIron" unlock_level="1"/>
+		<recipe name="shovelIron" unlock_level="1"/>
 		<recipe name="hoeIron" unlock_level="1"/>
 	</perk>
 	<perk name="Stage 2 Tool Crafting" icon="tool_smithing" description_key="StageTwoToolDesc" title_key="StageTwoToolCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
 		<requirement skill_level="1" required_skill_name="Tool Smithing" required_skill_level="20"/>
-		<recipe name="pickaxeIron" unlock_level="1"/>
-		<recipe name="shovelIron" unlock_level="1"/>
+		<recipe name="clawHammer" unlock_level="1"/>
+		<recipe name="wrench" unlock_level="1"/>
 	</perk>
 	<perk name="Stage 3 Tool Crafting" icon="tool_smithing" description_key="StageThreeToolDesc" title_key="StageThreeToolCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
 		<requirement skill_level="1" required_skill_name="Tool Smithing" required_skill_level="30"/>
-		<recipe name="clawHammer" unlock_level="1"/>
+		<recipe name="pickaxeSteel" unlock_level="1"/>
 		<recipe name="fireaxeSteel" unlock_level="1"/>
 		<recipe name="shovelSteel" unlock_level="1"/>
 	</perk>
 	<perk name="Stage 4 Tool Crafting" icon="tool_smithing" description_key="StageFourToolDesc" title_key="StageFourToolCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
 		<requirement skill_level="1" required_skill_name="Tool Smithing" required_skill_level="40"/>
-		<recipe name="wrench" unlock_level="1"/>
-		<recipe name="pickaxeSteel" unlock_level="1"/>
+		<recipe name="nailgun" unlock_level="1"/>
+		<recipe name="calipers" unlock_level="1"/>
+		<recipe name="toolAndDieSet" unlock_level="1"/>
 	</perk>
 	<perk name="Stage 5 Tool Crafting" icon="tool_smithing" description_key="StageFiveToolDesc" title_key="StageFiveToolCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
 		<requirement skill_level="1" required_skill_name="Tool Smithing" required_skill_level="50"/>
-		<recipe name="nailgun" unlock_level="1"/>
 		<recipe name="chainsaw" unlock_level="1"/>
+		<recipe name="partsChainsaw_parts" unlock_level="1"/>
+		<recipe name="partsChainsaw_blade" unlock_level="1"/>
 		<recipe name="auger" unlock_level="1"/>
+		<recipe name="partsAuger_parts" unlock_level="1"/>
+		<recipe name="partsAuger_blade" unlock_level="1"/>
+	</perk>
+	<perk name="Stage 6 Tool Crafting" icon="tool_smithing" description_key="StageSixToolDesc" title_key="StageSixToolCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
+		<requirement skill_level="1" required_skill_name="Tool Smithing" required_skill_level="60"/>
+		<recipe name="smallEngine" unlock_level="1"/>
 	</perk>
 	
 	<!--Minibike Unlock-->
@@ -491,7 +501,7 @@
 	</perk>
 	
 	<perk name="Steel Smithing" icon="resource" description_key="steelSmithingDesc" title_key="steelSmithing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
-		<requirement skill_level="1" required_skill_name="Miscellaneous Crafting" required_skill_level="40"/>
+		<requirement skill_level="1" required_skill_name="Miscellaneous Crafting" required_skill_level="30"/>
 		<recipe name="forgedSteel" unlock_level="1"/>
 	</perk>
 	
