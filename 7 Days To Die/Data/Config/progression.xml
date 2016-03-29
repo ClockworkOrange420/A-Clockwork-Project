@@ -524,7 +524,6 @@
 		<requirement perk_level="3" required_skill_name="Blade Weapons" required_skill_level="40"/>
 		<requirement perk_level="4" required_skill_name="Blade Weapons" required_skill_level="60"/>
 		<requirement perk_level="5" required_skill_name="Blade Weapons" required_skill_level="80"/>
-		<trigger name="Blade Weapons"/>
 		<effect name="EntityDamage">
 			<multiply skill_level="1" value="1.1125"/>
 			<multiply skill_level="2" value="1.225"/>
@@ -538,7 +537,6 @@
 		<requirement perk_level="1" required_skill_name="Blade Weapons" required_skill_level="50"/>
 		<requirement perk_level="2" required_skill_name="Blade Weapons" required_skill_level="75"/>
 		<requirement perk_level="3" required_skill_name="Blade Weapons" required_skill_level="100"/>
-		<trigger name="Blade Weapons"/>
 		<effect name="DismembermentChance">
 			<add skill_level="1" value="0.1"/>
 			<add skill_level="2" value="0.2"/>
@@ -552,7 +550,6 @@
 		<requirement perk_level="3" required_skill_name="Pistols" required_skill_level="40"/>
 		<requirement perk_level="4" required_skill_name="Pistols" required_skill_level="60"/>
 		<requirement perk_level="5" required_skill_name="Pistols" required_skill_level="80"/>
-		<trigger name="Pistols"/>
 		<effect name="EntityDamage">
 			<multiply skill_level="1" value="1.1125"/>
 			<multiply skill_level="2" value="1.225"/>
@@ -566,7 +563,6 @@
 		<requirement perk_level="1" required_skill_name="Pistols" required_skill_level="50"/>
 		<requirement perk_level="2" required_skill_name="Pistols" required_skill_level="75"/>
 		<requirement perk_level="3" required_skill_name="Pistols" required_skill_level="100"/>
-		<trigger name="Pistols"/>
 		<effect name="DismembermentChance">
 			<add skill_level="1" value="0.1"/>
 			<add skill_level="2" value="0.2"/>
@@ -580,7 +576,6 @@
 		<requirement perk_level="3" required_skill_name="Shotguns" required_skill_level="40"/>
 		<requirement perk_level="4" required_skill_name="Shotguns" required_skill_level="60"/>
 		<requirement perk_level="5" required_skill_name="Shotguns" required_skill_level="80"/>
-		<trigger name="Shotguns"/>
 		<effect name="EntityDamage">
 			<multiply skill_level="1" value="1.1125"/>
 			<multiply skill_level="2" value="1.225"/>
@@ -594,7 +589,6 @@
 		<requirement perk_level="1" required_skill_name="Shotguns" required_skill_level="50"/>
 		<requirement perk_level="2" required_skill_name="Shotguns" required_skill_level="75"/>
 		<requirement perk_level="3" required_skill_name="Shotguns" required_skill_level="100"/>
-		<trigger name="Shotguns"/>
 		<effect name="DismembermentChance">
 			<add skill_level="1" value="0.1"/>
 			<add skill_level="2" value="0.2"/>
@@ -608,7 +602,6 @@
 		<requirement perk_level="3" required_skill_name="Rifles" required_skill_level="40"/>
 		<requirement perk_level="4" required_skill_name="Rifles" required_skill_level="60"/>
 		<requirement perk_level="5" required_skill_name="Rifles" required_skill_level="80"/>
-		<trigger name="Rifles"/>
 		<effect name="EntityDamage">
 			<multiply skill_level="1" value="1.1125"/>
 			<multiply skill_level="2" value="1.225"/>
@@ -691,7 +684,6 @@
 		<requirement perk_level="3" required_skill_name="Blunt Weapons" required_skill_level="40"/>
 		<requirement perk_level="4" required_skill_name="Blunt Weapons" required_skill_level="60"/>
 		<requirement perk_level="5" required_skill_name="Blunt Weapons" required_skill_level="80"/>
-		<trigger name="Blunt Weapons"/>
 		<effect name="EntityDamage">
 			<multiply skill_level="1" value="1.1125"/>
 			<multiply skill_level="2" value="1.225"/>
@@ -707,7 +699,6 @@
 		<requirement perk_level="3" required_skill_name="Mining Tools" required_skill_level="40"/>
 		<requirement perk_level="4" required_skill_name="Mining Tools" required_skill_level="60"/>
 		<requirement perk_level="5" required_skill_name="Mining Tools" required_skill_level="80"/>
-		<trigger name="Mining Tools"/>
 		<effect name="BlockDamage">
 			<multiply skill_level="1" value="1.2"/>
 			<multiply skill_level="2" value="1.4"/>
