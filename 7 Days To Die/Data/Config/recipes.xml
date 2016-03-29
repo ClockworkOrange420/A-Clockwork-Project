@@ -2262,7 +2262,7 @@
 		<ingredient name="corn" count="1"/>
 	</recipe>
 
-	<recipe name="cottonSeed" count="2" scrapable="False">
+	<recipe name="cottonSeed" count="1" scrapable="False">
 		<ingredient name="plantedCotton3Harvest" count="1"/>
 	</recipe>
 
@@ -2430,7 +2430,7 @@
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 
-	<recipe name="goldenrodSeed" count="2" scrapable="False">
+	<recipe name="goldenrodSeed" count="1" scrapable="False">
 		<ingredient name="plantedGoldenrod3Harvest" count="1"/>
 	</recipe>
 
