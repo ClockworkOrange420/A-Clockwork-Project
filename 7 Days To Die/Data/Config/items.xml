@@ -8173,7 +8173,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_health" value="5" />
             <property name="Gain_food" value="25" />
             <property name="Gain_water" value="5" />
-            <property name="Gain_wellness" value="2" />
+            <property name="Gain_wellness" value="1" />
             <property name="Sound_start" value="UseActions/player_drinking" />
 			<property name="Create_item" value="emptyJar" />
         </property>
@@ -8208,7 +8208,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_health" value="5" />
             <property name="Gain_food" value="20" />
             <property name="Gain_water" value="5" />
-            <property name="Gain_wellness" value="1.6" />
+            <property name="Gain_wellness" value="1" />
             <property name="Sound_start" value="UseActions/player_drinking" />
 			<property name="Create_item" value="emptyJar" />
         </property>
