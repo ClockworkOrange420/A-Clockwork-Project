@@ -1807,7 +1807,7 @@
 
 	<recipe name="bellows" count="1" scrapable="False">
 		<ingredient name="wood" count="8"/>
-		<ingredient name="animalHide" count="24"/>
+		<ingredient name="animalHide" count="20"/>
 		<ingredient name="shortMetalPipe" count="1"/>
 	</recipe>
 
