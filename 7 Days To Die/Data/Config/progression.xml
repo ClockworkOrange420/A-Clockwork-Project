@@ -307,7 +307,7 @@
 		<recipe name="clubSpiked" unlock_level="1"/>
 	</perk>
 	<perk name="Steel Spear Crafting" icon="knife" description_key="SteelSpearDesc" title_key="SteelSpearCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
-		<requirement skill_level="1" required_skill_name="Weapon Smithing" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="Weapon Smithing" required_skill_level="30"/>
 		<recipe name="steelTippedSpear" unlock_level="1"/>
 	</perk>
 	<perk name="Sledgehammer Crafting" icon="club" description_key="SledgehammerDesc" title_key="SledgehammerCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
@@ -436,8 +436,6 @@
 	</perk>
 	<perk name="Stage 1 Armor Smithing" icon="forge" description_key="StageOneArmorSmithingDesc" title_key="StageOneArmorSmithing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
 		<requirement skill_level="1" required_skill_name="Armor Smithing" required_skill_level="10"/>
-		<requirement skill_level="2" required_skill_name="Armor Smithing" required_skill_level="20"/>
-		<requirement skill_level="3" required_skill_name="Armor Smithing" required_skill_level="30"/>
 		<recipe name="scrapBoots" unlock_level="1"/>
 		<recipe name="scrapLegArmor" unlock_level="1"/>
 		<recipe name="scrapChestArmor" unlock_level="1"/>
@@ -474,7 +472,7 @@
 		<recipe name="antibiotics" unlock_level="3"/>
 	</perk>
 	
-	<perk name="Chemical Crafting" icon="medical" description_key="ChemicalCraftingDesc" title_key="ChemicalCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
+	<perk name="Chemical Crafting" icon="science" description_key="ChemicalCraftingDesc" title_key="ChemicalCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
 		<requirement skill_level="1" required_skill_name="Science" required_skill_level="20"/>
 		<requirement skill_level="2" required_skill_name="Science" required_skill_level="30"/>
 		<recipe name="grainAlcohol" unlock_level="1"/>
