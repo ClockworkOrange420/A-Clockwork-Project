@@ -836,6 +836,7 @@
 	<item name="smallEngine"/>
 	<item name="pickaxeSteel" />
 	<item name="fireaxeSteel" />
+	<item name="shovelSteel" />
 	<item name="calipers" prob="0.05" />
 	<item name="toolAndDieSet" prob="0.05" />
 </lootgroup>

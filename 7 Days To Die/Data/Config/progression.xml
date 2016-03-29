@@ -398,6 +398,7 @@
 		<requirement skill_level="1" required_skill_name="Tool Smithing" required_skill_level="30"/>
 		<recipe name="clawHammer" unlock_level="1"/>
 		<recipe name="fireaxeSteel" unlock_level="1"/>
+		<recipe name="shovelSteel" unlock_level="1"/>
 	</perk>
 	<perk name="Stage 4 Tool Crafting" icon="tool_smithing" description_key="StageFourToolDesc" title_key="StageFourToolCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
 		<requirement skill_level="1" required_skill_name="Tool Smithing" required_skill_level="40"/>
