@@ -481,7 +481,7 @@
 	</perk>
 	
 	<perk name="Leather Tanning" icon="resource" description_key="LeatherTanningDesc" title_key="LeatherTanning" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
-		<requirement skill_level="1" required_skill_name="Leatherworking" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="Leatherworking" required_skill_level="1"/>
 		<recipe name="leather" unlock_level="1"/>
 	</perk>
 	
