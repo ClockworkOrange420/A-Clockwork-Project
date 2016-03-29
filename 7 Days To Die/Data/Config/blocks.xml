@@ -13462,7 +13462,7 @@ kind of free
     <property name="CanDecorateOnSlopes" value="true" />
     <property name="IsTerrainDecoration" value="true" />
     <property class="PlantGrowing">
-      <property name="Next" value="plantedCotton3Harvest" />
+      <property name="Next" value="plantedCotton3HarvestLarge" />
       <property name="GrowthRate" value="180" />
       <property name="IsRandom" value="false" />
       <property name="FertileLevel" value="1" />
