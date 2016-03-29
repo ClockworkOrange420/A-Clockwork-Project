@@ -8273,7 +8273,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         <property name="Meshfile" value="Items/Food/seed_blueberryPrefab" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="21" />
-		<property name="CustomIcon" value="pineSeed" />
+		<property name="CustomIcon" value="cottonSeed" />
         <property class="Action1">
             <!-- UseAction -->
             <property name="Class" value="PlaceAsBlock" />
