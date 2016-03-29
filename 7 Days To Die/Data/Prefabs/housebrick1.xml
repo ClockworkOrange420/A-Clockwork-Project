@@ -6,7 +6,7 @@
     <property name="RotationToFaceNorth" value="2" />
     <property name="AllowedTownships" value="city,town,rural" />
     <property name="Condition" value="Old" />
-    <property name="AllowedBiomes" value="plains,forest,pine_forest,snow,wasteland_hub" />
+    <property name="AllowedBiomes" value="plains,forest,pine_forest" />
     <property name="StaticSpawner.Class" value="SpawnSmall" />
     <property name="StaticSpawner.Size" value="32,2,32" />
     <property name="StaticSpawner.Trigger" value="160" />

@@ -1,5 +1,5 @@
 <xui>
-	<ruleset name="default" scale="1.255">
+	<ruleset name="default" scale="1.255" stackpanel_scale="1.05">
 	
 		<window_group name="crafting" controller="XUiC_CraftingWindowGroup">
 			<window name="windowCraftingList"/>
@@ -118,6 +118,23 @@
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		
+		<window_group name="workstation_cementMixer" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>		
+		
+		<window_group name="workstation_workbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsCraftingTable" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
 		<window_group name="looting" left_panel_valign_top="false" controller="XUiC_LootWindowGroup">
 			<window name="windowLooting"/>
 			<window name="windowNonPagingHeader" />
@@ -151,6 +168,14 @@
 			<window name="popupMenu" />
 		</window_group>
 		
+		<window_group name="tipWindow">
+			<window name="windowTip" />
+		</window_group>
+		
+		<window_group name="questOffer">
+			<window name="windowQuestOffer" />
+		</window_group>
+		
 		<window_group name="timer">
 			<window name="windowTimer"/>
 		</window_group>
@@ -159,6 +184,7 @@
 			<window name="windowToolbelt" anchor="CenterBottom" />
 			<window name="HUDLeftStatBars" anchor="LeftBottom" />
 			<window name="HUDRightStatBars" anchor="RightBottom" />
+			<window name="windowQuestTracker" anchor="RightTop" />
 			<!--Modded-->
 			<window name="windowToolbeltNumbersHUD" />
 			<!--End-->
@@ -180,7 +206,6 @@
 			<window name="mapAreaSetWaypoint" />		<!-- keep this on top -->
 			<window name="mapAreaChooseWaypoint" />		<!-- keep this on top -->
 			<window name="mapAreaEnterWaypointName" />	<!-- keep this on top -->
-			<window name="mapStats" />
 			<window name="mapArea" />
 			<window name="mapTracking" />
 			<window name="mapInvites" />
@@ -202,7 +227,23 @@
 		<window_group name="skills" controller="XUiC_SkillWindowGroup">
 			<window name="windowSkillList"/>
 			<window name="windowSkillInfo"/>
-			<window name="windowSkillStats"/>
+			<!-- <window name="windowSkillStats"/> -->
+		</window_group>
+		
+		<window_group name="quests" controller="XUiC_QuestWindowGroup">
+			<window name="windowQuestList" />
+			<window name="windowQuestDescription" />
+			<window name="windowQuestObjectives" />
+			<window name="windowQuestRewards" />
+		</window_group>
+		
+		<window_group name="profiles">
+			<window name="windowArchetypePreview"/>
+		</window_group>
+		
+		<window_group name="archetypes" controller="XUiC_ArchetypesWindowGroup" stack_panel_y_offset="332">
+			<window name="windowArchetypePreview2"/>
+			<window name="windowSliders"/>
 		</window_group>
 	</ruleset>
 </xui>

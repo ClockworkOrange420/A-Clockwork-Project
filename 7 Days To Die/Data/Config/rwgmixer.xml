@@ -3,7 +3,7 @@
 	<world ruleset="vanilla" />
 	
 	<rulesets>
-		<ruleset name="vanilla" cell_cache_size="8" cell_size="1800" cell_offset="0.1" generation_distance="25000">
+		<ruleset name="vanilla" cell_cache_size="8" cell_size="1800" cell_offset="0.1" generation_distance="100000">
 			<cell_rule name="wastelandCity" position="0,0" />
 			<cell_rule name="medDensity" prob="1"/>
 			<cell_rule name="highDensity" prob="0.5"/>
@@ -117,6 +117,7 @@
 			<prefab rule="militaryCamps" prob="0.07"/>
 			<prefab rule="waterPOIs" prob="0.12"/>
 			<prefab rule="bunkers2" prob="0.12"/>
+			<prefab rule="wildernessMisc" prob="0.12"/>
 			<prefab rule="countryHousing" prob="0.10"/>
 			<prefab rule="campsites" prob="0.12"/>
 			<prefab rule="churches" prob="0.02"/>
@@ -131,6 +132,9 @@
 			<prefab rule="oldWesternShop" min_count="1" max_count="1" />
 			<prefab rule="oldWesternHotel" min_count="1" max_count="1" />
 		</prefab_rule>
+		<prefab_rule name="rural_POIs2">
+			<prefab rule="settlements"/>
+		</prefab_rule>
 		
 		<prefab_rule name="small_POIs"><!--
 			<prefab rule="signsAndLights" prob="0.75"/>
@@ -141,6 +145,10 @@
 			<prefab rule="bookStores" min_count="1" max_count="1" />
 			<prefab rule="gunStores" min_count="1" max_count="1" />
 			<prefab rule="hardwareStores" min_count="1" max_count="1" />-->
+			<prefab rule="banks" max_count="1"/>
+			<prefab rule="diners" max_count="1"/>
+			<prefab rule="settlements" max_count="1"/>
+			<prefab rule="carlots" max_count="1"/>
 			<prefab rule="townBrickhouses" min_count="1" prob="80"/>
 			<prefab rule="townhouses"/>
 			<prefab rule="junk_lots" max_count="1"/>
@@ -165,6 +173,9 @@
 			<prefab rule="cityhouses" prob="10" />
 			<prefab rule="cityBrickhouses" prob="10" />
 			<prefab rule="apartments" min_count="3" max_count="3" prob="10" />
+			<prefab rule="banks" max_count="1"/>
+			<prefab rule="diners" max_count="1"/>
+			<prefab rule="carlots" max_count="1"/>
 			<prefab rule="citystores" prob="20" />
 			<prefab rule="cityrubble" prob="3" />
 		</prefab_rule>
@@ -476,8 +487,19 @@
 			<prefab name="gas_station5" />
 		</prefab_rule>
 		
+		<prefab_rule name="diners">
+			<prefab name="diner_01"/>
+			<prefab name="diner_02"/>
+		</prefab_rule>
+		
+		<prefab_rule name="carlots">
+			<prefab name="carlot_01"/>
+			<prefab name="carlot_02"/>
+		</prefab_rule>
+		
 		<prefab_rule name="factories">
 			<prefab name="utility_waterworks_01" />
+			<prefab name="utility_electric_co_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="ruralSnow">
@@ -528,6 +550,14 @@
 			<prefab name="campsite_07a" />
 		</prefab_rule>
 		
+		<prefab_rule name="settlements">
+			<prefab name="settlement_01" />
+		</prefab_rule>
+		
+		<prefab_rule name="banks">
+			<prefab name="store_bank_lg_01" />
+		</prefab_rule>
+		
 		<prefab_rule name="cabins">
 			<prefab name="cabin_01" />
 			<prefab name="cabin_02_sm" />
@@ -544,6 +574,11 @@
 			<prefab name="pond01" />	
 			<prefab name="water_tower_02" />
 			<prefab name="water_tower_01" />
+		</prefab_rule>
+		
+		<prefab_rule name="wildernessMisc">
+			<prefab name="utility_celltower_01" />
+			<prefab name="utility_celltower_02" />
 		</prefab_rule>
 		
 		<prefab_rule name="militaryCamps">

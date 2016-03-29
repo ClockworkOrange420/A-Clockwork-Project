@@ -10,4 +10,5 @@
     <property name="StaticSpawner.Size" value="32,2,32" />
     <property name="StaticSpawner.Trigger" value="160" />
     <property name="Condition" value="New" />
+	<property name="YOffset" value="-1" />
 </prefab>
