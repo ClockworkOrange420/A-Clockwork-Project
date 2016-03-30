@@ -86,18 +86,19 @@
 	</wilderness_rules>
 	
 	<prefab_rules>
-	<!--
+	
 		<prefab_rule name="none"/>
-		-->
+		
 		<prefab_rule name="rurals">
 			<prefab rule="rural_POIs1" prob="1"/>
 		</prefab_rule>
 		
 		<prefab_rule name="Small">
+			<prefab_rule name="none"/>
 			<prefab rule="small_POIs" />
 			<prefab rule="townIndustrial" min_count="1" max_count="1" />
 			<prefab rule="townstores2" min_count="1" max_count="1" />
-			<prefab rule="townstores3" min_count="1" max_count="1" />
+			<prefab rule="townstores" min_count="1" max_count="1" />
 		</prefab_rule>
 		
 		<prefab_rule name="Large">
@@ -112,6 +113,7 @@
 		<prefab_rule name="wildernessPOIs">
 			<path_material value="gravel" /> 
 			<path_radius value="2" />
+			<prefab_rule name="none"/>
 			<prefab rule="abandoned_houses" prob="0.12"/>				
 			<prefab name="indian_burial_grounds_01" prob="0.02"/>			
 			<prefab rule="militaryCamps" prob="0.07"/>
@@ -127,6 +129,7 @@
 		</prefab_rule>
 		
 		<prefab_rule name="rural_POIs1">
+			<prefab_rule name="none"/>
 			<prefab rule="gasStationsRural" min_count="1" max_count="1" prob="20" />
 			<prefab name="business_tan_brick_02" min_count="1" max_count="1"/>
 			<prefab rule="settlements" max_count="1"/>
@@ -146,10 +149,8 @@
 			<prefab rule="bookStores" min_count="1" max_count="1" />
 			<prefab rule="gunStores" min_count="1" max_count="1" />
 			<prefab rule="hardwareStores" min_count="1" max_count="1" />-->
-			<prefab rule="banks" max_count="1"/>
-			<prefab rule="diners" max_count="1"/>
-			<prefab rule="settlements" max_count="1"/>
-			<prefab rule="carlots" max_count="1"/>
+			<prefab_rule name="none"/>
+			<prefab rule="diners" min_count="1" max_count="1"/>
 			<prefab rule="townBrickhouses" min_count="1" prob="80"/>
 			<prefab rule="townhouses"/>
 			<prefab rule="junk_lots" max_count="1"/>
@@ -167,6 +168,7 @@
 		</prefab_rule>
 		
 		<prefab_rule name="cityPois">
+			<prefab_rule name="none"/>
 			<prefab rule="signsAndLights" prob="1"/>
 			<prefab rule="cityIndustrial" prob="10" />
 			<prefab rule="cityMisc" min_count="1" max_count="1" prob="10" />
@@ -183,6 +185,7 @@
 		</prefab_rule>
 		
 		<prefab_rule name="cityIndustrial">
+			<prefab_rule name="none"/>
 			<prefab rule="policeOffices" min_count="1" prob="1" />
 			<prefab rule="governmentOffices" min_count="1" prob="1" />
 			<prefab rule="factories" min_count="1" max_count="1" prob="2" />
@@ -193,6 +196,7 @@
 		</prefab_rule>
 		
 		<prefab_rule name="cityhouses">
+			<prefab_rule name="none"/>
 			<prefab rule="lowerClassHousing" prob="4" />
 			<prefab rule="middleClassHousing" prob="7" />
 			<prefab rule="upperClassHousing" prob="8" />
@@ -201,13 +205,15 @@
 			<prefab rule="burntHousing" min_count="3" prob="2" />
 		</prefab_rule>
 		<prefab_rule name="townhouses">
-			<prefab rule="townupperClassHousing" prob="0.4" />
+			<prefab_rule name="none"/>
+			<prefab rule="townupperClassHousing" max_count="2" prob="0.4" />
 			<prefab rule="lowerClassHousing" prob="0.3" />
 			<prefab rule="middleClassHousing" prob="0.2" />
 			<prefab rule="trailerPark" prob="0.1" />
 		</prefab_rule>
 		
 		<prefab_rule name="cityBrickhouses">
+			<prefab_rule name="none"/>
 			<prefab rule="businessBrick" min_count="5" max_count="6" />
 			<prefab rule="businessTan" min_count="5" max_count="6" />
 		</prefab_rule>
@@ -216,6 +222,7 @@
 		</prefab_rule>
 		
 		<prefab_rule name="citystores">
+			<prefab_rule name="none"/>
 			<prefab rule="hardwareStores" min_count="1" max_count="1" prob="20" />			
 			<prefab rule="gunStores" min_count="1" max_count="1" prob="20" />
 			<prefab rule="gasStations" min_count="1" max_count="2" prob="20" />
@@ -241,6 +248,7 @@
 		</prefab_rule>
 		
 		<prefab_rule name="cityrubble">
+			<prefab_rule name="none"/>
 			<prefab rule="rubbleBuildingsWhite"/>
 			<prefab rule="rubbleBuildingsRed"/>
 			<prefab rule="rubbleBuildingsTan"/>
@@ -249,6 +257,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="countryHousing">
+			<prefab_rule name="none"/>
 			<prefab name="houseranchwhite1"/>
 			<prefab name="houseranchtan1"/>
 			<prefab name="houseranchtan2"/>
@@ -256,6 +265,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="burntHousing">
+			<prefab_rule name="none"/>
 			<prefab name="houseburnt1"/>
 			<prefab name="houseburnt_deco1"/>
 			<prefab name="houseburnt2"/>
@@ -270,6 +280,7 @@
 		</prefab_rule>
 		
 		<prefab_rule name="trailerPark">
+			<prefab_rule name="none"/>
 			<prefab name="house_trailer_blue_01"/>
 			<prefab name="house_trailer_burnt_01"/>
 			<prefab name="house_trailer_burnt_01_intact"/>
@@ -280,6 +291,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="lowerClassHousing">
+			<prefab_rule name="none"/>
 			<prefab name="housewhite1basement"/>
 			<prefab name="housewhitepyramid3"/>
 			<prefab name="houseyellowpyramid3"/>
@@ -289,6 +301,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="middleClassHousing">
+			<prefab_rule name="none"/>
 			<prefab name="houseyellow1"/>
 			<prefab name="housegreen1"/>
 			<prefab name="houseblue1"/>
@@ -301,6 +314,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="upperClassHousing">
+			<prefab_rule name="none"/>
 			<prefab name="house_new_mansion_01" />
 			<prefab name="house_new_mansion_02" />
 			<prefab name="house_new_mansion_03" />
@@ -310,6 +324,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="businessBrick">
+			<prefab_rule name="none"/>
 			<prefab name="business_red_brick_01" />
 			<prefab name="business_red_brick_02" />
 			<prefab name="business_red_brick_03" />
@@ -318,6 +333,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="businessTan">
+			<prefab_rule name="none"/>
 			<prefab name="business_tan_brick_01" />
 			<prefab name="business_tan_brick_02" />
 			<prefab name="business_tan_brick_03" />
@@ -326,6 +342,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="garages">
+			<prefab_rule name="none"/>
 			<prefab name="garagebrick"/>
 			<prefab name="garageblue1"/>
 			<prefab name="garageyellow1"/>
@@ -337,6 +354,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="signsAndLights">
+			<prefab_rule name="none"/>
 			<prefab name="street_light_02"/>
 			<prefab name="sign_slow" prob="0.25"/>
 			<prefab name="sign_speed_25" prob="0.25"/>
@@ -347,6 +365,7 @@
 		</prefab_rule>
 		
 		<prefab_rule name="apartments">
+			<prefab_rule name="none"/>
 			<prefab name="apartment_adobe_red_5_flr" />
 			<prefab name="apartment_brick_6_flr" />
 		</prefab_rule>
@@ -360,6 +379,7 @@
 		</prefab_rule>
 		
 		<prefab_rule name="parking">
+			<prefab_rule name="none"/>
 			<prefab name="parking_lot_01"/>
 			<prefab name="parking_lot_02"/>
 			<prefab name="parking_lot_03"/>
@@ -369,6 +389,7 @@
 		</prefab_rule>
 		
 		<prefab_rule name="gunStores">
+			<prefab_rule name="none"/>
 			<prefab name="store_gun_sm_01" />
 			<prefab name="store_gun_lg_01" />
 		</prefab_rule>
@@ -386,21 +407,25 @@
 		</prefab_rule>
 		
 		<prefab_rule name="hardwareStores">
+			<prefab_rule name="none"/>
 			<prefab name="store_hardware_sm_01" />
 			<prefab name="store_hardware_lg_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="bookStores">
+			<prefab_rule name="none"/>
 			<prefab name="store_book_sm_01" />
 			<prefab name="store_book_lg_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="groceryStores">
+			<prefab_rule name="none"/>
 			<prefab name="store_grocery_lg_01" />
 			<prefab name="store_grocery_sm_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="cityBlocks">
+			<prefab_rule name="none"/>
 			<prefab name="rg_waste_hub_blk_quartered"/>
 			<prefab name="rg_waste_hub_blk_half"/>
 			<prefab name="rg_waste_hub_blk_t"/>
@@ -408,12 +433,14 @@
 		</prefab_rule>
 		
 		<prefab_rule name="rubbleBuildingsWhite">
+			<prefab_rule name="none"/>
 			<prefab name="mp_waste_bldg_01_white" min_count="3" max_count="3"/>
 			<prefab name="mp_waste_bldg_03_white" min_count="3" max_count="3"/>
 			<prefab name="mp_waste_bldg_04_white" min_count="3" max_count="3"/>
 		</prefab_rule>
 		
 		<prefab_rule name="rubbleBuildingsRed">
+			<prefab_rule name="none"/>
 			<prefab name="mp_waste_bldg_01_red" min_count="3" max_count="3"/>
 			<prefab name="mp_waste_bldg_02_red" min_count="3" max_count="3"/>
 			<prefab name="mp_waste_bldg_03_red" min_count="3" max_count="3"/>
@@ -421,6 +448,7 @@
 		</prefab_rule>
 		
 		<prefab_rule name="rubbleBuildingsTan">
+			<prefab_rule name="none"/>
 			<prefab name="mp_waste_bldg_01_tan" min_count="3" max_count="3"/>
 			<prefab name="mp_waste_bldg_02_tan" min_count="3" max_count="3"/>
 			<prefab name="mp_waste_bldg_03_tan" min_count="3" max_count="3"/>
@@ -428,12 +456,14 @@
 		</prefab_rule>
 		
 		<prefab_rule name="rubbleBuildingsGrey">
+			<prefab_rule name="none"/>
 			<prefab name="mp_waste_bldg_04_grey" min_count="3" max_count="3"/>
 			<prefab name="mp_waste_bldg_05_grey" min_count="3" max_count="3"/>
 			<prefab name="mp_waste_bldg_06_grey" min_count="3" max_count="3"/>
 		</prefab_rule>
 		
 		<prefab_rule name="rubbleBuildingsWaste">
+			<prefab_rule name="none"/>
 			<prefab name="waste_rubble_bldg_04" min_count="1" max_count="1"/>
 			<prefab name="waste_rubble_bldg_05" min_count="1" max_count="1"/>
 			<prefab name="waste_rubble_bldg_06" min_count="1" max_count="1"/>
@@ -483,10 +513,12 @@
 		</prefab_rule>
 		
 		<prefab_rule name="gasStationsRural">
+			<prefab_rule name="none"/>
 			<prefab name="gas_station1"/>
 		</prefab_rule>
 		
 		<prefab_rule name="gasStations">
+			<prefab_rule name="none"/>
 			<prefab name="gas_station1" />
 			<prefab name="gas_station2" />
 			<prefab name="gas_station3" />
@@ -495,6 +527,7 @@
 		</prefab_rule>
 		
 		<prefab_rule name="diners">
+			<prefab_rule name="none"/>
 			<prefab name="diner_01"/>
 			<prefab name="diner_02"/>
 		</prefab_rule>
@@ -506,7 +539,6 @@
 		
 		<prefab_rule name="factories">
 			<prefab name="utility_waterworks_01" />
-			<prefab name="utility_electric_co_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="ruralSnow">
