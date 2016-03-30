@@ -196,7 +196,7 @@
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 
@@ -279,7 +279,7 @@
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 </entity_class>
@@ -308,7 +308,7 @@
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 </entity_class>
@@ -335,7 +335,7 @@
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 </entity_class>
@@ -362,7 +362,7 @@
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 </entity_class>
@@ -389,7 +389,7 @@
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 </entity_class>
@@ -416,7 +416,7 @@
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 </entity_class>
@@ -433,7 +433,7 @@
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 </entity_class>
@@ -449,7 +449,7 @@
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 </entity_class>
@@ -468,7 +468,7 @@
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 </entity_class>
@@ -495,7 +495,7 @@
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="1" prob=".3" />
 </entity_class>
@@ -525,7 +525,7 @@
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 	<property name="HeadDismemberThreshold" value="0"/> <!-- if the total damage exceeds that value, there is a chance for dismemberment /> -->
@@ -555,7 +555,7 @@
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="charredMeat" tool_category="Butcher" count="1" prob=".1" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 </entity_class>
@@ -581,7 +581,7 @@
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 </entity_class>
@@ -635,7 +635,7 @@
 	<property name="DeadBodyHitPoints" value="250" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="3" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="5" prob=".3" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="4" prob=".3" />
 </entity_class>
@@ -770,7 +770,7 @@
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="4" />
 	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="4" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="1" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3" prob=".3" />
 	<drop event="Destroy" name="femur" tool_category="Butcher" count="2" />
@@ -891,7 +891,7 @@
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".4" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Destroy" name="femur" tool_category="Butcher" count="2" />
 	<!-- Average harvest results:  stag  5 meat  9 hide  4.5 fat,  pig  6m  7h  6f,  bear 7m  14h  7f -->
 </entity_class>
@@ -964,7 +964,7 @@
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="2" prob=".5" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="2" prob=".5" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Destroy" name="femur" tool_category="Butcher" count="2" />
 </entity_class>
 
@@ -1033,7 +1033,7 @@
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="2" prob=".5" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="2" prob=".5" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Destroy" name="femur" tool_category="Butcher" count="2" />
 </entity_class>
 
@@ -1106,7 +1106,7 @@
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="2" prob=".5" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="2" prob=".5" />
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
-	<drop event="Harvest" name="femur" tool_category="Butcher" count="1" prob=".4" />
+	<drop event="Harvest" name="femur" count="1" />
 	<drop event="Destroy" name="femur" tool_category="Butcher" count="2" />
 </entity_class>
 
