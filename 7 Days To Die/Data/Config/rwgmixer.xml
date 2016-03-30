@@ -115,17 +115,17 @@
 			<path_radius value="2" />
 			<prefab_rule name="none"/>
 			<prefab rule="abandoned_houses" prob="0.12"/>				
-			<prefab name="indian_burial_grounds_01" prob="0.02"/>			
-			<prefab rule="militaryCamps" prob="0.07"/>
+			<prefab name="indian_burial_grounds_01" prob="0.05"/>			
+			<prefab rule="militaryCamps" prob="0.09"/>
 			<prefab rule="waterPOIs" prob="0.12"/>
-			<prefab rule="bunkers2" prob="0.12"/>
-			<prefab rule="wildernessMisc" prob="0.12"/>
+			<prefab rule="bunkers2" prob="0.08"/>
+			<prefab rule="wildernessMisc" prob="0.06"/>
 			<prefab rule="countryHousing" prob="0.10"/>
 			<prefab rule="campsites" prob="0.12"/>
 			<prefab rule="churches" prob="0.02"/>
 			<prefab rule="ruralHotel" prob="0.12" />
 			<prefab rule="cabins" prob="0.12"/>
-			<prefab rule="barnsAndSheds" prob="0.07"/>
+			<prefab rule="barnsAndSheds" prob="0.10"/>
 		</prefab_rule>
 		
 		<prefab_rule name="rural_POIs1">
