@@ -4861,6 +4861,7 @@ kind of free
 	<drop event="Destroy" name="rockSmall" count="12" prob="1" />
 	<drop event="Destroy" name="scrapIron" count="5" prob="1" />
 	<property name="DowngradeBlock" value="rockResourceBroke1" />
+	<drop event="Fall" name="rockResource" count="1" prob="1" stick_chance="1" />
 </block>
 
 <block id="631" name="secureDoorWooden">
@@ -4965,6 +4966,7 @@ kind of free
 	<drop event="Destroy" name="scrapIron" count="5" prob="1" />
 	<property name="DowngradeBlock" value="rockResource02Broke1" />
 	<property name="Collide" value="movement,melee,bullet,rocket" />
+	<drop event="Fall" name="rockResource02" count="1" prob="1" stick_chance="1" />
 </block>
 	<!-- 641 Free -->
 
@@ -5043,6 +5045,7 @@ kind of free
 	<drop event="Destroy" name="rockSmall" count="12" prob="1" />
 	<drop event="Destroy" name="scrapIron" count="5" prob="1" />
 	<property name="DowngradeBlock" value="rockResourceBroke2" />
+	<drop event="Fall" name="rockResourceBroke1" count="1" prob="1" stick_chance="1" />
 </block>
 
 <block id="645" name="rockResourceBroke2">
@@ -5060,6 +5063,7 @@ kind of free
 	<drop event="Harvest" name="scrapIron" count="10" prob="1" />
 	<drop event="Destroy" name="rockSmall" count="12" prob="1" />
 	<drop event="Destroy" name="scrapIron" count="5" prob="1" />
+	<drop event="Fall" name="rockResourceBroke2" count="1" prob="1" stick_chance="1" />
 </block>
 
 <block id="646" name="rockResource02Broke1">
@@ -5078,6 +5082,7 @@ kind of free
 	<drop event="Destroy" name="rockSmall" count="12" prob="1" />
 	<drop event="Destroy" name="scrapIron" count="5" prob="1" />
 	<property name="DowngradeBlock" value="rockResource02Broke2" />
+	<drop event="Fall" name="rockResource02Broke1" count="1" prob="1" stick_chance="1" />
 </block>
 
 <block id="647" name="rockResource02Broke2">
@@ -5096,6 +5101,7 @@ kind of free
 	<drop event="Destroy" name="rockSmall" count="12" prob="1" />
 	<drop event="Destroy" name="scrapIron" count="5" prob="1" />
 	<!-- <property name="DowngradeBlock" value="rockResource02Broke3" />-->
+	<drop event="Fall" name="rockResource02Broke2" count="1" prob="1" stick_chance="1" />
 </block>
 
 <block id="648" name="rockResource02Broke3">
