@@ -5236,7 +5236,7 @@ kind of free
 	<property name="BigDecorationRadius" value="1" />
 	<property name="UpwardsCount" value="0" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="treePlantedMountainPine6m" />
 	<property name="Collide" value="melee" />
@@ -5252,7 +5252,7 @@ kind of free
 	<property name="BigDecorationRadius" value="1" />
 	<property name="UpwardsCount" value="3" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="treePlantedMountainPine8m" />
 	<drop event="Harvest" name="wood" count="100" />
@@ -5267,7 +5267,7 @@ kind of free
 	<property name="BigDecorationRadius" value="1" />
 	<property name="UpwardsCount" value="4" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="treePlantedMountainPine13m" />
 	<drop event="Harvest" name="wood" count="100" />
@@ -5284,7 +5284,7 @@ kind of free
 	<property name="BigDecorationRadius" value="1" />
 	<property name="UpwardsCount" value="5" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="treePlantedMountainPine16m" />
 	<drop event="Harvest" name="wood" count="200" />
@@ -5301,7 +5301,7 @@ kind of free
 	<property name="BigDecorationRadius" value="1" />
 	<property name="UpwardsCount" value="8" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="treePlantedMountainPine19m" />
 	<drop event="Harvest" name="wood" count="200" />
@@ -5318,7 +5318,7 @@ kind of free
 	<property name="BigDecorationRadius" value="1" />
 	<property name="UpwardsCount" value="8" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="treeMountainPine20m" />
 	<drop event="Harvest" name="wood" count="400" />
@@ -5334,7 +5334,7 @@ kind of free
 	<property name="Model" value="Entities/Trees/Prefabs/MountainPine1mPrefab" />
 	<property name="BigDecorationRadius" value="1" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="treePlantedMaple6m" />
 	<property name="Collide" value="melee" />
@@ -5350,7 +5350,7 @@ kind of free
 	<property name="BigDecorationRadius" value="1" />
 	<property name="UpwardsCount" value="3" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="treePlantedMaple13m" />
 	<property name="ParticleOnDeath" value="treeGib_birch_small" />
@@ -5368,7 +5368,7 @@ kind of free
 	<property name="BigDecorationRadius" value="1" />
 	<property name="UpwardsCount" value="6" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="treePlantedMaple15m" />
 	<property name="ParticleOnDeath" value="treeGib_birch_small" />
@@ -5386,7 +5386,7 @@ kind of free
 	<property name="BigDecorationRadius" value="1" />
 	<property name="UpwardsCount" value="7" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="treePlantedMaple17m" />
 	<property name="ParticleOnDeath" value="treeGib_birch" />
@@ -7066,7 +7066,7 @@ kind of free
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.Next" value="treeTallGrassDiagonal" />
 	<property name="PlantGrowing.GrowthRate" value="2" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<drop event="Destroy" name="yuccaFibers" count="1" />
 	<property name="DropScale" value="2" />
@@ -11630,7 +11630,7 @@ kind of free
 	<property name="BigDecorationRadius" value="1" />
 	<property name="UpwardsCount" value="0" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="treePlantedWinterPine6m" />
 	<drop event="Destroy" name="blueSpruceSeed" count="1"/>
@@ -11645,7 +11645,7 @@ kind of free
 	<property name="BigDecorationRadius" value="1" />
 	<property name="UpwardsCount" value="3" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="treePlantedWinterPine13m" />
 	<drop event="Harvest" name="wood" count="100" />
@@ -11672,7 +11672,7 @@ kind of free
 	<property name="BigDecorationRadius" value="1" />
 	<property name="UpwardsCount" value="5" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="treePlantedWinterPine16m" />
 	<drop event="Harvest" name="wood" count="200" />
@@ -11689,7 +11689,7 @@ kind of free
 	<property name="BigDecorationRadius" value="1" />
 	<property name="UpwardsCount" value="8" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.IsRandom" value="true" />
+	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="treePlantedWinterPine19m" />
 	<drop event="Harvest" name="wood" count="200" />
