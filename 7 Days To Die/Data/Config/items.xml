@@ -5513,7 +5513,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Skills_to_gain" value="Gun Smithing,9mm Round Crafting" />
 		-->
 		<property name="Delay" value="1" />
-		<property name="ActionExp" value="100"/>
+		<property name="ActionExp" value="65"/>
 		<property name="ActionExpBonusMultiplier" value="1"/> <!-- When first learned the multiplier is applied. After that only the action exp is applied but it's applied for EACH item in the book. -->
 		<property name="Sound_start" value="Misc/recipe_unlocked" />
 	</property>
@@ -5532,119 +5532,125 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 <item id="910" name="Chemistry_For_Dummies">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Science" />
+		<property name="Recipes_to_learn" value="Science_Skill" />
 	</property>
 </item>
 
 <item id="911" name="Armor_Smithing">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Armor Smithing" />
+		<property name="Recipes_to_learn" value="Armor_Smithing_Skill" />
+		<property name="ActionExp" value="35"/>
+		<property name="ActionExpBonusMultiplier" value="1"/>
 	</property>
 </item>
 
 <item id="912" name="Gun_Smithing">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Gun Smithing" />
+		<property name="Recipes_to_learn" value="Gun_Smithing_Skill" />
 	</property>
 </item>
 
 <item id="920" name="Leatherworking">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Leatherworking" />
+		<property name="Recipes_to_learn" value="Leatherworking_Skill" />
+		<property name="ActionExp" value="35"/>
+		<property name="ActionExpBonusMultiplier" value="1"/>
 	</property>
 </item>
 
 <item id="921" name="Medical_Book">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Medicine" />
+		<property name="Recipes_to_learn" value="Medicine_Skill" />
 	</property>
 </item>
 
 <item id="922" name="Tailoring">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Tailoring" />
+		<property name="Recipes_to_learn" value="Tailoring_Skill" />
+		<property name="ActionExp" value="35"/>
+		<property name="ActionExpBonusMultiplier" value="1"/>
 	</property>
 </item>
 
 <item id="923" name="Tool_Smithing">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Tool Smithing" />
+		<property name="Recipes_to_learn" value="Tool_Smithing_Skill" />
 	</property>
 </item>
 
 <item id="924" name="Weapon_Smithing">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Weapon Smithing" />
+		<property name="Recipes_to_learn" value="Weapon_Smithing_Skill" />
 	</property>
 </item>
 
 <item id="927" name="Archery">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Archery" />
+		<property name="Recipes_to_learn" value="Archery_Skill" />
 	</property>
 </item>
 
 <item id="928" name="Athletics">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Athletics" />
+		<property name="Recipes_to_learn" value="Athletics_Skill" />
 	</property>
 </item>
 
 <item id="931" name="Bladed_Weapons">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Blade Weapons" />
+		<property name="Recipes_to_learn" value="Blade_Weapons_Skill" />
 	</property>
 </item>
 
 <item id="932" name="Blunt_Weapons">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Blunt Weapons" />
+		<property name="Recipes_to_learn" value="Blunt_Weapons_Skill" />
 	</property>
 </item>
 
 <item id="934" name="How_Mining_Works">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Mining Tools" />
+		<property name="Recipes_to_learn" value="Mining_Tools_Skill" />
 	</property>
 </item>
 
 <item id="945" name="Pistols">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Pistols" />
+		<property name="Recipes_to_learn" value="Pistols_Skill" />
 	</property>
 </item>
 
 <item id="946" name="Rifles">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Rifles" />
+		<property name="Recipes_to_learn" value="Rifles_Skill" />
 	</property>
 </item>
 
 <item id="950" name="Shotguns">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Shotguns" />
+		<property name="Recipes_to_learn" value="Shotguns_Skill" />
 	</property>
 </item>
 
 <item id="951" name="Under_Construction">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Skills_to_gain" value="Construction Tools" />
+		<property name="Recipes_to_learn" value="Construction_Tools_Skill" />
 	</property>
 </item>
 <!--
@@ -6507,6 +6513,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Stacknumber" value="250" /> <!-- STK resource -->
 	<property name="Group" value="Chemicals" />
 	<property name="CraftingSkillGroup" value="Science"/>
+	<property name="ActionSkillGroup" value="Science"/>
 </item>
 
 <item id="1367" name="canEmpty">
@@ -8312,6 +8319,83 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         <property name="Stacknumber" value="1" />
 		<property name="Group" value="Resources" />
 		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
+    </item>
+	<item id="1593" name="MasterSkill">
+        <property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+        <property name="Material" value="metal" />
+		<property name="Weight" value="40" />
+        <property name="HoldType" value="45" />
+        <property name="Stacknumber" value="1" />
+		<property name="Group" value="Resources" />
+    </item>
+	<item id="1594" name="Science_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Science"/>
+    </item>
+	<item id="1595" name="Armor_Smithing_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Armor Smithing"/>
+    </item>
+	<item id="1596" name="Athletics_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Athletics"/>
+    </item>
+	<item id="1597" name="Blunt_Weapons_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Blunt Weapons"/>
+    </item>
+	<item id="1598" name="Blade_Weapons_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Blade Weapons"/>
+    </item>
+	<item id="1599" name="Mining_Tools_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Mining Tools"/>
+    </item>
+	<item id="1600" name="Construction_Tools_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Construction Tools"/>
+    </item>
+	<item id="1601" name="Pistols_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Pistols"/>
+    </item>
+	<item id="1602" name="Shotguns_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Shotguns"/>
+    </item>
+	<item id="1603" name="Rifles_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Rifles"/>
+    </item>
+	<item id="1604" name="Archery_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Archery"/>
+    </item>
+	<item id="1605" name="Medicine_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Medicine"/>
+    </item>
+	<item id="1606" name="Weapon_Smithing_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Weapon Smithing"/>
+    </item>
+	<item id="1607" name="Tool_Smithing_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Tool Smithing"/>
+    </item>
+	<item id="1608" name="Gun_Smithing_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Gun Smithing"/>
+    </item>
+	<item id="1609" name="Tailoring_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Tailoring"/>
+    </item>
+	<item id="1610" name="Leatherworking_Skill">
+        <property name="Extends" value="MasterSkill" />
+		<property name="ActionSkillGroup" value="Leatherworking"/>
     </item>
 
 </items>

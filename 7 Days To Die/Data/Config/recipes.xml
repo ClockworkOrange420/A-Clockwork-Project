@@ -992,6 +992,61 @@
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
+	<!--Fake recipes for skill unlocks-->
+	<recipe name="Science_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Armor_Smithing_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Athletics_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Blunt_Weapons_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Blade_Weapons_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Mining_Tools_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Construction_Tools_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Pistols_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Shotguns_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Rifles_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Archery_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Medicine_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Weapon_Smithing_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Tool_Smithing_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Gun_Smithing_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Tailoring_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<recipe name="Leatherworking_Skill" count="1" scrapable="False" craft_area="Crafting_Table">
+        <ingredient name="Ink" count="1"/>
+    </recipe>
+	<!--End of Fake Recipes-->
+	
+	
 	<!--Resources-->
 	
 	<recipe name="Molten_Iron" count="1" scrapable="False" craft_area="forge" material_based="true">
