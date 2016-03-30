@@ -1362,7 +1362,7 @@
 		<item name="egg" count="4" />
 		<item name="feather" count="25" />
 		<item name="Chicken" count="8" />
-		<item group="femur" count="4"/>
+		<item name="femur" count="4"/>
 	</lootgroup>
 	<lootcontainer id="76"  count="1" size="2,2" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest">
 		<item group="chickenCoop" prob="1" />
