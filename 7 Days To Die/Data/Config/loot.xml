@@ -992,7 +992,7 @@
 
 <!-- lootcontainer 6 night stands and dressers, pistol, ammo, magazines, books -->
 <lootcontainer id="6" count="1,2" size="4,3" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="baseTemplate">
-	<item group="clothes" prob="40" />
+	<item group="clothes" prob="20" />
 	<item name="flashlight02"/>
 	<item group="trophyGroup" />
 	<item group="ammo" />
