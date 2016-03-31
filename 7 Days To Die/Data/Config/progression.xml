@@ -428,7 +428,7 @@
 		<requirement skill_level="1" required_skill_name="Tool Smithing" required_skill_level="30"/>
 		<requirement skill_level="1" required_skill_name="Tailoring" required_skill_level="30"/>
 		<requirement skill_level="1" required_skill_name="Leatherworking" required_skill_level="30"/>
-		<requirement skill_level="1" required_skill_name="Miscellaneous Crafting" required_skill_level="30"/>
+		<requirement skill_level="1" required_skill_name="Miscellaneous Crafting" required_skill_level="50"/>
 		<recipe name="minibikeChassis" unlock_level="1"/>
 		<recipe name="minibikeSeat" unlock_level="1"/>
 		<recipe name="minibikeHandlebars" unlock_level="1"/>
@@ -496,12 +496,12 @@
 	</perk>
 	
 	<perk name="Concrete Mixing" icon="resource" description_key="concreteMixingDesc" title_key="concreteMixing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
-		<requirement skill_level="1" required_skill_name="Miscellaneous Crafting" required_skill_level="20"/>
+		<requirement skill_level="1" required_skill_name="Miscellaneous Crafting" required_skill_level="30"/>
 		<recipe name="cementMixer" unlock_level="1"/>
 	</perk>
 	
 	<perk name="Steel Smithing" icon="resource" description_key="steelSmithingDesc" title_key="steelSmithing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
-		<requirement skill_level="1" required_skill_name="Miscellaneous Crafting" required_skill_level="30"/>
+		<requirement skill_level="1" required_skill_name="Miscellaneous Crafting" required_skill_level="50"/>
 		<recipe name="forgedSteel" unlock_level="1"/>
 	</perk>
 	
