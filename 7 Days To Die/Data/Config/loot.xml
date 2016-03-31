@@ -890,7 +890,7 @@
 <lootgroup name="medicine" count="1">
 	<item name="painkillers" />
 	<item name="firstAidBandage" />
-	<item name="Honey_Poultice" />
+	<item name="Honey_Poultice" count="1" prob="0.1" />
 	<item name="bandage" />
 	<item name="emptyJar" />
 	<item name="bloodBag" />
