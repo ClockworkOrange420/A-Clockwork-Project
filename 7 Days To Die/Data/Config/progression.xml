@@ -310,13 +310,13 @@
 		<requirement skill_level="1" required_skill_name="Weapon Smithing" required_skill_level="50"/>
 		<recipe name="steelTippedSpear" unlock_level="1"/>
 	</perk>
-	<perk name="Spiked Club Crafting" icon="club" description_key="SpikedClubDesc" title_key="SpikedClubCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
-		<requirement skill_level="1" required_skill_name="Weapon Smithing" required_skill_level="70"/>
-		<recipe name="clubSpiked" unlock_level="1"/>
-	</perk>
 	<perk name="Hunting Knife Crafting" icon="knife" description_key="huntingKnifeCraftingDesc" title_key="huntingKnifeCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
 		<requirement skill_level="1" required_skill_name="Weapon Smithing" required_skill_level="60"/>
 		<recipe name="huntingKnife" unlock_level="1"/>
+	</perk>
+	<perk name="Spiked Club Crafting" icon="club" description_key="SpikedClubDesc" title_key="SpikedClubCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
+		<requirement skill_level="1" required_skill_name="Weapon Smithing" required_skill_level="70"/>
+		<recipe name="clubSpiked" unlock_level="1"/>
 	</perk>
 	<perk name="Machete Crafting" icon="knife" description_key="MacheteDesc" title_key="MacheteCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" >
 		<requirement skill_level="1" required_skill_name="Weapon Smithing" required_skill_level="90"/>
