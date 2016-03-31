@@ -231,7 +231,8 @@
 			<prefab rule="pharmacies" min_count="1" prob="20" />
 		</prefab_rule>
 		<prefab_rule name="townstores">
-			<prefab name="store_grocery_sm_01"  min_count="1" max_count="1" />
+			<prefab name="store_grocery_sm_01"  min_count="1" max_count="1" prob="0.5" />
+			<prefab rule="bookStores" min_count="1" max_count="1" prob="0.5" />
 		</prefab_rule>
 		<prefab_rule name="townstores2">
 			<prefab name="store_pharmacy_sm_01" min_count="1" max_count="1" />
