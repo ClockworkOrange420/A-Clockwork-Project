@@ -243,7 +243,7 @@
 	<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep" />
 	<property name="WalkType" value="2" />
 	<property name="HandItem" value="handFeralZombie" />
-	<property name="MaxHealth" value="1800" />
+	<property name="MaxHealth" value="2800" />
 	<property name="ExperienceGain" value="2000"/>
 	<property name="LootListOnDeath" value="61" />
 	<property name="PhysicsBody" value="zombieStandardFemale" />
@@ -985,7 +985,7 @@
 	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityAnimalStag" />
 	<property name="CanClimbLadders" value="false" />
 	<!-- General entity properties -->
-	<property name="MaxHealth" value="1800" />
+	<property name="MaxHealth" value="2400" />
 	<property name="MaxViewAngle" value="180" />
 	<property name="WanderSpeed" value="0.25" />
 	<property name="PanicSpeed" value="2.0" />
