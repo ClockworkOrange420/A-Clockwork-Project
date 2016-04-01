@@ -1152,7 +1152,7 @@
 <lootcontainer id="38" count="0,3" size="4,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item name="bottledWater" count="1,2" prob="0.15" />
 	<item name="shamSandwich" prob="0.2" />
-	<item group="cannedfood" />
+	<item group="cannedfood" prob="0.15" />
 	<item name="painkillers" prob="0.1" />
 	<item group="ammo" prob="0.05"/>
 	<item group="pistol+ammo" prob="0.01"/>
