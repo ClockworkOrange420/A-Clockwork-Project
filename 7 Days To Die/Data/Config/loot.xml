@@ -656,6 +656,7 @@
 	<item name="scrapLead" count="1"/>
 	<item name="glue" count="2,6"/>
 	<item name="nail" count="1"/>
+	<item name="airFilter" count="1"/>
 	<item name="casinoCoin" count="1,5"/>
 	<item name="bulletCasing" count="1,10"/>
 	<item name="feather" count="1,3"/>
