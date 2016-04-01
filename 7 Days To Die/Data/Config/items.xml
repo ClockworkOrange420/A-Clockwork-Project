@@ -7187,11 +7187,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Sound_start" value="UseActions/repair_block"/>
             <property name="Allowed_upgrade_items" value="Fertilizer"/>
         </property>
-        <property class="Preview">
-            <property name="Zoom" value="28" />
-            <property name="Pos" value="-0.02,-0.1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
 		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
 	<item id="1504" name="Tomato">
@@ -7211,11 +7206,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="30" />
-            <property name="Pos" value="0,-0.03" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
     <item id="1505" name="Tomato_Seed">
         <property name="Meshfile" value="Items/Food/seed_blueberryPrefab" />
@@ -7228,11 +7218,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Blockname" value="plantTomatoSprout2" />
         </property>
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="25" />
-            <property name="Pos" value="0,-0.05" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1506" name="Chrysanthemum_Seed">
         <property name="Meshfile" value="Items/Food/seed_blueberryPrefab" />
@@ -7244,11 +7229,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Blockname" value="plantChrysanthemumSprout2" />
         </property>
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="25" />
-            <property name="Pos" value="0,-0.05" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1507" name="Wheat_Seed">
         <property name="Meshfile" value="Items/Food/seed_blueberryPrefab" />
@@ -7260,11 +7240,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Blockname" value="plantWheatSprout2" />
         </property>
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="25" />
-            <property name="Pos" value="0,-0.05" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1508" name="Wheat">
         <property name="Meshfile" value="Items/Crafting/plant_fibers" />
@@ -7286,11 +7261,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Blockname" value="plantMushroomSprout2" />
         </property>
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="25" />
-            <property name="Pos" value="0,-0.05" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1510" name="mushroomGrilled">
         <property name="Meshfile" value="Items/Food/vegetable_potato_bakedPrefab" />
@@ -7311,11 +7281,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="30" />
-            <property name="Pos" value="0,-0.03" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1511" name="cornGrilled">
         <property name="Meshfile" value="Items/Food/corn_cooked" />
@@ -7337,11 +7302,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="28" />
-            <property name="Pos" value="0,-0.2" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1512" name="Yucca_Seed">
         <property name="Meshfile" value="Items/Food/seed_blueberryPrefab" />
@@ -7354,11 +7314,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Blockname" value="plantYuccaSprout2" />
         </property>
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="25" />
-            <property name="Pos" value="0,-0.05" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1513" name="Aloe_Seed">
         <property name="Meshfile" value="Items/Food/seed_blueberryPrefab" />
@@ -7371,11 +7326,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Blockname" value="plantAloeSprout2" />
         </property>
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="25" />
-            <property name="Pos" value="0,-0.05" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1514" name="omnigel">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -7387,11 +7337,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Stacknumber" value="250" />
 		<property name="CraftingIngredientTime" value="3" />
         <property name="Group" value="Resources" />
-        <property class="Preview">
-            <property name="Zoom" value="28" />
-            <property name="Pos" value="-0.02,-0.1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
 		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
 	<item id="1515" name="Unload">
@@ -7403,11 +7348,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Stacknumber" value="500" />
 		<property name="Weight" value="5" />
 		<property name="Group" value="Ammo/Weapons" />
-		<property class="Preview">
-			<property name="Zoom" value="18" />
-			<property name="Pos" value="0.1,0" />
-			<property name="Rot" value="10,-45,0" />
-		</property>
 		<property class="Attributes">
 		<property name="GetQualityFromWeapon" value="true" />
 		<property name="EntityDamage" value="0,0" />
@@ -7433,11 +7373,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         <property name="Stacknumber" value="250" />
         <property name="Group" value="Food/Cooking" />
 		<property name="CraftingIngredientTime" value="30" />
-        <property class="Preview">
-            <property name="Zoom" value="28" />
-            <property name="Pos" value="0,-0.05" />
-            <property name="Rot" value="90,45,0" />
-        </property>
 		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
 	<item id="1518" name="Chicken_Feed">
@@ -7455,11 +7390,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Sound_start" value="UseActions/repair_block"/>
             <property name="Allowed_upgrade_items" value="Chicken_Feed"/>
         </property>
-        <property class="Preview">
-            <property name="Zoom" value="28" />
-            <property name="Pos" value="-0.02,-0.1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1519" name="Schematic_Page">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -7471,11 +7401,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="CustomIcon" value="paper" />
 		<property name="CustomIconTint" value="66B2FF" />
         <property name="Group" value="Resources" />
-        <property class="Preview">
-            <property name="Zoom" value="10" />
-            <property name="Pos" value="0,-0.2" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1520" name="Tomato_Soup">
         <property name="Meshfile" value="Items/Food/bottled_waterPrefab" />
@@ -7498,11 +7423,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Create_item" value="emptyJar" />
         </property>
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="23" />
-            <property name="Pos" value="0.18,-0.15" />
-            <property name="Rot" value="0,-45,0" />
-        </property>
     </item>
 	<item id="1521" name="Ink">
         <property name="Meshfile" value="Items/Food/bottled_waterPrefab" />
@@ -7514,11 +7434,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="CustomIcon" value="bottledWater" />
 		<property name="CustomIconTint" value="00082E" />
         <property name="Group" value="Resources" />
-        <property class="Preview">
-            <property name="Zoom" value="23" />
-            <property name="Pos" value="0.18,-0.15" />
-            <property name="Rot" value="0,-45,0" />
-        </property>
 		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
 	<item id="1522" name="Geometry_Set">
@@ -7565,11 +7480,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Sound_start" value="UseActions/repair_block"/>
             <property name="Allowed_upgrade_items" value="Compost"/>
         </property>
-        <property class="Preview">
-            <property name="Zoom" value="28" />
-            <property name="Pos" value="-0.02,-0.1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1526" name="Flour">
         <property name="Meshfile" value="Items/Food/cornmealPrefab" />
@@ -7578,11 +7488,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         <property name="Stacknumber" value="250" />
         <property name="Group" value="Food/Cooking" />
 		<property name="CraftingIngredientTime" value="5" />
-        <property class="Preview">
-            <property name="Zoom" value="28" />
-            <property name="Pos" value="0,-0.05" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1527" name="Bread">
         <property name="Meshfile" value="Items/Food/cornbreadPrefab" />
@@ -7602,11 +7507,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="25" />
-            <property name="Pos" value="0,-0.05" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1528" name="Cordage">
         <property name="Meshfile" value="Items/Crafting/plant_fibers" />
@@ -7627,11 +7527,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         <property name="HoldType" value="3" />
         <property name="Group" value="Resources" />
 		<property name="Stacknumber" value="1" />
-        <property class="Preview">
-            <property name="Zoom" value="30" />
-            <property name="Pos" value="0,-0.03" />
-            <property name="Rot" value="90,45,0" />
-        </property>
 		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
 	<item id="1530" name="Molten_Iron">
@@ -7779,11 +7674,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="ExLargeSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1568" name="Pork">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -7806,11 +7696,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="ExLargeSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1569" name="Rabbit">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -7833,11 +7718,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="ExLargeSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1570" name="Chicken">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -7860,11 +7740,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="ExLargeSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1571" name="Grilled_Bear">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -7884,11 +7759,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="mediumSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1572" name="Grilled_Pork">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -7908,11 +7778,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="mediumSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1573" name="Grilled_Rabbit">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -7932,11 +7797,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="mediumSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1574" name="Grilled_Chicken">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -7956,11 +7816,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="mediumSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1575" name="Boiled_Bear">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -7980,11 +7835,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="smallSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1576" name="Boiled_Pork">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -8004,11 +7854,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="mediumSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1577" name="Boiled_Rabbit">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -8028,11 +7873,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="mediumSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1578" name="Boiled_Chicken">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -8052,11 +7892,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="mediumSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1579" name="Charred_Bear">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -8076,11 +7911,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="largeSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1580" name="Charred_Pork">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -8100,11 +7930,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="largeSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1581" name="Charred_Rabbit">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -8124,11 +7949,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="largeSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1582" name="Charred_Chicken">
         <property name="Meshfile" value="Items/Misc/parcelPrefab" />
@@ -8148,11 +7968,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="largeSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="5" />
-            <property name="Pos" value="0,-1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1583" name="Bear_Stew">
         <property name="Meshfile" value="Items/Food/venison_stewPrefab" />
@@ -8174,11 +7989,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="exLargeSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="30" />
-            <property name="Pos" value="0,-0.03" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1584" name="Creamed_Corn">
         <property name="Extends" value="Tomato_Soup" />
@@ -8209,11 +8019,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="Smell" value="exLargeSmell" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="30" />
-            <property name="Pos" value="0,-0.03" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1588" name="Blueberry_Jam">
         <property name="Meshfile" value="Items/Food/blueberriesPrefab" />
@@ -8234,11 +8039,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         </property>
         <property name="DropScale" value="4" />
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="25" />
-            <property name="Pos" value="0,-0.05" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1589" name="Cornbread_and_Jam">
         <property name="Meshfile" value="Items/Food/cornbreadPrefab" />
@@ -8258,11 +8058,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Group" value="Food/Cooking" />
-        <property class="Preview">
-            <property name="Zoom" value="25" />
-            <property name="Pos" value="0,-0.05" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1590" name="Grass_Seed">
         <property name="Meshfile" value="Items/Food/seed_blueberryPrefab" />
@@ -8276,11 +8071,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Blockname" value="tallGrassDiagonalSprout" />
         </property>
         <property name="Group" value="Resources" />
-        <property class="Preview">
-            <property name="Zoom" value="35" />
-            <property name="Pos" value="0,-0.05" />
-            <property name="Rot" value="90,45,0" />
-        </property>
     </item>
 	<item id="1591" name="Honey_Poultice">
         <property name="Meshfile" value="Items/Food/honeyPrefab" />
@@ -8300,11 +8090,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 			<property name="Debuff" value="infection" />
 			<property name="Create_item" value="emptyJar" />
         </property>
-        <property class="Preview">
-            <property name="Zoom" value="24" />
-            <property name="Pos" value="-0.02,-0.1" />
-            <property name="Rot" value="90,45,0" />
-        </property>
 		<property name="ActionSkillGroup" value="Medicine"/>
 		<property name="CraftingSkillGroup" value="Science"/>
 		<property name="Group" value="Medicine" />
@@ -8315,6 +8100,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="metal" />
 		<property name="Weight" value="40" />
+		<property name="CraftingIngredientTime" value="30" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
 		<property name="Group" value="Resources" />
