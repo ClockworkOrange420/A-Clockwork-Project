@@ -2342,6 +2342,9 @@
 		<ingredient name="glue" count="1"/>
 		<ingredient name="cloth" count="1"/>
 	</recipe>
+	<recipe name="glue" count="1" scrapable="False">
+		<ingredient name="ductTape" count="3"/>
+	</recipe>
 
 	<recipe name="dynamite" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
 		<ingredient name="Cordage" count="1"/>
