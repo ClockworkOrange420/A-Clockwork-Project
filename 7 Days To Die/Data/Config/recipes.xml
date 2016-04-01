@@ -1374,33 +1374,33 @@
     </recipe>
 
 	<recipe name="swatHelmet" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
-		<ingredient name="forgedIron" count="5"/>
+		<ingredient name="forgedIron" count="4"/>
 		<ingredient name="leather" count="3"/>
 	</recipe>
 
 	<recipe name="militaryHelmet" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
-		<ingredient name="forgedIron" count="5"/>
+		<ingredient name="forgedIron" count="4"/>
 		<ingredient name="militaryFiber" count="3"/>
 	</recipe>
 	<recipe name="militaryGloves" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
-		<ingredient name="forgedIron" count="5"/>
+		<ingredient name="forgedIron" count="4"/>
 		<ingredient name="militaryFiber" count="3"/>
 	</recipe>
 	<recipe name="militaryBoots" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
-		<ingredient name="forgedIron" count="5"/>
+		<ingredient name="forgedIron" count="4"/>
 		<ingredient name="militaryFiber" count="3"/>
 	</recipe>
 	<recipe name="militaryLegArmor" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
-		<ingredient name="forgedIron" count="5"/>
+		<ingredient name="forgedIron" count="4"/>
 		<ingredient name="militaryFiber" count="3"/>
 	</recipe>
 	<recipe name="militaryVest" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
-		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedIron" count="8"/>
 		<ingredient name="militaryFiber" count="3"/>
 	</recipe>
 
 	<recipe name="nightvisionGoggles" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
-		<ingredient name="forgedIron" count="5"/>
+		<ingredient name="forgedIron" count="4"/>
 		<ingredient name="leather" count="3"/>
 		<ingredient name="flashlight02" count="1"/>
 		<ingredient name="ductTape" count="2"/>
