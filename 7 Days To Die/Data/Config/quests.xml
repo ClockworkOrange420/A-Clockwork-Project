@@ -35,6 +35,7 @@
 		<reward type="Quest" id="quest_BasicSurvival9" />
 		<reward type="Quest" id="quest_BasicSurvival11" />
 		<reward type="Quest" id="quest_BasicSurvival12" />
+		<reward type="ShowTip" value="tutorialTipQuest04" stage="aftercomplete" />
     </quest>
 	
 	
