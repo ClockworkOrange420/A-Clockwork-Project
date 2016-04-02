@@ -5116,7 +5116,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_wellness" value="1.8" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Buff" value="stewWarming" />
-		<property name="Create_item" value="emptyJar" />
 	</property>
 	<property name="Smell" value="exLargeSmell" />
 	<property name="Group" value="Food/Cooking" />
@@ -5216,7 +5215,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_water" value="5" />
 		<property name="Gain_wellness" value="0.6" />
 		<property name="Sound_start" value="UseActions/player_eating" />
-		<property name="Create_item" value="emptyJar" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5291,7 +5289,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_wellness" value="0.6" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Buff" value="stewWarming" />
-		<property name="Create_item" value="emptyJar" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -7420,7 +7417,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_water" value="10" />
 			<property name="Gain_wellness" value="0.3" />
             <property name="Sound_start" value="UseActions/player_drinking" />
-            <property name="Create_item" value="emptyJar" />
         </property>
         <property name="Group" value="Food/Cooking" />
     </item>
@@ -7985,7 +7981,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_water" value="5" />
             <property name="Gain_wellness" value="1" />
             <property name="Sound_start" value="UseActions/player_drinking" />
-			<property name="Create_item" value="emptyJar" />
         </property>
         <property name="Smell" value="exLargeSmell" />
         <property name="Group" value="Food/Cooking" />
@@ -8015,7 +8010,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_water" value="5" />
             <property name="Gain_wellness" value="1" />
             <property name="Sound_start" value="UseActions/player_drinking" />
-			<property name="Create_item" value="emptyJar" />
         </property>
         <property name="Smell" value="exLargeSmell" />
         <property name="Group" value="Food/Cooking" />
