@@ -2222,7 +2222,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsPistolGroupDesc"/>
 	<property name="PartType" value="Stock" />
-	<property name="Weight" value="10" />
 	<property class="Attributes">
 		<property name="DegradationRate" value="10,10" />
 		<property name="DegradationMax" value="700,4000" />
@@ -2232,7 +2231,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsPistolGroupDesc"/>
 	<property name="PartType" value="Receiver" />
-	<property name="Weight" value="20" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="17,50" />
 		<property name="DegradationMax" value="700,4000" />
@@ -2242,7 +2240,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsPistolGroupDesc"/>
 	<property name="PartType" value="Pump" />
-	<property name="Weight" value="10" />
 	<property class="Attributes">
 		<property name="Accuracy" value="1,0.01" />
 		<property name="DegradationMax" value="700,4000" />
@@ -2252,7 +2249,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsPistolGroupDesc"/>
 	<property name="PartType" value="Barrel" />
-	<property name="Weight" value="10" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="7.6, 19" />
 		<property name="BlockDamage" value="5,13" />
@@ -2264,7 +2260,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="parts44MagnumGroupDesc"/>
 	<property name="PartType" value="Stock" />
-	<property name="Weight" value="15" />
 	<property class="Attributes">
 		<property name="DegradationRate" value="16,34" />
 		<property name="DegradationMax" value="2000,10000" />
@@ -2274,7 +2269,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="parts44MagnumGroupDesc"/>
 	<property name="PartType" value="Receiver" />
-	<property name="Weight" value="10" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="17,50" />
 		<property name="DegradationMax" value="2000,10000" />
@@ -2284,7 +2278,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="parts44MagnumGroupDesc"/>
 	<property name="PartType" value="Pump" />
-	<property name="Weight" value="10" />
 	<property class="Attributes">
 		<property name="Accuracy" value="1,0.05" />
 		<property name="DegradationMax" value="2000,10000" />
@@ -2294,7 +2287,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="parts44MagnumGroupDesc"/>
 	<property name="PartType" value="Barrel" />
-	<property name="Weight" value="20" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="35.2,88" />
 		<property name="BlockDamage" value="10,24" />
@@ -2317,7 +2309,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="commonShotgunPartsGroupDesc"/>
 	<property name="PartType" value="Receiver" />
-	<property name="Weight" value="25" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="22,66" />
 		<property name="DegradationMax" value="800,3600" />
@@ -2327,7 +2318,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="commonShotgunPartsGroupDesc"/>
 	<property name="PartType" value="Pump" />
-	<property name="Weight" value="15" />
 	<property class="Attributes">
 		<property name="Accuracy" value="1,0.08" />
 		<property name="DegradationMax" value="800,3600" />
@@ -2337,7 +2327,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsPumpShotgunShortGroupDesc"/>
 	<property name="PartType" value="Barrel" />
-	<property name="Weight" value="20" />
 	<property class="Attributes">
 		<property name="DegradationMax" value="800,3600" />
 	</property>
@@ -2357,7 +2346,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsPumpShotgunGroupDesc"/>
 	<property name="PartType" value="Barrel" />
-	<property name="Weight" value="30" />
 	<property class="Attributes">
 		<property name="DegradationMax" value="800,3600" />
 	</property>
@@ -2367,7 +2355,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsMP5GroupDesc"/>
 	<property name="PartType" value="Stock" />
-	<property name="Weight" value="25" />
 	<property class="Attributes">
 		<property name="DegradationRate" value="13,18" />
 		<property name="DegradationMax" value="2250,10000" />
@@ -2377,7 +2364,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsMP5GroupDesc"/>
 	<property name="PartType" value="Receiver" />
-	<property name="Weight" value="25" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="24,72" />
 		<property name="DegradationMax" value="2250,10000" />
@@ -2387,7 +2373,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsMP5GroupDesc"/>
 	<property name="PartType" value="Pump" />
-	<property name="Weight" value="15" />
 	<property class="Attributes">
 		<property name="Accuracy" value="1,0.05" />
 		<property name="DegradationMax" value="2250,10000" />
@@ -2397,7 +2382,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsMP5GroupDesc"/>
 	<property name="PartType" value="Barrel" />
-	<property name="Weight" value="25" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="11.6,29" />
 		<property name="BlockDamage" value="2,5" />
@@ -2413,7 +2397,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsAK47GroupDesc"/>
 	<property name="PartType" value="Stock" />
-	<property name="Weight" value="30" />
 	<property class="Attributes">
 		<property name="DegradationRate" value="12,16" />
 		<property name="DegradationMax" value="2250,10000" />
@@ -2423,7 +2406,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsAK47GroupDesc"/>
 	<property name="PartType" value="Receiver" />
-	<property name="Weight" value="30" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="30,90" />
 		<property name="DegradationMax" value="2250,10000" />
@@ -2433,7 +2415,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsAK47GroupDesc"/>
 	<property name="PartType" value="Pump" />
-	<property name="Weight" value="15" />
 	<property class="Attributes">
 		<property name="Accuracy" value="1,0.05" />
 		<property name="DegradationMax" value="2250,10000" />
@@ -2444,7 +2425,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="CustomIcon" value="partsPistol_barrel" /> <!-- xxx -->
 	<property name="DescriptionKey" value="partsAK47GroupDesc"/>
 	<property name="PartType" value="Barrel" />
-	<property name="Weight" value="35" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="28,70" />
 		<property name="BlockDamage" value="4,9.5" />
@@ -2469,7 +2449,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsHuntingRifleGroupDesc"/>
 	<property name="PartType" value="Receiver" />
-	<property name="Weight" value="30" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="54,160" />
 		<property name="DegradationMax" value="1500,5000" />
@@ -2479,7 +2458,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsHuntingRifleGroupDesc"/>
 	<property name="PartType" value="Pump" />
-	<property name="Weight" value="15" />
 	<property class="Attributes">
 		<property name="Accuracy" value=".7,0.01" />
 		<property name="DegradationMax" value="1500,5000" />
@@ -2489,7 +2467,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsHuntingRifleGroupDesc"/>
 	<property name="PartType" value="Barrel" />
-	<property name="Weight" value="35" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="30,75" />
 		<property name="BlockDamage" value="6,14" />
@@ -2501,7 +2478,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
 	<property name="PartType" value="Stock" />
-	<property name="Weight" value="30" />
 	<property class="Attributes">
 		<property name="DismembermentBaseChance" value="0.1,0.3"/>
 		<property name="DismembermentBonus" value="0,0.00050"/>
@@ -2513,7 +2489,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
 	<property name="PartType" value="Receiver" />
-	<property name="Weight" value="30" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="54,160" />
 		<property name="DegradationMax" value="1700,7000" />
@@ -2523,7 +2498,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
 	<property name="PartType" value="Pump" />
-	<property name="Weight" value="15" />
 	<property class="Attributes">
 		<property name="Accuracy" value=".6,0.01" />
 		<property name="DegradationMax" value="1700,7000" />
@@ -2533,7 +2507,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
 	<property name="PartType" value="Barrel" />
-	<property name="Weight" value="40" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="27.6,69" />
 		<property name="BlockDamage" value="6,14" />
@@ -2545,7 +2518,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsRocketLauncherGroupDesc"/>
 	<property name="PartType" value="Stock" />
-	<property name="Weight" value="35" />
 	<property class="Attributes">
 		<property name="DegradationRate" value="50,50" />
 		<property name="DegradationMax" value="2500,10000" />
@@ -2555,7 +2527,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsRocketLauncherGroupDesc"/>
 	<property name="PartType" value="Receiver" />
-	<property name="Weight" value="35" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="15,70" />
 		<property name="DegradationMax" value="2500,10000" />
@@ -2565,7 +2536,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsRocketLauncherGroupDesc"/>
 	<property name="PartType" value="Pump" />
-	<property name="Weight" value="20" />
 	<property class="Attributes">
 		<property name="Accuracy" value="1,0.01" />
 		<property name="DegradationMax" value="2500,10000" />
@@ -2575,7 +2545,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsRocketLauncherGroupDesc"/>
 	<property name="PartType" value="Barrel" />
-	<property name="Weight" value="45" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="6,42" />
 		<property name="EntityDamage" value="12, 90" /> <!-- xxx is this working? -->
@@ -6986,7 +6955,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 	<property name="HoldType" value="45" />
 	<property name="Material" value="metal" />
-	<property name="Weight" value="5" />
+	<property name="Weight" value="20" />
 	<property name="Stacknumber" value="1" /> <!-- STK loot -->
 	<property name="Group" value="Resources" />
 	<property name="CraftingSkillGroup" value="Tool Smithing"/>
@@ -6997,7 +6966,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 	<property name="HoldType" value="45" />
 	<property name="Material" value="metal" />
-	<property name="Weight" value="5" />
+	<property name="Weight" value="20" />
 	<property name="Stacknumber" value="1" /> <!-- STK loot -->
 	<property name="Group" value="Resources" />
 	<property name="CraftingSkillGroup" value="Tool Smithing"/>
@@ -7529,7 +7498,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="metal" />
-		<property name="Weight" value="20" />
+		<property name="Weight" value="10" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
 		<property name="Group" value="Resources" />

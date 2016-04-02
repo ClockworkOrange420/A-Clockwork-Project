@@ -544,30 +544,30 @@
 		<ingredient name="unit_iron" count="20"/>
     </recipe>
 	<recipe name="calipers" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-        <ingredient name="unit_clay" count="20"/>
+        <ingredient name="unit_clay" count="10"/>
 		<ingredient name="unit_iron" count="20"/>
     </recipe>
 	<recipe name="toolAndDieSet" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-        <ingredient name="unit_clay" count="20"/>
+        <ingredient name="unit_clay" count="10"/>
 		<ingredient name="unit_iron" count="20"/>
     </recipe>
 	
 	<recipe name="partsAuger_parts" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-        <ingredient name="unit_clay" count="30"/>
+        <ingredient name="unit_clay" count="10"/>
 		<ingredient name="unit_iron" count="20"/>
     </recipe>
 	<recipe name="partsAuger_blade" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-        <ingredient name="unit_clay" count="50"/>
-		<ingredient name="unit_iron" count="20"/>
+        <ingredient name="unit_clay" count="20"/>
+		<ingredient name="unit_iron" count="40"/>
     </recipe>
 	
 	<recipe name="partsChainsaw_parts" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-        <ingredient name="unit_clay" count="30"/>
+        <ingredient name="unit_clay" count="10"/>
 		<ingredient name="unit_iron" count="20"/>
     </recipe>
 	<recipe name="partsChainsaw_blade" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-        <ingredient name="unit_clay" count="50"/>
-		<ingredient name="unit_iron" count="20"/>
+        <ingredient name="unit_clay" count="30"/>
+		<ingredient name="unit_iron" count="50"/>
     </recipe>
 	
 	<recipe name="smallEngine" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
@@ -797,7 +797,7 @@
         <ingredient name="Molten_Iron" count="1"/>
     </recipe>
 	<recipe name="parts44Magnum_frame" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="44Magnum_Frame_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="2"/>
     </recipe>
 	<recipe name="parts44Magnum_grip" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="44Magnum_Grip_Mold">
         <ingredient name="Molten_Iron" count="1"/>
@@ -806,25 +806,25 @@
         <ingredient name="Molten_Iron" count="1"/>
     </recipe>
 	<recipe name="partsAK47_barrel" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="AK47_Barrel_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="3"/>
     </recipe>
 	<recipe name="partsAK47_parts" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="AK47_Parts_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="2"/>
     </recipe>
 	<recipe name="partsAK47_receiver" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="AK47_Reciever_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="3"/>
     </recipe>
 	<recipe name="partsAK47_stock" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="AK47_Stock_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="3"/>
     </recipe>
 	<recipe name="partsHuntingRifle_barrel" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Hunting_Rifle_Barrel_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="3"/>
     </recipe>
 	<recipe name="partsHuntingRifle_parts" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Hunting_Rifle_Parts_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="2"/>
     </recipe>
 	<recipe name="partsHuntingRifle_receiver" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Hunting_Rifle_Reciever_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="3"/>
     </recipe>
 	<recipe name="partsPistol_barrel" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Pistol_Barrel_Mold">
         <ingredient name="Molten_Iron" count="1"/>
@@ -836,55 +836,55 @@
         <ingredient name="Molten_Iron" count="1"/>
     </recipe>
 	<recipe name="partsPistol_receiver" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Pistol_Reciever_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="2"/>
     </recipe>
 	<recipe name="partsRocketLauncher_barrel" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Rocket_Launcher_Barrel_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="4"/>
     </recipe>
 	<recipe name="partsRocketLauncher_parts" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Rocket_Launcher_Parts_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="3"/>
     </recipe>
 	<recipe name="partsRocketLauncher_receiver" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Rocket_Launcher_Reciever_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="3"/>
     </recipe>
 	<recipe name="partsRocketLauncher_stock" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Rocket_Launcher_Stock_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="3"/>
     </recipe>
 	<recipe name="partsPumpShotgun_barrel" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Shotgun_Barrel_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="3"/>
     </recipe>
 	<recipe name="partsPumpShotgun_parts" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Shotgun_Parts_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="2"/>
     </recipe>
 	<recipe name="partsPumpShotgun_receiver" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Shotgun_Reciever_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="2"/>
     </recipe>
 	<recipe name="partsPumpShotgun_barrelShort" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Shotgun_Short_Barrel_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="2"/>
     </recipe>
 	<recipe name="partsMP5_barrel" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="SMG_Barrel_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="2"/>
     </recipe>
 	<recipe name="partsMP5_parts" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="SMG_Parts_Mold">
         <ingredient name="Molten_Iron" count="1"/>
     </recipe>
 	<recipe name="partsMP5_receiver" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="SMG_Reciever_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="2"/>
     </recipe>
 	<recipe name="partsMP5_stock" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="SMG_Stock_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="2"/>
     </recipe>
 	<recipe name="partsSniperRifle_barrel" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Sniper_Barrrel_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="4"/>
     </recipe>
 	<recipe name="partsSniperRifle_parts" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Sniper_Parts_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="2"/>
     </recipe>
 	<recipe name="partsSniperRifle_receiver" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Sniper_Reciever_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="3"/>
     </recipe>
 	<recipe name="partsSniperRifle_stock" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="Sniper_Stock_Mold">
-        <ingredient name="Molten_Iron" count="1"/>
+        <ingredient name="Molten_Iron" count="3"/>
     </recipe>
 	
 	<!--Schematics-->
