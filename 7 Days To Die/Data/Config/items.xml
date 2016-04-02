@@ -6816,7 +6816,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="RepairTools" value="repairKit" />
 	<property name="HoldType" value="45" />
 	<property name="Stacknumber" value="1" />
-	<property name="Weight" value="100" />
+	<property name="Weight" value="400" />
 	<property name="Group" value="Resources" />
 	<property name="DegradationBreaksAfter" value="false" />
 	<property class="Attributes">
