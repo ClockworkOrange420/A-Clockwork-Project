@@ -884,7 +884,7 @@
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
 	<drop event="Harvest" name="Venison" count="1" />
 	<drop event="Harvest" name="Venison" tool_category="Butcher" count="3" />
-	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="8" />			
+	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="4" />
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="4" />	
 	<drop event="Destroy" name="femur" tool_category="Butcher" count="4" />
 	<!-- Average harvest results:  stag  5 meat  9 hide  4.5 fat,  pig  6m  7h  6f,  bear 7m  14h  7f -->
@@ -951,7 +951,7 @@
 	<drop event="Harvest" name="Bear" count="4" />		
 	<drop event="Harvest" name="animalHide" count="3" />
 	<drop event="Harvest" name="Bear" tool_category="Butcher" count="8" />
-	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="15" />
+	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="6" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="6" />		
 	<drop event="Destroy" name="femur" tool_category="Butcher" count="2" />
 </entity_class>
@@ -1014,7 +1014,7 @@
 	<drop event="Harvest" name="rottingFlesh" count="4" />
 	<drop event="Harvest" name="animalHide" count="3" />
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="8" />
-	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="15" />
+	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="6" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="6" />
 	<drop event="Destroy" name="femur" tool_category="Butcher" count="2" />
 </entity_class>
@@ -1038,7 +1038,7 @@
 	<property name="DeadBodyHitPoints" value="100" />
 	<drop event="Harvest" name="Rabbit" count="1" />
 	<drop event="Harvest" name="Rabbit" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2" />
+	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="1" />
 </entity_class>
 
 <entity_class name="animalChicken" extends="animalStag">
@@ -1079,7 +1079,7 @@
 	<!-- For harvesting -->
 	<drop event="Harvest" name="Pork" count="1" />
 	<drop event="Harvest" name="Pork" tool_category="Butcher" count="3" />
-	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="8" />
+	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="4" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4" />
 	<drop event="Destroy" name="femur" tool_category="Butcher" count="4" />
 </entity_class>
