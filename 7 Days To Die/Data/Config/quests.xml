@@ -124,7 +124,7 @@
 		<objective type="FetchKeep" id="animalHide" value="20" />
 		<objective type="FetchKeep" id="rockSmall" value="50" />
 		<objective type="FetchKeep" id="clayLump" value="50" />
-		<objective type="Craft" id="bellows" value="5" />
+		<objective type="Craft" id="bellows" value="1" />
 		
 		<objective type="Craft" id="forge" value="1" />
 		<objective type="BlockPlace" id="forge" value="1" />
