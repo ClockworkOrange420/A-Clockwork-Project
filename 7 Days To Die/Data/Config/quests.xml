@@ -40,7 +40,7 @@
 	
 	<!-- Basic Survival 2 - Craft Plant Fiber Clothing /> -->
 	<quest id="quest_BasicSurvival2" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival2" subtitle_key="quest_BasicSurvival2_subtitle" description_key="quest_BasicSurvival2_description" icon="ui_game_symbol_tailoring" category_key="Quest">
-		<objective type="FetchKeep" id="yuccaFibers" value="35" />
+		<objective type="FetchKeep" id="yuccaFibers" value="45" />
 		<objective type="FetchKeep" id="Cordage" value="5" />
 		<objective type="Craft" id="plantFiberPants" value="1" />
 		<objective type="Craft" id="plantFiberShirt" value="1" />
