@@ -10841,6 +10841,7 @@ kind of free
 	<drop event="Harvest" name="gasCan" count="20" prob="0.3" />
 	<drop event="Harvest" name="headlight" count="1" prob="0.5" tool_category="Disassemble" />
 	<drop event="Harvest" name="scrapIron" count="4" prob="1" tool_category="Disassemble"/>
+	<drop event="Harvest" name="ductTape" count="3" prob="1" tool_category="Disassemble"/>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="1" stick_chance="1" />
 	<property name="BigDecorationRadius" value="5" />
