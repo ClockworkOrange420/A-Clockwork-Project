@@ -23,7 +23,7 @@
 		<objective type="FetchKeep" id="wood" value="2" />
 		<objective type="FetchKeep" id="rockSmall" value="2" />
 	
-		<objective type="Craft" id="Cordage" value="1" />
+		<objective type="FetchKeep" id="Cordage" value="1" />
 		<objective type="Craft" id="stoneAxe" value="1" />
 		
 		<reward type="Exp" value="1000" />
@@ -41,7 +41,7 @@
 	<!-- Basic Survival 2 - Craft Plant Fiber Clothing /> -->
 	<quest id="quest_BasicSurvival2" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival2" subtitle_key="quest_BasicSurvival2_subtitle" description_key="quest_BasicSurvival2_description" icon="ui_game_symbol_tailoring" category_key="Quest">
 		<objective type="FetchKeep" id="yuccaFibers" value="35" />
-		<objective type="Craft" id="Cordage" value="5" />
+		<objective type="FetchKeep" id="Cordage" value="5" />
 		<objective type="Craft" id="plantFiberPants" value="1" />
 		<objective type="Craft" id="plantFiberShirt" value="1" />
 		<objective type="Craft" id="plantFiberHood" value="1" />
@@ -76,7 +76,7 @@
 		<objective type="FetchKeep" id="yuccaFibers" value="2" />
 		<objective type="FetchKeep" id="feather" value="2" />
 		<objective type="FetchKeep" id="rockSmall" value="2" />
-		<objective type="Craft" id="Cordage" value="1" />
+		<objective type="FetchKeep" id="Cordage" value="1" />
 		<objective type="Craft" id="woodenBow" value="1" />
 		<objective type="Craft" id="arrow" value="2" />
 		
@@ -87,7 +87,7 @@
 	<quest id="quest_BasicSurvival6" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival6" subtitle_key="quest_BasicSurvival6_subtitle" description_key="quest_BasicSurvival6_description" icon="ui_game_symbol_map_house" category_key="Quest">
 		<objective type="FetchKeep" id="wood" value="1000" />
 		
-		<objective type="Craft" id="nail" value="500" />
+		<objective type="FetchKeep" id="nail" value="500" />
 		<objective type="Craft" id="woodFrameBlock" value="100" />
 		<objective type="BlockPlace" id="woodFrameBlock" value="100" />
 		<objective type="BlockUpgrade" id="woodFrameBlock" value="100" />
@@ -198,7 +198,7 @@
 	<quest id="quest_BasicSurvival14" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival14" subtitle_key="quest_BasicSurvival14_subtitle" description_key="quest_BasicSurvival14_description" icon="ui_game_symbol_tailoring" category_key="Quest">
 		<objective type="FetchKeep" id="spring" value="1" />
 		<objective type="FetchKeep" id="nail" value="1" />
-		<objective type="Craft" id="forgedIron" value="10" />
+		<objective type="FetchKeep" id="forgedIron" value="10" />
 		<objective type="FetchKeep" id="ductTape" value="5" />
 		
 		<objective type="Craft" id="Sewing_Machine" value="1" />
@@ -211,7 +211,7 @@
 	<quest id="quest_BasicSurvival15" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival15" subtitle_key="quest_BasicSurvival15_subtitle" description_key="quest_BasicSurvival15_description" icon="ui_game_symbol_tailoring" category_key="Quest">
 		<objective type="FetchKeep" id="animalHide" value="35" />
 		<objective type="FetchKeep" id="yuccaFibers" value="20" />
-		<objective type="Craft" id="Cordage" value="5" />
+		<objective type="FetchKeep" id="Cordage" value="5" />
 		
 		<objective type="Craft" id="animalHideLegArmor" value="1" />
 		<objective type="Craft" id="animalHideChestArmor" value="1" />
@@ -236,7 +236,7 @@
 	
 	<!-- Basic Survival 9 - Craft Leather Armor /> -->
 	<quest id="quest_BasicSurvival17" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival17" subtitle_key="quest_BasicSurvival17_subtitle" description_key="quest_BasicSurvival17_description" icon="ui_game_symbol_tailoring" category_key="Quest">
-		<objective type="Craft" id="leather" value="35" />
+		<objective type="FetchKeep" id="leather" value="35" />
 		
 		<objective type="Craft" id="leatherPants" value="1" />
 		<objective type="Craft" id="leatherJacket" value="1" />
@@ -289,7 +289,7 @@
 	
 	<!-- Basic Survival 9 - Craft military Armor /> -->
 	<quest id="quest_BasicSurvival21" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival21" subtitle_key="quest_BasicSurvival21_subtitle" description_key="quest_BasicSurvival21_description" icon="ui_game_symbol_forge" category_key="Quest">
-		<objective type="Craft" id="forgedIron" value="24" />
+		<objective type="FetchKeep" id="forgedIron" value="24" />
 		<objective type="FetchKeep" id="militaryFiber" value="15" />
 		
 		<objective type="Craft" id="militaryLegArmor" value="1" />
@@ -316,7 +316,7 @@
 	
 	<!-- Basic Survival 9 - Craft Iron Armor /> -->
 	<quest id="quest_BasicSurvival23" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival23" subtitle_key="quest_BasicSurvival23_subtitle" description_key="quest_BasicSurvival23_description" icon="ui_game_symbol_forge" category_key="Quest">
-		<objective type="Craft" id="forgedIron" value="30" />
+		<objective type="FetchKeep" id="forgedIron" value="30" />
 		<objective type="FetchKeep" id="leather" value="15" />
 		
 		<objective type="Craft" id="ironLegArmor" value="1" />
@@ -342,7 +342,7 @@
 	<!-- Basic Survival 4 - Craft an Iron Club /> -->	
 	<quest id="quest_BasicSurvival25" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival25" subtitle_key="quest_BasicSurvival25_subtitle" description_key="quest_BasicSurvival25_description" icon="ui_game_symbol_club" category_key="Quest">
 		<objective type="FetchKeep" id="wood" value="5" />
-		<objective type="Craft" id="forgedIron" value="3" />
+		<objective type="FetchKeep" id="forgedIron" value="3" />
 		
 		<objective type="Craft" id="clubIron" value="1" />
 		
@@ -352,7 +352,7 @@
 	<!-- Basic Survival 4 - Craft a Barbed Club /> -->	
 	<quest id="quest_BasicSurvival26" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival26" subtitle_key="quest_BasicSurvival26_subtitle" description_key="quest_BasicSurvival26_description" icon="ui_game_symbol_club" category_key="Quest">
 		<objective type="FetchKeep" id="wood" value="5" />
-		<objective type="Craft" id="Barbed_Wire" value="1" />
+		<objective type="FetchKeep" id="Barbed_Wire" value="1" />
 		
 		<objective type="Craft" id="clubBarbed" value="1" />
 		
@@ -372,7 +372,7 @@
 	<!-- Basic Survival 4 - Craft a Sledgehammer /> -->	
 	<quest id="quest_BasicSurvival28" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival28" subtitle_key="quest_BasicSurvival28_subtitle" description_key="quest_BasicSurvival28_description" icon="ui_game_symbol_sledge" category_key="Quest">
 		<objective type="FetchKeep" id="wood" value="5" />
-		<objective type="Craft" id="forgedIron" value="8" />
+		<objective type="FetchKeep" id="forgedIron" value="8" />
 		
 		<objective type="Craft" id="sledgehammer" value="1" />
 		
@@ -382,7 +382,7 @@
 	<!-- Basic Survival 4 - Craft a Hunting Knife /> -->	
 	<quest id="quest_BasicSurvival29" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival29" subtitle_key="quest_BasicSurvival29_subtitle" description_key="quest_BasicSurvival29_description" icon="ui_game_symbol_knife" category_key="Quest">
 		<objective type="FetchKeep" id="wood" value="2" />
-		<objective type="Craft" id="forgedIron" value="2" />
+		<objective type="FetchKeep" id="forgedIron" value="2" />
 		
 		<objective type="Craft" id="huntingKnife" value="1" />
 		
@@ -392,7 +392,7 @@
 	<!-- Basic Survival 4 - Craft a Machete /> -->	
 	<quest id="quest_BasicSurvival30" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival30" subtitle_key="quest_BasicSurvival30_subtitle" description_key="quest_BasicSurvival30_description" icon="ui_game_symbol_knife" category_key="Quest">
 		<objective type="FetchKeep" id="wood" value="6" />
-		<objective type="Craft" id="forgedSteel" value="8" />
+		<objective type="FetchKeep" id="forgedSteel" value="8" />
 		<objective type="FetchKeep" id="leather" value="4" />
 		<objective type="FetchKeep" id="ductTape" value="2" />
 		
@@ -404,7 +404,7 @@
 	<!-- Basic Survival 4 - Craft an Steel Shovel /> -->	
 	<quest id="quest_BasicSurvival31" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival31" subtitle_key="quest_BasicSurvival31_subtitle" description_key="quest_BasicSurvival31_description" icon="tool_smithing" category_key="Quest">
 		<objective type="FetchKeep" id="wood" value="5" />
-		<objective type="Craft" id="forgedSteel" value="5" />
+		<objective type="FetchKeep" id="forgedSteel" value="5" />
 		
 		<objective type="Craft" id="shovelSteel" value="1" />
 		
@@ -414,7 +414,7 @@
 	<!-- Basic Survival 4 - Craft a Steel Pickaxe /> -->	
 	<quest id="quest_BasicSurvival32" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival32" subtitle_key="quest_BasicSurvival32_subtitle" description_key="quest_BasicSurvival32_description" icon="tool_smithing" category_key="Quest">
 		<objective type="FetchKeep" id="wood" value="5" />
-		<objective type="Craft" id="forgedSteel" value="5" />
+		<objective type="FetchKeep" id="forgedSteel" value="5" />
 		
 		<objective type="Craft" id="pickaxeSteel" value="1" />
 		
@@ -424,7 +424,7 @@
 	<!-- Basic Survival 4 - Craft a Steel Fireaxe /> -->	
 	<quest id="quest_BasicSurvival33" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival33" subtitle_key="quest_BasicSurvival33_subtitle" description_key="quest_BasicSurvival33_description" icon="tool_smithing" category_key="Quest">
 		<objective type="FetchKeep" id="wood" value="5" />
-		<objective type="Craft" id="forgedSteel" value="5" />
+		<objective type="FetchKeep" id="forgedSteel" value="5" />
 		
 		<objective type="Craft" id="fireaxeSteel" value="1" />
 		
@@ -435,7 +435,7 @@
 	<quest id="quest_BasicSurvival34" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival34" subtitle_key="quest_BasicSurvival34_subtitle" description_key="quest_BasicSurvival34_description" icon="tool_smithing" category_key="Quest">
 		<objective type="FetchKeep" id="spring" value="2" />
 		<objective type="FetchKeep" id="scrapCable" value="3" />
-		<objective type="Craft" id="forgedSteel" value="8" />
+		<objective type="FetchKeep" id="forgedSteel" value="8" />
 		<objective type="FetchKeep" id="ductTape" value="2" />
 		
 		<objective type="Craft" id="nailgun" value="1" />
@@ -449,7 +449,7 @@
 		<objective type="FetchKeep" id="spring" value="6" />
 		<objective type="FetchKeep" id="radiator" value="1" />
 		<objective type="FetchKeep" id="airFilter" value="1" />
-		<objective type="Craft" id="forgedIron" value="400" />
+		<objective type="FetchKeep" id="forgedIron" value="400" />
 		
 		<objective type="Craft" id="smallEngine" value="1" />
 		
