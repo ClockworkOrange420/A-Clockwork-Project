@@ -101,7 +101,7 @@
 
 	<!-- Basic Survival 6 - Start a Base -->
 	<quest id="quest_BasicSurvival6" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival6" subtitle_key="quest_BasicSurvival6_subtitle" description_key="quest_BasicSurvival6_description" icon="ui_game_symbol_map_house" category_key="Quest">
-		<objective type="Craft" id="woodFrameBlock" value="100" />
+		<objective type="FetchKeep" id="woodFrameBlock" value="100" />
 		<objective type="BlockPlace" id="woodFrameBlock" value="100" />
 		<objective type="BlockUpgrade" id="woodFrameBlock" value="100" />
 		
