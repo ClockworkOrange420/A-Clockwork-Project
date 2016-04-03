@@ -7,7 +7,7 @@ timeString:
 	A time string can contain two types of times, a real-time, or a game-time value.
 	A real-time value is just a number, example: duration="90" would be 90 real-time seconds
 	A game-time value is a number with a trailing 't', example: duration="900t" would be 9 in-game hours.
-
+		At the default day length of 50 realtime minutes "100t" equals "125".
 types:
 
 	Types organize buffs and can be used to add/remove immunity to certain effects. Multiple types can
@@ -313,10 +313,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="1" stat="health" amount="-1" rate="1"/>
 </buff>
 
-<buff id="cannotBreath" stack="discard" duration="14" name_key="cannotBreathe" description_key="cannotBreatheDesc" tooltip_key="cannotBreatheTooltip" actions="debuff(freshAir)" mutex="cannotBreatheWrn,drowning" onexpired="cannotBreatheWrn" icon="ui_game_symbol_oxygen" />
-
-<!-- 10 sec warning, then you take damage -->
-<buff id="cannotBreatheWrn" stack="discard" duration="6" name_key="cannotBreatheWrn" description_key="cannotBreatheWrnDesc" tooltip_key="cannotBreatheWrnTooltip" mutex="drowning" onexpired="drowning" icon="ui_game_symbol_oxygen" />
+<buff id="cannotBreath" notificationClass="UnderwaterBuffNotification" stack="discard" duration="20" name_key="cannotBreathe" description_key="cannotBreatheDesc" tooltip_key="cannotBreatheTooltip" actions="debuff(freshAir)" mutex="drowning" onexpired="drowning" icon="ui_game_symbol_oxygen" />
 
 <buff id="drowning" stack="discard" duration="0" name_key="drowning" description_key="drowningDesc" tooltip_key="drowningTooltip"  actions="damage(0,4,0,0)" icon="ui_game_symbol_oxygen" type="drowning" >
 	<modify id="1" stat="health" amount="-14" rate="4"/>

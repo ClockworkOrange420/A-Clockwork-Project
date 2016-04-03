@@ -1252,6 +1252,44 @@
 	<recipe name="armyShirt" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="cloth" count="8"/>
 	</recipe>
+	
+	<recipe name="sweatshirt" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="cloth" count="9"/>
+	</recipe>
+	<recipe name="sweatshirtRed" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="cloth" count="9"/>
+	</recipe>
+	<recipe name="sweatshirtBrown" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="cloth" count="9"/>
+	</recipe>
+	<recipe name="sweatshirtGreen" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="cloth" count="9"/>
+	</recipe>
+	<recipe name="sweatshirtBlue" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="cloth" count="9"/>
+	</recipe>
+	<recipe name="sweatshirtBlack" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="cloth" count="9"/>
+	</recipe>
+	
+	<recipe name="tshirtWhite" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="cloth" count="7"/>
+	</recipe>
+	<recipe name="tshirtRed" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="cloth" count="7"/>
+	</recipe>
+	<recipe name="tshirtBrown" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="cloth" count="7"/>
+	</recipe>
+	<recipe name="tshirtGreen" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="cloth" count="7"/>
+	</recipe>
+	<recipe name="tshirtBlue" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="cloth" count="7"/>
+	</recipe>
+	<recipe name="tshirtBlack" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="cloth" count="7"/>
+	</recipe>
 
 	<recipe name="denimPants" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="cloth" count="12"/>
@@ -1993,8 +2031,7 @@
 	</recipe>
 
 	<recipe name="cabinFlagstoneRamp" count="1" scrapable="False" craft_area="workbench" craft_tool="Chisel" >
-		<ingredient name="rockSmall" count="6"/>
-		<ingredient name="cement" count="1"/>
+		<ingredient name="cobblestones" count="3"/>
 	</recipe>
 
 	<recipe name="camoNetBlock" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
@@ -2337,6 +2374,10 @@
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
 	</recipe>
+	
+	<recipe name="destroyedStone" count="1"  craft_time = "2" scrapable="False">
+		<ingredient name="rockSmall" count="18"/>
+	</recipe>
 
 	<recipe name="ductTape" count="1" scrapable="False">
 		<ingredient name="glue" count="1"/>
@@ -2389,13 +2430,11 @@
 	</recipe>
 
 	<recipe name="flagstoneBlock" count="1" scrapable="False" craft_area="workbench" craft_tool="Chisel" >
-		<ingredient name="rockSmall" count="6"/>
-		<ingredient name="cement" count="1"/>
+		<ingredient name="cobblestones" count="3"/>
 	</recipe>
 
 	<recipe name="flagstoneStairs25" count="1" scrapable="False" craft_area="workbench" craft_tool="Chisel" >
-		<ingredient name="rockSmall" count="6"/>
-		<ingredient name="cement" count="1"/>
+		<ingredient name="cobblestones" count="3"/>
 	</recipe>
 
 	<recipe name="flamingArrow" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
