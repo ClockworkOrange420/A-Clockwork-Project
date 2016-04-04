@@ -14348,5 +14348,16 @@ kind of free
       <property name="IsRandom" value="false" />
     </property>
   </block>
+  <block id="1979" name="dirt2">
+	<property name="Material" value="dirt" />
+	<property name="Shape" value="Terrain" />
+	<property name="Mesh" value="terrain" />
+	<property name="Texture" value="2" />
+	<property name="DropScale" value="2" />
+	<property name="LPHardnessScale" value="2" />
+	<drop event="Destroy" name="fertileDirt" />
+	<drop event="Fall" name="fertileDirt" count="1" prob="0.5" stick_chance=".2" />
+	<property name="CanMobsSpawnOn" value="false" />
+</block>
 
 </blocks>

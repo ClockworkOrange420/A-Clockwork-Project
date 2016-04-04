@@ -1357,7 +1357,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_start" value="swoosh" />
 		<property name="Sound_end" value="UseActions/repair_block" />
 		<property name="Fertileblock" value="fertileFarmland" />
-		<property name="Adjacentblock" value="dirt" />
+		<property name="Adjacentblock" value="dirt2" />
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="4,12" />
