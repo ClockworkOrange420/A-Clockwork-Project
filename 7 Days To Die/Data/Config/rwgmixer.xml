@@ -116,7 +116,7 @@
 			<prefab_rule name="none"/>
 			<prefab rule="abandoned_houses" prob="0.12"/>				
 			<prefab name="indian_burial_grounds_01" prob="0.05"/>			
-			<prefab rule="militaryCamps" prob="0.09"/>
+			<prefab rule="militaryCamps" prob="0.1"/>
 			<prefab rule="waterPOIs" prob="0.12"/>
 			<prefab rule="bunkers2" prob="0.08"/>
 			<prefab rule="wildernessMisc" prob="0.06"/>
@@ -625,6 +625,7 @@
 			<prefab name="army_camp_01" />
 			<prefab name="army_camp_02" />
 			<prefab name="army_camp_03" />
+			<prefab name="army_barracks_01" />
 		</prefab_rule>
 		
 		<prefab_rule name="abandoned_houses">
