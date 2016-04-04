@@ -744,6 +744,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" name="rockSmall" count="8" />
 	<drop event="Fall" name="destroyedStone" count="1" prob=".75" stick_chance="1" />
 	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="144" name="scrapIronMaster">
@@ -1851,6 +1852,7 @@ group desc for stuff like metal siding
 	<property name="Material" value="cardboard" />
 	<property name="Texture" value="276,270,270,270,270,270" />
 	<property name="LootList" value="22" />
+	<property name="CanMobsSpawnOn" value="false" />
 	<drop event="Destroy" count="0" />
 </block>
 
@@ -1881,6 +1883,7 @@ group desc for stuff like metal siding
 	<property name="Texture" value="334,335,335,335,335,335" />
 	<property name="Weight" value="10" />
 	<property name="CanPickup" value="true" />
+	<property name="CanMobsSpawnOn" value="false" />
 	<drop event="Destroy" name="brokenGlass" count="1,2" />
 </block>
 
@@ -1895,6 +1898,7 @@ group desc for stuff like metal siding
 	<property name="Shape" value="StairsQuarterFilled" />
 	<property name="Texture" value="340" />
 	<property name="Place" value="TowardsPlacer" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="280" name="glassShowerBlock">
@@ -1904,6 +1908,7 @@ group desc for stuff like metal siding
 	<property name="Texture" value="333" />
 	<property name="DescriptionKey" value="glassGroupDesc"/>
 	<drop event="Destroy" name="brokenGlass" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="281" name="woodShinglesCNRFull">
@@ -1936,6 +1941,7 @@ group desc for stuff like metal siding
 	<property name="Texture" value="44,43,43,43,43,43" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="286" name="cntMedicineCabinet">
@@ -1945,6 +1951,7 @@ group desc for stuff like metal siding
 	<property name="Texture" value="358,335,335,335,335,335" />
 	<property name="LootList" value="7" />
 	<drop event="Destroy" name="brokenGlass" count="1,2" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="287" name="awningGreenCNRFull">
@@ -1956,6 +1963,7 @@ group desc for stuff like metal siding
 	<drop event="Harvest" name="cloth" count="2" />
 	<drop event="Destroy" name="cloth" count="1" />
 	<drop event="Fall" name="cloth" count="1" prob="0.3" stick_chance="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="288" name="awningRedCNRInside">
@@ -1966,6 +1974,7 @@ group desc for stuff like metal siding
 	<drop event="Harvest" name="cloth" count="2" />
 	<drop event="Destroy" name="cloth" count="1" />
 	<drop event="Fall" name="cloth" count="1" prob="0.3" stick_chance="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="289" name="sandbagsBlock">
@@ -1976,6 +1985,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" name="crushedSand" count="5" />
 	<drop event="Destroy" name="cloth" count="1" />
 	<property name="CanPickup" value="true" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="290" name="camoNetBlock">
@@ -1990,6 +2000,7 @@ group desc for stuff like metal siding
 	<drop event="Harvest" name="cloth" count="2" />
 	<drop event="Destroy" name="cloth" count="1" />
 	<drop event="Fall" name="cloth" count="1" prob="0.3" stick_chance="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="291" name="camoNetRamp">
@@ -2122,6 +2133,7 @@ group desc for stuff like metal siding
 	<property name="Collide" value="melee,bullet,rocket" />
 	</property>
 	<property name="DescriptionKey" value="campfireDesc"/>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="310" name="cookingPot">
@@ -2136,6 +2148,7 @@ group desc for stuff like metal siding
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Collide" value="melee,bullet,rocket" />
 	<property name="Group" value="Food/Cooking" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="311" name="cntOven">
@@ -2155,6 +2168,7 @@ group desc for stuff like metal siding
 	<drop event="Harvest" name="shortMetalPipe" count="2" tool_category="Disassemble" />
 	<drop event="Destroy" name="scrapIron" count="2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="312" name="oldChair">
@@ -2168,6 +2182,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" name="wood" count="6" prob="1" />
 	<property name="Collide" value="melee,bullet,rocket" />
 	<property name="CanPickup" value="true" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="313" name="sectionalMiddle">
@@ -2181,6 +2196,7 @@ group desc for stuff like metal siding
 	<drop event="Harvest" name="wood" count="2" />
 	<drop event="Harvest" name="cloth" count="2" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="314" name="sectionalCorner">
@@ -2203,6 +2219,7 @@ group desc for stuff like metal siding
 	<property name="Collide" value="melee,bullet,rocket" />
 	<property name="Model" value="Entities/Lighting/porchLight01Prefab" />
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="317" name="porchLight04">
@@ -2271,6 +2288,7 @@ group desc for stuff like metal siding
 	<property name="FuelValue" value="40" />
 	<property class="RepairItems"> <property name="forgedIron" value="2" /> <property name="wood" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="328" name="pew_segment01">
@@ -2283,6 +2301,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Harvest" name="wood" count="6" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="329" name="pew_segment02">
@@ -2295,6 +2314,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Harvest" name="wood" count="6" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="330" name="pew_segment03">
@@ -2307,6 +2327,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Harvest" name="wood" count="6" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="331" name="cntChest01">
@@ -2321,6 +2342,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="332" name="cntChest02">
@@ -2335,6 +2357,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="333" name="metalRivetSheet">
@@ -2346,6 +2369,7 @@ group desc for stuff like metal siding
 	<property name="DowngradeBlock" value="scrapIronSheet" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="334" name="adobeWhitePyramid">
@@ -2364,6 +2388,7 @@ group desc for stuff like metal siding
 	<property name="LootList" value="16" />
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="336" name="cntBin">
@@ -2376,6 +2401,7 @@ group desc for stuff like metal siding
 	<property name="LootList" value="2" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="337" name="cntNightstand">
@@ -2390,6 +2416,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="wood" value="20" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="338" name="cntSuitcase">
@@ -2402,6 +2429,7 @@ group desc for stuff like metal siding
 	<property name="LootList" value="36" />
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="339" name="cntStorageChest">
@@ -2416,6 +2444,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="340" name="cntTrashPile01">
@@ -2428,6 +2457,7 @@ group desc for stuff like metal siding
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="LootList" value="2" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="341" name="cntTrashPile02">
@@ -2483,6 +2513,7 @@ group desc for stuff like metal siding
 	<drop event="Harvest" name="scrapIron" count="8" tool_category="Disassemble" />
 	<drop event="Destroy" name="scrapIron" count="2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="350" name="cntGasPump">
@@ -2503,6 +2534,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="forgedIron" value="15" /> </property>
 	<drop event="Destroy" count="0" />
 	<property name="LPHardnessScale" value="0" /> <!-- disable LP for TNT blocks -->
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="351" name="wallTorch">
@@ -2520,6 +2552,7 @@ group desc for stuff like metal siding
 	<property name="CanPickup" value="true" param1="torch" />
 	<drop event="Destroy" name="torch" count="1" />
 	<property name="Group" value="Basics,Decor/Miscellaneous" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="352" name="graveStone01">
@@ -2533,6 +2566,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" name="rockSmall" count="5" />
 	<drop event="Fall" name="destroyedStone" count="1" prob=".5"  stick_chance="1" />
 	<property name="Collide" value="melee,bullet,rocket" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="353" name="graveStone02">
@@ -2579,6 +2613,7 @@ group desc for stuff like metal siding
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="FuelValue" value="100" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="361" name="cntCorpseLoot01">
@@ -2592,6 +2627,7 @@ group desc for stuff like metal siding
 	<property name="LootList" value="37" />
 	<drop event="Harvest" name="rottingFlesh" count="2" />
 	<drop event="Destroy" name="femur" count="1"/>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="362" name="tanDrywallPillar100">
@@ -2609,6 +2645,7 @@ group desc for stuff like metal siding
 	<drop event="Harvest" name="forgedIron" count="1" prob="0.03" />
 	<drop event="Harvest" name="forgedSteel" count="1" prob="0.015" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="364" name="streetLight01">
@@ -2621,6 +2658,7 @@ group desc for stuff like metal siding
 	<property name="Model" value="Entities/Lighting/street_light01Prefab" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="365" name="airConditioner">
@@ -2632,6 +2670,7 @@ group desc for stuff like metal siding
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<drop event="Harvest" name="shortMetalPipe" count="4" tool_category="Disassemble" />
 	<drop event="Harvest" name="scrapIron" count="2" tool_category="Disassemble" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="366" name="cntDeskSafe">
@@ -2648,6 +2687,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" count="0" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="367" name="cntWallSafe">
@@ -2664,6 +2704,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" count="0" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="368" name="cntCorpseLoot02">
@@ -2698,6 +2739,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="373" name="oilBarrel">
@@ -2716,6 +2758,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" count="0" prob="1" />
 	<property name="CanPickup" value="true" />
 	<property name="Group" value="Resources,Decor/Miscellaneous" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="374" name="cinderBlocks01">
@@ -2788,6 +2831,7 @@ group desc for stuff like metal siding
 	</property>
 	<property name="LPHardnessScale" value="0" /> <!-- disable LP for TNT blocks -->
 	<property name="Group" value="Tools/Traps" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="382" name="brickCNRInside">
@@ -2818,6 +2862,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Group" value="Building,Decor/Miscellaneous" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="385" name="metalTrussingBlock">
@@ -2830,6 +2875,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="386" name="redMetalPillar100">
@@ -2840,6 +2886,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="387" name="redMetalBlockDuplicate">
@@ -2848,6 +2895,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="388" name="redMetalRamp">
@@ -2857,6 +2905,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="389" name="ladderMetal">
@@ -2869,6 +2918,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<property name="Group" value="Building" />
 	<property class="RepairItems"> <property name="forgedIron" value="3" /> </property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="390" name="brickCNRRamp">
@@ -2914,6 +2964,7 @@ group desc for stuff like metal siding
 		<property name="UpgradeHitCount" value="4" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="396" name="corrugatedMetalSheet">
@@ -2923,6 +2974,7 @@ group desc for stuff like metal siding
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="397" name="brickPlate">
@@ -2948,6 +3000,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="401" name="sidewalkHalf">
@@ -2967,6 +3020,7 @@ group desc for stuff like metal siding
 	<property name="DowngradeBlock" value="scrapIronGrateSheet" />
 	<drop event="Destroy" name="scrapIron" count="2,4" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="403" name="blueConcretePillar100">
@@ -2984,6 +3038,7 @@ group desc for stuff like metal siding
 	<property name="Shape" value="PlateCentered" />
 	<property name="Texture" value="194" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="406" name="sidingTileIndustrialWoodBlock">
@@ -3001,6 +3056,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" name="keystoneBlock" count="1" />
 	<drop event="Fall" name="keystoneBlock" count="1" prob="1" stick_chance="0" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="408" name="trapSpikesNew">
@@ -3017,6 +3073,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" count="0" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property name="Group" value="Tools/Traps" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="409" name="trapSpikesDamage1">
@@ -3038,6 +3095,7 @@ group desc for stuff like metal siding
 	</property>
 	<drop event="Destroy" count="0" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="410" name="trapSpikesDamage2">
@@ -3079,6 +3137,7 @@ group desc for stuff like metal siding
 	</property>
 	<drop event="Destroy" count="0" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="414" name="steelBlock">
@@ -3114,6 +3173,7 @@ group desc for stuff like metal siding
 	<property name="Collide" value="melee,bullet,rocket" />
 	<drop event="Harvest" name="scrapIron" count="2" />
 	<drop event="Destroy" name="scrapIron" count="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="418" name="woodLogSpike1">
@@ -3139,6 +3199,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" name="wood" count="5" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property name="Group" value="Tools/Traps" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="419" name="corrugatedMetalCNRInside">
@@ -3168,6 +3229,7 @@ group desc for stuff like metal siding
 	</property>
 	<drop event="Destroy" name="scrapIron" count="1" prob=".7" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -3182,6 +3244,7 @@ group desc for stuff like metal siding
 	<property name="LootList" value="9" />
 	<drop event="Harvest" name="cloth" count="2" />
 	<drop event="Destroy" name="cloth" count="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="424" name="cntBackpack02">
@@ -3234,6 +3297,7 @@ group desc for stuff like metal siding
 	<property name="CanPlayersSpawnOn" value="false" />
 	<property name="Group" value="Tools/Traps" />
 	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="431" name="mineCandyTin">
@@ -3252,6 +3316,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Tools/Traps" />
 	<property name="CraftingSkillGroup" value="Science"/>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="432" name="mineHubcap">
@@ -3270,6 +3335,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Tools/Traps" />
 	<property name="CraftingSkillGroup" value="Science"/>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="433" name="mineAirFilter">
@@ -3288,6 +3354,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Tools/Traps" />
 	<property name="CraftingSkillGroup" value="Science"/>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="434" name="cntToilet01">
@@ -3304,6 +3371,7 @@ group desc for stuff like metal siding
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<drop event="Harvest" name="shortMetalPipe" count="3" tool_category="Disassemble" />
 	<drop event="Harvest" name="scrapIron" count="2" tool_category="Disassemble" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="435" name="cntToilet02">
@@ -3571,6 +3639,7 @@ kind of free
 	<drop event="Harvest" name="plantedCotton3Harvest" count="5" tool_category="Disassemble" />
 	<drop event="Destroy" name="scrapIron" count="1" />
 	<property name="Group" value="Building,Decor/Miscellaneous" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="464" name="bed01Frame">
@@ -3583,6 +3652,7 @@ kind of free
 	<drop event="Harvest" name="shortMetalPipe" count="2" tool_category="Disassemble" />
 	<drop event="Harvest" name="scrapIron" count="2" tool_category="Disassemble" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="465" name="mattress">
@@ -3594,6 +3664,7 @@ kind of free
 	<drop event="Harvest" name="plantedCotton3Harvest" count="2" />
 	<drop event="Harvest" name="cloth" count="2" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="466" name="mattressFlat">
@@ -3613,6 +3684,7 @@ kind of free
 	<drop event="Harvest" name="plantedCotton3Harvest" count="2" />
 	<drop event="Harvest" name="cloth" count="2" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -3651,6 +3723,7 @@ kind of free
 	<property name="Collide" value="movement,melee,bullet,rocket" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="471" name="signRoadAZ260eastSpeed65">
@@ -3947,6 +4020,7 @@ kind of free
 	<property name="Model" value="OutdoorDecor/rebar" param1="main_mesh" />
 	<property name="Collide" value="melee,bullet,rocket" />
 	<drop event="Destroy" name="scrapIron" count="1" prob="1.0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="518" name="chair01">
@@ -3960,6 +4034,7 @@ kind of free
 	<property name="CanPickup" value="true" />
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<drop event="Destroy" name="wood" count="6" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="519" name="cntDesk01">
@@ -3974,6 +4049,7 @@ kind of free
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property class="RepairItems"> <property name="wood" value="15" /> </property>
 	<drop event="Destroy" name="wood" count="6" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="520" name="cntDesk02">
@@ -3990,6 +4066,7 @@ kind of free
 	<drop event="Destroy" name="scrapIron" count="5" />
 	<!-- <drop event="Harvest" name="[recipe]" count="1" tool_category="Disassemble" />-->
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="521" name="officeChair01">
@@ -4004,6 +4081,7 @@ kind of free
 	<drop event="Harvest" name="wood" count="2" />
 	<drop event="Harvest" name="leather" count="2" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="522" name="storeShelving01">
@@ -4016,6 +4094,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="523" name="storeShelving01Double">
@@ -4075,6 +4154,7 @@ kind of free
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<drop event="Harvest" name="wood" count="2" />
 	<drop event="Destroy" count="0" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="548" name="endTableLamp">
@@ -4088,6 +4168,7 @@ kind of free
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<drop event="Harvest" name="wood" count="2" />
 	<drop event="Destroy" count="0" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="549" name="sectionalArm2">
@@ -4100,6 +4181,7 @@ kind of free
 	<drop event="Harvest" name="wood" count="2" />
 	<drop event="Harvest" name="leather" count="2" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="550" name="sectionalCorner2">
@@ -4123,6 +4205,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
 	<property name="CanPickup" value="true" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="553" name="tv_fallen">
@@ -4173,6 +4256,7 @@ kind of free
 	<property name="InputMaterials" value="iron,brass,lead,glass,stone,clay"/>
 	</property>
 	<property name="DescriptionKey" value="forgeDesc"/>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="557" name="cntMunitionsBox">	<!-- military ammo -->
@@ -4187,6 +4271,7 @@ kind of free
 	<drop event="Harvest" name="forgedIron" count="1" prob="0.03" />
 	<drop event="Harvest" name="forgedSteel" count="1" prob="0.015" />
 	<drop event="Destroy" name="scrapIron" count="6" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="558" name="ironBars">
@@ -4200,6 +4285,7 @@ kind of free
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="559" name="treeJuniper6m">
@@ -4577,6 +4663,7 @@ kind of free
 	<property name="Collide" value="melee,bullet,rocket" />
 	<property name="LootList" value="41" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="593" name="concreteDestroyed1">
@@ -4586,6 +4673,7 @@ kind of free
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Buildings/concrete_destroyed_1" param1="main_mesh" />
 	<property class="RepairItems"> <property name="concreteMix" value="10" /> </property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="594" name="concreteDestroyed2">
@@ -4750,6 +4838,7 @@ kind of free
 	<property name="Collide" value="movement,melee" /> <!-- -rocket -->
 	<property class="UpgradeBlock"> <property name="ToBlock" value="woodBlock" /> </property>
 	<drop event="Harvest" name="coal" count="5" prob=".35"/>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="613" name="whiteSidingWoodPanelBurnt2">
@@ -4790,6 +4879,7 @@ kind of free
 	<property name="Model" value="Plumbing/faucet02" param1="main_mesh" />
 	<property name="Collide" value="melee,bullet,rocket" />
 	<property name="Weight" value="24" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="620" name="faucet04">
@@ -4800,6 +4890,7 @@ kind of free
 	<property name="Model" value="Plumbing/faucet04" param1="main_mesh" />
 	<property name="Collide" value="melee,bullet,rocket" />
 	<property name="Weight" value="16" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="621" name="faucetBrass02">
@@ -4810,6 +4901,7 @@ kind of free
 	<property name="Model" value="Plumbing/faucet_brass02" param1="main_mesh" />
 	<property name="Collide" value="melee,bullet,rocket" />
 	<property name="Weight" value="24" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="622" name="faucetBrass04">
@@ -4820,6 +4912,7 @@ kind of free
 	<property name="Model" value="Plumbing/faucet_brass04" param1="main_mesh" />
 	<property name="Collide" value="melee,bullet,rocket" />
 	<property name="Weight" value="16" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="623" name="cntFileCabinet">
@@ -4833,6 +4926,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="624" name="cntCooler">
@@ -4847,6 +4941,7 @@ kind of free
 	<property name="IsTerrainDecoration" value="true" />
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="625" name="schoolDesk">
@@ -4859,6 +4954,7 @@ kind of free
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="woodDebris" count="1,2" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="626" name="cntLockers">
@@ -4871,6 +4967,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="627" name="fountain">
@@ -4883,6 +4980,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="628" name="cntGunSafe">
@@ -4897,6 +4995,7 @@ kind of free
 	<property class="RepairItems"> <property name="forgedIron" value="15" /> </property>
 	<drop event="Destroy" count="0" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="629" name="cntGraniteSink">
@@ -4909,6 +5008,7 @@ kind of free
 	<drop event="Harvest" name="shortMetalPipe" count="4" tool_category="Disassemble" />
 	<drop event="Harvest" name="scrapIron" count="2" tool_category="Disassemble" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="630" name="rockResource"> <!-- biome decoration -->
@@ -4928,6 +5028,7 @@ kind of free
 	<drop event="Destroy" name="scrapIron" count="5" prob="1" />
 	<property name="DowngradeBlock" value="rockResourceBroke1" />
 	<drop event="Fall" name="rockResource" count="1" prob="1" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="631" name="secureDoorWooden">
@@ -4958,6 +5059,7 @@ kind of free
 	<drop event="Harvest" name="wood" count="6"/>
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Building,Basics" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="632" name="blueMetalRamp1">
@@ -4971,6 +5073,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="634" name="blueDrywallBlock">
@@ -5015,6 +5118,7 @@ kind of free
 	<property name="DowngradeBlock" value="cntStorageChest" />
 	<property name="Group" value="Basics,Building" />
 	<property name="DescriptionKey" value="cntSecureStorageChestDesc"/>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="640" name="rockResource02"> <!-- biome decoration -->
@@ -5056,6 +5160,7 @@ kind of free
 	<drop event="Destroy" count="0" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="643" name="metalReinforcedDoorWooden">
@@ -5086,6 +5191,7 @@ kind of free
 	<drop event="Harvest" name="scrapIron" count="6" prob="1" />
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="644" name="rockResourceBroke1">
@@ -5152,6 +5258,7 @@ kind of free
 	</property>
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="656" name="window02">
@@ -5171,6 +5278,7 @@ kind of free
 		<property name="UpgradeHitCount" value="4" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -5190,6 +5298,7 @@ kind of free
 		<property name="UpgradeHitCount" value="4" />
 	</property>
 	<drop event="Destroy" name="brokenGlass" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="668" name="treeCactus01">
@@ -5588,6 +5697,7 @@ kind of free
 		<property name="wood" value="10" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="704" name="rWoodMetalLogSpike3">
@@ -5609,6 +5719,7 @@ kind of free
 		<property name="scrapIron" value="10" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="705" name="rWoodPillar100">
@@ -5645,6 +5756,7 @@ kind of free
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="710" name="cabinetFillerBlock">
@@ -5653,6 +5765,7 @@ kind of free
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="711" name="cabinetOldTopPlate">
@@ -5765,6 +5878,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="724" name="tileFloor3Stairs25">
@@ -5785,6 +5899,7 @@ kind of free
 	<property name="LootList" value="60" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="726" name="concreteTrim2TanDrywallBlock">
@@ -5862,6 +5977,7 @@ kind of free
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="738" name="adobeWhitePlate">
@@ -6193,6 +6309,7 @@ kind of free
 	<drop event="Harvest" name="rockSmall" count="8" />
 	<drop event="Destroy" name="rockSmall" count="8" />
 	<drop event="Fall" name="destroyedStone" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="786" name="garageDoor1CTRPlate">
@@ -6200,6 +6317,7 @@ kind of free
 	<property name="Shape" value="PlateCentered" />
 	<property name="Texture" value="54,54,73,54,73,54" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="787" name="rustyIronPole">
@@ -6209,6 +6327,7 @@ kind of free
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property class="RepairItems"> <property name="forgedIron" value="4" /> </property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="788" name="ladderWood">
@@ -6224,6 +6343,7 @@ kind of free
 		<property name="wood" value="6" />
 	</property>
 	<drop event="Destroy" name="wood" count="1,3" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -6233,6 +6353,7 @@ kind of free
 	<property name="Texture" value="13" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" name="cloth" count="2,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="793" name="awningRedBlock">
@@ -6241,6 +6362,7 @@ kind of free
 	<property name="FuelValue" value="2" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" name="cloth" count="2,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="794" name="logCabinBlock">
@@ -6266,6 +6388,7 @@ kind of free
 	<property name="Texture" value="46" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="798" name="metalRivetRamp">
@@ -6281,6 +6404,7 @@ kind of free
 	<property name="Texture" value="63" />
 	<property name="Collide" value="sight,movement,melee,bullet,rocket" />
 	<drop event="Destroy" name="cloth" count="1,3" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="800" name="sidingBluePlasterBaseboardBlock">
@@ -6320,6 +6444,7 @@ kind of free
 	<property name="Texture" value="13" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="808" name="awningRedGable">
@@ -6328,6 +6453,7 @@ kind of free
 	<property name="Texture" value="13" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="809" name="shinglesAspaltBlueWedge"> <!-- xxx spelling -->
@@ -6351,6 +6477,7 @@ kind of free
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Group" value="Building" />
 	<property class="RepairItems"> <property name="forgedIron" value="5" /> </property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="813" name="shinglesAsphaltBlueWedgeTip">
@@ -6359,6 +6486,7 @@ kind of free
 	<property name="Texture" value="229,54,50,50,50,50" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="814" name="panelingBurntBlock">
@@ -6373,6 +6501,7 @@ kind of free
 	<property name="Texture" value="194" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="816" name="treePlainsTree">
@@ -6396,6 +6525,7 @@ kind of free
 	<drop event="Harvest" name="rockSmall" count="8" />
 	<drop event="Destroy" name="rockSmall" count="8" />
 	<drop event="Fall" name="destroyedStone" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="818" name="bridgeMetalRivetBlock">
@@ -6405,6 +6535,7 @@ kind of free
 		<property name="scrapIron" value="10" />
 	</property>
 	<drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="819" name="bridgeConcreteBlock">
@@ -6413,6 +6544,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="concreteMix" value="10" />
 	</property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="820" name="bridgeWoodBlock">
@@ -6443,6 +6575,7 @@ kind of free
 	<property name="Model" value="water_full" />
 	<property name="Texture" value="223" />
 	<property name="Map.Color" value="20,20,120" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="824" name="waterStaticBucket">
@@ -6456,6 +6589,7 @@ kind of free
 	<property name="Model" value="water_full" />
 	<property name="Texture" value="223" />
 	<property name="Map.Color" value="20,20,120" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="825" name="waterMoving">
@@ -6470,6 +6604,7 @@ kind of free
 	<property name="Texture" value="223" />
 	<property name="Map.Color" value="20,20,120" />
 	<property name="Map.Color" value="119,136,204" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="826" name="water">
@@ -6484,6 +6619,7 @@ kind of free
 	<property name="Texture" value="223" />
 	<property name="Map.Color" value="20,20,120" />
 	<property name="Map.Color" value="119,136,204" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="827" name="asphaltShingleCNRInside">
@@ -6509,6 +6645,7 @@ kind of free
 	<property name="Shape" value="Half" />
 	<property name="Texture" value="241" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="831" name="tanStuccoBlock">
@@ -6530,6 +6667,7 @@ kind of free
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property class="RepairItems"> <property name="wood" value="8" /> </property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="834" name="concreteStairs50">
@@ -6541,6 +6679,7 @@ kind of free
 	<drop event="Harvest" name="rockSmall" count="13" />
 	<drop event="Destroy" name="rockSmall" count="12" />
 	<drop event="Fall" name="destroyedStone" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="835" name="redWoodStairs25">
@@ -6567,6 +6706,7 @@ kind of free
 	<drop event="Harvest" name="rockSmall" count="8" />
 	<drop event="Destroy" name="rockSmall" count="8" />
 	<drop event="Fall" name="destroyedStone" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="837" name="rug01Block">
@@ -6585,6 +6725,7 @@ kind of free
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="839" name="woodQuarter">
@@ -6592,6 +6733,7 @@ kind of free
 	<property name="Shape" value="Quarter" />
 	<property name="Texture" value="241" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="840" name="cntFridgeTop">
@@ -6606,6 +6748,7 @@ kind of free
 	<drop event="Harvest" name="scrapIron" count="3" tool_category="Disassemble" />
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="841" name="cntFridgeBottom">
@@ -6619,6 +6762,7 @@ kind of free
 	<drop event="Harvest" name="scrapIron" count="3" tool_category="Disassemble" />
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -6717,6 +6861,7 @@ kind of free
 	<property name="Texture" value="194" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="861" name="hayBaleBlock">
@@ -6727,6 +6872,7 @@ kind of free
 	<property name="CanPickup" value="true" />
 	<property name="FallDamage" value="false" />
 	<drop event="Destroy" name="hayBaleBlock" count="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -6867,6 +7013,7 @@ kind of free
 	<property name="Texture" value="276,270,270,270,270,270" />
 	<property name="LootList" value="1" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="893" name="woodFenceSheet">
@@ -6879,6 +7026,7 @@ kind of free
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property class="RepairItems"> <property name="wood" value="5" /> </property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="894" name="woodFenceFarmSheet">
@@ -6892,6 +7040,7 @@ kind of free
 	<property class="RepairItems"> <property name="wood" value="5" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="895" name="whitePicketFenceSheet">
@@ -6905,6 +7054,7 @@ kind of free
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property class="RepairItems"> <property name="wood" value="5" /> </property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="896" name="wroughtIronFenceSheet">
@@ -6916,6 +7066,7 @@ kind of free
 	<property name="DescriptionKey" value="fencesGroupDesc"/>
 	<drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property class="RepairItems"> <property name="forgedIron" value="3" /> </property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="897" name="panelingBurntPillar100">
@@ -7058,6 +7209,7 @@ kind of free
 	<property name="Weight" value="10" />
 	<property name="CanPickup" value="true" />
 	<drop event="Destroy" name="brokenGlass" count="1,2" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="908" name="tileFloor4Block">
@@ -7096,6 +7248,7 @@ kind of free
 	<property name="Texture" value="44,245,245,245,245,245" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="913" name="awningRedCNRFull">
@@ -7105,6 +7258,7 @@ kind of free
 	<property name="Place" value="TowardsPlacer90" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="914" name="awningTanCNRFull">
@@ -7114,6 +7268,7 @@ kind of free
 	<property name="Place" value="TowardsPlacer90" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="915" name="awningTanCNRInside">
@@ -7122,6 +7277,7 @@ kind of free
 	<property name="Texture" value="14" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="916" name="awningGreenCNRInside">
@@ -7130,6 +7286,7 @@ kind of free
 	<property name="Texture" value="15" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="917" name="peachDrywallBaseboardPillar100">
@@ -7150,6 +7307,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="920" name="corrugatedMetalPillar100">
@@ -7159,6 +7317,7 @@ kind of free
 	<property name="Texture" value="194" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="921" name="powerPoleWoodPillar50">
@@ -7168,6 +7327,7 @@ kind of free
 	<property name="Texture" value="21,21,241,241,241,241" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="922" name="rustyIronPillar50">
@@ -7177,6 +7337,7 @@ kind of free
 	<property name="Texture" value="282" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="923" name="corrugatedMetalPillar50">
@@ -7187,6 +7348,7 @@ kind of free
 	<drop event="Destroy" count="0" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="924" name="decals2">
@@ -7209,6 +7371,7 @@ kind of free
 	<property name="Texture" value="194" />
 	<property name="Place" value="TowardsPlacerInverted" />
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="927" name="whiteMetalPillar100">
@@ -7218,6 +7381,7 @@ kind of free
 	<property name="Texture" value="312" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="928" name="whiteMetalBlock">
@@ -7225,6 +7389,7 @@ kind of free
 	<property name="Texture" value="312" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="929" name="whiteMetalRamp">
@@ -7233,6 +7398,7 @@ kind of free
 	<property name="Texture" value="312" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="930" name="ventDuctRamp">
@@ -7242,6 +7408,7 @@ kind of free
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<drop event="Harvest" name="scrapIron" count="2"/>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="931" name="chaulkboardPlate">
@@ -7249,6 +7416,7 @@ kind of free
 	<property name="Shape" value="Plate" />
 	<property name="Texture" value="372" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="932" name="concreteTrim2Ramp">
@@ -7316,6 +7484,7 @@ kind of free
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<drop event="Harvest" name="shortMetalPipe" count="4" tool_category="Disassemble" />
 	<drop event="Harvest" name="scrapIron" count="2" tool_category="Disassemble" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="945" name="flagstoneDrywallBlock">
@@ -7479,6 +7648,7 @@ kind of free
 	<!-- Move, replace or remove with wood-->
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="973" name="dotsAsphaltShinglesCNRRamp">
@@ -7488,6 +7658,7 @@ kind of free
 	<!-- Move, replace or remove with wood-->
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="974" name="dotsWoodShinglesWoodCNRRamp">
@@ -7497,6 +7668,7 @@ kind of free
 	<!-- Move, replace or remove with wood-->
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="975" name="greenShinglesPyramid">
@@ -7505,6 +7677,7 @@ kind of free
 	<property name="Texture" value="192" />
 	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="976" name="shinglesAsphaltPyramid">
@@ -7513,6 +7686,7 @@ kind of free
 	<property name="Texture" value="229" />
 	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="977" name="woodShinglesPyramid">
@@ -7523,6 +7697,7 @@ kind of free
 	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="978" name="asphaltBlock">
@@ -7599,6 +7774,7 @@ kind of free
 	<property name="Texture" value="14" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" name="cloth" count="2,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="995" name="awningGreenRamp">
@@ -7607,6 +7783,7 @@ kind of free
 	<property name="Texture" value="15" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" name="cloth" count="2,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="996" name="awningTanBlock">
@@ -7614,6 +7791,7 @@ kind of free
 	<property name="Texture" value="14" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" name="cloth" count="2,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="997" name="awningGreenBlock">
@@ -7621,6 +7799,7 @@ kind of free
 	<property name="Texture" value="15" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" name="cloth" count="2,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -7675,6 +7854,7 @@ kind of free
 	<property name="Texture" value="194" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1008" name="rustyIronRamp">
@@ -7691,6 +7871,7 @@ kind of free
 	<property name="Texture" value="66" />
 	<property name="Collide" value="sight,movement,melee,bullet,rocket" />
 	<drop event="Destroy" name="cloth" count="1,3" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1010" name="sidingBluePlasterMiddleBlock">
@@ -7806,6 +7987,7 @@ kind of free
 	<property name="Texture" value="14" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1030" name="awningGreenPyramid">
@@ -7814,6 +7996,7 @@ kind of free
 	<property name="Texture" value="15" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1031" name="awningTanGable">
@@ -7822,6 +8005,7 @@ kind of free
 	<property name="Texture" value="14" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1032" name="awningGreenGable">
@@ -7830,6 +8014,7 @@ kind of free
 	<property name="Texture" value="15" />
 	<property name="DescriptionKey" value="awningGroupDesc"/>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 <!-- free 1033 -->
 
@@ -7893,6 +8078,7 @@ kind of free
 	<drop event="Harvest" name="rockSmall" count="8" />
 	<drop event="Destroy" name="rockSmall" count="8" />
 	<drop event="Fall" name="destroyedStone" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1043" name="brickDecayedTanRamp">
@@ -7914,6 +8100,7 @@ kind of free
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1046" name="shinglesAsphaltGreenWedge"> <!-- xxx this is a WedgeTip -->
@@ -7922,6 +8109,7 @@ kind of free
 	<property name="Texture" value="229,54,51,51,51,51" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1047" name="shinglesAsphaltWhiteWedgeDuplicate">
@@ -7930,6 +8118,7 @@ kind of free
 	<property name="Texture" value="229,54,52,52,52,52" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1048" name="shinglesAsphaltYellowWedgeDuplicate">
@@ -7938,6 +8127,7 @@ kind of free
 	<property name="Texture" value="229,54,53,53,53,53" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1049" name="shinglesAsphaltTanWedgeDuplicate">
@@ -7946,6 +8136,7 @@ kind of free
 	<property name="Texture" value="229,54,77,77,77,77" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1050" name="shinglesAsphaltBurntWedgeDuplicate">
@@ -7954,6 +8145,7 @@ kind of free
 	<property name="Texture" value="229,302,302,302,302,302" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1051" name="dotsGreenShinglesCNRInside">
@@ -7989,6 +8181,7 @@ kind of free
 	<drop event="Harvest" name="rockSmall" count="8" />
 	<drop event="Destroy" name="rockSmall" count="8" />
 	<drop event="Fall" name="destroyedStone" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1058" name="dotsGreenShinglesGable">
@@ -7997,6 +8190,7 @@ kind of free
 	<property name="Texture" value="192,54,54,54,54,54" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1059" name="dotsAsphaltShinglesGable">
@@ -8005,6 +8199,7 @@ kind of free
 	<property name="Texture" value="229,54,54,54,54,54" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1060" name="corrugatedMetalGable">
@@ -8012,6 +8207,7 @@ kind of free
 	<property name="Shape" value="Gable" />
 	<property name="Texture" value="194,194,194,194,194,194" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1061" name="dotsWoodShinglesGable">
@@ -8020,6 +8216,7 @@ kind of free
 	<property name="Texture" value="44,54,54,54,54,54" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1062" name="woodShinglesGable">
@@ -8030,6 +8227,7 @@ kind of free
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -8064,6 +8262,7 @@ kind of free
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1070" name="carpet2Stairs25">
@@ -8108,6 +8307,7 @@ kind of free
 	<property name="LootList" value="3" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1075" name="cntCabinetOldTop">
@@ -8117,6 +8317,7 @@ kind of free
 	<property name="LootList" value="3" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1076" name="cntWallOven">
@@ -8134,6 +8335,7 @@ kind of free
 	<drop event="Harvest" name="shortMetalPipe" count="2" tool_category="Disassemble" />
 	<drop event="Destroy" name="scrapIron" count="2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1077" name="cntCabinetTop">
@@ -8145,6 +8347,7 @@ kind of free
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1078" name="Carpet2Block">
@@ -8228,6 +8431,7 @@ kind of free
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<drop event="Harvest" name="scrapIron" count="2"/>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1094" name="railingMetalSheet">
@@ -8250,6 +8454,7 @@ kind of free
 	<property class="RepairItems"> <property name="forgedIron" value="2" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1096" name="cable1">
@@ -8262,6 +8467,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1097" name="garageDoor1Plate">
@@ -8305,6 +8511,7 @@ kind of free
 	</property>
 	<property class="RepairItems"> <property name="wood" value="5" /> </property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -8407,6 +8614,7 @@ kind of free
 	<property name="Texture" value="44,193,193,193,193,193" />
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1138" name="asphaltWedgeTip">
@@ -8423,6 +8631,7 @@ kind of free
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1140" name="brickMetalWedgeTip">
@@ -8453,6 +8662,7 @@ kind of free
 	<property class="RepairItems"> <property name="wood" value="5" /> </property>
 	<drop event="Destroy" count="0" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1144" name="railingOldWoodSheet">
@@ -8545,6 +8755,7 @@ kind of free
 		<property name="UpgradeHitCount" value="4" />
 	</property>
 	<drop event="Destroy" name="brokenGlass" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1159" name="glassBusinessCTRSheet">
@@ -8560,6 +8771,7 @@ kind of free
 		<property name="UpgradeHitCount" value="4" />
 	</property>
 	<drop event="Destroy" name="brokenGlass" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1160" name="glassBusinessBlock">
@@ -8569,6 +8781,7 @@ kind of free
 	<property name="Texture" value="285" />
 	<property name="DescriptionKey" value="glassGroupDesc"/>
 	<drop event="Destroy" name="brokenGlass" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- 1161 Free -->
 
@@ -8578,6 +8791,7 @@ kind of free
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1163" name="cabinetOldFiller2Block">
@@ -8586,6 +8800,7 @@ kind of free
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1164" name="commercialDoor1_v1">
@@ -8616,6 +8831,7 @@ kind of free
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1165" name="commercialDoor1_v2">
@@ -8658,6 +8874,7 @@ kind of free
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1167" name="commercialDoor2_v1">
@@ -8745,6 +8962,7 @@ kind of free
 	</property>
 	<drop event="Harvest" name="wood" count="3" prob="1" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- 1177-1179 Free -->
 
@@ -8781,6 +8999,7 @@ kind of free
 	<property name="Texture" value="423" />
 	<drop event="Destroy" count="0" />
 	<property name="DowngradeBlock" value="cntLootCrateShamway" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1183" name="cntLootCrateShamway">
@@ -8790,6 +9009,7 @@ kind of free
 	<property name="LootList" value="59" />
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- 1184-1190 Free -->
 
@@ -8805,6 +9025,7 @@ kind of free
 	</property>
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1192" name="woodBarricadePlate">
@@ -8863,6 +9084,7 @@ kind of free
 		<property name="UpgradeHitCount" value="4" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1201" name="window03Broke2">
@@ -8879,6 +9101,7 @@ kind of free
 		<property name="UpgradeHitCount" value="4" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1202" name="window03Broke3">
@@ -8919,6 +9142,7 @@ kind of free
 		<property name="UpgradeHitCount" value="4" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1207" name="glassIndustrial02Broken01CTRPlate">
@@ -8940,6 +9164,7 @@ kind of free
 	<property name="Texture" value="416" />
 	<property name="Collide" value="sight,movement,melee,bullet,rocket" />
 	<drop event="Destroy" count="0" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1210" name="miniblindBottomSheet">
@@ -8961,6 +9186,7 @@ kind of free
 		<property name="UpgradeHitCount" value="4" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1212" name="window04">
@@ -8978,6 +9204,7 @@ kind of free
 		<property name="ItemCount" value="10" />
 		<property name="UpgradeHitCount" value="4" />
 	</property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1213" name="doorFrameWhite1">
@@ -8988,6 +9215,7 @@ kind of free
 	<property name="Place" value="TowardsPlacer" />
 	<property name="Collide" value="sight,melee" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1214" name="doorFrameWhite2">
@@ -9096,6 +9324,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="15" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1230" name="signShopGasLit">
@@ -9145,6 +9374,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="15" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1238" name="signShopGunStoreLit">
@@ -9196,6 +9426,7 @@ kind of free
 	<property name="Texture" value="423" />
 	<drop event="Destroy" count="0" />
 	<property name="DowngradeBlock" value="cntLootCrateShotgunMessiah" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1246" name="cntLootCrateShotgunMessiah">
@@ -9205,6 +9436,7 @@ kind of free
 	<property name="Texture" value="424" />
 	<drop event="Destroy" count="0" />
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- block id 1247 Available Free -->
 
@@ -9236,6 +9468,7 @@ kind of free
 	<drop event="Harvest" name="scrapIron" count="12" prob="1" />
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1249" name="ironDoor1_v2">
@@ -9285,6 +9518,7 @@ kind of free
 	<drop event="Harvest" name="wood" count="6"/>
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1252" name="woodHatch1_v2">
@@ -9331,6 +9565,7 @@ kind of free
 		<property name="ItemCount" value="1" />
 		<property name="UpgradeHitCount" value="4" />
 	</property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -9354,6 +9589,7 @@ kind of free
 	</property>
 	<property class="RepairItems"> <property name="wood" value="5" /> </property>
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1260" name="cntPillCase">
@@ -9366,6 +9602,7 @@ kind of free
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1261" name="cntBeerCooler">
@@ -9377,6 +9614,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1262" name="greenMetalRamp">
@@ -9448,6 +9686,7 @@ kind of free
 	<property class="RepairItems"> <property name="cobblestones" value="6" /> </property>
 	<drop event="Destroy" count="0" />
 	<drop event="Fall" name="destroyedStone" count="1" prob=".1" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1299" name="cobblestoneBlockThreeQuarters"> <!-- unused -->
@@ -9466,6 +9705,7 @@ kind of free
 	<property class="RepairItems"> <property name="cobblestones" value="2" /> </property>
 	<drop event="Destroy" count="0" />
 	<drop event="Fall" name="destroyedStone" count="1" prob=".2" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1300" name="cobblestoneBlockQuarter">
@@ -9485,6 +9725,7 @@ kind of free
 	<property class="RepairItems"> <property name="cobblestones" value="4" /> </property>
 	<drop event="Destroy" count="0" />
 	<drop event="Fall" name="destroyedStone" count="1" prob=".1" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1301" name="candleWall">
@@ -9501,6 +9742,7 @@ kind of free
 	<property name="CanPickup" value="true" param1="candle" />
 	<drop event="Destroy" name="candle" count="1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1302" name="signShopBookStore">
@@ -9515,6 +9757,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="15" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1303" name="signShopBookStoreLit">
@@ -9572,6 +9815,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="15" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1311" name="signShopPharmacyLit">
@@ -9629,6 +9873,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="15" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1319" name="signShopToolStoreLit">
@@ -9683,6 +9928,7 @@ kind of free
 	<property name="Texture" value="427" />
 	<property name="Collide" value="melee,bullet,rocket" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1327" name="candleTable">
@@ -9699,6 +9945,7 @@ kind of free
 	<drop event="Destroy" name="candle" count="1" />
 	<property name="Group" value="Building" />
 	<property name="IsDeveloper" value="true" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1328" name="orangeDrywallBlock">
@@ -9717,6 +9964,7 @@ kind of free
 	<property name="Texture" value="423" />
 	<drop event="Destroy" count="0" />
 	<property name="DowngradeBlock" value="cntLootCrateWorkingStiffs" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1331" name="cntLootCrateWorkingStiffs">
@@ -9726,6 +9974,7 @@ kind of free
 	<property name="Texture" value="431" />
 	<drop event="Destroy" count="0" />
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -9752,6 +10001,7 @@ kind of free
 	</property>
 	<property class="RepairItems"> <property name="wood" value="5" /> </property>
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1335" name="cobblestoneFrameRampQuarter">
@@ -9770,6 +10020,7 @@ kind of free
 	<property class="RepairItems"> <property name="cobblestones" value="4" /> </property>
 	<drop event="Destroy" count="0" />
 	<drop event="Fall" name="destroyedStone" count="1" prob=".1" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1336" name="cobblestoneFrameRampHalf">
@@ -9788,6 +10039,7 @@ kind of free
 	<property class="RepairItems"> <property name="cobblestones" value="3" /> </property>
 	<drop event="Destroy" count="0" />
 	<drop event="Fall" name="destroyedStone" count="1" prob=".2" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -9800,6 +10052,7 @@ kind of free
 	<property name="Model" value="LootContainers/cash_register_empty" param1="main_mesh" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1340" name="cntCashRegister">
@@ -9813,6 +10066,7 @@ kind of free
 	<property name="LootList" value="55" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1341" name="cntStorageAmmoInsecure">
@@ -9861,6 +10115,7 @@ kind of free
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Collide" value="movement,melee,bullet,rocket" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1347" name="cntShoppingCart">
@@ -9875,6 +10130,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1348" name="shoppingBasketEmpty">
@@ -9886,6 +10142,7 @@ kind of free
 	<property name="CanPickup" value="true" />
 	<property name="PickupTarget" value="shoppingBasketItem" />
 	<drop event="Destroy" name="scrapIron" count="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1349" name="cntShoppingBasket">
@@ -9898,6 +10155,7 @@ kind of free
 	<property name="CustomIcon" value="shoppingBasketEmpty" />
 	<property name="LootList" value="58" />
 	<drop event="Harvest" name="shoppingBasketItem" count="1" prob="1" tool_category="Disassemble" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1350" name="woodShinglesWedge">
@@ -9913,6 +10171,7 @@ kind of free
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1352" name="flagstoneStairs25">
@@ -9974,6 +10233,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="15" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1361" name="signShopGroceryLit">
@@ -10082,6 +10342,7 @@ kind of free
 	<property name="Place" value="TowardsPlacer" />
 	<property name="LootList" value="63" />
 	<drop event="Destroy" name="wood" count="0" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1374" name="cntApacheArtifactChest">
@@ -10103,6 +10364,7 @@ kind of free
 	</property>
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1378" name="WindowPlug01">
@@ -10326,6 +10588,7 @@ kind of free
 	<property name="CanPickup" value="true" />
 	<drop event="Destroy" name="scrapIron" count="0" prob="1" />
 	<property name="Group" value="Tools/Traps" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1409" name="window03WoodBroke1">
@@ -10342,6 +10605,7 @@ kind of free
 		<property name="UpgradeHitCount" value="4" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1410" name="window03WoodBroke2">
@@ -10358,6 +10622,7 @@ kind of free
 		<property name="UpgradeHitCount" value="4" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1411" name="window03WoodBroke3">
@@ -10389,6 +10654,7 @@ kind of free
 	<drop event="Destroy" count="0" />
 	<property name="DowngradeBlock" value="window03WoodBroke1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1414" name="window03WoodFrame">
@@ -10409,6 +10675,7 @@ kind of free
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<property name="Group" value="Decor/Miscellaneous" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1417" name="redWoodTable">
@@ -10429,6 +10696,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="8" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1419" name="dotsWoodTable">
@@ -10446,6 +10714,7 @@ kind of free
 	<property name="Collide" value="movement,melee,bullet,rocket" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -10460,6 +10729,7 @@ kind of free
 	<property class="RepairItems"><property name="scrapIron" value="10" /></property>
 	<drop event="Destroy" name="scrapIron" count="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -10494,6 +10764,7 @@ kind of free
 	<drop event="Harvest" name="forgedSteel" count="1" prob="0.015" />
 	<drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1427" name="cntWallSafeInsecure">
@@ -10511,6 +10782,7 @@ kind of free
 	<drop event="Harvest" name="forgedSteel" count="1" prob="0.015" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1428" name="cntGunSafeInsecure">
@@ -10527,6 +10799,7 @@ kind of free
 	<drop event="Harvest" name="forgedSteel" count="1" prob="0.015" />
 	<drop event="Destroy" name="scrapIron" count="5,20" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!--
 
@@ -10612,6 +10885,7 @@ kind of free
 	<property name="Group" value="Building,Basics" />
 	<!--property name="Place" value="Door" THIS WORKS ONLY FOR 1x2m doors /-->
 	<property name="Place" value="TowardsPlacer" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1432" name="scrapIronLogSpike4">
@@ -10635,6 +10909,7 @@ kind of free
 	</property>
 	<drop event="Destroy" name="scrapIron" count="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1433" name="rScrapIronLogSpike5">
@@ -10659,6 +10934,7 @@ kind of free
 	</property>
 	<drop event="Destroy" name="scrapIron" count="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1434" name="chainLinkFenceBottomPole">
@@ -10715,6 +10991,7 @@ kind of free
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property name="IsTerrainDecoration" value="true" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 <block id="1447" name="spotlightNailedDown">
 	<property name="Material" value="metal" />
@@ -10724,6 +11001,7 @@ kind of free
 	<property class="RepairItems"><property name="scrapIron" value="10" /></property>
 	<drop event="Destroy" name="spotlight" count="1" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -10755,6 +11033,7 @@ kind of free
 	<drop event="Harvest" name="scrapIron" count="25" prob="1" />
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1450" name="vaultDoor02">
@@ -10787,6 +11066,7 @@ kind of free
 	<drop event="Harvest" name="scrapIron" count="25" prob="1" />
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -10954,6 +11234,7 @@ kind of free
 	<drop event="Harvest" name="scrapIron" count="5" prob="1" />
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1464" name="scrapHatch_v2">
@@ -10995,6 +11276,7 @@ kind of free
 	<drop event="Harvest" name="plantedCotton3Harvest" count="10" tool_category="Disassemble" />
 	<drop event="Destroy" name="scrapIron" count="2" />
 	<property name="Group" value="Building,Decor/Miscellaneous" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1468" name="cntCoffin">
@@ -11038,6 +11320,7 @@ kind of free
 	<drop event="Harvest" name="scrapIron" count="25" prob="1" />
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1470" name="vaultHatch_v2">
@@ -11071,6 +11354,7 @@ kind of free
 	<drop event="Harvest" name="scrapIron" count="25" prob="1" />
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1472" name="waterSource8">
@@ -11083,6 +11367,7 @@ kind of free
 	<property name="Count" value="8" />
 	<property name="Map.Color" value="20,20,120" />
 	<property name="Map.Color" value="119,136,204" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -11095,6 +11380,7 @@ kind of free
 	<property name="Texture" value="44,193,193,193,193,193" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1478" name="shapeTestWedge">
@@ -11106,6 +11392,7 @@ kind of free
 	<property name="Texture" value="44,193,193,193,193,193" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1479" name="shapeTestWedgeTip">
@@ -11117,6 +11404,7 @@ kind of free
 	<property name="Texture" value="44,193,193,193,193,193" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1480" name="shapeTestCap">
@@ -11128,6 +11416,7 @@ kind of free
 	<property name="Texture" value="44,193,193,193,193,193" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1481" name="cntDumpster">
@@ -11140,6 +11429,7 @@ kind of free
 	<property name="LootList" value="68" />
 	<property class="RepairItems"><property name="scrapIron" value="20" /></property>
 	<drop event="Destroy" name="scrapIron" count="4" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1482" name="garbage_decor1">
@@ -11149,6 +11439,7 @@ kind of free
 	<property name="Model" value="LootContainers/garbage_decor1" param1="main_mesh" />
 	<property name="IsTerrainDecoration" value="true" />
 	<drop event="Destroy" name="paper" count="1" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1483" name="garbage_decor2">
@@ -11158,6 +11449,7 @@ kind of free
 	<property name="Model" value="LootContainers/garbage_decor2" param1="main_mesh" />
 	<property name="IsTerrainDecoration" value="true" />
 	<drop event="Destroy" name="paper" count="1" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1484" name="garbage_decor3">
@@ -11167,6 +11459,7 @@ kind of free
 	<property name="Model" value="LootContainers/garbage_decor3" param1="main_mesh" />
 	<property name="IsTerrainDecoration" value="true" />
 	<drop event="Destroy" name="brokenGlass" count="1" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -11216,6 +11509,7 @@ kind of free
 	<drop event="Harvest" name="scrapCable" count="5" prob=".5"/>
 	<drop event="Harvest" name="scrapIron" count="4" prob="0.5" />
 	<drop event="Destroy" name="scrapIron" count="2" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1510" name="controlPanelBase02">
@@ -11290,6 +11584,7 @@ kind of free
 	<property name="Texture" value="519" />
 	<property class="RepairItems"><property name="scrapIron" value="5" /></property>
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1524" name="ductSoftCorner">
@@ -11315,6 +11610,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"><property name="scrapIron" value="5" /></property>
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1528" name="ductControlPanelCorner">
@@ -11325,6 +11621,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"><property name="scrapIron" value="5" /></property>
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1529" name="ductSoftCorner2">
@@ -11347,6 +11644,7 @@ kind of free
 		<property name="scrapIron" value="10" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1531" name="rScrapIronWindowPlug06CTRPlate">
@@ -11364,6 +11662,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="scrapIron" value="2" />
 	</property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1532" name="rConcreteCTRPlate">
@@ -11501,6 +11800,7 @@ kind of free
 	<property name="Model" value="Entities/Lighting/industrialLight01Prefab" />
 	<property name="Place" value="TowardsPlacerInverted" />
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1552" name="metalPipeValve">
@@ -11606,6 +11906,7 @@ kind of free
 	</property>
 	<property name="DescriptionKey" value="cementMixerDesc"/>
 	<property name="StabilitySupport" value="false" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!--
 
@@ -11653,6 +11954,7 @@ kind of free
 	<property name="Group" value="Basics,Building" />
 	<property class="RepairItems"> <property name="yuccaFibers" value="10" /> </property>
 	<drop event="Destroy" name="yuccaFibers" count="1,3" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1563" name="workbench">
@@ -11677,6 +11979,7 @@ kind of free
 	</property>
 	<property name="DescriptionKey" value="workbenchDesc"/>
 	<property name="StabilitySupport" value="false"/>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1564" name="treePlantedWinterPine1m">
@@ -11720,6 +12023,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1567" name="treePlantedWinterPine13m">
@@ -11776,6 +12080,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1571" name="corrugatedMetalWall01Sheet2">
@@ -11787,6 +12092,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1572" name="corrugatedMetalWall02Sheet2">
@@ -11798,6 +12104,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1573" name="corrugatedMetalWall03Sheet2">
@@ -11809,6 +12116,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1574" name="corrugatedMetalWall04Sheet2">
@@ -11820,6 +12128,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1575" name="woodPoleSupportCtr">
@@ -11831,6 +12140,7 @@ kind of free
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property class="RepairItems"> <property name="wood" value="5" /> </property>
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1576" name="forestCurb">
@@ -11864,6 +12174,7 @@ kind of free
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property class="RepairItems"> <property name="wood" value="5" /> </property>
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1579" name="sidewalkCurb">
@@ -11895,6 +12206,7 @@ kind of free
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property class="RepairItems"> <property name="wood" value="5" /> </property>
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1582" name="woodCross">
@@ -11906,6 +12218,7 @@ kind of free
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property class="RepairItems"> <property name="wood" value="5" /> </property>
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1583" name="plainsCNRCurb">
@@ -11950,6 +12263,7 @@ kind of free
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property class="RepairItems"> <property name="wood" value="5" /> </property>
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1587" name="elevatorTest">
@@ -11968,6 +12282,7 @@ kind of free
 	<property name="CloseSound" value="UseActions/close_door_wood" />
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1588" name="rustyIronWall01Sheet2">
@@ -11978,6 +12293,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1589" name="rustyIronWall02Sheet2">
@@ -11989,6 +12305,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1590" name="rustyIronWall03Sheet2">
@@ -12000,6 +12317,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1591" name="rustyIronWall04Sheet2">
@@ -12011,6 +12329,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1592" name="rustyIronPoleSupportCtr">
@@ -12022,6 +12341,7 @@ kind of free
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1593" name="rustyIronCrossCtr">
@@ -12033,6 +12353,7 @@ kind of free
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1594" name="rustyIronPillar100Duplicate">
@@ -12041,6 +12362,7 @@ kind of free
 	<property name="Model" value="Pole1m" />
 	<property name="Texture" value="282" />
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1595" name="blueMetalWall01Sheet2">
@@ -12051,6 +12373,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1596" name="blueMetalWall02Sheet2">
@@ -12062,6 +12385,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1597" name="blueMetalWall03Sheet2">
@@ -12073,6 +12397,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1598" name="blueMetalWall04Sheet2">
@@ -12084,6 +12409,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1599" name="blueMetalPlate">
@@ -12101,6 +12427,7 @@ kind of free
 		<property name="scrapIron" value="10" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1600" name="greenMetalWall01Sheet2">
@@ -12111,6 +12438,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1601" name="greenMetalWall02Sheet2">
@@ -12122,6 +12450,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1602" name="greenMetalWall03Sheet2">
@@ -12133,6 +12462,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1603" name="greenMetalWall04Sheet2">
@@ -12144,6 +12474,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1604" name="greenMetalPlate">
@@ -12161,6 +12492,7 @@ kind of free
 		<property name="scrapIron" value="10" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1605" name="orangeMetalWall01Sheet2">
@@ -12171,6 +12503,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1606" name="orangeMetalWall02Sheet2">
@@ -12182,6 +12515,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1607" name="orangeMetalWall03Sheet2">
@@ -12193,6 +12527,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1608" name="orangeMetalWall04Sheet2">
@@ -12204,6 +12539,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1609" name="orangeMetalPlate">
@@ -12221,6 +12557,7 @@ kind of free
 		<property name="scrapIron" value="10" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1610" name="roadRailing">
@@ -12231,6 +12568,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1611" name="roadRailingPole">
@@ -12241,6 +12579,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1612" name="roadRailingEnd">
@@ -12251,6 +12590,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1613" name="roadRailingEnd2">
@@ -12261,6 +12601,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1614" name="greenRustyMetalPlate">
@@ -12278,6 +12619,7 @@ kind of free
 		<property name="scrapIron" value="10" />
 	</property>
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1615" name="greenRustyMetalWall01Sheet2">
@@ -12288,6 +12630,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1616" name="greenRustyMetalWall02Sheet2">
@@ -12299,6 +12642,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1617" name="greenRustyMetalWall03Sheet2">
@@ -12310,6 +12654,7 @@ kind of free
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<property name="Place" value="TowardsPlacerInverted" />
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1618" name="greenRustyMetalWallBlock">
@@ -12331,6 +12676,7 @@ kind of free
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1620" name="brickCNRRound">
@@ -12339,6 +12685,7 @@ kind of free
 	<property name="Model" value="corner_round1m" />
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="Texture" value="7" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1621" name="awningRedCNRRound">
@@ -12351,6 +12698,7 @@ kind of free
 	<drop event="Harvest" name="cloth" count="2" />
 	<drop event="Destroy" name="cloth" count="1" />
 	<drop event="Fall" name="cloth" count="1" prob="0.3" stick_chance="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1622" name="awningTanCNRRound">
@@ -12371,6 +12719,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="8" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1625" name="blueMetalCNRRound">
@@ -12389,6 +12738,7 @@ kind of free
 	<property name="Texture" value="312" />
 	<property class="RepairItems"> <property name="scrapIron" value="8" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1628" name="cntCabinetOldCNRRound">
@@ -12401,6 +12751,7 @@ kind of free
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 <block id="1629" name="greenRustyMetalWallBlockDuplicate">
@@ -12413,6 +12764,7 @@ kind of free
 	<property name="Texture" value="311" />
 	<property class="RepairItems"> <property name="scrapIron" value="8" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block> 
   
 <block id="1631" name="redMetalCNRRound">
@@ -12431,6 +12783,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="5" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1633" name="redMetalWall02Sheet2">
@@ -12483,6 +12836,7 @@ kind of free
 	<property name="ParticleOffset" value="0.53,1.04,0.45" />
 	<drop event="Destroy" name="scrapIron" count="2,4" prob="1" />
 	<property name="Group" value="Building" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 	<!-- Free -->
 
@@ -12496,6 +12850,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems"> <property name="scrapIron" value="3" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1801" name="metalSignLetter_b">
@@ -12647,6 +13002,7 @@ kind of free
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property name="DowngradeBlock" value="sandbag_2" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1903" name="sandbag_2">
@@ -12668,6 +13024,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1905" name="sandbag_4">
@@ -12719,6 +13076,7 @@ kind of free
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property name="DowngradeBlock" value="sandbagCorner2DMG1" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1911" name="sandbagCorner2DMG1">
@@ -12732,6 +13090,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1912" name="sandbag_5">
@@ -12746,6 +13105,7 @@ kind of free
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property name="DowngradeBlock" value="sandbag_5DMG1" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 <block id="1913" name="sandbag_5DMG1">
@@ -12760,6 +13120,7 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<drop event="Destroy" count="0" />
+	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
 	<!--Modded-->
@@ -13199,6 +13560,7 @@ kind of free
     <drop event="Destroy" name="scrapIron" count="1" />
     <drop event="Fall" name="scrapIron" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Tools/Traps" />
+	<property name="CanMobsSpawnOn" value="false" />
   </block>
   <block id="1944" name="Research_Table">
     <property name="Class" value="Workstation" />

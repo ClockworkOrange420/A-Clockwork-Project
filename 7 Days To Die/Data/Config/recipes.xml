@@ -3403,6 +3403,11 @@
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
+	
+	<recipe name="woodStairsBoard" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
 
 	<recipe name="woodSupport" count="1" scrapable="False" craft_area="workbench" craft_tool="Chisel" >
 		<ingredient name="wood" count="10"/>
