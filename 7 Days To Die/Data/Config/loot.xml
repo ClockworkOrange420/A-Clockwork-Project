@@ -691,11 +691,9 @@
 </lootgroup>
 
 <lootgroup name="coldfood">
-	<item name="egg" count="1,2"/>
 	<item name="blueberryPie"/>
 	<item group="allStews"/>
 	<item group="allRawMeats" count="1,2"/>
-	<item name="rottingFlesh" count="1,2"/>
 	<item name="corn"/>
 	<item name="potato"/>
 	<item name="blueberries"/>
@@ -957,8 +955,8 @@
 
 <lootgroup name="beverages" count="1">
 	<item name="emptyJar"/>
-	<item name="bottledWater"/>
-	<item name="beer"/>
+	<item name="bottledWater" prob="0.05"/>
+	<item name="beer" prob="0.05"/>
 </lootgroup>
 
 <lootgroup name="automotive+tools+junk" count="1,2">
@@ -1010,8 +1008,8 @@
 
 <!-- lootcontainer 4 frozen or refridgerated food, spoiled food -->
 <lootcontainer id="4" count="0,1" size="6,4" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="baseTemplate">
-	<item group="coldfood"/>
-	<item name="bottledWater" count="1,2"/>
+	<item group="coldfood" prob="0.1"/>
+	<item name="bottledWater" count="1,2" prob="0.1"/>
 	<item name="emptyJar" count="1,2"/>
 </lootcontainer>
 
