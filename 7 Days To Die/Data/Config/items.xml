@@ -3288,8 +3288,8 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Insulation" value="10"/>
 	<property name="Waterproof" value="0.2"/>
 	<property name="Encumbrance" value="0.03" />
-	<property name="Material" value="militaryFiber" />
-	<property name="RepairTools" value="militaryFiber" />
+	<property name="Material" value="cloth" />
+	<property name="RepairTools" value="cloth" />
 	<property name="DegradationBreaksAfter" value="false" />
 	<property name="EquipSlot" value="Feet" />
  	<property name="HoldType" value="45" />
