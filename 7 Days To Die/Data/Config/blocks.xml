@@ -302,10 +302,15 @@ then add recipes for those white/red/green metals
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="Density" value="0.9" />
 	<property name="FallDamage" value="false" />
-	<drop event="Destroy" count="0" prob="1" />
-	<drop event="Fall" name="gore" count="1" prob="1.0"  stick_chance="1" />
+	<property name="HeatMapStrength" value="0.2"/>
+	<property name="HeatMapTime" value="1200"/>
 	<property name="UpgradeRated.ToBlock" value="air" />
 	<property name="UpgradeRated.Rate" value="15" />
+	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
+	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" />
+	<drop event="Harvest" name="femur" count="1,2" prob="1" />
+	<drop event="Destroy" name="femur" count="1,2" prob="1" />
+	<drop event="Fall" name="gore" count="1" prob="1.0"  stick_chance="1" />
 </block>
 
 <block id="22" name="fertileFarmland">
@@ -1790,6 +1795,7 @@ group desc for stuff like metal siding
 	<!-- NOTE: HeatMapFrequency is constrained to on blocks that are not tile entities (like the forge or campfire). -->
  	<!-- 1=min, 15=max NOTE: 1 tick is approximately a 1 to 2 minute real-time interval. -->
 	<property name="HeatMapFrequency" value="1"/>
+	<drop event="Fall" name="gore" count="1" prob="1.0"  stick_chance="1" />
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" />
 	<drop event="Harvest" name="femur" count="1,2" prob="1" />
@@ -5651,12 +5657,15 @@ kind of free
 	<property name="Tag" value="Gore" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="FallDamage" value="false" />
+	<property name="HeatMapStrength" value="0.2"/>
+	<property name="HeatMapTime" value="1200"/>
 		<property name="UpgradeRated.BlockCombined" value="gore" />
 		<property name="UpgradeRated.ToBlock" value="gore" />
 		<property name="UpgradeRated.Rate" value="5" /> <!-- 15 is max for the Rate -->
-	<drop event="Harvest" name="rottingFlesh" count="1" prob=".6" />
-	<drop event="Harvest" name="rottingFlesh" count="2" prob=".6" />
-	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
+	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" />
+	<drop event="Harvest" name="femur" count="1,2" prob="1" />
+	<drop event="Destroy" name="femur" count="1,2" prob="1" />
 	<drop event="Fall" name="gore" count="1" prob="1.0"  stick_chance="1" />
 </block>
 
