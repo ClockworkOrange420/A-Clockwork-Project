@@ -160,7 +160,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	</property>
 	<property name="Group" value="Tools/Traps" />
 	<property name="ActionSkillGroup" value="Blunt Weapons"/>
-	<property name="CraftingSkillGroup" value="Tool Smithing"/>
+	<property name="CraftingSkillGroup" value="Weapon Smithing"/>
 </item>
 
 <item id="15" name="torch">
