@@ -1790,7 +1790,7 @@ group desc for stuff like metal siding
 	<property name="UpgradeRated.ToBlock" value="gore" /> <!-- 1=min, 15=max NOTE: 1 tick is approximately a 1 to 2 minute real-time interval. -->
 	<property name="UpgradeRated.Rate" value="15" /> <!-- 15 is max for the Rate -->
 	<property name="Density" value="0.1" />
-	<property name="HeatMapStrength" value="5"/>
+	<property name="HeatMapStrength" value="2"/>
 	<property name="HeatMapTime" value="1200"/>
 	<!-- NOTE: HeatMapFrequency is constrained to on blocks that are not tile entities (like the forge or campfire). -->
  	<!-- 1=min, 15=max NOTE: 1 tick is approximately a 1 to 2 minute real-time interval. -->
