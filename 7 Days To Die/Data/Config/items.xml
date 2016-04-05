@@ -5032,9 +5032,9 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Use_time" value="..." />
 		<property name="Gain_health" value="0" />
 		<property name="Gain_food" value="6" />
-		<property name="Gain_water" value="3" />
+		<property name="Gain_water" value="2" />
 		<property name="Gain_stamina" value="2" />
-		<property name="Gain_wellness" value="0.08" />
+		<property name="Gain_wellness" value="0.18" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
@@ -5071,7 +5071,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_health" value="0" />
 		<property name="Gain_food" value="5" />
 		<property name="Gain_water" value="0" />
-		<property name="Gain_wellness" value="0.4" />
+		<property name="Gain_wellness" value="0.15" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
@@ -5177,7 +5177,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_health" value="2" />
 		<property name="Gain_food" value="10" />
 		<property name="Gain_water" value="-5" />
-		<property name="Gain_wellness" value="0.3" />
+		<property name="Gain_wellness" value="0.1" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 	</property>
 	<property name="Smell" value="largeSmell" />
@@ -5196,7 +5196,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_health" value="2" />
 		<property name="Gain_food" value="10" />
 		<property name="Gain_water" value="-2" />
-		<property name="Gain_wellness" value="0.6" />
+		<property name="Gain_wellness" value="0.3" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 	</property>
 	<property name="Smell" value="mediumSmell" />
@@ -5215,7 +5215,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_health" value="2" />
 		<property name="Gain_food" value="10" />
 		<property name="Gain_water" value="2" />
-		<property name="Gain_wellness" value="0.6" />
+		<property name="Gain_wellness" value="0.3" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 	</property>
 	<property name="Smell" value="smallSmell" />
@@ -5236,7 +5236,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_health" value="5" />
 		<property name="Gain_food" value="30" />
 		<property name="Gain_water" value="5" />
-		<property name="Gain_wellness" value="1.8" />
+		<property name="Gain_wellness" value="1.5" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Buff" value="stewWarming" />
 	</property>
@@ -5299,6 +5299,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_water" value="0" />
 		<property name="Gain_stamina" value="-8" />
 		<property name="Gain_sickness" value="30" />
+		<property name="Gain_wellness" value="-0.5" />
 		<property name="Buff" value="foodPoisoning" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 	</property>
@@ -5318,7 +5319,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_food" value="5" />
 		<property name="Gain_water" value="2" />
 		<property name="Gain_stamina" value="0" />
-		<property name="Gain_wellness" value="0.3" />
+		<property name="Gain_wellness" value="0.15" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
@@ -5336,7 +5337,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_health" value="0" />
 		<property name="Gain_food" value="10" />
 		<property name="Gain_water" value="5" />
-		<property name="Gain_wellness" value="0.6" />
+		<property name="Gain_wellness" value="0.5" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
@@ -5371,7 +5372,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Use_time" value="..." />
 		<property name="Gain_health" value="3" />
 		<property name="Gain_food" value="10" />
-		<property name="Gain_wellness" value="0.4" />
+		<property name="Gain_wellness" value="0.3" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 	</property>
 	<property name="Smell" value="largeSmell" />
@@ -5388,7 +5389,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Delay" value="1.0" />
 		<property name="Use_time" value="..." />
 		<property name="Gain_health" value="0" />
-		<property name="Gain_food" value="5" />
+		<property name="Gain_food" value="3" />
 		<property name="Gain_water" value="1" />
 		<property name="Gain_wellness" value="0" />
 		<property name="Sound_start" value="UseActions/player_eating" />
@@ -5409,7 +5410,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_health" value="2" />
 		<property name="Gain_food" value="10" />
 		<property name="Gain_water" value="5" />
-		<property name="Gain_wellness" value="0.6" />
+		<property name="Gain_wellness" value="0.5" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Buff" value="stewWarming" />
 	</property>
@@ -7396,7 +7397,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_health" value="1" />
             <property name="Gain_food" value="6" />
             <property name="Gain_stamina" value="3" />
-            <property name="Gain_wellness" value=".36" />
+            <property name="Gain_wellness" value="0.18" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Group" value="Food/Cooking" />
@@ -7417,7 +7418,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_food" value="6" />
             <property name="Gain_water" value="2" />
             <property name="Gain_stamina" value="2" />
-            <property name="Gain_wellness" value="0.36" />
+            <property name="Gain_wellness" value="0.18" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Group" value="Food/Cooking" />
@@ -7829,7 +7830,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Delay" value="1.0" />
             <property name="Use_time" value="..." />
             <property name="Gain_health" value="2" />
-            <property name="Gain_food" value="3" />
+            <property name="Gain_food" value="5" />
             <property name="Gain_water" value="0" />
             <property name="Gain_stamina" value="0" />
             <property name="Gain_sickness" value="30" />
@@ -7876,7 +7877,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_health" value="2" />
             <property name="Gain_food" value="12" />
             <property name="Gain_water" value="-2" />
-            <property name="Gain_wellness" value="0.72" />
+            <property name="Gain_wellness" value="0.36" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Smell" value="mediumSmell" />
@@ -7895,7 +7896,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_health" value="2" />
             <property name="Gain_food" value="8" />
             <property name="Gain_water" value="-2" />
-            <property name="Gain_wellness" value="0.48" />
+            <property name="Gain_wellness" value="0.24" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Smell" value="mediumSmell" />
@@ -7912,9 +7913,9 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Delay" value="2.1" />
             <property name="Use_time" value="..." />
             <property name="Gain_health" value="1" />
-            <property name="Gain_food" value="3" />
+            <property name="Gain_food" value="5" />
             <property name="Gain_water" value="-2" />
-            <property name="Gain_wellness" value="0.18" />
+            <property name="Gain_wellness" value="0.15" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Smell" value="mediumSmell" />
@@ -7933,7 +7934,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_health" value="1" />
             <property name="Gain_food" value="5" />
             <property name="Gain_water" value="-2" />
-            <property name="Gain_wellness" value="0.3" />
+            <property name="Gain_wellness" value="0.15" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Smell" value="mediumSmell" />
@@ -7952,7 +7953,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_health" value="2" />
             <property name="Gain_food" value="12" />
             <property name="Gain_water" value="2" />
-            <property name="Gain_wellness" value="0.72" />
+            <property name="Gain_wellness" value="0.36" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Smell" value="smallSmell" />
@@ -7971,7 +7972,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_health" value="2" />
             <property name="Gain_food" value="8" />
             <property name="Gain_water" value="2" />
-            <property name="Gain_wellness" value="0.48" />
+            <property name="Gain_wellness" value="0.24" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Smell" value="mediumSmell" />
@@ -7988,9 +7989,9 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Delay" value="2.1" />
             <property name="Use_time" value="..." />
             <property name="Gain_health" value="1" />
-            <property name="Gain_food" value="3" />
+            <property name="Gain_food" value="5" />
             <property name="Gain_water" value="2" />
-            <property name="Gain_wellness" value="0.18" />
+            <property name="Gain_wellness" value="0.15" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Smell" value="mediumSmell" />
@@ -8009,7 +8010,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_health" value="1" />
             <property name="Gain_food" value="5" />
             <property name="Gain_water" value="2" />
-            <property name="Gain_wellness" value="0.3" />
+            <property name="Gain_wellness" value="0.15" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Smell" value="mediumSmell" />
@@ -8028,7 +8029,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_health" value="2" />
             <property name="Gain_food" value="12" />
             <property name="Gain_water" value="-5" />
-            <property name="Gain_wellness" value="0.36" />
+            <property name="Gain_wellness" value="0.12" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Smell" value="largeSmell" />
@@ -8047,7 +8048,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_health" value="2" />
             <property name="Gain_food" value="8" />
             <property name="Gain_water" value="-5" />
-            <property name="Gain_wellness" value="0.24" />
+            <property name="Gain_wellness" value="0.08" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Smell" value="largeSmell" />
@@ -8064,9 +8065,9 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Delay" value="2.1" />
             <property name="Use_time" value="..." />
             <property name="Gain_health" value="2" />
-            <property name="Gain_food" value="3" />
+            <property name="Gain_food" value="5" />
             <property name="Gain_water" value="-5" />
-            <property name="Gain_wellness" value="0.09" />
+            <property name="Gain_wellness" value="0.05" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Smell" value="largeSmell" />
@@ -8085,7 +8086,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_health" value="2" />
             <property name="Gain_food" value="5" />
             <property name="Gain_water" value="-5" />
-            <property name="Gain_wellness" value="0.15" />
+            <property name="Gain_wellness" value="0.05" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Smell" value="largeSmell" />
@@ -8105,7 +8106,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_health" value="5" />
             <property name="Gain_food" value="25" />
             <property name="Gain_water" value="5" />
-            <property name="Gain_wellness" value="1" />
+            <property name="Gain_wellness" value="1.25" />
             <property name="Sound_start" value="UseActions/player_drinking" />
         </property>
         <property name="Smell" value="exLargeSmell" />
@@ -8174,7 +8175,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <property name="Gain_health" value="0" />
             <property name="Gain_food" value="10" />
             <property name="Gain_water" value="2" />
-            <property name="Gain_wellness" value="0.5" />
+            <property name="Gain_wellness" value="0.3" />
             <property name="Sound_start" value="UseActions/player_eating" />
         </property>
         <property name="Group" value="Food/Cooking" />
