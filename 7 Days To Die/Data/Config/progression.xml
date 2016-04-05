@@ -496,6 +496,11 @@
 		<recipe name="bioFuel" unlock_level="2"/>
 	</perk>
 	
+	<perk name="Omnigel Crafting" icon="science" description_key="OmnigelCraftingDesc" title_key="OmnigelCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
+		<requirement skill_level="1" required_skill_name="Science" required_skill_level="50"/>
+		<recipe name="Omnigel_Station" unlock_level="1"/>
+	</perk>
+	
 	<perk name="Leather Tanning" icon="resource" description_key="LeatherTanningDesc" title_key="LeatherTanning" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="clothing">
 		<requirement skill_level="1" required_skill_name="Leatherworking" required_skill_level="10"/>
 		<recipe name="leather" unlock_level="1"/>

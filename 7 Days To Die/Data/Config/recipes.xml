@@ -1083,6 +1083,10 @@
 		<ingredient name="Tomato" count="10"/>
     </recipe>
 	
+	<recipe name="Compost" count="10" scrapable="False" craft_area="Omnigel_Station" craft_tool="beaker" >
+        <ingredient name="rottingFlesh" count="10"/>
+    </recipe>
+	
 	<recipe name="oilShale" count="100" scrapable="False" craft_area="Omnigel_Station" >
         <ingredient name="omnigel" count="10"/>
     </recipe>
