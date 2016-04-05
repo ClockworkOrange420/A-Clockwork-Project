@@ -6832,7 +6832,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property class="Action1">
 		<property name="Class" value="PlaceAsBlock" />
 		<property name="Delay" value="0.5" />
-		<property name="Blockname" value="plantedCorn1V2" />
+		<property name="Blockname" value="plantedCorn1" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -6845,7 +6845,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property class="Action1">
 		<property name="Class" value="PlaceAsBlock" />
 		<property name="Delay" value="0.5" />
-		<property name="Blockname" value="potatoesSprout2" />
+		<property name="Blockname" value="plantedPotato1" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -6858,7 +6858,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property class="Action1">
 		<property name="Class" value="PlaceAsBlock" />
 		<property name="Delay" value="0.5" />
-		<property name="Blockname" value="blueberrySprout2" />
+		<property name="Blockname" value="plantedBlueberry1" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -6872,7 +6872,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property class="Action1">
 		<property name="Class" value="PlaceAsBlock" />
 		<property name="Delay" value="0.5" />
-		<property name="Blockname" value="coffeeSprout2" />
+		<property name="Blockname" value="plantedCoffee1" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -6885,7 +6885,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property class="Action1">
 		<property name="Class" value="PlaceAsBlock" />
 		<property name="Delay" value="0.5" />
-		<property name="Blockname" value="plantedCotton2" />
+		<property name="Blockname" value="plantedCotton1" />
 	</property>
 	<property name="Group" value="Resources" />
 </item>
@@ -6898,7 +6898,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property class="Action1">
 		<property name="Class" value="PlaceAsBlock" />
 		<property name="Delay" value="0.5" />
-		<property name="Blockname" value="goldenrodSprout2" />
+		<property name="Blockname" value="plantedGoldenrod1" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -7333,7 +7333,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <!-- UseAction -->
             <property name="Class" value="PlaceAsBlock" />
             <property name="Delay" value="0.5" />
-            <property name="Blockname" value="plantTomatoSprout2" />
+            <property name="Blockname" value="plantTomatoSprout" />
         </property>
         <property name="Group" value="Food/Cooking" />
     </item>
@@ -7344,7 +7344,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property class="Action1">
             <property name="Class" value="PlaceAsBlock" />
             <property name="Delay" value="0.5" />
-            <property name="Blockname" value="plantChrysanthemumSprout2" />
+            <property name="Blockname" value="plantChrysanthemumSprout" />
         </property>
         <property name="Group" value="Food/Cooking" />
     </item>
@@ -7355,7 +7355,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property class="Action1">
             <property name="Class" value="PlaceAsBlock" />
             <property name="Delay" value="0.5" />
-            <property name="Blockname" value="plantWheatSprout2" />
+            <property name="Blockname" value="plantWheatSprout" />
         </property>
         <property name="Group" value="Food/Cooking" />
     </item>
@@ -7370,13 +7370,12 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         <property name="Meshfile" value="Items/Food/seed_blueberryPrefab" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="21" />
-        <property name="CustomIcon" value="mapleSeed" />
-		<property name="CustomIconTint" value="bac4c8" />
+        <property name="CustomIcon" value="Wheat_Seed" />
 		<property class="Action1">
             <!-- UseAction -->
             <property name="Class" value="PlaceAsBlock" />
             <property name="Delay" value="0.5" />
-            <property name="Blockname" value="plantMushroomSprout2" />
+            <property name="Blockname" value="plantMushroomSprout" />
         </property>
         <property name="Group" value="Food/Cooking" />
     </item>
@@ -7429,7 +7428,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <!-- UseAction -->
             <property name="Class" value="PlaceAsBlock" />
             <property name="Delay" value="0.5" />
-            <property name="Blockname" value="plantYuccaSprout2" />
+            <property name="Blockname" value="plantYuccaSprout" />
         </property>
         <property name="Group" value="Food/Cooking" />
     </item>
@@ -7441,7 +7440,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <!-- UseAction -->
             <property name="Class" value="PlaceAsBlock" />
             <property name="Delay" value="0.5" />
-            <property name="Blockname" value="plantAloeSprout2" />
+            <property name="Blockname" value="plantAloeSprout" />
         </property>
         <property name="Group" value="Food/Cooking" />
     </item>

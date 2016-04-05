@@ -1661,9 +1661,15 @@ group desc for stuff like metal siding
 	<property name="IsTerrainDecoration" value="true" />
 	<drop event="Destroy" count="0" />
 	<property name="PlantGrowing.Next" value="plantedBlueberry2" />
-	<property name="PlantGrowing.GrowthRate" value="90" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
 	<property name="PlantGrowing.FertileLevel" value="5" />
 	<property name="PlantGrowing.IsRandom" value="false" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="plantedBlueberry2" />
+      <property name="Item" value="Fertilizer" />
+      <property name="ItemCount" value="1" />
+      <property name="UpgradeHitCount" value="1" />
+    </property>
 </block>
 
 <block id="258" name="plantedBlueberry3Harvest">
@@ -1695,9 +1701,15 @@ group desc for stuff like metal siding
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<drop event="Destroy" count="0" />
 	<property name="PlantGrowing.Next" value="plantedPotato2" />
-	<property name="PlantGrowing.GrowthRate" value="90" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
 	<property name="PlantGrowing.FertileLevel" value="5" />
 	<property name="PlantGrowing.IsRandom" value="false" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="plantedPotato2" />
+      <property name="Item" value="Fertilizer" />
+      <property name="ItemCount" value="1" />
+      <property name="UpgradeHitCount" value="1" />
+    </property>
 </block>
 
 <block id="260" name="plantedPotato2">
@@ -1715,7 +1727,7 @@ group desc for stuff like metal siding
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<drop event="Destroy" count="0" />
 	<property name="PlantGrowing.Next" value="plantedPotato3Harvest" />
-	<property name="PlantGrowing.GrowthRate" value="90" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
 	<property name="PlantGrowing.FertileLevel" value="5" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 </block>
@@ -1748,7 +1760,7 @@ group desc for stuff like metal siding
 	<property name="IsTerrainDecoration" value="true" />
 	<drop event="Destroy" count="0" />
 	<property name="PlantGrowing.Next" value="plantedBlueberry3Harvest" />
-	<property name="PlantGrowing.GrowthRate" value="90" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
 	<property name="PlantGrowing.FertileLevel" value="5" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 </block>
@@ -5797,9 +5809,15 @@ kind of free
 	<property name="CanDecorateOnSlopes" value="true" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.Next" value="plantedCotton2" />
-	<property name="PlantGrowing.GrowthRate" value="90" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="plantedCotton2" />
+      <property name="Item" value="Fertilizer" />
+      <property name="ItemCount" value="1" />
+      <property name="UpgradeHitCount" value="1" />
+    </property>
 	<drop event="Destroy" count="0" />
 </block>
 
@@ -6074,9 +6092,15 @@ kind of free
 	<property name="Collide" value="melee" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.Next" value="plantedCoffee2" />
-	<property name="PlantGrowing.GrowthRate" value="90" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
 	<property name="PlantGrowing.FertileLevel" value="5" />
 	<property name="PlantGrowing.IsRandom" value="false" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="plantedCoffee2" />
+      <property name="Item" value="Fertilizer" />
+      <property name="ItemCount" value="1" />
+      <property name="UpgradeHitCount" value="1" />
+    </property>
 	<drop event="Destroy" count="0" />
 </block>
 
@@ -6091,7 +6115,7 @@ kind of free
 	<property name="Collide" value="melee" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.Next" value="plantedCoffee3Harvest" />
-	<property name="PlantGrowing.GrowthRate" value="90" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
 	<property name="PlantGrowing.FertileLevel" value="5" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<drop event="Destroy" count="0" />
@@ -6125,9 +6149,15 @@ kind of free
 	<property name="IsTerrainDecoration" value="true" />
 	<drop event="Destroy" count="0" />
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2" />
-	<property name="PlantGrowing.GrowthRate" value="90" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
 	<property name="PlantGrowing.FertileLevel" value="5" />
 	<property name="PlantGrowing.IsRandom" value="false" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="plantedGoldenrod2" />
+      <property name="Item" value="Fertilizer" />
+      <property name="ItemCount" value="1" />
+      <property name="UpgradeHitCount" value="1" />
+    </property>
 </block>
 
 <block id="763" name="plantedGoldenrod2">
@@ -6144,7 +6174,7 @@ kind of free
 	<property name="IsTerrainDecoration" value="true" />
 	<drop event="Destroy" count="0" />
 	<property name="PlantGrowing.Next" value="plantedGoldenrod3HarvestLarge" />
-	<property name="PlantGrowing.GrowthRate" value="90" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
 	<property name="PlantGrowing.FertileLevel" value="5" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 </block>
@@ -7106,10 +7136,16 @@ kind of free
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.FertileLevel" value="5" />
 	<property name="PlantGrowing.Next" value="plantedCornTop1" />
-	<property name="PlantGrowing.GrowthRate" value="90" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
 	<property name="PlantGrowing.LightLevelStay" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.IsGrowOnTopEnabled" value="true" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="plantedCornTop1" />
+      <property name="Item" value="Fertilizer" />
+      <property name="ItemCount" value="1" />
+      <property name="UpgradeHitCount" value="1" />
+    </property>
 	<drop event="Destroy" count="0" />
 </block>
 
@@ -7126,7 +7162,7 @@ kind of free
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.Next" value="plantedCornTop2" />
-	<property name="PlantGrowing.GrowthRate" value="90" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
 	<property name="PlantGrowing.LightLevelStay" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.IsGrowOnTopEnabled" value="true" />
@@ -8693,7 +8729,7 @@ kind of free
 	<property name="CanDecorateOnSlopes" value="true" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.Next" value="plantedCotton3HarvestLarge" />
-	<property name="PlantGrowing.GrowthRate" value="90" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<drop event="Destroy" count="0" />
@@ -13139,15 +13175,18 @@ kind of free
     <property name="Texture" value="401" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantChrysanthemumGrowing" />
-      <property name="GrowthRate" value="90" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
+	<property name="PlantGrowing.Next" value="plantChrysanthemumGrowing" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
+	<property name="PlantGrowing.FertileLevel" value="5" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="plantChrysanthemumGrowing" />
+      <property name="Item" value="Fertilizer" />
+      <property name="ItemCount" value="1" />
+      <property name="UpgradeHitCount" value="1" />
     </property>
+	<drop event="Destroy" count="0" />
   </block>
-  
   <block id="1921" name="plantChrysanthemumGrowing">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
@@ -13156,13 +13195,11 @@ kind of free
     <property name="Texture" value="402" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantedChrysanthemum3Harvest" />
-      <property name="GrowthRate" value="90" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
+	<property name="PlantGrowing.Next" value="plantedChrysanthemum3Harvest" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
+	<property name="PlantGrowing.FertileLevel" value="5" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+	<drop event="Destroy" count="0" />
   </block>
   
   <block id="1922" name="plantTomatoSprout">
@@ -13173,15 +13210,18 @@ kind of free
     <property name="Texture" value="401" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantTomatoGrowing" />
-      <property name="GrowthRate" value="90" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
+	<property name="PlantGrowing.Next" value="plantTomatoGrowing" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
+	<property name="PlantGrowing.FertileLevel" value="5" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="plantTomatoGrowing" />
+      <property name="Item" value="Fertilizer" />
+      <property name="ItemCount" value="1" />
+      <property name="UpgradeHitCount" value="1" />
     </property>
+	<drop event="Destroy" count="0" />
   </block>
-  
   <block id="1923" name="plantTomatoGrowing">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
@@ -13190,15 +13230,12 @@ kind of free
     <property name="Texture" value="402" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantTomato" />
-      <property name="GrowthRate" value="90" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
+	<property name="PlantGrowing.Next" value="plantTomato" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
+	<property name="PlantGrowing.FertileLevel" value="5" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+	<drop event="Destroy" count="0" />
   </block>
-  
   <block id="1924" name="plantTomato">
     <property name="Class" value="CropsGrown" />
     <property name="Material" value="plants" />
@@ -13223,15 +13260,18 @@ kind of free
 	<property name="Texture" value="296" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantWheatYoung" />
-      <property name="GrowthRate" value="90" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
+	<property name="PlantGrowing.Next" value="plantWheatYoung" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
+	<property name="PlantGrowing.FertileLevel" value="5" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="plantWheatYoung" />
+      <property name="Item" value="Fertilizer" />
+      <property name="ItemCount" value="1" />
+      <property name="UpgradeHitCount" value="1" />
     </property>
+	<drop event="Destroy" count="0" />
   </block>
-  
   <block id="1926" name="plantWheatYoung">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
@@ -13242,15 +13282,12 @@ kind of free
 	<property name="Texture" value="297" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantWheat" />
-      <property name="GrowthRate" value="90" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
+	<property name="PlantGrowing.Next" value="plantWheat" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
+	<property name="PlantGrowing.FertileLevel" value="5" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+	<drop event="Destroy" count="0" />
   </block>
-  
   <block id="1927" name="plantWheat">
     <property name="Class" value="CropsGrown" />
     <property name="Material" value="Mtallgrass" />
@@ -13274,15 +13311,18 @@ kind of free
     <property name="Texture" value="296" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantAloeYoung" />
-      <property name="GrowthRate" value="90" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
+	<property name="PlantGrowing.Next" value="plantAloeYoung" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
+	<property name="PlantGrowing.FertileLevel" value="5" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="plantAloeYoung" />
+      <property name="Item" value="Fertilizer" />
+      <property name="ItemCount" value="1" />
+      <property name="UpgradeHitCount" value="1" />
     </property>
+	<drop event="Destroy" count="0" />
   </block>
-  
   <block id="1929" name="plantAloeYoung">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
@@ -13291,13 +13331,11 @@ kind of free
     <property name="Texture" value="297" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantedAloe3Harvest" />
-      <property name="GrowthRate" value="90" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
+	<property name="PlantGrowing.Next" value="plantedAloe3Harvest" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
+	<property name="PlantGrowing.FertileLevel" value="5" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+	<drop event="Destroy" count="0" />
   </block>
   
   <block id="1930" name="plantMushroomSprout">
@@ -13308,15 +13346,18 @@ kind of free
     <property name="Texture" value="296" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantMushroomYoung" />
-      <property name="GrowthRate" value="90" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
+	<property name="PlantGrowing.Next" value="plantMushroomYoung" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
+	<property name="PlantGrowing.FertileLevel" value="5" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="plantMushroomYoung" />
+      <property name="Item" value="Fertilizer" />
+      <property name="ItemCount" value="1" />
+      <property name="UpgradeHitCount" value="1" />
     </property>
+	<drop event="Destroy" count="0" />
   </block>
-  
   <block id="1931" name="plantMushroomYoung">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
@@ -13325,13 +13366,11 @@ kind of free
     <property name="Texture" value="297" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="mushroom01" />
-      <property name="GrowthRate" value="90" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
+	<property name="PlantGrowing.Next" value="mushroom01" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
+	<property name="PlantGrowing.FertileLevel" value="5" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+	<drop event="Destroy" count="0" />
   </block>
   
   <block id="1932" name="Empty_Composter">
@@ -13390,6 +13429,7 @@ kind of free
 	<property name="CanMobsSpawnOn" value="false" />
 	<property name="Group" value="Building" />
   </block>
+  
   <block id="1935" name="dewCollector_filling">
 	<property name="Class" value="PlantGrowing" />
     <property name="Material" value="metal" />
@@ -13413,7 +13453,6 @@ kind of free
 	<property name="CanMobsSpawnOn" value="false" />
 	<property name="Group" value="Building" />
   </block>
-  
   <block id="1936" name="dewCollector_filled">
     <property name="Class" value="Loot" />
     <property name="Material" value="metal" />
@@ -13453,7 +13492,6 @@ kind of free
 	<property name="CanMobsSpawnOn" value="false" />
 	<property name="Group" value="Building" />
   </block>
-  
   <block id="1938" name="chickenCoop_stage2">
 	<property name="Class" value="PlantGrowing" />
 	<property name="Material" value="wood_weak" />
@@ -13477,7 +13515,6 @@ kind of free
 	<property name="CanMobsSpawnOn" value="false" />
 	<property name="Group" value="Building" />
   </block>
-  
   <block id="1939" name="chickenCoop_stage3">
 	<property name="Class" value="PlantGrowing" />
 	<property name="Material" value="wood_weak" />
@@ -13501,7 +13538,6 @@ kind of free
 	<property name="CanMobsSpawnOn" value="false" />
 	<property name="Group" value="Building" />
   </block>
-  
   <block id="1940" name="chickenCoop_stage4">
     <property name="Class" value="Loot" />
 	<property name="Material" value="wood+wood" />
@@ -13525,14 +13561,17 @@ kind of free
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
     <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantYuccaYoung" />
-      <property name="GrowthRate" value="90" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
+	<property name="PlantGrowing.Next" value="plantYuccaYoung" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
+	<property name="PlantGrowing.FertileLevel" value="5" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="plantYuccaYoung" />
+      <property name="Item" value="Fertilizer" />
+      <property name="ItemCount" value="1" />
+      <property name="UpgradeHitCount" value="1" />
     </property>
   </block>
-  
   <block id="1942" name="plantYuccaYoung">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
@@ -13541,13 +13580,11 @@ kind of free
     <property name="Texture" value="297" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantedYucca3Harvest" />
-      <property name="GrowthRate" value="90" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
+	<property name="PlantGrowing.Next" value="plantedYucca3Harvest" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
+	<property name="PlantGrowing.FertileLevel" value="5" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+	<drop event="Destroy" count="0" />
   </block>
   
   <block id="1943" name="steelSpike">
@@ -13783,562 +13820,7 @@ kind of free
 	<property name="CanMobsSpawnOn" value="false" />
 	<property name="Group" value="Building" />
   </block>
-  <block id="1953" name="blueberrySprout2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="293" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="blueberryYoung2" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantedBlueberry1" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1954" name="blueberryYoung2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="294" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantedBlueberry3Harvest" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantedBlueberry2" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1955" name="potatoesSprout2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="296" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="potatoesYoung2" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantedPotato1" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1956" name="potatoesYoung2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="297" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantedPotato3Harvest" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantedPotato2" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1957" name="plantedCotton2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="grass" />
-    <property name="Texture" value="392" />
-    <property name="Collide" value="melee" />
-    <property name="CanDecorateOnSlopes" value="true" />
-    <property name="IsTerrainDecoration" value="true" />
-    <property class="PlantGrowing">
-      <property name="Next" value="cottonYoung2" />
-      <property name="GrowthRate" value="180" />
-      <property name="IsRandom" value="false" />
-      <property name="FertileLevel" value="1" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantedCotton1" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1958" name="cottonYoung2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="grass" />
-    <property name="Texture" value="20" />
-    <property name="Collide" value="melee" />
-    <property name="CanDecorateOnSlopes" value="true" />
-    <property name="IsTerrainDecoration" value="true" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantedCotton3HarvestLarge" />
-      <property name="GrowthRate" value="180" />
-      <property name="IsRandom" value="false" />
-      <property name="FertileLevel" value="1" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantedCotton2" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1959" name="coffeeSprout2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="393" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="coffeeGrowing2" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantedCoffee1" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1960" name="coffeeGrowing2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="394" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantedCoffee3Harvest" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantedCoffee2" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1961" name="goldenrodSprout2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="401" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="goldenrodGrowing2" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantedGoldenrod1" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1962" name="goldenrodGrowing2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="402" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantedGoldenrod3HarvestLarge" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantedGoldenrod2" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1963" name="plantedCorn1V2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="Mcorn" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="292" />
-    <property name="Collide" value="rockets,melee" />
-    <!-- Corn Seed -->
-    <property name="IsTerrainDecoration" value="true" />
-    <property name="PlantGrowing.FertileLevel" value="5" />
-    <property name="PlantGrowing.Next" value="plantedCornTop1V2" />
-    <property name="PlantGrowing.GrowthRate" value="180" />
-    <property name="PlantGrowing.LightLevelStay" value="0" />
-    <property name="PlantGrowing.IsRandom" value="false" />
-    <property name="PlantGrowing.IsGrowOnTopEnabled" value="true" />
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantedCorn1" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1964" name="plantedCornTop1V2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="Mcorn" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="72" />
-    <property name="Collide" value="rockets,melee" />
-    <!-- Corn Top Grow stage 1 -->
-    <property name="IsTerrainDecoration" value="true" />
-    <property name="PlantGrowing.FertileLevel" value="0" />
-    <property name="PlantGrowing.Next" value="plantedCornTop2V2" />
-    <property name="PlantGrowing.GrowthRate" value="180" />
-    <property name="PlantGrowing.LightLevelStay" value="0" />
-    <property name="PlantGrowing.IsRandom" value="false" />
-    <property name="PlantGrowing.IsGrowOnTopEnabled" value="true" />
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantedCornTop1" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1965" name="plantedCornTop2V2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="Mcorn" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="71" />
-    <property name="Collide" value="rockets,melee" />
-    <!-- Corn Top Grow stage 2 -->
-    <property name="IsTerrainDecoration" value="true" />
-    <property name="PlantGrowing.FertileLevel" value="0" />
-    <property name="PlantGrowing.Next" value="plantedCornStalk1" />
-    <property name="PlantGrowing.GrowthRate" value="180" />
-    <property name="PlantGrowing.LightLevelStay" value="0" />
-    <property name="PlantGrowing.IsRandom" value="false" />
-    <property name="PlantGrowing.IsGrowOnTopEnabled" value="true" />
-    <property name="PlantGrowing.GrowOnTop" value="plantedCornTop1V2" param1="3" param2="plantedCornTop3Harvest" />
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantedCornTop2" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1966" name="plantChrysanthemumSprout2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="401" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantChrysanthemumGrowing2" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantChrysanthemumSprout" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1967" name="plantChrysanthemumGrowing2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="402" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantedChrysanthemum3Harvest" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantChrysanthemumGrowing" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1968" name="plantTomatoSprout2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="401" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantTomatoGrowing2" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantTomatoSprout" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1969" name="plantTomatoGrowing2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="402" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantTomato" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantTomatoGrowing" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1970" name="plantWheatSprout2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="CustomIcon" value="goldenrodSprout" />
-	<property name="CustomIconTint" value="cc9900" />
-	<property name="Texture" value="296" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantWheatYoung2" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantWheatSprout" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1971" name="plantWheatYoung2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="CustomIcon" value="plainsGrassDiagonal" />
-	<property name="CustomIconTint" value="cc9900" />
-	<property name="Texture" value="297" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantWheat" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantWheatYoung" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1972" name="plantAloeSprout2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="296" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantAloeYoung2" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantAloeSprout" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1973" name="plantAloeYoung2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="297" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantedAloe3Harvest" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantAloeYoung" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1974" name="plantMushroomSprout2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="296" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantMushroomYoung2" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantMushroomSprout" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1975" name="plantMushroomYoung2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="297" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="mushroom01" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantMushroomYoung" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1976" name="plantYuccaSprout2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="296" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantYuccaYoung2" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantYuccaSprout" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1977" name="plantYuccaYoung2">
-    <property name="Class" value="PlantGrowing" />
-    <property name="Material" value="plants" />
-    <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
-    <property name="Texture" value="297" />
-    <property name="Collide" value="melee" />
-    <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="plantedYucca3Harvest" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="5" />
-      <property name="IsRandom" value="false" />
-    </property>
-	<property class="UpgradeBlock">
-      <property name="ToBlock" value="plantYuccaYoung" />
-      <property name="Item" value="Fertilizer" />
-      <property name="ItemCount" value="1" />
-      <property name="UpgradeHitCount" value="1" />
-    </property>
-  </block>
-  <block id="1978" name="tallGrassDiagonalSprout">
+  <block id="1953" name="tallGrassDiagonalSprout">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="Mtallgrass" />
     <property name="Shape" value="BillboardPlant" />
@@ -14346,15 +13828,13 @@ kind of free
 	<property name="Texture" value="296" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" count="0" />
-    <property class="PlantGrowing">
-      <property name="Next" value="treeTallGrassDiagonal" />
-      <property name="GrowthRate" value="180" />
-      <property name="FertileLevel" value="1" />
-      <property name="IsRandom" value="false" />
-    </property>
+	<property name="PlantGrowing.Next" value="treeTallGrassDiagonal" />
+	<property name="PlantGrowing.GrowthRate" value="180" />
+	<property name="PlantGrowing.FertileLevel" value="1" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+	<drop event="Destroy" count="0" />
   </block>
-  <block id="1979" name="dirt2">
+  <block id="1954" name="dirt2">
 	<property name="Material" value="dirt" />
 	<property name="Shape" value="Terrain" />
 	<property name="Mesh" value="terrain" />
