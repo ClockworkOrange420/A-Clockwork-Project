@@ -308,7 +308,6 @@ then add recipes for those white/red/green metals
 	<property name="UpgradeRated.Rate" value="15" />
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" />
-	<drop event="Harvest" name="femur" count="1,2" prob="1" />
 	<drop event="Destroy" name="femur" count="1,2" prob="1" />
 	<drop event="Fall" name="gore" count="1" prob="1.0"  stick_chance="1" />
 </block>
@@ -1798,7 +1797,6 @@ group desc for stuff like metal siding
 	<drop event="Fall" name="gore" count="1" prob="1.0"  stick_chance="1" />
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" />
-	<drop event="Harvest" name="femur" count="1,2" prob="1" />
 	<drop event="Destroy" name="femur" count="1,2" prob="1" />
 </block>
 
@@ -5664,7 +5662,6 @@ kind of free
 		<property name="UpgradeRated.Rate" value="5" /> <!-- 15 is max for the Rate -->
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" />
-	<drop event="Harvest" name="femur" count="1,2" prob="1" />
 	<drop event="Destroy" name="femur" count="1,2" prob="1" />
 	<drop event="Fall" name="gore" count="1" prob="1.0"  stick_chance="1" />
 </block>
