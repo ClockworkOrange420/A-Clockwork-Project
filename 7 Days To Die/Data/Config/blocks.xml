@@ -3089,6 +3089,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" count="0" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property name="Group" value="Tools/Traps" />
+	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
 	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
@@ -3215,6 +3216,7 @@ group desc for stuff like metal siding
 	<drop event="Destroy" name="wood" count="5" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property name="Group" value="Tools/Traps" />
+	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
 	<property name="CanMobsSpawnOn" value="false" />
 </block>
 

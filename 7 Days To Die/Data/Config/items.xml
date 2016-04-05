@@ -5634,7 +5634,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Skills_to_gain" value="Gun Smithing,9mm Round Crafting" />
 		-->
 		<property name="Delay" value="1" />
-		<property name="ActionExp" value="65"/>
+		<property name="ActionExp" value="150"/>
 		<property name="ActionExpBonusMultiplier" value="1"/> <!-- When first learned the multiplier is applied. After that only the action exp is applied but it's applied for EACH item in the book. -->
 		<property name="Sound_start" value="Misc/recipe_unlocked" />
 	</property>
@@ -5661,7 +5661,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
 		<property name="Recipes_to_learn" value="Armor_Smithing_Skill" />
-		<property name="ActionExp" value="35"/>
+		<property name="ActionExp" value="80"/>
 		<property name="ActionExpBonusMultiplier" value="1"/>
 	</property>
 </item>
@@ -5677,7 +5677,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
 		<property name="Recipes_to_learn" value="Leatherworking_Skill" />
-		<property name="ActionExp" value="35"/>
+		<property name="ActionExp" value="80"/>
 		<property name="ActionExpBonusMultiplier" value="1"/>
 	</property>
 </item>
@@ -5693,7 +5693,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
 		<property name="Recipes_to_learn" value="Tailoring_Skill" />
-		<property name="ActionExp" value="35"/>
+		<property name="ActionExp" value="80"/>
 		<property name="ActionExpBonusMultiplier" value="1"/>
 	</property>
 </item>
@@ -7666,18 +7666,23 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
 		<property name="Group" value="Resources" />
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
 	<item id="1532" name="Pipe_Mold">
         <property name="Extends" value="Blank_Mold" />
+		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
 	<item id="1533" name="Nail_Mold">
         <property name="Extends" value="Blank_Mold" />
+		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
 	<item id="1534" name="Empty_Jar_Mold">
         <property name="Extends" value="Blank_Mold" />
+		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
 	<item id="1535" name="Glass_Pane_Mold">
         <property name="Extends" value="Blank_Mold" />
+		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
 	<item id="1536" name="44Magnum_Cylinder_Mold">
         <property name="Extends" value="Blank_Mold" />
