@@ -297,7 +297,7 @@ then add recipes for those white/red/green metals
 	<property name="Material" value="organic" />
 	<property name="Shape" value="Terrain" />
 	<property name="Mesh" value="terrain" />
-	<property name="Texture" value="440" />
+	<property name="Texture" value="2" />
 	<property name="Tag" value="Gore" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="Density" value="0.9" />

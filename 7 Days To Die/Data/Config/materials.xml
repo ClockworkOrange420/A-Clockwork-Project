@@ -77,7 +77,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="fertile_level" value="1" />
 	<property name="stability_glue" value="0" />
 	<property name="Mass" type="int" value="1" />
-	<property name="StabilitySupport" value="false" />
+	<property name="StabilitySupport" value="true" />
 	<property name="movement_factor" value="0.5" />
 	<property name="MaxDamage" value="50" />
 </material>
