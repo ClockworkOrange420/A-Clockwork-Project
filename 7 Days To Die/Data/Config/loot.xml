@@ -1388,7 +1388,7 @@
 
 <!-- for dew collector -->
 	<lootgroup name="dewCollection" count="all" >
-		<item name="bottledRiverWater" count="1" />
+		<item name="bottledRiverWater" count="2" />
 	</lootgroup>
 	<lootcontainer id="75"  count="1" size="2,2" destroy_on_close="true" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" >
 		<item group="dewCollection" prob="1" />
