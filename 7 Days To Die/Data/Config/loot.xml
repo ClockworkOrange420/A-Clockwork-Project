@@ -702,7 +702,7 @@
 <lootgroup name="cupboard">
 	<item name="canEmpty"/>
 	<item group="cannedfood" prob="0.05"/>
-	<item group="seeds" prob="0.1"/>
+	<item group="seeds"/>
 	<item name="bottledWater" prob="0.05"/>
 	<item name="emptyJar" count="1,4"/>
 </lootgroup>
