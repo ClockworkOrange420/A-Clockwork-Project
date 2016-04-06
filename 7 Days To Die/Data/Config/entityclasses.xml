@@ -471,7 +471,7 @@
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
-	<property name="HeadDismemberThreshold" value="0"/> <!-- if the total damage exceeds that value, there is a chance for dismemberment /> -->
+	<property name="HeadDismemberThreshold" value="0.25"/> <!-- if the total damage exceeds that value, there is a chance for dismemberment /> -->
 	<property name="LowerLegDismemberThreshold" value="0"/>
 	<property name="UpperLegDismemberThreshold" value="0"/>
 	<property name="LowerArmDismemberThreshold" value="0"/>
@@ -558,8 +558,8 @@
 	<property name="Explosion.RadiusBlocks" value="3" />
 	<property name="Explosion.RadiusEntities" value="6" />
 	<property name="ExperienceGain" value="500"/>
-	<property name="HeadDismemberBonusChance" value="0.08"/>
-	<property name="HeadDismemberThreshold" value="0"/> <!-- if the total damage exceeds that value, there is a chance for dismemberment /> -->
+	<property name="HeadDismemberBonusChance" value="0.07"/>
+	<property name="HeadDismemberThreshold" value="0.25"/>
 	<property name="LowerLegDismemberThreshold" value="0"/>
 	<property name="UpperLegDismemberThreshold" value="0"/>
 	<property name="LowerArmDismemberThreshold" value="0"/>
