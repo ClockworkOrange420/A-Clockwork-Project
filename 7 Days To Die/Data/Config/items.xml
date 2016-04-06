@@ -328,8 +328,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Delay" value="1.2" />
 		<property name="Range" value="2.2" />
 		<property name="Sphere" value="0.1" />
-		<property name="DamageEntity" value="15" />
-		<property name="DamageBlock" value="0.4" />
 		<property name="Sound_start" value="swoosh" />
 		<property name="Stamina_usage" value="7" />
 		<property name="DamageBonus.wood" value="3" />
@@ -339,6 +337,23 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageBonus.leaves" value="25" />
 		<property name="DamageBonus.organic" value="3" />
 		<property name="ToolCategory.Butcher" value="1" />
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Melee" />
+		<property name="Delay" value="0.2" />
+		<property name="Range" value="1" />
+		<property name="Sphere" value="0.1" />
+		<property name="Block_range" value="4" />
+		<property name="DamageEntity" value="1" />
+		<property name="DamageBlock" value="1" />
+		<property name="Sound_start" value="swoosh" />
+		<property name="Stamina_usage" value="4" />
+		<property name="DamageBonus.plants" value="25" />
+		<property name="DamageBonus.leaves" value="25" />
+		<property name="DamageBonus.wood" value="0.01" />
+		<property name="DamageBonus.head" value="0.01" />
+		<property name="DamageBonus.earth" value="0.01" />
+		<property name="DamageBonus.organic" value="0.01" />
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="12,30" />
