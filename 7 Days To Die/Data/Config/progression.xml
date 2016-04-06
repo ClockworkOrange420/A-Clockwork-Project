@@ -480,7 +480,7 @@
 	
 	<!--Resource Unlocks-->
 	
-	<perk name="Medical Crafting" icon="medical" description_key="MedicalCraftingDesc" title_key="MedicalCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="health">
+	<perk name="Medical Crafting" icon="medical" description_key="MedicalCraftingDesc" title_key="MedicalCrafting" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="health">
 		<requirement skill_level="1" required_skill_name="Science" required_skill_level="10"/>
 		<requirement skill_level="2" required_skill_name="Science" required_skill_level="20"/>
 		<requirement skill_level="3" required_skill_name="Science" required_skill_level="30"/>
@@ -489,7 +489,7 @@
 		<recipe name="antibiotics" unlock_level="3"/>
 	</perk>
 	
-	<perk name="Chemical Crafting" icon="science" description_key="ChemicalCraftingDesc" title_key="ChemicalCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
+	<perk name="Chemical Crafting" icon="science" description_key="ChemicalCraftingDesc" title_key="ChemicalCrafting" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
 		<requirement skill_level="1" required_skill_name="Science" required_skill_level="20"/>
 		<requirement skill_level="2" required_skill_name="Science" required_skill_level="30"/>
 		<recipe name="grainAlcohol" unlock_level="1"/>
