@@ -694,6 +694,7 @@
 	<item name="blueberryPie"/>
 	<item group="allStews"/>
 	<item group="allRawMeats" count="1,2"/>
+	<item name="Tomato"/>
 	<item name="corn"/>
 	<item name="potato"/>
 	<item name="blueberries"/>
