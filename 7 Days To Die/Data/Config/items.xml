@@ -1397,7 +1397,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Class" value="Repair" />
 		<property name="Delay" value="0.4" />
 		<property name="Repair_amount" value="200" />
-		<property name="Upgrade_hit_offset" value="-2" />
+		<property name="Upgrade_hit_offset" value="-1" />
 		<property name="Sound_start" value="UseActions/repair_block" />
 		<property name="Allowed_upgrade_items" value="wood,clayLump,scrapIron,forgedIron,forgedSteel,concreteMix,cobblestones,yuccaFibers" />
 	</property>
@@ -1439,7 +1439,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Class" value="Repair" />
 		<property name="Delay" value="0.5" />
 		<property name="Repair_amount" value="350" />
-		<property name="Upgrade_hit_offset" value="-3" />
+		<property name="Upgrade_hit_offset" value="-2" />
 		<property name="Sound_start" value="UseActions/repair_block" />
 		<property name="Allowed_upgrade_items" value="wood,clayLump,scrapIron,forgedIron,forgedSteel,concreteMix,cobblestones,yuccaFibers,nail" />
 	</property>
