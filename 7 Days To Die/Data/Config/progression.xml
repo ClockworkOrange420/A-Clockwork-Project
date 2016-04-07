@@ -622,36 +622,6 @@
 		</effect>
 	</perk>
 	
-	<perk name="The Survivor" icon="quality_joe" description_key="theSurvivorDesc" title_key="theSurvivor" max_level="5" skill_point_cost_multiplier="0" passive_effect="true" skill_point_cost_per_level="10" group="health">
-		<requirement perk_level="1" required_player_level="1" />
-		<requirement perk_level="2" required_player_level="10" />
-		<requirement perk_level="3" required_player_level="20" />
-		<requirement perk_level="4" required_player_level="30" />
-		<requirement perk_level="5" required_player_level="40" />
-		<effect name="HungerDegradation">
-			<multiply perk_level="1" value="0.9"/>
-			<multiply perk_level="2" value="0.8"/>
-			<multiply perk_level="3" value="0.7"/>
-			<multiply perk_level="4" value="0.6"/>
-			<multiply perk_level="5" value="0.5"/>
-		</effect>
-	</perk>
-	
-	<perk name="The Camel" icon="quality_joe" description_key="theCamelDesc" title_key="theCamel" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" passive_effect="true" group="health">
-		<requirement perk_level="1" required_player_level="1" />
-		<requirement perk_level="2" required_player_level="10" />
-		<requirement perk_level="3" required_player_level="20" />
-		<requirement perk_level="4" required_player_level="30" />
-		<requirement perk_level="5" required_player_level="40" />
-		<effect name="ThirstDegradation">
-			<multiply perk_level="1" value="0.9"/>
-			<multiply perk_level="2" value="0.8"/>
-			<multiply perk_level="3" value="0.7"/>
-			<multiply perk_level="4" value="0.6"/>
-			<multiply perk_level="5" value="0.5"/>
-		</effect>
-	</perk>
-	
 	<perk name="Quicker Crafting" icon="forge" description_key="quickerCraftingDesc" title_key="quickerCrafting" max_level="5" skill_point_cost_multiplier="0" passive_effect="true" skill_point_cost_per_level="10" group="crafting">
 		<requirement perk_level="1" required_player_level="1" />
 		<requirement perk_level="2" required_player_level="10" />
@@ -718,15 +688,6 @@
 			<multiply skill_level="5" value="2.0"/>
 		</effect>
 	</perk>
-
-	<perk name="Treasure Hunter" icon="treasure" description_key="treasureHunterDesc" title_key="treasureHunter" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="scavenging">
-		<effect name="TreasureRadius">
-			<setvalue skill_level="1" value="11"/>
-			<setvalue skill_level="2" value="9"/>
-			<setvalue skill_level="3" value="7"/>
-		</effect>
-	</perk>
-
 
 </skills>
 
