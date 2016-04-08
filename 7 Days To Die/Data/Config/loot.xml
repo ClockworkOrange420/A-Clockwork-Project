@@ -1307,6 +1307,7 @@
 <!-- miners chest -->
 <lootcontainer id="57" count="1,5" size="4,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
 	<item group="tools"/>
+	<item name="dynamite" count="1,4" prob="0.3" />
 </lootcontainer>
 
 <!-- shopping basket -->
@@ -1385,6 +1386,9 @@
 	<item group="airdropMedicine"/>
 	<item group="herbalRecipes"/>
 	<item group="questChallenge"/>
+	<item name="calipers" prob="0.075"/> <!-- = 5% -->
+	<item name="toolAndDieSet" prob="0.075"/>
+	<item name="bloodDrawKit" prob="0.03"/>
 </lootcontainer>
 
 <!-- for dew collector -->

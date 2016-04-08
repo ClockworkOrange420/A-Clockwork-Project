@@ -797,6 +797,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="HoldType" value="10" />
  	<property name="DegradationBreaksAfter" value="false" />
 	<property name="SoundJammed" value="Weapons/weapon_jam" />
+	<property name="CrosshairOnAim" value="true" />
 	<property class="Parts">
 		<property name="Stock" value="partsRocketLauncher_stock" />
 		<property name="Receiver" value="partsRocketLauncher_receiver" />
@@ -1485,6 +1486,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Range" value="20" />
 		<property name="Magazine_size" value="25" />
 		<property name="Magazine_items" value="nail, Unload" />
+		<property name="Rays_spread" value="0.042" />
 		<property name="Instantiate_on_load" value="false" />
 		<property name="Reload_time" value="2" />
 		<property name="Bullet_icon" value="uzi" />
@@ -1522,6 +1524,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="repairKit" />
 	<property name="HoldType" value="19" />
+	<property name="Weight" value="500" />
  	<property name="SoundIdle" value="Weapons/Motorized/Chainsaw/chainsaw_idle" />
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Class" value="Ranged" />
@@ -1566,6 +1569,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 <item id="131" name="auger">
 	<property name="Meshfile" value="Items/Tools/augerPrefab" />
 	<property name="Material" value="metal" />
+	<property name="Weight" value="480" />
 	<property name="RepairTools" value="repairKit" />
 	<property name="HoldType" value="20" />
  	<property name="SoundIdle" value="Weapons/Motorized/Auger/auger_idle" />
@@ -1701,7 +1705,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Material" value="brass" />
 	<property name="HoldType" value="21" />
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
-	<property name="Weight" value="1" />
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 </item>
@@ -1711,7 +1714,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Material" value="brass" />
 	<property name="HoldType" value="21" />
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
-	<property name="Weight" value="1" />
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 </item>
@@ -1721,7 +1723,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Material" value="brass" />
 	<property name="HoldType" value="21" />
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
-	<property name="Weight" value="1" />
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 </item>
@@ -1731,7 +1732,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Material" value="brass" />
 	<property name="HoldType" value="21" />
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
-	<property name="Weight" value="1" />
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 </item>
@@ -4890,7 +4890,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_health" value="2" />
 		<property name="Gain_food" value="5" />
 		<property name="Gain_water" value="-2" />
-		<property name="Gain_gas" value="10" />
+		<property name="Gain_gas" value="0" />
 		<property name="Gain_wellness" value="-0.5" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 		<property name="Create_item" value="canEmpty" />
@@ -4905,7 +4905,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_health" value="2" />
 		<property name="Gain_food" value="5" />
 		<property name="Gain_water" value="-2" />
-		<property name="Gain_gas" value="15" />
+		<property name="Gain_gas" value="0" />
 	</property>
 </item>
 
@@ -4916,7 +4916,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_health" value="5" />
 		<property name="Gain_food" value="10" />
 		<property name="Gain_water" value="-5" />
-		<property name="Gain_gas" value="15" />
+		<property name="Gain_gas" value="0" />
 	</property>
 </item>
 
@@ -5632,7 +5632,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Meshfile" value="Items/Misc/Book" />
 	<property name="Material" value="paper" />
 	<property name="HoldType" value="21" />
-	<property name="Weight" value="5" />
+	<property name="Weight" value="20" />
 	<property name="FuelValue" value="5" />
 	<property name="Stacknumber" value="50" /> <!-- STK book -->
 	<property class="Action1"> <!-- UseAction -->
@@ -6555,7 +6555,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageBlock" value="0.2" />
 		<property name="Explosion.ParticleIndex" value="0" />
 		<!-- no expl. -->
-		<property name="Velocity" value="10" />
+		<property name="Velocity" value="55" />
 		<property name="FlyTime" value="1" />
 		<property name="LifeTime" value="1" />
 		<property name="DamageBonus.head" value="5" />
@@ -7174,7 +7174,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 
 <item id="1464" name="unit_stone">
 	<property name="Extends" value="unit_iron" />
-	<property name="CustomIcon" value="cobblestones" />
+	<property name="CustomIcon" value="rockSmall" />
 	<property name="Material" value="stone" />
 	<property name="IsDeveloper" value="true" />
 </item>
@@ -8239,7 +8239,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<item id="1593" name="MasterSkill">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-        <property name="Material" value="metal" />
+        <property name="Material" value="paper" />
 		<property name="Weight" value="40" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />

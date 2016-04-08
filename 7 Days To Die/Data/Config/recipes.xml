@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- The (scrappable) weight of a thing is auto-calculated from the resources here unless overridden in blocks/items.xml. 
+Unfortunately auto-calc only seems to work on the first (top) ingredient in the list so ammo recipes have been re-ordered as a temp fix.
 -->
 <recipes>
 <!-- * * * * * * * * * * * * scrap and forge-emptying recipes * * * * * * * * * * * * -->
@@ -74,33 +75,27 @@
 	<!-- * * * * * * * * * * * * main recipes * * * * * * * * * * * * -->
 
 	<recipe name="10mmBullet" count="1" scrapable="True" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+		<ingredient name="bulletCasing" count="1"/>
 		<ingredient name="bulletTip" count="1"/>
 		<ingredient name="gunPowder" count="2"/>
-		<ingredient name="bulletCasing" count="1"/>
 	</recipe>
 
 	<recipe name="44MagBullet" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+		<ingredient name="bulletCasing" count="1"/>
 		<ingredient name="bulletTip" count="1"/>
 		<ingredient name="gunPowder" count="3"/>
-		<ingredient name="bulletCasing" count="1"/>
 	</recipe>
 
 	<recipe name="762mmBullet" count="1" scrapable="True" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+		<ingredient name="bulletCasing" count="1"/>
 		<ingredient name="bulletTip" count="1"/>
 		<ingredient name="gunPowder" count="3"/>
-		<ingredient name="bulletCasing" count="1"/>
 	</recipe>
 
 	<recipe name="9mmBullet" count="1" scrapable="True" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+		<ingredient name="bulletCasing" count="1"/>
 		<ingredient name="bulletTip" count="1"/>
 		<ingredient name="gunPowder" count="1"/>
-		<ingredient name="bulletCasing" count="1"/>
-	</recipe>
-
-	<recipe name="blunderbussAmmo" count="1" scrapable="False">
-		<ingredient name="rockSmall" count="1"/>
-		<ingredient name="gunPowder" count="1"/>
-		<ingredient name="paper" count="1"/>
 	</recipe>
 
 	<recipe name="blunderbussAmmo" count="1" scrapable="False">
@@ -540,48 +535,48 @@
     </recipe>
 	
 	<recipe name="Chisel" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-        <ingredient name="unit_clay" count="10"/>
-		<ingredient name="unit_iron" count="20"/>
+        <ingredient name="unit_iron" count="20"/>
+		<ingredient name="unit_clay" count="10"/>
     </recipe>
 	<recipe name="calipers" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-        <ingredient name="unit_clay" count="10"/>
-		<ingredient name="unit_iron" count="20"/>
+        <ingredient name="unit_iron" count="20"/>
+		<ingredient name="unit_clay" count="10"/>
     </recipe>
 	<recipe name="toolAndDieSet" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-        <ingredient name="unit_clay" count="10"/>
-		<ingredient name="unit_iron" count="20"/>
+        <ingredient name="unit_iron" count="20"/>
+		<ingredient name="unit_clay" count="10"/>
     </recipe>
 	
 	<recipe name="partsAuger_parts" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-        <ingredient name="unit_clay" count="10"/>
-		<ingredient name="unit_iron" count="20"/>
+        <ingredient name="unit_iron" count="20"/>
+		<ingredient name="unit_clay" count="10"/>
     </recipe>
 	<recipe name="partsAuger_blade" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-        <ingredient name="unit_clay" count="20"/>
-		<ingredient name="unit_iron" count="40"/>
+        <ingredient name="unit_iron" count="40"/>
+		<ingredient name="unit_clay" count="20"/>
     </recipe>
 	
 	<recipe name="partsChainsaw_parts" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-        <ingredient name="unit_clay" count="10"/>
-		<ingredient name="unit_iron" count="20"/>
+        <ingredient name="unit_iron" count="20"/>
+		<ingredient name="unit_clay" count="10"/>
     </recipe>
 	<recipe name="partsChainsaw_blade" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-        <ingredient name="unit_clay" count="30"/>
-		<ingredient name="unit_iron" count="50"/>
+        <ingredient name="unit_iron" count="50"/>
+		<ingredient name="unit_clay" count="30"/>
     </recipe>
 	
 	<recipe name="smallEngine" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-        <ingredient name="scrapCable" count="5"/>
-        <ingredient name="spring" count="6"/>
         <ingredient name="forgedIron" count="400"/>
+		<ingredient name="scrapCable" count="5"/>
+        <ingredient name="spring" count="6"/>
 		<ingredient name="radiator" count="1"/>
 		<ingredient name="airFilter" count="1"/>
     </recipe>
 	
 	<recipe name="Sewing_Machine" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-        <ingredient name="nail" count="1"/>
-        <ingredient name="spring" count="1"/>
         <ingredient name="forgedIron" count="10"/>
+		<ingredient name="nail" count="1"/>
+        <ingredient name="spring" count="1"/>
 		<ingredient name="ductTape" count="5"/>
     </recipe>
 	
@@ -890,105 +885,105 @@
 	<!--Schematics-->
 	
 	<recipe name="Armor_Smithing" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Chemistry_For_Dummies" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Gun_Smithing" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Medical_Book" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Leatherworking" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Tailoring" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Tool_Smithing" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Weapon_Smithing" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Archery" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Athletics" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Bladed_Weapons" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Blunt_Weapons" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="How_Mining_Works" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Pistols" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Rifles" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Shotguns" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	<recipe name="Under_Construction" count="1" scrapable="False" craft_area="Research_Table" craft_tool="Geometry_Set" >
-        <ingredient name="Ink" count="1"/>
+        <ingredient name="paper" count="5"/>
+		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="paper" count="5"/>
 		<ingredient name="Schematic_Page" count="5"/>
     </recipe>
 	
@@ -1066,13 +1061,13 @@
     </recipe>
 	
 	<recipe name="scrapCable" count="1" scrapable="False" craft_area="forge" craft_tool="calipers" material_based="true">
-        <ingredient name="unit_clay" count="5"/>
-		<ingredient name="unit_iron" count="5"/>
+        <ingredient name="unit_iron" count="5"/>
+		<ingredient name="unit_clay" count="5"/>
     </recipe>
 	
 	<recipe name="spring" count="1" scrapable="False" craft_area="forge" craft_tool="calipers" material_based="true">
-        <ingredient name="unit_clay" count="5"/>
-		<ingredient name="unit_iron" count="10"/>
+        <ingredient name="unit_iron" count="10"/>
+		<ingredient name="unit_clay" count="5"/>
     </recipe>
 	
 	<recipe name="omnigel" count="100" scrapable="False" craft_area="Omnigel_Station" craft_tool="beaker" >
@@ -1375,15 +1370,15 @@
 		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="hazmatMask" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
-		<ingredient name="airFilter" count="1"/>
 		<ingredient name="forgedIron" count="5"/>
+		<ingredient name="airFilter" count="1"/>
 		<ingredient name="leather" count="3"/>
 		<ingredient name="ductTape" count="2"/>
 	</recipe>
 
 	<recipe name="gasMask" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
-		<ingredient name="airFilter" count="1"/>
 		<ingredient name="forgedIron" count="5"/>
+		<ingredient name="airFilter" count="1"/>
 		<ingredient name="leather" count="3"/>
 		<ingredient name="ductTape" count="2"/>
 	</recipe>
@@ -2266,7 +2261,7 @@
         <ingredient name="clayLump" count="1"/>
         <ingredient name="rockSmall" count="1"/>
     </recipe>
-
+	
 	<recipe name="concreteBlock" count="1" scrapable="False" craft_area="workbench" craft_tool="Chisel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
@@ -2404,9 +2399,9 @@
 	</recipe>
 
 	<recipe name="explodingCrossbowBolt" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+		<ingredient name="steelArrowHead" count="1"/>
 		<ingredient name="gunPowder" count="25"/>
 		<ingredient name="ductTape" count="1"/>
-		<ingredient name="steelArrowHead" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
 	</recipe>
@@ -2442,10 +2437,10 @@
 	</recipe>
 
 	<recipe name="flamingArrow" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+		<ingredient name="steelArrow" count="1"/>
 		<ingredient name="gunPowder" count="2"/>
 		<ingredient name="cloth" count="1"/>
 		<ingredient name="tallow" count="1"/>
-		<ingredient name="steelArrow" count="1"/>
 	</recipe>
 
 	<recipe name="foodYuccaJuice" count="1" scrapable="False">
@@ -2622,9 +2617,9 @@
 	</recipe>
 
 	<recipe name="partsHandlebars" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="wrench" >
+		<ingredient name="shortMetalPipe" count="6"/>
 		<ingredient name="ductTape" count="2"/>
 		<ingredient name="leather" count="2"/>
-		<ingredient name="shortMetalPipe" count="6"/>
 	</recipe>
 
 	<recipe name="hayBaleBlock" count="1" scrapable="False" craft_area="workbench" >
@@ -2896,9 +2891,9 @@
 	</recipe>
 
 	<recipe name="mineHubcap" count="1" scrapable="True" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
-		<ingredient name="hubcap" count="1"/>
 		<ingredient name="nail" count="5"/>
 		<ingredient name="gunPowder" count="2"/>
+		<ingredient name="hubcap" count="1"/>
 	</recipe>
 
 	<recipe name="minibikeChassis" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="wrench">
@@ -2914,10 +2909,10 @@
 	</recipe>
 
 	<recipe name="minibikeSeat" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="shortMetalPipe" count="4"/>
 		<ingredient name="ductTape" count="4"/>
 		<ingredient name="leather" count="7"/>
 		<ingredient name="plantedCotton3Harvest" count="3"/>
-		<ingredient name="shortMetalPipe" count="4"/>
 	</recipe>
 
 	<recipe name="nail" count="1" scrapable="False" craft_area="forge" craft_tool="Nail_Mold" material_based="true">
@@ -2951,9 +2946,9 @@
 	</recipe>
 
 	<recipe name="pipeBomb" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+		<ingredient name="shortMetalPipe" count="1"/>
 		<ingredient name="Cordage" count="1"/>
 		<ingredient name="gunPowder" count="10"/>
-		<ingredient name="shortMetalPipe" count="1"/>
 	</recipe>
 
 	<recipe name="plainsGround" count="1" scrapable="False">
@@ -2969,9 +2964,9 @@
 	</recipe>
 
 	<recipe name="rScrapIronPlateMine" count="1" scrapable="True" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+		<ingredient name="scrapIron" count="2"/>
 		<ingredient name="gunPowder" count="3"/>
 		<ingredient name="ductTape" count="1"/>
-		<ingredient name="scrapIron" count="2"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 
@@ -3026,17 +3021,17 @@
 
 
 	<recipe name="repairKit" count="1" scrapable="False">
+		<ingredient name="forgedIron" count="1"/>
 		<ingredient name="oil" count="1"/>
 		<ingredient name="cloth" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
 
 	<recipe name="rocket" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+		<ingredient name="rocketCasing" count="1"/>
 		<ingredient name="rocketTip" count="1"/>
 		<ingredient name="gunPowder" count="50"/>
 		<ingredient name="ductTape" count="3"/>
-		<ingredient name="rocketCasing" count="1"/>
 	</recipe>
 
 	<recipe name="rocketCasing" count="1" scrapable="False" craft_area="forge" craft_tool="calipers" material_based="true">
@@ -3170,8 +3165,8 @@
 	</recipe>
 
 	<recipe name="shortMetalPipe" count="2" scrapable="False" craft_area="forge" craft_tool="Pipe_Mold" material_based="true">
-        <ingredient name="unit_clay" count="5"/>
-		<ingredient name="unit_iron" count="10"/>
+        <ingredient name="unit_iron" count="10"/>
+		<ingredient name="unit_clay" count="5"/>
     </recipe>
 
 	<recipe name="shotgunShell" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
@@ -3181,9 +3176,9 @@
 	</recipe>
 
 	<recipe name="shotgunSlug" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
-		<ingredient name="bulletTip" count="5"/>
-		<ingredient name="gunPowder" count="11"/>
-		<ingredient name="bulletCasing" count="3"/>
+		<ingredient name="bulletCasing" count="1"/>
+		<ingredient name="bulletTip" count="1"/>
+		<ingredient name="gunPowder" count="5"/>
 	</recipe>
 
 	<recipe name="shovelIron" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
@@ -3332,27 +3327,27 @@
 	</recipe>
 
 	<recipe name="woodFrameBlock" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="wood" count="10"/>
+		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 
 	<recipe name="woodFrameCNRFull" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="wood" count="10"/>
+		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 
 	<recipe name="woodFrameCNRInside" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="wood" count="10"/>
+		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 
 	<recipe name="woodFrameRamp" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="wood" count="10"/>
+		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 
 	<recipe name="woodFrameWedge" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="wood" count="10"/>
+		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 
@@ -3423,8 +3418,8 @@
 	</recipe>
 
 	<recipe name="woodenBow" count="1" scrapable="False">
-		<ingredient name="Cordage" count="1"/>
 		<ingredient name="wood" count="6"/>
+		<ingredient name="Cordage" count="1"/>
 	</recipe>
 
 	<recipe name="woodHatch1_v1" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
@@ -3441,18 +3436,18 @@
 	</recipe>
 	
 	<recipe name="tv" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-        <ingredient name="glassCTRSheet" count="1"/>
-		<ingredient name="scrapIron" count="10"/>
+        <ingredient name="scrapIron" count="10"/>
+		<ingredient name="glassCTRSheet" count="1"/>
     </recipe>
 	
 	<recipe name="tv_large_1" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-        <ingredient name="glassCTRSheet" count="1"/>
-		<ingredient name="scrapIron" count="10"/>
+        <ingredient name="scrapIron" count="10"/>
+		<ingredient name="glassCTRSheet" count="1"/>
     </recipe>
 	
 	<recipe name="tv_large_2" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-        <ingredient name="glassCTRSheet" count="1"/>
-		<ingredient name="scrapIron" count="10"/>
+        <ingredient name="scrapIron" count="10"/>
+		<ingredient name="glassCTRSheet" count="1"/>
     </recipe>
 	
 	<recipe name="cntLockers" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
@@ -3461,7 +3456,7 @@
 	
 	<recipe name="schoolDesk" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
         <ingredient name="wood" count="10"/>
-		<ingredient name="nail" count="10"/>
+		<ingredient name="nail" count="5"/>
     </recipe>
 	
 	<recipe name="cntCooler" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
@@ -3489,17 +3484,17 @@
     </recipe>
 	
 	<recipe name="pew_segment01" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="wood" count="20"/>
+		<ingredient name="wood" count="15"/>
 		<ingredient name="nail" count="5"/>
     </recipe>
 	
 	<recipe name="pew_segment02" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="wood" count="20"/>
+		<ingredient name="wood" count="15"/>
 		<ingredient name="nail" count="5"/>
     </recipe>
 	
 	<recipe name="pew_segment03" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="wood" count="20"/>
+		<ingredient name="wood" count="15"/>
 		<ingredient name="nail" count="5"/>
     </recipe>
 	
