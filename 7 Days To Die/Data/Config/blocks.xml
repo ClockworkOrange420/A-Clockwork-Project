@@ -2294,7 +2294,6 @@ group desc for stuff like metal siding
 
 <block id="328" name="pew_segment01">
 	<property name="Material" value="wood_weak" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Furniture/pew_segment01" param1="main_mesh" />
@@ -2306,7 +2305,6 @@ group desc for stuff like metal siding
 
 <block id="329" name="pew_segment02">
 	<property name="Material" value="wood_weak" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Furniture/pew_segment02" param1="main_mesh" />
@@ -2318,7 +2316,6 @@ group desc for stuff like metal siding
 
 <block id="330" name="pew_segment03">
 	<property name="Material" value="wood_weak" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Furniture/pew_segment03" param1="main_mesh" />
@@ -2331,7 +2328,6 @@ group desc for stuff like metal siding
 <block id="331" name="cntChest01">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="wood+wood" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/chest01" param1="main_mesh" />
@@ -2345,7 +2341,6 @@ group desc for stuff like metal siding
 <block id="332" name="cntChest02">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="wood+wood" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/chest02" param1="main_mesh" />
@@ -2376,7 +2371,6 @@ group desc for stuff like metal siding
 <block id="335" name="cntTrash_can01">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="Mmetal_thin" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/trash_can01" param1="main_mesh" />
@@ -2426,7 +2420,6 @@ group desc for stuff like metal siding
 <block id="339" name="cntStorageChest">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="wood+wood" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/chest01" param1="main_mesh" />
@@ -2656,7 +2649,6 @@ group desc for stuff like metal siding
 <block id="366" name="cntDeskSafe">
 	<property name="Class" value="SecureLoot" />
 	<property name="Material" value="Mmetal_hard" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/safe_desk" param1="main_mesh" />
@@ -2672,7 +2664,6 @@ group desc for stuff like metal siding
 <block id="367" name="cntWallSafe">
 	<property name="Class" value="SecureLoot" />
 	<property name="Material" value="Mmetal_hard" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/safe_wall" param1="main_mesh" />
@@ -2708,7 +2699,6 @@ group desc for stuff like metal siding
 <block id="372" name="treasureChest"> <!-- do not rename -->
 	<property name="Class" value="Loot" />
 	<property name="Material" value="wood+wood" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/chest01" param1="main_mesh" />
@@ -2739,7 +2729,6 @@ group desc for stuff like metal siding
 
 <block id="374" name="cinderBlocks01">
 	<property name="Material" value="rubble" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Industrial/cinder_blocks01" param1="main_mesh" />
@@ -3113,7 +3102,6 @@ group desc for stuff like metal siding
 
 <block id="416" name="cinderBlocks02">
 	<property name="Material" value="rubble" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Industrial/cinder_blocks02" param1="main_mesh" />
@@ -3126,7 +3114,6 @@ group desc for stuff like metal siding
 <block id="417" name="scrapMetalPile">
 	<property name="Material" value="MmetalNoGlue" />
 	<property name="MaxDamage" value="50" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/scrapmetalblock" param1="main_mesh" />
@@ -3240,7 +3227,6 @@ group desc for stuff like metal siding
 <block id="430" name="barbedFence">
 	<property name="Class" value="Barbed" />
 	<property name="Material" value="MbarbedFence" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Damage" value="2" />
 	<property name="Damage_received" value="1" />
 	<property name="Shape" value="New" />
@@ -3313,7 +3299,6 @@ group desc for stuff like metal siding
 
 <block id="434" name="cntToilet01">
 	<property name="Material" value="Mmetal_weak" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Class" value="Loot" />
@@ -3597,7 +3582,6 @@ kind of free
 
 <block id="464" name="bed01Frame">
 	<property name="Material" value="Mmetal_weak" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Furniture/bed01_frame" param1="main_mesh" />
@@ -3963,7 +3947,6 @@ kind of free
 
 <block id="517" name="rebarDestroyed">
 	<property name="Material" value="Mmetal_medium" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/rebar" param1="main_mesh" />
@@ -4001,7 +3984,6 @@ kind of free
 <block id="520" name="cntDesk02">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Furniture/desk02" param1="main_mesh" />
@@ -4047,7 +4029,6 @@ kind of free
 
 <block id="524" name="storeShelving01Top">
 	<property name="Extends" value="storeShelving01" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Model" value="Commercial/store_shelving01_top" param1="main_mesh" />
 </block>
 
@@ -4059,7 +4040,6 @@ kind of free
 
 <block id="538" name="cinderBlocks03">
 	<property name="Material" value="rubble" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Industrial/cinder_blocks03" param1="main_mesh" />
@@ -4200,7 +4180,6 @@ kind of free
 <block id="557" name="cntMunitionsBox">	<!-- military ammo -->
 	<property name="Class" value="Loot" />
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/munitions_box01" param1="main_mesh" />
@@ -4860,7 +4839,6 @@ kind of free
 <block id="624" name="cntCooler">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="wood_weak" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Texture" value="282" />
@@ -4873,7 +4851,6 @@ kind of free
 
 <block id="625" name="schoolDesk">
 	<property name="Material" value="furniture" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Texture" value="282" />
@@ -4897,7 +4874,6 @@ kind of free
 
 <block id="627" name="fountain">
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Texture" value="282" />
@@ -4955,7 +4931,6 @@ kind of free
 <block id="631" name="secureDoorWooden">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="wood" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="FuelValue" value="80" />
@@ -5023,7 +4998,6 @@ kind of free
 <block id="639" name="cntSecureStorageChest">
 	<property name="Class" value="SecureLoot" />
 	<property name="Material" value="wood+wood" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="FuelValue" value="80" />
@@ -5052,7 +5026,6 @@ kind of free
 <block id="642" name="secureReinforcedDoorWooden">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="wood+wood" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />
@@ -5083,7 +5056,6 @@ kind of free
 <block id="643" name="metalReinforcedDoorWooden">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="wood+metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="352" />
 	<property name="Tag" value="Door" />
@@ -5243,7 +5215,6 @@ kind of free
 
 <block id="671" name="treeCactus04">
 	<property name="Extends" value="treeCactus01" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Model" value="Entities/Plants/cactus04Prefab" />
 	<property name="UpwardsCount" value="1" />
 </block>
@@ -8593,7 +8564,6 @@ kind of free
 <block id="1164" name="commercialDoor1_v1">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="282" />
 	<property name="Tag" value="Door" />
@@ -8640,7 +8610,6 @@ kind of free
 <block id="1166" name="commercialDoor1_v3">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="282" />
 	<property name="Tag" value="Door" />
@@ -8723,7 +8692,6 @@ kind of free
 <block id="1176" name="houseFrontDoor1_v1">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="wood" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Model" value="Entities/Doors/house_frontDoor1_v1Prefab" />
@@ -9089,7 +9057,6 @@ kind of free
 <block id="1229" name="signShopGas">
 	<property name="CustomIcon" value="signShopGas" />
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Collide" value="movement,melee,bullet,rocket" />
@@ -9138,7 +9105,6 @@ kind of free
 
 <block id="1237" name="signShopGunStore">
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Collide" value="movement,melee,bullet,rocket" />
@@ -9213,7 +9179,6 @@ kind of free
 <block id="1248" name="ironDoor1_v1">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="Mmetal_hard" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="357" />
 	<property name="Tag" value="Door" />
@@ -9261,7 +9226,6 @@ kind of free
 <block id="1251" name="woodHatch1_v1">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="wood" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />
@@ -9507,7 +9471,6 @@ kind of free
 
 <block id="1302" name="signShopBookStore">
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="Collide" value="movement,melee,bullet,rocket" />
@@ -9564,7 +9527,6 @@ kind of free
 
 <block id="1310" name="signShopPharmacy">
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="Collide" value="movement,melee,bullet,rocket" />
@@ -9621,7 +9583,6 @@ kind of free
 
 <block id="1318" name="signShopToolStore">
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="Collide" value="movement,melee,bullet,rocket" />
@@ -9655,7 +9616,6 @@ kind of free
 	<property name="CustomIcon" value="signShopToolStore" />
 	<property name="Extends" value="signShopToolStore" />
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Model" value="Entities/Signs/toolSign_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
 </block>
@@ -9680,7 +9640,6 @@ kind of free
 
 <block id="1326" name="signShopColdBeer">
 	<property name="Material" value="wood_weak" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="BillboardSingleOnWall" />
 	<property name="Texture" value="427" />
 	<property name="Collide" value="melee,bullet,rocket" />
@@ -9796,7 +9755,6 @@ kind of free
 <block id="1339" name="cashRegisterEmpty">
 	<property name="Material" value="MmetalNoGlue" />
 	<property name="MaxDamage" value="250" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/cash_register_empty" param1="main_mesh" />
@@ -9808,7 +9766,6 @@ kind of free
 	<property name="Class" value="Loot" />
 	<property name="Material" value="MmetalNoGlue" />
 	<property name="MaxDamage" value="250" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/cash_register" param1="main_mesh" />
@@ -9854,7 +9811,6 @@ kind of free
 
 <block id="1346" name="shoppingCartEmpty">
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/shopping_cart_empty" param1="main_mesh" />
@@ -9868,7 +9824,6 @@ kind of free
 <block id="1347" name="cntShoppingCart">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/shopping_cart" param1="main_mesh" />
@@ -9966,7 +9921,6 @@ kind of free
 
 <block id="1360" name="signShopGrocery">
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Model" value="Entities/Signs/grocerySignPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
@@ -10076,7 +10030,6 @@ kind of free
 <block id="1373" name="cntMountainManStorageChest">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="wood+wood" />
-	<property name="StabilitySupport" value="false" />
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
@@ -10268,7 +10221,6 @@ kind of free
 
 <block id="1403" name="emberPile1">
 	<property name="Material" value="wood_weak" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/ember_pile_1" param1="main_mesh" />
@@ -10292,7 +10244,6 @@ kind of free
 
 <block id="1405" name="emberPile3">
 	<property name="Material" value="wood_weak" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/ember_pile_3" param1="main_mesh" />
@@ -10304,7 +10255,6 @@ kind of free
 
 <block id="1406" name="emberPile4">
 	<property name="Material" value="wood_weak" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/ember_pile_4" param1="main_mesh" />
@@ -10319,7 +10269,6 @@ kind of free
 <block id="1408" name="rScrapIronPlateMine">
 	<property name="Class" value="Mine" />
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Plate" />
 	<property name="Texture" value="352" />
 	<property name="Explosion.ParticleIndex" value="3" /> <!-- which prefab/particle is used -->
@@ -10486,7 +10435,6 @@ kind of free
 	<property name="CustomIcon" value="cntDeskSafe" />
 	<property name="Class" value="Loot" />
 	<property name="Material" value="Mmetal_hard" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/safe_desk" param1="main_mesh" />
@@ -10504,7 +10452,6 @@ kind of free
 	<property name="Class" value="Loot" />
 	<property name="LootList" value="11" />
 	<property name="Material" value="Mmetal_hard" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/safe_wall" param1="main_mesh" />
@@ -10589,7 +10536,6 @@ kind of free
 <block id="1431" name="garageDoorMetal_v3">
 	<!--property name="Class" value="DoorSecure" THIS WORKS ONLY FOR 1x2m doors /-->
 	<property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />
@@ -10732,7 +10678,6 @@ kind of free
 <block id="1449" name="vaultDoor01">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="Msteel" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="357" />
 	<property name="Tag" value="Door" />
@@ -10769,7 +10714,6 @@ kind of free
 <block id="1451" name="vaultDoor03">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="Msteel" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="357" />
 	<property name="Tag" value="Door" />
@@ -10931,7 +10875,6 @@ kind of free
 <block id="1463" name="scrapHatch_v1">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="Mmetal_medium" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />
@@ -11015,7 +10958,6 @@ kind of free
 	<property name="Class" value="DoorSecure" />
 	<property name="CustomIcon" value="vaultHatch_v1" />
 	<property name="Material" value="Msteel" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />
@@ -11053,7 +10995,6 @@ kind of free
 <block id="1471" name="vaultHatch_v3">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="Msteel" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />
@@ -11607,7 +11548,6 @@ kind of free
 		<property name="Modules" value="output"/>
 	</property>
 	<property name="DescriptionKey" value="cementMixerDesc"/>
-	<property name="StabilitySupport" value="false" />
 </block>
 	<!--
 
@@ -12480,7 +12420,6 @@ kind of free
 
 <block id="1903" name="sandbag_2">
 	<property name="Extends" value="sandbag_1" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Model" value="OutdoorDecor/sandbag_2" param1="main_mesh" />
 	<property name="DowngradeBlock" value="sandbag_3" />
 </block>
@@ -12501,7 +12440,6 @@ kind of free
 
 <block id="1905" name="sandbag_4">
 	<property name="Extends" value="sandbag_1" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Model" value="OutdoorDecor/sandbag_4" param1="main_mesh" />
 </block>
 
@@ -12526,7 +12464,6 @@ kind of free
 
 <block id="1909" name="sandbagCornerDMG1">
 	<property name="Extends" value="sandbag_1" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Model" value="OutdoorDecor/sandbag_corner_dmg1" param1="main_mesh" />
 	<property name="MultiBlockDim" value="2,1,1" />
 	<property name="IsTerrainDecoration" value="true" />
@@ -12539,7 +12476,6 @@ kind of free
 	<property name="Group" value="Decor/Miscellaneous" />
 	<property name="DescriptionKey" value="sandbagsGroupDesc"/>
 	<property name="Material" value="sand" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/sandbag_corner_2" param1="main_mesh" />
@@ -12581,7 +12517,6 @@ kind of free
 	<property name="Group" value="Decor/Miscellaneous" />
 	<property name="DescriptionKey" value="sandbagsGroupDesc"/>
 	<property name="Material" value="sand" />
-	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/sandbag_5_dmg1" param1="main_mesh" />
@@ -13024,7 +12959,6 @@ kind of free
   <block id="1944" name="Research_Table">
     <property name="Class" value="Workstation" />
     <property name="Material" value="metal" />
-	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Furniture/desk02" param1="main_mesh" />
