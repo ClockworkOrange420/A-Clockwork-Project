@@ -656,7 +656,7 @@
 	<property name="Class" value="EntityZombieDog" />
 	<property name="AvatarController" value="AvatarZombieDogController" />
 	<property name="WanderSpeed" value="0.5" />
-	<property name="ApproachSpeed" value="1.6" />
+	<property name="ApproachSpeed" value="1.5" />
 	<property name="NightWanderSpeed" value="0.3" />
 	<property name="NightApproachSpeed" value="1.6" />
 	<property name="PanicSpeed" value="1.6" />
