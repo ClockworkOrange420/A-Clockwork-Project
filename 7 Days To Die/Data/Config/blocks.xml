@@ -12942,7 +12942,7 @@ kind of free
   <block id="1943" name="steelSpike">
     <property name="Class" value="Damage" />
     <property name="Damage" value="10" />
-	<property name="Damage_received" value="25" />
+	<property name="Damage_received" value="15" />
     <property name="Material" value="Msteel" />
     <property name="Shape" value="Cone" />
     <property name="Texture" value="356" />
