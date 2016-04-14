@@ -276,6 +276,18 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
 	</recipe>
+	<recipe name="feather" count="1" scrapable="False" craft_area="Ammunition_Table">
+		<ingredient name="arrow" count="1"/>
+	</recipe>
+	<recipe name="feather" count="1" scrapable="False" craft_area="Ammunition_Table">
+		<ingredient name="ironArrow" count="1"/>
+	</recipe>
+	<recipe name="feather" count="1" scrapable="False" craft_area="Ammunition_Table">
+		<ingredient name="steelArrow" count="1"/>
+	</recipe>
+	<recipe name="feather" count="1" scrapable="False" craft_area="Ammunition_Table">
+		<ingredient name="flamingArrow" count="1"/>
+	</recipe>
 
 	<recipe name="asphalt" count="1" scrapable="False" craft_area="cementMixer">
 		<ingredient name="crushedSand" count="8"/>
