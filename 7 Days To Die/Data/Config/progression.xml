@@ -687,6 +687,13 @@
 			<multiply skill_level="4" value="1.8"/>
 			<multiply skill_level="5" value="2.0"/>
 		</effect>
+		<effect name="HarvestCount">
+			<multiply skill_level="1" value="1.2"/>
+			<multiply skill_level="2" value="1.4"/>
+			<multiply skill_level="3" value="1.6"/>
+			<multiply skill_level="4" value="1.8"/>
+			<multiply skill_level="5" value="2.0"/>
+		</effect>
 	</perk>
 
 </skills>
