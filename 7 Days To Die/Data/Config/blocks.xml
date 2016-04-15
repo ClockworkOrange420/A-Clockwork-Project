@@ -310,7 +310,6 @@ then add recipes for those white/red/green metals
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" />
 	<drop event="Destroy" name="femur" count="1,2" prob="1" />
-	<drop event="Fall" name="gore" count="1" prob="1.0"  stick_chance="1" />
 </block>
 
 <block id="22" name="fertileFarmland">
@@ -541,7 +540,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="130" name="metalNoUpgradeMaster">
-	<property name="Material" value="metal" />
+	<property name="Material" value="metal" /> <!-- 250 HP -->
 	<property name="Texture" value="429" />
     	<property name="IsDeveloper" value="true" />
 	<property class="RepairItems"> <property name="forgedIron" value="2" /> </property>
@@ -1487,6 +1486,7 @@ group desc for stuff like metal siding
 <block id="235" name="solidScrapIronFrameCNRFull">
 	<property name="Extends" value="scrapIronFrameCNRFull" />
 	<property name="CustomIcon" value="scrapIronFrameCNRFull" />
+	<property name="CanPickup" value="false" />
 </block>
 
 <block id="236" name="rScrapIronCNRFull">
@@ -1810,9 +1810,8 @@ group desc for stuff like metal siding
 	<!-- NOTE: HeatMapFrequency is constrained to on blocks that are not tile entities (like the forge or campfire). -->
  	<!-- 1=min, 15=max NOTE: 1 tick is approximately a 1 to 2 minute real-time interval. -->
 	<property name="HeatMapFrequency" value="1"/>
-	<drop event="Fall" name="gore" count="1" prob="1.0"  stick_chance="1" />
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
-	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" />
+	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" tool_category="Butcher" />
 	<drop event="Destroy" name="femur" count="1,2" prob="1" />
 </block>
 
@@ -2232,7 +2231,8 @@ group desc for stuff like metal siding
 <block id="318" name="porchLight04Brass">
 	<property name="Extends" value="porchLight01" />
 	<property name="Model" value="Entities/Lighting/porchLight04BrassPrefab" />
-	<drop event="Destroy" name="scrapBrass" count="1" prob="1" />
+	<drop event="Destroy" name="scrapIron" count="0" prob="0" />
+	<drop event="Destroy" name="scrapBrass" count="2" prob="1" />
 </block>
 
 <block id="319" name="ceilingLight01">
@@ -2293,6 +2293,7 @@ group desc for stuff like metal siding
 
 <block id="328" name="pew_segment01">
 	<property name="Material" value="wood_weak" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Furniture/pew_segment01" param1="main_mesh" />
@@ -2304,6 +2305,7 @@ group desc for stuff like metal siding
 
 <block id="329" name="pew_segment02">
 	<property name="Material" value="wood_weak" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Furniture/pew_segment02" param1="main_mesh" />
@@ -2315,6 +2317,7 @@ group desc for stuff like metal siding
 
 <block id="330" name="pew_segment03">
 	<property name="Material" value="wood_weak" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Furniture/pew_segment03" param1="main_mesh" />
@@ -2327,6 +2330,7 @@ group desc for stuff like metal siding
 <block id="331" name="cntChest01">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="wood+wood" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/chest01" param1="main_mesh" />
@@ -2340,6 +2344,7 @@ group desc for stuff like metal siding
 <block id="332" name="cntChest02">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="wood+wood" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/chest02" param1="main_mesh" />
@@ -2370,6 +2375,7 @@ group desc for stuff like metal siding
 <block id="335" name="cntTrash_can01">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="Mmetal_thin" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/trash_can01" param1="main_mesh" />
@@ -2419,6 +2425,7 @@ group desc for stuff like metal siding
 <block id="339" name="cntStorageChest">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="wood+wood" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/chest01" param1="main_mesh" />
@@ -2648,6 +2655,7 @@ group desc for stuff like metal siding
 <block id="366" name="cntDeskSafe">
 	<property name="Class" value="SecureLoot" />
 	<property name="Material" value="Mmetal_hard" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/safe_desk" param1="main_mesh" />
@@ -2663,6 +2671,7 @@ group desc for stuff like metal siding
 <block id="367" name="cntWallSafe">
 	<property name="Class" value="SecureLoot" />
 	<property name="Material" value="Mmetal_hard" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/safe_wall" param1="main_mesh" />
@@ -2698,6 +2707,7 @@ group desc for stuff like metal siding
 <block id="372" name="treasureChest"> <!-- do not rename -->
 	<property name="Class" value="Loot" />
 	<property name="Material" value="wood+wood" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/chest01" param1="main_mesh" />
@@ -2728,6 +2738,7 @@ group desc for stuff like metal siding
 
 <block id="374" name="cinderBlocks01">
 	<property name="Material" value="rubble" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Industrial/cinder_blocks01" param1="main_mesh" />
@@ -2840,42 +2851,31 @@ group desc for stuff like metal siding
 </block>
 
 <block id="386" name="redMetalPillar100">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="Pole1m" />
 	<property name="Texture" value="311" />
-	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 </block>
 
 <block id="387" name="redMetalBlockDuplicate">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Texture" value="311" />
-	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 </block>
 
 <block id="388" name="redMetalRamp">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Shape" value="WedgedBackFaces" />
 	<property name="Texture" value="311" />
-	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 </block>
 
 <block id="389" name="ladderMetal">
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Class" value="Ladder" />
-	<property name="Material" value="metal" />
 	<property name="Shape" value="BillboardSingleOnWall" />
 	<property name="Mesh" value="cutout" />
 	<property name="Texture" value="313" />
 	<property name="Place" value="Torch" />
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<property name="Group" value="Building" />
-	<property class="RepairItems"> <property name="forgedIron" value="3" /> </property>
 </block>
 
 <block id="390" name="brickCNRRamp">
@@ -2987,10 +2987,9 @@ group desc for stuff like metal siding
 </block>
 
 <block id="405" name="corrugatedMetalCTRPlate">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Shape" value="PlateCentered" />
 	<property name="Texture" value="194" />
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 </block>
 
 <block id="406" name="sidingTileIndustrialWoodBlock">
@@ -3101,6 +3100,7 @@ group desc for stuff like metal siding
 
 <block id="416" name="cinderBlocks02">
 	<property name="Material" value="rubble" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Industrial/cinder_blocks02" param1="main_mesh" />
@@ -3113,6 +3113,7 @@ group desc for stuff like metal siding
 <block id="417" name="scrapMetalPile">
 	<property name="Material" value="MmetalNoGlue" />
 	<property name="MaxDamage" value="50" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/scrapmetalblock" param1="main_mesh" />
@@ -3226,6 +3227,7 @@ group desc for stuff like metal siding
 <block id="430" name="barbedFence">
 	<property name="Class" value="Barbed" />
 	<property name="Material" value="MbarbedFence" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Damage" value="2" />
 	<property name="Damage_received" value="1" />
 	<property name="Shape" value="New" />
@@ -3298,6 +3300,7 @@ group desc for stuff like metal siding
 
 <block id="434" name="cntToilet01">
 	<property name="Material" value="Mmetal_weak" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Class" value="Loot" />
@@ -3581,6 +3584,7 @@ kind of free
 
 <block id="464" name="bed01Frame">
 	<property name="Material" value="Mmetal_weak" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Furniture/bed01_frame" param1="main_mesh" />
@@ -3743,10 +3747,10 @@ kind of free
 	<property name="Model" value="Signs/sign_no_hazardous_waste" param1="main_mesh" />
 </block>
 
-<block id="484" name="signRoadRightOnly">
+<!-- <block id="484" name="signRoadRightOnly">
 	<property name="Extends" value="signRoadArrowheadApache" />
 	<property name="Model" value="Signs/sign_right_only" param1="main_mesh" />
-</block>
+</block> -->
 
 <block id="485" name="signRoadWork">
 	<property name="Extends" value="signRoadArrowheadApache" />
@@ -3946,6 +3950,7 @@ kind of free
 
 <block id="517" name="rebarDestroyed">
 	<property name="Material" value="Mmetal_medium" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/rebar" param1="main_mesh" />
@@ -3983,6 +3988,7 @@ kind of free
 <block id="520" name="cntDesk02">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Furniture/desk02" param1="main_mesh" />
@@ -4001,7 +4007,6 @@ kind of free
 	<property name="Mesh" value="models" />
 	<property name="Texture" value="282" />
 	<property name="Model" value="Furniture/office_chair01" param1="main_mesh" />
-	<property name="CanPickup" value="true" />
 	<property name="FuelValue" value="90" />
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<drop event="Harvest" name="wood" count="2" />
@@ -4028,6 +4033,7 @@ kind of free
 
 <block id="524" name="storeShelving01Top">
 	<property name="Extends" value="storeShelving01" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Model" value="Commercial/store_shelving01_top" param1="main_mesh" />
 </block>
 
@@ -4039,6 +4045,7 @@ kind of free
 
 <block id="538" name="cinderBlocks03">
 	<property name="Material" value="rubble" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Industrial/cinder_blocks03" param1="main_mesh" />
@@ -4179,6 +4186,7 @@ kind of free
 <block id="557" name="cntMunitionsBox">	<!-- military ammo -->
 	<property name="Class" value="Loot" />
 	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/munitions_box01" param1="main_mesh" />
@@ -4809,7 +4817,7 @@ kind of free
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Plumbing/faucet_brass02" param1="main_mesh" />
 	<property name="Collide" value="melee,bullet,rocket" />
-	<property name="Weight" value="24" />
+	<property name="Weight" value="25" />
 </block>
 
 <block id="622" name="faucetBrass04">
@@ -4819,7 +4827,7 @@ kind of free
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Plumbing/faucet_brass04" param1="main_mesh" />
 	<property name="Collide" value="melee,bullet,rocket" />
-	<property name="Weight" value="16" />
+	<property name="Weight" value="25" />
 </block>
 
 <block id="623" name="cntFileCabinet">
@@ -4838,6 +4846,7 @@ kind of free
 <block id="624" name="cntCooler">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="wood_weak" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Texture" value="282" />
@@ -4850,6 +4859,7 @@ kind of free
 
 <block id="625" name="schoolDesk">
 	<property name="Material" value="furniture" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Texture" value="282" />
@@ -4873,6 +4883,7 @@ kind of free
 
 <block id="627" name="fountain">
 	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Texture" value="282" />
@@ -4930,6 +4941,7 @@ kind of free
 <block id="631" name="secureDoorWooden">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="wood" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="FuelValue" value="80" />
@@ -4962,11 +4974,8 @@ kind of free
 </block>
 
 <block id="633" name="blueMetalBlock">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Texture" value="435" />
-	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 </block>
 
 <block id="634" name="blueDrywallBlock">
@@ -4997,6 +5006,7 @@ kind of free
 <block id="639" name="cntSecureStorageChest">
 	<property name="Class" value="SecureLoot" />
 	<property name="Material" value="wood+wood" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="FuelValue" value="80" />
@@ -5025,6 +5035,7 @@ kind of free
 <block id="642" name="secureReinforcedDoorWooden">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="wood+wood" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />
@@ -5055,6 +5066,7 @@ kind of free
 <block id="643" name="metalReinforcedDoorWooden">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="wood+metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="352" />
 	<property name="Tag" value="Door" />
@@ -5214,6 +5226,7 @@ kind of free
 
 <block id="671" name="treeCactus04">
 	<property name="Extends" value="treeCactus01" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Model" value="Entities/Plants/cactus04Prefab" />
 	<property name="UpwardsCount" value="1" />
 </block>
@@ -5542,7 +5555,6 @@ kind of free
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" />
 	<drop event="Destroy" name="femur" count="1,2" prob="1" />
-	<drop event="Fall" name="gore" count="1" prob="1.0"  stick_chance="1" />
 </block>
 
 <block id="702" name="GoreBlock1BonesPrefab">
@@ -6217,12 +6229,9 @@ kind of free
 </block>
 
 <block id="787" name="rustyIronPole">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Shape" value="Pole" />
 	<property name="Texture" value="282" />
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
-	<property class="RepairItems"> <property name="forgedIron" value="4" /> </property>
 </block>
 
 <block id="788" name="ladderWood">
@@ -6234,9 +6243,7 @@ kind of free
 	<property name="Texture" value="83" />
 	<property name="Place" value="Torch" />
 	<property name="FuelValue" value="48" />
-	<property class="RepairItems">
-		<property name="wood" value="6" />
-	</property>
+	<property class="RepairItems"> <property name="wood" value="6" /> </property>
 	<drop event="Destroy" name="wood" count="1,3" />
 </block>
 	<!-- Free -->
@@ -6271,10 +6278,8 @@ kind of free
 </block>
 
 <block id="797" name="metalRivetBlock">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Texture" value="46" />
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 </block>
 
 <block id="798" name="metalRivetRamp">
@@ -6347,15 +6352,12 @@ kind of free
 	<!-- Free -->
 
 <block id="812" name="rustyIronStairs25">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="StairsFilled" />
 	<property name="Texture" value="282" />
 	<property name="Place" value="TowardsPlacerInverted" />
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Group" value="Building" />
-	<property class="RepairItems"> <property name="forgedIron" value="5" /> </property>
 </block>
 
 <block id="813" name="shinglesAsphaltBlueWedgeTip">
@@ -6373,11 +6375,9 @@ kind of free
 </block>
 
 <block id="815" name="corrugatedMetalCNRRamp">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Shape" value="WedgedCorner" />
 	<property name="Texture" value="194" />
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 </block>
 
 <block id="816" name="treePlainsTree">
@@ -6718,10 +6718,8 @@ kind of free
 </block>
 
 <block id="860" name="corrugatedMetalBlock">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Texture" value="194" />
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 </block>
 
 <block id="861" name="hayBaleBlock">
@@ -7155,22 +7153,17 @@ kind of free
 </block>
 
 <block id="919" name="rustyIronPillar100">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="Pole1m" />
 	<property name="Texture" value="282" />
-	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 </block>
 
 <block id="920" name="corrugatedMetalPillar100">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="Pole1m" />
 	<property name="Texture" value="194" />
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 </block>
 
 <block id="921" name="powerPoleWoodPillar50">
@@ -7213,6 +7206,7 @@ kind of free
 	<property name="Shape" value="BillboardSingleOnWall" />
 	<property name="Texture" value="194" />
 	<property name="Place" value="TowardsPlacerInverted" />
+	<property class="RepairItems"> <property name="scrapIron" value="2" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,4" />
 </block>
 
@@ -7651,10 +7645,8 @@ kind of free
 </block>
 
 <block id="1007" name="corrugatedMetalBlockDuplicate">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Texture" value="194" />
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 </block>
 
 <block id="1008" name="rustyIronRamp">
@@ -7878,13 +7870,11 @@ kind of free
 </block>
 
 <block id="1045" name="metalRivetStairs25">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="StairsFilled" />
 	<property name="Texture" value="46" />
 	<property name="Place" value="TowardsPlacerInverted" />
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Group" value="Building" />
 </block>
 
@@ -7980,7 +7970,7 @@ kind of free
 </block>
 
 <block id="1060" name="corrugatedMetalGable">
-	<property name="Material" value="wood" />
+	<property name="Material" value="Mmetal_weak" />
 	<property name="Shape" value="Gable" />
 	<property name="Texture" value="194,194,194,194,194,194" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
@@ -8195,11 +8185,8 @@ kind of free
 </block>
 
 <block id="1093" name="ventDuctBlock">
-	<property name="Material" value="metal" />
+	<property name="Extends" value="metalNoUpgradeMaster" />
 	<property name="Texture" value="314" />
-	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
-	<drop event="Harvest" name="scrapIron" count="2"/>
 </block>
 
 <block id="1094" name="railingMetalSheet">
@@ -9056,6 +9043,7 @@ kind of free
 <block id="1229" name="signShopGas">
 	<property name="CustomIcon" value="signShopGas" />
 	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Collide" value="movement,melee,bullet,rocket" />
@@ -9104,6 +9092,7 @@ kind of free
 
 <block id="1237" name="signShopGunStore">
 	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Collide" value="movement,melee,bullet,rocket" />
@@ -9225,6 +9214,7 @@ kind of free
 <block id="1251" name="woodHatch1_v1">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="wood" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />
@@ -9470,6 +9460,7 @@ kind of free
 
 <block id="1302" name="signShopBookStore">
 	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="Collide" value="movement,melee,bullet,rocket" />
@@ -9526,6 +9517,7 @@ kind of free
 
 <block id="1310" name="signShopPharmacy">
 	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="Collide" value="movement,melee,bullet,rocket" />
@@ -9582,6 +9574,7 @@ kind of free
 
 <block id="1318" name="signShopToolStore">
 	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="Collide" value="movement,melee,bullet,rocket" />
@@ -9615,6 +9608,7 @@ kind of free
 	<property name="CustomIcon" value="signShopToolStore" />
 	<property name="Extends" value="signShopToolStore" />
 	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Model" value="Entities/Signs/toolSign_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
 </block>
@@ -9639,6 +9633,7 @@ kind of free
 
 <block id="1326" name="signShopColdBeer">
 	<property name="Material" value="wood_weak" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="BillboardSingleOnWall" />
 	<property name="Texture" value="427" />
 	<property name="Collide" value="melee,bullet,rocket" />
@@ -9754,6 +9749,7 @@ kind of free
 <block id="1339" name="cashRegisterEmpty">
 	<property name="Material" value="MmetalNoGlue" />
 	<property name="MaxDamage" value="250" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/cash_register_empty" param1="main_mesh" />
@@ -9765,6 +9761,7 @@ kind of free
 	<property name="Class" value="Loot" />
 	<property name="Material" value="MmetalNoGlue" />
 	<property name="MaxDamage" value="250" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/cash_register" param1="main_mesh" />
@@ -9810,6 +9807,7 @@ kind of free
 
 <block id="1346" name="shoppingCartEmpty">
 	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/shopping_cart_empty" param1="main_mesh" />
@@ -9823,6 +9821,7 @@ kind of free
 <block id="1347" name="cntShoppingCart">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/shopping_cart" param1="main_mesh" />
@@ -9894,6 +9893,7 @@ kind of free
 <!-- xxx
   <block id="1355" name="homelyFurRug">
 	<property name="Extends" value="furRugBlock" />
+	<property name="CustomIcon" value="furRugBlock" />
 	<property name="BuffsWhenWalkedOn" value="sleepingBagTrigger"/>
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -9920,6 +9920,7 @@ kind of free
 
 <block id="1360" name="signShopGrocery">
 	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Model" value="Entities/Signs/grocerySignPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
@@ -10029,6 +10030,7 @@ kind of free
 <block id="1373" name="cntMountainManStorageChest">
 	<property name="Class" value="Loot" />
 	<property name="Material" value="wood+wood" />
+	<property name="StabilitySupport" value="false" />
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
@@ -10220,6 +10222,7 @@ kind of free
 
 <block id="1403" name="emberPile1">
 	<property name="Material" value="wood_weak" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/ember_pile_1" param1="main_mesh" />
@@ -10243,6 +10246,7 @@ kind of free
 
 <block id="1405" name="emberPile3">
 	<property name="Material" value="wood_weak" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/ember_pile_3" param1="main_mesh" />
@@ -10254,6 +10258,7 @@ kind of free
 
 <block id="1406" name="emberPile4">
 	<property name="Material" value="wood_weak" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/ember_pile_4" param1="main_mesh" />
@@ -10268,6 +10273,7 @@ kind of free
 <block id="1408" name="rScrapIronPlateMine">
 	<property name="Class" value="Mine" />
 	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Plate" />
 	<property name="Texture" value="352" />
 	<property name="Explosion.ParticleIndex" value="3" /> <!-- which prefab/particle is used -->
@@ -10434,6 +10440,7 @@ kind of free
 	<property name="CustomIcon" value="cntDeskSafe" />
 	<property name="Class" value="Loot" />
 	<property name="Material" value="Mmetal_hard" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/safe_desk" param1="main_mesh" />
@@ -10451,6 +10458,7 @@ kind of free
 	<property name="Class" value="Loot" />
 	<property name="LootList" value="11" />
 	<property name="Material" value="Mmetal_hard" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/safe_wall" param1="main_mesh" />
@@ -10535,6 +10543,7 @@ kind of free
 <block id="1431" name="garageDoorMetal_v3">
 	<!--property name="Class" value="DoorSecure" THIS WORKS ONLY FOR 1x2m doors /-->
 	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />
@@ -10783,6 +10792,8 @@ kind of free
 	<drop event="Harvest" name="ductTape" count="2" prob="1" tool_category="Disassemble"/>
 	<drop event="Harvest" name="spring" count="5" tool_category="Disassemble" />
 	<drop event="Harvest" name="scrapIron" count="4" tool_category="Disassemble" />
+	<drop event="Harvest" name="gasCan" count="100" prob="0.7" />
+	<drop event="Harvest" name="gasCan" count="130" prob="0.6" tool_category="Disassemble" /> <!-- together 150 avg -->
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<!-- <drop event="Fall" name="cntCar03Damage2" count="1" prob="1.0" stick_chance="1" /> -->
 	<property name="DowngradeBlock" value="cntCar03Damage2" />
@@ -10808,7 +10819,8 @@ kind of free
 	<property name="MultiBlockDim" value="2,2,6" />
 	<property name="ShowModelOnFall" value="false" />
 	<drop event="Harvest" name="shortMetalPipe" count="5" prob="0.5" tool_category="Disassemble" />
-	<drop event="Harvest" name="gasCan" count="20" prob="0.3" />
+	<drop event="Harvest" name="gasCan" count="170" prob="0.3" />
+	<drop event="Harvest" name="gasCan" count="80" prob="0.6375" tool_category="Disassemble" /> <!-- together 100 avg -->
 	<drop event="Harvest" name="headlight" count="1" prob="0.45" tool_category="Disassemble" />
 	<drop event="Harvest" name="scrapIron" count="4" prob="1" tool_category="Disassemble"/>
 	<drop event="Harvest" name="ductTape" count="3" prob="1" tool_category="Disassemble"/>
@@ -10874,6 +10886,7 @@ kind of free
 <block id="1463" name="scrapHatch_v1">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="Mmetal_medium" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />
@@ -10957,6 +10970,7 @@ kind of free
 	<property name="Class" value="DoorSecure" />
 	<property name="CustomIcon" value="vaultHatch_v1" />
 	<property name="Material" value="Msteel" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />
@@ -10994,6 +11008,7 @@ kind of free
 <block id="1471" name="vaultHatch_v3">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="Msteel" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />
@@ -11529,6 +11544,7 @@ kind of free
 <block id="1561" name="cementMixer">
 	<property name="Class" value="Workstation" />
 	<property name="Material" value="MmetalNoGlue" />
+	<property name="StabilitySupport" value="false" />
 	<property name="MaxDamage" value="250" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Model" value="Entities/Crafting/cement_mixerPrefab" />
@@ -11599,6 +11615,7 @@ kind of free
 <block id="1563" name="workbench">
 	<property name="Class" value="Workstation" />
 	<property name="Material" value="wood_weak" />
+	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity" />
 	<property name="Model" value="Entities/Crafting/workbenchPrefab" />
 	<property name="MultiBlockDim" value="2,2,1" />
@@ -11617,7 +11634,6 @@ kind of free
 	<property name="Modules" value="tools,output"/>
 	</property>
 	<property name="DescriptionKey" value="workbenchDesc"/>
-	<property name="StabilitySupport" value="false"/>
 </block>
 
 <block id="1564" name="treePlantedWinterPine1m">
@@ -12419,6 +12435,7 @@ kind of free
 
 <block id="1903" name="sandbag_2">
 	<property name="Extends" value="sandbag_1" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Model" value="OutdoorDecor/sandbag_2" param1="main_mesh" />
 	<property name="DowngradeBlock" value="sandbag_3" />
 </block>
@@ -12439,6 +12456,7 @@ kind of free
 
 <block id="1905" name="sandbag_4">
 	<property name="Extends" value="sandbag_1" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Model" value="OutdoorDecor/sandbag_4" param1="main_mesh" />
 </block>
 
@@ -12463,6 +12481,7 @@ kind of free
 
 <block id="1909" name="sandbagCornerDMG1">
 	<property name="Extends" value="sandbag_1" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Model" value="OutdoorDecor/sandbag_corner_dmg1" param1="main_mesh" />
 	<property name="MultiBlockDim" value="2,1,1" />
 	<property name="IsTerrainDecoration" value="true" />
@@ -12475,6 +12494,7 @@ kind of free
 	<property name="Group" value="Decor/Miscellaneous" />
 	<property name="DescriptionKey" value="sandbagsGroupDesc"/>
 	<property name="Material" value="sand" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/sandbag_corner_2" param1="main_mesh" />
@@ -12516,6 +12536,7 @@ kind of free
 	<property name="Group" value="Decor/Miscellaneous" />
 	<property name="DescriptionKey" value="sandbagsGroupDesc"/>
 	<property name="Material" value="sand" />
+	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/sandbag_5_dmg1" param1="main_mesh" />
@@ -12530,6 +12551,7 @@ kind of free
   <block id="1920" name="plantChrysanthemumSprout">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="cutoutmoveable" />
     <property name="Texture" value="401" />
@@ -12550,6 +12572,7 @@ kind of free
   <block id="1921" name="plantChrysanthemumGrowing">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="cutoutmoveable" />
     <property name="Texture" value="402" />
@@ -12565,6 +12588,7 @@ kind of free
   <block id="1922" name="plantTomatoSprout">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="cutoutmoveable" />
     <property name="Texture" value="401" />
@@ -12585,6 +12609,7 @@ kind of free
   <block id="1923" name="plantTomatoGrowing">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="cutoutmoveable" />
     <property name="Texture" value="402" />
@@ -12599,6 +12624,7 @@ kind of free
   <block id="1924" name="plantTomato">
     <property name="Class" value="CropsGrown" />
     <property name="Material" value="plants" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="grass" />
     <property name="Texture" value="244" />
@@ -12613,6 +12639,7 @@ kind of free
   <block id="1925" name="plantWheatSprout">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="cutoutmoveable" />
     <property name="CustomIcon" value="plantedGoldenrod1" />
@@ -12635,6 +12662,7 @@ kind of free
   <block id="1926" name="plantWheatYoung">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="cutoutmoveable" />
     <property name="CustomIcon" value="treePlainsGrassDiagonal" />
@@ -12651,6 +12679,7 @@ kind of free
   <block id="1927" name="plantWheat">
     <property name="Class" value="CropsGrown" />
     <property name="Material" value="Mtallgrass" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="Grass" />
     <property name="CustomIcon" value="treeSnowyGrassDiagonal" />
 	<property name="CustomIconTint" value="EECB58" />
@@ -12666,6 +12695,7 @@ kind of free
   <block id="1928" name="plantAloeSprout">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="cutoutmoveable" />
     <property name="Texture" value="296" />
@@ -12686,6 +12716,7 @@ kind of free
   <block id="1929" name="plantAloeYoung">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="cutoutmoveable" />
     <property name="Texture" value="297" />
@@ -12701,6 +12732,7 @@ kind of free
   <block id="1930" name="plantMushroomSprout">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="cutoutmoveable" />
     <property name="Texture" value="296" />
@@ -12721,6 +12753,7 @@ kind of free
   <block id="1931" name="plantMushroomYoung">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="cutoutmoveable" />
     <property name="Texture" value="297" />
@@ -12735,6 +12768,7 @@ kind of free
   
   <block id="1932" name="Empty_Composter">
     <property name="Material" value="wood" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="New" />
     <property name="Model" value="Pole1m" />
     <property name="Texture" value="241" />
@@ -12756,6 +12790,7 @@ kind of free
   <block id="1933" name="Composter_Filling">
 	<property name="Class" value="PlantGrowing" />
     <property name="Material" value="wood" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="New" />
     <property name="Model" value="Pole1m" />
     <property name="Texture" value="379" />
@@ -12775,6 +12810,7 @@ kind of free
   <block id="1934" name="Full_Composter">
 	<property name="Class" value="Loot" />
     <property name="Material" value="wood" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="New" />
     <property name="Model" value="Pole1m" />
     <property name="Texture" value="192" />
@@ -12790,6 +12826,7 @@ kind of free
   <block id="1935" name="dewCollector_filling">
 	<property name="Class" value="PlantGrowing" />
     <property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Appliances/ac_unit" param1="main_mesh" />
@@ -12812,6 +12849,7 @@ kind of free
   <block id="1936" name="dewCollector_filled">
     <property name="Class" value="Loot" />
     <property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Appliances/ac_unit" param1="main_mesh" />
@@ -12824,6 +12862,7 @@ kind of free
   <block id="1937" name="chickenCoop_stage1">
 	<property name="Class" value="PlantGrowing" />
 	<property name="Material" value="wood_weak" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/white_siding_wood_panel_burnt6" param1="main_mesh" />
@@ -12849,6 +12888,7 @@ kind of free
   <block id="1938" name="chickenCoop_stage2">
 	<property name="Class" value="PlantGrowing" />
 	<property name="Material" value="wood_weak" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/white_siding_wood_panel_burnt4" param1="main_mesh" />
@@ -12871,6 +12911,7 @@ kind of free
   <block id="1939" name="chickenCoop_stage3">
 	<property name="Class" value="PlantGrowing" />
 	<property name="Material" value="wood_weak" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/white_siding_wood_panel_burnt3" param1="main_mesh" />
@@ -12893,6 +12934,7 @@ kind of free
   <block id="1940" name="chickenCoop_stage4">
     <property name="Class" value="Loot" />
 	<property name="Material" value="wood+wood" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/white_siding_wood_panel_burnt1" param1="main_mesh" />
@@ -12906,6 +12948,7 @@ kind of free
   <block id="1941" name="plantYuccaSprout">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="cutoutmoveable" />
     <property name="Texture" value="296" />
@@ -12926,6 +12969,7 @@ kind of free
   <block id="1942" name="plantYuccaYoung">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="cutoutmoveable" />
     <property name="Texture" value="297" />
@@ -12958,6 +13002,7 @@ kind of free
   <block id="1944" name="Research_Table">
     <property name="Class" value="Workstation" />
     <property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Furniture/desk02" param1="main_mesh" />
@@ -12981,6 +13026,7 @@ kind of free
   <block id="1945" name="Old_Oven">
     <property name="Class" value="Campfire" />
     <property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Appliances/oven" param1="main_mesh" />
@@ -13007,6 +13053,7 @@ kind of free
   <block id="1946" name="New_Oven">
     <property name="Class" value="Campfire" />
     <property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Texture" value="346,345,341,345,262,345" />
 	<property name="CustomIcon" value="cntWallOven" />
     <property name="ParticleName" value="campfire" />
@@ -13031,6 +13078,7 @@ kind of free
   <block id="1947" name="Omnigel_Station">
     <property name="Class" value="Campfire" />
     <property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Industrial/control_panel_base_02" param1="main_mesh" />
@@ -13056,6 +13104,7 @@ kind of free
   <block id="1948" name="Tailoring_Table">
     <property name="Class" value="Workstation" />
     <property name="Material" value="wood_weak" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
 	<property name="FuelValue" value="120" />
@@ -13078,6 +13127,7 @@ kind of free
   <block id="1949" name="Smithing_Table">
     <property name="Class" value="Workstation" />
     <property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="New" />
     <property name="Model" value="table" />
     <property name="Texture" value="282" />
@@ -13099,6 +13149,7 @@ kind of free
   <block id="1950" name="Crafting_Table">
     <property name="Class" value="Workstation" />
     <property name="Material" value="wood" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="New" />
     <property name="Model" value="table" />
     <property name="Texture" value="214" />
@@ -13120,6 +13171,7 @@ kind of free
   <block id="1951" name="Crafting_Table_Misc">
     <property name="Class" value="Workstation" />
     <property name="Material" value="wood" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="New" />
     <property name="Model" value="table" />
     <property name="Texture" value="241" />
@@ -13142,6 +13194,7 @@ kind of free
   <block id="1952" name="Ammunition_Table">
     <property name="Class" value="Workstation" />
     <property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="New" />
     <property name="Model" value="table" />
     <property name="Texture" value="352" />
@@ -13163,6 +13216,7 @@ kind of free
   <block id="1953" name="tallGrassDiagonalSprout">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="Mtallgrass" />
+	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="cutoutmoveable" />
 	<property name="Texture" value="296" />

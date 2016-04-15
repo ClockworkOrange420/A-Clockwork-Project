@@ -23,7 +23,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 <!-- * * * * * * * * * * player melee weapons / clubs / knives * * * * * * * * * * -->
 <item id="1" name="clubMaster">
 	<property name="IsDeveloper" value="true" />
-	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_Branch" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_BranchPrefab" />
 	<property name="Material" value="wood" />
 	<property name="RepairTools" value="wood" />
 	<property name="HoldType" value="2" />
@@ -67,7 +67,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 
 <item id="7" name="clubIron">
 	<property name="Extends" value="clubMaster" />
-	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_Refined" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_RefinedPrefab" />
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="scrapIron" />
 	<property class="Action0">
@@ -87,7 +87,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 
 <item id="8" name="clubBarbed">
 	<property name="Extends" value="clubIron" />
-	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_Barbed" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_BarbedPrefab" />
 	<property name="RepairTools" value="forgedIron" />
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Buff" value="bleeding,criticalBlunt" />
@@ -107,7 +107,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 
 <item id="9" name="clubSpiked">
 	<property name="Extends" value="clubIron" />
-	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_Spiked" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_SpikedPrefab" />
 	<property name="RepairTools" value="forgedIron" />
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Buff" value="bleeding,criticalBlunt" />
@@ -124,7 +124,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="DescriptionKey" value="clubSpikedDesc"/>
 </item>
 <item id="12" name="sledgehammer">
-	<property name="Meshfile" value="Items/Tools/sledgehammer_steel" />
+	<property name="Meshfile" value="Items/Tools/sledgehammer_steelPrefab" />
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="forgedIron" />
 	<property name="HoldType" value="33" />
@@ -247,7 +247,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="19" name="boneShiv">
-	<property name="Meshfile" value="Items/Weapons/Melee/Knives/boneShiv" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Knives/boneShivPrefab" />
 	<property name="Material" value="metal" />
 	<property name="HoldType" value="36" />
  	<property name="SoundDestroy" value="wooddestroy1" />
@@ -280,7 +280,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="21" name="huntingKnife">
-	<property name="Meshfile" value="Items/Weapons/Melee/Knives/hunting_knife" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Knives/hunting_knifePrefab" />
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="forgedIron" />
 	<property name="HoldType" value="36" />
@@ -316,7 +316,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="22" name="machete">
-	<property name="Meshfile" value="Items/Weapons/Melee/Knives/machete" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Knives/machetePrefab" />
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="forgedSteel" />
 	<property name="HoldType" value="47" />
@@ -337,6 +337,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageBonus.leaves" value="25" />
 		<property name="DamageBonus.organic" value="3" />
 		<property name="ToolCategory.Butcher" value="1" />
+		<property name="Sound_harvesting" value="UseActions/open_animal" />
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Melee" />
@@ -1087,7 +1088,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 <!-- * * * * * * * * * * tools for mining / farming, manual or motorised * * * * * * * * * * -->
 
 <item id="105" name="stoneAxe">
-	<property name="Meshfile" value="Items/Weapons/Melee/Axe/stone_axe" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Axe/stone_axePrefab" />
 	<property name="Material" value="stone" />
 	<property name="RepairTools" value="rockSmall" />
 	<property name="HoldType" value="32" />
@@ -1198,7 +1199,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="113" name="pickaxeIron">
-	<property name="Meshfile" value="Items/Tools/pickaxe_iron" />
+	<property name="Meshfile" value="Items/Tools/pickaxe_ironPrefab" />
 	<property name="SoundJammed" value="ItemNeedsRepair" />
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="forgedIron" />
@@ -1235,7 +1236,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 
 <item id="114" name="pickaxeSteel">
 	<property name="Extends" value="pickaxeIron" />
-	<property name="Meshfile" value="Items/Tools/pickaxe_steel" />
+	<property name="Meshfile" value="Items/Tools/pickaxe_steelPrefab" />
 	<property name="HoldType" value="4" />
 	<property name="RepairTools" value="forgedSteel" />
 	<property class="Action0">
@@ -1253,7 +1254,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="117" name="stoneShovel">
-	<property name="Meshfile" value="Items/Tools/stone_shovel" />
+	<property name="Meshfile" value="Items/Tools/stone_shovelPrefab" />
 	<property name="Material" value="stone" />
 	<property name="RepairTools" value="rockSmall" />
 	<property name="HoldType" value="18" />
@@ -1290,7 +1291,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="118" name="shovelIron">
-	<property name="Meshfile" value="Items/Tools/shovel_iron" />
+	<property name="Meshfile" value="Items/Tools/shovel_ironPrefab" />
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="forgedIron" />
 	<property name="HoldType" value="18" />
@@ -1328,6 +1329,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 
 <item id="119" name="shovelSteel">
 	<property name="Extends" value="shovelIron" />
+	<property name="Meshfile" value="Items/Tools/shovel_steelPrefab" />
 	<property name="CustomIcon" value="shovelIron" />
 	<property name="CustomIconTint" value="a0a0ff" />
 	<property name="RepairTools" value="forgedSteel" />
@@ -1343,7 +1345,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="122" name="hoeIron">
-	<property name="Meshfile" value="Items/Tools/hoe_iron" />
+	<property name="Meshfile" value="Items/Tools/hoe_ironPrefab" />
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="forgedIron" />
 	<property name="HoldType" value="4" />
@@ -1553,6 +1555,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageBonus.head" value="5" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="SupportHarvesting" value="true" />
+		<property name="UseMeleeCrosshair" value="true" />
 		<property name="ActionExp" value="1" />
 		<!-- xxx trains blade weapons SUPER fast but ActionExp cannot be set lower than 1 -->
 	</property>
@@ -1607,6 +1610,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageBonus.head" value="3" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="SupportHarvesting" value="true" />
+		<property name="UseMeleeCrosshair" value="true" />
 	</property>
 	<property name="Group" value="Tools/Traps" />
 	<property name="ActionSkillGroup" value="Mining Tools"/>
@@ -1931,6 +1935,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Velocity" value="75" />
 		<property name="FlyTime" value="0.15" />
 		<property name="LifeTime" value="12" />
+		<property name="ActionExp" value="30"/>
 		<property name="DamageBonus.head" value="5" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="2" />
@@ -3425,7 +3430,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="452" name="plantFiberHat"> <!-- plantFiberClothes -->
-	<property name="Extends" value="plantFiberPants" />
+	<property name="Extends" value="plantFiberPants" param1="DescriptionKey" />
 	<property name="CustomIcon" value="cowboyHat" />
 	<property name="CustomIconTint" value="227,206,164" />
 	<property name="Insulation" value="-8"/>
@@ -4545,7 +4550,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_food" value="0" />
 		<property name="Gain_water" value="0" />
 		<property name="Sound_start" value="UseActions/player_bandage" />
-		<property name="Debuff" value="bleeding,arrowCriticalBleedout,burning" />
+		<property name="Debuff" value="bleeding,arrowCriticalBleedout" />
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Eat" />
@@ -4555,7 +4560,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_food" value="0" />
 		<property name="Gain_water" value="0" />
 		<property name="Sound_start" value="UseActions/player_bandage" />
-		<property name="Debuff" value="bleeding,arrowCriticalBleedout,burning" />
+		<property name="Debuff" value="bleeding,arrowCriticalBleedout" />
 	</property>
 	<property name="Group" value="Medicine,Basics" />
 	<property name="DescriptionKey" value="bandageDesc"/>
@@ -4699,6 +4704,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="667" name="herbalAntibiotics">
+	<property name="CustomIconTint" value="b0ffb0" />
 	<property name="Meshfile" value="Items/Health/painkillersPrefab" />
 	<property name="Material" value="organic" />
 	<property name="HoldType" value="16" />
@@ -4746,7 +4752,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_wellness" value="0" />
 		<property name="Sound_start" value="UseActions/player_painkillers" />
 		<property name="Buff" value="cured" />
-		<property name="Debuff" value="infection,infection1,infection2,infection3,infection4,dysentery,dysentery2" />
+		<property name="Debuff" value="infection,infection1,infection2,infection3,dysentery,dysentery2" />
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Eat" />
@@ -4758,7 +4764,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_wellness" value="0" />
 		<property name="Sound_start" value="UseActions/player_painkillers" />
 		<property name="Buff" value="cured" />
-		<property name="Debuff" value="infection,infection1,infection2,infection3,infection4,dysentery,dysentery2" />
+		<property name="Debuff" value="infection,infection1,infection2,infection3,dysentery,dysentery2" />
 	</property>
 	<property name="ActionSkillGroup" value="Medicine"/>
 	<property name="CraftingSkillGroup" value="Science"/>
@@ -4842,6 +4848,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Gain_wellness" value="0.1" />
 		<property name="Create_item" value="emptyJar" />
+		<property name="Debuff" value="burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5444,10 +5451,12 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_food" value="0" />
 		<property name="Gain_water" value="15" />
 		<property name="Gain_sickness" value="15" />
+		<property name="Gain_wellness" value="-0.1" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Create_item" value="canEmpty" />
 		<property name="Buff" value="dysentery" />
 		<property name="Buff_chance" value="0.5" />
+		<property name="Debuff" value="burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5469,6 +5478,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_water" value="20" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Create_item" value="canEmpty" />
+		<property name="Debuff" value="burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5489,10 +5499,12 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_food" value="0" />
 		<property name="Gain_water" value="15" />
 		<property name="Gain_sickness" value="15" />
+		<property name="Gain_wellness" value="-0.1" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Create_item" value="emptyJar" />
 		<property name="Buff" value="dysentery" />
 		<property name="Buff_chance" value="0.5" />
+		<property name="Debuff" value="burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5514,6 +5526,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_water" value="20" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Create_item" value="emptyJar" />
+		<property name="Debuff" value="burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5534,7 +5547,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Create_item" value="emptyJar" />
 		<property name="Gain_wellness" value="0.2" />
-		<property name="Debuff" value="dysentery" />
+		<property name="Debuff" value="dysentery,burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5556,7 +5569,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Create_item" value="emptyJar" />
 		<property name="Gain_wellness" value="0.2" />
-		<property name="Debuff" value="dysentery" />
+		<property name="Debuff" value="dysentery,burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5579,6 +5592,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Buff" value="CoffeeStaminaBoost" />
 		<property name="Create_item" value="emptyJar" />
 		<property name="Gain_wellness" value="-0.1" />
+		<property name="Debuff" value="burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5600,6 +5614,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Create_item" value="emptyJar" />
 		<property name="Buff" value="DrinkBeer" />
+		<property name="Debuff" value="burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -6419,6 +6434,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="FuelValue" value="1" />
 	<property name="Weight" value="5" />
 	<property name="Group" value="Resources,Clothing" />
+	<property name="CraftingSkillGroup" value="Tailoring"/>
 </item>
 
 <item id="1328" name="paper">
@@ -7190,7 +7206,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 <!--Modded-->
 	
 	<item id="1500" name="stoneTippedSpear">
-        <property name="Meshfile" value="Items/Tools/stone_shovel" />
+        <property name="Meshfile" value="Items/Tools/stone_shovelPrefab" />
         <property name="HoldType" value="18" />
         <property name="CustomIcon" value="stoneShovel" />
 		<property name="CustomIconTint" value="ffd700" />
@@ -7227,7 +7243,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
 	<item id="1501" name="ironTippedSpear">
-        <property name="Meshfile" value="Items/Tools/stone_shovel" />
+        <property name="Meshfile" value="Items/Tools/shovel_ironPrefab" />
         <property name="HoldType" value="18" />
         <property name="CustomIcon" value="stoneShovel" />
 		<property name="CustomIconTint" value="ffd700" />
@@ -7264,7 +7280,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
 	<item id="1502" name="steelTippedSpear">
-        <property name="Meshfile" value="Items/Tools/stone_shovel" />
+        <property name="Meshfile" value="Items/Tools/shovel_steelPrefab" />
         <property name="HoldType" value="18" />
         <property name="CustomIcon" value="stoneShovel" />
 		<property name="CustomIconTint" value="ffd700" />
