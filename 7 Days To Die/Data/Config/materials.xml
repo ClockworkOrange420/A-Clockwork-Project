@@ -706,9 +706,9 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="forge_category" value="brass" />
 	<property name="Hardness" type="float" value="1" />
 	<property name="stepsound" value="metal" />
-	<property name="stability_glue" value="0" />
+	<property name="stability_glue" value="320" />
 	<property name="Mass" type="int" value="20" />
-	<property name="MaxDamage" value="100" />
+	<property name="MaxDamage" value="200" />
 </material>
 
 <material id="MdroppedBackpack">

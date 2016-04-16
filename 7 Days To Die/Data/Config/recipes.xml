@@ -1936,8 +1936,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	</recipe>
 
 	<recipe name="blunderbuss" count="1" scrapable="False">
-		<ingredient name="forgedIron" count="4"/>
 		<ingredient name="shortMetalPipe" count="2"/>
+		<ingredient name="forgedIron" count="4"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="spring" count="2"/>
 	</recipe>
@@ -2715,6 +2715,16 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="leather" count="3"/>
 	</recipe>
 
+	<recipe name="ironCrossbowBolt" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+		<ingredient name="ironArrowHead" count="1"/>
+		<ingredient name="wood" count="1"/>
+		<ingredient name="feather" count="1"/>
+	</recipe>
+
+	<recipe name="ironDoor1_v1" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="10"/>
+	</recipe>
+
 	<recipe name="ironGloves" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
 		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="leather" count="3"/>
@@ -2728,16 +2738,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<recipe name="ironLegArmor" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
 		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="leather" count="3"/>
-	</recipe>
-	
-	<recipe name="ironCrossbowBolt" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
-		<ingredient name="ironArrowHead" count="1"/>
-		<ingredient name="wood" count="1"/>
-		<ingredient name="feather" count="1"/>
-	</recipe>
-
-	<recipe name="ironDoor1_v1" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="forgedIron" count="10"/>
 	</recipe>
 
 	<recipe name="keystoneBlock" count="1" scrapable="False">
