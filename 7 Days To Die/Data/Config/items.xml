@@ -337,6 +337,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageBonus.leaves" value="25" />
 		<property name="DamageBonus.organic" value="3" />
 		<property name="ToolCategory.Butcher" value="1" />
+		<property name="Sound_harvesting" value="UseActions/open_animal" />
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Melee" />
@@ -1553,6 +1554,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageBonus.head" value="5" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="SupportHarvesting" value="true" />
+		<property name="UseMeleeCrosshair" value="true" />
 		<property name="ActionExp" value="1" />
 		<!-- xxx trains blade weapons SUPER fast but ActionExp cannot be set lower than 1 -->
 	</property>
@@ -1607,6 +1609,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageBonus.head" value="3" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="SupportHarvesting" value="true" />
+		<property name="UseMeleeCrosshair" value="true" />
 	</property>
 	<property name="Group" value="Tools/Traps" />
 	<property name="ActionSkillGroup" value="Mining Tools"/>
@@ -1931,6 +1934,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Velocity" value="75" />
 		<property name="FlyTime" value="0.15" />
 		<property name="LifeTime" value="12" />
+		<property name="ActionExp" value="30"/>
 		<property name="DamageBonus.head" value="5" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="2" />
@@ -4545,7 +4549,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_food" value="0" />
 		<property name="Gain_water" value="0" />
 		<property name="Sound_start" value="UseActions/player_bandage" />
-		<property name="Debuff" value="bleeding,arrowCriticalBleedout,burning" />
+		<property name="Debuff" value="bleeding,arrowCriticalBleedout" />
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Eat" />
@@ -4555,7 +4559,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_food" value="0" />
 		<property name="Gain_water" value="0" />
 		<property name="Sound_start" value="UseActions/player_bandage" />
-		<property name="Debuff" value="bleeding,arrowCriticalBleedout,burning" />
+		<property name="Debuff" value="bleeding,arrowCriticalBleedout" />
 	</property>
 	<property name="Group" value="Medicine,Basics" />
 	<property name="DescriptionKey" value="bandageDesc"/>
@@ -4699,6 +4703,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="667" name="herbalAntibiotics">
+	<property name="CustomIconTint" value="b0ffb0" />
 	<property name="Meshfile" value="Items/Health/painkillersPrefab" />
 	<property name="Material" value="organic" />
 	<property name="HoldType" value="16" />
@@ -4746,7 +4751,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_wellness" value="0" />
 		<property name="Sound_start" value="UseActions/player_painkillers" />
 		<property name="Buff" value="cured" />
-		<property name="Debuff" value="infection,infection1,infection2,infection3,infection4,dysentery,dysentery2" />
+		<property name="Debuff" value="infection,infection1,infection2,infection3,dysentery,dysentery2" />
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Eat" />
@@ -4758,7 +4763,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_wellness" value="0" />
 		<property name="Sound_start" value="UseActions/player_painkillers" />
 		<property name="Buff" value="cured" />
-		<property name="Debuff" value="infection,infection1,infection2,infection3,infection4,dysentery,dysentery2" />
+		<property name="Debuff" value="infection,infection1,infection2,infection3,dysentery,dysentery2" />
 	</property>
 	<property name="ActionSkillGroup" value="Medicine"/>
 	<property name="CraftingSkillGroup" value="Science"/>
@@ -5523,6 +5528,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_water" value="20" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Create_item" value="emptyJar" />
+		<property name="Debuff" value="burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -6431,6 +6437,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="FuelValue" value="1" />
 	<property name="Weight" value="5" />
 	<property name="Group" value="Resources,Clothing" />
+	<property name="CraftingSkillGroup" value="Tailoring"/>
 </item>
 
 <item id="1328" name="paper">
