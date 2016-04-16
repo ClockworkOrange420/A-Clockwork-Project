@@ -1,6 +1,6 @@
 s,Source,Context,Max Line Width,English,Francais,German
 quest,,Category,,Quest,,
-challenege,,Category,,Challenge,,
+challenge,,Category,,Challenge,,
 treasure,,Category,,Treasure,,
 bonus,,Category,,Bonus,,
 questChain,,Category,,Quest Chain,,
