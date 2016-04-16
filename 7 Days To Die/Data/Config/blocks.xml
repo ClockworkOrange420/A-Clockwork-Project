@@ -4791,7 +4791,7 @@ kind of free
 </block>
 
 <block id="619" name="faucet02">
-	<property name="Material" value="Mmetal_thin" />
+	<property name="Material" value="brass" />
 	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
@@ -4801,7 +4801,7 @@ kind of free
 </block>
 
 <block id="620" name="faucet04">
-	<property name="Material" value="Mmetal_thin" />
+	<property name="Material" value="brass" />
 	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
