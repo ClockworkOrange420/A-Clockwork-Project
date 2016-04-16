@@ -4842,6 +4842,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Gain_wellness" value="0.1" />
 		<property name="Create_item" value="emptyJar" />
+		<property name="Debuff" value="burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -4859,7 +4860,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_health" value="10" />
 		<property name="Gain_food" value="15" />
 		<property name="Gain_water" value="-10" />
-		<property name="Gain_wellness" value="-0.5" />
+		<property name="Gain_wellness" value="-0.25" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 		<property name="Create_item" value="canEmpty" />
 	</property>
@@ -4892,7 +4893,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_food" value="5" />
 		<property name="Gain_water" value="-2" />
 		<property name="Gain_gas" value="0" />
-		<property name="Gain_wellness" value="-0.5" />
+		<property name="Gain_wellness" value="-0.25" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 		<property name="Create_item" value="canEmpty" />
 	</property>
@@ -5004,7 +5005,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_health" value="2" />
 		<property name="Gain_food" value="7" />
 		<property name="Gain_water" value="-5" />
-		<property name="Gain_wellness" value="-0.5" />
+		<property name="Gain_wellness" value="-0.25" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 		<property name="Create_item" value="canEmpty" />
 	</property>
@@ -5107,6 +5108,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_health" value="0" />
 		<property name="Gain_food" value="10" />
 		<property name="Gain_water" value="0" />
+		<property name="Gain_wellness" value="-0.25" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 		<property name="Gain_sickness" value="30" />
 		<property name="Buff" value="foodPoisoning" />
@@ -5127,6 +5129,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Use_time" value="..." />
 		<property name="Gain_health" value="0" />
 		<property name="Gain_food" value="15" />
+		<property name="Gain_wellness" value="-0.25" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 		<property name="Buff" value="foodPoisoning" />
 		<property name="Buff_chance" value="0.5" />
@@ -5169,6 +5172,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_food" value="10" />
 		<property name="Gain_water" value="-5" />
 		<property name="Gain_stamina" value="-20" />
+		<property name="Gain_wellness" value="-5" />
 		<property name="Gain_sickness" value="30" />
 		<property name="Buff" value="foodPoisoning" />
 		<property name="Sound_start" value="UseActions/player_eating" />
@@ -5444,10 +5448,12 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_food" value="0" />
 		<property name="Gain_water" value="15" />
 		<property name="Gain_sickness" value="15" />
+		<property name="Gain_wellness" value="-0.5" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Create_item" value="canEmpty" />
 		<property name="Buff" value="dysentery" />
 		<property name="Buff_chance" value="0.5" />
+		<property name="Debuff" value="burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5469,6 +5475,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_water" value="20" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Create_item" value="canEmpty" />
+		<property name="Debuff" value="burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5489,10 +5496,12 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_food" value="0" />
 		<property name="Gain_water" value="15" />
 		<property name="Gain_sickness" value="15" />
+		<property name="Gain_wellness" value="-0.5" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Create_item" value="emptyJar" />
 		<property name="Buff" value="dysentery" />
 		<property name="Buff_chance" value="0.5" />
+		<property name="Debuff" value="burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5534,7 +5543,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Create_item" value="emptyJar" />
 		<property name="Gain_wellness" value="0.2" />
-		<property name="Debuff" value="dysentery" />
+		<property name="Debuff" value="dysentery,burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5556,7 +5565,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Create_item" value="emptyJar" />
 		<property name="Gain_wellness" value="0.2" />
-		<property name="Debuff" value="dysentery" />
+		<property name="Debuff" value="dysentery,burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5579,6 +5588,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Buff" value="CoffeeStaminaBoost" />
 		<property name="Create_item" value="emptyJar" />
 		<property name="Gain_wellness" value="-0.1" />
+		<property name="Debuff" value="burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
@@ -5597,9 +5607,11 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Gain_stamina" value="20" />
 		<property name="Gain_food" value="0" />
 		<property name="Gain_water" value="-1" />
+		<property name="Gain_wellness" value="-0.1" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
 		<property name="Create_item" value="emptyJar" />
 		<property name="Buff" value="DrinkBeer" />
+		<property name="Debuff" value="burningSmall,burning" />
 	</property>
 	<property name="Group" value="Food/Cooking" />
 </item>
