@@ -1086,11 +1086,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     </recipe>
 	
 	<recipe name="omnigel" count="100" scrapable="False" craft_area="Omnigel_Station" craft_tool="beaker" >
-        <ingredient name="potato" count="10"/>
-        <ingredient name="blueberries" count="10"/>
-		<ingredient name="mushrooms" count="5"/>
-		<ingredient name="Wheat" count="10"/>
-		<ingredient name="Tomato" count="10"/>
+        <ingredient name="potato" count="4"/>
+        <ingredient name="blueberries" count="4"/>
+		<ingredient name="mushrooms" count="2"/>
+		<ingredient name="Wheat" count="4"/>
+		<ingredient name="Tomato" count="4"/>
     </recipe>
 	
 	<recipe name="Compost" count="5" scrapable="False" craft_area="Omnigel_Station" craft_tool="beaker" >
