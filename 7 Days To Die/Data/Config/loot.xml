@@ -1258,7 +1258,7 @@
 	<item group="junk" prob="0.15"/>
 	<item group="cannedfood" prob="0.05"/>
 	<item name="bottledWater" prob="0.05"/>
-	<item group="medicine" prob="0.5"/>
+	<item group="medicine" prob="0.1"/>
 </lootcontainer>
 
 <!-- bookcase -->
