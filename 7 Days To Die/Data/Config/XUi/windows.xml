@@ -530,7 +530,7 @@
 	
 	<window name="windowToolsResearchTable" width="228" height="121" panel="Right">
 		<panel style="header.panel">			
-			<sprite style="header.icon" sprite="ui_game_symbol_wrench"/>
+			<sprite style="header.icon" sprite="ui_game_symbol_pen"/>
 			<label style="header.name" text="TOOLS" text_key="xuiTools" />
 		</panel>
 		
@@ -549,7 +549,7 @@
 	
 	<window name="windowToolsTailoringTable" width="228" height="121" panel="Right">
 		<panel style="header.panel">			
-			<sprite style="header.icon" sprite="ui_game_symbol_wrench"/>
+			<sprite style="header.icon" sprite="ui_game_symbol_tailoring"/>
 			<label style="header.name" text="TOOLS" text_key="xuiTools" />
 		</panel>
 		
@@ -568,7 +568,7 @@
 	
 	<window name="windowToolsSmithingTable" width="228" height="121" panel="Right">
 		<panel style="header.panel">			
-			<sprite style="header.icon" sprite="ui_game_symbol_wrench"/>
+			<sprite style="header.icon" sprite="ui_game_symbol_sledge"/>
 			<label style="header.name" text="TOOLS" text_key="xuiTools" />
 		</panel>
 		
