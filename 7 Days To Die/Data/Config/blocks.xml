@@ -310,7 +310,6 @@ then add recipes for those white/red/green metals
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" />
 	<drop event="Destroy" name="femur" count="1,2" prob="1" />
-	<drop event="Fall" name="gore" count="1" prob="1.0"  stick_chance="1" />
 </block>
 
 <block id="22" name="fertileFarmland">
@@ -1810,7 +1809,6 @@ group desc for stuff like metal siding
 	<!-- NOTE: HeatMapFrequency is constrained to on blocks that are not tile entities (like the forge or campfire). -->
  	<!-- 1=min, 15=max NOTE: 1 tick is approximately a 1 to 2 minute real-time interval. -->
 	<property name="HeatMapFrequency" value="1"/>
-	<drop event="Fall" name="gore" count="1" prob="1.0"  stick_chance="1" />
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" />
 	<drop event="Destroy" name="femur" count="1,2" prob="1" />
@@ -4783,7 +4781,7 @@ kind of free
 </block>
 
 <block id="619" name="faucet02">
-	<property name="Material" value="Mmetal_thin" />
+	<property name="Material" value="brass" />
 	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
@@ -4793,7 +4791,7 @@ kind of free
 </block>
 
 <block id="620" name="faucet04">
-	<property name="Material" value="Mmetal_thin" />
+	<property name="Material" value="brass" />
 	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
@@ -5542,7 +5540,6 @@ kind of free
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" />
 	<drop event="Destroy" name="femur" count="1,2" prob="1" />
-	<drop event="Fall" name="gore" count="1" prob="1.0"  stick_chance="1" />
 </block>
 
 <block id="702" name="GoreBlock1BonesPrefab">
