@@ -1094,7 +1094,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     </recipe>
 	
 	<recipe name="omnigel" count="1" scrapable="False" craft_area="Omnigel_Station" craft_tool="beaker" >
-        <ingredient name="rockSmall" count="30"/>
+        <ingredient name="rockSmall" count="100"/>
     </recipe>
 	
 	<recipe name="Compost" count="5" scrapable="False" craft_area="Omnigel_Station" craft_tool="beaker" >
