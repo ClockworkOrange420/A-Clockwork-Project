@@ -1748,7 +1748,7 @@ group desc for stuff like metal siding
 	<property name="Collide" value="melee" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="RotationAllowed" value="pivotOnFloor" />
-	<drop event="Harvest" name="potato" count="3" />
+	<drop event="Harvest" name="potato" count="2" />
 	<drop event="Destroy" name="potato" count="0" />
 </block>
 
