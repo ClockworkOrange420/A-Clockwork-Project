@@ -118,11 +118,11 @@
 			<prefab name="indian_burial_grounds_01" prob="0.05"/>			
 			<prefab rule="militaryCamps" prob="0.1"/>
 			<prefab rule="waterPOIs" prob="0.12"/>
-			<prefab rule="bunkers2" prob="0.08"/>
 			<prefab rule="wildernessMisc" prob="0.06"/>
 			<prefab rule="countryHousing" prob="0.10"/>
 			<prefab rule="campsites" prob="0.12"/>
 			<prefab rule="churches" prob="0.02"/>
+			<prefab rule="bunkers2" prob="0.06"/>
 			<prefab rule="ruralHotel" prob="0.12" />
 			<prefab rule="cabins" prob="0.12"/>
 			<prefab rule="barnsAndSheds" prob="0.10"/>
