@@ -1721,6 +1721,44 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
         <ingredient name="corn" count="2"/>
     </recipe>
 	
+	<recipe name="Chicken_Stew" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot" >
+        <ingredient name="bottledWater" count="1"/>
+        <ingredient name="Chicken" count="2"/>
+        <ingredient name="potato" count="2"/>
+        <ingredient name="corn" count="2"/>
+    </recipe>
+	<recipe name="Chicken_Stew" count="1" scrapable="False" craft_area="Old_Oven" craft_tool="cookingPot" >
+        <ingredient name="bottledWater" count="1"/>
+        <ingredient name="Chicken" count="2"/>
+        <ingredient name="potato" count="2"/>
+        <ingredient name="corn" count="2"/>
+    </recipe>
+	<recipe name="Chicken_Stew" count="1" scrapable="False" craft_area="New_Oven" craft_tool="cookingPot" >
+        <ingredient name="bottledWater" count="1"/>
+        <ingredient name="Chicken" count="2"/>
+        <ingredient name="potato" count="2"/>
+        <ingredient name="corn" count="2"/>
+    </recipe>
+	
+	<recipe name="Rabbit_Stew" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot" >
+        <ingredient name="bottledWater" count="1"/>
+        <ingredient name="Rabbit" count="2"/>
+        <ingredient name="potato" count="2"/>
+        <ingredient name="corn" count="2"/>
+    </recipe>
+	<recipe name="Rabbit_Stew" count="1" scrapable="False" craft_area="Old_Oven" craft_tool="cookingPot" >
+        <ingredient name="bottledWater" count="1"/>
+        <ingredient name="Rabbit" count="2"/>
+        <ingredient name="potato" count="2"/>
+        <ingredient name="corn" count="2"/>
+    </recipe>
+	<recipe name="Rabbit_Stew" count="1" scrapable="False" craft_area="New_Oven" craft_tool="cookingPot" >
+        <ingredient name="bottledWater" count="1"/>
+        <ingredient name="Rabbit" count="2"/>
+        <ingredient name="potato" count="2"/>
+        <ingredient name="corn" count="2"/>
+    </recipe>
+	
 	<recipe name="Bear_Stew" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot" >
         <ingredient name="bottledWater" count="1"/>
         <ingredient name="Bear" count="1"/>

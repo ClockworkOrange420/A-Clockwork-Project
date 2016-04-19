@@ -653,6 +653,7 @@
 		<item name="coffeeBeans"/>
 		<item name="cornSeed"/>
 		<item name="Wheat_Seed"/>
+		<item name="mushroomSeed"/>
 		<item name="blueberrySeed"/>
 		<item name="Aloe_Seed"/>
 		<item name="Yucca_Seed"/>
@@ -663,6 +664,7 @@
 		<item name="potatoSeed"/>
 		<item name="cornSeed"/>
 		<item name="Wheat_Seed"/>
+		<item name="mushroomSeed"/>
 		<item name="blueberrySeed"/>
 		<item name="Aloe_Seed"/>
 		<item name="Yucca_Seed"/>
@@ -678,6 +680,8 @@
 <lootgroup name="allStews">
 	<item name="meatStew"/>
 	<item name="vegetableStew"/>
+	<item name="Chicken_Stew"/>
+	<item name="Rabbit_Stew"/>
 	<item name="Bear_Stew"/>
 	<item name="Venison_Stew"/>
 </lootgroup>
