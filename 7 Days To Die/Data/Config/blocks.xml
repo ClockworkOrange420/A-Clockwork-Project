@@ -12794,7 +12794,6 @@ kind of free
 	<property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="Full_Composter" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
-	<property name="PlantGrowing.LightLevelStay" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.GrowIfAnythinOnTop" value="true" />
 	<property class="RepairItems">
@@ -12831,8 +12830,7 @@ kind of free
     <property name="CustomIcon" value="airConditioner" />		
     <property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="dewCollector_filled" />
-	<property name="PlantGrowing.GrowthRate" value="60" />
-	<property name="PlantGrowing.LightLevelStay" value="0" />
+	<property name="PlantGrowing.GrowthRate" value="120" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.GrowIfAnythinOnTop" value="true" />
 	<property name="Place" value="TowardsPlacerInverted" />
@@ -12872,7 +12870,6 @@ kind of free
       <property name="UpgradeHitCount" value="1" />
     </property>
     <property name="PlantGrowing.FertileLevel" value="0" />
-	<property name="PlantGrowing.LightLevelStay" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems">
@@ -12894,7 +12891,6 @@ kind of free
     <property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="chickenCoop_stage3" />
 	<property name="PlantGrowing.GrowthRate" value="90" />
-	<property name="PlantGrowing.LightLevelStay" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.GrowIfAnythinOnTop" value="true" />
 	<property name="Place" value="TowardsPlacerInverted" />
@@ -12917,7 +12913,6 @@ kind of free
     <property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="chickenCoop_stage4" />
 	<property name="PlantGrowing.GrowthRate" value="90" />
-	<property name="PlantGrowing.LightLevelStay" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="PlantGrowing.GrowIfAnythinOnTop" value="true" />
 	<property name="Place" value="TowardsPlacerInverted" />
