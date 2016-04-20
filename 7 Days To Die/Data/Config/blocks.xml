@@ -12631,8 +12631,8 @@ kind of free
     <property name="Collide" value="melee" />
     <property name="CanDecorateOnSlopes" value="true" />
     <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" name="Tomato" count="0" prob="1" />
     <drop event="Harvest" name="Tomato" count="2" />
+	<drop event="Destroy" count="0" />
   </block>
   
   
@@ -12688,8 +12688,8 @@ kind of free
     <property name="IsTerrainDecoration" value="true" />
     <property name="Texture" value="350" />
     <property name="Collide" value="melee" />
-	<drop event="Destroy" name="Wheat" count="0" prob="1" />
     <drop event="Harvest" name="Wheat" count="2" />
+	<drop event="Destroy" count="0" />
    </block>
    
   <block id="1928" name="plantAloeSprout">
