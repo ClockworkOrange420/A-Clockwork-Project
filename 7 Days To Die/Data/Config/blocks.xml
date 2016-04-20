@@ -6687,7 +6687,8 @@ kind of free
 	<property name="Collide" value="melee" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="CanPickup" value="true" />
-	<drop event="Destroy" name="plantedYucca3Harvest" count="1" />
+	<drop event="Harvest" name="plantedYucca3Harvest" count="1" />
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="854" name="plantedAloe3Harvest"> <!-- RWG aloe -->
@@ -6699,7 +6700,8 @@ kind of free
 	<property name="Collide" value="melee" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="CanPickup" value="true" />
-	<drop event="Destroy" name="plantedAloe3Harvest" count="1" />
+	<drop event="Harvest" name="plantedAloe3Harvest" count="1" />
+	<drop event="Destroy" count="0" />
 </block>
 	<!-- Free -->
 
@@ -10107,7 +10109,8 @@ kind of free
 	<property name="Model" value="OutdoorDecor/mushroom01" param1="main_mesh" />
 	<property name="CanPickup" value="true" param1="mushrooms" />
 	<property name="IsTerrainDecoration" value="true" />
-	<drop event="Destroy" name="mushrooms" count="1" />
+	<drop event="Harvest" name="mushrooms" count="1" />
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="1383" name="mushroom02">
