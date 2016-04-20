@@ -7016,7 +7016,7 @@ kind of free
 	<!-- Corn Stalk Grow stage 1 -->
 	<property name="IsTerrainDecoration" value="true" />
 	<drop event="Harvest" name="corn" count="1" />
-	<drop event="Destroy" name="corn" count="0" prob="0.8" />
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="904" name="plantedCornStalk2Harvest">
@@ -7029,7 +7029,7 @@ kind of free
 	<!-- Corn Stalk Grow stage 2 (finished) -->
 	<property name="IsTerrainDecoration" value="true" />
 	<drop event="Harvest" name="corn" count="1" />
-	<drop event="Destroy" name="corn" count="0" prob="0.8" />
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="905" name="plantedCornTop3Harvest">
@@ -7043,7 +7043,7 @@ kind of free
 	<!-- Corn Top grown up 1 (finished) -->
 	<property name="IsTerrainDecoration" value="true" />
 	<drop event="Harvest" name="corn" count="2" />
-	<drop event="Destroy" name="corn" count="0" prob="1" />
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="906" name="grownUpCornTop2"> <!-- used as prefab deco -->
@@ -7056,7 +7056,7 @@ kind of free
 	<property name="Collide" value="melee" />
 	<property name="IsTerrainDecoration" value="true" />
 	<drop event="Harvest" name="corn" count="1" />
-	<drop event="Destroy" name="corn" count="0" prob="1" />
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="907" name="painting02">
