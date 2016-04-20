@@ -348,7 +348,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageEntity" value="1" />
 		<property name="DamageBlock" value="1" />
 		<property name="Sound_start" value="swoosh" />
-		<property name="Stamina_usage" value="4" />
+		<property name="Stamina_usage" value="1" />
 		<property name="DamageBonus.plants" value="25" />
 		<property name="DamageBonus.leaves" value="25" />
 		<property name="DamageBonus.wood" value="0.01" />
