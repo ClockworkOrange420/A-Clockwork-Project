@@ -5271,7 +5271,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Material" value="organic" />
 	<property name="HoldType" value="3" />
 	<property name="Stacknumber" value="50" /> <!-- STK resource -->
-	<property name="CraftingIngredientTime" value="10" />
+	<property name="CraftingIngredientTime" value="5" />
 	<!-- 14 is large round hold -->
 	<property class="Action1">
 		<property name="Class" value="Eat" />
