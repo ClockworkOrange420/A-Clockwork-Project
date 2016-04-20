@@ -562,6 +562,17 @@
 		</effect>
 	</perk>
 	
+	<perk name="Legolas" icon="archery" description_key="legolasDesc" title_key="legolas" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+		<requirement perk_level="1" required_skill_name="Archery" required_skill_level="50"/>
+		<requirement perk_level="2" required_skill_name="Archery" required_skill_level="75"/>
+		<requirement perk_level="3" required_skill_name="Archery" required_skill_level="100"/>
+		<effect name="DismembermentChance">
+			<add skill_level="1" value="0.1"/>
+			<add skill_level="2" value="0.2"/>
+			<add skill_level="3" value="0.3"/>
+		</effect>
+	</perk>
+	
 	<perk name="The Outlaw" icon="pistol" description_key="theOutlawDesc" title_key="theOutlaw" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
 		<requirement perk_level="1" required_skill_name="Pistols" required_skill_level="1"/>
 		<requirement perk_level="2" required_skill_name="Pistols" required_skill_level="20"/>
