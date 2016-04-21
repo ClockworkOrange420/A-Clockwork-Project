@@ -8401,10 +8401,10 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 			<property name="DamageBonus.organic" value="0.01" />
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="4,12" />
-			<property name="BlockDamage" value="10,20" />
+			<property name="EntityDamage" value="1,1" />
+			<property name="BlockDamage" value="1,1" />
 			<property name="DegradationMax" value="200,1000" />
-			<property name="DegradationRate" value="1,1" />
+			<property name="DegradationRate" value="2,10" />
 		</property>
 		<property name="Group" value="Tools/Traps" />
 		<property name="CraftingSkillGroup" value="Tool Smithing"/>
