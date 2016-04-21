@@ -1037,7 +1037,7 @@
 </lootgroup>
 
 <lootgroup name="ferals">
-	<item group="feralWeaponParts" count="2"/>
+	<item group="feralWeaponParts" count="1,2"/>
 	<item name="Schematic_Page" count="3"/>
 	<item name="Geometry_Set" count="1" prob="0.2"/>
 </lootgroup>
