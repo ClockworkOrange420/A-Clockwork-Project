@@ -5737,8 +5737,8 @@ kind of free
 	<property name="Collide" value="melee" />
 	<property name="CanDecorateOnSlopes" value="true" />
 	<property name="IsTerrainDecoration" value="true" />
-	<drop event="Harvest" name="plantedCotton3Harvest" count="2" prob="1" />
-	<drop event="Destroy" name="plantedCotton3Harvest" count="0" prob="1" />
+	<drop event="Harvest" name="plantedCotton3Harvest" count="2" />
+	<drop event="Destroy" count="0" />
 </block>
 	<!-- Free -->
 
