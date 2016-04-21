@@ -1013,13 +1013,6 @@
 	<item name="forgedSteel" count="1,2" prob="0.00848"/>
 </lootgroup>
 
-<lootgroup name="feralmilitaryammo">
-	<item name="10mmBullet" count="10,40"/>
-	<item name="762mmBullet" count="10,40"/>
-	<item name="44MagBullet" count="1,20"/>
-	<item name="rocket" count="1,4"/>
-</lootgroup>
-
 <lootgroup name="feralWeaponParts">
 	<item name="partsMP5_barrel"/>
 	<item name="partsMP5_stock"/>
@@ -1044,11 +1037,9 @@
 </lootgroup>
 
 <lootgroup name="ferals">
-	<item group="feralWeaponParts"/>
-	<item group="militaryArmor"/>
-	<item group="feralmilitaryammo"/>
-	<item name="Schematic_Page" count="1,3" />
-	<item name="Geometry_Set" count="1" prob="0.05"/>
+	<item group="feralWeaponParts" count="2"/>
+	<item name="Schematic_Page" count="1,3"/>
+	<item name="Geometry_Set" count="1" prob="0.15"/>
 </lootgroup>
 
 
@@ -1394,7 +1385,7 @@
 </lootcontainer>
 
 <!-- feral loot -->
-<lootcontainer id="61" count="1,3" size="4,4" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="61" count="3" size="4,4" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="ferals"/>
 </lootcontainer>
 
