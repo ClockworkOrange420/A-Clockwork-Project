@@ -707,7 +707,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="Hardness" type="float" value="1" />
 	<property name="stepsound" value="metal" />
 	<property name="stability_glue" value="0" />
-	<property name="Mass" type="int" value="20" />
+	<property name="Mass" type="int" value="1" />
 	<property name="MaxDamage" value="100" />
 </material>
 
