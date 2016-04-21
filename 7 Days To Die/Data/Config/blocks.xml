@@ -12776,7 +12776,7 @@ kind of free
 	<property class="UpgradeBlock">
       <property name="ToBlock" value="Composter_Filling" />
       <property name="Item" value="Compost" />
-      <property name="ItemCount" value="10" />
+      <property name="ItemCount" value="20" />
       <property name="UpgradeHitCount" value="1" />
     </property>
 	<property class="RepairItems">
