@@ -2725,6 +2725,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="potato" count="1"/>
 		<ingredient name="emptyJar" count="1"/>
     </recipe>
+	
+	<recipe name="Scythe" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
+		<ingredient name="forgedIron" count="4"/>
+		<ingredient name="wood" count="5"/>
+	</recipe>
 
 	<recipe name="hoeIron" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
 		<ingredient name="forgedIron" count="4"/>

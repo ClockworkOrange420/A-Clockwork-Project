@@ -354,6 +354,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageBonus.wood" value="0.01" />
 		<property name="DamageBonus.head" value="0.01" />
 		<property name="DamageBonus.earth" value="0.01" />
+		<property name="DamageBonus.stone" value="0.01" />
 		<property name="DamageBonus.organic" value="0.01" />
 	</property>
 	<property class="Attributes">
@@ -8373,5 +8374,40 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
         <property name="Smell" value="exLargeSmell" />
         <property name="Group" value="Food/Cooking" />
     </item>
+	<item id="1613" name="Scythe">
+		<property name="Meshfile" value="Items/Weapons/Melee/Knives/machete" />
+		<property name="Material" value="metal" />
+		<property name="RepairTools" value="forgedSteel" />
+		<property name="HoldType" value="47" />
+		<property name="DegradationBreaksAfter" value="false" />
+		<property name="FuelValue" value="12" />
+		<property name="SoundDestroy" value="wooddestroy1" />
+		<property class="Action0"> <!-- AttackAction -->
+			<property name="Class" value="Melee" />
+			<property name="Delay" value="0.2" />
+			<property name="Range" value="1" />
+			<property name="Sphere" value="0.1" />
+			<property name="Block_range" value="4" />
+			<property name="DamageEntity" value="1" />
+			<property name="DamageBlock" value="1" />
+			<property name="Sound_start" value="swoosh" />
+			<property name="Stamina_usage" value="1" />
+			<property name="DamageBonus.plants" value="25" />
+			<property name="DamageBonus.leaves" value="25" />
+			<property name="DamageBonus.wood" value="0.01" />
+			<property name="DamageBonus.head" value="0.01" />
+			<property name="DamageBonus.earth" value="0.01" />
+			<property name="DamageBonus.stone" value="0.01" />
+			<property name="DamageBonus.organic" value="0.01" />
+		</property>
+		<property class="Attributes">
+			<property name="EntityDamage" value="4,12" />
+			<property name="BlockDamage" value="10,20" />
+			<property name="DegradationMax" value="200,1000" />
+			<property name="DegradationRate" value="1,1" />
+		</property>
+		<property name="Group" value="Tools/Traps" />
+		<property name="CraftingSkillGroup" value="Tool Smithing"/>
+	</item>
 
 </items>
