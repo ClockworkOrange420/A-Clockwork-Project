@@ -1101,8 +1101,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
         <ingredient name="femur" count="250"/>
     </recipe>
 	
-	<recipe name="Compost" count="5" scrapable="False" craft_area="Omnigel_Station" craft_tool="beaker" >
-        <ingredient name="rottingFlesh" count="10"/>
+	<recipe name="Compost" count="1" scrapable="False" craft_area="Omnigel_Station" craft_tool="beaker" >
+        <ingredient name="rottingFlesh" count="2"/>
     </recipe>
 	
 	<recipe name="oilShale" count="100" scrapable="False" craft_area="Omnigel_Station" >
