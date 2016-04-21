@@ -35,7 +35,7 @@ then add recipes for those white/red/green metals
 	<property name="DropScale" value="2" />
 	<property name="LPHardnessScale" value="2" />
 	<property name="Weight" value="125" />
-	<property class="RepairItems"> <property name="cobblestones" value="6" /> </property>
+	<property class="RepairItems"> <property name="rockSmall" value="20" /> </property>
 	<drop event="Harvest" name="rockSmall" count="13" />
 	<drop event="Destroy" name="rockSmall" count="12" />
 	<drop event="Destroy" name="scrapIron" count="2" />
@@ -57,6 +57,7 @@ then add recipes for those white/red/green metals
 	<property name="DropScale" value="2" />
 	<property name="LPHardnessScale" value="4" />
 	<property name="Map.Color" value="55,79,58" />
+	<property class="RepairItems"> <property name="yuccaFibers" value="10" /> </property>
 	<drop event="Destroy" name="fertileDirt" />
 	<drop event="Fall" name="fertileDirt" count="1" prob="0.5" stick_chance=".2" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -71,6 +72,7 @@ then add recipes for those white/red/green metals
 	<property name="Texture" value="2" />
 	<property name="DropScale" value="2" />
 	<property name="LPHardnessScale" value="2" />
+	<property class="RepairItems"> <property name="yuccaFibers" value="10" /> </property>
 	<drop event="Destroy" name="fertileDirt" />
 	<drop event="Fall" name="fertileDirt" count="1" prob="0.5" stick_chance=".2" />
 	<property name="CanMobsSpawnOn" value="true" />
@@ -259,6 +261,7 @@ then add recipes for those white/red/green metals
 	<property name="Shape" value="Terrain" />
 	<property name="Mesh" value="terrain" />
 	<property name="Texture" value="2" />
+	<property class="RepairItems"> <property name="yuccaFibers" value="10" /> </property>
 	<property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="fertileGrass" />
 	<property name="PlantGrowing.GrowthRate" value="10" />
@@ -278,6 +281,7 @@ then add recipes for those white/red/green metals
 	<property name="Shape" value="Terrain" />
 	<property name="Mesh" value="terrain" />
 	<property name="Texture" value="0,2,0,0,0,0" />
+	<property class="RepairItems"> <property name="yuccaFibers" value="10" /> </property>
 	<property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="grass" />
 	<property name="PlantGrowing.GrowthRate" value="2" />
@@ -317,6 +321,7 @@ then add recipes for those white/red/green metals
 	<property name="Shape" value="Terrain" />
 	<property name="Mesh" value="terrain" />
 	<property name="Texture" value="290,2,2,2,2,2" />
+	<property class="RepairItems"> <property name="yuccaFibers" value="10" /> </property>
 	<property name="CanMobsSpawnOn" value="false" />
 	<property name="DropScale" value="2" />
 	<drop event="Destroy" name="fertileDirt" />
@@ -344,6 +349,7 @@ then add recipes for those white/red/green metals
 	<property name="DropScale" value="2" />
 	<property name="LPHardnessScale" value="2" />
 	<property name="Map.Color" value="94,88,74" />
+	<property class="RepairItems"> <property name="yuccaFibers" value="10" /> </property>
 	<drop event="Destroy" name="fertileDirt" />
 	<drop event="Fall" name="fertileDirt" count="1" prob="0.5" stick_chance=".2" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -358,6 +364,7 @@ then add recipes for those white/red/green metals
 	<property name="DropScale" value="2" />
 	<property name="LPHardnessScale" value="2" />
 	<property name="Map.Color" value="52,63,55" />
+	<property class="RepairItems"> <property name="yuccaFibers" value="10" /> </property>
 	<!--property class="Map"> <property name="Color" value="44,48,26" /> <property name="Color2" value="44,60,25" /> <property name="ElevMinMax" value="50,80" /> </property-->
 	<drop event="Destroy" name="fertileDirt" />
 	<drop event="Fall" name="fertileDirt" count="1" prob="0.5" stick_chance=".2" />
@@ -374,7 +381,7 @@ then add recipes for those white/red/green metals
 	<property name="Weight" value="90" />
 	<property name="DropScale" value="2" />
 	<property name="Map.Color" value="58,53,48" />
-	<property class="RepairItems"> <property name="cobblestones" value="6" /> </property>
+	<property class="RepairItems"> <property name="rockSmall" value="14" /> </property>
 	<drop event="Harvest" name="crushedSand" count="2" />
 	<drop event="Harvest" name="rockSmall" count="7" />
 	<drop event="Destroy" name="crushedSand" count="2"/>		
@@ -13224,14 +13231,8 @@ kind of free
 	<drop event="Destroy" count="0" />
   </block>
   <block id="1954" name="dirt2">
-	<property name="Material" value="dirt" />
-	<property name="Shape" value="Terrain" />
-	<property name="Mesh" value="terrain" />
-	<property name="Texture" value="2" />
-	<property name="DropScale" value="2" />
-	<property name="LPHardnessScale" value="2" />
-	<drop event="Destroy" name="fertileDirt" />
-	<drop event="Fall" name="fertileDirt" count="1" prob="0.5" stick_chance=".2" />
+	<property name="Extends" value="dirt" />
+	<property name="CustomIcon" value="dirt" />
 	<property name="CanMobsSpawnOn" value="false" />
 </block>
 
