@@ -1394,7 +1394,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="forgedIron" />
 	<property name="HoldType" value="29" />
- 	<property name="DegradationBreaksAfter" value="false" />
+ 	<!--<property name="DegradationBreaksAfter" value="false" />-->
 	<property name="SoundDestroy" value="metaldestroy1" />
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Class" value="Melee" />
@@ -1436,7 +1436,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="forgedIron" />
 	<property name="HoldType" value="32" />
- 	<property name="DegradationBreaksAfter" value="false" />
+ 	<!--<property name="DegradationBreaksAfter" value="false" />-->
 	<property name="SoundDestroy" value="wooddestroy1" />
 	<property name="FuelValue" value="18" />
 	<property class="Action0"> <!-- AttackAction -->
@@ -1480,8 +1480,9 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Degradation" value="5000" param1="false" />
 	<property name="HoldType" value="37" />
 	<property name="Stacknumber" value="1" />
-	<property name="DegradationBreaksAfter" value="false" />
+	<!--<property name="DegradationBreaksAfter" value="false" />-->
 	<property name="SoundJammed" value="Weapons/weapon_jam" />
+	<property name="SoundDestroy" value="metaldestroy1" />
 	<property name="Weight" value="80" />
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Class" value="Launcher" />
