@@ -334,12 +334,6 @@
 	<perk name="Crossbow Crafting" icon="gunsmithing" description_key="CrossbowDesc" title_key="CrossbowCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
 		<requirement skill_level="1" required_skill_name="Gun Smithing" required_skill_level="10"/>
 		<recipe name="crossbow" unlock_level="1"/>
-		<recipe name="crossbowBolt" unlock_level="1"/>
-		<recipe name="ironCrossbowBolt" unlock_level="1"/>
-		<recipe name="steelCrossbowBolt" unlock_level="1"/>
-		<recipe name="ironArrow" unlock_level="1"/>
-		<recipe name="steelArrow" unlock_level="1"/>
-		<recipe name="flamingArrow" unlock_level="1"/>
 	</perk>
 	<perk name="9mm Pistol Crafting" icon="gunsmithing" description_key="9mmPistolDesc" title_key="9mmPistolCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
 		<requirement skill_level="1" required_skill_name="Gun Smithing" required_skill_level="20"/>
@@ -515,6 +509,9 @@
 	<perk name="Steel Smithing" icon="resource" description_key="steelSmithingDesc" title_key="steelSmithing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="crafting">
 		<requirement skill_level="1" required_skill_name="Miscellaneous Crafting" required_skill_level="50"/>
 		<recipe name="forgedSteel" unlock_level="1"/>
+		<recipe name="steelArrowHead" unlock_level="1"/>
+		<recipe name="steelArrow" unlock_level="1"/>
+		<recipe name="steelCrossbowBolt" unlock_level="1"/>
 	</perk>
 	
 	<!--Perks-->

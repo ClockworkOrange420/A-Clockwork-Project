@@ -1654,7 +1654,7 @@ huntingKnifeCraftingDesc,progression,Perk,,Unlocks the ability to make a Hunting
 MacheteCrafting,progression,Perk,,Machete Crafting,,
 MacheteDesc,progression,Perk,,Unlocks the ability to make a Machete.,,
 CrossbowCrafting,progression,Perk,,Crossbow Crafting,,
-CrossbowDesc,progression,Perk,,Unlocks the ability to craft a Crossbow, Bolts and advanced Arrows.,,
+CrossbowDesc,progression,Perk,,Unlocks the ability to craft a Crossbow.,,
 9mmPistolCrafting,progression,Perk,,9mm Pistol Crafting,,
 9mmPistolDesc,progression,Perk,,Unlocks the ability to assemble a 9mm Pistol and craft 9mm ammunition.,,
 MP5Crafting,progression,Perk,,MP5 Crafting,,

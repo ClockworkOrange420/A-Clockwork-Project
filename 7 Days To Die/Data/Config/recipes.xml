@@ -2429,7 +2429,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
 	</recipe>
-	<recipe name="crossbowBolt" count="1" scrapable="False" craft_area="Ammunition_Table" >
+	<recipe name="crossbowBolt" count="1" scrapable="False" craft_area="Ammunition_Table">
 		<ingredient name="rockSmall" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
@@ -2497,7 +2497,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="cobblestones" count="3"/>
 	</recipe>
 
-	<recipe name="flamingArrow" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+	<recipe name="flamingArrow" count="1" scrapable="False" craft_area="Ammunition_Table">
 		<ingredient name="steelArrow" count="1"/>
 		<ingredient name="gunPowder" count="2"/>
 		<ingredient name="cloth" count="1"/>
@@ -2741,7 +2741,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="wood" count="2"/>
 	</recipe>
 
-	<recipe name="ironArrow" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+	<recipe name="ironArrow" count="1" scrapable="False" craft_area="Ammunition_Table">
 		<ingredient name="ironArrowHead" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
@@ -2781,7 +2781,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="leather" count="3"/>
 	</recipe>
 	
-	<recipe name="ironCrossbowBolt" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+	<recipe name="ironCrossbowBolt" count="1" scrapable="False" craft_area="Ammunition_Table">
 		<ingredient name="ironArrowHead" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
@@ -3278,7 +3278,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
 
-	<recipe name="steelArrow" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+	<recipe name="steelArrow" count="1" scrapable="False" craft_area="Ammunition_Table">
 		<ingredient name="steelArrowHead" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
@@ -3289,7 +3289,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
 
-	<recipe name="steelCrossbowBolt" count="1" scrapable="False" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
+	<recipe name="steelCrossbowBolt" count="1" scrapable="False" craft_area="Ammunition_Table">
 		<ingredient name="steelArrowHead" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
