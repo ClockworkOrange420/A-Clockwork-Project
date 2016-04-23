@@ -8439,7 +8439,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<item id="1613" name="Scythe">
 		<property name="Meshfile" value="Items/Weapons/Melee/Knives/machete" />
 		<property name="Material" value="metal" />
-		<property name="RepairTools" value="forgedSteel" />
+		<property name="RepairTools" value="forgedIron" />
 		<property name="HoldType" value="47" />
 		<property name="DegradationBreaksAfter" value="false" />
 		<property name="FuelValue" value="12" />
