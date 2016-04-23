@@ -145,7 +145,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="crushedSand" count="6"/>
 		<ingredient name="rockSmall" count="3"/>
 	</recipe>
-
+	
 	<recipe name="adobePeachPillar50" count="1" scrapable="False" craft_area="workbench" craft_tool="Chisel" >
 		<ingredient name="clayLump" count="6"/>
 		<ingredient name="crushedSand" count="6"/>
@@ -2754,6 +2754,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 	<recipe name="ironBars" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="shortMetalPipe" count="4"/>
+		<ingredient name="forgedIron" count="8"/>
 	</recipe>
 
 	<recipe name="ironBoots" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
@@ -3063,28 +3064,27 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 	<recipe name="redWoodBlock" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="plantedChrysanthemum3Harvest" count="1"/>
-		<ingredient name="wood" count="15"/>
+		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 
 	<recipe name="redWoodPillar100" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="plantedChrysanthemum3Harvest" count="1"/>
-		<ingredient name="wood" count="15"/>
+		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 
 	<recipe name="redWoodStairs25" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="plantedChrysanthemum3Harvest" count="1"/>
-		<ingredient name="wood" count="15"/>
+		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 
 	<recipe name="redWoodTable" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="plantedChrysanthemum3Harvest" count="1"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="15"/>
+		<ingredient name="wood" count="10"/>
 	</recipe>
-
 
 	<recipe name="repairKit" count="1" scrapable="False">
 		<ingredient name="forgedIron" count="1"/>
@@ -3186,6 +3186,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	</recipe>
 
 	<recipe name="scrapIronStairs25" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="8"/>
+	</recipe>
+	
+	<recipe name="rScrapIronTable" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="scrapIron" count="8"/>
 	</recipe>
 
@@ -3365,11 +3369,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	</recipe>
 
 	<recipe name="ventDuctBlock" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="scrapIron" count="3"/>
+		<ingredient name="scrapIron" count="10"/>
 	</recipe>
 
 	<recipe name="ventDuctRamp" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="scrapIron" count="3"/>
+		<ingredient name="scrapIron" count="10"/>
 	</recipe>
 
 	<recipe name="whitePicketFenceSheet" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
@@ -3419,7 +3423,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 	<recipe name="woodLogPillar100" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="20"/>
-		<ingredient name="nail" count="5"/>
 	</recipe>
 
 	<recipe name="woodLogSpike1" count="1" scrapable="False" craft_area="workbench" craft_tool="Chisel">
@@ -3430,7 +3433,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-
+	
 	<recipe name="woodPlate" count="1" scrapable="False" craft_area="workbench" craft_tool="Chisel" >
 		<ingredient name="wood" count="10"/>
 	</recipe>
@@ -3496,130 +3499,893 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<recipe name="wrench" count="1" scrapable="False" craft_area="Smithing_Table" craft_tool="anvil" >
 		<ingredient name="forgedIron" count="4"/>
 	</recipe>
-
-	<recipe name="wroughtIronFenceSheet" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="scrapIron" count="4"/>
+	
+	<!--Aesthetic-->
+	<!--Cloth-->
+	
+	<recipe name="sofa02" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="wrench" >
+		<ingredient name="cloth" count="40"/>
+		<ingredient name="plantedCotton3Harvest" count="40"/>
+		<ingredient name="spring" count="20"/>
+		<ingredient name="wood" count="20"/>
+		<ingredient name="shortMetalPipe" count="20"/>
+	</recipe>
+	<recipe name="chair04" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="wrench" >
+		<ingredient name="cloth" count="20"/>
+		<ingredient name="plantedCotton3Harvest" count="20"/>
+		<ingredient name="spring" count="10"/>
+		<ingredient name="wood" count="10"/>
+		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
 	
-	<recipe name="tv" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-        <ingredient name="scrapIron" count="10"/>
-		<ingredient name="glassCTRSheet" count="1"/>
-    </recipe>
+	<recipe name="miniblindTopSheet" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="5"/>
+	</recipe>
+	<recipe name="miniblindBottomSheet" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="5"/>
+	</recipe>
 	
-	<recipe name="tv_large_1" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-        <ingredient name="scrapIron" count="10"/>
-		<ingredient name="glassCTRSheet" count="1"/>
-    </recipe>
+	<recipe name="curtain_top1Sheet3" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="5"/>
+	</recipe>
+	<recipe name="curtain_bottom1Sheet3" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="5"/>
+	</recipe>
 	
-	<recipe name="tv_large_2" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-        <ingredient name="scrapIron" count="10"/>
-		<ingredient name="glassCTRSheet" count="1"/>
-    </recipe>
+	<recipe name="awningGreenCNRRound" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningGreenBlock" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningGreenRamp" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningGreenCNRFull" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningGreenCNRInside" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningGreenPyramid" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningGreenGable" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
 	
-	<recipe name="cntLockers" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-        <ingredient name="forgedIron" count="10"/>
-    </recipe>
+	<recipe name="awningTanCNRRound" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningTanBlock" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningTanRamp" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningTanCNRInside" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningTanCNRFull" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningTanPyramid" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningTanGable" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
 	
-	<recipe name="schoolDesk" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="awningRedCNRRound" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningRedCNRFull" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningRedCNRInside" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningRedPyramid" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	<recipe name="awningRedGable" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="10"/>
+	</recipe>
+	
+	<!--Stone-->
+	
+	<recipe name="chaulkboardPlate" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="5"/>
+		<ingredient name="unit_clay" count="30"/>
+	</recipe>
+	
+	<!--Stone to Adobe Master-->
+	<recipe name="tanStuccoBlock" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="5"/>
+		<ingredient name="unit_clay" count="30"/>
+	</recipe>
+	
+	<recipe name="sidewalkBlock" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="5"/>
+		<ingredient name="unit_clay" count="30"/>
+	</recipe>
+	
+	<recipe name="tileFloor3Block" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="5"/>
+		<ingredient name="unit_clay" count="30"/>
+	</recipe>
+	
+	<recipe name="tileFloor5Block" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="5"/>
+		<ingredient name="unit_clay" count="30"/>
+	</recipe>
+	
+	<recipe name="tileIndustrialPlate" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="5"/>
+		<ingredient name="unit_clay" count="30"/>
+	</recipe>
+	
+	<recipe name="tile3Stairs50" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="5"/>
+		<ingredient name="unit_clay" count="30"/>
+	</recipe>
+	
+	<recipe name="blueDrywallBlock" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="5"/>
+		<ingredient name="unit_clay" count="30"/>
+	</recipe>
+	
+	<recipe name="orangeDrywallBlock" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="5"/>
+		<ingredient name="unit_clay" count="30"/>
+	</recipe>
+	
+	<recipe name="cremeDrywallBaseboard2SidesBlock" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="5"/>
+		<ingredient name="unit_clay" count="30"/>
+	</recipe>
+	
+	<!--Brick-->
+	
+	<recipe name="brickCNRRound" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="10"/>
+		<ingredient name="unit_clay" count="60"/>
+	</recipe>
+	
+	<recipe name="brickModernBlock" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="10"/>
+		<ingredient name="unit_clay" count="60"/>
+	</recipe>
+	
+	<recipe name="brickpaintedBlock" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="10"/>
+		<ingredient name="unit_clay" count="60"/>
+	</recipe>
+	<recipe name="brickDecayedTanBlock" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="10"/>
+		<ingredient name="unit_clay" count="60"/>
+	</recipe>
+	<recipe name="brickDecayedRamp" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="10"/>
+		<ingredient name="unit_clay" count="60"/>
+	</recipe>
+	<recipe name="brickDecayedTanRamp" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="10"/>
+		<ingredient name="unit_clay" count="60"/>
+	</recipe>
+	<recipe name="brickPaintedRamp" count="1" scrapable="False" craft_area="forge" material_based="true">
+		<ingredient name="unit_stone" count="10"/>
+		<ingredient name="unit_clay" count="60"/>
+	</recipe>
+	
+	<!--Adobe-->
+	<recipe name="peachDrywallBaseboardPillar100" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="clayLump" count="6"/>
+		<ingredient name="crushedSand" count="6"/>
+		<ingredient name="rockSmall" count="3"/>
+	</recipe>
+	
+	<recipe name="adobeWhitePyramid" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="clayLump" count="6"/>
+		<ingredient name="crushedSand" count="6"/>
+		<ingredient name="rockSmall" count="3"/>
+	</recipe>
+	
+	<recipe name="adobeWhiteDrywallBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="clayLump" count="6"/>
+		<ingredient name="crushedSand" count="6"/>
+		<ingredient name="rockSmall" count="3"/>
+	</recipe>
+	
+	<recipe name="adobeWhiteDrywallBaseboardBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="clayLump" count="6"/>
+		<ingredient name="crushedSand" count="6"/>
+		<ingredient name="rockSmall" count="3"/>
+	</recipe>
+	
+	<recipe name="adobeWhiteTrimRamp" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="clayLump" count="6"/>
+		<ingredient name="crushedSand" count="6"/>
+		<ingredient name="rockSmall" count="3"/>
+	</recipe>
+	
+	<recipe name="adobeWhiteTrimCNRFull" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="clayLump" count="6"/>
+		<ingredient name="crushedSand" count="6"/>
+		<ingredient name="rockSmall" count="3"/>
+	</recipe>
+	
+	<recipe name="adobeWhiteTrimCNRInside" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="clayLump" count="6"/>
+		<ingredient name="crushedSand" count="6"/>
+		<ingredient name="rockSmall" count="3"/>
+	</recipe>
+	
+	<recipe name="adobePeachDrywallBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="clayLump" count="6"/>
+		<ingredient name="crushedSand" count="6"/>
+		<ingredient name="rockSmall" count="3"/>
+	</recipe>
+	
+	<recipe name="adobePeachDrywallBaseboardBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="clayLump" count="6"/>
+		<ingredient name="crushedSand" count="6"/>
+		<ingredient name="rockSmall" count="3"/>
+	</recipe>
+	
+	<recipe name="cremeDrywallBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="clayLump" count="6"/>
+		<ingredient name="crushedSand" count="6"/>
+		<ingredient name="rockSmall" count="3"/>
+	</recipe>
+	
+	<recipe name="cremeDrywallBaseboardBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="clayLump" count="6"/>
+		<ingredient name="crushedSand" count="6"/>
+		<ingredient name="rockSmall" count="3"/>
+	</recipe>
+	
+	<!--wood-->
+	<recipe name="signShopColdBeer" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="wood" count="5"/>
+	</recipe>
+	
+	<recipe name="woodPainted1Pole" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="wood" count="10"/>
+	</recipe>
+	<recipe name="woodPainted3Pole" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="wood" count="10"/>
+	</recipe>
+	
+	<recipe name="schoolDesk" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
         <ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
     </recipe>
 	
-	<recipe name="cntCooler" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="cntCooler" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
         <ingredient name="wood" count="6"/>
 		<ingredient name="scrapIron" count="5"/>
 		<ingredient name="leather" count="2"/>
     </recipe>
 	
-	<recipe name="cntSuitcase" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="cntSuitcase" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
 		<ingredient name="cloth" count="5"/>
 		<ingredient name="leather" count="10"/>
         <ingredient name="scrapIron" count="5"/>
     </recipe>
 	
-	<recipe name="cntFileCabinet" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-        <ingredient name="forgedIron" count="10"/>
-    </recipe>
+	<recipe name="drywallWhitePlate" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="wood" count="10"/>
+	</recipe>
 	
-	<recipe name="cntTrash_can01" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-        <ingredient name="scrapIron" count="15"/>
-    </recipe>
+	<recipe name="dotsWoodTable" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="nail" count="10"/>
+		<ingredient name="wood" count="10"/>
+	</recipe>
 	
-	<recipe name="cntBin" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-        <ingredient name="scrapIron" count="5"/>
-    </recipe>
+	<recipe name="cabinetOldTopPlate" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="wood" count="10"/>
+	</recipe>
+	<recipe name="cabinetTopPlate" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="wood" count="10"/>
+	</recipe>
+	<recipe name="cntCabinetOldBottom" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="cabinetOldFillerBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="cabinetFillerBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="cntCabinetOldCNRRound" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
 	
-	<recipe name="pew_segment01" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="houseFrontDoor1_v1" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="houseFrontDoor2_v1" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="dropCeilingRedWoodTrimBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="plantedChrysanthemum3Harvest" count="1"/>
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="woodStairs50" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="drywallBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="tileFloor1WoodPainted2Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="tileFloor2WoodPainted2Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="panelingBurntBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="panelingBurntPillar100" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="sidingWhiteBurnt01Ramp" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="shinglesAsphaltBlueWedgeTip" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="shinglesAspaltBlueWedge" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="sidingBlueOldWoodBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="sidingGreenOldWoodBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="sidingWhiteOldWoodBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="sidingYellowOldWoodBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="sidingTanOldWoodBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="cremeBacksplashBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="drywallOldwoodBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="drywallTrim2SidesBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="drywallWhiteCNRInside" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="wallPlasterTop2Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="wallPlasterMiddle2Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="wallPlasterBaseboard2Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="drywallCeilingRamp" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="dropCeiling02Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="tanDrywallPillar100" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="tanDrywallBaseboardRamp" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="tanDrywallRamp" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="drywallWhiteBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="boardedWindowsSheet4" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="endTable" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="endTableLamp" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="pew_segment01" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
 		<ingredient name="wood" count="15"/>
 		<ingredient name="nail" count="5"/>
     </recipe>
 	
-	<recipe name="pew_segment02" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="pew_segment02" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
 		<ingredient name="wood" count="15"/>
 		<ingredient name="nail" count="5"/>
     </recipe>
 	
-	<recipe name="pew_segment03" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="pew_segment01" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
 		<ingredient name="wood" count="15"/>
 		<ingredient name="nail" count="5"/>
     </recipe>
 	
-	<recipe name="fountain" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="scrapIron" count="5"/>
-        <ingredient name="shortMetalPipe" count="1"/>
-    </recipe>
-	
-	<!--Misc Crafting-->
-	
-	<recipe name="Carpet1Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
-		<ingredient name="wood" count="10"/>
-		<ingredient name="cloth" count="4"/>
-		<ingredient name="nail" count="5"/>
-    </recipe>
-	<recipe name="carpet1Stairs25" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
-		<ingredient name="wood" count="10"/>
-		<ingredient name="cloth" count="4"/>
+	<recipe name="cntCoffin" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="15"/>
 		<ingredient name="nail" count="5"/>
     </recipe>
 	
-	<recipe name="Carpet2Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
-		<ingredient name="wood" count="10"/>
-		<ingredient name="cloth" count="4"/>
-		<ingredient name="nail" count="5"/>
-    </recipe>
-	<recipe name="carpet2Stairs25" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
-		<ingredient name="wood" count="10"/>
-		<ingredient name="cloth" count="4"/>
-		<ingredient name="nail" count="5"/>
-    </recipe>
+	<recipe name="window03WoodFrame" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="8"/>
+	</recipe>
+	<recipe name="window02" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="8"/>
+		<ingredient name="glassCTRSheet" count="1"/>
+	</recipe>
 	
-	<recipe name="Carpet1WoodPainted2Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
-		<ingredient name="wood" count="10"/>
-		<ingredient name="cloth" count="4"/>
-		<ingredient name="nail" count="5"/>
-    </recipe>
-	<recipe name="Carpet2WoodPainted2Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
-		<ingredient name="wood" count="10"/>
-		<ingredient name="cloth" count="4"/>
-		<ingredient name="nail" count="5"/>
-    </recipe>
-	
-	<recipe name="tanStuccoCarpet1Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
-		<ingredient name="wood" count="10"/>
-		<ingredient name="cloth" count="4"/>
-		<ingredient name="nail" count="5"/>
-    </recipe>
-	<recipe name="tanStuccoCarpet2Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
-		<ingredient name="wood" count="10"/>
-		<ingredient name="cloth" count="4"/>
-		<ingredient name="nail" count="5"/>
-    </recipe>
+	<!--Rug-->
 	
 	<recipe name="carpet3DrywallBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
-		<ingredient name="cloth" count="4"/>
+		<ingredient name="cloth" count="1"/>
 		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="Carpet1Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="cloth" count="1"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="Carpet2Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="cloth" count="1"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="carpet1Stairs25" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="cloth" count="1"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="carpet2Stairs25" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="cloth" count="1"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="rug01Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="cloth" count="1"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<recipe name="furRugBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="cloth" count="1"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	
+	<!--Metal-->
+	<recipe name="railingBlackSheet" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="4"/>
+	</recipe>
+	
+	<recipe name="wroughtIronFenceSheet" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="4"/>
+	</recipe>
+	
+	<recipe name="tv" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="scrapIron" count="10"/>
+		<ingredient name="glassCTRSheet" count="1"/>
     </recipe>
+	
+	<recipe name="tv_large_1" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="scrapIron" count="10"/>
+		<ingredient name="glassCTRSheet" count="1"/>
+    </recipe>
+	
+	<recipe name="tv_large_2" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="scrapIron" count="10"/>
+		<ingredient name="glassCTRSheet" count="1"/>
+    </recipe>
+	
+	<recipe name="cntLockers" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="forgedIron" count="10"/>
+    </recipe>
+	
+	<recipe name="cashRegisterEmpty" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="cntCashRegister" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="shoppingCartEmpty" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="cntFileCabinet" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="forgedIron" count="10"/>
+    </recipe>
+	
+	<recipe name="cntTrash_can01" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="scrapIron" count="15"/>
+    </recipe>
+	
+	<recipe name="cntDumpster" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="scrapIron" count="40"/>
+    </recipe>
+	
+	<recipe name="cntBin" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="scrapIron" count="5"/>
+    </recipe>
+	
+	<recipe name="fountain" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+        <ingredient name="shortMetalPipe" count="1"/>
+    </recipe>
+	
+	<recipe name="electricalBox01" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="scrapIron" count="10"/>
+    </recipe>
+	<recipe name="fusebox" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="scrapIron" count="10"/>
+    </recipe>
+	
+	<recipe name="metalPipeStraight" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="forgedIron" count="10"/>
+    </recipe>
+	<recipe name="metalPipeCorner" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="forgedIron" count="10"/>
+    </recipe>
+	<recipe name="metalPipeJoint" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="forgedIron" count="10"/>
+    </recipe>
+	<recipe name="metalPipeCap" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="forgedIron" count="10"/>
+    </recipe>
+	<recipe name="metalPipeValve" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="forgedIron" count="10"/>
+    </recipe>
+	<recipe name="metalPipeFlange" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+        <ingredient name="forgedIron" count="10"/>
+    </recipe>
+	
+	<recipe name="storeShelving01Double" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="10"/>
+	</recipe>
+	<recipe name="storeShelving01Top" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="10"/>
+	</recipe>
+	<recipe name="storeShelving01TopDouble" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="10"/>
+	</recipe>
+	
+	<recipe name="cntBeerCooler" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench">
+		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="scrapCable" count="1"/>
+		<ingredient name="shortMetalPipe" count="2"/>
+	</recipe>
+	
+	<recipe name="commercialDoor1_v1" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="10"/>
+	</recipe>
+	<recipe name="commercialDoor2_v1" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="10"/>
+	</recipe>
+	<recipe name="commercialDoor3_v1" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="10"/>
+	</recipe>
+	<recipe name="commercialDoor4_v1" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="10"/>
+	</recipe>
+	
+	<recipe name="corrugatedMetalCNRRamp" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="metalRivetBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="metalRivetRamp" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="metalRivetStairs25" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="orangeMetalRamp" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="orangeMetalBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="greenMetalRamp" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="greenMetalBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="greenMetalGable" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="greenMetalWedgeTip" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="greenMetalWedge" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="blueMetalRamp1" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="blueMetalBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="blueMetalCNRRound" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="redMetalPillar100" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="redMetalBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="redMetalCNRRound" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="whiteMetalPillar100" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="whiteMetalBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="whiteMetalRamp" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="whiteMetalCNRRound" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="greenRustyMetalWallBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="greenRustyMetalCNRRound" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="rustyIronTable" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
+        <ingredient name="unit_iron" count="200"/>
+		<ingredient name="unit_clay" count="100"/>
+    </recipe>
+	<recipe name="rustyIronBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="rustyIronRamp" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="rustyIronPillar100" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="rustyIronPillar50" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="rustyIronPole" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="rustyIronStairs25" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="rustyIronPoleSupportCtr" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="rustyIronCrossCtr" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="corrugatedMetalPillar100" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="corrugatedMetalPillar50" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="corrugatedMetalSheet" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="corrugatedMetalCTRPlate" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="corrugatedMetalBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="corrugatedMetalCNRFull" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="40"/>
+	</recipe>
+	<recipe name="corrugatedMetalCNRInside" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="40"/>
+	</recipe>
+	<recipe name="corrugatedMetalRamp" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="40"/>
+	</recipe>
+	
+	<recipe name="corrugatedDecayedBrickGable" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="ductSoft" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="ductSoftCorner" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="ductControlPanel" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	<recipe name="ductControlPanelCorner" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="cntGasPump" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench">
+		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="scrapCable" count="1"/>
+		<ingredient name="shortMetalPipe" count="2"/>
+	</recipe>
+	
+	<recipe name="cntGraniteSink" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench">
+		<ingredient name="wood" count="10"/>
+		<ingredient name="scrapIron" count="5"/>
+		<ingredient name="shortMetalPipe" count="4"/>
+	</recipe>
+	<recipe name="cntCabinetOldSink" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench">
+		<ingredient name="wood" count="10"/>
+		<ingredient name="scrapIron" count="5"/>
+		<ingredient name="shortMetalPipe" count="4"/>
+	</recipe>
+	
+	<!--Brass-->
+	<recipe name="faucet02" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapBrass" count="5"/>
+	</recipe>
+	<recipe name="faucet04" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapBrass" count="5"/>
+	</recipe>
+	<recipe name="faucetBrass02" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapBrass" count="5"/>
+	</recipe>
+	<recipe name="faucetBrass04" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
+		<ingredient name="scrapBrass" count="5"/>
+	</recipe>
+	
+	
+	<!--Concrete-->
+	
+	<recipe name="concreteTrim2Ramp" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	
+	<recipe name="tileIndustrialConcreteBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	
+	<recipe name="concreteTrimBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	<recipe name="concreteTrim3Block" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	
+	<recipe name="blueConcretePillar100" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	
+	<recipe name="orangeConcretePillar100" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	
+	<recipe name="concreteBricksBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	
+	<recipe name="tileFloor5Stairs25" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	
+	<recipe name="tileFloor3Stairs25" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	
+	<recipe name="tileFloor4Stairs25" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	
+	<recipe name="asphaltDrywallBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	
+	<recipe name="dropCeiling2RoofAsphaltBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	
+	<recipe name="dropCeilingRoofAsphaltBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	
+	<recipe name="concreteStairs50" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
 	
 	<recipe name="graveStone01" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
 		<ingredient name="stone" count="1"/>
@@ -3652,6 +4418,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<recipe name="graveStone08" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="Chisel" >
 		<ingredient name="stone" count="1"/>
     </recipe>
+	
 </recipes>
 <!-- To do (maybe / later)
 

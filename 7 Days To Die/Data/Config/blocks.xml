@@ -490,6 +490,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="wood" value="5" /> </property>
 	<drop event="Destroy" name="wood" count="1,3" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob=".3" stick_chance="1" />
+	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
 </block>
 <block id="126" name="woodNoUpgradeMaster">
 	<property name="Group" value="Building" />
@@ -501,6 +502,7 @@ group desc for stuff like metal siding
 	<drop event="Harvest" name="wood" count="3" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
 </block>
 
 <block id="127" name="redWoodMaster">
@@ -511,15 +513,15 @@ group desc for stuff like metal siding
 	<property name="Texture" value="214" />
 	<property name="FuelValue" value="120" />
     	<property name="IsDeveloper" value="true" />
-	<property class="RepairItems"> <property name="wood" value="15" /> </property>
+	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="rWoodMaster" />
 		<property name="Item" value="wood" />
 		<property name="ItemCount" value="10" />
 		<property name="UpgradeHitCount" value="4" />
 	</property>
-	<drop event="Harvest" name="wood" count="4" />
-	<drop event="Destroy" name="wood" count="1,3" prob="1" />
+	<drop event="Harvest" name="wood" count="3" />
+	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
 </block>
@@ -4804,7 +4806,6 @@ kind of free
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Plumbing/faucet02" param1="main_mesh" />
 	<property name="Collide" value="melee,bullet,rocket" />
-	<property name="Weight" value="24" />
 </block>
 
 <block id="620" name="faucet04">
@@ -4814,7 +4815,6 @@ kind of free
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Plumbing/faucet04" param1="main_mesh" />
 	<property name="Collide" value="melee,bullet,rocket" />
-	<property name="Weight" value="16" />
 </block>
 
 <block id="621" name="faucetBrass02">
@@ -4824,7 +4824,6 @@ kind of free
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Plumbing/faucet_brass02" param1="main_mesh" />
 	<property name="Collide" value="melee,bullet,rocket" />
-	<property name="Weight" value="25" />
 </block>
 
 <block id="622" name="faucetBrass04">
@@ -4834,7 +4833,6 @@ kind of free
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Plumbing/faucet_brass04" param1="main_mesh" />
 	<property name="Collide" value="melee,bullet,rocket" />
-	<property name="Weight" value="25" />
 </block>
 
 <block id="623" name="cntFileCabinet">
