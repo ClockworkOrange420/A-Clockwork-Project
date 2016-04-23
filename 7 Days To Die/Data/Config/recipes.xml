@@ -3503,14 +3503,14 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<!--Aesthetic-->
 	<!--Cloth-->
 	
-	<recipe name="sofa02" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="wrench" >
+	<recipe name="sofa02" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="cloth" count="40"/>
 		<ingredient name="plantedCotton3Harvest" count="40"/>
 		<ingredient name="spring" count="20"/>
 		<ingredient name="wood" count="20"/>
 		<ingredient name="shortMetalPipe" count="20"/>
 	</recipe>
-	<recipe name="chair04" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="wrench" >
+	<recipe name="chair04" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="cloth" count="20"/>
 		<ingredient name="plantedCotton3Harvest" count="20"/>
 		<ingredient name="spring" count="10"/>
