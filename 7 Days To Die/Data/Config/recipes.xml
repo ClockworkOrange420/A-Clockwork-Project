@@ -316,7 +316,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	
 	<!-- Modded -->
 	
-	<recipe name="Chrysanthemum_Seed" count="2" scrapable="False" >
+	<recipe name="Chrysanthemum_Seed" count="1" scrapable="False" >
         <ingredient name="plantedChrysanthemum3Harvest" count="1"/>
     </recipe>
 	
