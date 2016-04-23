@@ -3433,7 +3433,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="452" name="plantFiberHat"> <!-- plantFiberClothes -->
-	<property name="Extends" value="plantFiberPants" />
+	<property name="Extends" value="plantFiberPants" param1="DescriptionKey" />
 	<property name="CustomIcon" value="cowboyHat" />
 	<property name="CustomIconTint" value="227,206,164" />
 	<property name="Insulation" value="-8"/>
