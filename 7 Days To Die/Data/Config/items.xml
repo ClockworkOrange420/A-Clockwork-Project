@@ -5668,7 +5668,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Skills_to_gain" value="Gun Smithing,9mm Round Crafting" />
 		-->
 		<property name="Delay" value="1" />
-		<property name="ActionExp" value="150"/>
+		<property name="ActionExp" value="125"/>
 		<property name="ActionExpBonusMultiplier" value="1"/> <!-- When first learned the multiplier is applied. After that only the action exp is applied but it's applied for EACH item in the book. -->
 		<property name="Sound_start" value="Misc/recipe_unlocked" />
 	</property>
@@ -5695,8 +5695,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
 		<property name="Recipes_to_learn" value="Armor_Smithing_Skill" />
-		<property name="ActionExp" value="80"/>
-		<property name="ActionExpBonusMultiplier" value="1"/>
+		<property name="ActionExp" value="50"/>
 	</property>
 </item>
 
@@ -5711,8 +5710,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
 		<property name="Recipes_to_learn" value="Leatherworking_Skill" />
-		<property name="ActionExp" value="80"/>
-		<property name="ActionExpBonusMultiplier" value="1"/>
+		<property name="ActionExp" value="50"/>
 	</property>
 </item>
 
@@ -5727,8 +5725,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
 		<property name="Recipes_to_learn" value="Tailoring_Skill" />
-		<property name="ActionExp" value="80"/>
-		<property name="ActionExpBonusMultiplier" value="1"/>
+		<property name="ActionExp" value="50"/>
 	</property>
 </item>
 
@@ -5757,6 +5754,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
 		<property name="Recipes_to_learn" value="Athletics_Skill" />
+		<property name="ActionExp" value="250"/>
 	</property>
 </item>
 

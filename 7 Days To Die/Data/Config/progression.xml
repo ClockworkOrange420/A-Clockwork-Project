@@ -4,7 +4,7 @@
 <player 
 	max_level="200" 
 	exp_to_level="4000" 
-	experience_multiplier="1.01" 
+	experience_multiplier="1" 
 	skill_points_per_level="5" 
 	skill_point_multiplier="0"/>
 
@@ -12,7 +12,7 @@
 <skills 
 	max_level="100" 
 	exp_to_level="250" 
-	experience_multiplier="1.03" 
+	experience_multiplier="1" 
 	skill_point_cost_multiplier="0"
 	skill_point_cost_per_level="1" > <!-- these are defaults and can be used to modify individual skills as needed -->
 
