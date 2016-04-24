@@ -3068,19 +3068,19 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 	<recipe name="redWoodBlock" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="plantedChrysanthemum3Harvest" count="1"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="wood" count="15"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 
 	<recipe name="redWoodPillar100" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="plantedChrysanthemum3Harvest" count="1"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="wood" count="15"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 
 	<recipe name="redWoodStairs25" count="1" scrapable="False" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="plantedChrysanthemum3Harvest" count="1"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="wood" count="15"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 
@@ -3821,7 +3821,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	
 	<recipe name="dropCeilingRedWoodTrimBlock" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
 		<ingredient name="plantedChrysanthemum3Harvest" count="1"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="wood" count="15"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	
