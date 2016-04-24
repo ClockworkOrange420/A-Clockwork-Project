@@ -12863,7 +12863,6 @@ kind of free
   </block>
   
   <block id="1937" name="chickenCoop_stage1">
-	<property name="Class" value="PlantGrowing" />
 	<property name="Material" value="wood_weak" />
 	<property name="StabilitySupport" value="false"/>
     <property name="Shape" value="Ext3dModel" />
@@ -12877,8 +12876,6 @@ kind of free
       <property name="ItemCount" value="10" />
       <property name="UpgradeHitCount" value="1" />
     </property>
-    <property name="PlantGrowing.FertileLevel" value="0" />
-	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems">
 		<property name="wood" value="10" />

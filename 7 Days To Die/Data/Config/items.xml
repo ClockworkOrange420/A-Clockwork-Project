@@ -7339,7 +7339,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <!-- AttackAction -->
             <property name="Class" value="Repair"/>
              <property name="Delay" value="0.4"/>
-            <property name="Repair_amount" value="100"/>
+            <property name="Repair_amount" value="0"/>
             <property name="Upgrade_hit_offset" value="0"/>
             <property name="Sound_start" value="UseActions/repair_block"/>
             <property name="Allowed_upgrade_items" value="Fertilizer"/>
@@ -7554,7 +7554,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
             <!-- AttackAction -->
             <property name="Class" value="Repair"/>
              <property name="Delay" value="0.4"/>
-            <property name="Repair_amount" value="100"/>
+            <property name="Repair_amount" value="0"/>
             <property name="Upgrade_hit_offset" value="0"/>
             <property name="Sound_start" value="UseActions/repair_block"/>
             <property name="Allowed_upgrade_items" value="Chicken_Feed"/>
