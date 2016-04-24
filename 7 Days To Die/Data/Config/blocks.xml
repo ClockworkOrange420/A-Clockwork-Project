@@ -12788,7 +12788,7 @@ kind of free
 		<property name="wood" value="10" />
 	</property>
 	<property name="Place" value="TowardsPlacerInverted" />
-	<drop event="Destroy" name="Empty_Composter"/>
+	<drop event="Destroy" count="0" />
     <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Building" />
   </block>
@@ -12807,7 +12807,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
-	<drop event="Destroy" name="Empty_Composter"/>
+	<drop event="Destroy" count="0" />
     <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Building" />
   </block>
