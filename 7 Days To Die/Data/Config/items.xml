@@ -1517,8 +1517,8 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<!--<property name="Restricted_upgrade_items" value="concrete" />-->
 	</property>
 	<property class="Attributes">
-			<property name="DegradationMax" value="100,600" />
-			<property name="DegradationRate" value="2,1" />
+			<property name="DegradationMax" value="300,3000" />
+			<property name="DegradationRate" value="1,1" />
 		</property>
 	<property name="Group" value="Tools/Traps" />
 	<property name="ActionSkillGroup" value="Construction Tools"/>
