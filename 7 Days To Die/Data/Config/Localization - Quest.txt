@@ -207,7 +207,7 @@ quest_ZombieSlayer04_subtitle,,Quest Info,,Kill 1000 Zombies,,
 quest_ZombieSlayer04_description,,Quest Info,,"Emotionally numb, you no longer stop to think about your actions and accept your fate.",,
 quest_ZombieSlayer05,,Quest Info,,killin's as easy as breathing,,
 quest_ZombieSlayer05_subtitle,,Quest Info,,Kill 5000 Zombies,,
-quest_ZombieSlayer05_description,,Quest Info,,There may be some hope left afterall...,,
+quest_ZombieSlayer05_description,,Quest Info,,There may be some hope left after all...,,
 
 quest_Armored0,,Quest Info,,Armored To The Core,,
 
