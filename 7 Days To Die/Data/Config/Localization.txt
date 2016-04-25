@@ -1541,6 +1541,10 @@ qc_nurseyoubacktohealth,items,Zombie Challenge Note,,Nurse You Back To Health Ch
 qc_silenceofthelambs,items,Zombie Challenge Note,,Silence of the Lambs,,
 qc_yournothingspecial,items,Zombie Challenge Note,,You're Nothing Special,,
 qc_ZombieGroupDesc,items,Zombie Challenge Note,,A strange note I found while looting. It's from the Crazy Jake Clan.,,
+
+qt_zombie,items,Zombie Challenge Note,,News Report,,
+qt_zombieDesc,items,Zombie Challenge Note,,The front page of the daily news report.,,
+
 10mmRoundCrafting,progression,Skill,,10mm Round Crafting,,
 10mmRoundCraftingDesc,progression,Skill,,Learn to craft 10mm rounds.,,
 44MagnumRoundCrafting,progression,Skill,,.44 Magnum Round Crafting,,

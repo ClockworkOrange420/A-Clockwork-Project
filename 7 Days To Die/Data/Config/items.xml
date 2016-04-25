@@ -630,7 +630,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="ActivateObject" value="Attachments/flashlight/lightSource" />
 	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
 	<property name="Group" value="Ammo/Weapons" />
-	<property name="ActionSkillGroup" value="Rifles"/>
+	<property name="ActionSkillGroup" value="Pistols"/>
 	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 </item>
 
@@ -6231,6 +6231,14 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	</property>
 </item>
 
+<item id="1227" name="qt_zombie">
+	<property name="Extends" value="treasureQuestMaster" />
+	<property name="DescriptionKey" value="qt_zombieDesc"/>
+	<property class="Action1">
+		<property name="QuestGiven" value="quest_ZombieSlayer01" />
+	</property>
+</item>
+
 <!-- * * * * * * * * * * other stuff * * * * * * * * * * -->
 
 <item id="1300" name="yuccaFibers">
@@ -7018,6 +7026,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="VehicleStartChance" value="0.5,0.99" />
 		<property name="VehicleTankSize" value="1000, 2000" />
 	</property>
+	<property name="CraftingSkillGroup" value="Science"/>
 </item>
 
 <item id="1432" name="carBattery">
