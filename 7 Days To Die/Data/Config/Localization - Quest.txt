@@ -195,7 +195,7 @@ quest_ZombieSlayer0,,Quest Info,,Humanity's Last Hope,,
 
 quest_ZombieSlayer01,,Quest Info,,News Report!,,
 quest_ZombieSlayer01_subtitle,,Quest Info,,News report,,
-quest_ZombieSlayer01_offer,,Quest Info,,"Global Warning!\nThe CDC is officially anouncing a world wide epidemic!\nThe Scientists at the CDC have released this statment, An unknown virus has sweapt over the nations overnight, we suspect a possible biological terrorist attack, although the origins of the virus are unkown, what we do knw is that there is no cure, it has a 100% mortality rate and the bodies of the deceased are returning to life, driven by an unknown force that enables the brain to function.\nWe are beyond quarunteen, we are beyond help and we are beyond hope!",,
+quest_ZombieSlayer01_offer,,Quest Info,,"Global Warning!\nThe C.D.C. is officially anouncing a world wide epidemic!\nThe Scientists at the C.D.C. have released this statment, An unknown virus has sweapt over the nations overnight, we suspect a possible biological terrorist attack, although the origins of the virus are unkown, what we do knw is that there is no cure, it has a 100% mortality rate and the bodies of the deceased are returning to life, driven by an unknown force that enduces a bloodthirsty rage.\nWe are beyond quarunteen, we are beyond help and we are beyond hope!",,
 quest_ZombieSlayer02,,Quest Info,,A Hard Choice,,
 quest_ZombieSlayer02_subtitle,,Quest Info,,Kill 100 Zombies,,
 quest_ZombieSlayer02_description,,Quest Info,,The merciful killings,,
