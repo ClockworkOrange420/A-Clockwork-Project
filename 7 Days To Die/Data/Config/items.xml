@@ -1513,7 +1513,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Upgrade_hit_offset" value="-3" />
 		<property name="Repair_action_sound" value="Weapons/Motorized/Nailgun/nailgun_fire" />
 		<property name="Upgrade_action_sound" value="Weapons/Motorized/Nailgun/nailgun_fire" />
-		<property name="Allowed_upgrade_items" value="wood,clayLump,scrapIron,forgedIron,forgedSteel,concreteMix,cobblestones,yuccaFibers,nail" />
+		<property name="Allowed_upgrade_items" value="wood,clayLump,scrapIron,forgedIron,concreteMix,cobblestones,yuccaFibers,nail" />
 		<!--<property name="Restricted_upgrade_items" value="concrete" />-->
 	</property>
 	<property class="Attributes">
@@ -8481,6 +8481,20 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DescriptionKey" value="ScytheDesc"/>
 		<property name="Group" value="Tools/Traps" />
 		<property name="CraftingSkillGroup" value="Tool Smithing"/>
+	</item>
+	<item id="1614" name="Advanced_Nailgun">
+		<property name="Extends" value="nailgun" />
+		<property name="DescriptionKey" value="nailgunDesc"/>
+		<property class="Action1"> <!-- UseAction -->
+			<property name="Class" value="Repair" />
+			<property name="Delay" value="0.2" />
+			<property name="Repair_amount" value="250" />
+			<property name="Upgrade_hit_offset" value="-3" />
+			<property name="Repair_action_sound" value="Weapons/Motorized/Nailgun/nailgun_fire" />
+			<property name="Upgrade_action_sound" value="Weapons/Motorized/Nailgun/nailgun_fire" />
+			<property name="Allowed_upgrade_items" value="wood,clayLump,scrapIron,forgedIron,forgedSteel,concreteMix,cobblestones,yuccaFibers,nail" />
+			<!--<property name="Restricted_upgrade_items" value="concrete" />-->
+		</property>
 	</item>
 
 </items>

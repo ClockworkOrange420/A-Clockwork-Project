@@ -406,6 +406,7 @@
 	<perk name="Stage 4 Tool Crafting" icon="tool_smithing" description_key="StageFourToolDesc" title_key="StageFourToolCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
 		<requirement skill_level="1" required_skill_name="Tool Smithing" required_skill_level="60"/>
 		<recipe name="nailgun" unlock_level="1"/>
+		<recipe name="Advanced_Nailgun" unlock_level="1"/>
 		<recipe name="calipers" unlock_level="1"/>
 		<recipe name="toolAndDieSet" unlock_level="1"/>
 	</perk>
