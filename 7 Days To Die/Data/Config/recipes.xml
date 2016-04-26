@@ -354,6 +354,9 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     </recipe>
 	
 	<recipe name="Compost" count="1" scrapable="False">
+        <ingredient name="shamSandwich" count="2"/>
+    </recipe>
+	<recipe name="Compost" count="1" scrapable="False">
         <ingredient name="Tomato" count="1"/>
     </recipe>
 	<recipe name="Compost" count="1" scrapable="False">

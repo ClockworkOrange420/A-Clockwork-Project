@@ -924,37 +924,37 @@
 	
 	<quest id="quest_ZombieSlayer02" group_name_key="quest_ZombieSlayer0" name_key="quest_ZombieSlayer02" subtitle_key="quest_ZombieSlayer02_subtitle" description_key="quest_ZombieSlayer02_description" icon="ui_game_symbol_zombie" 
 	category_key="Quest" difficulty="easy">
-		<objective type="ZombieKill" value="100"  />
+		<objective type="ZombieKill" value="10"  />
 		
-		<reward type="Exp" value="500" />
-		<reward type="SkillPoints" value="10" />
+		<reward type="Exp" value="100" />
+		<reward type="SkillPoints" value="2" />
 		<reward type="Quest" id="quest_ZombieSlayer03" />
 	</quest>
 	
 	<quest id="quest_ZombieSlayer03" group_name_key="quest_ZombieSlayer0" name_key="quest_ZombieSlayer03" subtitle_key="quest_ZombieSlayer03_subtitle" description_key="quest_ZombieSlayer03_description" icon="ui_game_symbol_zombie" 
 	category_key="Quest" difficulty="medium">
-		<objective type="ZombieKill" value="500"  />
+		<objective type="ZombieKill" value="100"  />
 		
-		<reward type="Exp" value="2500" />
-		<reward type="SkillPoints" value="25" />
+		<reward type="Exp" value="500" />
+		<reward type="SkillPoints" value="5" />
 		<reward type="Quest" id="quest_ZombieSlayer04" />
 	</quest>
 	
 	<quest id="quest_ZombieSlayer04" group_name_key="quest_ZombieSlayer0" name_key="quest_ZombieSlayer04" subtitle_key="quest_ZombieSlayer04_subtitle" description_key="quest_ZombieSlayer04_description" icon="ui_game_symbol_zombie" 
 	category_key="Quest" difficulty="hard">
-		<objective type="ZombieKill" value="1000"  />
+		<objective type="ZombieKill" value="500"  />
 		
-		<reward type="Exp" value="5000" />
-		<reward type="SkillPoints" value="50" />
+		<reward type="Exp" value="1000" />
+		<reward type="SkillPoints" value="25" />
 		<reward type="Quest" id="quest_ZombieSlayer05" />
 	</quest>
 	
 	<quest id="quest_ZombieSlayer05" group_name_key="quest_ZombieSlayer0" name_key="quest_ZombieSlayer05" subtitle_key="quest_ZombieSlayer05_subtitle" description_key="quest_ZombieSlayer05_description" icon="ui_game_symbol_zombie" 
 	category_key="Quest" difficulty="insane">
-		<objective type="ZombieKill" value="5000"  />
+		<objective type="ZombieKill" value="1000"  />
 		
-		<reward type="Exp" value="25000" />
-		<reward type="SkillPoints" value="100" />
+		<reward type="Exp" value="15000" />
+		<reward type="SkillPoints" value="50" />
 	</quest>
 	
 	

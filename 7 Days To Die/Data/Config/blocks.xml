@@ -10407,6 +10407,7 @@ kind of free
 	<property name="Collide" value="movement,melee,bullet,rocket" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="DescriptionKey" value="rustyIronTableDesc"/>
 </block>
 	<!-- Free -->
 
@@ -13141,6 +13142,7 @@ kind of free
 	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" prob="1.0"  stick_chance=".75" />
+	<property name="DescriptionKey" value="smithingTableDesc"/>
 	<property name="Group" value="Building" />
   </block>
   <block id="1950" name="Crafting_Table">
