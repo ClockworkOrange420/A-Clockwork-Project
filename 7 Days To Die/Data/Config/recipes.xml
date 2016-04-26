@@ -440,11 +440,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	
 	<recipe name="Bread" count="1" scrapable="False" craft_area="Old_Oven" craft_tool="cookingGrill" >
         <ingredient name="bottledWater" count="1"/>
-        <ingredient name="Flour" count="1"/>
+        <ingredient name="Flour" count="3"/>
     </recipe>
 	<recipe name="Bread" count="1" scrapable="False" craft_area="New_Oven" craft_tool="cookingGrill" >
         <ingredient name="bottledWater" count="1"/>
-        <ingredient name="Flour" count="1"/>
+        <ingredient name="Flour" count="3"/>
     </recipe>
 	
 	<recipe name="Yeast" count="1" scrapable="False" craft_area="Old_Oven" craft_tool="beaker" >
@@ -1477,20 +1477,20 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <!--Food-->
 
 	<recipe name="blueberryPie" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot" >
-		<ingredient name="blueberries" count="1"/>
-		<ingredient name="egg" count="1"/>
+		<ingredient name="blueberries" count="2"/>
+		<ingredient name="egg" count="2"/>
 		<ingredient name="Flour" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="blueberryPie" count="1" scrapable="False" craft_area="Old_Oven" craft_tool="cookingPot" >
-		<ingredient name="blueberries" count="1"/>
-		<ingredient name="egg" count="1"/>
+		<ingredient name="blueberries" count="2"/>
+		<ingredient name="egg" count="2"/>
 		<ingredient name="Flour" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="blueberryPie" count="1" scrapable="False" craft_area="New_Oven" craft_tool="cookingPot" >
-		<ingredient name="blueberries" count="1"/>
-		<ingredient name="egg" count="1"/>
+		<ingredient name="blueberries" count="2"/>
+		<ingredient name="egg" count="2"/>
 		<ingredient name="Flour" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
