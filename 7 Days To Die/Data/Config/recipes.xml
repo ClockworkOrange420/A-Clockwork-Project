@@ -3036,10 +3036,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="potato" count="1"/>
 	</recipe>
 
-	<recipe name="rScrapIronPlate" count="1" scrapable="True" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="scrapIron" count="3"/>
-	</recipe>
-
 	<recipe name="rScrapIronPlateMine" count="1" scrapable="True" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
 		<ingredient name="scrapIron" count="2"/>
 		<ingredient name="gunPowder" count="3"/>
