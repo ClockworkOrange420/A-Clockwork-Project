@@ -195,6 +195,7 @@ then add recipes for those white/red/green metals
 	<drop event="Destroy" name="rockSmall" count="5"/>		
 	<drop event="Fall" name="crushedSand" count="8" prob=".5" stick_chance="0" />
 	<drop event="Fall" name="rockSmall" count="4" prob=".5" stick_chance="0" />
+	<property class="RepairItems"> <property name="crushedSand" value="40" /> </property>
 	<property name="Group" value="Decor/Miscellaneous" />
 	<property name="CanMobsSpawnOn" value="true" />
 </block>
