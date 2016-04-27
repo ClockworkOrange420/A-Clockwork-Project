@@ -1273,7 +1273,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageEntity" value="8" />
 		<property name="DamageBlock" value="1" />
 		<property name="Sound_start" value="swoosh" />
-		<property name="Stamina_usage" value="4" />
+		<property name="Stamina_usage" value="6" />
 		<property name="DamageBonus.earth" value="2" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.head" value="4" />
@@ -1309,7 +1309,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Block_range" value="4" />
 		<property name="Sphere" value="0.2" />
 		<property name="Sound_start" value="swoosh" />
-		<property name="Stamina_usage" value="4" />
+		<property name="Stamina_usage" value="6" />
 		<property name="DamageBonus.earth" value="2" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.head" value="4" />
@@ -1337,7 +1337,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="RepairTools" value="forgedSteel" />
 	<property class="Action0">
 		<property name="Delay" value="1.2" />
-		<property name="Stamina_usage" value="4" />
+		<property name="Stamina_usage" value="6" />
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="11,27" />    
