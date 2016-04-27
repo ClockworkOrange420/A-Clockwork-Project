@@ -10105,7 +10105,7 @@ kind of free
 </block>
 
 <block id="1382" name="mushroom01">
-	<property name="Material" value="dirt" />
+	<property name="Material" value="plants" />
 	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
