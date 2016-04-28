@@ -1461,7 +1461,7 @@ firstAidKitDesc,items,Item Medical,,A first aid kit can stop bleeding and restor
 splint,items,Item Medical,,Splint,,
 splintDesc,items,Item Medical,,Use splints to mend sprained or broken limbs. Splints do not protect against further injury.,,
 vitamins,items,Item Medicine,,Vitamins,,
-vitaminsDesc,items,Item Medicine,,Vitamins improve your wellness and can cure early stages of dysentery.,,
+vitaminsDesc,items,Item Medicine,,"One a day keeps the doctor away, Vitamins improve your wellness over a 24 hour period.",,
 clubBarbed,items,Item Melee,,Barbed Club,,
 clubBarbedDesc,items,item Melee,,A club with barbs. Added chance for bleeding.,,
 clubIron,items,Item Melee,,Iron Reinforced Club,,
