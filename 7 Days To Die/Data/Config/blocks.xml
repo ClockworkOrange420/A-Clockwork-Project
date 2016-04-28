@@ -2001,7 +2001,7 @@ group desc for stuff like metal siding
 	<property name="DescriptionKey" value="sandbagsGroupDesc"/>
 	<property name="Material" value="sand" />
 	<property name="Texture" value="359" />
-	<drop event="Destroy" name="crushedSand" count="5" />
+	<drop event="Destroy" name="crushedSand" count="15" />
 	<drop event="Destroy" name="cloth" count="1" />
 	<property name="CanPickup" value="true" />
 </block>
