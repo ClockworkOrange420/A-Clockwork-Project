@@ -3124,7 +3124,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	</recipe>
 
 	<recipe name="sand" count="1" scrapable="False">
-		<ingredient name="crushedSand" count="12"/>
+		<ingredient name="crushedSand" count="40"/>
 	</recipe>
 
 	<recipe name="sandbagsBlock" count="1" scrapable="False" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
