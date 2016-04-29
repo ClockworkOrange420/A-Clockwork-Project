@@ -3327,7 +3327,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	</recipe>
 
 	<recipe name="storeShelving01" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedIron" count="5"/>
 	</recipe>
 
 	<recipe name="tallow" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot" >
@@ -4127,13 +4127,13 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     </recipe>
 	
 	<recipe name="storeShelving01Double" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
-		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedIron" count="5"/>
 	</recipe>
 	<recipe name="storeShelving01Top" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
-		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedIron" count="5"/>
 	</recipe>
 	<recipe name="storeShelving01TopDouble" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
-		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedIron" count="5"/>
 	</recipe>
 	
 	<recipe name="cntBeerCooler" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench">
