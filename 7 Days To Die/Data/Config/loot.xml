@@ -1060,7 +1060,7 @@
 </lootcontainer>
 
 <!-- lootcontainer 4 frozen or refridgerated food, spoiled food -->
-<lootcontainer id="4" count="0,1" size="8,5" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="baseTemplate">
+<lootcontainer id="4" count="0,1" size="6,4" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="baseTemplate">
 	<item group="coldfood"/>
 	<item name="bottledWater" count="1,2"/>
 	<item name="emptyJar" count="1,2"/>
