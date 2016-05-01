@@ -242,7 +242,8 @@
 			
 			<sprite depth="2" name="takeAllIcon" style="icon32px" sprite="ui_game_symbol_hand" color="[mediumGrey]" pos="220, -4"/>
 		</panel>
-		<sprite depth="0" name="gridBackground" color="255,255,255,1" type="sliced" pos="0, 0" globalopacity="true" on_press="true" />
+	
+		<sprite depth="0" name="gridBackground" color="[black]" type="sliced" pos="0, -46" globalopacity="true" on_press="true"/>
 		<rect name="content" pos="3,-49" >
 			<grid depth="12" name="queue" rows="10" cols="9" cell_width="75" cell_height="75" repeat_content="true" controller="LootContainer">
 				<item_stack name="0"/>
@@ -443,9 +444,8 @@
 		</panel>
 		
 		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
-			
 			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false">
-				<required_item_stack name="0"/>
+				<item_stack name="0"/>
 			</grid>		
 			
 			<grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
@@ -460,7 +460,6 @@
 				</rect>
 			</grid>
 		</rect>
-		
 	</window>
 	
 	<window name="windowToolsCampfire" width="228" height="121" panel="Right">
@@ -470,22 +469,18 @@
 		</panel>
 		
 		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
-			
-			<grid name="inventory" rows="1" cols="2" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" required_tools="cookingPot,cookingGrill" required_tools_only="true">
-				<required_item_stack name="0"/>
+			<grid name="inventory" rows="1" cols="2" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false">
+				<item_stack name="0"/>
 			</grid>		
 			
-			<!-- <grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
+			<grid name="slot_preview" depth="1" rows="1" cols="2" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
 				<rect>
 					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="cookingPot" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true" />
 				</rect>
 				<rect>
 					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="cookingGrill" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true"/>
 				</rect>
-				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="beaker" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true"/>
-				</rect>
-			</grid> -->
+			</grid>
 		</rect>
 	</window>
 	
@@ -496,22 +491,21 @@
 		</panel>
 		
 		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
-			
-			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" required_tools="cookingPot,cookingGrill,beaker" required_tools_only="true">
-				<required_item_stack name="0"/>
+			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false">
+				<item_stack name="0"/>
 			</grid>		
 			
-			<!-- <grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
+			<grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
 				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="cookingPot" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true" />
+					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="cookingPot" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
 				</rect>
 				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="cookingGrill" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true"/>
+					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="cookingGrill" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
 				</rect>
 				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="beaker" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true"/>
+					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="beaker" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
 				</rect>
-			</grid> -->
+			</grid>
 		</rect>
 	</window>
 	
@@ -522,22 +516,15 @@
 		</panel>
 		
 		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
-			
-			<grid name="inventory" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" required_tools="beaker" required_tools_only="true">
-				<required_item_stack name="0"/>
+			<grid name="inventory" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false">
+				<item_stack name="0"/>
 			</grid>		
 			
-			<!-- <grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
+			<grid name="slot_preview" depth="1" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
 				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="cookingPot" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true" />
+					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="beaker" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
 				</rect>
-				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="cookingGrill" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true"/>
-				</rect>
-				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="beaker" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true"/>
-				</rect>
-			</grid> -->
+			</grid>
 		</rect>
 	</window>
 	
@@ -548,22 +535,15 @@
 		</panel>
 		
 		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
-			
-			<grid name="inventory" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" required_tools="Geometry_Set" required_tools_only="true">
-				<required_item_stack name="0"/>
+			<grid name="inventory" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false">
+				<item_stack name="0"/>
 			</grid>		
 			
-			<!-- <grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
+			<grid name="slot_preview" depth="1" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
 				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="cookingPot" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true" />
+					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="Geometry_Set" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
 				</rect>
-				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="cookingGrill" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true"/>
-				</rect>
-				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="beaker" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true"/>
-				</rect>
-			</grid> -->
+			</grid>
 		</rect>
 	</window>
 	
@@ -574,22 +554,15 @@
 		</panel>
 		
 		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
-			
-			<grid name="inventory" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" required_tools="Sewing_Machine" required_tools_only="true">
-				<required_item_stack name="0"/>
+			<grid name="inventory" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false">
+				<item_stack name="0"/>
 			</grid>		
 			
-			<!-- <grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
+			<grid name="slot_preview" depth="1" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
 				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="cookingPot" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true" />
+					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="Sewing_Machine" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
 				</rect>
-				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="cookingGrill" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true"/>
-				</rect>
-				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" color="[white_quarter_alpha]" sprite="beaker" atlas="ItemIconAtlasGreyscale"  pos="35,-30" pivot="center" foregroundlayer="true"/>
-				</rect>
-			</grid> -->
+			</grid>
 		</rect>
 	</window>
 	
@@ -600,9 +573,8 @@
 		</panel>
 		
 		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
-			
 			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false">
-				<required_item_stack name="0"/>
+				<item_stack name="0"/>
 			</grid>		
 			
 			<grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
@@ -617,7 +589,6 @@
 				</rect>
 			</grid>
 		</rect>
-		
 	</window>
 	
 	<window name="windowToolsAmmunitionTable" width="228" height="121" panel="Right">
@@ -627,25 +598,19 @@
 		</panel>
 		
 		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
-			
-			<grid name="inventory" rows="1" cols="2" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
-			required_tools="toolAndDieSet,Mortar_and_Pestle" required_tools_only="true">
-				<required_item_stack name="0"/>
+			<grid name="inventory" rows="1" cols="2" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false">
+				<item_stack name="0"/>
 			</grid>		
 			
-			<!-- <grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
-				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="anvil" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
-				</rect>
-				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="calipers" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
-				</rect>
+			<grid name="slot_preview" depth="1" rows="1" cols="2" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
 				<rect>
 					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="toolAndDieSet" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
 				</rect>
-			</grid> -->
+				<rect>
+					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="Mortar_and_Pestle" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
+				</rect>
+			</grid>
 		</rect>
-		
 	</window>
 	
 	<window name="windowToolsCraftingTable" width="228" height="121" panel="Right">
@@ -655,25 +620,22 @@
 		</panel>
 		
 		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
-			
-			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
-			required_tools="clawHammer,Chisel,wrench" required_tools_only="true">
-				<required_item_stack name="0"/>
+			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false">
+				<item_stack name="0"/>
 			</grid>		
 			
-			<!-- <grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
+			<grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
 				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="anvil" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
+					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="clawHammer" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
 				</rect>
 				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="calipers" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
+					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="Chisel" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
 				</rect>
 				<rect>
-					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="toolAndDieSet" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
+					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="wrench" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
 				</rect>
-			</grid> -->
+			</grid>
 		</rect>
-		
 	</window>
 	
 	<window name="windowFuel" width="228" height="166" panel="Right">
