@@ -2211,7 +2211,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	</recipe>
 
 	<recipe name="cntFridge" count="1" scrapable="False" craft_area="workbench" craft_tool="wrench">
-		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedIron" count="6"/>
 		<ingredient name="scrapCable" count="1"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 	</recipe>
@@ -4108,22 +4108,22 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     </recipe>
 	
 	<recipe name="metalPipeStraight" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
-        <ingredient name="forgedIron" count="10"/>
+        <ingredient name="forgedIron" count="5"/>
     </recipe>
 	<recipe name="metalPipeCorner" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
-        <ingredient name="forgedIron" count="10"/>
+        <ingredient name="forgedIron" count="5"/>
     </recipe>
 	<recipe name="metalPipeJoint" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
-        <ingredient name="forgedIron" count="10"/>
+        <ingredient name="forgedIron" count="5"/>
     </recipe>
 	<recipe name="metalPipeCap" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
-        <ingredient name="forgedIron" count="10"/>
+        <ingredient name="forgedIron" count="5"/>
     </recipe>
 	<recipe name="metalPipeValve" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
-        <ingredient name="forgedIron" count="10"/>
+        <ingredient name="forgedIron" count="5"/>
     </recipe>
 	<recipe name="metalPipeFlange" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
-        <ingredient name="forgedIron" count="10"/>
+        <ingredient name="forgedIron" count="5"/>
     </recipe>
 	
 	<recipe name="storeShelving01Double" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench" >
@@ -4137,7 +4137,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	</recipe>
 	
 	<recipe name="cntBeerCooler" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="wrench">
-		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedIron" count="6"/>
 		<ingredient name="scrapCable" count="1"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 	</recipe>
