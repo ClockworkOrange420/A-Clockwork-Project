@@ -4,7 +4,7 @@
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="Stamina" visible="{StatVisible}">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="2" pos="3,-3"  name="background" height="37" width="162" color="64,64,64,100" type="sliced" />
-				<sprite depth="3" pos="3,-3"  name="BarContent" type="filled" height="37" width="162" color="0,0,255,100" fill="{StatFill}"  />
+				<sprite depth="3" pos="3,-3"  name="BarContent" type="filled" height="37" width="162" color="0,0,255,100" fill="{StatFill}"/>
 				<sprite depth="4" name="Icon" atlas="{StatIconAtlas|once}" sprite="{StatIcon|once}" size="32,32" pos="8,-6" foregroundlayer="true"/>
 				<label depth="6" name="TextContent" pos="0,-10" font_size="24" color="[white]" justify="center" pivot="topleft" text="{StatCurrentWithMax}" height="30"/>
 			</rect>
@@ -12,7 +12,7 @@
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="Water" visible="{StatVisible}">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="2" pos="3,-3"  name="background" height="37" width="162" color="64,64,64,100" type="sliced" />
-				<sprite depth="3" pos="3,-3"  name="BarContent" type="filled" height="37" width="162" color="0,0,255,100" fill="{StatFill}"  />
+				<sprite depth="3" pos="3,-3"  name="BarContent" type="filled" height="37" width="162" color="0,0,255,100" fill="{StatFill}"/>
 				<sprite depth="4" name="Icon" atlas="{StatIconAtlas|once}" sprite="{StatIcon|once}" size="32,32" pos="8,-6" foregroundlayer="true"/>
 				<label depth="6" name="TextContent" pos="0,-10" font_size="24" color="[white]" justify="center" pivot="topleft" text="{StatCurrentWithMax}" height="30"/>
 			</rect>
@@ -20,15 +20,15 @@
 			<rect width="168" height="43" controller="PlayerStatsWindow">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="2" pos="3,-3"  name="background" height="37" width="162" color="64,64,64,100" type="sliced"/>
-				<sprite depth="3" pos="3,-3"  color="0,191,255" type="filled" height="37" width="162" fill="100" />
-				<sprite depth="4" name="Icon" sprite="ui_game_symbol_temperature" size="32,32" pos="8,-6" foregroundlayer="true"/>
+				<sprite depth="3" pos="3,-3"  name="BarContent" color="0,191,255" type="filled" height="37" width="162" fill="100" />
+				<sprite depth="4" name="Icon" atlas="{StatIconAtlas|once}" sprite="ui_game_symbol_temperature" size="32,32" pos="8,-6" foregroundlayer="true"/>
 				<label depth="6" name="TextContent" pos="0,-10" font_size="24" color="[white]" justify="center" pivot="topleft" text="{PlayerCoreTemp}" height="30" />
 			</rect>
 
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="Health" visible="{StatVisible}">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced" />
 				<sprite depth="2" pos="3,-3"  name="background" height="37" width="162" color="64,64,64,100" type="sliced" />
-				<sprite depth="3" pos="3,-3"  name="BarContent" sprite="{StatImage|once}" type="filled" height="37" width="162" fill="{StatFill}" />
+				<sprite depth="3" pos="3,-3"  name="BarContent" sprite="{StatImage|once}" type="filled" height="37" width="162" fill="{StatFill}"/>
 				<sprite depth="4" name="Icon" atlas="{StatIconAtlas|once}" sprite="{StatIcon|once}" size="32,32" pos="8,-6" foregroundlayer="true"/>
 				<label depth="6" name="TextContent" pos="0,-10" font_size="24" color="[white]" justify="center" pivot="topleft" text="{StatCurrentWithMax}" height="30"/>
 			</rect>
@@ -36,7 +36,7 @@
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="Food" visible="{StatVisible}">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="2" pos="3,-3"  name="background" height="37" width="162" color="64,64,64,100" type="sliced" />
-				<sprite depth="3" pos="3,-3"  name="BarContent" type="filled" height="37" width="162" color="0,255,0,100" fill="{StatFill}"  />
+				<sprite depth="3" pos="3,-3"  name="BarContent" type="filled" height="37" width="162" color="0,255,0,100" fill="{StatFill}"/>
 				<sprite depth="4" name="Icon" atlas="{StatIconAtlas|once}" sprite="{StatIcon|once}" size="32,32" pos="8,-6" foregroundlayer="true"/>
 				<label depth="6" name="TextContent" pos="0,-10" font_size="24" color="[white]" justify="center" pivot="topleft" text="{StatCurrentWithMax}" height="30"/>
 			</rect>
@@ -44,8 +44,8 @@
 			<rect width="168" height="43" controller="PlayerStatsWindow">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="2" pos="3,-3"  name="background" height="37" width="162" color="64,64,64,100" type="sliced"/>
-				<sprite depth="3" pos="3,-3"  color="255,215,0" type="filled" height="37" width="162" fill="{PlayerLevelFill}" />
-				<sprite depth="4" name="Icon" sprite="ui_game_symbol_trophy" size="32,32" pos="8,-6" foregroundlayer="true"/>
+				<sprite depth="3" pos="3,-3"  name="BarContent" color="255,215,0" type="filled" height="37" width="162" fill="{PlayerLevelFill}"/>
+				<sprite depth="4" name="Icon" atlas="{StatIconAtlas|once}" sprite="ui_game_symbol_trophy" size="32,32" pos="8,-6" foregroundlayer="true"/>
 				<label depth="6" name="TextContent" pos="0,-10" font_size="24" color="[white]" justify="center" pivot="topleft" text="{PlayerLevel}" height="30"/>
 			</rect>
 			
