@@ -3981,7 +3981,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="nail" count="5"/>
     </recipe>
 	
-	<recipe name="pew_segment01" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
+	<recipe name="pew_segment03" count="1" scrapable="False" craft_area="Crafting_Table_Misc" craft_tool="clawHammer" >
 		<ingredient name="wood" count="15"/>
 		<ingredient name="nail" count="5"/>
     </recipe>
