@@ -631,7 +631,7 @@
 	<!--Armored to the core-->
 	
 	<quest id="quest_Armored01" group_name_key="quest_Armored0" name_key="quest_Armored01" subtitle_key="quest_Armored01_subtitle" description_key="quest_Armored01_description" icon="ui_game_symbol_defense" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Wearing" id="animalHideLegArmor" />
@@ -647,7 +647,7 @@
 	</quest>
 	
 	<quest id="quest_Armored02" group_name_key="quest_Armored0" name_key="quest_Armored02" subtitle_key="quest_Armored02_subtitle" description_key="quest_Armored02_description" icon="ui_game_symbol_defense" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Wearing" id="leatherPants" />
@@ -663,7 +663,7 @@
 	</quest>
 	
 	<quest id="quest_Armored03" group_name_key="quest_Armored0" name_key="quest_Armored03" subtitle_key="quest_Armored03_subtitle" description_key="quest_Armored03_description" icon="ui_game_symbol_defense" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Wearing" id="scrapLegArmor" />
@@ -679,7 +679,7 @@
 	</quest>
 	
 	<quest id="quest_Armored04" group_name_key="quest_Armored0" name_key="quest_Armored04" subtitle_key="quest_Armored04_subtitle" description_key="quest_Armored04_description" icon="ui_game_symbol_defense" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Wearing" id="militaryLegArmor" />
@@ -695,7 +695,7 @@
 	</quest>
 	
 	<quest id="quest_Armored05" group_name_key="quest_Armored0" name_key="quest_Armored05" subtitle_key="quest_Armored05_subtitle" description_key="quest_Armored05_description" icon="ui_game_symbol_defense" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Wearing" id="ironLegArmor" />
@@ -713,7 +713,7 @@
 	<!--Melee Weapons-->
 	
 	<quest id="quest_WeaponMelee01" group_name_key="quest_WeaponMelee0" name_key="quest_WeaponMelee01" subtitle_key="quest_WeaponMelee01_subtitle" description_key="quest_WeaponMelee01_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="clubWood" />
@@ -724,7 +724,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponMelee02" group_name_key="quest_WeaponMelee0" name_key="quest_WeaponMelee02" subtitle_key="quest_WeaponMelee02_subtitle" description_key="quest_WeaponMelee02_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="clubIron" />
@@ -735,7 +735,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponMelee03" group_name_key="quest_WeaponMelee0" name_key="quest_WeaponMelee03" subtitle_key="quest_WeaponMelee03_subtitle" description_key="quest_WeaponMelee03_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="clubBarbed" />
@@ -746,7 +746,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponMelee04" group_name_key="quest_WeaponMelee0" name_key="quest_WeaponMelee04" subtitle_key="quest_WeaponMelee04_subtitle" description_key="quest_WeaponMelee04_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="sledgehammer" />
@@ -757,7 +757,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponMelee05" group_name_key="quest_WeaponMelee0" name_key="quest_WeaponMelee05" subtitle_key="quest_WeaponMelee05_subtitle" description_key="quest_WeaponMelee05_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="clubSpiked" />
@@ -768,7 +768,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponMelee06" group_name_key="quest_WeaponMelee" name_key="quest_WeaponMelee06" subtitle_key="quest_WeaponMelee06_subtitle" description_key="quest_WeaponMelee06_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="huntingKnife" />
@@ -779,7 +779,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponMelee07" group_name_key="quest_WeaponMelee" name_key="quest_WeaponMelee07" subtitle_key="quest_WeaponMelee07_subtitle" description_key="quest_WeaponMelee07_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="machete" />
@@ -792,7 +792,7 @@
 	<!--Ranged Weapons-->
 	
 	<quest id="quest_WeaponRanged01" group_name_key="quest_WeaponRanged0" name_key="quest_WeaponRanged01" subtitle_key="quest_WeaponRanged01_subtitle" description_key="quest_WeaponRanged01_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="gunPistol" />
@@ -803,7 +803,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponRanged02" group_name_key="quest_WeaponRanged0" name_key="quest_WeaponRanged02" subtitle_key="quest_WeaponRanged02_subtitle" description_key="quest_WeaponRanged02_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="gunMP5" />
@@ -814,7 +814,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponRanged03" group_name_key="quest_WeaponRanged0" name_key="quest_WeaponRanged03" subtitle_key="quest_WeaponRanged03_subtitle" description_key="quest_WeaponRanged03_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="gunSawedOffPumpShotgun" />
@@ -825,7 +825,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponRanged04" group_name_key="quest_WeaponRanged0" name_key="quest_WeaponRanged04" subtitle_key="quest_WeaponRanged04_subtitle" description_key="quest_WeaponRanged04_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="gunPumpShotgun" />
@@ -836,7 +836,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponRanged05" group_name_key="quest_WeaponRanged0" name_key="quest_WeaponRanged05" subtitle_key="quest_WeaponRanged05_subtitle" description_key="quest_WeaponRanged05_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="gun44Magnum" />
@@ -847,7 +847,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponRanged06" group_name_key="quest_WeaponRanged0" name_key="quest_WeaponRanged06" subtitle_key="quest_WeaponRanged06_subtitle" description_key="quest_WeaponRanged06_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="gunHuntingRifle" />
@@ -858,7 +858,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponRanged07" group_name_key="quest_WeaponRanged0" name_key="quest_WeaponRanged07" subtitle_key="quest_WeaponRanged07_subtitle" description_key="quest_WeaponRanged07_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="gunAK47" />
@@ -869,7 +869,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponRanged08" group_name_key="quest_WeaponRanged0" name_key="quest_WeaponRanged08" subtitle_key="quest_WeaponRanged08_subtitle" description_key="quest_WeaponRanged08_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="gunSniperRifle" />
@@ -880,7 +880,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponRanged09" group_name_key="quest_WeaponRanged0" name_key="quest_WeaponRanged09" subtitle_key="quest_WeaponRanged09_subtitle" description_key="quest_WeaponRanged09_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="gunRocketLauncher" />
@@ -890,7 +890,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponRanged10" group_name_key="quest_WeaponRanged" name_key="quest_WeaponRanged10" subtitle_key="quest_WeaponRanged10_subtitle" description_key="quest_WeaponRanged10_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="woodenBow" />
@@ -901,7 +901,7 @@
 	</quest>
 	
 	<quest id="quest_WeaponRanged11" group_name_key="quest_WeaponRanged" name_key="quest_WeaponRanged11" subtitle_key="quest_WeaponRanged11_subtitle" description_key="quest_WeaponRanged11_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
 		<requirement type="Holding" id="crossbow" />
@@ -923,7 +923,7 @@
 	</quest>
 	
 	<quest id="quest_ZombieSlayer02" group_name_key="quest_ZombieSlayer0" name_key="quest_ZombieSlayer02" subtitle_key="quest_ZombieSlayer02_subtitle" description_key="quest_ZombieSlayer02_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="easy">
+	repeatable="true" category_key="Quest" difficulty="easy">
 		<objective type="ZombieKill" value="10"  />
 		
 		<reward type="Exp" value="100" />
@@ -932,7 +932,7 @@
 	</quest>
 	
 	<quest id="quest_ZombieSlayer03" group_name_key="quest_ZombieSlayer0" name_key="quest_ZombieSlayer03" subtitle_key="quest_ZombieSlayer03_subtitle" description_key="quest_ZombieSlayer03_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="medium">
+	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="100"  />
 		
 		<reward type="Exp" value="500" />
@@ -941,7 +941,7 @@
 	</quest>
 	
 	<quest id="quest_ZombieSlayer04" group_name_key="quest_ZombieSlayer0" name_key="quest_ZombieSlayer04" subtitle_key="quest_ZombieSlayer04_subtitle" description_key="quest_ZombieSlayer04_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="hard">
+	repeatable="true" category_key="Quest" difficulty="hard">
 		<objective type="ZombieKill" value="500"  />
 		
 		<reward type="Exp" value="1000" />
@@ -950,7 +950,7 @@
 	</quest>
 	
 	<quest id="quest_ZombieSlayer05" group_name_key="quest_ZombieSlayer0" name_key="quest_ZombieSlayer05" subtitle_key="quest_ZombieSlayer05_subtitle" description_key="quest_ZombieSlayer05_description" icon="ui_game_symbol_zombie" 
-	category_key="Quest" difficulty="insane">
+	repeatable="true" category_key="Quest" difficulty="insane">
 		<objective type="ZombieKill" value="1000"  />
 		
 		<reward type="Exp" value="15000" />
