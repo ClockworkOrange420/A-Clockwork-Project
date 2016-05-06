@@ -3,7 +3,7 @@
 <progression>
 <player 
 	max_level="200" 
-	exp_to_level="4000" 
+	exp_to_level="5000" 
 	experience_multiplier="1" 
 	skill_points_per_level="5" 
 	skill_point_multiplier="0"/>
@@ -74,7 +74,7 @@
 		</effect>
 	</action_skill>
 	
-	<action_skill name="Mining Tools" icon="mining" description_key="miningToolsDesc" title_key="miningTools" group="tools">
+	<action_skill name="Mining Tools" exp_to_level="350" icon="mining" description_key="miningToolsDesc" title_key="miningTools" group="tools">
 		<effect name="BlockDamage">
 			<multiply skill_level="1,99" value="1,1.5"/>
 			<multiply skill_level="100" value="2" />
@@ -209,7 +209,7 @@
 			</effect>
 	</crafting_skill>
 	
-	<crafting_skill name="Tailoring" exp_to_level="100" icon="tailoring" description_key="tailoringDesc" title_key="tailoring" group="clothing">
+	<crafting_skill name="Tailoring" exp_to_level="150" icon="tailoring" description_key="tailoringDesc" title_key="tailoring" group="clothing">
 			<effect name="CraftingTime">
 				<multiply skill_level="1,99" value="1,0.4"/>
 				<multiply skill_level="100" value="0.25" />
@@ -230,7 +230,7 @@
 			</effect>
 	</crafting_skill>
 	
-	<crafting_skill name="Leatherworking" exp_to_level="100" icon="armor_leather" description_key="leatherworkingDesc" title_key="leatherworking" group="clothing">
+	<crafting_skill name="Leatherworking" exp_to_level="150" icon="armor_leather" description_key="leatherworkingDesc" title_key="leatherworking" group="clothing">
 			<effect name="CraftingTime">
 				<multiply skill_level="1,99" value="1,0.4"/>
 				<multiply skill_level="100" value="0.25" />
@@ -251,7 +251,7 @@
 			</effect>
 	</crafting_skill>
 	
-	<crafting_skill name="Armor Smithing" exp_to_level="100" icon="forge" description_key="armorerDesc" title_key="armorer" group="clothing">
+	<crafting_skill name="Armor Smithing" exp_to_level="150" icon="forge" description_key="armorerDesc" title_key="armorer" group="clothing">
 			<effect name="CraftingTime">
 				<multiply skill_level="1,99" value="1,0.4"/>
 				<multiply skill_level="100" value="0.25" />
@@ -272,7 +272,7 @@
 			</effect>
 	</crafting_skill>
 	
-	<crafting_skill name="Miscellaneous Crafting" icon="misc_crafting" description_key="miscCraftingDesc" title_key="miscCrafting" group="crafting">
+	<crafting_skill name="Miscellaneous Crafting" exp_to_level="500" icon="misc_crafting" description_key="miscCraftingDesc" title_key="miscCrafting" group="crafting">
 			<effect name="CraftingTime">
 				<multiply skill_level="1,99" value="1,0.4"/>
 				<multiply skill_level="100" value="0.25" />
