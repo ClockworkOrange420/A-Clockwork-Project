@@ -7175,7 +7175,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 	<property name="Material" value="metal" />
 	<property name="HoldType" value="45" />
-	<property name="Stacknumber" value="30000" />
+	<property name="Stacknumber" value="300000" />
 	<property name="Weight" value="1" />
 	<property name="Group" value="Resources" />
 	<property name="ResourceUnit" value="true" />
