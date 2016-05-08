@@ -2537,7 +2537,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="shortMetalPipe" count="1"/>
 	</recipe>
 
-	<recipe name="forgedIron" count="1" scrapable="False" craft_area="forge" material_based="true">
+	<recipe name="forgedIron" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
