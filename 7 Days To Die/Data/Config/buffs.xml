@@ -272,7 +272,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="1" stat="health" amount="1" rate="1"/>
 </buff>	
 
-<buff id="firstAidLarge" duration="10" stack="reset" type="healthup" icon="ui_game_symbol_medical" name_key="firstAidLarge" description_key="firstAidLargeDesc" tooltip_key="firstAidLargeTooltip" causes="firstAidLarge">
+<buff id="firstAidLarge" duration="10" stack="reset" type="healthup" icon="ui_game_symbol_medical" name_key="firstAidLarge" description_key="firstAidLargeDesc" tooltip_key="firstAidLargeTooltip" causes="firstAidKit">
 	<modify id="1" stat="health" amount="1" rate="1"/>
 </buff>		
 
