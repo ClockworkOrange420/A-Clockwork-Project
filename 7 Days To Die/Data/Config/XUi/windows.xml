@@ -97,12 +97,12 @@
 			
 			<texture depth="7" name="WatchTop03" size="240,240" texture="@http://i63.tinypic.com/33adyys.png" material="Materials/Transparent Colored" pos="1,-8" justify="center" pivot="center"/>
 			
-			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="-11,-47" font_size="12" color="[beige]" justify="center" pivot="center" text="{PlayerWater} %"/>
-			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="28,-9" font_size="12" color="[beige]" justify="center" pivot="center" text="{PlayerFood} %"/>
-			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="-48,-11" font_size="12" color="[beige]" justify="center" pivot="center" text="{PlayerLevel}"/>
-			<label depth="8" name="dayTimeLabel" controller="MapStats" size="240,240" pos="-10,35" text=" [DECEA3]{MapDayTime}[-]" font_size="24" justify="center" pivot="center"/>
-			<label depth="8" name="tempLabel" controller="MapStats" size="240,240" pos="-52,-40" text=" [DECEA3]{MapTemperature}[-]" font_size="24" justify="center" pivot="center"/>
-			<label depth="8" name="elevLabel" controller="MapStats" size="240,240" pos="30,-40" text=" [DECEA3]{MapElevation} M[-]" font_size="24" justify="center" pivot="center"/>
+			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="-56,-40" font_size="20" color="[beige]" justify="center" pivot="center" text="{PlayerCoreTemp}"/>
+			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="-11,-47" font_size="16" color="[beige]" justify="center" pivot="center" text="{PlayerWater} %"/>
+			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="28,-9" font_size="16" color="[beige]" justify="center" pivot="center" text="{PlayerFood} %"/>
+			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="-48,-11" font_size="16" color="[beige]" justify="center" pivot="center" text="{PlayerLevel}"/>
+			<label depth="8" name="dayTimeLabel" controller="MapStats" size="240,240" pos="-16,35" text=" [DECEA3]{MapDayTime}[-]" font_size="22" justify="center" pivot="center"/>
+			<label depth="8" name="elevLabel" controller="MapStats" size="240,240" pos="30,-40" text=" [DECEA3]{MapElevation} M[-]" font_size="20" justify="center" pivot="center"/>
 	</panel>
 	</window>
 	
