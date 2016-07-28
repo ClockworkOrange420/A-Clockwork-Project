@@ -187,6 +187,7 @@
 			<window name="windowQuestTracker" anchor="RightTop" />
 			<!--Modded-->
 			<window name="windowToolbeltNumbersHUD" />
+			<window name="ClockworkWatch" />
 			<!--End-->
 		</window_group>
 		

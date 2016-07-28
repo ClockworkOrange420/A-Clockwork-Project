@@ -1,6 +1,16 @@
 <windows>
 	<window name="HUDLeftStatBars">
+		<rect name="hud" pos="93,20" side="left" controller="BuffPopoutList" pivot="BottomLeft" >
+			<panel width="168" height="43" name="item" visible="false" pivot="right" disableautobackground="true" pos="70, 0" >
+				<sprite depth="3" pos="0,0"  name="Background" sprite="ui_game_popup" height="43" width="162" pivot="center" flip="Horizontally" color="[transparent]" />
+				<sprite depth="4" name="Icon" size="36,32" pos="-58,0" pivot="center" color="[transparent]"/>
+				<label depth="6" name="TextContent" pos="0,0" font_size="24" color="[white]" justify="center" height="30" pivot="center"/>
+			</panel>
+		</rect>
+	</window>
+	<!--
 		<grid name="hud" pos="9,98" rows="2" cols="3" width="168" cell_width="172" cell_height="46" repeat_content="false" controller="InGameHUD" side="left" >
+			
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="Stamina" visible="{StatVisible}">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="2" pos="3,-3"  name="background" height="37" width="162" color="64,64,64,100" type="sliced" />
@@ -49,15 +59,48 @@
 				<label depth="6" name="TextContent" pos="0,-10" font_size="24" color="[white]" justify="center" pivot="topleft" text="{PlayerLevel}" height="30"/>
 			</rect>
 			
+			Bottom http://i64.tinypic.com/2iubzw5.png
+			Bottom 02 http://i68.tinypic.com/160wjkm.png
+			Bottom03 http://i68.tinypic.com/317a4gn.png
+			middle http://i65.tinypic.com/xcpv20.png
+			middle02 http://i67.tinypic.com/5sc2q.png
+			middle02 v2 http://i67.tinypic.com/15psguv.png
+			middle02 v2 final http://i64.tinypic.com/xmqx4w.png
+			food top http://i66.tinypic.com/a4armf.png
+			Level top http://i63.tinypic.com/kcnia9.png
+			water top http://i66.tinypic.com/258cl92.png
+			top http://i67.tinypic.com/nn8own.png
+			top02 http://i63.tinypic.com/2uyja68.png
+			top 03 http://i64.tinypic.com/5chh1t.png
+			Top 03V2http://i65.tinypic.com/200b41z.png
+			
 		</grid>
-		
-		<rect name="hud" pos="93,124" side="left" controller="BuffPopoutList" pivot="BottomLeft" >
-			<panel width="168" height="43" name="item" visible="false" pivot="right" disableautobackground="true" pos="70, 0" >
-				<sprite depth="3" pos="0,0"  name="Background" sprite="ui_game_popup" height="43" width="162" pivot="center" flip="Horizontally" color="[transparent]" />
-				<sprite depth="4" name="Icon" size="36,32" pos="-58,0" pivot="center" color="[transparent]"/>
-				<label depth="6" name="TextContent" pos="0,0" font_size="24" color="[white]" justify="center" height="30" pivot="center"/>
-			</panel>
-		</rect>
+		-->
+	
+	<window name="ClockworkWatch" pos="-650,-400" anchor="CenterCenter">
+	<panel backgroundcolor="[black]">
+			
+			<texture depth="1" name="WatchBottom03" size="240,240" texture="@http://i68.tinypic.com/317a4gn.png" material="Materials/Transparent Colored" pos="-10,0" justify="center" pivot="center"/>
+			
+			<sprite depth="2" name="Health" controller="HUDStatBar" stat_type="Health" visible="{StatVisible}" size="200,200" pos="-10,0" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{StatFill}" color="255,0,0" filldirection="radial360"/>
+			
+			<texture depth="3" name="WatchMiddle" size="240,240" texture="@http://i65.tinypic.com/xcpv20.png" material="Materials/Transparent Colored" pos="-10,0" justify="center" pivot="center"/>
+			
+			<sprite depth="4" name="Stamina" controller="HUDStatBar" stat_type="Stamina" visible="{StatVisible}" size="175,175" pos="-10,0" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" color="0,0,255" fill="{StatFill}" filldirection="radial360" flip="Vertically"/>
+			
+			<texture depth="5" name="WatchMiddle02" size="240,240" texture="@http://i64.tinypic.com/xmqx4w.png" material="Materials/Transparent Colored" pos="-8,-3" justify="center" pivot="center"/>
+			
+			<sprite depth="6" name="PlayerLevel" controller="PlayerStatsWindow" visible="{StatVisible}" size="51,51" pos="-47,-1" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{PlayerLevelFill}" color="255,255,0" filldirection="radial360"/>
+			<sprite depth="6" name="Food" controller="HUDStatBar" stat_type="Food" visible="{StatVisible}" size="52,52" pos="28,-2" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{StatFill}" color="0,255,0" filldirection="radial360"/>
+			
+			<sprite depth="6" name="Water" controller="HUDStatBar" stat_type="Water" visible="{StatVisible}" size="47,47" pos="-11,-40" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{StatFill}" color="0,0,255" filldirection="radial360"/>
+			
+			<texture depth="7" name="WatchTop03" size="240,240" texture="@http://i65.tinypic.com/200b41z.png" material="Materials/Transparent Colored" pos="1,-8" justify="center" pivot="center"/>
+			
+			<label depth="8" name="dayTimeLabel" controller="MapStats" size="240,240" pos="-10,35" text=" [DECEA3]{MapDayTime}[-]" font_size="24" justify="center" pivot="center"/>
+			<label depth="8" name="tempLabel" controller="MapStats" size="240,240" pos="-52,-40" text=" [DECEA3]{MapTemperature}[-]" font_size="24" justify="center" pivot="center"/>
+			<label depth="8" name="elevLabel" controller="MapStats" size="240,240" pos="30,-40" text=" [DECEA3]{MapElevation} M[-]" font_size="24" justify="center" pivot="center"/>
+	</panel>
 	</window>
 	
 	<window name="windowToolbeltNumbersHUD" depth="10" width="603" height="22" pos="-313,100" anchor="CenterBottom">		
@@ -70,7 +113,7 @@
 		<label name="slot7" pos="472,0" width="22" height="22" text="  [DECEA3]7" font_size="20" justify="center"/>
 		<label name="slot8" pos="547,0" width="22" height="22" text="  [DECEA3]8" font_size="20" justify="center"/>
 	</window>
-	
+	<!--
 	<window name="mapStatsHUD1" width="400" height="50" pos="-200,-49" controller="MapStats" anchor="CenterTop">
 		<sprite depth="2" name="dayTimeIcon" size="25,25" pos="65,-8" sprite="ui_game_symbol_clock" color="[iconColor]" foregroundlayer="true"/>
 		<label depth="2" name="dayTimeLabel" pos="108,-10" width="172" height="35" text=" [DECEA3]{MapDayTime}[-]" font_size="24"/>
@@ -86,7 +129,7 @@
 		<sprite depth="2" name="elevIcon" size="35,35" pos="35,-6" sprite="ui_game_symbol_climb" color="[iconColor]" foregroundlayer="true"/>
 		<label depth="2" name="elevLabel" pos="85,-12" width="172" height="35" text=" [DECEA3]{MapElevation} M[-]" font_size="24"/>
 	</window>
-	
+	-->
 	<window name="HUDRightStatBars">
 	
 		<rect name="hud" pos="-90,31" side="right" controller="CollectedItemList" pivot="BottomLeft">
