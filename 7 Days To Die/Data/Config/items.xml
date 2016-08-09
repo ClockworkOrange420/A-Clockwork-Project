@@ -1555,6 +1555,8 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Horde_meter_distance" value="20" />
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw" />
 		<property name="DamageBonus.wood" value="10" />
+		<property name="DamageBonus.stone" value="0.01" />
+		<property name="DamageBonus.earth" value="0.01" />
 		<property name="DamageBonus.head" value="5" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="SupportHarvesting" value="true" />
@@ -1609,7 +1611,9 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Horde_meter_rate" value=".275" />
 		<property name="Horde_meter_distance" value="20" />
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw" />
-		<property name="DamageBonus.wood" value="0.25" />
+		<property name="DamageBonus.wood" value="0.01" />
+		<property name="DamageBonus.earth" value="1" />
+		<property name="DamageBonus.stone" value="2" />
 		<property name="DamageBonus.head" value="3" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="SupportHarvesting" value="true" />
@@ -2604,7 +2608,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Weight" value="50" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="14,35" />
-		<property name="BlockDamage" value="4,10" />
+		<property name="BlockDamage" value="50,100" />
 		<property name="Accuracy" value="1, 0.01" />
 		<property name="DismembermentBaseChance" value=".2,.3"/>
 		<property name="DismembermentBonus" value="0,0.00036"/>
@@ -2629,7 +2633,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Weight" value="40" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="3,10" />
-		<property name="BlockDamage" value="64,160" />
+		<property name="BlockDamage" value="250,500" />
 		<property name="Accuracy" value="1, 0.01" />
 		<property name="DegradationMax" value="3000,6000" />
 	</property>
@@ -7019,13 +7023,13 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property class="Attributes">
 		<property name="DegradationMax" value="1000,6000" />
 		<property name="VehicleNoise" value="1,0.1" />
-		<property name="VehicleMaxSpeed" value="5,18" />
+		<property name="VehicleMaxSpeed" value="8,20" />
 		<property name="VehicleAcceleration" value="7,14" />
-		<property name="VehicleMetersPerLiter" value="8,12" />
-		<property name="VehicleIdleSecondsPerLiter" value="6,12" />
+		<property name="VehicleMetersPerLiter" value="10,24" />
+		<property name="VehicleIdleSecondsPerLiter" value="6,24" />
 		<property name="VehicleStartDelayInSeconds" value="1,0.1" />
 		<property name="VehicleStartChance" value="0.5,0.99" />
-		<property name="VehicleTankSize" value="1000, 2000" />
+		<property name="VehicleTankSize" value="1000, 1000" />
 	</property>
 	<property name="CraftingSkillGroup" value="Science"/>
 </item>
