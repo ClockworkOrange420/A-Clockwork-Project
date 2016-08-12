@@ -2084,7 +2084,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="DamageBonus.metal" value="0" />
 		<property name="DamageBonus.cloth" value="0" />
 		<property name="Explosion.BlockDamage" value="100" /> <!-- damage for blocks in the center of the explosion -->
-		<property name="Explosion.EntityDamage" value="100" /> <!-- damage for entities in the center of the explosion -->
+		<property name="Explosion.EntityDamage" value="200" /> <!-- damage for entities in the center of the explosion -->
 		<property name="Explosion.ParticleIndex" value="1" /> <!-- which Prefab/particle is used -->
 		<property name="Explosion.RadiusBlocks" value="4" /> <!-- damage radius for blocks -->
 		<property name="Explosion.RadiusEntities" value="5" />
