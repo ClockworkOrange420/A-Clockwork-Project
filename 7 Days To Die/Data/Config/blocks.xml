@@ -14623,6 +14623,7 @@ kind of free
   </block>
   <block id="1941" name="Omnigel_Station">
     <property name="Class" value="Campfire" />
+	<property name="CustomIcon" value="chemistryStation" />
     <property name="Material" value="metal" />
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity" />
@@ -15467,7 +15468,6 @@ kind of free
   </block>
   <block id="1995" name="cntTrapChestUpgrade">
 	<property name="Material" value="wood+wood" />
-	<property name="CustomIcon" value="cntSecureStorageChest" />
 	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
