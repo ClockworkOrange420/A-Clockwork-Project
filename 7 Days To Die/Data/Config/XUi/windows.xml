@@ -4,36 +4,78 @@
 			<panel width="168" height="43" name="item" visible="false" pivot="right" disableautobackground="true" pos="70, 0" >
 				<sprite depth="3" pos="0,0"  name="Background" sprite="ui_game_popup" height="43" width="162" pivot="center" flip="Horizontally" color="[transparent]" />
 				<sprite depth="4" name="Icon" size="36,32" pos="-58,0" pivot="center" color="[transparent]"/>
-				<label depth="6" name="TextContent" pos="0,0" font_size="24" color="[white]" justify="center" height="30" pivot="center"/>
+				<label depth="6" name="TextContent" pos="0,0" font_size="28" color="[white]" justify="center" height="30" pivot="center"/>
 			</panel>
 		</rect>
 	</window>
 	
+		
+			<!--texture="@file:///C:\7DtD_ExtTextureMod/minibike_gauge.png"
+			WATCH
+			Bottom http://i64.tinypic.com/2iubzw5.png
+			Bottom 02 http://i68.tinypic.com/160wjkm.png
+			Bottom03 http://i68.tinypic.com/317a4gn.png
+			middle http://i65.tinypic.com/xcpv20.png
+			middle02 http://i67.tinypic.com/5sc2q.png
+			middle02 v2 http://i67.tinypic.com/15psguv.png
+			middle02 v2 final http://i64.tinypic.com/xmqx4w.png
+			food top http://i66.tinypic.com/a4armf.png
+			Level top http://i63.tinypic.com/kcnia9.png
+			water top http://i66.tinypic.com/258cl92.png
+			top http://i67.tinypic.com/nn8own.png
+			top02 http://i63.tinypic.com/2uyja68.png
+			top 03 http://i64.tinypic.com/5chh1t.png
+			Top 03V2 http://i65.tinypic.com/200b41z.png
+			Top 03v3 http://i63.tinypic.com/33adyys.png
+			
+			SILVER
+			DarkSilverCircle http://i64.tinypic.com/110lyfs.png
+			Banner http://i64.tinypic.com/3585477.png
+			LeftSide http://i65.tinypic.com/2zqa686.png
+			RightSide http://i66.tinypic.com/2ah8lj6.png
+			toolbeltV1 http://i63.tinypic.com/2pzwhma.png
+			ToolbeltV2 http://i66.tinypic.com/zo7z8k.png
+			Toolbeltv3 http://i63.tinypic.com/2v0oda8.png
+			BioBottom http://i63.tinypic.com/25yx635.png
+			BioMiddle http://i63.tinypic.com/2r7ahc1.png
+			BioMiddle02 http://i67.tinypic.com/2aev5aa.png
+			BioTopLightSilver http://i65.tinypic.com/2v95f92.png
+			BioTopDarkSilver http://i63.tinypic.com/1628zsh.png
+			BioTopDarkSilverGrill http://i68.tinypic.com/246ndc6.png
+			BioTopDarkGoldGrill http://i64.tinypic.com/2utssyd.png
+			BioTopDarkerSilverGrill http://i65.tinypic.com/2yudstl.png
+			BioTopDarkerSilverWhirlGrill http://i65.tinypic.com/k0kaq0.png
+			SilverBullet http://i67.tinypic.com/16a9tuu.png
+			SilverBulletFlipped http://i66.tinypic.com/30wnq6x.png
+			SilverBullletV2Flipped http://i66.tinypic.com/4ucemb.png
+		-->
+		
+	
 	<window name="ClockworkWatch" pos="-650,-400" anchor="CenterCenter">
 	<panel backgroundcolor="[black]">
 			
-			<texture depth="1" name="WatchBottom03" size="240,240" texture="@http://i68.tinypic.com/317a4gn.png" material="Materials/Transparent Colored" pos="-10,0" justify="center" pivot="center"/>
+			<texture depth="1" name="WatchBottom03" size="240,240" texture="@file:///C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\ACPIcons\UI/WatchBottom03.png" material="Materials/Transparent Colored" pos="-10,0" justify="center" pivot="center"/>
 			
-			<sprite depth="2" name="Health" controller="HUDStatBar" stat_type="Health" visible="{StatVisible}" size="200,200" pos="-10,0" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{StatFill}" color="255,0,0" filldirection="radial360"/>
+			<sprite depth="2" name="Health" controller="HUDStatBar" stat_type="Health" visible="{statvisible}" size="200,200" pos="-10,0" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{statfill}" color="255,0,0" filldirection="radial360"/>
 			
-			<texture depth="3" name="WatchMiddle" size="240,240" texture="@http://i65.tinypic.com/xcpv20.png" material="Materials/Transparent Colored" pos="-10,0" justify="center" pivot="center"/>
+			<texture depth="3" name="WatchMiddle" size="240,240" texture="@file:///C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\ACPIcons\UI/WatchMiddle.png" material="Materials/Transparent Colored" pos="-10,0" justify="center" pivot="center"/>
 			
-			<sprite depth="4" name="Stamina" controller="HUDStatBar" stat_type="Stamina" visible="{StatVisible}" size="175,175" pos="-10,0" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" color="0,0,255" fill="{StatFill}" filldirection="radial360" flip="Vertically"/>
+			<sprite depth="4" name="Stamina" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}" size="175,175" pos="-10,0" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" color="0,0,255" fill="{statfill}" filldirection="radial360"/>
 			
-			<texture depth="5" name="WatchMiddle02" size="240,240" texture="@http://i64.tinypic.com/xmqx4w.png" material="Materials/Transparent Colored" pos="-8,-3" justify="center" pivot="center"/>
+			<texture depth="5" name="WatchMiddle02" size="240,240" texture="@file:///C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\ACPIcons\UI/WatchMiddle02.png" material="Materials/Transparent Colored" pos="-8,-3" justify="center" pivot="center"/>
 			
-			<sprite depth="6" name="PlayerLevel" controller="PlayerStatsWindow" visible="{StatVisible}" size="51,51" pos="-47,-1" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{PlayerLevelFill}" color="255,255,0" filldirection="radial360"/>
-			<sprite depth="6" name="Food" controller="HUDStatBar" stat_type="Food" visible="{StatVisible}" size="52,52" pos="28,-2" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{StatFill}" color="0,255,0" filldirection="radial360"/>
-			<sprite depth="6" name="Water" controller="HUDStatBar" stat_type="Water" visible="{StatVisible}" size="47,47" pos="-11,-40" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{StatFill}" color="0,0,255" filldirection="radial360"/>
+			<sprite depth="6" name="PlayerLevel" controller="PlayerStatsWindow" visible="{statvisible}" size="51,51" pos="-47,-1" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{playerlevelfill}" color="255,255,0" filldirection="radial360"/>
+			<sprite depth="6" name="Food" controller="HUDStatBar" stat_type="Food" visible="{statvisible}" size="52,52" pos="28,-2" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{statfill}" color="0,255,0" filldirection="radial360"/>
+			<sprite depth="6" name="Water" controller="HUDStatBar" stat_type="Water" visible="{statvisible}" size="47,47" pos="-11,-40" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{statfill}" color="0,0,255" filldirection="radial360"/>
 			
-			<texture depth="7" name="WatchTop03" size="240,240" texture="@http://i63.tinypic.com/33adyys.png" material="Materials/Transparent Colored" pos="1,-8" justify="center" pivot="center"/>
+			<texture depth="7" name="WatchTop03" size="240,240" texture="@file:///C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\ACPIcons\UI/WatchTop03.png" material="Materials/Transparent Colored" pos="1,-8" justify="center" pivot="center"/>
 			
-			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="-56,-40" font_size="20" color="[beige]" justify="center" pivot="center" text="{PlayerCoreTemp}"/>
-			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="-11,-47" font_size="16" color="[beige]" justify="center" pivot="center" text="{PlayerWater} %"/>
-			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="28,-9" font_size="16" color="[beige]" justify="center" pivot="center" text="{PlayerFood} %"/>
-			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="-48,-11" font_size="16" color="[beige]" justify="center" pivot="center" text="{PlayerLevel}"/>
-			<label depth="8" name="dayTimeLabel" controller="MapStats" size="240,240" pos="-16,35" text=" [DECEA3]{MapDayTime}[-]" font_size="22" justify="center" pivot="center"/>
-			<label depth="8" name="elevLabel" controller="MapStats" size="240,240" pos="30,-40" text=" [DECEA3]{MapElevation} M[-]" font_size="20" justify="center" pivot="center"/>
+			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="-56,-40" font_size="20" color="[beige]" justify="center" pivot="center" text="{playercoretemp}"/>
+			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="-11,-47" font_size="16" color="[beige]" justify="center" pivot="center" text="{playerwater} %"/>
+			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="28,-9" font_size="16" color="[beige]" justify="center" pivot="center" text="{playerfood} %"/>
+			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="-48,-11" font_size="16" color="[beige]" justify="center" pivot="center" text="{playerlevel}"/>
+			<label depth="8" name="dayTimeLabel" controller="MapStats" size="240,240" pos="-16,35" text=" [DECEA3]{mapdaytime}[-]" font_size="22" justify="center" pivot="center"/>
+			<label depth="8" name="elevLabel" controller="MapStats" size="240,240" pos="30,-40" text=" [DECEA3]{mapelevation} M[-]" font_size="20" justify="center" pivot="center"/>
 	</panel>
 	</window>
 	
@@ -47,6 +89,23 @@
 		<label name="slot7" pos="472,0" width="22" height="22" text="  [DECEA3]7" font_size="20" justify="center"/>
 		<label name="slot8" pos="547,0" width="22" height="22" text="  [DECEA3]8" font_size="20" justify="center"/>
 	</window>
+	<!--
+	<window name="mapStatsHUD1" width="400" height="50" pos="-200,-49" controller="MapStats" anchor="CenterTop">
+		<sprite depth="2" name="dayTimeIcon" size="25,25" pos="65,-8" sprite="ui_game_symbol_clock" color="[iconColor]" foregroundlayer="true"/>
+		<label depth="2" name="dayTimeLabel" pos="108,-10" width="172" height="35" text=" [DECEA3]{MapDayTime}[-]" font_size="24"/>
+		
+		<sprite depth="2" name="tempIcon" size="25,25" pos="250,-8" sprite="ui_game_symbol_temperature" color="[iconColor]" foregroundlayer="true"/>
+		<label depth="2" name="tempLabel" pos="290,-10" width="172" height="35" text=" [DECEA3]{MapTemperature}[-]" font_size="24"/>
+	</window>
+	<window name="mapStatsHUD2" width="200" height="50" pos="-330,-5" controller="MapStats" anchor="CenterTop">
+		<sprite depth="2" name="windIcon" size="35,35" pos="135,-6" sprite="ui_game_symbol_wind" color="[iconColor]" foregroundlayer="true"/>
+		<label depth="2" name="windLabel" pos="50,-12" width="172" height="35" text=" [DECEA3]{MapWind} MPH[-]" font_size="24"/>
+	</window>
+	<window name="mapStatsHUD3" width="200" height="50" pos="130,-5" controller="MapStats" anchor="CenterTop">
+		<sprite depth="2" name="elevIcon" size="35,35" pos="35,-6" sprite="ui_game_symbol_climb" color="[iconColor]" foregroundlayer="true"/>
+		<label depth="2" name="elevLabel" pos="85,-12" width="172" height="35" text=" [DECEA3]{MapElevation} M[-]" font_size="24"/>
+	</window>
+	-->
 	
 	<window name="HUDRightStatBars">
 	
@@ -632,6 +691,34 @@
 	</window>
 	
 	<window name="windowToolsCraftingTable" width="228" height="121" panel="Right">
+		<panel style="header.panel">			
+			<sprite style="header.icon" sprite="ui_game_symbol_wrench"/>
+			<label style="header.name" text="TOOLS" text_key="xuiTools" />
+		</panel>
+		
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
+			
+			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
+			required_tools="clawHammer,Trowel,wrench" required_tools_only="true">
+				<required_item_stack name="0"/>
+			</grid>		
+			
+			<!-- <grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
+				<rect>
+					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="anvil" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
+				</rect>
+				<rect>
+					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="calipers" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
+				</rect>
+				<rect>
+					<sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="toolAndDieSet" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/>
+				</rect>
+			</grid> -->
+		</rect>
+		
+	</window>
+	
+	<window name="windowToolsworkbench" width="228" height="121" panel="Right">
 		<panel style="header.panel">			
 			<sprite style="header.icon" sprite="ui_game_symbol_wrench"/>
 			<label style="header.name" text="TOOLS" text_key="xuiTools" />
