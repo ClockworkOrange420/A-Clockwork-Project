@@ -131,10 +131,11 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
+			<window name="windowToolsworkbench" />
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 			<window name="windowCombine" />
-		</window_group>				
+		</window_group>	
 
 		<window_group name="workstation_chemistryStation" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
@@ -166,11 +167,6 @@
 		
 		<window_group name="compass">
 			<window name="windowCompass" />
-			<!--Modded-->
-			<window name="mapStatsHUD1" />
-			<window name="mapStatsHUD2" />
-			<window name="mapStatsHUD3" />
-			<!--End-->
 		</window_group>
 		
 		<window_group name="toolTip">
@@ -197,7 +193,6 @@
 			<window name="windowQuestTracker" anchor="RightTop" />
 			<!--Modded-->
 			<window name="windowToolbeltNumbersHUD" />
-			<window name="ClockworkWatch" />
 			<!--End-->
 		</window_group>
 		

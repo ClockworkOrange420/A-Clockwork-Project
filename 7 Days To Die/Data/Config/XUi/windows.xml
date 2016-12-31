@@ -1,6 +1,32 @@
 <windows>
 	<window name="HUDLeftStatBars">
-		<rect name="hud" pos="93,20" side="left" controller="BuffPopoutList" pivot="BottomLeft" >
+
+			<panel backgroundcolor="[black]">
+				<texture depth="1" pos="250,120" name="WatchBottom03" size="240,240" texture="@file:///C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\ACPIcons\UI/WatchBottom03.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
+				
+				<sprite depth="2" pos="250,120" size="200,200" controller="HUDStatBar" stat_type="Health" visible="{statvisible}" name="BarContent" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="0" color="255,0,0" filldirection="radial360"/>
+				
+				<texture depth="3" pos="250,120" name="WatchMiddle" size="240,240" texture="@file:///C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\ACPIcons\UI/WatchMiddle.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
+				
+				<sprite depth="4" pos="250,120" size="165,165" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}" name="BarContent" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="0" color="0,0,255" filldirection="radial360"/>
+				
+				<texture depth="5" pos="250,117" name="WatchMiddle02" size="240,240" texture="@file:///C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\ACPIcons\UI/WatchMiddle02.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
+			
+				<sprite depth="6" pos="214,119" size="51,51" controller="PlayerStatsWindow" name="PlayerLevel"  visible="{statvisible}" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{playerlevelfill}" color="255,255,0" filldirection="radial360"/>
+				<sprite depth="6" pos="288,119" size="52,52" controller="HUDStatBar" stat_type="Food" visible="{statvisible}" name="BarContent" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="0" color="0,255,0" filldirection="radial360"/>
+				<sprite depth="6" pos="249,82" size="47,47" controller="HUDStatBar" stat_type="Water" visible="{statvisible}" name="BarContent" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="0" color="0,0,255" filldirection="radial360"/>
+			
+				<texture depth="7" pos="260,112" name="WatchTop03" size="240,240" texture="@file:///C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\ACPIcons\UI/WatchTop03.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
+				
+				<label depth="8" pos="297,80" size="240,240" name="TextContent" controller="PlayerStatsWindow" font_size="20" color="[beige]" justify="center" pivot="center" text="{playercoretemp}"/>
+				<label depth="8" pos="249,75" size="240,240" name="TextContent" controller="PlayerStatsWindow" font_size="16" color="[beige]" justify="center" pivot="center" text="{playerwater} %"/>
+				<label depth="8" pos="288,112" size="240,240" name="TextContent" controller="PlayerStatsWindow" font_size="16" color="[beige]" justify="center" pivot="center" text="{playerfood} %"/>
+				<label depth="8" pos="212,110" size="240,240" name="TextContent" controller="PlayerStatsWindow" font_size="16" color="[beige]" justify="center" pivot="center" text="{playerlevel}"/>
+				<label depth="8" pos="250,156" size="240,240" name="dayTimeLabel" controller="MapStats" text=" [DECEA3]{mapdaytime}[-]" font_size="22" justify="center" pivot="center"/>
+				<label depth="8" pos="201,80" size="240,240" name="elevLabel" controller="MapStats"   text=" [DECEA3]{mapelevation} M[-]" font_size="20" justify="center" pivot="center"/>
+			</panel>
+		
+		<rect name="hud" pos="93,30" side="left" controller="BuffPopoutList" pivot="BottomLeft" >
 			<panel width="168" height="43" name="item" visible="false" pivot="right" disableautobackground="true" pos="70, 0" >
 				<sprite depth="3" pos="0,0"  name="Background" sprite="ui_game_popup" height="43" width="162" pivot="center" flip="Horizontally" color="[transparent]" />
 				<sprite depth="4" name="Icon" size="36,32" pos="-58,0" pivot="center" color="[transparent]"/>
@@ -10,7 +36,8 @@
 	</window>
 	
 		
-			<!--texture="@file:///C:\7DtD_ExtTextureMod/minibike_gauge.png"
+			<!--
+			texture="@file:///C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\ACPIcons\UI/WatchBottom03.png"
 			WATCH
 			Bottom http://i64.tinypic.com/2iubzw5.png
 			Bottom 02 http://i68.tinypic.com/160wjkm.png
@@ -49,35 +76,6 @@
 			SilverBulletFlipped http://i66.tinypic.com/30wnq6x.png
 			SilverBullletV2Flipped http://i66.tinypic.com/4ucemb.png
 		-->
-		
-	
-	<window name="ClockworkWatch" pos="-650,-400" anchor="CenterCenter">
-	<panel backgroundcolor="[black]">
-			
-			<texture depth="1" name="WatchBottom03" size="240,240" texture="@file:///C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\ACPIcons\UI/WatchBottom03.png" material="Materials/Transparent Colored" pos="-10,0" justify="center" pivot="center"/>
-			
-			<sprite depth="2" name="Health" controller="HUDStatBar" stat_type="Health" visible="{statvisible}" size="200,200" pos="-10,0" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{statfill}" color="255,0,0" filldirection="radial360"/>
-			
-			<texture depth="3" name="WatchMiddle" size="240,240" texture="@file:///C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\ACPIcons\UI/WatchMiddle.png" material="Materials/Transparent Colored" pos="-10,0" justify="center" pivot="center"/>
-			
-			<sprite depth="4" name="Stamina" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}" size="175,175" pos="-10,0" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" color="0,0,255" fill="{statfill}" filldirection="radial360"/>
-			
-			<texture depth="5" name="WatchMiddle02" size="240,240" texture="@file:///C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\ACPIcons\UI/WatchMiddle02.png" material="Materials/Transparent Colored" pos="-8,-3" justify="center" pivot="center"/>
-			
-			<sprite depth="6" name="PlayerLevel" controller="PlayerStatsWindow" visible="{statvisible}" size="51,51" pos="-47,-1" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{playerlevelfill}" color="255,255,0" filldirection="radial360"/>
-			<sprite depth="6" name="Food" controller="HUDStatBar" stat_type="Food" visible="{statvisible}" size="52,52" pos="28,-2" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{statfill}" color="0,255,0" filldirection="radial360"/>
-			<sprite depth="6" name="Water" controller="HUDStatBar" stat_type="Water" visible="{statvisible}" size="47,47" pos="-11,-40" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{statfill}" color="0,0,255" filldirection="radial360"/>
-			
-			<texture depth="7" name="WatchTop03" size="240,240" texture="@file:///C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\ACPIcons\UI/WatchTop03.png" material="Materials/Transparent Colored" pos="1,-8" justify="center" pivot="center"/>
-			
-			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="-56,-40" font_size="20" color="[beige]" justify="center" pivot="center" text="{playercoretemp}"/>
-			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="-11,-47" font_size="16" color="[beige]" justify="center" pivot="center" text="{playerwater} %"/>
-			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="28,-9" font_size="16" color="[beige]" justify="center" pivot="center" text="{playerfood} %"/>
-			<label depth="8" name="TextContent" controller="PlayerStatsWindow" size="240,240" pos="-48,-11" font_size="16" color="[beige]" justify="center" pivot="center" text="{playerlevel}"/>
-			<label depth="8" name="dayTimeLabel" controller="MapStats" size="240,240" pos="-16,35" text=" [DECEA3]{mapdaytime}[-]" font_size="22" justify="center" pivot="center"/>
-			<label depth="8" name="elevLabel" controller="MapStats" size="240,240" pos="30,-40" text=" [DECEA3]{mapelevation} M[-]" font_size="20" justify="center" pivot="center"/>
-	</panel>
-	</window>
 	
 	<window name="windowToolbeltNumbersHUD" depth="10" width="603" height="22" pos="-313,100" anchor="CenterBottom">		
 		<label name="slot1" pos="22,0" width="22" height="22" text="  [DECEA3]1" font_size="20" justify="center"/>
@@ -89,23 +87,6 @@
 		<label name="slot7" pos="472,0" width="22" height="22" text="  [DECEA3]7" font_size="20" justify="center"/>
 		<label name="slot8" pos="547,0" width="22" height="22" text="  [DECEA3]8" font_size="20" justify="center"/>
 	</window>
-	<!--
-	<window name="mapStatsHUD1" width="400" height="50" pos="-200,-49" controller="MapStats" anchor="CenterTop">
-		<sprite depth="2" name="dayTimeIcon" size="25,25" pos="65,-8" sprite="ui_game_symbol_clock" color="[iconColor]" foregroundlayer="true"/>
-		<label depth="2" name="dayTimeLabel" pos="108,-10" width="172" height="35" text=" [DECEA3]{MapDayTime}[-]" font_size="24"/>
-		
-		<sprite depth="2" name="tempIcon" size="25,25" pos="250,-8" sprite="ui_game_symbol_temperature" color="[iconColor]" foregroundlayer="true"/>
-		<label depth="2" name="tempLabel" pos="290,-10" width="172" height="35" text=" [DECEA3]{MapTemperature}[-]" font_size="24"/>
-	</window>
-	<window name="mapStatsHUD2" width="200" height="50" pos="-330,-5" controller="MapStats" anchor="CenterTop">
-		<sprite depth="2" name="windIcon" size="35,35" pos="135,-6" sprite="ui_game_symbol_wind" color="[iconColor]" foregroundlayer="true"/>
-		<label depth="2" name="windLabel" pos="50,-12" width="172" height="35" text=" [DECEA3]{MapWind} MPH[-]" font_size="24"/>
-	</window>
-	<window name="mapStatsHUD3" width="200" height="50" pos="130,-5" controller="MapStats" anchor="CenterTop">
-		<sprite depth="2" name="elevIcon" size="35,35" pos="35,-6" sprite="ui_game_symbol_climb" color="[iconColor]" foregroundlayer="true"/>
-		<label depth="2" name="elevLabel" pos="85,-12" width="172" height="35" text=" [DECEA3]{MapElevation} M[-]" font_size="24"/>
-	</window>
-	-->
 	
 	<window name="HUDRightStatBars">
 	
