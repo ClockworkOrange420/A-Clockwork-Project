@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 Define a buff: <buff [attributes]><modify [attributes]/></buff> 
-	
+	 
 timeString:
 
 	A time string can contain two types of times, a real-time, or a game-time value.
@@ -49,6 +49,7 @@ built-in buff variables:
 	ondebuff="name" : Specified a new buff to apply when this buff is debuffed.
 	onexpired="name" : Specified a new buff to apply when this buff expires.
 	castsound="sound" : Plays the specified sound when the buff is applied
+			The sound must first be assigned in sounds.xml.
 	ondebuffsound="sound" : Plays the specified sound when the buff is removed by another buff
 	onexpiredsound="sound" : Plays the specified sound when the buff expires
 	type="types" : Specifies the buff type for use when a damage() action is present. This will specify
@@ -111,8 +112,9 @@ built-in buff variables:
 	<modify> attributes:
 		id="number" : This attribute is required and is also saved with gamestate in the saved game. 
 			Adding or Removing modifiers should never re-use the id's inside a <modify>
-		stat="name" : Specified the stat to modify: "health,stamina,gassiness,sickness" are valid.
-		amount="number" : For DOT effects the amount by which to add (or remove if negative) from the stat.
+		stat="name" : Specifies the stat to modify.
+			Valid are: "stamina,health,sickness,gassiness,speedmodifier,wellness,coretemp,food,water"
+	amount="number" : For DOT effects the amount by which to add (or remove if negative) from the stat.
 		rate="number" : For DOT effects this the frequency in seconds to apply the value.
 		modifyMaxValue="number" : To effect the max or capping value of a stat. Cannot be combined with amount or rate.
 		modifyValue="number" : To statically effect the value of a stat (+/-)
@@ -124,14 +126,40 @@ built-in buff variables:
 -->
 
 <buffs>
-	
-<buff id="bleeding" onexpired="infection" duration="60" type="bleeding" actions="debuff(fullBuff);damage(0,5,0,0)" icon="ui_game_symbol_critical" name_key="bleedingOut" description_key="bleedingOutDesc" tooltip_key="bleedingOutTooltip" cures="bandage,firstAidBandage,firstAidKit">
+<buff id="isPlayer" buffif="+full > 0" />
+
+<!--Modded-->
+
+<buff id="woundActivatorClean" duration="30" onexpired="infection" requires="clean" mutex="cured,infection,infection1,infection2,infection3"/>
+<buff id="woundActivatorDirty" duration="15" onexpired="infection" requires="dirty" mutex="cured,infection,infection1,infection2,infection3"/>
+<buff id="woundActivatorGrimy" duration="10" onexpired="infection" requires="grimy" mutex="cured,infection,infection1,infection2,infection3"/>
+<buff id="woundActivatorFilthy" duration="5" onexpired="infection" requires="filthy" mutex="cured,infection,infection1,infection2,infection3"/>
+<buff id="woundActivatorInfectious" duration="1" onexpired="infection" requires="infectious" mutex="cured,infection,infection1,infection2,infection3"/>
+<buff id="bleeding" duration="60" type="bleeding" actions="buff(woundActivatorClean);buff(woundActivatorDirty);buff(woundActivatorGrimy);buff(woundActivatorFilthy);buff(woundActivatorInfectious);debuff(fullBuff);debuff(firstAid);debuff(firstAidLarge);damage(0,5,0,0)" icon="ui_game_symbol_critical" name_key="bleedingOut" description_key="bleedingOutDesc" tooltip_key="bleedingOutTooltip" cures="bandage,firstAidBandage,firstAidKit">
+	<modify id="0" stat="stamina" amount="-1" rate="1"/>
+	<modify id="1" stat="health" amount="-1" rate="1"/>
+</buff>
+
+<!--End-->
+
+<!--
+<buff id="bleeding" duration="60" type="bleeding" actions="buff(woundActivatorClean);buff(woundActivatorDirty);buff(woundActivatorGrimy);buff(woundActivatorFilthy);buff(woundActivatorInfectious);debuff(fullBuff);debuff(firstAid);debuff(firstAidLarge);damage(0,5,0,0)" icon="ui_game_symbol_critical" name_key="bleedingOut" description_key="bleedingOutDesc" tooltip_key="bleedingOutTooltip" cures="bandage,firstAidBandage,firstAidKit">
+	<modify id="0" stat="stamina" amount="-1" rate="1"/>
+	<modify id="1" stat="health" amount="-1" rate="1"/>
+</buff>
+
+<buff id="trapDamage1Trigger" duration="1" type="bleeding" actions="setvar(CTRtrapDmg1, 3);debuff(fullBuff);debuff(firstAid);debuff(firstAidLarge)" />
+<buff id="trapDamage1Effect" buffif="CTRtrapDmg1 greater 0" debuffif="CTRtrapDmg1 less 1" duration="0" type="bleeding" actions="increment(CTRtrapDmg1, -1, 1, 0, 0)"
+	name_key="trapDamage1EffectName" description_key="trapDamage1EffectDesc" tooltip_key="trapDamage1EffectTooltip" icon="ui_game_symbol_critical" >
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="1"/>
 </buff>
 
 
-<!-- 
+<buff id="trapDamageZombie" mutex="isPlayer" duration="2" stack="reset" >
+	<modify id="1" stat="health" amount="-33" rate="1"/>
+</buff>
+
 
 Drunkeness: Starts with the DrinkBeer buff, which is triggered by the Beer item each time a beer is consumed.
 
@@ -191,17 +219,31 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="0" stat="speedmodifier" setValue="0.40"/>
 </buff>
 
-<!-- todo ideally this buff is only applied on a critical hit to the heart region and not applied to zombies. Armor would limit this too -->
-<buff id="arrowCriticalBleedout" duration="50" causes="arrow,ironArrow,steelArrow,crossbowBolt,ironCrossbowBolt,steelCrossbowBolt,explodingCrossbowBolt" type="bleeding"
+<!-- todo ideally this buff is only applied on a critical hit to the heart region and not applied to zombies. Armor would limit this too 
+<buff id="arrowCriticalBleedout" duration="50" causes="arrow,ironArrow,steelArrow,ironCrossbowBolt,steelCrossbowBolt,explodingCrossbowBolt" type="bleeding"
 	icon="ui_game_symbol_critical" name_key="arrowCriticalBleedout" description_key="arrowCriticalBleedoutDesc" tooltip_key="arrowCriticalBleedoutTooltip">
 	<modify id="0" stat="stamina" amount="-1" rate="1" type="bleeding"/>
 	<modify id="1" stat="health" amount="-1" rate="1" type="bleeding"/>
-</buff>	
+</buff>
+
+   Modded-->
+
+<buff id="arrowCriticalBleedout" duration="50" actions="buff(woundActivatorClean);buff(woundActivatorDirty);buff(woundActivatorGrimy);buff(woundActivatorFilthy);buff(woundActivatorInfectious);debuff(fullBuff)" causes="arrow,ironArrow,steelArrow,crossbowBolt,ironCrossbowBolt,steelCrossbowBolt,explodingCrossbowBolt" type="bleeding" icon="ui_game_symbol_critical" name_key="arrowCriticalBleedout" description_key="arrowCriticalBleedoutDesc" tooltip_key="arrowCriticalBleedoutTooltip">
+	<modify id="0" stat="stamina" amount="-1" rate="1" type="bleeding"/>
+	<modify id="1" stat="health" amount="-1" rate="1" type="bleeding"/>
+</buff>
+
+<!--End-->
 
 <buff id="CoffeeStaminaBoost" duration="180" stack="extend" type="staminaup" icon="ui_game_symbol_coffee"
 	name_key="caffeineBuzz" description_key="caffeineBuzzDesc" tooltip_key="caffeineBuzzTooltip" causes="coffee">
 	<modify id="0" stat="stamina" amount="2" rate="1"/>
 	<modify id="1" stat="coretemp" modifyValue="10"/>
+</buff>
+
+<buff id="megaCrushBuff" duration="60" stack="extend" type="staminaup" icon="ui_game_symbol_run"
+	name_key="megaCrushBuffName" description_key="megaCrushBuffDesc" tooltip_key="megaCrushBuffTooltip" causes="megaCrush">
+	<modify id="0" stat="stamina" amount="10" rate="1"/>
 </buff>
 
 <buff id="yuccaJuiceCooling" duration="180" stack="extend" type="staminaup" icon="ui_game_symbol_tea"
@@ -224,8 +266,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="1" stat="health" amount="-100" rate="1"/>
 </buff>
 
-
-<buff id="dysentery" mutex="dysentery2" type="sickness" actions="increment(@wellness, -0.02, 30t, 0, 0)" duration="2400" onexpired="dysentery2"
+<buff id="dysentery" mutex="cured,dysentery2" type="sickness" actions="increment(@wellness, -0.02, 30t, 0, 0)" duration="2400" onexpired="dysentery2"
 	icon="ui_game_symbol_dysentery" castsound="playersick" name_key="dysentery" description_key="dysenteryDesc" tooltip_key="dysenteryTooltip" cures="goldenRodTea,redTea,vitamins,herbalAntibiotics,antibiotics" causes="bottledRiverWater,canMurkyWater">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 </buff>
@@ -235,49 +276,94 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="0" stat="stamina" amount="-2" rate="1"/>
 	<modify id="1" stat="health" amount="-5" rate="60"/>
 </buff>			
+<!--
+<buff id="foodPoisoning" duration="30" actions="increment(@wellness, -.5, 14, 0, 0)" type="sickness" icon="ui_game_symbol_food_poisoning" name_key="foodPoisoning" description_key="foodPoisoningDesc" tooltip_key="foodPoisoningTooltip" causes="moldyBread,shamSandwich,rawMeat,rottingFlesh,egg">
+	<modify id="0" stat="stamina" amount="-10" rate="1"/>
+</buff>-->
+
+<!--Modded-->
 
 <buff id="foodPoisoning" duration="120" actions="increment(@wellness, -.5, 30, 0, 0)" type="sickness" icon="ui_game_symbol_food_poisoning" name_key="foodPoisoning" description_key="foodPoisoningDesc" tooltip_key="foodPoisoningTooltip" causes="moldyBread,shamSandwich,rawMeat,rottingFlesh,egg">
 	<modify id="0" stat="stamina" amount="-10" rate="1"/>
 </buff>
 
+<!--End-->
+
 <buff id="steroids" duration="3000" actions="addimmunity(sickness)" icon="ui_game_symbol_pills" name_key="steroids" description_key="steroidsDesc" tooltip_key="steroidsTooltip"/>
-
+<!--
 <buff id="cured" duration="3000" stack="reset" icon="ui_game_symbol_pills" name_key="cured" description_key="curedDesc" tooltip_key="curedTooltip"/>
-
+-->
 <buff id="smelly" duration="30" smell="largeSmell" icon="ui_game_symbol_dysentery" name_key="smelly" description_key="smellyDesc" tooltip_key="smellyTooltip"/>
 
-<buff id="infection" mutex="cured,infection1,infection2,infection3,infection4" duration="3000" onexpired="infection1" type="sickness"
-	icon="ui_game_symbol_infection" name_key="infection" description_key="infectionDesc" tooltip_key="infectionTooltip" cures="Honey_Poultice,antibiotics,herbalAntibiotics">
+<!--Modded-->
+
+<buff id="recoveryRemover" duration="1" actions="debuff(recovering2);debuff(recovering3);debuff(recovering4)"/>
+<buff id="cured" duration="2400t" stack="reset" icon="ui_game_symbol_muscle" name_key="cured" description_key="curedDesc" tooltip_key="curedTooltip"/>
+<buff id="recovering" duration="2400t" ondebuff="recoveryRemover" requires="infection" mutex="cured,recoveringSmall,recoveringTiny" stack="reset" actions="increment(infected, -1, 50t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
+<buff id="recoveringSmall" duration="1200t" ondebuff="recoveryRemover" requires="infection" mutex="cured,recovering,recoveringTiny" stack="reset" actions="increment(infected, -1, 50t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
+<buff id="recoveringTiny" duration="600t" ondebuff="recoveryRemover" requires="infection" mutex="cured,recovering,recoveringSmall" stack="reset" actions="increment(infected, -1, 50t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
+<buff id="recovering2" requires="sleepingBagEffect" debuffif="CTRbedroll less 1" actions="increment(infected, -0.02, 2t, 0, 0)"/>
+<buff id="recovering3" requires="sleepingBedEffect" debuffif="CTRbed less 1" actions="increment(infected, -0.04, 2t, 0, 0)"/>
+<buff id="recovering4" requires="sleepingBigBedEffect" debuffif="CTRbigbed less 1" actions="increment(infected, -0.06, 2t, 0, 0)"/>
+
+<buff id="infectionActivatorClean" duration="1" requires="clean" mutex="cured,infection,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
+<buff id="infectionActivatorDirty" duration="1" requires="dirty" mutex="cured,infection,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
+<buff id="infectionActivatorGrimy" duration="1" requires="grimy" mutex="cured,infection,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
+<buff id="infectionActivatorFilthy" duration="1" requires="filthy" mutex="cured,infection,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
+<buff id="infectionActivatorInfectious" duration="1" requires="infectious" mutex="cured,infection,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
+<buff id="infection" duration="0" ondebuff="cured" debuffif="infected lequal 1" mutex="cured,infection1,infection2,infection3" actions="increment(infected, 1, 100t, 0, 0)" type="sickness">
+	<modify id="0" stat="stamina" amount="-1" rate="1"/>
+</buff>
+<buff id="infection1" buffif="infected gequal 24" debuffif="infected lequal 23" mutex="infection2,infection3" type="sickness" icon="ui_game_symbol_infection" name_key="infection1" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics">
+	<modify id="0" stat="stamina" amount="-1" rate="1"/>
+	<modify id="1" stat="health" amount="-1" rate="30"/>
+</buff>
+<buff id="infection2" buffif="infected gequal 48" debuffif="infected lequal 47" mutex="infection3" actions="debuff(infection1);damage(2,100t,0,30);increment(@wellness, -0.25, 100t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="infection2" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics">
+	<modify id="0" stat="stamina" amount="-1" rate="1"/>
+	<modify id="1" stat="health" amount="-1" rate="15"/>
+</buff>
+<buff id="infection3" buffif="infected gequal 72" debuffif="infected lequal 71" actions="debuff(infection2);damage(5,100t,0,15);increment(@wellness, -0.25, 100t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="infection3" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics">
+	<modify id="0" stat="stamina" amount="-2" rate="1"/>
+	<modify id="1" stat="health" amount="-1" rate="5"/>
+</buff>
+<buff id="infection4" buffif="infected gequal 96" actions="kill" icon="ui_game_symbol_infection" name_key="infection4" description_key="infection4Desc" tooltip_key="infection4Tooltip"/>
+
+<!--End-->
+
+<!--
+<buff id="infection" mutex="cured,infection1,infection2,infection3,infection4" duration="9000" onexpired="infection1" type="sickness"
+	icon="ui_game_symbol_infection" name_key="infection" description_key="infectionDesc" tooltip_key="infectionTooltip" cures="foodHoney,antibiotics,herbalAntibiotics">
 </buff>
 
-<buff id="infection1" duration="3000" onexpired="infection2" type="sickness"
+<buff id="infection1" duration="9000" actions="debuff(infection)" onexpired="infection2" type="sickness"
 	icon="ui_game_symbol_infection" name_key="infection1" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics">
 	<modify id="0" stat="stamina" amount="-0.3" rate="1"/>
 </buff>
 
-<buff id="infection2" duration="3000" actions="damage(25,2100t,0,3);increment(@wellness, -0.25, 100t, 0, 0)" onexpired="infection3" type="sickness"
+<buff id="infection2" duration="9000" actions="damage(25,2100t,0,3);increment(@wellness, -0.25, 100t, 0, 0);debuff(infection);debuff(infection1)" onexpired="infection3" type="sickness"
 	icon="ui_game_symbol_infection" name_key="infection2" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 </buff>
 
-<buff id="infection3" duration="3000" actions="damage(25,800t,0,3);increment(@wellness, -0.25, 100t, 0, 0)" onexpired="infection4" type="sickness"
+<buff id="infection3" duration="3000" actions="damage(25,800t,0,3);increment(@wellness, -0.25, 100t, 0, 0);debuff(infection);debuff(infection1);debuff(infection2)" onexpired="infection4" type="sickness"
 	icon="ui_game_symbol_infection" name_key="infection3" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics">
 	<modify id="0" stat="stamina" amount="-2" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="3"/>
 </buff>
 
 <buff id="infection4" actions="kill" icon="ui_game_symbol_infection" name_key="infection4" description_key="infection4Desc" tooltip_key="infection4Tooltip"/>
+-->
 
-<buff id="firstAid" duration="30" stack="reset" type="healthup" icon="ui_game_symbol_medical" name_key="firstAid" description_key="firstAidDesc" tooltip_key="firstAidTooltip" causes="firstAidBandage">
+<buff id="firstAid" duration="30" stack="extend" type="healthup" icon="ui_game_symbol_medical" name_key="firstAid" description_key="firstAidDesc" tooltip_key="firstAidTooltip" causes="firstAidBandage">
 	<modify id="1" stat="health" amount="1" rate="1"/>
 </buff>	
 
-<buff id="firstAidLarge" duration="10" stack="reset" type="healthup" icon="ui_game_symbol_medical" name_key="firstAidLarge" description_key="firstAidLargeDesc" tooltip_key="firstAidLargeTooltip" causes="firstAidKit">
+<buff id="firstAidLarge" duration="10" stack="extend" type="healthup" icon="ui_game_symbol_medical" name_key="firstAidLarge" description_key="firstAidLargeDesc" tooltip_key="firstAidLargeTooltip" causes="firstAidKit">
 	<modify id="1" stat="health" amount="1" rate="1"/>
 </buff>		
 
-<buff id="painkillerBuff" duration="60" stack="reset" type="healthup" icon="ui_game_symbol_pills" name_key="painKillers" description_key="painKillersDesc" tooltip_key="painKillersTooltip" causes="painkillers">
-	<modify id="1" stat="health" amount="0.5" rate="1"/>
+<buff id="painkillerBuff" duration="90" stack="extend" type="healthup" icon="ui_game_symbol_pills" name_key="painkillersBuffName" description_key="painkillersBuffDesc" tooltip_key="painkillersBuffTooltip" causes="painkillers">
+	<modify id="1" stat="health" amount="0.34" rate="1"/>
 </buff>	
 
 <buff id="internalBleeding" duration="10" stack="reset" actions="damage(0,1,0,1);damage(0,3,0,0)" type="bleeding" icon="ui_game_symbol_critical" name_key="internalBleeding" description_key="internalBleedingDesc" tooltip_key="internalBleedingTooltip" causes="brokenGlass">
@@ -285,11 +371,11 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="1" stat="health" amount="-15" rate="1"/>
 </buff>
 
-<buff id="brokenLeg" duration="9000" stack="reset" actions="debuff(firstAid);debuff(splint);debuff(sprainedLeg);buff(brokenLeg2)" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="brokenLeg" description_key="brokenLegDesc" tooltip_key="brokenLegTooltip" cures="splint">
+<!--Modded-->
+
+<buff id="brokenLeg" duration="9000" stack="reset" actions="debuff(firstAid);debuff(splint);debuff(sprainedLeg);buff(woundActivatorClean);buff(woundActivatorDirty);buff(woundActivatorGrimy);buff(woundActivatorFilthy);buff(woundActivatorInfectious)" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="brokenLeg" description_key="brokenLegDesc" tooltip_key="brokenLegTooltip" cures="splint">
 	<modify id="0" stat="speedmodifier" mulValue="0.6"/>
 </buff>
-
-<buff id="brokenLeg2" onexpired="infection" duration="60" stack="reset" cures="splint"/>
 
 <buff id="splint" overrides="brokenLeg,sprainedLeg" type="speedmodifier" overrideicon="true" icon="ui_game_symbol_splint" name_key="splintedLeg" description_key="splintedLegDesc" tooltip_key="splintedLegTooltip">
 	<modify id="0" stat="speedmodifier" mulValue="1.2"/>
@@ -301,11 +387,37 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="0" stat="speedmodifier" mulValue="0.80"/>			
 </buff>
 
-<buff id="stunned" mutex="stunCooldown" duration="4" actions="increment(@wellness, -0.5, 0, 0, 1)" onexpired="stunCooldown" type="speedmodifier" icon="ui_game_symbol_stunned" name_key="stunned" description_key="stunnedDesc" tooltip_key="stunnedTooltip">
+<!--End-->
+<!--
+<buff id="brokenLeg" duration="9000" stack="reset" actions="debuff(firstAid);debuff(splint);debuff(sprainedLeg)" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="brokenLeg" description_key="brokenLegDesc" tooltip_key="brokenLegTooltip" cures="splint">
+	<modify id="0" stat="speedmodifier" mulValue="0.6"/>
+</buff>	
+
+<buff id="splint" overrides="brokenLeg,sprainedLeg" type="speedmodifier" overrideicon="true" icon="ui_game_symbol_splint" name_key="splintedLeg" description_key="splintedLegDesc" tooltip_key="splintedLegTooltip">
+	<modify id="0" stat="speedmodifier" mulValue="1.2"/>
+	<modify id="1" buff="brokenLeg" tickrate="2"/>
+	<modify id="2" buff="sprainedLeg" tickrate="2"/>
+</buff>
+	
+<buff id="sprainedLeg" mutex="brokenLeg" type="speedmodifier" duration="2400" actions="debuff(firstAid);debuff(splint)" icon="ui_game_symbol_brokenbone" name_key="sprainedLeg" description_key="sprainedLegDesc" tooltip_key="sprainedLegTooltip" cures="splint">
+	<modify id="0" stat="speedmodifier" mulValue="0.80"/>			
+</buff>-->
+
+<buff id="stunned" mutex="stunCooldown,painkillerBuff,Buzzed,Drunk" duration="4" actions="increment(@wellness, -0.5, 0, 0, 1)" onexpired="stunCooldown" type="speedmodifier" icon="ui_game_symbol_stunned" name_key="stunned" description_key="stunnedDesc" tooltip_key="stunnedTooltip">
 	<modify id="0" stat="speedmodifier" mulValue="0.1"/>
 </buff>	
 <buff id="stunCooldown" duration="3" stack="discard"/>
+<!--
+<buff id="blockBurn2Trigger" duration="1" actions="increment(CTRblockBurn2, 1, 1, 0, 0)" />
+<buff id="blockBurn2Effect" buffif="CTRblockBurn2 greater 1" debuffif="CTRblockBurn2 less 1" duration="0" 
+	name_key="blockBurnEffectName" description_key="blockBurnEffectDesc" tooltip_key="blockBurnEffectTooltip" icon="ui_game_symbol_fire"
+	actions="increment(CTRblockBurn2, -1, 1, 0, 0);attach(ParticleEffects/p_onFire, @impact);damage(2,1,0,0)" />
 
+<buff id="blockBurn3Trigger" duration="1" actions="increment(CTRblockBurn3, 1, 1, 0, 0)" />
+<buff id="blockBurn3Effect" buffif="CTRblockBurn3 greater 1" debuffif="CTRblockBurn3 less 1" duration="0" 
+	name_key="blockBurnEffectName" description_key="blockBurnEffectDesc" tooltip_key="blockBurnEffectTooltip" icon="ui_game_symbol_fire"
+	actions="increment(CTRblockBurn3, -1, 1, 0, 0);attach(ParticleEffects/p_onFire, @impact);damage(3,1,0,0)" />
+-->
 <buff id="burningSmall" mutex="burning" duration="10" debuffif="+water > 1" ffcheck="true" actions="attach(ParticleEffects/p_onFire, @impact);damage(0,1,0,1);damage(0,2,0,0)" icon="ui_game_symbol_fire" name_key="burningSmall" description_key="burningSmallDesc" tooltip_key="burningSmallTooltip" cures="canBoiledWater,bottledWater,goldenRodTea,redTea">
 	<modify id="1" stat="health" amount="-2" rate="1"/>
 </buff>
@@ -341,29 +453,25 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="smell" duration="0" icon="ui_game_symbol_smell" name_key="smell" description_key="smellDesc" tooltip_key="smellTooltip"/>
 
 <buff id="wellnessSmallGain" duration="1000" stack="discard" actions="increment(@wellness, 1, 0, 0, 1)" icon="ui_game_symbol_smell" name_key="wellnessSmallGain" description_key="wellnessSmallGainDesc" tooltip_key="wellnessSmallGainTooltip"/>
-
-<buff id="fullBuff" mutex="bleeding" buffif="food > 0.5" debuffif="food lequal 0.5" icon="ui_game_symbol_natural_healing" name_key="fullBuff" description_key="fullBuffDesc" tooltip_key="fullBuffTooltip">
-	<modify id="0" stat="health" amount="1" rate="60" />
-</buff>
 <!--
 <buff id="warmByFire" duration="0" stack="discard" buffif="+heatSource gequal 1" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
 	<modify id="0" stat="coretemp" modifyValue="30"/>
 </buff>
 -->
 <buff id="freezing" mutex="hot,overheated,heat1,heat2,hypo1,hypo2" duration="0" stack="discard"	buffif="coretemp lequal 30" debuffif="coretemp greater 30"
-	type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_cold" name_key="freezing" description_key="freezingDesc" tooltip_key="freezingTooltip" actions="attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson)" cures="coffee,meatStew,vegetableStew,leatherDuster">
+	type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_cold" name_key="freezing" description_key="freezingDesc" tooltip_key="freezingTooltip" actions="attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson);addtip(coldWeatherTip)" cures="coffee,meatStew,leatherDuster,hoodedSweatshirtWhite,denimPants">
 	<modify id="0" stat="food" amount="-1" rate="10"/>
 </buff>
 
 <buff id="hypo1" mutex="hot,overheated,heat1,heat2,hypo2" duration="0" stack="discard" buffif="coretemp lequal 20" debuffif="coretemp greater 20"
-	actions="debuff(freezing);attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson)" type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_cold" name_key="hypo1" description_key="hypo1Desc" tooltip_key="hypo1Tooltip" cures="coffee,meatStew,vegetableStew,leatherDuster">
+	actions="debuff(freezing);attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson)" type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_cold" name_key="hypo1" description_key="hypo1Desc" tooltip_key="hypo1Tooltip" cures="coffee,meatStew,leatherDuster,hoodedSweatshirtWhite,denimPants">
 	<modify id="0" stat="speedmodifier" mulValue="0.8"/>
 	<modify id="1" stat="food" amount="-1" rate="10"/>
 	<modify id="2" stat="stamina" amount="-1" rate="1"/>
 </buff>
 
 <buff id="hypo2" mutex="hot,overheated,heat1,heat2" duration="0" stack="discard" buffif="coretemp lequal 10" debuffif="coretemp greater 10"
-	actions="damage(0,10,0,0);debuff(freezing);debuff(hypo1);attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson)" type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_cold" name_key="hypo2" description_key="hypo2Desc" tooltip_key="hypo2Tooltip" cures="coffee,meatStew,vegetableStew,leatherDuster">
+	actions="damage(0,10,0,0);debuff(freezing);debuff(hypo1);attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson)" type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_cold" name_key="hypo2" description_key="hypo2Desc" tooltip_key="hypo2Tooltip" cures="coffee,meatStew,leatherDuster,hoodedSweatshirtWhite,denimPants">
 	<modify id="0" stat="speedmodifier" mulValue="0.7"/>
 	<modify id="1" stat="food" amount="-1" rate="7"/>
 	<modify id="2" stat="stamina" amount="-2" rate="1"/>
@@ -371,7 +479,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 </buff>
 
 <buff id="hypo3" mutex="hot,overheated,heat1,heat2" duration="0" stack="discard" buffif="coretemp lequal 0" debuffif="coretemp greater 0"
-	actions="damage(0,8,0,0);debuff(freezing);debuff(hypo2);attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson)" type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_cold" name_key="hypo3" description_key="hypo3Desc" tooltip_key="hypo3Tooltip" cures="coffee,meatStew,vegetableStew,leatherDuster">
+	actions="damage(0,8,0,0);debuff(freezing);debuff(hypo2);attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson)" type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_cold" name_key="hypo3" description_key="hypo3Desc" tooltip_key="hypo3Tooltip" cures="coffee,meatStew,leatherDuster,hoodedSweatshirtWhite,denimPants">
 	<modify id="0" stat="speedmodifier" mulValue="0.5"/>
 	<modify id="1" stat="food" amount="-1" rate="5"/>
 	<modify id="2" stat="stamina" amount="-3" rate="1"/>
@@ -379,19 +487,19 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 </buff>
 
 <buff id="overheated" mutex="heat1,heat2,cold,freezing,hypo1,hypo2" duration="0" stack="discard" buffif="coretemp gequal 100" debuffif="coretemp less 100"
-	type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_hot" name_key="overheated" description_key="overheatedDesc" tooltip_key="overheatedTooltip" cures="foodYuccaJuice,redTea,plantFiberHat">
+	type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_hot" name_key="overheated" description_key="overheatedDesc" tooltip_key="overheatedTooltip" actions="addtip(hotWeatherTip)" cures="foodYuccaJuice,redTea,animalHidePoncho,plantFiberHat,tankTopWhite,denimShortsPants">
 	<modify id="1" stat="water" amount="-1" rate="10"/>
 </buff>
 
 <buff id="heat1" mutex="heat2,cold,freezing,hypo1,hypo2" duration="0" stack="discard" buffif="coretemp gequal 110" debuffif="coretemp less 110"
-	actions="debuff(overheated)" type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_hot" name_key="heat1" description_key="heat1Desc" tooltip_key="heat1Tooltip" cures="foodYuccaJuice,redTea,plantFiberHat">
+	actions="debuff(overheated)" type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_hot" name_key="heat1" description_key="heat1Desc" tooltip_key="heat1Tooltip" cures="foodYuccaJuice,redTea,animalHidePoncho,plantFiberHat,tankTopWhite,denimShortsPants">
 	<modify id="0" stat="speedmodifier" mulValue="0.7"/>
 	<modify id="1" stat="water" amount="-1" rate="7"/>
 	<modify id="2" stat="stamina" amount="-1" rate="1"/>
 </buff>
 
 <buff id="heat2" mutex="cold,freezing,hypo1,hypo2" duration="0" stack="discard" buffif="coretemp gequal 120" debuffif="coretemp less 120"
-	actions="damage(0,8,0,0);debuff(overheated);debuff(heat1)" type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_hot" name_key="heat2" description_key="heat2Desc" tooltip_key="heat2Tooltip" cures="foodYuccaJuice,redTea,plantFiberHat">
+	actions="damage(0,8,0,0);debuff(overheated);debuff(heat1)" type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_hot" name_key="heat2" description_key="heat2Desc" tooltip_key="heat2Tooltip" cures="foodYuccaJuice,redTea,animalHidePoncho,plantFiberHat,tankTopWhite,denimShortsPants">
 	<modify id="0" stat="speedmodifier" mulValue="0.5"/>
 	<modify id="1" stat="water" amount="-1" rate="5"/>
 	<modify id="2" stat="stamina" amount="-3" rate="1"/>
@@ -403,10 +511,43 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="testBreath" duration="0" stack="discard" actions="attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson)" icon="ui_game_symbol_cold" description_key=""/>
 
 
-<buff id="shotgunWound" duration="3" stack="extend" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="shotgunWound" description_key="shotgunWoundDesc" tooltip_key="shotgunWoundTooltip">
+<buff id="shotgunWound" mutex="painkillerBuff" duration="3" stack="extend" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="shotgunWound" description_key="shotgunWoundDesc" tooltip_key="shotgunWoundTooltip">
 	<modify id="0" stat="speedmodifier" mulValue="0.4"/>
 </buff>
 
+<!--Modded-->
+
+<buff id="sleepingBagTrigger" duration="1" actions="setvar(CTRbedroll, 3)"/>
+<buff id="sleepingBagEffect" duration="0" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(CTRbedroll, -1, 1, 0, 0)"
+	icon="ui_game_symbol_map_bed" name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip">
+	<modify id="0" stat="health" amount="1" rate="5" />
+	<modify id="0" stat="stamina" amount="1" rate="5" />
+</buff>
+<buff id="sleepingBagEffect2" duration="0" mutex="rested" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
+
+<buff id="sleepingBedTrigger" duration="1" actions="setvar(CTRbed, 3)" />
+<buff id="sleepingBedEffect" duration="0" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(CTRbed, -1, 1, 0, 0)"
+	name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip" icon="ui_game_symbol_map_bed">
+	<modify id="0" stat="health" amount="2" rate="5" />
+	<modify id="0" stat="stamina" amount="1" rate="3" />
+</buff>
+<buff id="sleepingBedEffect2" duration="0" mutex="rested" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
+
+<buff id="sleepingBigBedTrigger" duration="1" actions="setvar(CTRbigbed, 3)" />
+<buff id="sleepingBigBedEffect" duration="0" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(CTRbigbed, -1, 1, 0, 0)"
+	name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip" icon="ui_game_symbol_map_bed">
+	<modify id="0" stat="health" amount="3" rate="5" />
+	<modify id="0" stat="stamina" amount="1" rate="3" />
+</buff>
+<buff id="sleepingBigBedEffect2" duration="0" mutex="rested" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
+
+<buff id="asphaltStaBoostTrigger" duration="1" actions="setvar(CTRroadrun, 3)" />
+<buff id="asphaltStaminaEffect" duration="0" buffif="CTRroadrun greater 0" debuffif="CTRroadrun less 1" actions="increment(CTRroadrun, -1, 1, 0, 0)" >
+	<modify id="0" stat="stamina" amount="1" rate="2"/>
+</buff>
+
+<!--End-->
+<!--
 <buff id="sleepingBagTrigger" duration="1" actions="setvar(CTRbedroll, 10)" />
 <buff id="sleepingBagEffect" duration="0" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(CTRbedroll, -3, 2, 0, 0)"
 	icon="ui_game_symbol_map_bed" name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip">
@@ -432,7 +573,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="asphaltStaminaEffect" duration="0" buffif="CTRroadrun greater 0" debuffif="CTRroadrun less 1" actions="increment(CTRroadrun, -1, 1, 0, 0)" >
 	<modify id="0" stat="stamina" amount="1" rate="2"/>
 </buff>
-<!-- GTC
+
 <buff id="asphaltStaminaEffect" duration="0" buffif="CTRroadrun greater 0" debuffif="CTRroadrun less 1" actions="increment(CTRroadrun, -1, 1, 0, 0)"
 	icon="ui_game_symbol_run" name_key="Road Runner" description_key="Meep meep!" tooltip_key="Meep meep!">
 	<modify id="0" stat="stamina" amount="1" rate="1"/>
@@ -450,9 +591,176 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="radiation" type="sickness" buffif="radiation greater 0" debuffif="radiation equals 0" icon="ui_game_symbol_radiation" name_key="radiation" description_key="radiationDesc" tooltip_key="radiationTooltip">
 </buff>
 
-<buff id="cured2" stack="reset" duration="3000" actions="increment(@wellness, 0.035, 100, 0, 0)" />
+<!--Modded-->
 
-<buff id="warmByFire" onexpired="warmByFire2" duration="0" stack="discard" buffif="+heatSource gequal 1" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
+<buff id="bloodDrawTrigger" duration="1" actions="increment(BDKbloodLoss, 50, 1, 0, 0)" />
+<buff id="bloodDrawDecay" duration="0" buffif="BDKbloodLoss greater 0" debuffif="BDKbloodLoss less 1" actions="increment(BDKbloodLoss, -5, 50t, 0, 0)" />
+<buff id="bloodBagDecay" duration="1" actions="increment(BDKbloodLoss, -25, 1, 0, 0)" />
+
+<buff id="bloodDrawWarn" stack="discard" mutex="bloodDrawWeak,bloodDrawSick" buffif="BDKbloodLoss greater 100" debuffif="BDKbloodLoss lequal 50" duration="0"
+	icon="ui_game_symbol_food_poisoning" name_key="BDKWarning" description_key="BDKWarningDesc" tooltip_key="BDKWarningDesc" >
+	<modify id="1" stat="stamina" amount="-.5" rate="1"/>
+</buff>
+
+<buff id="bloodDrawWeak" stack="discard" mutex="bloodDrawSick" buffif="BDKbloodLoss greater 150" debuffif="BDKbloodLoss lequal 100" duration="0" actions="debuff(bloodDrawWarn)"
+	icon="ui_game_symbol_critical" name_key="BDKWeak" description_key="BDKWeakDesc" tooltip_key="BDKWeakDesc" >
+	<modify id="0" stat="wellness" amount="-.25" rate="60" />
+	<modify id="1" stat="stamina" amount="-1" rate="1"/>
+</buff>
+
+<buff id="bloodDrawSick" stack="discard" buffif="BDKbloodLoss greater 200" debuffif="BDKbloodLoss lequal 150" duration="0" actions="debuff(bloodDrawWarn);debuff(bloodDrawWeak)"
+	icon="ui_game_symbol_death" name_key="BDKSick" description_key="BDKSickDesc" tooltip_key="BDKSickDesc" >
+	<modify id="0" stat="wellness" amount="-.5" rate="60" />
+	<modify id="1" stat="stamina" amount="-2" rate="1"/>
+	<modify id="2" stat="speedmodifier" setValue="0.80"/>
+</buff>
+
+<buff id="bloodDrawDead" stack="discard" buffif="BDKbloodLoss greater 250" actions="kill"/>
+<!--End-->
+
+<!-- Snowberries double your natural water consumption. If you eat too much they are poisonous. Fun stuff. -->
+<buff id="eatSnowberryTrigger" duration="1" actions="increment(CTRsnowberry, 144, 0, 0, 1)"/>
+<buff id="eatsnowberryJuiceTrigger" duration="1" actions="increment(CTRsnowberry, 720, 0, 0, 1);buff(snowberryWarmingBuff)"/>
+<buff id="eatSnowberryExtractTrigger" duration="1" actions="increment(CTRsnowberry, 1640, 0, 0, 1)"/>
+<!-- Unskilled food/water consumption: 80% per RT hour, 1% in 45 sec.
+snowberryJuice hydrates you for 450 sec.
+snowberryPlant feeds you for 90 sec. -->
+<buff id="metabolizeSnowberryBuff" buffif="CTRsnowberry greater 0" debuffif="CTRsnowberry less 1" actions="increment(CTRsnowberry, -10, 10, 0, 0);min(CTRsnowberry, 0)">
+	<modify id="1" stat="water" amount="-1" rate="45"/>
+</buff>
+
+<buff id="snowberryPoisonBuff" duration="0" buffif="CTRsnowberry greater 1040" debuffif="CTRsnowberry less 1040"
+	castsound="Player_*sick5" causes="snowberryPlant,snowberryJuice,snowberryExtract"
+	type="disease" icon="ui_game_symbol_skull" name_key="snowberryPoisonName" description_key="snowberryPoisonDesc" tooltip_key="snowberryPoisonTooltip">
+	<modify id="0" stat="health" amount="-1" rate="20"/>
+	<modify id="1" stat="wellness" amount="-.1" rate="20" />
+</buff>
+
+<buff id="snowberryWarmingBuff" duration="420" stack="extend" type="staminaup" icon="ui_game_symbol_coffee"
+	name_key="snowberryWarmingName" description_key="snowberryWarmingDesc" tooltip_key="snowberryWarmingTooltip" causes="snowberryJuice">
+	<modify id="1" stat="coretemp" modifyValue="15"/>
+</buff>	
+
+<buff id="redPillBuff" duration="1" actions="setvar(beers,0);setvar(BDKbloodLoss,0);setvar(CTRbed,0);setvar(CTRbedroll,0);setvar(CTRbigbed,0);setvar(CTRblockBurn2,0);setvar(CTRblockBurn3,0);setvar(CTRroadrun,0);setvar(CTRsnowberry,0);setvar(CTRtrapDmg1,0)"/>
+
+<buff id="autogendertest" duration="1" castsound="Player_*painlg1"/>
+<!--
+foodHoney
+foodYuccaFruit, foodYuccaJuice
+canBeef, etc
+corn
+shamSandwich
+Meat
+potato
+blueberries
+egg, boiled
+mushrooms
+Tomato
+TomatoSoup
+Creamed_Corn
+Chicken_Noodle_Soup
+Mushroom_Soup
+Bread
+
+Bacon/ eggs
+Pie
+CB A Jam
+Stew
+
+<buff id="eatBlueberry" duration="1" actions="increment(Blueberry, 1, 1, 0, 0);max(Blueberry, 50)"/>
+<buff id="MetabolizeBlueberry" buffif="Blueberry greater 0" debuffif="Blueberry less 1" actions="increment(Blueberry, -1, 100t, 0, 0);min(Blueberry, 0)"/>
+
+<buff id="PositiveBB5" mutex="PositiveBB10" duration="0" buffif="Blueberry gequal 5" debuffif="Blueberry lequal 1" actions="increment(Nutrition, 1, 100t, 0, 0);max(Nutrition, 25)"/>
+<buff id="PositiveBB10" duration="0" buffif="Blueberry gequal 10" debuffif="Blueberry lequal 5" actions="increment(Nutrition, 1, 50t, 0, 0);max(Nutrition, 25);debuff(PositiveBB5)"/>
+<buff id="NegativeBB15" duration="0" buffif="Blueberry gequal 15" debuffif="Blueberry lequal 10" actions="increment(Nutrition, -1, 100t, 0, 0);min(Nutrition, 0);debuff(PositiveBB5);debuff(PositiveBB10)"/>
+<buff id="NegativeBB30" duration="0" buffif="Blueberry gequal 30" debuffif="Blueberry lequal 15" actions="increment(Nutrition, -1, 50t, 0, 0);min(Nutrition, 0);debuff(PositiveBB5);debuff(PositiveBB10);debuff(NegativeBB15)"/>
+
+<buff id="NegativeBB" duration="0" buffif="Blueberry gequal 3" debuffif="Blueberry lequal 1" actions="increment(Nutrition, -1, 80t, 0, 0)"/>
+
+<buff id="NutritionBad" duration="0" buffif="Nutrition lequal 5" actions="increment(@wellness, -0.05, 1, 0, 0)" />
+<buff id="NutritionLow" duration="0" buffif="Nutrition lequal 10" actions="increment(@wellness, -0.05, 1, 0, 0)" />
+<buff id="NutritionNeutral" duration="0" buffif="Nutrition lequal 15" actions="increment(@wellness, 0.001, 1, 0, 0)" />
+<buff id="NutritionGood" duration="0" buffif="Nutrition lequal 20" actions="increment(@wellness, -0.05, 1, 0, 0)" />
+<buff id="NutritionGreat" duration="0" buffif="Nutrition lequal 25" actions="increment(@wellness, -0.05, 1, 0, 0)" />
+
+
+<buff id="eatCorn" duration="10" />
+<buff id="eatCorn2" requires="eatBlueberry" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(eatBlueberry)" />
+<buff id="eatCorn3" requires="eatPotato" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(eatPotato)" />
+<buff id="eatCorn4" requires="eatfoodHoney" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(eatfoodHoney)" />
+<buff id="eatCorn5" requires="eatfoodYuccaFruit" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(eatfoodYuccaFruit)" />
+<buff id="eatCorn6" requires="eatcanBeef" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(eatcanBeef)" />
+<buff id="eatCorn7" requires="shamSandwich" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(shamSandwich)" />
+<buff id="eatCorn" requires="Meat" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(Meat)" />
+<buff id="eatCorn" requires="egg" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(egg)" />
+<buff id="eatCorn" requires="mushrooms" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(mushrooms)" />
+<buff id="eatCorn" requires="Tomato" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(Tomato)" />
+<buff id="eatCorn" requires="TomatoSoup" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(TomatoSoup)" />
+<buff id="eatCorn" requires="Creamed_Corn" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(Creamed_Corn)" />
+<buff id="eatCorn" requires="Chicken_Noodle_Soup" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(Chicken_Noodle_Soup)" />
+<buff id="eatCorn" requires="Mushroom_Soup" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(Mushroom_Soup)" />
+<buff id="eatCorn" requires="Bread" duration="1" actions="increment(Nutrition, 1, 0, 0, 1);debuff(Bread)" />
+
+<buff id="SmallNutUp" duration="1" requires="eatCorn" buffif="Blueberry > 1" actions="increment(Nutrition, 10, 1, 0, 0)" />
+
+<buff id="StewNutrition" duration="1" buffif="DifferentFood > 1" actions="increment(Nutrition, 10, 1, 0, 0)" />
+
+<buff id="eatFood_1_Trigger" duration="1" actions="increment(Blueberry, 1, 0, 0, 1)"/>
+
+
+
+<buff id="eatFood_2_Trigger" duration="1" actions="increment(Potato, 1, 1, 0, 0)"/>
+<buff id="eatFood_3_Trigger" duration="1" actions="increment(Corn, 1, 1, 0, 0)"/>
+<buff id="eatFood_4_Trigger" duration="1" actions="increment(Nutrition4, 4, 0, 0, 1)"/>
+<buff id="eatFood_5_Trigger" duration="1" actions="increment(Nutrition5, 5, 0, 0, 1)"/>
+<buff id="eatFood_6_Trigger" duration="1" actions="increment(Nutrition6, 6, 0, 0, 1)"/>
+<buff id="eatFood_7_Trigger" duration="1" actions="increment(Nutrition, 7, 0, 0, 1)"/>
+<buff id="eatFood_8_Trigger" duration="1" actions="increment(Nutrition, 8, 0, 0, 1)"/>
+<buff id="eatFood_9_Trigger" duration="1" actions="increment(Nutrition, 9, 0, 0, 1)"/>
+<buff id="eatFood_10_Trigger" duration="1" actions="increment(Nutrition, 10, 0, 0, 1)"/>
+<buff id="eatFood_11_Trigger" duration="1" actions="increment(Nutrition, 11, 0, 0, 1)"/>
+<buff id="eatFood_12_Trigger" duration="1" actions="increment(Nutrition, 12, 0, 0, 1)"/>
+<buff id="eatFood_13_Trigger" duration="1" actions="increment(Nutrition, 13, 0, 0, 1)"/>
+<buff id="eatFood_14_Trigger" duration="1" actions="increment(Nutrition, 14, 0, 0, 1)"/>
+<buff id="eatFood_15_Trigger" duration="1" actions="increment(Nutrition, 15, 0, 0, 1)"/>
+<buff id="eatFood_16_Trigger" duration="1" actions="increment(Nutrition, 16, 0, 0, 1)"/>
+<buff id="eatFood_17_Trigger" duration="1" actions="increment(Nutrition, 17, 0, 0, 1)"/>
+<buff id="eatFood_18_Trigger" duration="1" actions="increment(Nutrition, 18, 0, 0, 1)"/>
+<buff id="eatFood_19_Trigger" duration="1" actions="increment(Nutrition, 19, 0, 0, 1)"/>
+<buff id="eatFood_20_Trigger" duration="1" actions="increment(Nutrition, 20, 0, 0, 1)"/>
+<buff id="eatFood_26_Trigger" duration="1" actions="increment(Nutrition, 26, 0, 0, 1)"/>
+
+
+
+<buff id="Negative" duration="1" buffif="Blueberry > 1" actions="increment(SameFood, 1, 1, 0, 0)"/>
+<buff id="Positive" duration="1" actions="increment(DifferentFood, 1, 0, 0, 1)"/>
+
+<buff id="SmallNDown" duration="1" buffif="SameFood > 1" actions="increment(Nutrition, -10, 1, 0, 0)" />
+<buff id="SmallNUp" duration="1" buffif="DifferentFood > 1" actions="increment(Nutrition, 10, 1, 0, 0)" />
+
+<buff id="NutritionDnStage1" duration="2400t" buffif="Nutrition lequal 10" actions="increment(@wellness, -0.05, 1, 0, 0)" />
+<buff id="NutritionUpStage1" duration="2400t" buffif="Nutrition gequal 10" actions="increment(@wellness, 0.05, 1, 0, 0)" />
+
+<buff id="NutritionUp" buffif="Nutrition > 0" actions="increment(@wellness, 0.035, 100t, 0, 0)" />
+<buff id="NutritionDown" buffif="Blueberry > 1" actions="increment(@wellness, -0.035, 100t, 0, 0)" />
+
+<buff id="metabolizeFoodBuff" buffif="Nutrition > 0" debuffif="Nutrition lequal 0" actions="increment(Nutrition, -1, 1, 0, 0);min(Nutrition, 0)"/>
+
+<buff id="fullBuff" mutex="bleeding" buffif="Nutrition > 0" debuffif="Nutrition lequal 0" 
+	icon="ui_game_symbol_natural_healing" name_key="fullBuff" description_key="fullBuffDesc" tooltip_key="fullBuffTooltip">
+	<modify id="0" stat="health" amount="1" rate="1" />
+</buff>
+-->
+
+
+<!--Modded-->
+<buff id="fullBuff" mutex="bleeding" buffif="food > 0.5" debuffif="food lequal 0.5" icon="ui_game_symbol_natural_healing" name_key="fullBuff" description_key="fullBuffDesc" tooltip_key="fullBuffTooltip">
+	<modify id="0" stat="health" amount="1" rate="5" />
+</buff>
+
+<buff id="cured2" stack="reset" duration="2400t" actions="increment(@wellness, 0.05, 100t, 0, 0)" />
+
+<buff id="warmByFire" onexpired="warmByFire2" duration="10" stack="discard" buffif="+heatSource gequal 1" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
 	<modify id="0" stat="coretemp" modifyValue="30"/>
 </buff>
 <buff id="warmByFire2" onexpired="warmByFire3" duration="10" stack="discard" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
@@ -491,4 +799,64 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="warmByFire13" stack="discard" duration="0" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
 	<modify id="0" stat="coretemp" modifyValue="90"/>
 </buff>
+
+<buff id="bleedingBurningSmall" actions="buff(burningSmall);buff(bleeding)" duration="1" />
+
+<buff id="FatigueMain" duration="0" buffif="coretemp lequal 300" actions="increment(fatigue, 1, 100t, 0, 0)"/>
+<buff id="rested" duration="0" buffif="fatigue lequal 2" debuffif="fatigue gequal 18" actions="debuff(sleepingBagEffect2);debuff(sleepingBedEffect2);debuff(sleepingBigBedEffect2)" icon="ui_game_symbol_map_bed" name_key="Well rested" description_key="You are well rested." tooltip_key="Well rested" />
+<buff id="tired" buffif="fatigue gequal 24" debuffif="fatigue lequal 23" mutex="prettyTired,veryTired,extremelyTired,insanelyTired,deadtiredWarning" icon="ui_game_symbol_character" name_key="Tired" description_key="You are tired and should get some rest" tooltip_key="You are tired">
+	<modify id="0" stat="speedmodifier" setValue="0.90"/>
+</buff>
+<buff id="prettyTired" buffif="fatigue gequal 48" debuffif="fatigue lequal 47" actions="debuff(tired)" mutex="veryTired,extremelyTired,insanelyTired,deadtiredWarning" icon="ui_game_symbol_stunned" name_key="Pretty Tired" description_key="You are feeling pretty tired and should go to sleep." tooltip_key="You are pretty damn tired!">
+	<modify id="0" stat="stamina" amount="-1" rate="1"/>
+	<modify id="0" stat="speedmodifier" setValue="0.90"/>
+</buff>
+<buff id="veryTired" buffif="fatigue gequal 72" debuffif="fatigue lequal 71" actions="debuff(prettyTired)" mutex="extremelyTired,insanelyTired,deadtiredWarning" icon="ui_game_symbol_stunned" name_key="Very Tired" description_key="You are very tired and need to sleep!" tooltip_key="You are very tired!">
+	<modify id="0" stat="stamina" amount="-2" rate="1"/>
+	<modify id="0" stat="speedmodifier" setValue="0.80"/>
+</buff>
+<buff id="extremelyTired" buffif="fatigue gequal 96" debuffif="fatigue lequal 95" actions="debuff(veryTired)" mutex="insanelyTired,deadtiredWarning" icon="ui_game_symbol_oxygen" name_key="Extremely Tired" description_key="You are extremely tired and need to sleep!" tooltip_key="You are extremely tired!">
+	<modify id="0" stat="stamina" amount="-2" rate="1"/>
+	<modify id="0" stat="speedmodifier" setValue="0.70"/>
+</buff>
+<buff id="insanelyTired" buffif="fatigue gequal 120" debuffif="fatigue lequal 119" actions="debuff(extremelyTired)" mutex="deadtiredWarning" icon="ui_game_symbol_oxygen" name_key="Insanely Tired" description_key="You are insanely tired and running on fumes!" tooltip_key="You are insanely tired!">
+	<modify id="0" stat="stamina" amount="-2" rate="1"/>
+	<modify id="0" stat="speedmodifier" setValue="0.60"/>
+</buff>
+<buff id="deadtiredWarning" buffif="fatigue gequal 144" debuffif="fatigue lequal 143" actions="debuff(insanelyTired)" icon="ui_game_symbol_skull" name_key="Dead Tired" description_key="You are dead tired, and if you dont sleep soon you will die!" tooltip_key="You are now dead tired!">
+	<modify id="0" stat="stamina" amount="-2" rate="1"/>
+	<modify id="0" stat="speedmodifier" setValue="0.50"/>
+</buff>
+<buff id="deadTired" buffif="fatigue gequal 168" actions="kill"/>
+
+<buff id="HygieneLock" duration="0"/>
+<buff id="HygieneLockRemover" duration="1" actions="debuff(HygieneLock)"/>
+<buff id="Hygiene" duration="0" buffif="coretemp lequal 300" mutex="HygieneLock" actions="increment(hygiene, 1, 100t, 0, 0)"/>
+<buff id="fullyClean" duration="0" buffif="hygiene lequal 1" debuffif="hygiene gequal 24" mutex="dirty,grimy,filthy,infectious" actions="debuff(bathing)" icon="ui_game_symbol_shirt" name_key="Nice and clean" description_key="You are clean." tooltip_key="Nice and clean" />
+<buff id="clean" duration="0" buffif="hygiene gequal 1" mutex="dirty,grimy,filthy,infectious"/>
+<buff id="dirty" duration="0" buffif="hygiene gequal 24" debuffif="hygiene lequal 23" mutex="grimy,filthy,infectious" smell="smallSmell" actions="debuff(clean);debuff(fullyClean)" icon="ui_game_symbol_smell" name_key="Dirty" description_key="You are dirty and starting to smell, the dirtier you are the more prone you are to infection!" tooltip_key="Getting a little dirty"/>
+<buff id="grimy" duration="0" buffif="hygiene gequal 48" debuffif="hygiene lequal 47" mutex="filthy,infectious" smell="mediumSmell" actions="debuff(dirty)" icon="ui_game_symbol_smell" name_key="Grimy" description_key="You’re really starting to smell. Might want to take a bath soon." tooltip_key="You are grimy and smelly"/>
+<buff id="filthy" duration="0" buffif="hygiene gequal 72" debuffif="hygiene lequal 71" mutex="infectious" smell="largeSmell" actions="debuff(grimy)" icon="ui_game_symbol_smell" name_key="Filthy" description_key="You are filthy and are highly prone to infection." tooltip_key="You’re filthy and you really stink"/>
+<buff id="infectious" duration="0" ondebuff="HygieneLockRemover" buffif="hygiene gequal 96" debuffif="hygiene lequal 95" smell="exLargeSmell" actions="buff(HygieneLock);debuff(filthy);debuff(Hygiene)" icon="ui_game_symbol_smell" name_key="Infectious" description_key="Any wounds you have are extremely likely to give you an infection. You need to get clean!" tooltip_key="Extremely dirty and prone to infection!"/>
+
+<buff id="rinsingOff" duration="5" mutex="clean" actions="increment(hygiene, -12, 0, 0, 1)" icon="ui_game_symbol_water" name_key="Rinsing off" description_key="Rinsing off will not get you completly clean." tooltip_key="Rinsing off"/>
+<buff id="rinsingOffSmall" duration="5" mutex="clean" actions="increment(hygiene, -6, 0, 0, 1)" icon="ui_game_symbol_water" name_key="Rinsing off" description_key="Rinsing off will not get you completly clean." tooltip_key="Rinsing off"/>
+<buff id="bathing" buffif="+water > 5" debuffif="-water > 1" mutex="clean" actions="increment(hygiene, -1, 1, 0, 0)" icon="ui_game_symbol_water" name_key="Bathing" description_key="You are bathing and will become clean over time." tooltip_key="Bathing"/>
+<!--End-->
+
+<!--
+This requires a 50+ food bar:
+<buff id="eatFood_1_Trigger" mutex="notFullBlockerBuff" duration="1" debuffif="food > 0.5" actions="increment(Nutrition, 1, 0, 0, 1)"/>
+<buff id="eatFood_2_Trigger" mutex="notFullBlockerBuff" duration="1" debuffif="food > 0.5" actions="increment(Nutrition, 2, 0, 0, 1)"/>
+
+<buff id="notFullBlockerBuff" buffif="food lequal 0.5" debuffif="food > 0.5" actions="debuff(fullBuff)"/>
+<buff id="metabolizeFoodBuff" buffif="Nutrition > 0" debuffif="Nutrition lequal 0" actions="increment(Nutrition, -1, 1, 0, 0);min(Nutrition, 0)"/>
+<buff id="fullBuff" mutex="bleeding,notFullBlockerBuff" buffif="Nutrition > 0" debuffif="Nutrition lequal 0" 
+	icon="ui_game_symbol_natural_healing" name_key="fullBuff" description_key="fullBuffDesc" tooltip_key="fullBuffTooltip">
+	<modify id="0" stat="health" amount="1" rate="1" />
+</buff>
+
+ This would be nice but causes a synch error:
+<buff id="notFullBlockerBuff" buffif="food lequal 0.5" debuffif="food > 0.5" actions="debuff(fullBuff);setvar(Nutrition,0)"/>
+-->
 </buffs>

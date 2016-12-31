@@ -4,7 +4,7 @@
 	Example: <quest id="quest_BasicSurvival1" name_key="Basic Survival 1/8" subtitle_key="Craft a Stone Axe" description_key="blah" icon="ui_game_symbol_hammer" >	
 	
 	id = ID used for the quest
-	name_key - localization key for the quest used when displayed in the quest list.
+	name_key - localization key for the quest used when displayed in the quest list. 
 	subtitle_key = localization key for the sub name used when displayed in the quest details and tracker.
 	description_key = localization key for the description displayed in the description window.
 	offer_key = localization key for the offer window description.
@@ -60,8 +60,8 @@
 		
 		<objective type="Craft" id="stoneAxe" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Tool Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="ShowTip" value="skillPointTip" stage="aftercomplete" />
     </quest>
 	
 	
@@ -75,8 +75,7 @@
 		<objective type="Craft" id="plantFiberShoes" value="1" />
 		<objective type="Craft" id="plantFiberGloves" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Tailoring" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_BasicSurvival3" />
     </quest>
 	<!-- Basic Survival 3 - Wear Plant Fiber Clothing /> -->	
@@ -87,7 +86,7 @@
 		<objective type="Wear" id="plantFiberShoes" />
 		<objective type="Wear" id="plantFiberGloves" />
 		
-		<reward type="Exp" value="1000" />
+		<reward type="SkillPoints" value="1" />
     </quest>
 
 	<!-- Basic Survival 4 - Craft a Wooden Club /> -->	
@@ -95,8 +94,7 @@
 		<objective type="FetchKeep" id="wood" value="5" />
 		<objective type="Craft" id="clubWood" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Weapon Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponMelee01" />
     </quest>
 
@@ -110,8 +108,7 @@
 		<objective type="Craft" id="woodenBow" value="1" />
 		<objective type="Craft" id="arrow" value="2" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Weapon Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponRanged10" />
     </quest>
 
@@ -121,7 +118,7 @@
 		<objective type="BlockPlace" id="woodFrameBlock" value="100" />
 		<objective type="BlockUpgrade" id="woodFrameBlock" value="100" />
 		
-		<reward type="Exp" value="4000" />
+		<reward type="SkillPoints" value="1" />
     </quest>
 
 	<!-- Basic Survival 7 - Craft a Bedroll /> -->	
@@ -131,8 +128,7 @@
 		<objective type="Craft" id="bedroll" value="1" />
 		<objective type="BlockPlace" id="bedroll" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Tailoring" value="1" />
+		<reward type="SkillPoints" value="1" />
     </quest>
 
 	<!-- Basic Survival 8 - Build a Campfire /> -->	
@@ -141,8 +137,15 @@
 		<objective type="Craft" id="campfire" value="1" />
 		<objective type="BlockPlace" id="campfire" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Miscellaneous Crafting" value="1" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Quest" id="quest_whiteRiverCitizen1" stage="aftercomplete" />
+    </quest>
+	
+	<!-- White River Citizen 1 - Journey to Settlement -->
+	<quest id="quest_whiteRiverCitizen1" group_name_key="quest_WhiteRiverCitizen" name_key="quest_WhiteRiverCitizen1" subtitle_key="quest_WhiteRiverCitizen1_subtitle" description_key="quest_WhiteRiverCitizen1_description" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<objective type="Goto" id="trader" value="5" />
+	
+		<reward type="SkillPoints" value="1" />
     </quest>
 	
 	<!--Modded-->
@@ -160,8 +163,7 @@
 		<objective type="Craft" id="forge" value="1" />
 		<objective type="BlockPlace" id="forge" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Miscellaneous Crafting" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_BasicSurvival13" />
     </quest>
 	
@@ -184,8 +186,7 @@
 		<objective type="Craft" id="workbench" value="1" />
 		<objective type="BlockPlace" id="workbench" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Miscellaneous Crafting" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_BasicSurvival14" />
     </quest>
 		
@@ -198,8 +199,7 @@
 		<objective type="Craft" id="Tailoring_Table" value="1" />
 		<objective type="BlockPlace" id="Tailoring_Table" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Miscellaneous Crafting" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_BasicSurvival7" />
 		<reward type="Quest" id="quest_BasicSurvival15" />
 		<reward type="Quest" id="quest_BasicSurvival17" />
@@ -211,8 +211,7 @@
 		<objective type="Craft" id="Smithing_Table" value="1" />
 		<objective type="BlockPlace" id="Smithing_Table" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Miscellaneous Crafting" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_BasicSurvival19" />
 		<reward type="Quest" id="quest_BasicSurvival21" />
 		<reward type="Quest" id="quest_BasicSurvival23" />
@@ -238,8 +237,8 @@
 		<objective type="FetchKeep" id="ductTape" value="5" />
 		
 		<objective type="Craft" id="Sewing_Machine" value="1" />
-		<reward type="Skill" id="Miscellaneous Crafting" value="1" />
-		<reward type="Exp" value="1000" />
+		
+		<reward type="SkillPoints" value="1" />
     </quest>
 	
 	
@@ -255,8 +254,7 @@
 		<objective type="Craft" id="animalHideBoots" value="1" />
 		<objective type="Craft" id="animalHideGloves" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Leatherworking" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_BasicSurvival16" />
     </quest>
 	<!-- Basic Survival 10 - Wear Hide Aromor /> -->	
@@ -267,7 +265,7 @@
 		<objective type="Wear" id="animalHideBoots" />
 		<objective type="Wear" id="animalHideGloves" />
 		
-		<reward type="Exp" value="500" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_Armored01" />
     </quest>
 	
@@ -282,8 +280,7 @@
 		<objective type="Craft" id="leatherBoots" value="1" />
 		<objective type="Craft" id="leatherGloves" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Leatherworking" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_BasicSurvival18" />
     </quest>
 	<!-- Basic Survival 10 - Wear Leather Aromor /> -->	
@@ -294,7 +291,7 @@
 		<objective type="Wear" id="leatherBoots" />
 		<objective type="Wear" id="leatherGloves" />
 		
-		<reward type="Exp" value="500" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_Armored02" />
     </quest>
 	
@@ -311,8 +308,7 @@
 		<objective type="Craft" id="scrapBoots" value="1" />
 		<objective type="Craft" id="scrapGloves" value="1" />
 		
-		<reward type="Exp" value="1500" />
-		<reward type="Skill" id="Armor Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_BasicSurvival20" />
     </quest>
 	<!-- Basic Survival 10 - Wear Scrap Aromor /> -->	
@@ -323,7 +319,7 @@
 		<objective type="Wear" id="scrapBoots" />
 		<objective type="Wear" id="scrapGloves" />
 		
-		<reward type="Exp" value="500" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_Armored03" />
     </quest>
 	
@@ -340,8 +336,7 @@
 		<objective type="Craft" id="militaryBoots" value="1" />
 		<objective type="Craft" id="militaryGloves" value="1" />
 		
-		<reward type="Exp" value="2000" />
-		<reward type="Skill" id="Armor Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_BasicSurvival22" />
     </quest>
 	<!-- Basic Survival 10 - Wear military Aromor /> -->	
@@ -352,7 +347,7 @@
 		<objective type="Wear" id="militaryBoots" />
 		<objective type="Wear" id="militaryGloves" />
 		
-		<reward type="Exp" value="500" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_Armored04" />
     </quest>
 	
@@ -369,8 +364,7 @@
 		<objective type="Craft" id="ironBoots" value="1" />
 		<objective type="Craft" id="ironGloves" value="1" />
 		
-		<reward type="Exp" value="2500" />
-		<reward type="Skill" id="Armor Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_BasicSurvival24" />
     </quest>
 	<!-- Basic Survival 10 - Wear Iron Aromor /> -->	
@@ -381,7 +375,7 @@
 		<objective type="Wear" id="ironBoots" />
 		<objective type="Wear" id="ironGloves" />
 		
-		<reward type="Exp" value="500" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_Armored05" />
     </quest>
 	
@@ -392,8 +386,7 @@
 		
 		<objective type="Craft" id="clubIron" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Weapon Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponMelee02" />
     </quest>
 	
@@ -404,8 +397,7 @@
 		
 		<objective type="Craft" id="clubBarbed" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Weapon Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponMelee03" />
     </quest>
 	
@@ -416,8 +408,7 @@
 		
 		<objective type="Craft" id="clubSpiked" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Weapon Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponMelee05" />
     </quest>
 	
@@ -428,8 +419,7 @@
 		
 		<objective type="Craft" id="sledgehammer" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Weapon Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponMelee04" />
     </quest>
 	
@@ -440,8 +430,7 @@
 		
 		<objective type="Craft" id="huntingKnife" value="1" />
 		
-		<reward type="Exp" value="2000" />
-		<reward type="Skill" id="Weapon Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponMelee06" />
     </quest>
 	
@@ -454,8 +443,7 @@
 		
 		<objective type="Craft" id="machete" value="1" />
 		
-		<reward type="Exp" value="4000" />
-		<reward type="Skill" id="Weapon Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponMelee07" />
     </quest>
 	
@@ -466,8 +454,7 @@
 		
 		<objective type="Craft" id="shovelSteel" value="1" />
 		
-		<reward type="Exp" value="2000" />
-		<reward type="Skill" id="Tool Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
     </quest>
 	
 	<!-- Basic Survival 4 - Craft a Steel Pickaxe /> -->	
@@ -477,8 +464,7 @@
 		
 		<objective type="Craft" id="pickaxeSteel" value="1" />
 		
-		<reward type="Exp" value="2000" />
-		<reward type="Skill" id="Tool Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
     </quest>
 	
 	<!-- Basic Survival 4 - Craft a Steel Fireaxe /> -->	
@@ -488,8 +474,7 @@
 		
 		<objective type="Craft" id="fireaxeSteel" value="1" />
 		
-		<reward type="Exp" value="2000" />
-		<reward type="Skill" id="Tool Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
     </quest>
 	
 	<!-- Basic Survival 4 - Craft a Nailgun /> -->	
@@ -501,8 +486,7 @@
 		
 		<objective type="Craft" id="nailgun" value="1" />
 		
-		<reward type="Exp" value="2500" />
-		<reward type="Skill" id="Tool Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
     </quest>
 	
 	<!-- Basic Survival 4 - Craft a Small Engine /> -->	
@@ -515,8 +499,7 @@
 		
 		<objective type="Craft" id="smallEngine" value="1" />
 		
-		<reward type="Exp" value="4000" />
-		<reward type="Skill" id="Science" value="1" />
+		<reward type="SkillPoints" value="1" />
     </quest>
 	
 	<!--Crossbow-->
@@ -531,8 +514,7 @@
 		<objective type="Craft" id="crossbow" value="1" />
 		<objective type="Craft" id="crossbowBolt" value="2" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Weapon Smithing" value="1" />
+		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponRanged11" />
     </quest>
 	
@@ -542,8 +524,6 @@
 		
 		<objective type="Assemble" id="gunPistol" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Gun Smithing" value="2" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponRanged01" />
     </quest>
@@ -552,8 +532,6 @@
 		
 		<objective type="Assemble" id="gunMP5" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Gun Smithing" value="2" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponRanged02" />
     </quest>
@@ -562,8 +540,6 @@
 		
 		<objective type="Assemble" id="gunSawedOffPumpShotgun" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Gun Smithing" value="2" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponRanged03" />
     </quest>
@@ -572,8 +548,6 @@
 		
 		<objective type="Assemble" id="gunPumpShotgun" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Gun Smithing" value="2" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponRanged04" />
     </quest>
@@ -582,8 +556,6 @@
 		
 		<objective type="Assemble" id="gun44Magnum" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Gun Smithing" value="2" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponRanged05" />
     </quest>
@@ -592,8 +564,6 @@
 		
 		<objective type="Assemble" id="gunHuntingRifle" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Gun Smithing" value="2" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponRanged06" />
     </quest>
@@ -602,8 +572,6 @@
 		
 		<objective type="Assemble" id="gunAK47" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Gun Smithing" value="2" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponRanged07" />
     </quest>
@@ -612,8 +580,6 @@
 		
 		<objective type="Assemble" id="gunSniperRifle" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Gun Smithing" value="2" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponRanged08" />
     </quest>
@@ -622,8 +588,6 @@
 		
 		<objective type="Assemble" id="gunRocketLauncher" value="1" />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Gun Smithing" value="2" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="quest_WeaponRanged09" />
     </quest>
@@ -641,9 +605,7 @@
 		<requirement type="Wearing" id="animalHideGloves" />
 		
 		<reward type="Item" id="animalHide" value="50" />
-		<reward type="Exp" value="1000" />
 		<reward type="SkillPoints" value="10" />
-		<reward type="Skill" id="Light Armor" value="10" />
 	</quest>
 	
 	<quest id="quest_Armored02" group_name_key="quest_Armored0" name_key="quest_Armored02" subtitle_key="quest_Armored02_subtitle" description_key="quest_Armored02_description" icon="ui_game_symbol_defense" 
@@ -657,9 +619,7 @@
 		<requirement type="Wearing" id="leatherGloves" />
 		
 		<reward type="Item" id="leather" value="50" />
-		<reward type="Exp" value="1000" />
 		<reward type="SkillPoints" value="10" />
-		<reward type="Skill" id="Light Armor" value="10" />
 	</quest>
 	
 	<quest id="quest_Armored03" group_name_key="quest_Armored0" name_key="quest_Armored03" subtitle_key="quest_Armored03_subtitle" description_key="quest_Armored03_description" icon="ui_game_symbol_defense" 
@@ -673,9 +633,7 @@
 		<requirement type="Wearing" id="scrapGloves" />
 		
 		<reward type="Item" id="scrapIron" value="500" />
-		<reward type="Exp" value="1000" />
 		<reward type="SkillPoints" value="10" />
-		<reward type="Skill" id="Heavy Armor" value="10" />
 	</quest>
 	
 	<quest id="quest_Armored04" group_name_key="quest_Armored0" name_key="quest_Armored04" subtitle_key="quest_Armored04_subtitle" description_key="quest_Armored04_description" icon="ui_game_symbol_defense" 
@@ -689,8 +647,6 @@
 		<requirement type="Wearing" id="militaryGloves" />
 		
 		<reward type="Item" id="militaryFiber" value="500" />
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Heavy Armor" value="10" />
 		<reward type="SkillPoints" value="10" />
 	</quest>
 	
@@ -705,8 +661,6 @@
 		<requirement type="Wearing" id="ironGloves" />
 		
 		<reward type="Item" id="forgedIron" value="500" />
-		<reward type="Exp" value="1000" />
-		<reward type="Skill" id="Heavy Armor" value="10" />
 		<reward type="SkillPoints" value="10" />
 	</quest>
 	
@@ -718,8 +672,6 @@
 		
 		<requirement type="Holding" id="clubWood" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Blunt Weapons" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -729,8 +681,6 @@
 		
 		<requirement type="Holding" id="clubIron" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Blunt Weapons" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -740,8 +690,6 @@
 		
 		<requirement type="Holding" id="clubBarbed" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Blunt Weapons" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -751,8 +699,6 @@
 		
 		<requirement type="Holding" id="sledgehammer" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Blunt Weapons" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -762,8 +708,6 @@
 		
 		<requirement type="Holding" id="clubSpiked" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Blunt Weapons" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -773,8 +717,6 @@
 		
 		<requirement type="Holding" id="huntingKnife" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Blade Weapons" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -784,8 +726,6 @@
 		
 		<requirement type="Holding" id="machete" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Blade Weapons" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -797,8 +737,6 @@
 		
 		<requirement type="Holding" id="gunPistol" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Pistols" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -808,8 +746,6 @@
 		
 		<requirement type="Holding" id="gunMP5" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Pistols" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -819,8 +755,6 @@
 		
 		<requirement type="Holding" id="gunSawedOffPumpShotgun" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Shotguns" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -830,8 +764,6 @@
 		
 		<requirement type="Holding" id="gunPumpShotgun" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Shotguns" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -841,8 +773,6 @@
 		
 		<requirement type="Holding" id="gun44Magnum" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Pistols" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -852,8 +782,6 @@
 		
 		<requirement type="Holding" id="gunHuntingRifle" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Rifles" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -863,8 +791,6 @@
 		
 		<requirement type="Holding" id="gunAK47" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Rifles" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -874,8 +800,6 @@
 		
 		<requirement type="Holding" id="gunSniperRifle" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Rifles" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -885,7 +809,6 @@
 		
 		<requirement type="Holding" id="gunRocketLauncher" />
 		
-		<reward type="Exp" value="500" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -895,8 +818,6 @@
 		
 		<requirement type="Holding" id="woodenBow" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Archery" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -906,8 +827,6 @@
 		
 		<requirement type="Holding" id="crossbow" />
 		
-		<reward type="Exp" value="500" />
-		<reward type="Skill" id="Archery" value="5" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
@@ -926,8 +845,7 @@
 	repeatable="true" category_key="Quest" difficulty="easy">
 		<objective type="ZombieKill" value="10"  />
 		
-		<reward type="Exp" value="100" />
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="5" />
 		<reward type="Quest" id="quest_ZombieSlayer03" />
 	</quest>
 	
@@ -935,28 +853,27 @@
 	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="100"  />
 		
-		<reward type="Exp" value="500" />
 		<reward type="SkillPoints" value="5" />
 		<reward type="Quest" id="quest_ZombieSlayer04" />
 	</quest>
 	
 	<quest id="quest_ZombieSlayer04" group_name_key="quest_ZombieSlayer0" name_key="quest_ZombieSlayer04" subtitle_key="quest_ZombieSlayer04_subtitle" description_key="quest_ZombieSlayer04_description" icon="ui_game_symbol_zombie" 
 	repeatable="true" category_key="Quest" difficulty="hard">
-		<objective type="ZombieKill" value="500"  />
+		<objective type="ZombieKill" value="250"  />
 		
-		<reward type="Exp" value="1000" />
-		<reward type="SkillPoints" value="25" />
+		<reward type="SkillPoints" value="15" />
+		<!--
 		<reward type="Quest" id="quest_ZombieSlayer05" />
+		-->
 	</quest>
-	
+	<!--
 	<quest id="quest_ZombieSlayer05" group_name_key="quest_ZombieSlayer0" name_key="quest_ZombieSlayer05" subtitle_key="quest_ZombieSlayer05_subtitle" description_key="quest_ZombieSlayer05_description" icon="ui_game_symbol_zombie" 
 	repeatable="true" category_key="Quest" difficulty="insane">
 		<objective type="ZombieKill" value="1000"  />
 		
-		<reward type="Exp" value="15000" />
 		<reward type="SkillPoints" value="50" />
 	</quest>
-	
+	-->
 	
 	<!--End Modded-->
 	
@@ -983,7 +900,7 @@
 		
 		
 		<reward type="SkillPoints" value="1" />
-		<reward type="SkillPoints" value="1" optional="true" />
+		<reward type="SkillPoints" value="2" optional="true" />
 	</quest>
 	
 	<quest id="challenge_nurseyoubacktohealth" name_key="challenge_nurseyoubacktohealth" subtitle_key="challenge_nurseyoubacktohealth_subtitle" description_key="challenge_nurseyoubacktohealth_offer" icon="ui_game_symbol_zombie" 
@@ -993,7 +910,7 @@
 		<objective type="ZombieKill" id="zombieNurse" value="3" />
 		
 		<reward type="SkillPoints" value="1" />
-		<reward type="SkillPoints" value="1" optional="true" />
+		<reward type="SkillPoints" value="2" optional="true" />
 	</quest>
 	
 	<quest id="challenge_copanattitude" name_key="challenge_copanattitude" subtitle_key="challenge_copanattitude_subtitle" description_key="challenge_copanattitude_offer" icon="ui_game_symbol_zombie" 
@@ -1002,7 +919,7 @@
 		<objective type="ZombieKill" id="fatzombiecop" value="2" />
 		
 		<reward type="SkillPoints" value="1" />
-		<reward type="SkillPoints" value="1" optional="true" />
+		<reward type="SkillPoints" value="2" optional="true" />
 	</quest>
 	
 	<quest id="challenge_dogdaysareover" name_key="challenge_dogdaysareover" subtitle_key="challenge_dogdaysareover_subtitle" description_key="challenge_dogdaysareover_offer" icon="ui_game_symbol_zombie" 
@@ -1011,7 +928,7 @@
 		<objective type="ZombieKill" id="zombiedog" value="3" />
 		
 		<reward type="SkillPoints" value="1" />
-		<reward type="SkillPoints" value="1" optional="true" />
+		<reward type="SkillPoints" value="2" optional="true" />
 	</quest>
 	
 	<quest id="challenge_itsybitsyspider" name_key="challenge_itsybitsyspider" subtitle_key="challenge_itsybitsyspider_subtitle" description_key="challenge_itsybitsyspider_offer" icon="ui_game_symbol_zombie" 
@@ -1020,7 +937,7 @@
 		<objective type="ZombieKill" id="spiderzombie" value="3" />
 		
 		<reward type="SkillPoints" value="1" />
-		<reward type="SkillPoints" value="1" optional="true" />
+		<reward type="SkillPoints" value="2" optional="true" />
 	</quest>
 	
 	<quest id="challenge_ladykiller" name_key="challenge_ladykiller" subtitle_key="challenge_ladykiller_subtitle" description_key="challenge_ladykiller_offer" icon="ui_game_symbol_zombie" 
@@ -1032,7 +949,7 @@
 		<objective type="ZombieKill" id="zombieNurse" value="1" />
 		
 		<reward type="SkillPoints" value="1" />
-		<reward type="SkillPoints" value="1" optional="true" />
+		<reward type="SkillPoints" value="2" optional="true" />
 	</quest>
 	
 	
@@ -1046,7 +963,7 @@
 		<objective type="ZombieKill" id="zombieSteve" value="1" />
 		
 		<reward type="SkillPoints" value="1" />
-		<reward type="SkillPoints" value="1" optional="true" />
+		<reward type="SkillPoints" value="2" optional="true" />
 	</quest>
 	
 	<quest id="challenge_yournothingspecial" name_key="challenge_yournothingspecial" subtitle_key="challenge_yournothingspecial_subtitle" description_key="challenge_yournothingspecial_offer" icon="ui_game_symbol_zombie" 
@@ -1074,7 +991,7 @@
 		</requirement>
 		
 		<reward type="SkillPoints" value="1" />
-		<reward type="SkillPoints" value="1" optional="true" />
+		<reward type="SkillPoints" value="2" optional="true" />
 	</quest>
 	
 	
@@ -1088,7 +1005,7 @@
 			<requirement type="Holding" id="gunPumpShotgun" />
 		</requirement>
 		
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="challenge_nailsomechicks" name_key="challenge_nailsomechicks" subtitle_key="challenge_nailsomechicks_subtitle" description_key="challenge_nailsomechicks_offer" icon="ui_game_symbol_knife" 
@@ -1097,21 +1014,21 @@
 		
 		<requirement type="Holding" id="nailgun" />
 		
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="challenge_thatlldopig" name_key="challenge_thatlldopig" subtitle_key="challenge_thatlldopig_subtitle" description_key="challenge_thatlldopig_offer" icon="ui_game_symbol_knife" 
 	repeatable="true" category_key="challenge" offer_key="challenge_thatlldopig_offer" difficulty="easy">
 		<objective type="AnimalKill" id="animalPig" value="5"  />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="challenge_stagparty" name_key="challenge_stagparty" subtitle_key="challenge_stagparty_subtitle" description_key="challenge_stagparty_offer" icon="ui_game_symbol_knife" 
 	repeatable="true" category_key="challenge" offer_key="challenge_stagparty_offer" difficulty="easy">
 		<objective type="AnimalKill" id="animalStag" value="5"  />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="challenge_dontfeedthebears" name_key="challenge_dontfeedthebears" subtitle_key="challenge_dontfeedthebears_subtitle" description_key="challenge_dontfeedthebears_offer" icon="ui_game_symbol_knife" 
@@ -1119,7 +1036,7 @@
 		<objective type="AnimalKill" id="animalBear" value="3"  />
 		
 		
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="challenge_buythefarm" name_key="challenge_buythefarm" subtitle_key="challenge_buythefarm_subtitle" description_key="challenge_buythefarm_offer" icon="ui_game_symbol_knife" 
@@ -1131,7 +1048,7 @@
 		<objective type="AnimalKill" id="animalBear" value="1"  />
 		
 		
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="treasure_taylor" name_key="treasure_taylor" subtitle_key="treasure_taylor_subtitle" description_key="treasure_taylor_offer" icon="ui_game_symbol_treasure" 
