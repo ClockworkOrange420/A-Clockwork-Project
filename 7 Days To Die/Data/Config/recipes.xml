@@ -1657,6 +1657,7 @@
 		<ingredient name="nail" count="1"/>
 		<ingredient name="spring" count="1"/>
 		<ingredient name="ductTape" count="5"/>
+		<ingredient name="mechanicalParts" count="3"/>
 	</recipe>
 	<recipe name="Tailoring_Table" count="1" craft_time = "60" craft_exp_gain="167">
 		<ingredient name="wood" count="20"/>
