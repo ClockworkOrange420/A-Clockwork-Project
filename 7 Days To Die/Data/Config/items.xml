@@ -5694,7 +5694,7 @@ which does not exist, yet. -->
 		<property name="Gain_food" value="0" />
 		<property name="Gain_water" value="0" />
 		<property name="Sound_start" value="UseActions/player_bandage" />
-		<property name="Debuff" value="woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious" />
+		<property name="Debuff" value="infectionForced,woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious" />
 		<property name="Buff" value="splint" />
 	</property>
 	<property class="Action1">
@@ -5761,7 +5761,7 @@ which does not exist, yet. -->
 		<property name="Gain_food" value="0" />
 		<property name="Gain_water" value="0" />
 		<property name="Sound_start" value="UseActions/player_bandage" />
-		<property name="Debuff" value="bleeding,arrowCriticalBleedout,woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious" />
+		<property name="Debuff" value="bleeding,arrowCriticalBleedout,infectionForced,woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious" />
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Eat" />

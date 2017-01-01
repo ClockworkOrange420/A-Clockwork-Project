@@ -135,7 +135,7 @@ built-in buff variables:
 <buff id="woundActivatorGrimy" duration="10" onexpired="infection" requires="grimy" mutex="cured,infection,infection1,infection2,infection3"/>
 <buff id="woundActivatorFilthy" duration="5" onexpired="infection" requires="filthy" mutex="cured,infection,infection1,infection2,infection3"/>
 <buff id="woundActivatorInfectious" duration="1" onexpired="infection" requires="infectious" mutex="cured,infection,infection1,infection2,infection3"/>
-<buff id="bleeding" duration="60" type="bleeding" actions="buff(woundActivatorClean);buff(woundActivatorDirty);buff(woundActivatorGrimy);buff(woundActivatorFilthy);buff(woundActivatorInfectious);debuff(fullBuff);debuff(firstAid);debuff(firstAidLarge);damage(0,5,0,0)" icon="ui_game_symbol_critical" name_key="bleedingOut" description_key="bleedingOutDesc" tooltip_key="bleedingOutTooltip" cures="bandage,firstAidBandage,firstAidKit">
+<buff id="bleeding" duration="60" type="bleeding" actions="buff(infectionForced);buff(woundActivatorClean);buff(woundActivatorDirty);buff(woundActivatorGrimy);buff(woundActivatorFilthy);buff(woundActivatorInfectious);debuff(fullBuff);debuff(firstAid);debuff(firstAidLarge);damage(0,5,0,0)" icon="ui_game_symbol_critical" name_key="bleedingOut" description_key="bleedingOutDesc" tooltip_key="bleedingOutTooltip" cures="bandage,firstAidBandage,firstAidKit">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="1"/>
 </buff>
@@ -296,7 +296,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="smelly" duration="30" smell="largeSmell" icon="ui_game_symbol_dysentery" name_key="smelly" description_key="smellyDesc" tooltip_key="smellyTooltip"/>
 
 <!--Modded-->
-
+<buff id="infectionForced" duration="60" onexpired="infection"/>
 <buff id="recoveryRemover" duration="1" actions="debuff(recovering2);debuff(recovering3);debuff(recovering4)"/>
 <buff id="cured" duration="2400t" stack="reset" icon="ui_game_symbol_muscle" name_key="cured" description_key="curedDesc" tooltip_key="curedTooltip"/>
 <buff id="recovering" duration="2400t" ondebuff="recoveryRemover" requires="infection" mutex="cured,recoveringSmall,recoveringTiny" stack="reset" actions="increment(infected, -1, 50t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
@@ -373,7 +373,9 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 
 <!--Modded-->
 
-<buff id="brokenLeg" duration="9000" stack="reset" actions="debuff(firstAid);debuff(splint);debuff(sprainedLeg);buff(woundActivatorClean);buff(woundActivatorDirty);buff(woundActivatorGrimy);buff(woundActivatorFilthy);buff(woundActivatorInfectious)" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="brokenLeg" description_key="brokenLegDesc" tooltip_key="brokenLegTooltip" cures="splint">
+
+
+<buff id="brokenLeg" duration="9000" stack="reset" actions="debuff(firstAid);debuff(splint);debuff(sprainedLeg);buff(infectionForced);buff(woundActivatorClean);buff(woundActivatorDirty);buff(woundActivatorGrimy);buff(woundActivatorFilthy);buff(woundActivatorInfectious)" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="brokenLeg" description_key="brokenLegDesc" tooltip_key="brokenLegTooltip" cures="splint">
 	<modify id="0" stat="speedmodifier" mulValue="0.6"/>
 </buff>
 
