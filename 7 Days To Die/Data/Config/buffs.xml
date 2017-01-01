@@ -518,7 +518,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <!--Modded-->
 
 <buff id="sleepingBagTrigger" duration="1" actions="setvar(CTRbedroll, 3)"/>
-<buff id="sleepingBagEffect" duration="0" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(CTRbedroll, -1, 1, 0, 0)"
+<buff id="sleepingBagEffect" duration="0" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(CTRbedroll, -1, 1, 0, 0);increment(BDKBloodloss, -1, 50t, 0, 0)"
 	icon="ui_game_symbol_map_bed" name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip">
 	<modify id="0" stat="health" amount="1" rate="5" />
 	<modify id="0" stat="stamina" amount="1" rate="5" />
@@ -526,15 +526,15 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="sleepingBagEffect2" duration="0" mutex="rested" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
 
 <buff id="sleepingBedTrigger" duration="1" actions="setvar(CTRbed, 3)" />
-<buff id="sleepingBedEffect" duration="0" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(CTRbed, -1, 1, 0, 0)"
+<buff id="sleepingBedEffect" duration="0" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(CTRbed, -3, 1, 0, 0);increment(BDKBloodloss, -1, 50t, 0, 0)"
 	name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip" icon="ui_game_symbol_map_bed">
 	<modify id="0" stat="health" amount="2" rate="5" />
 	<modify id="0" stat="stamina" amount="1" rate="3" />
 </buff>
-<buff id="sleepingBedEffect2" duration="0" mutex="rested" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
+<buff id="sleepingBedEffect2" duration="0" mutex="rested" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(fatigue, -5, 1, 0, 0)"/>
 
 <buff id="sleepingBigBedTrigger" duration="1" actions="setvar(CTRbigbed, 3)" />
-<buff id="sleepingBigBedEffect" duration="0" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(CTRbigbed, -1, 1, 0, 0)"
+<buff id="sleepingBigBedEffect" duration="0" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(CTRbigbed, -1, 1, 0, 0);increment(BDKBloodloss, -1, 50t, 0, 0)"
 	name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip" icon="ui_game_symbol_map_bed">
 	<modify id="0" stat="health" amount="3" rate="5" />
 	<modify id="0" stat="stamina" amount="1" rate="3" />
