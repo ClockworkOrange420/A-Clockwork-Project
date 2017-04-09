@@ -5359,7 +5359,7 @@ kind of free
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Buildings/brick_decayed_broke_1" param1="main_mesh" />
 	<property name="Map.Color" value="94,84,75" />
-	<property class="UpgradeBlock">	<property name="ToBlock" value="pouredConcreteBlock" /> </property>
+	<property class="UpgradeBlock">	<property name="ToBlock" value="brickDecayedBlock" /> </property>
 </block>
 
 <block id="584" name="brickDecayedBroke2Block">
@@ -5516,7 +5516,7 @@ kind of free
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Buildings/tanbrick_broke_1" param1="main_mesh" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteBlock" /> </property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="brickDecayedTanBlock" /> </property>
 </block>
 
 <block id="603" name="tanBrickDecayedBroke2">
@@ -5530,23 +5530,26 @@ kind of free
 </block>
 
 <block id="605" name="paintedBrickBroke1">
-	<property name="Extends" value="tanBrickDecayedBroke1" />
+	<property name="Extends" value="brickMaster" />
+	<property name="Shape" value="Ext3dModel" />
+	<property name="Mesh" value="models" />
 	<property name="Model" value="Buildings/painted_brick_broke_1" param1="main_mesh" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="brickpaintedBlock" /> </property>
 </block>
 
 <block id="606" name="paintedBrickBroke2">
-	<property name="Extends" value="tanBrickDecayedBroke1" />
+	<property name="Extends" value="paintedBrickBroke1" />
 	<property name="Model" value="Buildings/painted_brick_broke_2" param1="main_mesh" />
 </block>
 
 <block id="607" name="paintedBrickBroke3">
-	<property name="Extends" value="tanBrickDecayedBroke1" />
+	<property name="Extends" value="paintedBrickBroke1" />
 	<property name="Model" value="Buildings/painted_brick_broke_3" param1="main_mesh" />
 </block>
 
 <block id="608" name="concreteTrim2Broke1">
-	<property name="Extends" value="adobeMaster" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteBlock" /> </property>
+	<property name="Extends" value="concreteMaster" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="concreteTrim2Block" /> </property>
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Buildings/concrete_trim2_broke1" param1="main_mesh" />
