@@ -1087,8 +1087,6 @@ Mesh files no longer used:
 		<property name="Sound_end" value="" />
 		<property name="Sound_empty" value="" />
 		<property name="Sound_reload" value="" />
-		<property name="Buff" value="infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious" />
-		<property name="Buff_chance" value="0.05,0.2,0.3,0.4,0.5" />
 	</property>
 </item>
 
@@ -1098,13 +1096,18 @@ Mesh files no longer used:
 	<property name="IsDeveloper" value="true" />
 	<property class="Action1">
 		<property name="Class" value="Projectile" />
-		<property name="DamageEntity" value="10" />
-		<property name="DamageBlock" value="150" />
 		<property name="Explosion.ParticleIndex" value="7" />
 		<property name="Velocity" value="20" />
 		<property name="FlyTime" value=".50" />
 		<property name="LifeTime" value="4" />
 		<property name="CollisionRadius" value="0.5" />
+		<property name="Buff" value="infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious" />
+		<property name="Buff_chance" value="0.05,0.2,0.3,0.4,0.5" />
+	</property>
+	<property class="Attributes">
+		<property name="GetQualityFromWeapon" value="true" />
+		<property name="EntityDamage" value="10" />
+		<property name="BlockDamage" value="150" />
 	</property>
 </item>
 
