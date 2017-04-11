@@ -836,7 +836,6 @@
 	<quest id="quest_ZombieSlayer01" name_key="quest_ZombieSlayer01" subtitle_key="quest_ZombieSlayer01_subtitle" description_key="quest_ZombieSlayer01_offer" icon="ui_game_symbol_zombie" 
 	offer_key="quest_ZombieSlayer01_offer" category_key="Quest" difficulty="easy">
 	
-		<reward type="ShowTip" value="tutorialTipQuest05" />
 		<reward type="Quest" id="quest_ZombieSlayer02" />
 	</quest>
 	
