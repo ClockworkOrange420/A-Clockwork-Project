@@ -14354,10 +14354,10 @@ kind of free
   <block id="1919" name="plantedWheat1">
     <property name="Extends" value="cropsGrowingMaster" />
     <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
+    <property name="Mesh" value="grass" />
     <property name="CustomIcon" value="plantedGoldenrod1" />
 	<property name="CustomIconTint" value="cc9900" />
-	<property name="Texture" value="296" />
+	<property name="Texture" value="441" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.Next" value="plantedWheat2" />
@@ -14374,10 +14374,10 @@ kind of free
     <property name="Material" value="plants" />
 	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
+    <property name="Mesh" value="grass" />
     <property name="CustomIcon" value="treePlainsGrassDiagonal" />
 	<property name="CustomIconTint" value="cc9900" />
-	<property name="Texture" value="297" />
+	<property name="Texture" value="368,369,370,350,368" />
 	<property name="PlantGrowing.Next" value="plantedWheat3Harvest" />
 	<drop event="Destroy" count="0" />
   </block>
@@ -14818,7 +14818,7 @@ kind of free
     <property name="Material" value="Mtallgrass" />
 	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
-    <property name="Mesh" value="cutoutmoveable" />
+    <property name="Mesh" value="grass" />
 	<property name="Texture" value="296" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
