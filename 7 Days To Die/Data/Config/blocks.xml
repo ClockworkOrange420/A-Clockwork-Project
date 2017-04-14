@@ -4757,6 +4757,7 @@ kind of free
 	<property name="PlantGrowing.FertileLevel" value="5" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="IsDeveloper" value="true" />
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="532" name="mushroom3Harvest">
@@ -14424,6 +14425,7 @@ kind of free
     <property name="Shape" value="New" />
     <property name="Model" value="Pole1m" />
     <property name="Texture" value="379" />
+	<property name="LightOpacity" value="0" />
 	<property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="Full_Composter" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
@@ -14462,6 +14464,7 @@ kind of free
 	<property name="Collide" value="movement,rocket,melee" />
     <property name="CustomIcon" value="airConditioner" />	
 	<property name="Stacknumber" value="1" />	
+	<property name="LightOpacity" value="0" />
     <property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="dewCollector_filled" />
 	<property name="PlantGrowing.GrowthRate" value="180" />
@@ -14522,6 +14525,7 @@ kind of free
     <property name="Model" value="Buildings/white_siding_wood_panel_burnt4" param1="main_mesh" />
 	<property name="Collide" value="movement,rocket,melee" />
     <property name="CustomIcon" value="whiteSidingWoodPanelBurnt4" />
+	<property name="LightOpacity" value="0" />
     <property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="chickenCoop_stage3" />
 	<property name="PlantGrowing.GrowthRate" value="90" />
@@ -14544,6 +14548,7 @@ kind of free
     <property name="Model" value="Buildings/white_siding_wood_panel_burnt3" param1="main_mesh" />
 	<property name="Collide" value="movement,rocket,melee" />
     <property name="CustomIcon" value="whiteSidingWoodPanelBurnt3" />
+	<property name="LightOpacity" value="0" />
     <property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.Next" value="chickenCoop_stage4" />
 	<property name="PlantGrowing.GrowthRate" value="90" />
