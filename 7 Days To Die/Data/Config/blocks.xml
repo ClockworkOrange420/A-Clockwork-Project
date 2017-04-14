@@ -740,7 +740,6 @@ group desc for stuff like metal siding
 	<property name="MultiBlockDim" value="1,2,1" />
 	<property name="Collide" value="melee" />
 	<property name="IsTerrainDecoration" value="true" />
-	<property name="Class" value="Plant" />
 	<drop event="Destroy" count="0" />
 </block>
 
