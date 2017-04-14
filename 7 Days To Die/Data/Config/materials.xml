@@ -213,9 +213,10 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="particle_destroy_category" value="xt_leaves2" />
 	<property name="Hardness" type="float" value="1" />
 	<property name="stepsound" value="tree" />
-	<property name="lightopacity" value="5" />
+	<property name="lightopacity" value="1" />
 	<property name="stability_glue" value="3" />
 	<property name="Mass" type="int" value="0" />
+	<property name="plant" value="true" />
 	<property name="StabilitySupport" value="false" />
 	<property name="MaxDamage" value="1" />
 </material>

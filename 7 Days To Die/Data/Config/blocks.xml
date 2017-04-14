@@ -4744,6 +4744,7 @@ kind of free
 
 <block id="531" name="plantedMushroom2">
 	<property name="Material" value="Mmushrooms" />
+	<property name="LightOpacity" value="0" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Texture" value="241" />
@@ -4761,7 +4762,9 @@ kind of free
 </block>
 
 <block id="532" name="mushroom3Harvest">
-	<property name="Class" value="Plant" />
+	<property name="Class" value="PlantGrowing" />
+	<property name="LightOpacity" value="0" />
+	<property name="PlantGrowing.FertileLevel" value="5" />
 	<property name="Material" value="Mmushrooms" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
