@@ -14819,7 +14819,7 @@ kind of free
 	<property name="StabilitySupport" value="false" />
     <property name="Shape" value="BillboardPlant" />
     <property name="Mesh" value="grass" />
-	<property name="Texture" value="296" />
+	<property name="Texture" value="441" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.Next" value="treeTallGrassDiagonal" />
@@ -14828,6 +14828,7 @@ kind of free
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<drop event="Destroy" count="0" />
   </block>
+  
   <block id="1948" name="dirt2">
 	<property name="Extends" value="dirt" />
 	<property name="CustomIcon" value="dirt" />
