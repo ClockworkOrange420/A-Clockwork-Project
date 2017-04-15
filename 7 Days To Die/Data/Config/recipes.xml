@@ -942,7 +942,7 @@
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="barbedWireSheet" count="1" craft_time = "20" craft_exp_gain="56" craft_area="workbench" craft_tool="clawHammer">
-		<ingredient name="scrapIron" count="15"/>
+		<ingredient name="Barbed_Wire" count="15"/>
 	</recipe>
 	<recipe name="barnWoodBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="clawHammer">
 		<ingredient name="wood" count="15"/>
@@ -2017,6 +2017,10 @@
 	<recipe name="concreteSupport" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
 		<ingredient name="concreteMix" count="10"/>
 		<ingredient name="cobblestones" count="10"/>
+	</recipe>
+	<recipe name="Barbed_Wire" count="1" craft_time = "10" craft_exp_gain="28" craft_area="forge" craft_tool="anvil" material_based="true">
+		<ingredient name="unit_iron" count="10"/>
+		<ingredient name="unit_clay" count="5"/>
 	</recipe>
 	<recipe name="cookingGrill" count="1" craft_time = "60" craft_exp_gain="167" craft_area="workbench" craft_tool="wrench">
 		<ingredient name="shortMetalPipe" count="10"/>

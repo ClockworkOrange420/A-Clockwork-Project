@@ -10158,11 +10158,11 @@ which does not exist, yet. -->
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="metal" />
-		<property name="Weight" value="40" />
+		<property name="Weight" value="10" />
 		<property name="EconomicValue" value="10" />
 		<property name="CraftingIngredientTime" value="30" />
         <property name="HoldType" value="45" />
-        <property name="Stacknumber" value="1" />
+        <property name="Stacknumber" value="25" />
 		<property name="Group" value="Resources" />
 		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
 		<property name="DescriptionKey" value="BarbedWireDesc"/>
