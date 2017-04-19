@@ -3076,17 +3076,17 @@
 	<recipe name="woodLogPillar100" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="clawHammer">
 		<ingredient name="wood" count="20"/>
 	</recipe>
-	<recipe name="woodLogSpike1" count="1" craft_time = "15" craft_exp_gain="42" craft_area="workbench" craft_tool="Trowel">
+	<recipe name="woodLogSpike1" count="1" craft_time = "15" craft_exp_gain="42" craft_area="workbench" craft_tool="clawHammer">
 		<ingredient name="wood" count="20"/>
 	</recipe>
 	<recipe name="woodPillar100" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="clawHammer">
 		<ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodPlate" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
+	<recipe name="woodPlate" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="clawHammer">
 		<ingredient name="wood" count="10"/>
 	</recipe>
-	<recipe name="woodPole" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
+	<recipe name="woodPole" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="clawHammer">
 		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="woodShinglesBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="clawHammer">
@@ -3113,7 +3113,7 @@
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodSupport" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
+	<recipe name="woodSupport" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="clawHammer">
 		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="woodTable" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="clawHammer">
@@ -3164,7 +3164,7 @@
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="signShopColdBeer" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
+	<recipe name="signShopColdBeer" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="clawHammer">
 		<ingredient name="nail" count="4"/>
 		<ingredient name="wood" count="5"/>
 	</recipe>
