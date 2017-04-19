@@ -6532,7 +6532,7 @@ kind of free
 	<property name="Tag" value="Gore" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="FallDamage" value="false" />
-	<property name="HeatMapStrength" value="0.2"/>
+	<property name="HeatMapStrength" value="0.75"/>
 	<property name="HeatMapTime" value="1200"/>
 		<property name="UpgradeRated.BlockCombined" value="gore" />
 		<property name="UpgradeRated.ToBlock" value="gore" />
