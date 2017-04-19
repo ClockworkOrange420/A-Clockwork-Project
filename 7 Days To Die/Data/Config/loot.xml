@@ -461,6 +461,13 @@
 	<item name="skullCapRed"/>
 </lootgroup>
 
+<lootgroup name="glassesAll">
+	<item name="shades"/>
+	<item name="shadesBlack"/>
+	<item name="eyeglasses"/>
+	<item name="nerdGlasses"/>
+</lootgroup>
+
 <lootgroup name="ballCapAll">
 	<item name="ballCap"/>
 	<item name="ballCapBlack"/>
@@ -1004,9 +1011,7 @@
 	<item name="wornBoots"/>
 	<item name="cowboyBootsBrown"/>
 	<item name="cowboyBootsBlack"/>
-	<item name="shades"/>
-	<item name="shadesBlack" prob=".1"/>
-	<item name="nerdGlasses"/>
+	<item group="glassesAll"/>
 	<item name="aviatorGoggles"/>
 	<item name="footballHelmet"/>
 	<item name="leatherDuster"/>
@@ -1021,7 +1026,7 @@
 	<item group="sweatshirtAll"/>
 	<item group="hoodedSweatshirtAll"/>
 	<item group="overallsAll"/>
-	<item name="shades"/>
+	<item group="glassesAll"/>
 	<item name="leatherDuster"/>
 	<item name="leatherDusterBlack" prob=".2"/>
 </lootgroup>
@@ -1092,6 +1097,7 @@
 	<item name="partsAuger_blade"/>
 	<item name="partsChainsaw_blade"/>
 	<item name="sledgehammer"/>
+	<item name="machete"/>
 	<item name="smallEngine"/>
 	<item name="pickaxeSteel"/>
 	<item name="fireaxeSteel"/>
@@ -1102,7 +1108,6 @@
 </lootgroup>
 
 <lootgroup name="tools" count="1">
-	<item name="stoneAxe" prob=".5"/>
 	<item name="pickaxeIron"/>
 	<item name="shovelIron"/>
 	<item name="fireaxeIron"/>
@@ -1113,8 +1118,6 @@
 	<item name="repairKit" count="1,4"/>
 	<item group="nailgun+parts"/>
 	<item group="rareTools"/>
-	<item name="forgedIron" count="1,2" prob=".21"/>
-	<item name="forgedSteel" count="1,2" prob=".12"/>
 </lootgroup>
 
 <lootgroup name="workingStiffs" count="1">
@@ -1125,9 +1128,9 @@
 	<item name="clawHammer"/>
 	<item name="wrench" prob="0.8"/>
 	<item name="repairKit" count="1,4"/>
-	<item name="woodFrameBlock" count="10,30"/>
-	<item name="rebarFrameBlock" count="10,20"/>
-	<item name="nail" count="10,40"/>
+	<item name="woodFrameBlock" count="50,100"/>
+	<item name="rebarFrameBlock" count="50,100"/>
+	<item name="nail" count="50,500"/>
 	<item name="wood" count="1000,2000"/>
 	<item name="anvil" count="1"/>
 	<item name="ironDoor1_v1"/>
@@ -1188,10 +1191,10 @@
 <lootgroup name="sportingGoods" count="1">
 	<item name="flashlight02"/>
 	<item name="huntingKnife"/>
-	<item name="gunPowder" count="20,50"/>
-	<item name="bulletCasing" count="20,50"/>
-	<item name="bulletTip" count="20,50"/>
-	<item name="steelArrowHead"/>
+	<item name="gunPowder" count="50,250"/>
+	<item name="bulletCasing" count="50,250"/>
+	<item name="bulletTip" count="50,250"/>
+	<item name="steelArrowHead" count="10,25"/>
 	<item name="cookingGrill"/>
 	<item name="cookingPot"/>
 	<item name="leather"/>
@@ -1206,12 +1209,13 @@
 	<item group="bandanaAll"/>
 	<item group="tshirtAll"/>
 	<item name="goggles"/>
-	<item name="shades"/>
-	<item name="shadesBlack" prob=".1"/>
+	<item group="glassesAll"/>
 	<item name="nightvisionGoggles"/>
 	<item group="ballCapAll"/>
 	<item name="wornBoots"/>
 	<item name="footballHelmet"/>
+	<item group="melee"/>
+	<item group="Armor"/>
 </lootgroup>
 
 <lootgroup name="beverages" count="1">
@@ -1282,7 +1286,7 @@
 	<item group="tshirtAll"/>
 	<item group="tools"/>
 	<item name="wornBoots"/>
-	<item name="shades"/>
+	<item group="glassesAll"/>
 	<item name="miningHelmet"/>
 	<item name="flashlight02" prob="0.3"/>
 	<item name="nail" count="10,40" prob=".3"/>
@@ -1887,8 +1891,7 @@
 	<item name="swatHelmet"/>
 	<item name="gothicPants"/>
 	<item name="gothBootsBlack"/>
-	<item name="shades" prob=".1"/>
-	<item name="shadesBlack" prob=".5"/>
+	<item group="glassesAll"/>
 	<item name="beer" prob="3"/>
 	<item name="grainAlcohol"/>
 	<item name="oldCash" count="1,15"/>
