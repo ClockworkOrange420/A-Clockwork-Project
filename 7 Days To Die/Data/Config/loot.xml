@@ -961,6 +961,8 @@
 	<item name="headlight"/>
 	<item name="hubcap"/>
 	<item name="wrench"/>
+	<item name="clawHammer"/>
+	<item name="fireaxeIron"/>
 	<item name="airFilter"/>
 	<item name="carBattery"/>
 	<item name="oil" count="1,4"/>
@@ -1340,6 +1342,8 @@
 <lootcontainer id="1" count="0,2" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
 	<item group="junk"/>
 	<item name="wrench" count="1"/>
+	<item name="clawHammer" count="1"/>
+	<item name="fireaxeIron" count="1"/>
 	<item group="books" prob="0.1"/>
 	<item name="Fertilizer" count="1,3" prob="0.05"/>
 </lootcontainer>
