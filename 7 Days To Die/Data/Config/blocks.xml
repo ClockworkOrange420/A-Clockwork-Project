@@ -355,7 +355,7 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	<property name="UpgradeRated.Rate" value="15" />
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" tool_category="Butcher" />
-	<drop event="Destroy" name="femur" count="1,2" prob="1" />
+	<drop event="Harvest" name="femur" count="1,2" prob="1" tool_category="Butcher" />
 </block>
 
 <block id="22" name="fertileFarmland">
@@ -3166,7 +3166,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="360" name="boardedWindowsSheet4">
-	<property name="Material" value="wood" />
+	<property name="Material" value="wood_weak" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="HousingDecor/Boarded_windows" param1="main_mesh" />
@@ -4870,7 +4870,7 @@ kind of free
 
 <block id="542" name="cntBirdnest">
 	<property name="Class" value="Loot" />
-	<property name="Material" value="wood_weak" />
+	<property name="Material" value="wood_ladders" />
 	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
@@ -5199,7 +5199,7 @@ kind of free
 </block>
 
 <block id="569" name="treeDeadShrub">
-	<property name="Material" value="wood_weak" />
+	<property name="Material" value="wood_ladders" />
 	<property name="MaxDamage" value="15" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="116" />
@@ -10107,7 +10107,7 @@ kind of free
 
 <block id="1180" name="houseFrontDoor1_v2">
 	<property name="Extends" value="houseFrontDoor1_v1" />
-	<property name="Material" value="wood_weak" />
+	<property name="Material" value="wood+wood" />
 	<property name="Texture" value="241" />
 	<property name="Model" value="Entities/Doors/house_frontDoor1_v2Prefab" />
 	<property class="UpgradeBlock">
