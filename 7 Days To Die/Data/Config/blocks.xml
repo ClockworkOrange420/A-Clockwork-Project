@@ -3731,6 +3731,7 @@ group desc for stuff like metal siding
 	<property name="Material" value="wood" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="cone1m" />
+	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property name="Texture" value="21,21,22,22,22,22" />
 	<property name="FuelValue" value="160" />
 	<!--property name="DontDamageOnTouch" value="true" /-->
@@ -12124,6 +12125,7 @@ kind of free
 	<property name="Material" value="Mmetal_medium" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="cone1m" />
+	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property name="Texture" value="307" />
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	<property name="BuffsWhenWalkedOn" value="bleeding"/>
@@ -12195,6 +12197,7 @@ kind of free
 	<property name="Material" value="Msteel" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="cone1m" />
+	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property name="Texture" value="356,355,356,356,356,356" />
 	<!--property name="DontDamageOnTouch" value="true" /-->
 	<property name="BuffsWhenWalkedOn" value="bleeding"/>
@@ -14850,6 +14853,7 @@ kind of free
 	<property name="Damage_received" value="1" />
     <property name="Material" value="Msteel" />
     <property name="Shape" value="Cone" />
+	<property name="RotationAllowed" value="pivotOnFloor" />
     <property name="Texture" value="356" />
 	<property name="CustomIcon" value="rScrapIronLogSpike5" />
 	<property name="CustomIconTint" value="194F5A" />
@@ -14860,6 +14864,7 @@ kind of free
 	</property>
 	<property name="Group" value="Tools/Traps" />
   </block>
+  
   <block id="1950" name="hiddenSteelPlacement">
 	<property name="Material" value="Msteel" />
 	<property name="StabilitySupport" value="false" />
