@@ -14480,7 +14480,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="scrapIron" value="10" />
 	</property>
-	<drop event="Destroy" name="dewCollector_filling"/>
+	<drop event="Destroy" name="dewCollector_filling" count="1" tool_category="Disassemble" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Building" />
 	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
@@ -14517,8 +14517,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
-	<drop event="Destroy" name="chickenCoop_stage1"/>
-    <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+	<drop event="Destroy" name="chickenCoop_stage1" count="1" tool_category="Disassemble" />
 	<property name="Group" value="Building" />
 	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
   </block>
@@ -14541,7 +14540,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
-	<drop event="Destroy" name="chickenCoop_stage1"/>
+	<drop event="Destroy" name="chickenCoop_stage1" count="1" tool_category="Disassemble" />
     <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Building" />
   </block>
@@ -14564,7 +14563,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
-	<drop event="Destroy" name="chickenCoop_stage1"/>
+	<drop event="Destroy" name="chickenCoop_stage1" count="1" tool_category="Disassemble" />
     <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Building" />
   </block>
@@ -14602,7 +14601,7 @@ kind of free
 		<property name="scrapIron" value="10" />
 	</property>
     <property name="MultiBlockDim" value="2,1,1" />
-	<drop event="Destroy" count="0" />
+	<drop event="Destroy" name="Research_Table" count="1" tool_category="Disassemble" />
 	<property name="Group" value="Building" />
 	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
   </block>
@@ -14629,7 +14628,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="forgedIron" value="10" />
 	</property>
-	<drop event="Destroy" name="scrapIron" count="2" prob="1" />
+	<drop event="Destroy" name="Old_Oven" count="1" tool_category="Disassemble" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Food/Cooking" />
 	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
@@ -14655,7 +14654,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="forgedIron" value="10" />
 	</property>
-	<drop event="Destroy" name="scrapIron" count="2" prob="1" />
+	<drop event="Destroy" name="New_Oven" count="1" tool_category="Disassemble" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Food/Cooking" />
 	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
@@ -14682,8 +14681,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="forgedIron" value="10" />
 	</property>
-	<drop event="Destroy" name="scrapIron" count="2" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
+	<drop event="Destroy" name="Omnigel_Station" count="1" tool_category="Disassemble" />
 	<property name="EconomicValue" value="5" />
 	<property name="EconomicBundleSize" value="1" />
 	<property name="SellableToTrader" value="false" />
@@ -14711,8 +14709,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
-	<drop event="Destroy" name="woodDebris" count="1" />
-    <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+	<drop event="Destroy" name="Tailoring_Table" count="1" tool_category="Disassemble" />
 	<property name="Group" value="Building" />
 	<property name="EconomicValue" value="5" />
 	<property name="EconomicBundleSize" value="1" />
@@ -14737,8 +14734,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="scrapIron" value="10" />
 	</property>
-    <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-    <drop event="Fall" name="scrapMetalPile" prob="1.0"  stick_chance=".75" />
+    <drop event="Destroy" name="Smithing_Table" count="1" tool_category="Disassemble" />
 	<property name="DescriptionKey" value="smithingTableDesc"/>
 	<property name="Group" value="Building" />
 	<property name="EconomicValue" value="5" />
@@ -14764,8 +14760,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
-	<drop event="Destroy" name="woodDebris" count="1" />
-    <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+	<drop event="Destroy" name="Crafting_Table" count="1" tool_category="Disassemble" />
 	<property name="Group" value="Building" />
 	<property name="EconomicValue" value="5" />
 	<property name="EconomicBundleSize" value="1" />
@@ -14790,8 +14785,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
-	<drop event="Destroy" name="woodDebris" count="1" />
-    <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+	<drop event="Destroy" name="Crafting_Table_Misc" count="1" tool_category="Disassemble" />
 	<property name="Group" value="Building" />
 	<property name="EconomicValue" value="5" />
 	<property name="EconomicBundleSize" value="1" />
@@ -14816,8 +14810,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="scrapIron" value="10" />
 	</property>
-    <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-    <drop event="Fall" name="scrapMetalPile" prob="1.0"  stick_chance=".75" />
+    <drop event="Destroy" name="Ammunition_Table" count="1" tool_category="Disassemble" />
 	<property name="Group" value="Building" />
 	<property name="EconomicValue" value="5" />
 	<property name="EconomicBundleSize" value="1" />
