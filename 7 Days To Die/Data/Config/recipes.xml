@@ -23,9 +23,6 @@
 	<recipe name="cloth" count="1" tooltip="ttScrapMetalBrass">
 		<wildcard_forge_category />
 	</recipe>
-	<recipe name="brokenGlass" count="1" craft_area="forge" material_based="true" craft_time = "1" craft_exp_gain="0">
-		<ingredient name="unit_glass" count="5"/>
-	</recipe>
 	<recipe name="leather" count="1" tooltip="ttScrapMetalBrass">
 		<wildcard_forge_category />
 	</recipe>
@@ -731,6 +728,9 @@
 		<ingredient name="cloth" count="2"/>
 	</recipe>
 	<recipe name="Cordage" count="1" craft_time = "4" craft_exp_gain="12">
+		<ingredient name="yuccaFibers" count="2"/>
+	</recipe>
+	<recipe name="Cordage" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
 		<ingredient name="yuccaFibers" count="2"/>
 	</recipe>
 	<recipe name="Grass_Seed" count="2" craft_time = "1" craft_exp_gain="0">
