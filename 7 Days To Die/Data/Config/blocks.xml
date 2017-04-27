@@ -9785,7 +9785,7 @@ kind of free
 	<property name="Extends" value="adobeMaster" />
 	<property name="Shape" value="Wedged60Tip" />
 	<property name="Texture" value="10" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="concreteWedgeTip" /> </property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeTip" /> </property>
 </block>
 
 <block id="1139" name="woodWedgeTip">
