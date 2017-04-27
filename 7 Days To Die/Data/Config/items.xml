@@ -1249,13 +1249,13 @@ Mesh files no longer used:
 		<property name="Sphere" value="0.1" />
 		<property name="Sound_start" value="swoosh" />
 		<property name="Stamina_usage" value="3" />
-		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.head" value="1" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="1" />
 		<property name="DamageBonus.metal" value="0.5" />
 		<property name="DamageBonus.earth" value="0.25" />
 		<property name="DamageBonus.organic" value="1" />
-		<property name="ActionExp" value="2" />
+		<property name="ActionExp" value="1" />
 		<property name="ToolCategory.Butcher" value="0.25" />
 	</property>
 	<property class="Action1"> <!-- UseAction -->
