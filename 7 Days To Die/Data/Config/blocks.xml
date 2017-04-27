@@ -9304,7 +9304,7 @@ kind of free
 <block id="1067" name="rWoodWedgeTip">
 	<property name="Extends" value="rWoodMaster" />
 	<property name="Shape" value="Wedged60Tip" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodMetalWedgeTip" /> </property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="asphaltWedgeTip" /> </property>
 	<property name="DowngradeBlock" value="woodWedgeTip" />
 </block>
 
@@ -9785,7 +9785,7 @@ kind of free
 	<property name="Extends" value="adobeMaster" />
 	<property name="Shape" value="Wedged60Tip" />
 	<property name="Texture" value="10" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeTip" /> </property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="concreteWedgeTip" /> </property>
 </block>
 
 <block id="1139" name="woodWedgeTip">
