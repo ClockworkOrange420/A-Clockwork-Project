@@ -340,14 +340,14 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 
 <block id="21" name="gore">
     	<property name="IsDeveloper" value="true" />
-	<property name="Class" value="Gore" />
+	<property name="Class" value="Ladder" />
 	<property name="Material" value="organic" />
 	<property name="Shape" value="Terrain" />
 	<property name="Mesh" value="terrain" />
 	<property name="Texture" value="2" />
 	<property name="Tag" value="Gore" />
 	<property name="IsTerrainDecoration" value="true" />
-	<property name="Density" value="0.9" />
+	<property name="Density" value="0.1" />
 	<property name="FallDamage" value="false" />
 	<property name="HeatMapStrength" value="0.2"/>
 	<property name="HeatMapTime" value="1200"/>
@@ -2491,7 +2491,7 @@ group desc for stuff like metal siding
 
 <block id="293" name="rWoodBlock">
 	<property name="Extends" value="rWoodMaster" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodMetalBlock" /> </property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneBlock" /> </property>
 	<property name="DowngradeBlock" value="woodBlock" />
 </block>
 
