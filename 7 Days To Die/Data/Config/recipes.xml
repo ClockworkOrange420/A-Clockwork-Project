@@ -1642,7 +1642,7 @@
 		<ingredient name="Cordage" count="1"/>
 		<ingredient name="tallow" count="1"/>
 	</recipe>
-	<recipe name="cement" count="1" craft_exp_gain="0" craft_area="forge" material_based="true">
+	<recipe name="cement" count="1" craft_time = "1" craft_exp_gain="0" craft_area="forge" material_based="true">
 		<ingredient name="unit_stone" count="5"/>
 	</recipe>
 	<!--Workstations-->
@@ -2270,7 +2270,7 @@
 		<ingredient name="partsPistol_receiver" count="1"/>
 		<ingredient name="partsPistol_grip" count="1"/>
 	</recipe>
-	<recipe name="gunPowder" count="1" craft_exp_gain="0" craft_area="Ammunition_Table" craft_tool="Mortar_and_Pestle">
+	<recipe name="gunPowder" count="1" craft_time = "1" craft_exp_gain="0" craft_area="Ammunition_Table" craft_tool="Mortar_and_Pestle">
 		<ingredient name="coal" count="2"/>
 		<ingredient name="potassiumNitratePowder" count="2"/>
 	</recipe>
@@ -2369,7 +2369,7 @@
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
 	</recipe>
-	<recipe name="ironArrowHead" count="1" craft_exp_gain="0" craft_area="forge" craft_tool="anvil" material_based="true">
+	<recipe name="ironArrowHead" count="1" craft_time = "4" craft_exp_gain="0" craft_area="forge" craft_tool="anvil" material_based="true">
 		<ingredient name="unit_iron" count="2"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
@@ -2649,7 +2649,7 @@
 		<ingredient name="cottonPlant" count="3"/>
 		<ingredient name="shortMetalPipe" count="4"/>
 	</recipe>
-	<recipe name="nail" count="1" craft_exp_gain="0" craft_area="forge" craft_tool="Nail_Mold" material_based="true">
+	<recipe name="nail" count="1" craft_time = "1" craft_exp_gain="0" craft_area="forge" craft_tool="Nail_Mold" material_based="true">
 		<ingredient name="unit_iron" count="1"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
@@ -2759,11 +2759,11 @@
 		<ingredient name="gasCan" count="100"/>
 		<ingredient name="rocketCasing" count="1"/>
 	</recipe>
-	<recipe name="rocketCasing" count="1" craft_exp_gain="0" craft_area="forge" craft_tool="calipers" material_based="true">
+	<recipe name="rocketCasing" count="1" craft_time = "4" craft_exp_gain="0" craft_area="forge" craft_tool="calipers" material_based="true">
 		<ingredient name="unit_iron" count="50"/>
 		<ingredient name="unit_clay" count="30"/>
 	</recipe>
-	<recipe name="rocketTip" count="1" craft_exp_gain="0" craft_area="forge" craft_tool="calipers" material_based="true">
+	<recipe name="rocketTip" count="1" craft_time = "4" craft_exp_gain="0" craft_area="forge" craft_tool="calipers" material_based="true">
 		<ingredient name="unit_lead" count="50"/>
 		<ingredient name="unit_clay" count="30"/>
 	</recipe>
@@ -2905,7 +2905,7 @@
 		<ingredient name="forgedIron" count="30"/>
 		<ingredient name="wood" count="20"/>
 	</recipe>
-	<recipe name="snow" count="1" craft_exp_gain="0">
+	<recipe name="snow" count="1" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="snowBall" count="12"/>
 	</recipe>
 	<recipe name="snowberryExtract" count="1" craft_area="Omnigel_Station" craft_tool="beaker">
@@ -2947,7 +2947,7 @@
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
 	</recipe>
-	<recipe name="steelArrowHead" count="1" craft_exp_gain="0" craft_area="forge" craft_tool="anvil" material_based="true">
+	<recipe name="steelArrowHead" count="1" craft_time = "4" craft_exp_gain="0" craft_area="forge" craft_tool="anvil" material_based="true">
 		<ingredient name="unit_iron" count="5"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
