@@ -1922,11 +1922,11 @@
 		<ingredient name="wood" count="5"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
-	<recipe name="cobblestones" count="1" craft_area="cementMixer" craft_exp_gain="0">
+	<recipe name="cobblestones" count="1" craft_time = "1" craft_area="cementMixer" craft_exp_gain="0">
 		<ingredient name="clayLump" count="1"/>
 		<ingredient name="rockSmall" count="1"/>
 	</recipe>
-	<recipe name="concreteMix" count="1" craft_area="cementMixer" craft_exp_gain="0">
+	<recipe name="concreteMix" count="1"  craft_time = "1" craft_area="cementMixer" craft_exp_gain="0">
 		<ingredient name="crushedSand" count="3"/>
 		<ingredient name="cement" count="1"/>
 	</recipe>
@@ -2767,7 +2767,7 @@
 		<ingredient name="unit_lead" count="50"/>
 		<ingredient name="unit_clay" count="30"/>
 	</recipe>
-	<recipe name="crushedSand" count="1" craft_exp_gain="0" craft_area="cementMixer">
+	<recipe name="crushedSand" count="1" craft_time = "1" craft_exp_gain="0" craft_area="cementMixer">
 		<ingredient name="rockSmall" count="1"/>
 	</recipe>
 	<recipe name="sand" count="1" craft_time = "4" craft_exp_gain="12" craft_area="cementMixer">
