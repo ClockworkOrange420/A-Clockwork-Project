@@ -2375,7 +2375,7 @@
 	</recipe>
 	<recipe name="ironBars" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="wrench">
 		<ingredient name="shortMetalPipe" count="4"/>
-		<ingredient name="forgedIron" count="8"/>
+		<ingredient name="forgedIron" count="4"/>
 	</recipe>
 	<recipe name="ironCrossbowBolt" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Ammunition_Table">
 		<ingredient name="ironArrowHead" count="1"/>
