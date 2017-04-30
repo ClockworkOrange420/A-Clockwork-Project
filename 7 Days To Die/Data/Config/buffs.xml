@@ -513,8 +513,6 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 
 <buff id="wet" notificationClass="WetBuffNotification" duration="0" stack="discard" buffif="waterLevel greater 0" debuffif="waterLevel equals 0" icon="ui_game_symbol_wet" name_key="wet" description_key="wetDesc" tooltip_key="wetTooltip"/>
 
-<buff id="dry" notificationClass="WetBuffNotification" duration="0" stack="discard" actions="setvar(waterLevel, 0)" icon="ui_game_symbol_hot" name_key="wet" description_key="wetDesc" tooltip_key="wetTooltip"/>
-
 <buff id="testBreath" duration="0" stack="discard" actions="attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson)" icon="ui_game_symbol_cold" description_key=""/>
 
 
