@@ -5896,7 +5896,7 @@ which does not exist, yet. -->
 		<property name="Gain_water" value="0" />
 		<property name="Gain_wellness" value="0.5" />
 		<property name="Sound_start" value="UseActions/player_painkillers" />
-		<property name="Buff" value="cured2" />
+		<property name="Buff" value="infection" />
 	</property>
 	<property name="ActionSkillGroup" value="Medicine"/>
 	<property name="CraftingSkillGroup" value="Science"/>
@@ -5991,7 +5991,6 @@ which does not exist, yet. -->
 		<property name="Sound_start" value="UseActions/player_painkillers" />
 		<property name="Buff" value="recovering" />
 		<property name="Debuff" value="dysentery,dysentery2" />
-		<property name="Debuff" value="infection,infection1,infection2,infection3,dysentery,dysentery2" />
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Eat" />
@@ -6004,7 +6003,6 @@ which does not exist, yet. -->
 		<property name="Sound_start" value="UseActions/player_painkillers" />
 		<property name="Buff" value="recovering" />
 		<property name="Debuff" value="dysentery,dysentery2" />
-		<property name="Debuff" value="infection,infection1,infection2,infection3,dysentery,dysentery2" />
 	</property>
 	<property name="ActionSkillGroup" value="Medicine"/>
 	<property name="CraftingSkillGroup" value="Science"/>
@@ -7600,6 +7598,14 @@ which does not exist, yet. -->
 	<property name="DescriptionKey" value="qt_zombieDesc"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="quest_ZombieSlayer01" />
+	</property>
+</item>
+
+<item id="1228" name="qt_zombieRepeat">
+	<property name="Extends" value="treasureQuestMaster" />
+	<property name="DescriptionKey" value="qt_zombieRepeatDesc"/>
+	<property class="Action1">
+		<property name="QuestGiven" value="quest_ZombieSlayer05" />
 	</property>
 </item>
 
@@ -10372,6 +10378,7 @@ which does not exist, yet. -->
 			<property name="Focused_blockname_4" value="waterMovingBucket" />
 			<property name="Focused_blockname_5" value="waterSource8" />
 			<property name="Sound_start" value="UseActions/bucketfill_water" />
+			<property name="Buff" value="dry" />
 		</property>
 		<property name="Group" value="Resources,Clothing" />
 		<property name="CraftingSkillGroup" value="Tailoring"/>
