@@ -310,7 +310,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="infectionActivatorGrimy" duration="1" requires="grimy" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection);increment(hygiene, 120, 0, 0, 1)" type="sickness"/>
 <buff id="infectionActivatorFilthy" duration="1" requires="filthy" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection);increment(hygiene, 120, 0, 0, 1)" type="sickness"/>
 <buff id="infectionActivatorInfectious" duration="1" requires="infectious" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
-<buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0);buff(infectionTest)" type="sickness" icon="ui_game_symbol_infection">
+<buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0)" type="sickness" icon="ui_game_symbol_infection">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 </buff>
 <buff id="infectionReset" duration="1" mutex="cured" actions="increment(infected, 10, 0, 0, 1);buff(infectionBase)" type="sickness">
@@ -332,7 +332,6 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="infection4" buffif="infected gequal 3840" actions="kill" icon="ui_game_symbol_infection" name_key="infection4" description_key="infection4Desc" tooltip_key="infection4Tooltip"/>
 
 <!--End-->
-<buff id="infectionTest" duration="1" actions="increment(infected, 2880, 0, 0, 1)"/>
 <!--
 <buff id="infection" mutex="cured,infection1,infection2,infection3,infection4" duration="9000" onexpired="infection1" type="sickness"
 	icon="ui_game_symbol_infection" name_key="infection" description_key="infectionDesc" tooltip_key="infectionTooltip" cures="foodHoney,antibiotics,herbalAntibiotics">
