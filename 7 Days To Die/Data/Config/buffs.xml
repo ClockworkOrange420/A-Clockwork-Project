@@ -810,7 +810,7 @@ Stew
 <buff id="bleedingBurningSmall" actions="buff(burningSmall);buff(bleeding)" duration="1" />
 
 <buff id="FatigueMain" duration="0" buffif="coretemp lequal 300" actions="increment(fatigue, 1, 50t, 0, 0)"/>
-<buff id="rested" duration="0" buffif="fatigue less 2" debuffif="fatigue gequal 8" actions="debuff(sleepingBagEffect2);debuff(sleepingBedEffect2);debuff(sleepingBigBedEffect2)" icon="ui_game_symbol_map_bed" name_key="Well rested" description_key="You are well rested." tooltip_key="Well rested" />
+<buff id="rested" duration="0" buffif="fatigue less 1" debuffif="fatigue gequal 8" actions="debuff(sleepingBagEffect2);debuff(sleepingBedEffect2);debuff(sleepingBigBedEffect2)" icon="ui_game_symbol_map_bed" name_key="Well rested" description_key="You are well rested." tooltip_key="Well rested" />
 <buff id="tired" buffif="fatigue gequal 24" debuffif="fatigue lequal 23" mutex="prettyTired,veryTired,extremelyTired,insanelyTired,deadtiredWarning" icon="ui_game_symbol_character" name_key="Tired" description_key="You are tired and should get some rest" tooltip_key="You are tired">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 </buff>
