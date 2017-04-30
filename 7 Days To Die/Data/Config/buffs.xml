@@ -299,12 +299,12 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="infectionForced" duration="60" onexpired="infection"/>
 <buff id="recoveryRemover" duration="1" actions="debuff(recovering2);debuff(recovering3);debuff(recovering4)"/>
 <buff id="cured" duration="1200t" stack="reset" icon="ui_game_symbol_muscle" name_key="cured" description_key="curedDesc" tooltip_key="curedTooltip"/>
-<buff id="recovering" duration="2400t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recoveringSmall,recoveringTiny" stack="reset" actions="increment(infected, -2, 2t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
-<buff id="recoveringSmall" duration="1200t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recovering,recoveringTiny" stack="reset" actions="increment(infected, -2, 2t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
-<buff id="recoveringTiny" duration="600t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recovering,recoveringSmall" stack="reset" actions="increment(infected, -2, 2t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
-<buff id="recovering2" requires="sleepingBagEffect" debuffif="CTRbedroll less 1" actions="increment(infected, -0.25, 4t, 0, 0)"/>
-<buff id="recovering3" requires="sleepingBedEffect" debuffif="CTRbed less 1" actions="increment(infected, -0.5, 4t, 0, 0)"/>
-<buff id="recovering4" requires="sleepingBigBedEffect" debuffif="CTRbigbed less 1" actions="increment(infected, -1, 4t, 0, 0)"/>
+<buff id="recovering" duration="2400t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recoveringSmall,recoveringTiny" stack="reset" actions="increment(infected, -4, 2t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
+<buff id="recoveringSmall" duration="1200t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recovering,recoveringTiny" stack="reset" actions="increment(infected, -4, 2t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
+<buff id="recoveringTiny" duration="600t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recovering,recoveringSmall" stack="reset" actions="increment(infected, -4, 2t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
+<buff id="recovering2" requires="sleepingBagEffect" debuffif="CTRbedroll less 1" actions="increment(infected, -1, 4t, 0, 0)"/>
+<buff id="recovering3" requires="sleepingBedEffect" debuffif="CTRbed less 1" actions="increment(infected, -2, 4t, 0, 0)"/>
+<buff id="recovering4" requires="sleepingBigBedEffect" debuffif="CTRbigbed less 1" actions="increment(infected, -3, 4t, 0, 0)"/>
 
 <buff id="infectionActivatorClean" duration="1" requires="clean" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
 <buff id="infectionActivatorDirty" duration="1" requires="dirty" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
@@ -314,22 +314,22 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0)" type="sickness" >
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 </buff>
-<buff id="infection" duration="1" mutex="cured" actions="increment(infected, 1200, 0, 0, 1);buff(infectionBase)" type="sickness">
+<buff id="infection" duration="1" mutex="cured" actions="increment(infected, 10, 0, 0, 1);buff(infectionBase)" type="sickness">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 </buff>
-<buff id="infection1" buffif="infected gequal 2400" debuffif="infected lequal 2399" mutex="infection2,infection3" type="sickness" icon="ui_game_symbol_infection" name_key="infection1" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics">
+<buff id="infection1" buffif="infected gequal 1200" debuffif="infected lequal 1199" mutex="infection2,infection3" type="sickness" icon="ui_game_symbol_infection" name_key="infection1" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="30"/>
 </buff>
-<buff id="infection2" buffif="infected gequal 3600" debuffif="infected lequal 3599" mutex="infection3" actions="debuff(infection1);damage(2,100t,0,30);increment(@wellness, -0.25, 100t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="infection2" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics">
+<buff id="infection2" buffif="infected gequal 2400" debuffif="infected lequal 2399" mutex="infection3" actions="debuff(infection1);damage(2,100t,0,30);increment(@wellness, -0.25, 100t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="infection2" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="15"/>
 </buff>
-<buff id="infection3" buffif="infected gequal 4800" debuffif="infected lequal 4799" actions="debuff(infection2);damage(5,100t,0,15);increment(@wellness, -0.25, 100t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="infection3" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics">
+<buff id="infection3" buffif="infected gequal 3600" debuffif="infected lequal 3599" actions="debuff(infection2);damage(5,100t,0,15);increment(@wellness, -0.25, 100t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="infection3" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics">
 	<modify id="0" stat="stamina" amount="-2" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="5"/>
 </buff>
-<buff id="infection4" buffif="infected gequal 6000" actions="kill" icon="ui_game_symbol_infection" name_key="infection4" description_key="infection4Desc" tooltip_key="infection4Tooltip"/>
+<buff id="infection4" buffif="infected gequal 4800" actions="kill" icon="ui_game_symbol_infection" name_key="infection4" description_key="infection4Desc" tooltip_key="infection4Tooltip"/>
 
 <!--End-->
 
