@@ -310,22 +310,25 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="infectionActivatorGrimy" duration="1" requires="grimy" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection);increment(hygiene, 120, 0, 0, 1)" type="sickness"/>
 <buff id="infectionActivatorFilthy" duration="1" requires="filthy" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection);increment(hygiene, 120, 0, 0, 1)" type="sickness"/>
 <buff id="infectionActivatorInfectious" duration="1" requires="infectious" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
-<buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0)" type="sickness" icon="ui_game_symbol_infection">
+<buff id="infectionNotification" buffif="infected gequal 240" debuffif="infected less 1" type="sickness" icon="ui_game_symbol_infection" name_key="Minor Infection" description_key="Close inspection reveals a minor infection." tooltip_key="Minor Infection" cures="antibiotics,herbalAntibiotics,Honey_Poultice"/>
+<buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0);increment(fatigue, 1, 50t, 0, 0);increment(@wellness, -0.1, 100t, 0, 0)" type="sickness">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
+	<modify id="1" stat="food" amount="-1" rate="20"/>
+	<modify id="2" stat="water" amount="-1" rate="20"/>
 </buff>
 <buff id="infectionReset" duration="1" mutex="cured" actions="increment(infected, 10, 0, 0, 1);buff(infectionBase)" type="sickness">
 <modify id="0" stat="stamina" amount="-1" rate="1"/>
 </buff>
-<buff id="infection" duration="1" mutex="cured,infectionBase" actions="setvar(infected, 0);buff(infectionReset)" type="sickness"/>
-<buff id="infection1" buffif="infected gequal 960" debuffif="infected lequal 959" mutex="infection2,infection3" type="sickness" icon="ui_game_symbol_infection" name_key="infection1" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics">
+<buff id="infection" duration="1" onexpired="infectionReset" mutex="cured,infectionBase" actions="setvar(infected, 0)" type="sickness"/>
+<buff id="infection1" buffif="infected gequal 960" debuffif="infected lequal 959" mutex="infection2,infection3" actions="debuff(infectionNotification)" type="sickness" icon="ui_game_symbol_infection" name_key="Infection" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="30"/>
 </buff>
-<buff id="infection2" buffif="infected gequal 1920" debuffif="infected lequal 1919" mutex="infection3" actions="debuff(infection1);damage(2,100t,0,30);increment(@wellness, -0.25, 100t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="infection2" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics">
+<buff id="infection2" buffif="infected gequal 1920" debuffif="infected lequal 1919" mutex="infection3" actions="debuff(infection1);damage(2,100t,0,30)" type="sickness" icon="ui_game_symbol_infection" name_key="Major Infection" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="15"/>
 </buff>
-<buff id="infection3" buffif="infected gequal 2880" debuffif="infected lequal 2879" actions="debuff(infection2);damage(5,100t,0,15);increment(@wellness, -0.25, 100t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="infection3" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics">
+<buff id="infection3" buffif="infected gequal 2880" debuffif="infected lequal 2879" actions="debuff(infection2);damage(5,100t,0,15)" type="sickness" icon="ui_game_symbol_infection" name_key="Extreme Infection" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
 	<modify id="0" stat="stamina" amount="-2" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="5"/>
 </buff>
