@@ -527,7 +527,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="0" stat="health" amount="1" rate="5" />
 	<modify id="0" stat="stamina" amount="1" rate="5" />
 </buff>
-<buff id="sleepingBagEffect2" duration="0" mutex="rested" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(fatigue, -2, 1, 0, 0)"/>
+<buff id="sleepingBagEffect2" duration="0" mutex="rested" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
 
 <buff id="sleepingBedTrigger" duration="1" actions="setvar(CTRbed, 3)" />
 <buff id="sleepingBedEffect" duration="0" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(CTRbed, -1, 1, 0, 0)"
@@ -535,7 +535,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="0" stat="health" amount="2" rate="5" />
 	<modify id="0" stat="stamina" amount="1" rate="3" />
 </buff>
-<buff id="sleepingBedEffect2" duration="0" mutex="rested" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(fatigue, -2, 1, 0, 0)"/>
+<buff id="sleepingBedEffect2" duration="0" mutex="rested" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
 
 <buff id="sleepingBigBedTrigger" duration="1" actions="setvar(CTRbigbed, 3)" />
 <buff id="sleepingBigBedEffect" duration="0" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(CTRbigbed, -1, 1, 0, 0)"
@@ -543,7 +543,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="0" stat="health" amount="3" rate="5" />
 	<modify id="0" stat="stamina" amount="1" rate="3" />
 </buff>
-<buff id="sleepingBigBedEffect2" duration="0" mutex="rested" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(fatigue, -2, 1, 0, 0)"/>
+<buff id="sleepingBigBedEffect2" duration="0" mutex="rested" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
 
 <buff id="asphaltStaBoostTrigger" duration="1" actions="setvar(CTRroadrun, 3)" />
 <buff id="asphaltStaminaEffect" duration="0" buffif="CTRroadrun greater 0" debuffif="CTRroadrun less 1" actions="increment(CTRroadrun, -1, 1, 0, 0)" >
