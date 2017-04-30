@@ -316,7 +316,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="infectionReset" duration="1" mutex="cured" actions="increment(infected, 10, 0, 0, 1);buff(infectionBase)" type="sickness" icon="ui_game_symbol_dysentery">
 <modify id="0" stat="stamina" amount="-1" rate="1"/>
 </buff>
-<buff id="infection" duration="1" mutex="cured" actions="setvar(infected, 0);buff(infectionReset)" type="sickness" icon="ui_game_symbol_dysentery"/>
+<buff id="infection" duration="1" mutex="cured,infectionBase" actions="setvar(infected, 0);buff(infectionReset)" type="sickness" icon="ui_game_symbol_dysentery"/>
 <buff id="infection1" buffif="infected gequal 960" debuffif="infected lequal 959" mutex="infection2,infection3" type="sickness" icon="ui_game_symbol_infection" name_key="infection1" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="30"/>
