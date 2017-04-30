@@ -349,7 +349,7 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="Density" value="0.1" />
 	<property name="FallDamage" value="false" />
-	<property name="HeatMapStrength" value="0.2"/>
+	<property name="HeatMapStrength" value="0.5"/>
 	<property name="HeatMapTime" value="1200"/>
 	<property name="UpgradeRated.ToBlock" value="air" />
 	<property name="UpgradeRated.Rate" value="15" />
@@ -6530,7 +6530,7 @@ kind of free
 	<property name="Tag" value="Gore" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="FallDamage" value="false" />
-	<property name="HeatMapStrength" value="0.75"/>
+	<property name="HeatMapStrength" value="1"/>
 	<property name="HeatMapTime" value="1200"/>
 		<property name="UpgradeRated.BlockCombined" value="gore" />
 		<property name="UpgradeRated.ToBlock" value="gore" />
