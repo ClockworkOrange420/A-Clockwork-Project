@@ -130,11 +130,11 @@ built-in buff variables:
 
 <!--Modded-->
 
-<buff id="woundActivatorClean" duration="30" onexpired="infection" requires="clean" mutex="cured,infection,infection1,infection2,infection3"/>
-<buff id="woundActivatorDirty" duration="15" onexpired="infection" requires="dirty" mutex="cured,infection,infection1,infection2,infection3"/>
-<buff id="woundActivatorGrimy" duration="10" onexpired="infection" requires="grimy" mutex="cured,infection,infection1,infection2,infection3"/>
-<buff id="woundActivatorFilthy" duration="5" onexpired="infection" requires="filthy" mutex="cured,infection,infection1,infection2,infection3"/>
-<buff id="woundActivatorInfectious" duration="1" onexpired="infection" requires="infectious" mutex="cured,infection,infection1,infection2,infection3"/>
+<buff id="woundActivatorClean" duration="30" onexpired="infection" requires="clean" mutex="cured,infection,infectionBase,infection1,infection2,infection3"/>
+<buff id="woundActivatorDirty" duration="15" onexpired="infection" requires="dirty" mutex="cured,infection,infectionBase,infection1,infection2,infection3"/>
+<buff id="woundActivatorGrimy" duration="10" onexpired="infection" requires="grimy" mutex="cured,infection,infectionBase,infection1,infection2,infection3"/>
+<buff id="woundActivatorFilthy" duration="5" onexpired="infection" requires="filthy" mutex="cured,infection,infectionBase,infection1,infection2,infection3"/>
+<buff id="woundActivatorInfectious" duration="1" onexpired="infection" requires="infectious" mutex="cured,infection,infectionBase,infection1,infection2,infection3"/>
 <buff id="bleeding" duration="60" type="bleeding" actions="buff(infectionForced);buff(woundActivatorClean);buff(woundActivatorDirty);buff(woundActivatorGrimy);buff(woundActivatorFilthy);buff(woundActivatorInfectious);debuff(fullBuff);debuff(firstAid);debuff(firstAidLarge);damage(0,5,0,0)" icon="ui_game_symbol_critical" name_key="bleedingOut" description_key="bleedingOutDesc" tooltip_key="bleedingOutTooltip" cures="bandage,firstAidBandage,firstAidKit">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="1"/>
@@ -306,11 +306,11 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="recovering3" requires="sleepingBedEffect" debuffif="CTRbed less 1" actions="increment(infected, -0.5, 4t, 0, 0)"/>
 <buff id="recovering4" requires="sleepingBigBedEffect" debuffif="CTRbigbed less 1" actions="increment(infected, -1, 4t, 0, 0)"/>
 
-<buff id="infectionActivatorClean" duration="1" requires="clean" mutex="cured,infection,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
-<buff id="infectionActivatorDirty" duration="1" requires="dirty" mutex="cured,infection,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
-<buff id="infectionActivatorGrimy" duration="1" requires="grimy" mutex="cured,infection,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
-<buff id="infectionActivatorFilthy" duration="1" requires="filthy" mutex="cured,infection,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
-<buff id="infectionActivatorInfectious" duration="1" requires="infectious" mutex="cured,infection,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
+<buff id="infectionActivatorClean" duration="1" requires="clean" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
+<buff id="infectionActivatorDirty" duration="1" requires="dirty" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
+<buff id="infectionActivatorGrimy" duration="1" requires="grimy" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
+<buff id="infectionActivatorFilthy" duration="1" requires="filthy" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
+<buff id="infectionActivatorInfectious" duration="1" requires="infectious" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
 <buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="infection1" description_key="infection1Desc" tooltip_key="infection1Tooltip">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 </buff>
