@@ -5708,7 +5708,7 @@ which does not exist, yet. -->
 		<property name="Gain_food" value="0" />
 		<property name="Gain_water" value="0" />
 		<property name="Sound_start" value="UseActions/player_bandage" />
-		<property name="Debuff" value="woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious" />
+		<property name="Debuff" value="infectionForced,woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious" />
 		<property name="Buff" value="splint" />
 	</property>
 	<property name="Group" value="Medicine" />
@@ -5774,7 +5774,7 @@ which does not exist, yet. -->
 		<property name="Gain_food" value="0" />
 		<property name="Gain_water" value="0" />
 		<property name="Sound_start" value="UseActions/player_bandage" />
-		<property name="Debuff" value="bleeding,arrowCriticalBleedout,woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious" />
+		<property name="Debuff" value="bleeding,arrowCriticalBleedout,infectionForced,woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious" />
 	</property>
 	<property name="Group" value="Medicine,Basics" />
 	<property name="DescriptionKey" value="bandageDesc"/>
@@ -5820,7 +5820,7 @@ which does not exist, yet. -->
 	<property name="Material" value="metal" />
 	<property name="EconomicValue" value="800" />
 	<property name="HoldType" value="45" />
-	<property name="Stacknumber" value="250" /> <!-- STK loot -->
+	<property name="Stacknumber" value="1" /> <!-- STK loot -->
 	<property class="Action1">
 		<property name="Class" value="Eat" />
 		<property name="Delay" value="1.0" />
@@ -5830,6 +5830,7 @@ which does not exist, yet. -->
 		<property name="Gain_water" value="0" />
 		<property name="Sound_start" value="UseActions/player_blooddraw" />
 		<property name="Buff" value="bloodDrawTrigger,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious" />
+		<property name="Buff_chance" value="1,0.25,0.4,0.5,1" />
 		<property name="Consume" value="false" />
 		<property name="Create_item" value="bloodBag" />
 	</property>
@@ -9342,7 +9343,7 @@ which does not exist, yet. -->
             <property name="DamageEntity" value="80" />
             <property name="DamageBlock" value="50" />
             <property name="Buff" value="brokenLeg,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious" />
-            <property name="Buff_chance" value="0.2,0.2,0.3,0.05,0.2,0.3,0.4,0.5" />
+            <property name="Buff_chance" value="0.2,0.2,0.3,0.05,0.2,0.4,0.6,1" />
         </property>
     </item>
 	<item id="1517" name="Yeast">

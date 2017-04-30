@@ -129,13 +129,12 @@ built-in buff variables:
 <buff id="isPlayer" buffif="+full > 0" />
 
 <!--Modded-->
-
-<buff id="woundActivatorClean" duration="30" onexpired="infection" requires="clean" mutex="cured,infection,infectionBase,infection1,infection2,infection3"/>
-<buff id="woundActivatorDirty" duration="15" onexpired="infection" requires="dirty" mutex="cured,infection,infectionBase,infection1,infection2,infection3"/>
-<buff id="woundActivatorGrimy" duration="10" onexpired="infection" requires="grimy" mutex="cured,infection,infectionBase,infection1,infection2,infection3"/>
-<buff id="woundActivatorFilthy" duration="5" onexpired="infection" requires="filthy" mutex="cured,infection,infectionBase,infection1,infection2,infection3"/>
-<buff id="woundActivatorInfectious" duration="1" onexpired="infection" requires="infectious" mutex="cured,infection,infectionBase,infection1,infection2,infection3"/>
-<buff id="bleeding" duration="60" type="bleeding" actions="buff(infectionForced);buff(woundActivatorClean);buff(woundActivatorDirty);buff(woundActivatorGrimy);buff(woundActivatorFilthy);buff(woundActivatorInfectious);debuff(fullBuff);debuff(firstAid);debuff(firstAidLarge);damage(0,5,0,0)" icon="ui_game_symbol_critical" name_key="bleedingOut" description_key="bleedingOutDesc" tooltip_key="bleedingOutTooltip" cures="bandage,firstAidBandage,firstAidKit">
+<buff id="woundActivatorClean" duration="30" onexpired="infection" requires="clean" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3"/>
+<buff id="woundActivatorDirty" duration="15" onexpired="infection" requires="dirty" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3"/>
+<buff id="woundActivatorGrimy" duration="10" onexpired="infection" requires="grimy" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3"/>
+<buff id="woundActivatorFilthy" duration="5" onexpired="infection" requires="filthy" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3"/>
+<buff id="woundActivatorInfectious" duration="1" onexpired="infection" requires="infectious" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3"/>
+<buff id="bleeding" duration="60" type="bleeding" actions="increment(hygiene, 30, 1, 0, 0);buff(infectionForced);buff(woundActivatorClean);buff(woundActivatorDirty);buff(woundActivatorGrimy);buff(woundActivatorFilthy);buff(woundActivatorInfectious);debuff(fullBuff);debuff(firstAid);debuff(firstAidLarge);damage(0,5,0,0)" icon="ui_game_symbol_critical" name_key="bleedingOut" description_key="bleedingOutDesc" tooltip_key="bleedingOutTooltip" cures="bandage,firstAidBandage,firstAidKit">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="1"/>
 </buff>
@@ -302,34 +301,35 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="recovering" duration="2400t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recoveringSmall,recoveringTiny" stack="reset" actions="increment(infected, -4, 2t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
 <buff id="recoveringSmall" duration="1200t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recovering,recoveringTiny" stack="reset" actions="increment(infected, -4, 2t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
 <buff id="recoveringTiny" duration="600t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recovering,recoveringSmall" stack="reset" actions="increment(infected, -4, 2t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
-<buff id="recovering2" requires="sleepingBagEffect" debuffif="CTRbedroll less 1" actions="increment(infected, -0.25, 4t, 0, 0)"/>
-<buff id="recovering3" requires="sleepingBedEffect" debuffif="CTRbed less 1" actions="increment(infected, -0.5, 4t, 0, 0)"/>
-<buff id="recovering4" requires="sleepingBigBedEffect" debuffif="CTRbigbed less 1" actions="increment(infected, -1, 4t, 0, 0)"/>
+<buff id="recovering2" requires="sleepingBagEffect" debuffif="CTRbedroll less 1" actions="increment(infected, -1, 4t, 0, 0)" icon="ui_game_symbol_natural_healing"/>
+<buff id="recovering3" requires="sleepingBedEffect" debuffif="CTRbed less 1" actions="increment(infected, -2, 4t, 0, 0)" icon="ui_game_symbol_natural_healing"/>
+<buff id="recovering4" requires="sleepingBigBedEffect" debuffif="CTRbigbed less 1" actions="increment(infected, -4, 4t, 0, 0)" icon="ui_game_symbol_natural_healing"/>
 
-<buff id="infectionActivatorClean" duration="1" requires="clean" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
-<buff id="infectionActivatorDirty" duration="1" requires="dirty" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
-<buff id="infectionActivatorGrimy" duration="1" requires="grimy" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
-<buff id="infectionActivatorFilthy" duration="1" requires="filthy" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
+<buff id="infectionActivatorClean" duration="1" requires="clean" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection);increment(hygiene, 120, 0, 0, 1)" type="sickness"/>
+<buff id="infectionActivatorDirty" duration="1" requires="dirty" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection);increment(hygiene, 120, 0, 0, 1)" type="sickness"/>
+<buff id="infectionActivatorGrimy" duration="1" requires="grimy" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection);increment(hygiene, 120, 0, 0, 1)" type="sickness"/>
+<buff id="infectionActivatorFilthy" duration="1" requires="filthy" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection);increment(hygiene, 120, 0, 0, 1)" type="sickness"/>
 <buff id="infectionActivatorInfectious" duration="1" requires="infectious" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
-<buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0)" type="sickness">
+<buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0)" type="sickness" icon="ui_game_symbol_infection">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 </buff>
-<buff id="infection" duration="1" mutex="cured" actions="increment(infected, 10, 0, 0, 1);buff(infectionBase)" type="sickness">
-	<modify id="0" stat="stamina" amount="-1" rate="1"/>
+<buff id="infectionReset" duration="1" mutex="cured" actions="increment(infected, 10, 0, 0, 1);buff(infectionBase)" type="sickness" icon="ui_game_symbol_dysentery">
+<modify id="0" stat="stamina" amount="-1" rate="1"/>
 </buff>
-<buff id="infection1" buffif="infected gequal 1200" debuffif="infected lequal 1199" mutex="infection2,infection3" type="sickness" icon="ui_game_symbol_infection" name_key="infection1" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics">
+<buff id="infection" duration="1" mutex="cured" actions="setvar(infected, 0);buff(infectionReset)" type="sickness" icon="ui_game_symbol_dysentery"/>
+<buff id="infection1" buffif="infected gequal 960" debuffif="infected lequal 959" mutex="infection2,infection3" type="sickness" icon="ui_game_symbol_infection" name_key="infection1" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="30"/>
 </buff>
-<buff id="infection2" buffif="infected gequal 2400" debuffif="infected lequal 2399" mutex="infection3" actions="debuff(infection1);damage(2,100t,0,30);increment(@wellness, -0.25, 100t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="infection2" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics">
+<buff id="infection2" buffif="infected gequal 1920" debuffif="infected lequal 1919" mutex="infection3" actions="debuff(infection1);damage(2,100t,0,30);increment(@wellness, -0.25, 100t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="infection2" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="15"/>
 </buff>
-<buff id="infection3" buffif="infected gequal 3600" debuffif="infected lequal 3599" actions="debuff(infection2);damage(5,100t,0,15);increment(@wellness, -0.25, 100t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="infection3" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics">
+<buff id="infection3" buffif="infected gequal 2880" debuffif="infected lequal 2879" actions="debuff(infection2);damage(5,100t,0,15);increment(@wellness, -0.25, 100t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="infection3" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics">
 	<modify id="0" stat="stamina" amount="-2" rate="1"/>
 	<modify id="1" stat="health" amount="-1" rate="5"/>
 </buff>
-<buff id="infection4" buffif="infected gequal 4800" actions="kill" icon="ui_game_symbol_infection" name_key="infection4" description_key="infection4Desc" tooltip_key="infection4Tooltip"/>
+<buff id="infection4" buffif="infected gequal 3840" actions="kill" icon="ui_game_symbol_infection" name_key="infection4" description_key="infection4Desc" tooltip_key="infection4Tooltip"/>
 
 <!--End-->
 
@@ -759,7 +759,7 @@ Stew
 
 
 <!--Modded-->
-<buff id="fullBuff" mutex="bleeding" buffif="food > 0.5" debuffif="food lequal 0.5" icon="ui_game_symbol_natural_healing" name_key="fullBuff" description_key="fullBuffDesc" tooltip_key="fullBuffTooltip">
+<buff id="fullBuff" mutex="bleeding,infectionBase" buffif="food > 0.75" debuffif="food lequal 0.75" icon="ui_game_symbol_natural_healing" name_key="fullBuff" description_key="fullBuffDesc" tooltip_key="fullBuffTooltip">
 	<modify id="0" stat="health" amount="1" rate="5" />
 </buff>
 
@@ -835,7 +835,7 @@ Stew
 <buff id="deadTired" buffif="fatigue gequal 168" actions="kill"/>
 
 <buff id="HygieneLock" duration="0"/>
-<buff id="HygieneLockRemover" duration="1" actions="debuff(HygieneLock)"/>
+<buff id="HygieneLockRemover" duration="1" actions="setvar(hygiene, 0);debuff(HygieneLock)"/>
 <buff id="Hygiene" duration="0" buffif="coretemp lequal 300" mutex="HygieneLock" actions="increment(hygiene, 2, 4t, 0, 0)"/>
 <buff id="fullyClean" duration="0" buffif="hygiene less 1" debuffif="hygiene gequal 24" mutex="dirty,grimy,filthy,infectious" actions="debuff(bathing)" icon="ui_game_symbol_shirt" name_key="Nice and clean" description_key="You are clean." tooltip_key="Nice and clean" />
 <buff id="clean" duration="0" buffif="hygiene gequal 1" debuffif="hygiene gequal 600" mutex="dirty,grimy,filthy,infectious"/>
@@ -844,8 +844,8 @@ Stew
 <buff id="filthy" duration="0" buffif="hygiene gequal 1800" debuffif="hygiene lequal 1799" mutex="infectious" smell="largeSmell" actions="debuff(grimy)" icon="ui_game_symbol_smell" name_key="Filthy" description_key="You are filthy and are highly prone to infection." tooltip_key="You’re filthy and you really stink"/>
 <buff id="infectious" duration="0" ondebuff="HygieneLockRemover" buffif="hygiene gequal 2400" debuffif="hygiene lequal 2399" smell="exLargeSmell" actions="buff(HygieneLock);debuff(filthy);debuff(Hygiene)" icon="ui_game_symbol_smell" name_key="Infectious" description_key="Any wounds you have are extremely likely to give you an infection. You need to get clean!" tooltip_key="Extremely dirty and prone to infection!"/>
 
-<buff id="rinsingOff" duration="1" mutex="fullyClean" actions="increment(hygiene, -600, 0, 0, 1)" icon="ui_game_symbol_water" name_key="Rinsing off" description_key="Rinsing off will not get you completly clean." tooltip_key="Rinsing off"/>
-<buff id="rinsingOffSmall" duration="1" mutex="fullyClean" actions="increment(hygiene, -300, 0, 0, 1)" icon="ui_game_symbol_water" name_key="Rinsing off" description_key="Rinsing off will not get you completly clean." tooltip_key="Rinsing off"/>
+<buff id="rinsingOff" duration="1" mutex="fullyClean" actions="increment(hygiene, -600, 0, 0, 1);min(hygiene, 0)" icon="ui_game_symbol_water" name_key="Rinsing off" description_key="Rinsing off will not get you completly clean." tooltip_key="Rinsing off"/>
+<buff id="rinsingOffSmall" duration="1" mutex="fullyClean" actions="increment(hygiene, -300, 0, 0, 1);min(hygiene, 0)" icon="ui_game_symbol_water" name_key="Rinsing off" description_key="Rinsing off will not get you completly clean." tooltip_key="Rinsing off"/>
 <buff id="bathing" buffif="+water > 5" debuffif="-water > 1" mutex="fullyClean" actions="increment(hygiene, -120, 1, 0, 0)" icon="ui_game_symbol_water" name_key="Bathing" description_key="You are bathing and will become clean over time." tooltip_key="Bathing"/>
 <!--End-->
 
