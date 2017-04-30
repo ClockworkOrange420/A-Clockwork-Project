@@ -302,16 +302,16 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="recovering" duration="2400t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recoveringSmall,recoveringTiny" stack="reset" actions="increment(infected, -4, 2t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
 <buff id="recoveringSmall" duration="1200t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recovering,recoveringTiny" stack="reset" actions="increment(infected, -4, 2t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
 <buff id="recoveringTiny" duration="600t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recovering,recoveringSmall" stack="reset" actions="increment(infected, -4, 2t, 0, 0);buff(recovering2);buff(recovering3);buff(recovering4)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
-<buff id="recovering2" requires="sleepingBagEffect" debuffif="CTRbedroll less 1" actions="increment(infected, -1, 4t, 0, 0)"/>
-<buff id="recovering3" requires="sleepingBedEffect" debuffif="CTRbed less 1" actions="increment(infected, -2, 4t, 0, 0)"/>
-<buff id="recovering4" requires="sleepingBigBedEffect" debuffif="CTRbigbed less 1" actions="increment(infected, -3, 4t, 0, 0)"/>
+<buff id="recovering2" requires="sleepingBagEffect" debuffif="CTRbedroll less 1" actions="increment(infected, -0.25, 4t, 0, 0)"/>
+<buff id="recovering3" requires="sleepingBedEffect" debuffif="CTRbed less 1" actions="increment(infected, -0.5, 4t, 0, 0)"/>
+<buff id="recovering4" requires="sleepingBigBedEffect" debuffif="CTRbigbed less 1" actions="increment(infected, -1, 4t, 0, 0)"/>
 
 <buff id="infectionActivatorClean" duration="1" requires="clean" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
 <buff id="infectionActivatorDirty" duration="1" requires="dirty" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
 <buff id="infectionActivatorGrimy" duration="1" requires="grimy" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
 <buff id="infectionActivatorFilthy" duration="1" requires="filthy" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
 <buff id="infectionActivatorInfectious" duration="1" requires="infectious" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
-<buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0)" type="sickness" >
+<buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0)" type="sickness">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 </buff>
 <buff id="infection" duration="1" mutex="cured" actions="increment(infected, 10, 0, 0, 1);buff(infectionBase)" type="sickness">
