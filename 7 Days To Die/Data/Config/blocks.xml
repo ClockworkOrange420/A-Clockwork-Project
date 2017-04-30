@@ -340,7 +340,7 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 
 <block id="21" name="gore">
     	<property name="IsDeveloper" value="true" />
-	<property name="Class" value="Ladder" />
+	<property name="Class" value="Gore" />
 	<property name="Material" value="organic" />
 	<property name="Shape" value="Terrain" />
 	<property name="Mesh" value="terrain" />
