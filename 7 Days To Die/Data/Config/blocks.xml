@@ -1650,7 +1650,7 @@ group desc for stuff like metal siding
 	<property name="IsDeveloper" value="true" />
 	<property name="Shape" value="Pyramid" />
 	<property name="UpgradeRated.ToBlock" value="concretePyramid" />
-	<property name="DowngradeBlock" value="solidWoodFramePyramid" />
+	<property name="DowngradeBlock" value="woodPyramid" />
 </block>
 
 <block id="186" name="pouredConcretePyramid">
@@ -1739,7 +1739,6 @@ group desc for stuff like metal siding
 	<property name="Shape" value="New" />
 	<property name="Model" value="Pole1m" />
 	<property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPillar100" /> </property>
-	<property name="DowngradeBlock" value="rConcretePillar100" />
 </block>
 
 <block id="197" name="steelQuarter">
@@ -1747,7 +1746,6 @@ group desc for stuff like metal siding
 	<property name="Shape" value="Quarter" />
 	<property name="Texture" value="356" />
 	<property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarter" /> </property>
-	<property name="DowngradeBlock" value="rConcreteQuarter" />
 </block>
 
 <block id="198" name="pouredConcreteStairs25">
@@ -3691,7 +3689,6 @@ group desc for stuff like metal siding
 <block id="414" name="steelBlock">
 	<property name="Extends" value="steelMaster" />
 	<property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelBlock" /> </property>
-	<property name="DowngradeBlock" value="rConcreteBlock" />
 </block>
 
 <block id="415" name="corrugatedMetalCNRFull">
@@ -8804,7 +8801,6 @@ kind of free
 	<property name="Shape" value="New" />
 	<property name="Model" value="arrow_slit_half" /> <property name="Place" value="TowardsPlacerInverted" />
 	<property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelArrowSlitHalf" /> </property>
-	<property name="DowngradeBlock" value="rConcreteArrowSlitHalf" />
 	<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
 </block>
 
@@ -8922,7 +8918,6 @@ kind of free
 <block id="1006" name="rustyIronBlock">
 	<property name="Extends" value="scrapIronMaster" />
 	<property class="UpgradeBlock"> <property name="ToBlock" value="rScrapIronBlock" /> </property>
-	<property name="DowngradeBlock" value="solidScrapIronFrameBlock" />
 	<property name="Texture" value="282" />
 	<property class="RepairItems"> <property name="forgedIron" value="5" /> </property>
 </block>
@@ -9482,7 +9477,6 @@ kind of free
 <block id="1092" name="scrapIronBlock">
 	<property name="Extends" value="scrapIronMaster" />
 	<property class="UpgradeBlock"> <property name="ToBlock" value="rScrapIronBlock" /> </property>
-	<property name="DowngradeBlock" value="solidScrapIronFrameBlock" />
 </block>
 
 <block id="1093" name="ventDuctBlock">
@@ -11963,7 +11957,6 @@ kind of free
 	<property name="Model" value="StairsFilled" /> <property name="Place" value="TowardsPlacerInverted" />
 	<property name="Texture" value="355,356,356,356,356,356" />
 	<property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelStairs25" /> </property>
-	<property name="DowngradeBlock" value="rConcreteStairs25" />
 </block>
 
 <block id="1425" name="steelRamp">
@@ -12135,7 +12128,6 @@ kind of free
 		<property name="ItemCount" value="1" />
 		<property name="UpgradeHitCount" value="4" />
 	</property>
-	<property name="DowngradeBlock" value="rWoodLogSpike2" />
 	<drop event="Destroy" name="scrapIron" count="15" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 </block>
@@ -12209,7 +12201,6 @@ kind of free
 		<property name="ItemCount" value="2" />
 		<property name="UpgradeHitCount" value="1" />
 	</property>
-	<property name="DowngradeBlock" value="rScrapIronLogSpike5" />
 	<drop event="Destroy" name="scrapIron" count="10,20" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="EconomicValue" value="160" />
@@ -14888,7 +14879,6 @@ kind of free
 		<property name="ItemCount" value="0"/>
 		<property name="UpgradeHitCount" value="1"/>
     </property>
-	<property name="DowngradeBlock" value="hiddenRScrapIronOpen" />
   </block>
   <block id="1952" name="hiddenSteelClosed">
 	<property name="Extends" value="steelMaster" />
@@ -14901,7 +14891,6 @@ kind of free
 		<property name="ItemCount" value="0"/>
 		<property name="UpgradeHitCount" value="1"/>
     </property>
-	<property name="DowngradeBlock" value="hiddenRScrapIronClosed" />
   </block>
   <block id="1953" name="hiddenRScrapIronPlacement">
 	<property name="Extends" value="rScrapIronMaster" />
@@ -15059,7 +15048,6 @@ kind of free
 		<property name="ItemCount" value="0"/>
 		<property name="UpgradeHitCount" value="1"/>
     </property>
-	<property name="DowngradeBlock" value="hiddenCobblestoneOpen" />
   </block>
   <block id="1964" name="hiddenConcreteClosed">
 	<property name="Extends" value="concreteMaster" />
@@ -15071,7 +15059,6 @@ kind of free
 		<property name="ItemCount" value="0"/>
 		<property name="UpgradeHitCount" value="1"/>
     </property>
-	<property name="DowngradeBlock" value="hiddenCobblestoneClosed" />
   </block>
   <block id="1965" name="hiddenCobblestonePlacement">
 	<property name="Extends" value="cobblestoneMaster" />
