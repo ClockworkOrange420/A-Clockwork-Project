@@ -10378,7 +10378,6 @@ which does not exist, yet. -->
 			<property name="Focused_blockname_4" value="waterMovingBucket" />
 			<property name="Focused_blockname_5" value="waterSource8" />
 			<property name="Sound_start" value="UseActions/bucketfill_water" />
-			<property name="Buff" value="dry" />
 		</property>
 		<property name="Group" value="Resources,Clothing" />
 		<property name="CraftingSkillGroup" value="Tailoring"/>
