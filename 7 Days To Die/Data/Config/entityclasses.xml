@@ -587,7 +587,7 @@
 	<property name="PanicSpeed" value="1.6" />
 	<property name="CanClimbLadders" value="false" />
 	<property name="RotateToGround" value="true"/>
-	<property name="MaxHealth" value="80" />
+	<property name="MaxHealth" value="100" />
 	<property name="SoundRandomTime" value="45.0" />
 	<property name="SoundAlertTime" value="25.0" />
 	<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam" />

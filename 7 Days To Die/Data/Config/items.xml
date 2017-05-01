@@ -9337,7 +9337,7 @@ which does not exist, yet. -->
 		<property name="Extends" value="handMaster" />
 		<property name="IsDeveloper" value="true" />
         <property class="Action0"><!-- AttackAction -->
-            <property name="Range" value="2" />
+            <property name="Range" value="1.75" />
 			<property name="Block_range" value="3" />
             <property name="DamageEntity" value="80" />
             <property name="DamageBlock" value="50" />
