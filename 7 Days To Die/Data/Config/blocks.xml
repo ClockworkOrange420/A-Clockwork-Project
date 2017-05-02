@@ -13122,6 +13122,7 @@ kind of free
 	<property name="StabilitySupport" value="false" />
 	<property name="MaxDamage" value="100"/>
 	<property name="Shape" value="Ext3dModel" />
+	<property name="Stacknumber" value="1" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="CampingGear/bedroll_02" param1="main_mesh" />
 	<property name="MultiBlockDim" value="1,1,2" />
