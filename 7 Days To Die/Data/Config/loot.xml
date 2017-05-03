@@ -288,8 +288,8 @@
 				<loot quality="1,200" prob="1"/>
 			</qualitytemplate>
 			<qualitytemplate level="0.48,0.64" default_quality="301,400">
-				<loot quality="501,600" prob="0.03"/>
-				<loot quality="401,500" prob=".10" /> 
+				<loot quality="451,500" prob="0.03"/>
+				<loot quality="401,450" prob=".10" /> 
 				<loot quality="301,400" prob="0.25" />
 				<loot quality="1,300" prob="0.75"/>
 			</qualitytemplate>
