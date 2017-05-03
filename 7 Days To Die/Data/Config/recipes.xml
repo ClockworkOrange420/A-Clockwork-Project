@@ -774,19 +774,15 @@
 	</recipe>
 	<recipe name="hiddenRScrapIronPlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="scrapIronPlate" count="2" />
-		<ingredient name="wood" count="10"/>
-		<ingredient name="nail" count="5"/>
+		<ingredient name="scrapIronPlate" count="3" />
 	</recipe>
 	<recipe name="hiddenScrapIronPlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="scrapIronPlate" count="1" />
-		<ingredient name="wood" count="10"/>
-		<ingredient name="nail" count="5"/>
+		<ingredient name="scrapIronPlate" count="2" />
 	</recipe>
 	<recipe name="hiddenRConcretePlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="concreteMix" count="20"/>
+		<ingredient name="concreteMix" count="10"/>
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
 	<recipe name="hiddenConcretePlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
@@ -796,47 +792,47 @@
 	</recipe>
 	<recipe name="hiddenCobblestonePlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="cobblestones" count="20"/>
 	</recipe>
 	<recipe name="hiddenBrickPaverPlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="12"/>
+		<ingredient name="concreteMix" count="8"/>
 	</recipe>
 	<recipe name="hiddenBrickBlockPlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="12"/>
+		<ingredient name="concreteMix" count="8"/>
 	</recipe>
 	<recipe name="hiddenBrickDecayedPlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="12"/>
+		<ingredient name="concreteMix" count="8"/>
 	</recipe>
 	<recipe name="hiddenBrickDecayedTanPlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="12"/>
+		<ingredient name="concreteMix" count="8"/>
 	</recipe>
 	<recipe name="hiddenBrickPaintedPlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="12"/>
+		<ingredient name="concreteMix" count="8"/>
 	</recipe>
 	<recipe name="hiddenBrickModernPlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="12"/>
+		<ingredient name="concreteMix" count="8"/>
 	</recipe>
 	<recipe name="hiddenRWoodPlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="wood" count="20"/>
-		<ingredient name="nail" count="5"/>
+		<ingredient name="wood" count="30"/>
+		<ingredient name="nail" count="10"/>
 	</recipe>
 	<recipe name="hiddenWoodPlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="wood" count="10"/>
-		<ingredient name="nail" count="5"/>
+		<ingredient name="wood" count="20"/>
+		<ingredient name="nail" count="10"/>
 	</recipe>
 	<recipe name="cntTrapChestUpgrade" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
@@ -1563,42 +1559,42 @@
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
 	<recipe name="brickBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="6"/>
+		<ingredient name="concreteMix" count="4"/>
 	</recipe>
 	<recipe name="brickCNRFull" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="6"/>
+		<ingredient name="concreteMix" count="4"/>
 	</recipe>
 	<recipe name="brickCNRInside" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="6"/>
+		<ingredient name="concreteMix" count="4"/>
 	</recipe>
 	<recipe name="brickCNRRamp" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="6"/>
+		<ingredient name="concreteMix" count="4"/>
 	</recipe>
 	<recipe name="brickDecayedBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="6"/>
+		<ingredient name="concreteMix" count="4"/>
 	</recipe>
 	<recipe name="brickPaversBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="6"/>
+		<ingredient name="concreteMix" count="4"/>
 	</recipe>
 	<recipe name="brickPaversStairs25" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="6"/>
+		<ingredient name="concreteMix" count="4"/>
 	</recipe>
 	<!--<recipe name="brickPillar100" count="1" craft_area="forge" material_based="true"><ingredient name="unit_clay" count="60"/><ingredient name="unit_stone" count="10"/></recipe><recipe name="brickPillar50" count="1" craft_area="forge" material_based="true"><ingredient name="unit_clay" count="60"/><ingredient name="unit_stone" count="10"/></recipe>-->
 	<recipe name="brickPlate" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="6"/>
+		<ingredient name="concreteMix" count="4"/>
 	</recipe>
 	<!--<recipe name="brickPole" count="1" craft_area="forge" material_based="true"><ingredient name="unit_clay" count="60"/><ingredient name="unit_stone" count="10"/></recipe>-->
 	<recipe name="brickRamp" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="6"/>
+		<ingredient name="concreteMix" count="4"/>
 	</recipe>
 	<!--<recipe name="brickWedge" count="1" craft_area="forge" material_based="true"><ingredient name="unit_clay" count="60"/></recipe><recipe name="brickWedgeTip" count="1" craft_area="forge" material_based="true"><ingredient name="unit_clay" count="60"/></recipe>-->
 	<recipe name="bucket" count="1" craft_time = "30" craft_exp_gain="84" craft_area="forge" craft_tool="anvil" material_based="true">
@@ -1618,7 +1614,7 @@
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
 	<recipe name="burntForestGround" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench">
-		<ingredient name="fertileDirt" count="1"/>
+		<ingredient name="dirtFragment" count="12"/>
 	</recipe>
 	<recipe name="cabinFlagstoneRamp" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
 		<ingredient name="cobblestones" count="10"/>
@@ -1704,20 +1700,20 @@
 		<ingredient name="spring" count="2"/>
 	</recipe>
 	<recipe name="clayRoofBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="6"/>
+		<ingredient name="concreteMix" count="4"/>
 	</recipe>
 	<recipe name="clayRoofRamp" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="6"/>
+		<ingredient name="concreteMix" count="4"/>
 	</recipe>
 	<recipe name="clayRoofCNRFull" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="6"/>
+		<ingredient name="concreteMix" count="4"/>
 	</recipe>
 	<recipe name="clayRoofCNRInside" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="Bricks" count="8"/>
-		<ingredient name="concreteMix" count="3"/>
+		<ingredient name="Bricks" count="6"/>
+		<ingredient name="concreteMix" count="4"/>
 	</recipe>
 	<recipe name="clawHammer" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Smithing_Table" craft_tool="anvil">
 		<ingredient name="forgedIron" count="12"/>
@@ -1919,8 +1915,6 @@
 	</recipe>
 	<recipe name="cobblestoneArrowSlitHalf" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="clawHammer">
 		<ingredient name="cobblestones" count="10"/>
-		<ingredient name="wood" count="5"/>
-		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="cobblestones" count="1" craft_time = "1" craft_area="cementMixer" craft_exp_gain="0">
 		<ingredient name="clayLump" count="1"/>
@@ -1931,92 +1925,92 @@
 		<ingredient name="cement" count="1"/>
 	</recipe>
 	<recipe name="concreteBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteArrowSlitHalf" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteCNRFull" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteCNRInside" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteCNRRamp" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteCTRPlate" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteEighth" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteHalf" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concretePillar100" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concretePillar50" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concretePlate" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concretePole" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concretePyramid" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteRamp" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteStairs25" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteQuarter" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteTrim2Block" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteWedge" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteWedgeTip" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteCNRRound" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteCNRRoundTop" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteSupport" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="Barbed_Wire" count="1" craft_time = "10" craft_exp_gain="28" craft_area="forge" craft_tool="anvil" material_based="true">
 		<ingredient name="unit_iron" count="10"/>
@@ -2837,23 +2831,23 @@
 		<ingredient name="scrapPlastics" count="4"/>
 	</recipe>
 	<recipe name="scrapIronSheet" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="clawHammer">
-		<ingredient name="scrapIron" count="20"/>
+		<ingredient name="scrapIron" count="10"/>
 	</recipe>
 	<recipe name="scrapIronGrateSheet" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="clawHammer">
-		<ingredient name="scrapIron" count="20"/>
+		<ingredient name="scrapIron" count="10"/>
 	</recipe>
 	<recipe name="scrapHatch_v1" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="wrench">
-		<ingredient name="scrapIron" count="20"/>
+		<ingredient name="scrapIron" count="10"/>
 	</recipe>
 	<!--<recipe name="scrapIronFrameBlock" count="1"><ingredient name="scrapIron" count="15"/></recipe><recipe name="scrapIronFrameCNRFull" count="1"><ingredient name="scrapIron" count="15"/></recipe><recipe name="scrapIronFrameCNRInside" count="1"><ingredient name="scrapIron" count="15"/></recipe><recipe name="scrapIronFrameRamp" count="1"><ingredient name="scrapIron" count="15"/></recipe><recipe name="scrapIronFrameWedge" count="1"><ingredient name="scrapIron" count="15"/></recipe><recipe name="scrapIronFrameWedgeTip" count="1"><ingredient name="scrapIron" count="15"/></recipe>-->
 	<recipe name="scrapIronStairs25" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="wrench">
-		<ingredient name="scrapIron" count="20"/>
+		<ingredient name="scrapIron" count="10"/>
 	</recipe>
 	<recipe name="rScrapIronTable" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="wrench">
 		<ingredient name="scrapIron" count="20"/>
 	</recipe>
 	<recipe name="scrapIronArrowSlitHalf" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="wrench">
-		<ingredient name="scrapIron" count="20"/>
+		<ingredient name="scrapIron" count="10"/>
 	</recipe>
 	<recipe name="sectionalArm" count="1" craft_time = "15" craft_exp_gain="42" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
 		<ingredient name="cloth" count="5"/>
@@ -3273,64 +3267,64 @@
 	</recipe>
 	<!--Concrete-->
 	<recipe name="sidewalkBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteTrim2Ramp" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="tileIndustrialConcreteBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteTrimBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteTrim3Block" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="blueConcretePillar100" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="orangeConcretePillar100" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteBricksBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="tileFloor5Stairs25" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="tileFloor3Stairs25" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="tileFloor4Stairs25" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="asphaltDrywallBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="dropCeiling2RoofAsphaltBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="dropCeilingRoofAsphaltBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="concreteStairs50" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
-		<ingredient name="concreteMix" count="10"/>
-		<ingredient name="cobblestones" count="10"/>
+		<ingredient name="concreteMix" count="5"/>
+		<ingredient name="cobblestones" count="5"/>
 	</recipe>
 	<recipe name="graveStone01" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Crafting_Table_Misc" craft_tool="Trowel">
 		<ingredient name="stone" count="1"/>
