@@ -782,7 +782,7 @@
 	</recipe>
 	<recipe name="hiddenRConcretePlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="concreteMix" count="10"/>
+		<ingredient name="concreteMix" count="20"/>
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
 	<recipe name="hiddenConcretePlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
