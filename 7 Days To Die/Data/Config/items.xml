@@ -1096,6 +1096,8 @@ Mesh files no longer used:
 	<property name="IsDeveloper" value="true" />
 	<property class="Action1">
 		<property name="Class" value="Projectile" />
+		<property name="DamageEntity" value="20" />
+		<property name="DamageBlock" value="150" />
 		<property name="Explosion.ParticleIndex" value="7" />
 		<property name="Velocity" value="20" />
 		<property name="FlyTime" value=".50" />
@@ -1106,7 +1108,7 @@ Mesh files no longer used:
 	</property>
 	<property class="Attributes">
 		<property name="GetQualityFromWeapon" value="true" />
-		<property name="EntityDamage" value="10" />
+		<property name="EntityDamage" value="20" />
 		<property name="BlockDamage" value="150" />
 	</property>
 </item>
