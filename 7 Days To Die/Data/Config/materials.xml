@@ -54,7 +54,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="stability_glue" value="10" />
 	<property name="Mass" type="int" value="1" />
 	<property name="MaxDamage" value="200" />
-	<property name="movement_factor" value="0.025" />
+	<property name="movement_factor" value="0.2" />
 </material>
 <!-- .1 and a zombie takes 2 damage hits.  .035 takes around 7 seconds to pass through -->
 
@@ -67,7 +67,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="stability_glue" value="1" />
 	<property name="Mass" type="int" value="1" />
 	<property name="MaxDamage" value="200" />
-	<property name="movement_factor" value="0.2" />
+	<property name="movement_factor" value="0.9" />
 </material>
 
 <material id="MtrapSpikes1">
