@@ -3084,6 +3084,14 @@
 		<ingredient name="snowberryPlant" count="1"/>
 		<ingredient name="cornMeal" count="1"/>
 	</recipe>
+	<recipe name="snowberryExtract" count="1" craft_area="Old_Oven" craft_tool="beaker">
+		<ingredient name="snowberryPlant" count="1"/>
+		<ingredient name="cornMeal" count="1"/>
+	</recipe>
+	<recipe name="snowberryExtract" count="1" craft_area="New_Oven" craft_tool="beaker">
+		<ingredient name="snowberryPlant" count="1"/>
+		<ingredient name="cornMeal" count="1"/>
+	</recipe>
 	<recipe name="snowberryJuice" count="1" craft_time = "60" craft_exp_gain="167" craft_area="campfire" craft_tool="cookingPot">
 		<ingredient name="snowberryExtract" count="1"/>
 		<ingredient name="blueberries" count="2"/>
