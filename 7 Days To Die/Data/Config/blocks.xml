@@ -9498,7 +9498,7 @@ kind of free
 <block id="1095" name="barbedWireSheet">
 	<property name="Class" value="Damage" />
 	<property name="Damage" value="1" />
-	<property name="Damage_received" value="3" />
+	<property name="Damage_received" value="6" />
 	<property name="Material" value="MbarbedWire" />
 	<property name="Shape" value="BillboardSingleOnWall" />
 	<property name="Place" value="TowardsPlacerInverted" />
