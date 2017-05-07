@@ -934,6 +934,9 @@
 		<ingredient name="yuccaFibers" count="1"/>
 	</recipe>
 	<recipe name="Compost" count="1" craft_time = "4" craft_exp_gain="12">
+		<ingredient name="snowberryPlant" count="1"/>
+	</recipe>
+	<recipe name="Compost" count="1" craft_time = "4" craft_exp_gain="12">
 		<ingredient name="shamSandwich" count="2"/>
 	</recipe>
 	<recipe name="Compost" count="1" craft_time = "4" craft_exp_gain="12">
