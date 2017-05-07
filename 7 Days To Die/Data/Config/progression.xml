@@ -27,7 +27,7 @@
 	</player_skill>
 	
 
-	<player_skill name="Scavenging" exp_to_level="200" icon="loot_sack" description_key="scavengingDesc" title_key="scavenging" group="scavenging">
+	<player_skill name="Scavenging" exp_to_level="800" icon="loot_sack" description_key="scavengingDesc" title_key="scavenging" group="scavenging">
 		<effect name="LootTime">
 			<multiply skill_level="1,100" value="1,0.5"/>
 		</effect>
