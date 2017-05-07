@@ -1842,12 +1842,13 @@
 		<ingredient name="spring" count="4"/>
 		<ingredient name="smallEngine" count="1"/>
 		<ingredient name="mechanicalParts" count="10"/>
+		<ingredient name="electricParts" count="3"/>
 	</recipe>
 	<recipe name="Sewing_Machine" count="1" craft_time = "120" craft_exp_gain="334" craft_area="workbench" craft_tool="wrench">
 		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="nail" count="1"/>
 		<ingredient name="spring" count="1"/>
-		<ingredient name="ductTape" count="5"/>
+		<ingredient name="electricParts" count="2"/>
 		<ingredient name="mechanicalParts" count="3"/>
 	</recipe>
 	<recipe name="Tailoring_Table" count="1" craft_time = "60" craft_exp_gain="167">
@@ -1860,7 +1861,7 @@
 		<ingredient name="ductTape" count="5"/>
 	</recipe>
 	<recipe name="Smithing_Table" count="1" craft_time = "60" craft_exp_gain="167" craft_area="workbench" craft_tool="wrench">
-		<ingredient name="forgedIron" count="20"/>
+		<ingredient name="forgedIron" count="40"/>
 	</recipe>
 	<recipe name="Research_Table" count="1" craft_time = "60" craft_exp_gain="167">
 		<ingredient name="wood" count="20"/>
@@ -1870,8 +1871,8 @@
 	<recipe name="Omnigel_Station" count="1" craft_time = "240" craft_exp_gain="667" craft_area="workbench" craft_tool="wrench">
 		<ingredient name="beaker" count="2"/>
 		<ingredient name="shortMetalPipe" count="20"/>
-		<ingredient name="burningBarrel" count="1"/>
-		<ingredient name="spring" count="5"/>
+		<ingredient name="mechanicalParts" count="5"/>
+		<ingredient name="spring" count="10"/>
 		<ingredient name="wood" count="40"/>
 	</recipe>
 	<recipe name="workbench" count="1" craft_time = "60" craft_exp_gain="167">
@@ -1886,13 +1887,17 @@
 	</recipe>
 	<recipe name="Old_Oven" count="1" craft_time = "60" craft_exp_gain="167" craft_area="workbench" craft_tool="wrench">
 		<ingredient name="forgedIron" count="10"/>
-		<ingredient name="mechanicalParts" count="5"/>
+		<ingredient name="mechanicalParts" count="2"/>
 		<ingredient name="spring" count="2"/>
+		<ingredient name="electricParts" count="2"/>
+		<ingredient name="electronicParts" count="3"/>
 	</recipe>
 	<recipe name="New_Oven" count="1" craft_time = "60" craft_exp_gain="167" craft_area="workbench" craft_tool="wrench">
 		<ingredient name="forgedIron" count="10"/>
-		<ingredient name="mechanicalParts" count="5"/>
+		<ingredient name="mechanicalParts" count="2"/>
 		<ingredient name="spring" count="2"/>
+		<ingredient name="electricParts" count="2"/>
+		<ingredient name="electronicParts" count="3"/>
 	</recipe>
 	<recipe name="clayRoofBlock" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="Trowel">
 		<ingredient name="Bricks" count="6"/>
@@ -2348,8 +2353,8 @@
 	</recipe>
 	<recipe name="gasCan" count="100" craft_time = "60" craft_exp_gain="167" craft_area="Omnigel_Station" craft_tool="beaker">
 		<ingredient name="bioFuel" count="2"/>
-		<ingredient name="cornMeal" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="beer" count="1"/>
+		<ingredient name="Yeast" count="1"/>
 	</recipe>
 	<recipe name="gasCan" count="600" craft_time = "60" craft_exp_gain="167" craft_area="workbench">
 		<ingredient name="oilBarrel" count="1"/>
@@ -2968,8 +2973,8 @@
 	<recipe name="omnigel" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Omnigel_Station" craft_tool="beaker">
 		<ingredient name="rockSmall" count="100"/>
 	</recipe>
-	<recipe name="omnigel" count="10" craft_time = "40" craft_exp_gain="112" craft_area="Omnigel_Station" craft_tool="beaker">
-		<ingredient name="femur" count="250"/>
+	<recipe name="omnigel" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Omnigel_Station" craft_tool="beaker">
+		<ingredient name="femur" count="25"/>
 	</recipe>
 	<recipe name="Compost" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Omnigel_Station" craft_tool="beaker">
 		<ingredient name="rottingFlesh" count="2"/>
