@@ -248,19 +248,19 @@
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="plantFiberHat" count="1" craft_time = "20" craft_exp_gain="56">
-		<ingredient name="yuccaFibers" count="20"/>
+		<ingredient name="yuccaFibers" count="15"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="plantFiberHood" count="1" craft_time = "20" craft_exp_gain="56">
-		<ingredient name="yuccaFibers" count="20"/>
+		<ingredient name="yuccaFibers" count="15"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="plantFiberPants" count="1" craft_time = "20" craft_exp_gain="56">
-		<ingredient name="yuccaFibers" count="30"/>
+		<ingredient name="yuccaFibers" count="20"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="plantFiberShirt" count="1" craft_time = "20" craft_exp_gain="56">
-		<ingredient name="yuccaFibers" count="30"/>
+		<ingredient name="yuccaFibers" count="20"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="plantFiberShoes" count="1" craft_time = "20" craft_exp_gain="56">
@@ -274,13 +274,43 @@
 		<ingredient name="cloth" count="10"/>
 	</recipe>
 	<recipe name="clothHat" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="20"/>
+		<ingredient name="cloth" count="15"/>
 	</recipe>
 	<recipe name="clothJacket" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
 		<ingredient name="cloth" count="30"/>
 	</recipe>
 	<recipe name="clothPants" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="30"/>
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="overalls" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="runningShoes" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="leather" count="10"/>
+	</recipe>
+	<recipe name="leatherBoots" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="leather" count="10"/>
+	</recipe>
+	<recipe name="leatherDuster" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="leather" count="30"/>
+	</recipe>
+	<recipe name="leatherDusterBlack" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="leather" count="30"/>
+	</recipe>
+	<recipe name="leatherGloves" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="leather" count="10"/>
+	</recipe>
+	<recipe name="leatherHood" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="leather" count="15"/>
+	</recipe>
+	<recipe name="leatherHoodBlack" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="leather" count="15"/>
+	</recipe>
+	<recipe name="leatherJacket" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="leather" count="30"/>
+	</recipe>
+	<recipe name="leatherPants" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="leather" count="20"/>
 	</recipe>
 	<recipe name="bandana" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
 		<ingredient name="cloth" count="10"/>
@@ -301,138 +331,249 @@
 		<ingredient name="cloth" count="10"/>
 	</recipe>
 	<recipe name="tankTopWhite" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="tankTopRed" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="tankTopPurple" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="tankTopGreen" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="tankTopBlue" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="shirt" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="shirtRed" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="shirtBrown" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="shirtGreen" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="shirtBlue" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="shirtBlack" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="armyShirt" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="hoodedSweatshirtWhite" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="30"/>
+	</recipe>
+	<recipe name="hoodedSweatshirtRed" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="30"/>
+	</recipe>
+	<recipe name="hoodedSweatshirtBrown" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="30"/>
+	</recipe>
+	<recipe name="hoodedSweatshirtGreen" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="30"/>
+	</recipe>
+	<recipe name="hoodedSweatshirtBlue" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="30"/>
+	</recipe>
+	<recipe name="hoodedSweatshirtBlack" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="30"/>
 	</recipe>
 	<recipe name="sweatshirt" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="30"/>
 	</recipe>
 	<recipe name="sweatshirtRed" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="30"/>
 	</recipe>
 	<recipe name="sweatshirtBrown" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="30"/>
 	</recipe>
 	<recipe name="sweatshirtGreen" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="30"/>
 	</recipe>
 	<recipe name="sweatshirtBlue" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="30"/>
 	</recipe>
 	<recipe name="sweatshirtBlack" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="30"/>
+	</recipe>
+	<recipe name="jacketWhite" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="30"/>
+	</recipe>
+	<recipe name="jacketBlack" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="30"/>
+	</recipe>
+	<recipe name="jacketLetter" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="30"/>
 	</recipe>
 	<recipe name="tshirtWhite" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="tshirtZUWhite" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="tshirtRed" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="tshirtBrown" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="tshirtGreen" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="tshirtBlue" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="tshirtBlack" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="skirt" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="skirtRed" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="skirtBrown" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="skirtGreen" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="skirtBlue" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="skirtBlack" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="denimShortsPants" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="denimShortsPantsRed" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="denimShortsPantsBrown" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="denimShortsPantsGreen" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="denimShortsPantsBlue" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="20"/>
+	</recipe>
+	<recipe name="denimShortsPantsBlack" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="denimPants" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="30"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="blackDenimPants" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="30"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="redDenimPants" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="30"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="brownDenimPants" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="30"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="armyPants" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="30"/>
+		<ingredient name="cloth" count="20"/>
 	</recipe>
 	<recipe name="pufferCoat" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="30"/>
 		<ingredient name="cottonPlant" count="20"/>
 	</recipe>
 	<recipe name="pufferCoatRed" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="30"/>
 		<ingredient name="cottonPlant" count="20"/>
 	</recipe>
 	<recipe name="pufferCoatGreen" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="30"/>
 		<ingredient name="cottonPlant" count="20"/>
 	</recipe>
 	<recipe name="pufferCoatBrown" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="30"/>
 		<ingredient name="cottonPlant" count="20"/>
 	</recipe>
 	<recipe name="pufferCoatBlack" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="cloth" count="30"/>
 		<ingredient name="cottonPlant" count="20"/>
 	</recipe>
 	<recipe name="cowboyHat" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="leather" count="20"/>
+		<ingredient name="leather" count="15"/>
 	</recipe>
 	<recipe name="blackCowboyHat" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="leather" count="15"/>
+	</recipe>
+	<recipe name="cowboyBootsBrown" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="leather" count="15"/>
+	</recipe>
+	<recipe name="cowboyBootsBlack" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="leather" count="15"/>
+	</recipe>
+	<recipe name="gothBootsBlack" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="leather" count="15"/>
+	</recipe>
+	<recipe name="gothicPants" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
 		<ingredient name="leather" count="20"/>
 	</recipe>
 	<recipe name="ballCap" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="20"/>
+		<ingredient name="cloth" count="15"/>
+	</recipe>
+	<recipe name="ballCapRed" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="15"/>
+	</recipe>
+	<recipe name="ballCapBrown" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="15"/>
+	</recipe>
+	<recipe name="ballCapGreen" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="15"/>
+	</recipe>
+	<recipe name="ballCapBlue" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="15"/>
+	</recipe>
+	<recipe name="ballCapBlack" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="15"/>
+	</recipe>
+	<recipe name="pressboyCapWhite" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="15"/>
+	</recipe>
+	<recipe name="pressboyCapRed" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="15"/>
+	</recipe>
+	<recipe name="pressboyCapBrown" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="15"/>
+	</recipe>
+	<recipe name="pressboyCapGreen" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="15"/>
+	</recipe>
+	<recipe name="pressboyCapBlue" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="15"/>
+	</recipe>
+	<recipe name="pressboyCapBlack" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
+		<ingredient name="cloth" count="15"/>
 	</recipe>
 	<recipe name="skullCap" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="20"/>
+		<ingredient name="cloth" count="15"/>
 	</recipe>
 	<recipe name="skullCapRed" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="4"/>
+		<ingredient name="cloth" count="15"/>
 	</recipe>
 	<recipe name="skullCapBlue" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="20"/>
+		<ingredient name="cloth" count="15"/>
 	</recipe>
 	<recipe name="skullCapGreen" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="20"/>
+		<ingredient name="cloth" count="15"/>
 	</recipe>
 	<recipe name="skullCapBrown" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="20"/>
+		<ingredient name="cloth" count="15"/>
 	</recipe>
 	<recipe name="skullCapBlack" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="cloth" count="20"/>
+		<ingredient name="cloth" count="15"/>
 	</recipe>
 	<recipe name="animalHideBoots" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
 		<ingredient name="animalHide" count="10"/>
@@ -443,7 +584,7 @@
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="animalHideHood" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="animalHide" count="20"/>
+		<ingredient name="animalHide" count="15"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="animalHideChestArmor" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
@@ -459,7 +600,7 @@
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="scrapHelmet" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Smithing_Table" craft_tool="anvil">
-		<ingredient name="scrapIron" count="20"/>
+		<ingredient name="scrapIron" count="15"/>
 		<ingredient name="leather" count="2"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
@@ -469,7 +610,7 @@
 		<ingredient name="ductTape" count="3"/>
 	</recipe>
 	<recipe name="scrapBoots" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Smithing_Table" craft_tool="anvil">
-		<ingredient name="scrapIron" count="20"/>
+		<ingredient name="scrapIron" count="10"/>
 		<ingredient name="leather" count="2"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
@@ -479,12 +620,15 @@
 		<ingredient name="ductTape" count="3"/>
 	</recipe>
 	<recipe name="scrapGloves" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Smithing_Table" craft_tool="anvil">
-		<ingredient name="scrapIron" count="20"/>
+		<ingredient name="scrapIron" count="10"/>
 		<ingredient name="leather" count="2"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
 	<recipe name="militaryHelmet" count="1" craft_time = "60" craft_exp_gain="167" craft_area="Smithing_Table" craft_tool="anvil">
-		<ingredient name="militaryFiber" count="20"/>
+		<ingredient name="militaryFiber" count="15"/>
+	</recipe>
+	<recipe name="swatHelmet" count="1" craft_time = "60" craft_exp_gain="167" craft_area="Smithing_Table" craft_tool="anvil">
+		<ingredient name="militaryFiber" count="15"/>
 	</recipe>
 	<recipe name="militaryGloves" count="1" craft_time = "60" craft_exp_gain="167" craft_area="Smithing_Table" craft_tool="anvil">
 		<ingredient name="militaryFiber" count="10"/>
@@ -511,7 +655,7 @@
 		<ingredient name="leather" count="3"/>
 	</recipe>
 	<recipe name="ironHelmet" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Smithing_Table" craft_tool="anvil">
-		<ingredient name="forgedIron" count="20"/>
+		<ingredient name="forgedIron" count="15"/>
 		<ingredient name="leather" count="3"/>
 	</recipe>
 	<recipe name="ironLegArmor" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Smithing_Table" craft_tool="anvil">
@@ -524,6 +668,54 @@
 		<ingredient name="electricParts" count="8"/>
 		<ingredient name="ductTape" count="5"/>
 		<ingredient name="scrapPlastics" count="4"/>
+	</recipe>
+	<recipe name="footballHelmet" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Smithing_Table" craft_tool="anvil">
+		<ingredient name="forgedIron" count="15"/>
+		<ingredient name="leather" count="2"/>
+		<ingredient name="ductTape" count="1"/>
+	</recipe>
+	<recipe name="footballHelmetZU" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Smithing_Table" craft_tool="anvil">
+		<ingredient name="forgedIron" count="15"/>
+		<ingredient name="leather" count="2"/>
+		<ingredient name="ductTape" count="1"/>
+	</recipe>
+	<recipe name="gasMask" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Smithing_Table" craft_tool="anvil">
+		<ingredient name="forgedIron" count="15"/>
+		<ingredient name="leather" count="2"/>
+		<ingredient name="ductTape" count="1"/>
+		<ingredient name="airFilter" count="1"/>
+	</recipe>
+	<recipe name="shades" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Smithing_Table" craft_tool="anvil">
+		<ingredient name="scrapPlastics" count="15"/>
+		<ingredient name="emptyJar" count="2"/>
+	</recipe>
+	<recipe name="shadesBlack" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Smithing_Table" craft_tool="anvil">
+		<ingredient name="scrapPlastics" count="15"/>
+		<ingredient name="emptyJar" count="2"/>
+	</recipe>
+	<recipe name="eyeglasses" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Smithing_Table" craft_tool="anvil">
+		<ingredient name="scrapPlastics" count="15"/>
+		<ingredient name="emptyJar" count="2"/>
+	</recipe>
+	<recipe name="nerdGlasses" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Smithing_Table" craft_tool="anvil">
+		<ingredient name="scrapPlastics" count="15"/>
+		<ingredient name="emptyJar" count="2"/>
+	</recipe>
+	<recipe name="aviatorGoggles" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Smithing_Table" craft_tool="anvil">
+		<ingredient name="scrapPlastics" count="15"/>
+		<ingredient name="emptyJar" count="2"/>
+		<ingredient name="leather" count="2"/>
+	</recipe>
+	<recipe name="goggles" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Smithing_Table" craft_tool="anvil">
+		<ingredient name="scrapPlastics" count="15"/>
+		<ingredient name="emptyJar" count="2"/>
+		<ingredient name="leather" count="2"/>
+	</recipe>
+	<recipe name="nightvisionGoggles" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Smithing_Table" craft_tool="anvil">
+		<ingredient name="scrapPlastics" count="15"/>
+		<ingredient name="electricParts" count="2"/>
+		<ingredient name="emptyJar" count="2"/>
+		<ingredient name="leather" count="2"/>
 	</recipe>
 	<!--End Clothing-->
 	<recipe name="antibiotics" count="1" craft_area="Omnigel_Station" craft_time = "30" craft_exp_gain="167" craft_tool="beaker">
@@ -782,7 +974,7 @@
 	</recipe>
 	<recipe name="hiddenRConcretePlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="concreteMix" count="20"/>
+		<ingredient name="concreteMix" count="10"/>
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
 	<recipe name="hiddenConcretePlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
@@ -841,8 +1033,8 @@
 		<ingredient name="wood" count="20"/>
 	</recipe>
 	<recipe name="ironTippedSpear" count="1" craft_time = "15" craft_exp_gain="42" craft_area="Smithing_Table" craft_tool="anvil">
-		<ingredient name="ironArrowHead" count="1"/>
-		<ingredient name="wood" count="4" />
+		<ingredient name="ironArrowHead" count="10"/>
+		<ingredient name="wood" count="5" />
 		<ingredient name="Cordage" count="1" />
 	</recipe>
 	<recipe name="stoneTippedSpear" count="1" craft_time = "10" craft_exp_gain="28">
@@ -851,8 +1043,8 @@
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="steelTippedSpear" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Smithing_Table" craft_tool="anvil">
-		<ingredient name="steelArrowHead" count="1" />
-		<ingredient name="wood" count="4" />
+		<ingredient name="steelArrowHead" count="10" />
+		<ingredient name="wood" count="5" />
 		<ingredient name="Cordage" count="2"/>
 	</recipe>
 	<recipe name="dewCollector_filling" count="1" craft_time = "120" craft_exp_gain="334" craft_area="workbench" craft_tool="wrench">
@@ -924,7 +1116,7 @@
 		<ingredient name="oilShale" count="10"/>
 	</recipe>
 	<recipe name="machete" count="1" craft_time = "60" craft_exp_gain="167" craft_area="Smithing_Table" craft_tool="anvil">
-		<ingredient name="forgedSteel" count="8"/>
+		<ingredient name="forgedSteel" count="10"/>
 		<ingredient name="wood" count="6"/>
 		<ingredient name="leather" count="4"/>
 		<ingredient name="ductTape" count="2"/>
@@ -1716,14 +1908,14 @@
 		<ingredient name="concreteMix" count="4"/>
 	</recipe>
 	<recipe name="clawHammer" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Smithing_Table" craft_tool="anvil">
-		<ingredient name="forgedIron" count="12"/>
+		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="cloth" count="1" craft_time = "8" craft_exp_gain="23">
 		<ingredient name="cottonPlant" count="2"/>
 	</recipe>
 	<recipe name="clubBarbed" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Smithing_Table" craft_tool="anvil">
-		<ingredient name="Barbed_Wire" count="5"/>
+		<ingredient name="Barbed_Wire" count="10"/>
 		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="clubIron" count="1" craft_time = "15" craft_exp_gain="42" craft_area="Smithing_Table" craft_tool="anvil">
@@ -1732,6 +1924,7 @@
 	</recipe>
 	<recipe name="clubSpiked" count="1" craft_time = "25" craft_exp_gain="70" craft_area="Smithing_Table" craft_tool="anvil">
 		<ingredient name="nail" count="50"/>
+		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="clubWood" count="1" craft_time = "10" craft_exp_gain="28">
@@ -2028,7 +2221,7 @@
 		<ingredient name="leather" count="2"/>
 		<ingredient name="glue" count="2"/>
 		<ingredient name="ductTape" count="1"/>
-		<ingredient name="wood" count="15"/>
+		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="crossbowBolt" count="1" craft_time = "4" craft_exp_gain="12">
 		<ingredient name="rockSmall" count="1"/>
@@ -2210,7 +2403,7 @@
 		<ingredient name="goldenrodPlant" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="grainAlcohol" count="2" craft_time = "120" craft_exp_gain="334" craft_area="Omnigel_Station" craft_tool="beaker">
+	<recipe name="grainAlcohol" count="2" craft_time = "60" craft_exp_gain="334" craft_area="Omnigel_Station" craft_tool="beaker">
 		<ingredient name="beer" count="1"/>
 		<ingredient name="Yeast" count="1"/>
 	</recipe>
@@ -2351,11 +2544,11 @@
 		<ingredient name="wood" count="5"/>
 	</recipe>
 	<recipe name="hoeIron" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Smithing_Table" craft_tool="anvil">
-		<ingredient name="forgedIron" count="16"/>
+		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="wood" count="20"/>
 	</recipe>
 	<recipe name="huntingKnife" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Smithing_Table" craft_tool="anvil">
-		<ingredient name="forgedIron" count="8"/>
+		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="wood" count="8"/>
 	</recipe>
 	<recipe name="ironArrow" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Ammunition_Table">
@@ -2418,24 +2611,6 @@
 	</recipe>
 	<recipe name="leather" count="1" craft_time = "4" craft_exp_gain="12">
 		<ingredient name="animalHide" count="1"/>
-	</recipe>
-	<recipe name="leatherBoots" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="leather" count="4"/>
-	</recipe>
-	<recipe name="leatherDuster" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="leather" count="8"/>
-	</recipe>
-	<recipe name="leatherGloves" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="leather" count="4"/>
-	</recipe>
-	<recipe name="leatherHood" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="leather" count="4"/>
-	</recipe>
-	<recipe name="leatherJacket" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="leather" count="8"/>
-	</recipe>
-	<recipe name="leatherPants" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
-		<ingredient name="leather" count="8"/>
 	</recipe>
 	<recipe name="cntLockers" count="1" craft_time = "15" craft_exp_gain="42" craft_area="Crafting_Table_Misc" craft_tool="wrench">
 		<ingredient name="forgedIron" count="10"/>
@@ -2883,12 +3058,12 @@
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="shortMetalPipe" count="2" craft_exp_gain="0" craft_area="forge" craft_tool="Pipe_Mold" material_based="true">
-		<ingredient name="unit_iron" count="10"/>
+	<recipe name="shortMetalPipe" count="1" craft_time = "1" craft_exp_gain="0" craft_area="forge" craft_tool="Pipe_Mold" material_based="true">
+		<ingredient name="unit_iron" count="5"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
 	<recipe name="shovelIron" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Smithing_Table" craft_tool="anvil">
-		<ingredient name="forgedIron" count="16"/>
+		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="wood" count="20"/>
 	</recipe>
 	<recipe name="shovelSteel" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Smithing_Table" craft_tool="anvil">
@@ -2958,12 +3133,12 @@
 	<recipe name="stoneAxe" count="1" craft_time = "15" craft_exp_gain="42">
 		<ingredient name="rockSmall" count="2"/>
 		<ingredient name="Cordage" count="1"/>
-		<ingredient name="wood" count="2"/>
+		<ingredient name="wood" count="5"/>
 	</recipe>
 	<recipe name="stoneShovel" count="1" craft_time = "15" craft_exp_gain="42">
 		<ingredient name="rockSmall" count="2"/>
 		<ingredient name="Cordage" count="1"/>
-		<ingredient name="wood" count="3"/>
+		<ingredient name="wood" count="5"/>
 	</recipe>
 	<recipe name="storeShelving01" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="wrench">
 		<ingredient name="forgedIron" count="3"/>
@@ -3168,7 +3343,7 @@
 		<ingredient name="glue" count="10"/>
 	</recipe>
 	<recipe name="wrench" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Smithing_Table" craft_tool="anvil">
-		<ingredient name="forgedIron" count="12"/>
+		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="mechanicalParts" count="1"/>
 	</recipe>
 	<recipe name="wroughtIronFenceSheet" count="1" craft_area="forge" craft_tool="anvil" material_based="true">

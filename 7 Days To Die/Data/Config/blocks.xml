@@ -339,7 +339,6 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 </block>
 
 <block id="21" name="gore">
-    	<property name="IsDeveloper" value="true" />
 	<property name="Class" value="Gore" />
 	<property name="Material" value="organic" />
 	<property name="Shape" value="Terrain" />
@@ -353,9 +352,10 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	<property name="HeatMapTime" value="1200"/>
 	<property name="UpgradeRated.ToBlock" value="air" />
 	<property name="UpgradeRated.Rate" value="15" />
-	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
-	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" tool_category="Butcher" />
-	<drop event="Harvest" name="femur" count="1,2" prob="1" tool_category="Butcher" />
+	<drop event="Harvest" name="femur" count="2" tool_category="Butcher" />
+	<drop event="Harvest" name="rottingFlesh" count="2" tool_category="Butcher" />
+	<drop event="Destroy" name="femur" count="1" />
+	<drop event="Destroy" name="rottingFlesh" count="1" />
 </block>
 
 <block id="22" name="fertileFarmland">
@@ -2266,9 +2266,12 @@ group desc for stuff like metal siding
 	<!-- NOTE: HeatMapFrequency is constrained to on blocks that are not tile entities (like the forge or campfire). -->
  	<!-- 1=min, 15=max NOTE: 1 tick is approximately a 1 to 2 minute real-time interval. -->
 	<property name="HeatMapFrequency" value="1"/>
-	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
-	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" tool_category="Butcher" />
-	<drop event="Destroy" name="femur" count="1,2" prob="1" />
+	<drop event="Harvest" name="animalFat" count="2" tool_category="Butcher" />
+	<drop event="Harvest" name="femur" count="2" tool_category="Butcher" />
+	<drop event="Harvest" name="rottingFlesh" count="2" tool_category="Butcher" />
+	<drop event="Destroy" name="animalFat" count="1" />
+	<drop event="Destroy" name="femur" count="1" />
+	<drop event="Destroy" name="rottingFlesh" count="1" />
 </block>
 
 <block id="268" name="cntStorageHealth">
@@ -6535,9 +6538,10 @@ kind of free
 		<property name="UpgradeRated.BlockCombined" value="gore" />
 		<property name="UpgradeRated.ToBlock" value="gore" />
 		<property name="UpgradeRated.Rate" value="5" /> <!-- 15 is max for the Rate -->
-	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" />
-	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" tool_category="Butcher" />
-	<drop event="Destroy" name="femur" count="1,2" prob="1" />
+	<drop event="Harvest" name="femur" count="2" tool_category="Butcher" />
+	<drop event="Harvest" name="rottingFlesh" count="2" tool_category="Butcher" />
+	<drop event="Destroy" name="femur" count="1" />
+	<drop event="Destroy" name="rottingFlesh" count="1" />
 </block>
 
 <block id="702" name="GoreBlock1BonesPrefab">

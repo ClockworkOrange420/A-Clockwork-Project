@@ -500,13 +500,11 @@
 		<recipe name="antibiotics" unlock_level="3"/>
 	</perk>
 	
-	<perk name="Chemical Crafting" icon="science" description_key="ChemicalCraftingDesc" title_key="ChemicalCrafting" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="crafting">
+	<perk name="Chemical Crafting" icon="science" description_key="ChemicalCraftingDesc" title_key="ChemicalCrafting" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="crafting">
 		<requirement skill_level="1" required_skill_name="Science" required_skill_level="20"/>
 		<requirement skill_level="2" required_skill_name="Science" required_skill_level="30"/>
-		<requirement skill_level="3" required_skill_name="Science" required_skill_level="40"/>
 		<recipe name="grainAlcohol" unlock_level="1"/>
-		<recipe name="gunPowder" unlock_level="2"/>
-		<recipe name="bioFuel" unlock_level="3"/>
+		<recipe name="bioFuel" unlock_level="2"/>
 	</perk>
 	
 	<perk name="Omnigel Crafting" icon="science" description_key="OmnigelCraftingDesc" title_key="OmnigelCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="crafting">

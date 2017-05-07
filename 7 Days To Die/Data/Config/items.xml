@@ -70,6 +70,7 @@ Mesh files no longer used:
 
 <item id="6" name="clubWood">
 	<property name="Extends" value="clubMaster" />
+	<property name="RepairTools" value="wood" />
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Buff" value="criticalBlunt,stunned" />
 		<property name="Buff_chance" value=".2,.2" />
@@ -83,7 +84,7 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_RefinedPrefab" />
 	<property name="Material" value="metal" />
 	<property name="EconomicValue" value="100" />
-	<property name="RepairTools" value="scrapIron" />
+	<property name="RepairTools" value="forgedIron" />
 	<property name="DegradationBreaksAfter" value="false" />
 	<property name="SoundJammed" value="ItemNeedsRepair" />
 	<property class="Action0">
@@ -178,8 +179,8 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="EntityDamage" value="40,50" />
 		<property name="BlockDamage" value="50,100" /> <!-- 80% of a steel pick -->
-		<property name="DegradationMax" value="960,960" />
- 		<property name="DegradationRate" value="20,1" />
+		<property name="DegradationMax" value="1800,1800" />
+ 		<property name="DegradationRate" value="18,3" />
 		<property name="DismembermentBaseChance" value="0.1,0.3"/>
 		<property name="DismembermentBonus" value="0,0.00036"/>
 	</property>
@@ -249,7 +250,8 @@ Mesh files no longer used:
 	</property>
 	<property name="Group" value="Decor/Miscellaneous" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="300,6000" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 	<property name="PickupJournalEntry" value="augmentGunsTip" />
 </item>
@@ -403,8 +405,8 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="EntityDamage" value="20,30" />
 		<property name="BlockDamage" value="4,10" />
-		<property name="DegradationMax" value="1600,1600" />
-		<property name="DegradationRate" value="26,2" />
+		<property name="DegradationMax" value="2400,2400" />
+		<property name="DegradationRate" value="24,2" />
 		<property name="DismembermentBaseChance" value="0.1,0.3"/>
 		<property name="DismembermentBonus" value="0,0.00036"/>
 	</property>
@@ -562,8 +564,8 @@ Mesh files no longer used:
 		<property name="DamageBonus.earth" value=".2" />
 		<property name="Buff" value="shotgunWound" />
 		<property name="Buff_chance" value=".8" />
-		<property name="ActionExp" value="5" />
-		<property name="ActionExpBonusMultiplier" value="8" />
+		<property name="ActionExp" value="1" />
+		<property name="ActionExpBonusMultiplier" value="2" />
 	</property>
 	<property class="Action1"> <!-- UseAction -->
 		<property name="Class" value="Zoom" />
@@ -619,8 +621,8 @@ Mesh files no longer used:
 		<property name="DamageBonus.earth" value=".2" />
 		<property name="Buff" value="shotgunWound" />
 		<property name="Buff_chance" value=".8" />
-		<property name="ActionExp" value="5" />
-		<property name="ActionExpBonusMultiplier" value="8" />
+		<property name="ActionExp" value="1" />
+		<property name="ActionExpBonusMultiplier" value="2" />
 	</property>
 	<property class="Action1"> <!-- UseAction -->
 		<property name="Class" value="Zoom" />
@@ -957,8 +959,8 @@ Mesh files no longer used:
 		<property name="EntityDamage" value="10,10" />
 		<property name="BlockDamage" value="1.6,5" />
 		<property name="Accuracy" value="1,0.1" />
-		<property name="DegradationMax" value="4000,4000" />
-		<property name="DegradationRate" value="80,7" />
+		<property name="DegradationMax" value="1000,1000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Shotguns"/>
@@ -1327,8 +1329,8 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="EntityDamage" value="6,15" />
 		<property name="BlockDamage" value="22,48" />
-		<property name="DegradationMax" value="600,600" />
-		<property name="DegradationRate" value="3,1" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,2" />
 		<property name="DismembermentBaseChance" value="0.1,0.3"/>
 		<property name="DismembermentBonus" value="0.001,0.005"/>
 	</property>
@@ -1350,8 +1352,8 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="EntityDamage" value="9,22" />
 		<property name="BlockDamage" value="30,72" />
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="3,1" />
+		<property name="DegradationMax" value="4800,4800" />
+		<property name="DegradationRate" value="48,8" />
 	</property>
 </item>
 
@@ -1384,8 +1386,8 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="EntityDamage" value="5,15" />
 		<property name="BlockDamage" value="26,64" />
-		<property name="DegradationMax" value="600,600" />
-		<property name="DegradationRate" value="3,1" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,2" />
 		<property name="DismembermentBaseChance" value="0.05,0.15"/>
 		<property name="DismembermentBonus" value="0,0"/>
 	</property>
@@ -1411,8 +1413,8 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="EntityDamage" value="6,20" />
 		<property name="BlockDamage" value="60,145" /> <!-- up to x4 from skills -->
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="3,1" />
+		<property name="DegradationMax" value="4800,4800" />
+		<property name="DegradationRate" value="48,8" />
 	</property>
 	<property name="PickupJournalEntry" value="miningTip" />
 </item>
@@ -1488,8 +1490,8 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="EntityDamage" value="8,19" />
 		<property name="BlockDamage" value="18,44" />
-		<property name="DegradationMax" value="600,600" />
-		<property name="DegradationRate" value="3,1" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,2" />
 		<property name="DismembermentBaseChance" value="0.1,0.3"/>
 		<property name="DismembermentBonus" value="0,0"/>
 	</property>
@@ -1517,8 +1519,8 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="EntityDamage" value="11,27" />    
 		<property name="BlockDamage" value="27,66" /> <!-- dirt blocks have up to 250 hp; skills + perks up to x4 the damage  -->
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="3,1" />
+		<property name="DegradationMax" value="4800,4800" />
+		<property name="DegradationRate" value="48,8" />
 	</property>
 	<property name="PickupJournalEntry" value="miningTip" />
 </item>
@@ -1570,8 +1572,8 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="EntityDamage" value="4,12" />
 		<property name="BlockDamage" value="10,20" />
-		<property name="DegradationMax" value="600,600" />
-		<property name="DegradationRate" value="3,1" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,2" />
 	</property>
 	<property name="Group" value="Tools/Traps" />
 	<property name="PickupJournalEntry" value="farmingTip" />
@@ -1618,8 +1620,8 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="EntityDamage" value="4,10" />
 		<property name="BlockDamage" value="2,10" />
-		<property name="DegradationMax" value="480,480" />
-		<property name="DegradationRate" value="3,1" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,3" />
 	</property>
 	<property name="Group" value="Tools/Traps" />
 	<property name="ActionSkillGroup" value="Construction Tools"/>
@@ -1665,7 +1667,7 @@ Mesh files no longer used:
 		<property name="EntityDamage" value="8,20" />
 		<property name="BlockDamage" value="15,40" />
 		<property name="DegradationMax" value="1200,1200" />
-		<property name="DegradationRate" value="10,3" />
+		<property name="DegradationRate" value="12,3" />
 	</property>
 	<property name="Group" value="Tools/Traps" />
 	<property name="ActionSkillGroup" value="Construction Tools"/>
@@ -1877,8 +1879,8 @@ which does not exist, yet. -->
 	</property>
 	<property name="Group" value="Ammo/Weapons,Basics" />
 	<property class="Attributes">
-		<property name="DegradationRate" value="20,1" />
 		<property name="DegradationMax" value="600,600" />
+		<property name="DegradationRate" value="20,1" />
 	</property>
 	<property name="DescriptionKey" value="woodenBowDesc"/>
 	<property name="ActionSkillGroup" value="Archery"/>
@@ -1918,8 +1920,8 @@ which does not exist, yet. -->
 		<property name="Zoom_max_in" value="45" />
 	</property>
 	<property class="Attributes">
-		<property name="DegradationRate" value="20,1" />
 		<property name="DegradationMax" value="600,600" />
+		<property name="DegradationRate" value="20,1" />
 	</property>
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Archery"/>
@@ -2528,8 +2530,8 @@ which does not exist, yet. -->
 	<property name="PartType" value="Stock" />
 	<property name="Weight" value="10" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="4000,4000" />
-		<property name="DegradationRate" value="133,10" />
+		<property name="DegradationMax" value="1000,1000" />
+		<property name="DegradationRate" value="10,1" />
 	</property>
 	<property name="EconomicValue" value="412" />
 </item>
@@ -2540,8 +2542,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="20" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="17,50" />
-		<property name="DegradationMax" value="4000,4000" />
-		<property name="DegradationRate" value="133,10" />
+		<property name="DegradationMax" value="1000,1000" />
+		<property name="DegradationRate" value="10,1" />
 	</property>
 	<property name="EconomicValue" value="412" />
 </item>
@@ -2552,8 +2554,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="10" />
 	<property class="Attributes">
 		<property name="Accuracy" value="1,0.01" />
-		<property name="DegradationMax" value="4000,4000" />
-		<property name="DegradationRate" value="133,10" />
+		<property name="DegradationMax" value="1000,1000" />
+		<property name="DegradationRate" value="10,1" />
 	</property>
 	<property name="EconomicValue" value="412" />
 </item>
@@ -2565,8 +2567,8 @@ which does not exist, yet. -->
 	<property class="Attributes">
 		<property name="EntityDamage" value="10,15" />
 		<property name="BlockDamage" value="5,13" />
-		<property name="DegradationMax" value="4000,4000" />
-		<property name="DegradationRate" value="133,10" />
+		<property name="DegradationMax" value="1000,1000" />
+		<property name="DegradationRate" value="10,1" />
 	</property>
 	<property name="EconomicValue" value="412" />
 </item>
@@ -2577,8 +2579,8 @@ which does not exist, yet. -->
 	<property name="PartType" value="Stock" />
 	<property name="Weight" value="15" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="5000,5000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 	<property name="EconomicValue" value="1125" />
 </item>
@@ -2589,8 +2591,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="10" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="17,50" />
-		<property name="DegradationMax" value="5000,5000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 	<property name="EconomicValue" value="1125" />
 </item>
@@ -2601,8 +2603,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="10" />
 	<property class="Attributes">
 		<property name="Accuracy" value="1,0.05" />
-		<property name="DegradationMax" value="5000,5000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 	<property name="EconomicValue" value="1125" />
 </item>
@@ -2614,8 +2616,8 @@ which does not exist, yet. -->
 	<property class="Attributes">
 		<property name="EntityDamage" value="30,40" />
 		<property name="BlockDamage" value="10,24" />
-		<property name="DegradationMax" value="5000,5000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 	<property name="EconomicValue" value="1125" />
 </item>
@@ -2628,8 +2630,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="15" />
 	<property name="FuelValue" value="10" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="6000,6000" />
-		<property name="DegradationRate" value="8,2" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 	<property name="EconomicValue" value="525" />
 </item>
@@ -2640,8 +2642,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="25" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="22,66" />
-		<property name="DegradationMax" value="6000,6000" />
-		<property name="DegradationRate" value="8,2" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 	<property name="EconomicValue" value="525" />
 </item>
@@ -2652,8 +2654,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="15" />
 	<property class="Attributes">
 		<property name="Accuracy" value="1,0.08" />
-		<property name="DegradationMax" value="6000,6000" />
-		<property name="DegradationRate" value="8,2" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 	<property name="EconomicValue" value="525" />
 </item>
@@ -2663,8 +2665,8 @@ which does not exist, yet. -->
 	<property name="PartType" value="Barrel" />
 	<property name="Weight" value="20" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="6000,6000" />
-		<property name="DegradationRate" value="8,2" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 	<property name="EconomicValue" value="525" />
 </item>
@@ -2676,8 +2678,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="20" />
 	<property name="FuelValue" value="24" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="6000,6000" />
-		<property name="DegradationRate" value="8,2" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 	<property name="EconomicValue" value="675" />
 </item>
@@ -2687,8 +2689,8 @@ which does not exist, yet. -->
 	<property name="PartType" value="Barrel" />
 	<property name="Weight" value="30" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="6000,6000" />
-		<property name="DegradationRate" value="8,2" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 	<property name="EconomicValue" value="675" />
 </item>
@@ -2699,8 +2701,8 @@ which does not exist, yet. -->
 	<property name="PartType" value="Stock" />
 	<property name="Weight" value="25" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="7000,7000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="5,1" />
 	</property>
 	<property name="EconomicValue" value="1125" />
 </item>
@@ -2711,8 +2713,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="25" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="24,72" />
-		<property name="DegradationMax" value="7000,7000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="5,1" />
 	</property>
 	<property name="EconomicValue" value="1125" />
 </item>
@@ -2724,8 +2726,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="15" />
 	<property class="Attributes">
 		<property name="Accuracy" value="1,0.05" />
-		<property name="DegradationMax" value="7000,7000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="5,1" />
 	</property>
 	<property name="EconomicValue" value="1125" />
 </item>
@@ -2741,8 +2743,8 @@ which does not exist, yet. -->
 		<property name="DismembermentBaseChance" value="0.0,0.15"/>
 		<property name="DismembermentBonus" value="0,0"/>
 		-->
-		<property name="DegradationMax" value="7000,7000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="5,1" />
 	</property>
 	<property name="EconomicValue" value="1125" />
 </item>
@@ -2753,8 +2755,8 @@ which does not exist, yet. -->
 	<property name="PartType" value="Stock" />
 	<property name="Weight" value="30" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="7000,7000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="5,1" />
 	</property>
 	<property name="EconomicValue" value="1500" />
 </item>
@@ -2765,8 +2767,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="30" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="30,90" />
-		<property name="DegradationMax" value="7000,7000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="5,1" />
 	</property>
 	<property name="EconomicValue" value="1500" />
 </item>
@@ -2777,8 +2779,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="15" />
 	<property class="Attributes">
 		<property name="Accuracy" value="1,0.05" />
-		<property name="DegradationMax" value="7000,7000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="5,1" />
 	</property>
 	<property name="EconomicValue" value="1500" />
 </item>
@@ -2791,8 +2793,8 @@ which does not exist, yet. -->
 	<property class="Attributes">
 		<property name="EntityDamage" value="30,40" />
 		<property name="BlockDamage" value="4,9.5" />
-		<property name="DegradationMax" value="7000,7000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="5,1" />
 	</property>
 	<property name="EconomicValue" value="1500" />
 </item>
@@ -2807,8 +2809,8 @@ which does not exist, yet. -->
 	<property class="Attributes">
 		<property name="DismembermentBaseChance" value="0.1,0.25"/>
 		<property name="DismembermentBonus" value="0,0.00045"/>
-		<property name="DegradationMax" value="5000,5000" />
-		<property name="DegradationRate" value="3,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 </item>
 <item id="243" name="partsHuntingRifle_receiver">
@@ -2818,8 +2820,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="30" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="54,160" />
-		<property name="DegradationMax" value="5000,5000" />
-		<property name="DegradationRate" value="3,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 </item>
 <item id="244" name="partsHuntingRifle_parts">
@@ -2830,8 +2832,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="15" />
 	<property class="Attributes">
 		<property name="Accuracy" value=".7,0.01" />
-		<property name="DegradationMax" value="5000,5000" />
-		<property name="DegradationRate" value="3,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 </item>
 <item id="245" name="partsHuntingRifle_barrel">
@@ -2842,8 +2844,8 @@ which does not exist, yet. -->
 	<property class="Attributes">
 		<property name="EntityDamage" value="30,40" />
 		<property name="BlockDamage" value="6,14" />
-		<property name="DegradationMax" value="5000,5000" />
-		<property name="DegradationRate" value="3,1" />
+		<property name="DegradationMax" value="2000,2000" />
+		<property name="DegradationRate" value="20,2" />
 	</property>
 </item>
 
@@ -2855,8 +2857,8 @@ which does not exist, yet. -->
 	<property class="Attributes">
 		<property name="DismembermentBaseChance" value="0.1,0.3"/>
 		<property name="DismembermentBonus" value="0,0.00050"/>
-		<property name="DegradationMax" value="7000,7000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="3000,3000" />
+		<property name="DegradationRate" value="30,3" />
 	</property>
 	<property name="EconomicValue" value="875" />
 </item>
@@ -2867,8 +2869,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="30" />
 	<property class="Attributes">
 		<property name="FalloffRange" value="54,160" />
-		<property name="DegradationMax" value="7000,7000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="3000,3000" />
+		<property name="DegradationRate" value="30,3" />
 	</property>
 	<property name="EconomicValue" value="875" />
 </item>
@@ -2880,8 +2882,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="15" />
 	<property class="Attributes">
 		<property name="Accuracy" value=".6,0.01" />
-		<property name="DegradationMax" value="7000,7000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="3000,3000" />
+		<property name="DegradationRate" value="30,3" />
 	</property>
 	<property name="EconomicValue" value="875" />
 </item>
@@ -2893,8 +2895,8 @@ which does not exist, yet. -->
 	<property class="Attributes">
 		<property name="EntityDamage" value="35,50" />
 		<property name="BlockDamage" value="6,14" />
-		<property name="DegradationMax" value="7000,7000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationMax" value="3000,3000" />
+		<property name="DegradationRate" value="30,3" />
 	</property>
 	<property name="EconomicValue" value="875" />
 </item>
@@ -2906,7 +2908,7 @@ which does not exist, yet. -->
 	<property name="Weight" value="35" />
 	<property class="Attributes">
 		<property name="DegradationMax" value="10000,10000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationRate" value="1000,100" />
 	</property>
 	<property name="EconomicValue" value="1500" />
 </item>
@@ -2918,7 +2920,7 @@ which does not exist, yet. -->
 	<property class="Attributes">
 		<property name="FalloffRange" value="15,70" />
 		<property name="DegradationMax" value="10000,10000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationRate" value="1000,100" />
 	</property>
 	<property name="EconomicValue" value="1500" />
 </item>
@@ -2930,7 +2932,7 @@ which does not exist, yet. -->
 	<property class="Attributes">
 		<property name="Accuracy" value="1,0.01" />
 		<property name="DegradationMax" value="10000,10000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationRate" value="1000,100" />
 	</property>
 	<property name="EconomicValue" value="1500" />
 </item>
@@ -2943,7 +2945,7 @@ which does not exist, yet. -->
 		<property name="EntityDamage" value="300,300" />
 		<property name="EntityDamage" value="1000, 1000" /> <!-- xxx is this working? -->
 		<property name="DegradationMax" value="10000,10000" />
-		<property name="DegradationRate" value="4,1" />
+		<property name="DegradationRate" value="1000,100" />
 	</property>
 	<property name="EconomicValue" value="1500" />
 </item>
@@ -3123,8 +3125,8 @@ which does not exist, yet. -->
 	<property name="Material" value="Mplastics" />
 	<property name="Weight" value="8" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="4000,4000" />
-			<property name="DegradationRate" value="12,4" />
+		<property name="DegradationMax" value="1000,1000" />
+			<property name="DegradationRate" value="10,1" />
 	</property>
 	<property name="EconomicValue" value="300" />
 </item>
@@ -3135,8 +3137,8 @@ which does not exist, yet. -->
 	<property name="Material" value="metal" />
 	<property name="Weight" value="27" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="4000,4000" />
-			<property name="DegradationRate" value="12,4" />
+		<property name="DegradationMax" value="1000,1000" />
+		<property name="DegradationRate" value="10,1" />
 	</property>
 	<property name="EconomicValue" value="300" />
 </item>
@@ -3148,8 +3150,8 @@ which does not exist, yet. -->
 	<property name="Weight" value="10" />
 	<property class="Attributes">
 		<property name="Accuracy" value="1,0.01" />
-		<property name="DegradationMax" value="4000,4000" />
-			<property name="DegradationRate" value="12,4" />
+		<property name="DegradationMax" value="1000,1000" />
+		<property name="DegradationRate" value="10,1" />
 	</property>
 	<property name="EconomicValue" value="300" />
 </item>
@@ -3160,8 +3162,8 @@ which does not exist, yet. -->
 	<property name="Material" value="lead" />
 	<property name="Weight" value="15" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="4000,4000" />
-			<property name="DegradationRate" value="12,4" />
+		<property name="DegradationMax" value="1000,1000" />
+		<property name="DegradationRate" value="10,1" />
 	</property>
 	<property name="EconomicValue" value="300" />
 </item>
@@ -3187,8 +3189,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.065,0.11" />
 		<property name="FireProtection" value="0.12,0.2" />
 		<property name="RadiationProtection" value="0.06,0.1" />
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="33,17" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,6" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="plant_fiber_pants" />
@@ -3220,8 +3222,8 @@ which does not exist, yet. -->
 	<property name="FuelValue" value="3" />
 	<property name="EquipSlot" value="Head" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="2000,2000" />
-		<property name="DegradationRate" value="22,11" />
+		<property name="DegradationMax" value="900,900" />
+		<property name="DegradationRate" value="9,4" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_leather_hood" />
@@ -3238,8 +3240,8 @@ which does not exist, yet. -->
 	<property name="FuelValue" value="3" />
     <property name="EquipSlot" value="Feet" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="12,6" />
+		<property name="DegradationMax" value="600,600" />
+		<property name="DegradationRate" value="6,3" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="plant_fiber_shoes" />
@@ -3254,8 +3256,8 @@ which does not exist, yet. -->
 	<property name="FuelValue" value="3" />
 	<property name="EquipSlot" value="Hands" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="12,6" />
+		<property name="DegradationMax" value="600,600" />
+		<property name="DegradationRate" value="6,3" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="plant_fiber_gloves" />
@@ -3282,8 +3284,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.125,0.25" />
 		<property name="FireProtection" value="0.1,0.2" />
 		<property name="RadiationProtection" value="0.075,0.15" />
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="6,4" />
+		<property name="DegradationMax" value="600,600" />
+		<property name="DegradationRate" value="6,2" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_cloth_feet" />
@@ -3304,8 +3306,8 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="48" />
 	<property name="EquipSlot" value="Legs" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="18,12" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,5" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_cloth_legs" />
@@ -3321,8 +3323,8 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="48" />
 	<property name="EquipSlot" value="Chest" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="18,12" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,5" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_cloth_chest" />
@@ -3337,8 +3339,8 @@ which does not exist, yet. -->
 	<property name="FuelValue" value="3" />
 	<property name="EquipSlot" value="Head" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="2000,2000" />
-		<property name="DegradationRate" value="12,8" />
+		<property name="DegradationMax" value="900,900" />
+		<property name="DegradationRate" value="9,4" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_cloth_hood" />
@@ -3379,8 +3381,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.06,0.3" />
 		<property name="FireProtection" value="0.04,0.2" />
 		<property name="RadiationProtection" value="0.04,0.2" />
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="10,3" />
+		<property name="DegradationMax" value="600,600" />
+		<property name="DegradationRate" value="6,2" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_hide_boots" />
@@ -3401,8 +3403,8 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="240" />
 	<property name="EquipSlot" value="Legs" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="30,9" />
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,6" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_hide_legs" />
@@ -3421,8 +3423,8 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="240" />
 	<property name="EquipSlot" value="Chest" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="30,9" />
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,6" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_hide_chest" />
@@ -3437,8 +3439,8 @@ which does not exist, yet. -->
 	<property name="FuelValue" value="20" />
 	<property name="EquipSlot" value="Head" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="2000,2000" />
-		<property name="DegradationRate" value="20,6" />
+		<property name="DegradationMax" value="900,900" />
+		<property name="DegradationRate" value="9,3" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_hide_hood" />
@@ -3480,8 +3482,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.12,0.3" />
 		<property name="FireProtection" value="0.12,0.3" />
 		<property name="RadiationProtection" value="0.08,0.2" />
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="10,3" />
+		<property name="DegradationMax" value="600,600" />
+		<property name="DegradationRate" value="6,2" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_leather_feet" />
@@ -3514,8 +3516,8 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="264" />
 	<property name="EquipSlot" value="Legs" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="30,9" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,4" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_leather_pants" />
@@ -3531,8 +3533,8 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="264" />
 	<property name="EquipSlot" value="Chest" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="30,9" />
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,6" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_leather_chest" />
@@ -3547,8 +3549,8 @@ which does not exist, yet. -->
 	<property name="FuelValue" value="20" />
 	<property name="EquipSlot" value="Head" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="2000,2000" />
-		<property name="DegradationRate" value="20,6" />
+		<property name="DegradationMax" value="900,900" />
+		<property name="DegradationRate" value="9,3" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_leather_hood" />
@@ -3572,14 +3574,14 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="214" />
 	<property name="HoldType" value="45" />
 	<property name="Meshfile" value="Items/Misc/sackPrefab" />
-	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />240 - 400
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 	<property class="Attributes">
 		<property name="ConcussiveProtection" value="0.228,0.57" />
 		<property name="PunctureProtection" value="0.18,0.45" />
 		<property name="FireProtection" value="0.16,0.4" />
 		<property name="RadiationProtection" value="0.12,0.3" />
 		<property name="DegradationMax" value="1200,1200" />
-		<property name="DegradationRate" value="5,3" />
+		<property name="DegradationRate" value="12,3" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_scrap_metal_feet" />
@@ -3601,7 +3603,7 @@ which does not exist, yet. -->
 	<property name="EquipSlot" value="Legs" />
 	<property class="Attributes">
 		<property name="DegradationMax" value="3600,3600" />
-		<property name="DegradationRate" value="15,9" />
+		<property name="DegradationRate" value="36,9" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_scrap_metal_legs" />
@@ -3618,7 +3620,7 @@ which does not exist, yet. -->
 	<property name="EquipSlot" value="Chest" />
 	<property class="Attributes">
 		<property name="DegradationMax" value="3600,3600" />
-		<property name="DegradationRate" value="15,9" />
+		<property name="DegradationRate" value="36,9" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_scrap_metal_chest" />
@@ -3633,8 +3635,8 @@ which does not exist, yet. -->
 	<property name="FuelValue" value="8" />
 	<property name="EquipSlot" value="Head" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="2400,2400" />
-		<property name="DegradationRate" value="10,6" />
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,5" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_scrapmetal_helmet" />
@@ -3676,8 +3678,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.24,0.6" />
 		<property name="FireProtection" value="0.2,0.5" />
 		<property name="RadiationProtection" value="0.16,0.4" />
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="4,2" />
+		<property name="DegradationMax" value="600,600" />
+		<property name="DegradationRate" value="6,1" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_iron_boots" />
@@ -3698,8 +3700,8 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="700" />
 	<property name="EquipSlot" value="Legs" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="12,6" />
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,3" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_iron_pants" />
@@ -3715,8 +3717,8 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="700" />
 	<property name="EquipSlot" value="Chest" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="12,6" />
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,3" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_iron_chest" />
@@ -3731,8 +3733,8 @@ which does not exist, yet. -->
 	<property name="FuelValue" value="12" />
 	<property name="EquipSlot" value="Head" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="2000,2000" />
-		<property name="DegradationRate" value="8,4" />
+		<property name="DegradationMax" value="900,900" />
+		<property name="DegradationRate" value="9,2" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_iron_helmet" />
@@ -3756,10 +3758,6 @@ which does not exist, yet. -->
 	<property name="Extends" value="ironBoots" />
 	<property name="FuelValue" value="12" />
 	<property name="EquipSlot" value="Hands" />
-	<property class="Attributes">
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="4,2" />
-	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_iron_gloves" />
 		<property name="Overlay0" value="armor_iron_gloves" />
@@ -3784,8 +3782,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.3,0.75" />
 		<property name="FireProtection" value="0.08,0.2" />
 		<property name="RadiationProtection" value="0.12,0.3" />
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="4,2" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,3" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_kevlar_gloves" />
@@ -3804,8 +3802,8 @@ which does not exist, yet. -->
 	<property name="Extends" value="militaryGloves" />
 	<property name="EquipSlot" value="Head" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="2000,2000" />
-		<property name="DegradationRate" value="8,4" />
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,5" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="gear_kevlar_helmet" />
@@ -3833,8 +3831,8 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="3200" />
 	<property name="EquipSlot" value="Legs" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="12,6" />
+		<property name="DegradationMax" value="3600,3600" />
+		<property name="DegradationRate" value="36,9" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_kevlar_legarmor" />
@@ -3850,8 +3848,8 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="3200" />
 	<property name="EquipSlot" value="Chest" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="12,6" />
+		<property name="DegradationMax" value="3600,3600" />
+		<property name="DegradationRate" value="36,9" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_kevlar_vest" />
@@ -3878,8 +3876,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.1,0.25" />
 		<property name="FireProtection" value="0.04,0.1" />
 		<property name="RadiationProtection" value="0.32,0.8" />
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="8,4" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,5" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_hazmat_feet" />
@@ -3900,8 +3898,8 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="3200" />
 	<property name="EquipSlot" value="Legs" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="24,12" />
+		<property name="DegradationMax" value="3600,3600" />
+		<property name="DegradationRate" value="36,15" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_hazmat_legs" />
@@ -3918,8 +3916,8 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="3200" />
 	<property name="EquipSlot" value="Chest" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="24,12" />
+		<property name="DegradationMax" value="2400,2400" />
+		<property name="DegradationRate" value="24,10" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_hazmat_chest" />
@@ -3943,10 +3941,6 @@ which does not exist, yet. -->
 <item id="401" name="hazmatMask"> <!-- hazMatArmor -->
 	<property name="Extends" value="hazmatBoots" />
 	<property name="EquipSlot" value="Head" />
-	<property class="Attributes">
-		<property name="DegradationMax" value="2000,2000" />
-		<property name="DegradationRate" value="16,8" />
-	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_hazmat_head" />
 		<property name="Overlay0" value="armor_hazmat_hood" />
@@ -3984,7 +3978,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.24,0.6" />
 		<property name="FireProtection" value="0.2,0.5" />
 		<property name="RadiationProtection" value="0.16,0.4" />
-		<property name="DegradationMax" value="320,800" />
+		<property name="DegradationMax" value="600,600" />
+		<property name="DegradationRate" value="6,1" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_heavy_bandit_gloves" />
@@ -4030,6 +4025,10 @@ which does not exist, yet. -->
 	<property name="Weight" value="150" />
 	<property name="EconomicValue" value="700" />
 	<property name="EquipSlot" value="Legs" />
+	<property class="Attributes">
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,3" />
+	</property>
 	<property class="UMA">
 		<property name="Mesh" value="armor_heavy_bandit_legarmor" />
 		<property name="Overlay0" value="bandit_armor" />
@@ -4043,6 +4042,10 @@ which does not exist, yet. -->
 	<property name="Weight" value="150" />
 	<property name="EconomicValue" value="700" />
 	<property name="EquipSlot" value="Chest" />
+	<property class="Attributes">
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,3" />
+	</property>
 	<property class="UMA">
 		<property name="Mesh" value="male_armor_heavy_bandit_chest" />
 		<property name="Overlay0" value="bandit_armor" />
@@ -4082,8 +4085,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.06,0.3" />
 		<property name="FireProtection" value="0.04,0.2" />
 		<property name="RadiationProtection" value="0.04,0.2" />
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="6,4" />
+		<property name="DegradationMax" value="900,900" />
+		<property name="DegradationRate" value="9,3" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="gear_cowboyhat" />
@@ -4119,8 +4122,8 @@ which does not exist, yet. -->
 	<property name="FuelValue" value="4" />
 	<property name="EquipSlot" value="Head" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="12,6" />
+		<property name="DegradationMax" value="900,900" />
+		<property name="DegradationRate" value="9,5" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="gear_cowboyhat" />
@@ -4150,8 +4153,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.065,0.13" />
 		<property name="FireProtection" value="0.12,0.2" />
 		<property name="RadiationProtection" value="0.06,0.1" />
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="6,4" />
+		<property name="DegradationMax" value="900,900" />
+		<property name="DegradationRate" value="9,4" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="gear_ballcap" />
@@ -4186,8 +4189,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.065,0.13" />
 		<property name="FireProtection" value="0.12,0.2" />
 		<property name="RadiationProtection" value="0.06,0.1" />
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="6,4" />
+		<property name="DegradationMax" value="900,900" />
+		<property name="DegradationRate" value="9,4" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="gear_skullcap" />
@@ -4270,7 +4273,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.18,0.45" />
 		<property name="FireProtection" value="0.16,0.4" />
 		<property name="RadiationProtection" value="0.12,0.3" />
-		<property name="DegradationMax" value="240,600" />
+		<property name="DegradationMax" value="1000,1000" />
+		<property name="DegradationRate" value="10,2" />
 	</property>
 	<property name="ActivateObject" value="miningHelmetLightSource(Clone)" />
 	<property class="UMA">
@@ -4301,7 +4305,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.24,0.6" />
 		<property name="FireProtection" value="0.2,0.5" />
 		<property name="RadiationProtection" value="0.16,0.4" />
-		<property name="DegradationMax" value="320,800" />
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,5" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="gear_swat_helmet" />
@@ -4332,7 +4337,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.18,0.45" />
 		<property name="FireProtection" value="0.16,0.4" />
 		<property name="RadiationProtection" value="0.12,0.3" />
-		<property name="DegradationMax" value="240,600" />
+		<property name="DegradationMax" value="900,900" />
+		<property name="DegradationRate" value="9,2" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="gear_football_helmet" />
@@ -4352,9 +4358,6 @@ which does not exist, yet. -->
 	<property name="Extends" value="footballHelmet"/>
 	<property name="CustomIcon" value="footballHelmet" />
 	<property name="CustomIconTint" value="107,12,12" />
-	<property class="Attributes">
-		<property name="DegradationMax" value="350,800" />
-	</property>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="107,12,12" />
 	</property>
@@ -4376,7 +4379,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.065,0.13" />
 		<property name="FireProtection" value="0.12,0.2" />
 		<property name="RadiationProtection" value="0.06,0.1" />
-		<property name="DegradationMax" value="120,300" /> <!-- altered -->
+		<property name="DegradationMax" value="900,900" />
+		<property name="DegradationRate" value="9,2" />
 	</property>
 	<property name="Group" value="Clothing" />
 	<property name="ActionSkillGroup" value=" "/>
@@ -4388,20 +4392,20 @@ which does not exist, yet. -->
 <item id="471" name="shades">
 	<property name="Meshfile" value="Items/Misc/sackPrefab" />
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-	<property name="Material" value="metal" />
-	<property name="RepairTools" value="forgedIron" />
+	<property name="Material" value="glass" />
+	<property name="RepairTools" value="scrapPlastics" />
 	<property name="HoldType" value="45" />
  	<property name="EquipSlot" value="Eyes" />
 	<property name="DegradationBreaksAfter" value="false" />
 	<property name="Encumbrance" value="0"/>
-	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="150" />
 	<property class="Attributes"> <!-- clothGeneric -->
 		<property name="ConcussiveProtection" value="0.065,0.13" />
 		<property name="PunctureProtection" value="0.065,0.13" />
 		<property name="FireProtection" value="0.12,0.2" />
 		<property name="RadiationProtection" value="0.06,0.1" />
-		<property name="DegradationMax" value="72,180" />
+		<property name="DegradationMax" value="900,900" />
+		<property name="DegradationRate" value="9,4" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="gear_shades" />
@@ -4450,7 +4454,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.065,0.13" />
 		<property name="FireProtection" value="0.12,0.2" />
 		<property name="RadiationProtection" value="0.06,0.1" />
-		<property name="DegradationMax" value="120,300" /> <!-- altered -->
+		<property name="DegradationMax" value="1000,1000" />
+		<property name="DegradationRate" value="10,5" /> <!-- altered -->
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="gear_nightvision_goggles" />
@@ -4534,8 +4539,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.06,0.3" />
 		<property name="FireProtection" value="0.04,0.2" />
 		<property name="RadiationProtection" value="0.04,0.2" />
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="30,9" />
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,6" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="clothes_hide_poncho" />
@@ -4568,8 +4573,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.065,0.13" />
 		<property name="FireProtection" value="0.12,0.2" />
 		<property name="RadiationProtection" value="0.06,0.1" />
-		<property name="DegradationMax" value="2000,2000" />
-		<property name="DegradationRate" value="12,8" />
+		<property name="DegradationMax" value="600,600" />
+		<property name="DegradationRate" value="6,3" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="gear_bandana" />
@@ -4648,8 +4653,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.065,0.13" />
 		<property name="FireProtection" value="0.12,0.2" />
 		<property name="RadiationProtection" value="0.06,0.1" />
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="18,12" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,5" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="clothes_denim_pants" />
@@ -4723,8 +4728,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.065,0.13" />
 		<property name="FireProtection" value="0.12,0.2" />
 		<property name="RadiationProtection" value="0.06,0.1" />
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="18,12" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,5" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="base_chest" />
@@ -4817,7 +4822,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.125,0.25" />
 		<property name="FireProtection" value="0.1,0.2" />
 		<property name="RadiationProtection" value="0.075,0.15" />
-		<property name="DegradationMax" value="167,250" />
+		<property name="DegradationMax" value="600,600" />
+		<property name="DegradationRate" value="6,3" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="worn_boots" />
@@ -4835,8 +4841,8 @@ which does not exist, yet. -->
 	<property name="Extends" value="leatherBoots"/>
 	<property name="Encumbrance" value="0.02" />
 	<property class="Attributes">
-		<property name="DegradationMax" value="1000,1000" />
-		<property name="DegradationRate" value="10,3" />
+		<property name="DegradationMax" value="600,600" />
+		<property name="DegradationRate" value="6,2" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="running_shoes" />
@@ -4863,8 +4869,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.065,0.13" />
 		<property name="FireProtection" value="0.12,0.2" />
 		<property name="RadiationProtection" value="0.06,0.1" />
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="18,12" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,5" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="shirt" />
@@ -4953,8 +4959,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.06,0.3" />
 		<property name="FireProtection" value="0.04,0.2" />
 		<property name="RadiationProtection" value="0.04,0.2" />
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="30,9" />
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,6" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="clothes_leather_duster" />
@@ -4998,8 +5004,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.125,0.25" />
 		<property name="FireProtection" value="0.1,0.2" />
 		<property name="RadiationProtection" value="0.075,0.15" />
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="30,9" />
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,6" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="coats_puffer_coat" />
@@ -5090,8 +5096,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection"   value="0.08,0.2" />
 		<property name="FireProtection"       value="0.12,0.2" />
 		<property name="RadiationProtection"  value="0.06,0.1" />
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="30,9" />
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,7" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="sweatshirt" />
@@ -5171,8 +5177,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.065,0.13" />
 		<property name="FireProtection" value="0.12,0.2" />
 		<property name="RadiationProtection" value="0.06,0.1" />
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="18,12" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,5" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="base_chest" />
@@ -5267,8 +5273,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection" value="0.125,0.25" />
 		<property name="FireProtection" value="0.1,0.2" />
 		<property name="RadiationProtection" value="0.075,0.15" />
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="18,12" />
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,7" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="jacket" />
@@ -5476,8 +5482,8 @@ which does not exist, yet. -->
 		<property name="PunctureProtection"   value="0.08,0.2" />
 		<property name="FireProtection"       value="0.12,0.2" />
 		<property name="RadiationProtection"  value="0.06,0.1" />
-		<property name="DegradationMax" value="3000,3000" />
-		<property name="DegradationRate" value="18,12" />
+		<property name="DegradationMax" value="1800,1800" />
+		<property name="DegradationRate" value="18,7" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="hoody" />
@@ -5604,7 +5610,8 @@ which does not exist, yet. -->
 	<property name="CustomIcon" value="tshirtWhite" />
 	<property class="Attributes">
 		<property name="ConcussiveProtection" value="0.07,0.15" />
-		<property name="DegradationMax" value="100,250" />
+		<property name="DegradationMax" value="1200,1200" />
+		<property name="DegradationRate" value="12,5" />
 	</property>
 	<property class="UMA">
 		<property name="Overlay2" value="unisex_football_logo" />
@@ -5615,11 +5622,6 @@ which does not exist, yet. -->
 
 <item id="585" name="cowboyBootsBrown">
 	<property name="Extends" value="leatherBoots" />
-	<property name="Weight" value="20" /> <!-- weight because loot only -->
-	<property class="Attributes">
-		<property name="DegradationMax" value="2000,2000" />
-		<property name="DegradationRate" value="12,8" />
-	</property>
 	<property class="UMA">
 		<property name="Mesh" value="boot02" />
 		<property name="Overlay0" value="boot02" />
@@ -5640,7 +5642,6 @@ which does not exist, yet. -->
 	<property name="Extends" value="cowboyBootsBrown" />
 	<property class="Attributes">
 		<property name="ConcussiveProtection" value="0.16,0.4" />
-		<property name="DegradationMax" value="180,650" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="goth_boots" />
@@ -5654,7 +5655,6 @@ which does not exist, yet. -->
 	<property name="EquipSlot" value="Legs" />
 	<property class="Attributes">
 		<property name="ConcussiveProtection" value="0.16,0.4" />
-		<property name="DegradationMax" value="180,650" />
 	</property>
 	<property class="UMA">
 		<property name="Mesh" value="clothes_goth_pants" />
@@ -7672,7 +7672,7 @@ which does not exist, yet. -->
 	<property name="SellableToTrader" value="false" />
 	<property name="HoldType" value="45" />
 	<property name="DropScale" value="3" />
-	<property name="EconomicValue" value="25" />
+	<property name="EconomicValue" value="10" />
 	<property name="EconomicBundleSize" value="5" />
 	<property name="Group" value="Resources" />
 	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
@@ -7683,13 +7683,13 @@ which does not exist, yet. -->
 	<property name="DropMeshfile" value="Items/Misc/scrapIronDroppedPrefab" />
 	<property name="HoldType" value="45" />
 	<property name="Material" value="metal" />
-	<property name="Weight" value="1" />
+	<property name="Weight" value="5" />
 	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
 	<property name="EconomicValue" value="10" />
 	<property name="EconomicBundleSize" value="10" />
 	<property name="Group" value="Resources" />
 	<property name="RepairTime" value="0.5" />
-	<property name="RepairAmount" value="120" />
+	<property name="RepairAmount" value="200" />
 	<property name="CraftingIngredientTime" value="0.2" />
 	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
 </item>
@@ -7699,6 +7699,7 @@ which does not exist, yet. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 	<property name="HoldType" value="45" />
 	<property name="Material" value="metal" />
+	<property name="Weight" value="10" />
 	<property name="Stacknumber" value="500" /> <!-- STK resource -->
 	<property name="EconomicValue" value="12" />
 	<property name="CraftingIngredientExp" value="10" />
@@ -7713,6 +7714,7 @@ which does not exist, yet. -->
 	<property name="Meshfile" value="Items/Crafting/Metal/shortMetalPipe" />
 	<property name="HoldType" value="16" />
 	<property name="Material" value="metal" />
+	<property name="Weight" value="5" />
 	<property name="Stacknumber" value="500" /> <!-- STK resource -->
 	<property name="EconomicValue" value="12" />
 	<property name="Group" value="Resources" />
@@ -7725,6 +7727,7 @@ which does not exist, yet. -->
 	<property name="Material" value="metal" />
 	<property name="Stacknumber" value="500" /> <!-- STK resource -->
 	<property name="EconomicValue" value="32" />
+	<property name="Weight" value="20" />
 	<property name="Group" value="Resources" />
 	<property name="CraftingIngredientExp" value="15" />
 	<property name="CraftingIngredientTime" value="15" />
@@ -7740,12 +7743,12 @@ which does not exist, yet. -->
 	<property name="Material" value="Mplastics" />
 	<property name="Weight" value="1" />
 	<property name="Stacknumber" value="1000" /> <!-- STK resource -->
-	<property name="EconomicValue" value="32" />
+	<property name="EconomicValue" value="5" />
 	<property name="Group" value="Resources" />
 	<property name="CraftingIngredientExp" value="15" />
 	<property name="CraftingIngredientTime" value="2" />
-	<!-- <property name="RepairTime" value="2" />
-	<property name="RepairAmount" value="400" /> -->
+	<property name="RepairTime" value="0.5" />
+	<property name="RepairAmount" value="28" />
 </item>
 
 <item id="1311" name="oilShale">
@@ -7842,8 +7845,8 @@ which does not exist, yet. -->
 	<property name="Material" value="brass" />
 	<property name="HoldType" value="45" />
 	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
-	<property name="Weight" value="1" />
-	<property name="EconomicValue" value="20" />
+	<property name="Weight" value="5" />
+	<property name="EconomicValue" value="10" />
 	<property name="EconomicBundleSize" value="10" />
 	<property name="Group" value="Resources" />
 </item>
@@ -7854,8 +7857,8 @@ which does not exist, yet. -->
 	<property name="Material" value="lead" />
 	<property name="HoldType" value="45" />
 	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
-	<property name="Weight" value="1" />
-	<property name="EconomicValue" value="20" />
+	<property name="Weight" value="5" />
+	<property name="EconomicValue" value="10" />
 	<property name="EconomicBundleSize" value="10" />
 	<property name="Group" value="Resources" />
 </item>
@@ -8002,7 +8005,7 @@ which does not exist, yet. -->
 	<property name="CraftingIngredientExp" value="10" />
 	<property name="CraftingIngredientTime" value="10" />
 	<property name="RepairTime" value="0.6" />
-	<property name="RepairAmount" value="100" />
+	<property name="RepairAmount" value="200" />
 	<property name="Weight" value="1" />
 	<property name="EconomicValue" value="200" />
 	<property name="CraftingSkillGroup" value="Science"/>
@@ -8137,8 +8140,11 @@ which does not exist, yet. -->
 	<property name="Material" value="metal" />
 	<property name="HoldType" value="45" />
 	<property name="Stacknumber" value="500" /> <!-- STK resource -->
+	<property name="Weight" value="2" />
 	<property name="EconomicValue" value="12" />
 	<property name="EconomicBundleSize" value="5" />
+	<property name="RepairTime" value="1.6" />
+	<property name="RepairAmount" value="100" />
 	<property name="Group" value="Resources,Ammo/Weapons" />
 	<property name="CraftingSkillGroup" value="Weapon Smithing"/>
 </item>
@@ -8149,8 +8155,11 @@ which does not exist, yet. -->
 	<property name="Material" value="metal" />
 	<property name="HoldType" value="45" />
 	<property name="Stacknumber" value="500" /> <!-- STK resource -->
+	<property name="Weight" value="5" />
 	<property name="EconomicValue" value="38" />
 	<property name="EconomicBundleSize" value="5" />
+	<property name="RepairTime" value="1.6" />
+	<property name="RepairAmount" value="100" />
 	<property name="Group" value="Resources,Ammo/Weapons" />
 	<property name="CraftingSkillGroup" value="Weapon Smithing"/>
 </item>
