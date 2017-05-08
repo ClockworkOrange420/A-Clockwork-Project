@@ -350,7 +350,7 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="rockResource" prob =".025" rotatemax="3"/>
 				<decoration type="block" blockname="rockResource02" prob =".025" rotatemax="3"/>
 				<decoration type="block" blockname="forestFlower" prob =".2" />
-				<decoration type="block" blockname="snowberry3Harvest" prob =".13" />
+				<decoration type="block" blockname="snowberry3Harvest" prob =".001" />
 				<decoration type="block" blockname="treePlainsGrassDiagonal" prob =".07" />
 				<decoration type="block" blockname="treeForestGrassDiagonal" prob =".65" />
 			</decorations>
