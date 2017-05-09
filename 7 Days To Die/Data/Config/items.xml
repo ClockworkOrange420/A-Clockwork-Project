@@ -4382,6 +4382,16 @@ which does not exist, yet. -->
 		<property name="DegradationMax" value="900,900" />
 		<property name="DegradationRate" value="9,2" />
 	</property>
+	<property class="UMA">
+		<property name="Mesh" value="armor_heavy_bandit_gasmask" />
+		<property name="Overlay0" value="bandit_armor" />
+		<property name="Layer" value="1" />
+		<property name="UISlot" value="Face" />
+		<property name="Mask0" value="Eyes" param1="base"/>
+		<property name="Mask1" value="Eyes" param1="inner"/>
+		<property name="Mask2" value="Face" param1="base"/>
+		<property name="ShowAltHair" value="true" />		
+	</property>
 	<property name="Group" value="Clothing" />
 	<property name="ActionSkillGroup" value=" "/>
 	<property name="CraftingSkillGroup" value="Science"/>
