@@ -740,7 +740,7 @@ group desc for stuff like metal siding
 	<property name="MultiBlockDim" value="1,2,1" />
 	<property name="Collide" value="melee" />
 	<property name="IsTerrainDecoration" value="true" />
-	<property name="Class" value="CropsGrown" />
+	<property name="Class" value="PlantGrowing" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.LightLevelStay" value="0" />	
 	<drop event="Destroy" count="0" />
@@ -4768,7 +4768,8 @@ kind of free
 <block id="532" name="mushroom3Harvest">
 	<property name="Class" value="PlantGrowing" />
 	<property name="LightOpacity" value="0" />
-	<property name="PlantGrowing.FertileLevel" value="5" />
+	<property name="PlantGrowing.LightLevelStay" value="0" />
+	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="Material" value="Mmushrooms" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
