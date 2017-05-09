@@ -44,16 +44,6 @@
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		
-		<window_group name="workstation_Omnigel_Station" controller="XUiC_WorkstationWindowGroup">
-			<window name="windowCraftingList"/>
-			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
-			<window name="windowToolsOmnigelStation" />
-			<window name="windowFuel" />
-			<window name="windowOutput" />
-			<window name="windowNonPagingHeader" />
-		</window_group>
-		
 		<window_group name="workstation_Research_Table" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
@@ -140,6 +130,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
+			<window name="windowToolsOmnigelStation" />
 			<window name="windowFuel" />
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />

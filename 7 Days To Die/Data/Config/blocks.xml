@@ -91,12 +91,6 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	<property name="LPHardnessScale" value="2" />
 	<property name="Map.Color" value="20,50,21" />
 	<property class="RepairItems"> <property name="dirtFragment" value="10" /> </property>
-	<property class="UpgradeBlock">
-		<property name="ToBlock" value="fertileFarmland" />
-		<property name="Item" value="hoeIron" />
-		<property name="ItemCount" value="0" />
-		<property name="UpgradeHitCount" value="4" />
-	</property>
 	<drop event="Harvest" name="dirtFragment" count="7" />
 	<drop event="Destroy" name="dirtFragment" count="3" />
 	<drop event="Fall" name="dirt" count="1" prob="0.25" stick_chance="1" />
@@ -3807,9 +3801,9 @@ group desc for stuff like metal siding
 	<property name="HeatMapTime" value="1200"/>
 	<property name="HeatMapFrequency" value="25"/>
 	<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
-	<property class="Workstation">
-	<property name="Modules" value="output,fuel,input"/>
 	<property name="Collide" value="melee,bullet,arrow,rocket" />
+	<property class="Workstation">
+	<property name="Modules" value="tools,output,fuel,input"/>
 	</property>
 	<property class="RepairItems"> <property name="forgedIron" value="8" /> </property>
 	<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
@@ -11644,9 +11638,10 @@ kind of free
 	<property name="Texture" value="241" />
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket" />
 	<property name="Model" value="OutdoorDecor/mushroom01" param1="main_mesh" />
-	<property name="CanPickup" value="true" param1="mushrooms" />
  	<property name="IsTerrainDecoration" value="true" />
-	<drop event="Destroy" name="mushrooms" count="1" />
+	<drop event="Harvest" name="mushrooms" count="1" tool_category="Crops"/>
+	<drop event="Destroy" name="mushroomSeed" count="1" prob="1" />
+	<drop event="Destroy" name="mushroomSeed" count="1" prob="0.25" />
 </block>
 
 <block id="1383" name="mushroom02">
@@ -14658,7 +14653,7 @@ kind of free
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Food/Cooking" />
 	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
-  </block>
+  </block><!--
   <block id="1941" name="Omnigel_Station">
     <property name="Class" value="Campfire" />
 	<property name="CustomIcon" value="chemistryStation" />
@@ -14689,7 +14684,7 @@ kind of free
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property name="Group" value="Food/Cooking" />
 	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
-  </block>
+  </block>-->
   <block id="1942" name="Tailoring_Table">
     <property name="Class" value="Workstation" />
     <property name="Material" value="wood_weak" />

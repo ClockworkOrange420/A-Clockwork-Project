@@ -509,7 +509,7 @@
 	
 	<perk name="Omnigel Crafting" icon="science" description_key="OmnigelCraftingDesc" title_key="OmnigelCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="crafting">
 		<requirement skill_level="1" required_skill_name="Science" required_skill_level="75"/>
-		<recipe name="Omnigel_Station" unlock_level="1"/>
+		<recipe name="chemistryStation" unlock_level="1"/>
 	</perk>
 	
 	<perk name="Leather Tanning" icon="resource" description_key="LeatherTanningDesc" title_key="LeatherTanning" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">

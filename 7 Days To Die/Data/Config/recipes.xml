@@ -718,7 +718,7 @@
 		<ingredient name="leather" count="2"/>
 	</recipe>
 	<!--End Clothing-->
-	<recipe name="antibiotics" count="1" craft_area="Omnigel_Station" craft_time = "30" craft_exp_gain="167" craft_tool="beaker">
+	<recipe name="antibiotics" count="1" craft_area="chemistryStation" craft_time = "30" craft_exp_gain="167" craft_tool="beaker">
 		<ingredient name="moldyBread" count="1"/>
 		<ingredient name="potassiumNitratePowder" count="1"/>
 		<ingredient name="bottledRiverWater" count="1"/>
@@ -1162,10 +1162,10 @@
 		<ingredient name="animalHide" count="20"/>
 		<ingredient name="shortMetalPipe" count="1"/>
 	</recipe>
-	<recipe name="bioFuel" count="1" craft_time = "20" craft_exp_gain="84" craft_area="Omnigel_Station" craft_tool="beaker">
+	<recipe name="bioFuel" count="1" craft_time = "20" craft_exp_gain="84" craft_area="chemistryStation" craft_tool="beaker">
 		<ingredient name="animalFat" count="1"/>
 	</recipe>
-	<recipe name="bioFuel" count="3" craft_time = "20" craft_exp_gain="84" craft_area="Omnigel_Station" craft_tool="beaker">
+	<recipe name="bioFuel" count="3" craft_time = "20" craft_exp_gain="84" craft_area="chemistryStation" craft_tool="beaker">
 		<ingredient name="oilShale" count="50"/>
 	</recipe>
 	<recipe name="bioFuel" count="1" craft_time = "40" craft_exp_gain="84" craft_area="Old_Oven" craft_tool="beaker">
@@ -1732,7 +1732,7 @@
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<!--<recipe name="chemistryStation" count="1" craft_area="workbench"><ingredient name="beaker" count="2"/><ingredient name="burningBarrel" count="1"/><ingredient name="cookingPot" count="3"/><ingredient name="shortMetalPipe" count="15"/><ingredient name="wood" count="40"/></recipe>-->
-	<recipe name="beer" count="1" craft_area="Omnigel_Station" craft_time = "30" craft_exp_gain="167" craft_tool="beaker">
+	<recipe name="beer" count="1" craft_area="chemistryStation" craft_time = "30" craft_exp_gain="167" craft_tool="beaker">
 		<ingredient name="hopsFlower" count="2"/>
 		<ingredient name="Yeast" count="1"/>
 		<ingredient name="bottledRiverWater" count="1"/>
@@ -1868,7 +1868,7 @@
 		<ingredient name="nail" count="15"/>
 		<ingredient name="glue" count="10"/>
 	</recipe>
-	<recipe name="Omnigel_Station" count="1" craft_time = "240" craft_exp_gain="667" craft_area="workbench" craft_tool="wrench">
+	<recipe name="chemistryStation" count="1" craft_time = "240" craft_exp_gain="667" craft_area="workbench" craft_tool="wrench">
 		<ingredient name="beaker" count="2"/>
 		<ingredient name="shortMetalPipe" count="20"/>
 		<ingredient name="mechanicalParts" count="5"/>
@@ -2344,14 +2344,14 @@
 		<ingredient name="spring" count="6"/>
 		<ingredient name="mechanicalParts" count="12"/>
 	</recipe>
-	<recipe name="gasCan" count="100" craft_time = "60" craft_exp_gain="167" craft_area="Omnigel_Station" craft_tool="beaker">
+	<recipe name="gasCan" count="100" craft_time = "60" craft_exp_gain="167" craft_area="chemistryStation" craft_tool="beaker">
 		<ingredient name="oilShale" count="12"/>
 	</recipe>
-	<recipe name="gasCan" count="100" craft_time = "60" craft_exp_gain="167" craft_area="Omnigel_Station" craft_tool="beaker">
+	<recipe name="gasCan" count="100" craft_time = "60" craft_exp_gain="167" craft_area="chemistryStation" craft_tool="beaker">
 		<ingredient name="bioFuel" count="3"/>
 		<ingredient name="grainAlcohol" count="1"/>
 	</recipe>
-	<recipe name="gasCan" count="100" craft_time = "60" craft_exp_gain="167" craft_area="Omnigel_Station" craft_tool="beaker">
+	<recipe name="gasCan" count="100" craft_time = "60" craft_exp_gain="167" craft_area="chemistryStation" craft_tool="beaker">
 		<ingredient name="bioFuel" count="2"/>
 		<ingredient name="beer" count="1"/>
 		<ingredient name="Yeast" count="1"/>
@@ -2387,7 +2387,7 @@
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glue" count="1" craft_time = "8" craft_exp_gain="42" craft_area="Omnigel_Station" craft_tool="beaker">
+	<recipe name="glue" count="1" craft_time = "8" craft_exp_gain="42" craft_area="chemistryStation" craft_tool="beaker">
 		<ingredient name="femur" count="1"/>
 		<ingredient name="bottledRiverWater" count="1"/>
 	</recipe>
@@ -2411,7 +2411,7 @@
 		<ingredient name="goldenrodPlant" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="grainAlcohol" count="2" craft_time = "60" craft_exp_gain="334" craft_area="Omnigel_Station" craft_tool="beaker">
+	<recipe name="grainAlcohol" count="2" craft_time = "60" craft_exp_gain="334" craft_area="chemistryStation" craft_tool="beaker">
 		<ingredient name="beer" count="1"/>
 		<ingredient name="Yeast" count="1"/>
 	</recipe>
@@ -2501,7 +2501,7 @@
 		<ingredient name="yuccaFibers" count="10"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
-	<recipe name="herbalAntibiotics" count="1" craft_time = "30" craft_exp_gain="167" craft_area="Omnigel_Station">
+	<recipe name="herbalAntibiotics" count="1" craft_time = "30" craft_exp_gain="167" craft_area="chemistryStation">
 		<ingredient name="blueberries" count="2"/>
 		<ingredient name="mushrooms" count="1"/>
 		<ingredient name="chrysanthemumPlant" count="1"/>
@@ -2963,47 +2963,47 @@
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="omnigel" count="100" craft_time = "30" craft_exp_gain="84" craft_area="Omnigel_Station" craft_tool="beaker">
+	<recipe name="omnigel" count="100" craft_time = "30" craft_exp_gain="84" craft_area="chemistryStation" craft_tool="beaker">
 		<ingredient name="potato" count="4"/>
 		<ingredient name="blueberries" count="4"/>
 		<ingredient name="mushrooms" count="4"/>
 		<ingredient name="Wheat" count="4"/>
 		<ingredient name="Tomato" count="4"/>
 	</recipe>
-	<recipe name="omnigel" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Omnigel_Station" craft_tool="beaker">
+	<recipe name="omnigel" count="1" craft_time = "4" craft_exp_gain="12" craft_area="chemistryStation" craft_tool="beaker">
 		<ingredient name="rockSmall" count="100"/>
 	</recipe>
-	<recipe name="omnigel" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Omnigel_Station" craft_tool="beaker">
+	<recipe name="omnigel" count="1" craft_time = "4" craft_exp_gain="12" craft_area="chemistryStation" craft_tool="beaker">
 		<ingredient name="femur" count="25"/>
 	</recipe>
-	<recipe name="Compost" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Omnigel_Station" craft_tool="beaker">
+	<recipe name="Compost" count="1" craft_time = "4" craft_exp_gain="12" craft_area="chemistryStation" craft_tool="beaker">
 		<ingredient name="rottingFlesh" count="2"/>
 	</recipe>
-	<recipe name="oilShale" count="100" craft_time = "30" craft_exp_gain="84" craft_area="Omnigel_Station">
+	<recipe name="oilShale" count="100" craft_time = "30" craft_exp_gain="84" craft_area="chemistryStation">
 		<ingredient name="omnigel" count="10"/>
 	</recipe>
-	<recipe name="clayLump" count="100" craft_time = "30" craft_exp_gain="84" craft_area="Omnigel_Station">
+	<recipe name="clayLump" count="100" craft_time = "30" craft_exp_gain="84" craft_area="chemistryStation">
 		<ingredient name="omnigel" count="10"/>
 	</recipe>
-	<recipe name="scrapIron" count="100" craft_time = "30" craft_exp_gain="84" craft_area="Omnigel_Station">
+	<recipe name="scrapIron" count="100" craft_time = "30" craft_exp_gain="84" craft_area="chemistryStation">
 		<ingredient name="omnigel" count="10"/>
 	</recipe>
-	<recipe name="scrapLead" count="20" craft_time = "30" craft_exp_gain="84" craft_area="Omnigel_Station">
+	<recipe name="scrapLead" count="20" craft_time = "30" craft_exp_gain="84" craft_area="chemistryStation">
 		<ingredient name="omnigel" count="10"/>
 	</recipe>
-	<recipe name="scrapBrass" count="20" craft_time = "30" craft_exp_gain="84" craft_area="Omnigel_Station">
+	<recipe name="scrapBrass" count="20" craft_time = "30" craft_exp_gain="84" craft_area="chemistryStation">
 		<ingredient name="omnigel" count="10"/>
 	</recipe>
-	<recipe name="potassiumNitratePowder" count="20" craft_time = "30" craft_exp_gain="84" craft_area="Omnigel_Station">
+	<recipe name="potassiumNitratePowder" count="20" craft_time = "30" craft_exp_gain="84" craft_area="chemistryStation">
 		<ingredient name="omnigel" count="10"/>
 	</recipe>
-	<recipe name="coal" count="20" craft_time = "30" craft_exp_gain="84" craft_area="Omnigel_Station">
+	<recipe name="coal" count="20" craft_time = "30" craft_exp_gain="84" craft_area="chemistryStation">
 		<ingredient name="omnigel" count="10"/>
 	</recipe>
-	<recipe name="rockSmall" count="100" craft_time = "30" craft_exp_gain="84" craft_area="Omnigel_Station">
+	<recipe name="rockSmall" count="100" craft_time = "30" craft_exp_gain="84" craft_area="chemistryStation">
 		<ingredient name="omnigel" count="10"/>
 	</recipe>
-	<recipe name="crushedSand" count="100" craft_time = "30" craft_exp_gain="84" craft_area="Omnigel_Station">
+	<recipe name="crushedSand" count="100" craft_time = "30" craft_exp_gain="84" craft_area="chemistryStation">
 		<ingredient name="omnigel" count="10"/>
 	</recipe>
 	<recipe name="flashlight02" count="1" craft_time = "30" craft_exp_gain="84" craft_area="workbench">
@@ -3085,7 +3085,7 @@
 	<recipe name="snow" count="1" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="snowBall" count="12"/>
 	</recipe>
-	<recipe name="snowberryExtract" count="1" craft_area="Omnigel_Station" craft_tool="beaker">
+	<recipe name="snowberryExtract" count="1" craft_area="chemistryStation" craft_tool="beaker">
 		<ingredient name="snowberryPlant" count="1"/>
 		<ingredient name="cornMeal" count="1"/>
 	</recipe>
