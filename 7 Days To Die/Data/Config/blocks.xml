@@ -5681,10 +5681,11 @@ kind of free
 
 <block id="624" name="cntCooler">
 	<property name="Class" value="Loot" />
-	<property name="Material" value="wood_weak" />
+	<property name="Material" value="Mplastics" />
 	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
+	<property name="Weight" value="10" />
 	<property name="Texture" value="282" />
 	<property name="LootList" value="45" />
 	<property name="Model" value="LootContainers/cooler" param1="main_mesh" />

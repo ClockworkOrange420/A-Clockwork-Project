@@ -969,9 +969,9 @@
 		<ingredient name="foodYuccaFruit" count="1"/>
 	</recipe>
 	<recipe name="Remote" count="1" craft_time = "30" craft_exp_gain="84" craft_area="Smithing_Table">
+		<ingredient name="scrapPlastics" count="5" />
 		<ingredient name="electronicParts" count="3" />
 		<ingredient name="partsNailgun_battery" count="1" />
-		<ingredient name="scrapPlastics" count="5" />
 	</recipe>
 	<recipe name="hiddenGlassPlacement" count="1" craft_time = "12" craft_exp_gain="36" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
