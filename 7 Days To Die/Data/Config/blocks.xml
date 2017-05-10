@@ -5681,7 +5681,7 @@ kind of free
 
 <block id="624" name="cntCooler">
 	<property name="Class" value="Loot" />
-	<property name="Material" value="Mplastics" />
+	<property name="Material" value="wood_weak" />
 	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
@@ -5691,9 +5691,8 @@ kind of free
 	<property name="Model" value="LootContainers/cooler" param1="main_mesh" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property class="RepairItems"> <property name="scrapPlastics" value="8" /> </property>
-	<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
-	<drop event="Destroy" count="0" />
-	<drop event="Destroy" name="scrapPlastics" count="2,6" tool_category="Disassemble" />
+	<drop event="Harvest" name="scrapPlastics" count="8" tool_category="Disassemble" />
+	<drop event="Destroy" name="scrapPlastics" count="2,6" />
 	<property name="Group" value="Decor/Miscellaneous" />
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="EconomicValue" value="300" /> <!-- disassemble value -->
