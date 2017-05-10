@@ -460,6 +460,18 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="MaxDamage" value="4000" />
 </material>
 
+<material id="Mmetal_bars">
+	<property name="damage_category" value="metal" />
+	<property name="surface_category" value="metal" />
+	<property name="forge_category" value="iron" />
+	<property name="Hardness" type="float" value="1" />
+	<property name="stepsound" value="metal" />
+	<property name="stability_glue" value="40" />
+	<property name="Mass" type="int" value="20" />
+	<property name="explosionresistance" value=".5" />
+	<property name="MaxDamage" value="1000" />
+</material>
+
 <material id="MmetalCatwalk">
 	<property name="damage_category" value="metal" />
 	<property name="surface_category" value="metal" />

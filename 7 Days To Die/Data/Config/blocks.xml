@@ -5062,7 +5062,7 @@ kind of free
 </block>
 
 <block id="558" name="ironBars">
-	<property name="Material" value="Mmetal_hard" />
+	<property name="Material" value="Mmetal_bars" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/iron_bars" param1="main_mesh" />
@@ -12088,7 +12088,6 @@ kind of free
 <block id="1431" name="garageDoorMetal_v3">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="Mmetal_hard" />
-	<property name="MaxDamage" value="4000"/> <!-- need higher hit points to account for their area -->
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />

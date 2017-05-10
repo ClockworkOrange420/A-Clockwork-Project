@@ -814,6 +814,20 @@
 		<ingredient name="wood" count="10"/>
 		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
+	<recipe name="barStool" count="1" craft_time = "30" craft_exp_gain="84" craft_area="workbench" craft_tool="wrench">
+		<ingredient name="cloth" count="20"/>
+		<ingredient name="cottonPlant" count="20"/>
+		<ingredient name="spring" count="10"/>
+		<ingredient name="wood" count="10"/>
+		<ingredient name="shortMetalPipe" count="10"/>
+	</recipe>
+	<recipe name="loudspeaker" count="1" craft_time = "30" craft_exp_gain="84" craft_area="workbench" craft_tool="wrench">
+		<ingredient name="electronicParts" count="10"/>
+		<ingredient name="electricParts" count="5"/>
+		<ingredient name="animalHide" count="3"/>
+		<ingredient name="wood" count="10"/>
+		<ingredient name="scrapPlastics" count="20"/>
+	</recipe>
 	<recipe name="miniblindTopSheet" count="1" craft_time = "4" craft_exp_gain="12" craft_area="Tailoring_Table" craft_tool="Sewing_Machine">
 		<ingredient name="cloth" count="5"/>
 	</recipe>
