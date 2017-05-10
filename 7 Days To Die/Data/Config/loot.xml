@@ -898,11 +898,13 @@
 
 <lootgroup name="cupboard">
 	<item name="canEmpty"/>
+	<item name="steelPolish" prob="0.05"/>
 	<item group="cannedfood" prob="0.15"/>
 	<item group="seeds"/>
 	<item name="bottledWater" prob="0.15"/>
 	<item name="emptyJar" count="1,4"/>
 	<item name="electricParts" count="1,2" prob=".05"/>
+	<item name="steelPolish" count="1,2" prob="0.05"/>
 	<item name="potassiumNitratePowder" count="2,6" prob=".15"/>
 </lootgroup>
 
@@ -935,6 +937,7 @@
 	<item name="shortMetalPipe" count="1"/>
 	<item name="fishingWeight" count="1,3"/>
 	<item name="scrapLead" count="1,10"/>
+	<item name="steelPolish" count="1,2"/>
 	<item name="glue" count="2,6"/>
 	<item name="nail" count="1,6"/>
 	<item name="airFilter" count="1"/>
@@ -1135,6 +1138,7 @@
 	<item name="anvil" count="1"/>
 	<item name="ironDoor1_v1"/>
 	<item name="sledgehammer"/>
+	<item name="steelPolish" count="5,10"/>
 	<item group="nailgun+parts"/>
 	<item name="calipers" prob="0.67"/>
 	<item name="toolAndDieSet" prob="0.67"/>

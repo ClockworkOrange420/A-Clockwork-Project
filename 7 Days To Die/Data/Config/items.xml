@@ -5857,7 +5857,7 @@ which does not exist, yet. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 	<property name="Material" value="organic" />
 	<property name="Stacknumber" value="250" /> <!-- STK resource -->
-	<property name="EconomicValue" value="5" />
+	<property name="EconomicValue" value="100" />
 	<property name="EconomicBundleSize" value="1" />
 	<property name="SellableToTrader" value="false" />
 	<property name="HoldType" value="45" />

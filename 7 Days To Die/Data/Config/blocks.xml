@@ -2996,8 +2996,7 @@ group desc for stuff like metal siding
 	<property name="Collide" value="melee,bullet,arrow,rocket" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="LootList" value="2" />
-	<drop event="Destroy" count="0" />
-	<drop event="Destroy" name="scrapPlastics" count="1" prob=".2" tool_category="Disassemble" />
+	<drop event="Destroy" name="scrapPlastics" count="3" prob="0.25"/>
 </block>
 
 <block id="341" name="cntTrashPile02">
