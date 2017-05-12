@@ -2730,6 +2730,9 @@
 	<recipe name="metalTrussingRamp" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="wrench">
 		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
+	<recipe name="metalTrussingSheet" count="1" craft_time = "4" craft_exp_gain="12" craft_area="workbench" craft_tool="wrench">
+		<ingredient name="shortMetalPipe" count="10"/>
+	</recipe>
 	<recipe name="mineAirFilter" count="1" craft_time = "20" craft_exp_gain="56" craft_area="Ammunition_Table" craft_tool="toolAndDieSet">
 		<ingredient name="nail" count="15"/>
 		<ingredient name="gunPowder" count="10"/>

@@ -3583,8 +3583,7 @@ group desc for stuff like metal siding
 	<property name="Mesh" value="cutout" />
 	<property name="Texture" value="310" />
 	<property name="Collide" value="movement,melee,rocket" /> <!-- -rocket -->
-	<property class="RepairItems"> <property name="scrapIronPlate" value="10" /> </property>
-	<property name="DowngradeBlock" value="scrapIronGrateSheet" />
+	<property class="RepairItems"> <property name="shortMetalPipe" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="15,50" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
@@ -3769,12 +3768,6 @@ group desc for stuff like metal siding
 	<property name="Texture" value="357" />
 	<property name="Collide" value="movement,melee,rocket" /> <!-- -rocket -->
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
-	<property class="UpgradeBlock">
-		<property name="ToBlock" value="metalTrussingSheet" />
-		<property name="Item" value="scrapIronPlate" />
-		<property name="ItemCount" value="10" />
-		<property name="UpgradeHitCount" value="4" />
-	</property>
 	<property name="CustomUpgradeSound" value="Crafting/place_block_metal" />
 	<drop event="Destroy" name="scrapIron" count="15" prob=".7" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
