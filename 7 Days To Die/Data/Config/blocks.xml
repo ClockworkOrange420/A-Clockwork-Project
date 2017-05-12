@@ -3762,7 +3762,7 @@ group desc for stuff like metal siding
 
 <block id="421" name="scrapIronGrateSheet">
 	<property name="Group" value="Building" />
-	<property name="Material" value="metal" />
+	<property name="Material" value="Mmetal_medium" />
 	<property name="Shape" value="BillboardSingleOnWall" /> <property name="Place" value="TowardsPlacerInverted" />
 	<property name="Mesh" value="cutout" />
 	<property name="Texture" value="357" />
@@ -5055,7 +5055,7 @@ kind of free
 </block>
 
 <block id="558" name="ironBars">
-	<property name="Material" value="Mmetal_bars" />
+	<property name="Material" value="Mmetal_medium" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/iron_bars" param1="main_mesh" />
