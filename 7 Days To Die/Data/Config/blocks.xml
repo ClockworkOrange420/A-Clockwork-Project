@@ -1114,7 +1114,7 @@ group desc for stuff like metal siding
 		<property name="UpgradeHitCount" value="4" />
 	</property>
 	<property name="CustomUpgradeSound" value="Crafting/place_block_wood" />
-	<property class="RepairItems"> <property name="forgedIron" value="1" /> </property>
+	<property class="RepairItems"> <property name="forgedIron" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="5" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".2" stick_chance="1" />
 	<property name="EconomicValue" value="25" />
@@ -2899,7 +2899,7 @@ group desc for stuff like metal siding
 	<property name="Material" value="Mmetal_hard" />
 	<property name="Shape" value="BillboardSingleOnWall" /> <property name="Place" value="TowardsPlacerInverted" />
 	<property name="Texture" value="46" />
-	<property class="RepairItems"> <property name="forgedIron" value="10" /> </property>
+	<property class="RepairItems"> <property name="scrapIronPlate" value="10" /> </property>
 	<property name="DowngradeBlock" value="scrapIronSheet" />
 	<drop event="Destroy" name="scrapIron" count="15,50" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
@@ -3430,10 +3430,10 @@ group desc for stuff like metal siding
 	<property name="Material" value="Mmetal_medium" />
 	<property name="Shape" value="BillboardSingleOnWall" /> <property name="Place" value="TowardsPlacerInverted" />
 	<property name="Texture" value="307" />
-	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
+	<property class="RepairItems"> <property name="scrapIronPlate" value="10" /> </property>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="metalRivetSheet" />
-		<property name="Item" value="forgedIron" />
+		<property name="Item" value="scrapIronPlate" />
 		<property name="ItemCount" value="10" />
 		<property name="UpgradeHitCount" value="4" />
 	</property>
@@ -3451,7 +3451,7 @@ group desc for stuff like metal siding
 	<property name="Mesh" value="cutout" />
 	<property name="Texture" value="310" />
 	<property name="Collide" value="movement,melee,rocket" /> <!-- -rocket -->
-	<property class="RepairItems"> <property name="forgedIron" value="4" /> </property>
+	<property class="RepairItems"> <property name="shortMetalPipe" value="10" /> </property>
 	<drop event="Destroy" name="scrapIron" count="1,15" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="Group" value="Building" />
@@ -3578,12 +3578,12 @@ group desc for stuff like metal siding
 </block>
 
 <block id="402" name="metalTrussingSheet">
-	<property name="Material" value="Mmetal_hard" />
+	<property name="Material" value="Mmetal_medium" />
 	<property name="Shape" value="BillboardSingleOnWall" /> <property name="Place" value="TowardsPlacerInverted" />
 	<property name="Mesh" value="cutout" />
 	<property name="Texture" value="310" />
 	<property name="Collide" value="movement,melee,rocket" /> <!-- -rocket -->
-	<property class="RepairItems"> <property name="forgedIron" value="10" /> </property>
+	<property class="RepairItems"> <property name="scrapIronPlate" value="10" /> </property>
 	<property name="DowngradeBlock" value="scrapIronGrateSheet" />
 	<drop event="Destroy" name="scrapIron" count="15,50" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
@@ -3771,7 +3771,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="metalTrussingSheet" />
-		<property name="Item" value="forgedIron" />
+		<property name="Item" value="scrapIronPlate" />
 		<property name="ItemCount" value="10" />
 		<property name="UpgradeHitCount" value="4" />
 	</property>
@@ -8920,7 +8920,7 @@ kind of free
 	<property name="Extends" value="scrapIronMaster" />
 	<property class="UpgradeBlock"> <property name="ToBlock" value="rScrapIronBlock" /> </property>
 	<property name="Texture" value="282" />
-	<property class="RepairItems"> <property name="forgedIron" value="5" /> </property>
+	<property class="RepairItems"> <property name="scrapironPlate" value="5" /> </property>
 </block>
 
 <block id="1007" name="corrugatedMetalBlockDuplicate"> <!-- 860 -->
@@ -8931,7 +8931,7 @@ kind of free
 <block id="1008" name="rustyIronRamp">
 	<property name="Extends" value="scrapIronRamp" />
 	<property name="Texture" value="282" />
-	<property class="RepairItems"> <property name="forgedIron" value="5" /> </property>
+	<property class="RepairItems"> <property name="scrapironPlate" value="5" /> </property>
 </block>
 
 <block id="1009" name="curtain_bottom1Sheet3">
@@ -10822,7 +10822,7 @@ kind of free
 	<property class="RepairItems"> <property name="wood" value="20" /> </property>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="metalCatwalk" />
-		<property name="Item" value="forgedIron" />
+		<property name="Item" value="scrapironPlate" />
 		<property name="ItemCount" value="8" />
 		<property name="UpgradeHitCount" value="4" />
 	</property>
@@ -10894,7 +10894,7 @@ kind of free
 	<property name="Shape" value="New" />
 	<property name="Model" value="catwalk_metal" />
 	<property name="Texture" value="445,446,446,446,446,446" />
-	<property class="RepairItems"> <property name="forgedIron" value="8" /> </property>
+	<property class="RepairItems"> <property name="scrapironPlate" value="8" /> </property>
 	<property name="DowngradeBlock" value="woodCatwalk" />
 	<property name="DescriptionKey" value="metalCatwalkGroupDesc"/>
 	<property name="EconomicValue" value="48" />
