@@ -5055,7 +5055,7 @@ kind of free
 </block>
 
 <block id="558" name="ironBars">
-	<property name="Material" value="Mmetal_bars" />
+	<property name="Material" value="Mmetal_medium" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="OutdoorDecor/iron_bars" param1="main_mesh" />
