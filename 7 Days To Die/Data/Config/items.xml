@@ -392,7 +392,7 @@ Mesh files no longer used:
 		<property name="DamageBlock" value="1" />
 		<property name="Sound_start" value="swoosh" />
 		<property name="Stamina_usage" value="1" />
-		<property name="DamageBonus.plants" value="25" />
+		<property name="DamageBonus.plants" value="0.01" />
 		<property name="DamageBonus.leaves" value="25" />
 		<property name="DamageBonus.wood" value="0.01" />
 		<property name="DamageBonus.head" value="0.01" />
@@ -9282,7 +9282,7 @@ which does not exist, yet. -->
             <!-- AttackAction -->
             <property name="Class" value="Repair"/>
              <property name="Delay" value="0.4"/>
-            <property name="Repair_amount" value="1"/>
+            <property name="Repair_amount" value="10"/>
             <property name="Upgrade_hit_offset" value="0"/>
             <property name="Sound_start" value="UseActions/repair_block"/>
             <property name="Allowed_upgrade_items" value="Fertilizer"/>
@@ -10424,7 +10424,7 @@ which does not exist, yet. -->
 			<property name="DamageBlock" value="1" />
 			<property name="Sound_start" value="swoosh" />
 			<property name="Stamina_usage" value="1" />
-			<property name="DamageBonus.plants" value="25" />
+			<property name="DamageBonus.plants" value="1" />
 			<property name="DamageBonus.leaves" value="25" />
 			<property name="DamageBonus.wood" value="0.01" />
 			<property name="DamageBonus.head" value="0.01" />
@@ -10443,7 +10443,7 @@ which does not exist, yet. -->
 			<property name="DamageBlock" value="1" />
 			<property name="Sound_start" value="swoosh" />
 			<property name="Stamina_usage" value="1" />
-			<property name="DamageBonus.plants" value="25" />
+			<property name="DamageBonus.plants" value="1" />
 			<property name="DamageBonus.leaves" value="25" />
 			<property name="DamageBonus.wood" value="0.01" />
 			<property name="DamageBonus.head" value="0.01" />

@@ -701,7 +701,7 @@ group desc for stuff like metal siding
 <block id="119" name="cropsGrowingMaster">
 	<property name="IsDeveloper" value="true" />
 	<property name="CustomIcon" value="blueberrySeed" />
-	<property name="Material" value="plants" />
+	<property name="Material" value="Mplants" />
 	<property name="LightOpacity" value="0" />
 	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="BillboardPlant" />
@@ -712,6 +712,7 @@ group desc for stuff like metal siding
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="CanDecorateOnSlopes" value="true" />
 	<property name="RotationAllowed" value="pivotOnFloor" />
+	<property class="RepairItems"> <property name="Fertilizer" value="0" /> </property>
 	<property name="Class" value="PlantGrowing" />
 	<property name="PlantGrowing.Next" value="cropsHarvestableMaster" />
 	<property name="PlantGrowing.GrowthRate" value="210" />
