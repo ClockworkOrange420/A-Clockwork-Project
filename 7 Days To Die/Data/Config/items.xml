@@ -371,6 +371,7 @@ Mesh files no longer used:
 		<property name="Sphere" value="0.1" />
 		<property name="Sound_start" value="swoosh" />
 		<property name="Stamina_usage" value="7" />
+		<property name="DamageBonus.crops" value="0.01" />
 		<property name="DamageBonus.wood" value="3" />
 		<property name="DamageBonus.head" value="3" />
 		<property name="DamageBonus.glass" value="25" />
@@ -392,6 +393,7 @@ Mesh files no longer used:
 		<property name="DamageBlock" value="1" />
 		<property name="Sound_start" value="swoosh" />
 		<property name="Stamina_usage" value="1" />
+		<property name="DamageBonus.crops" value="0.01" />
 		<property name="DamageBonus.plants" value="0.01" />
 		<property name="DamageBonus.leaves" value="25" />
 		<property name="DamageBonus.wood" value="0.01" />
@@ -1000,6 +1002,7 @@ Mesh files no longer used:
 		<property name="DamageEntity" value="5" />
 		<property name="DamageBlock" value="1" />
 		<property name="Stamina_usage" value="3" />
+		<property name="DamageBonus.crops" value="0.01" />
 		<property name="DamageBonus.head" value="2" />
 		<property name="DamageBonus.organic" value="5" />
 		<property name="ToolCategory.Crops" value="1" />
@@ -10424,6 +10427,7 @@ which does not exist, yet. -->
 			<property name="DamageBlock" value="1" />
 			<property name="Sound_start" value="swoosh" />
 			<property name="Stamina_usage" value="1" />
+			<property name="DamageBonus.crops" value="0.01" />
 			<property name="DamageBonus.plants" value="1" />
 			<property name="DamageBonus.leaves" value="25" />
 			<property name="DamageBonus.wood" value="0.01" />
@@ -10443,6 +10447,7 @@ which does not exist, yet. -->
 			<property name="DamageBlock" value="1" />
 			<property name="Sound_start" value="swoosh" />
 			<property name="Stamina_usage" value="1" />
+			<property name="DamageBonus.crops" value="0.01" />
 			<property name="DamageBonus.plants" value="1" />
 			<property name="DamageBonus.leaves" value="25" />
 			<property name="DamageBonus.wood" value="0.01" />

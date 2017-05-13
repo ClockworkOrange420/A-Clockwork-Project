@@ -178,7 +178,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 
 <!-- All plants -->
 <material id="Mplants">
-	<property name="damage_category" value="wood" />
+	<property name="damage_category" value="crops" />
 	<property name="surface_category" value="plant" />
 	<property name="particle_category" value="plant" />
 	<property name="forge_category" value="plants" />
