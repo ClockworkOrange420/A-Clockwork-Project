@@ -4724,6 +4724,7 @@ kind of free
 	<property name="MultiBlockDim" value="1,2,1" />
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket" />
 	<property name="IsTerrainDecoration" value="true" />
+	<property class="RepairItems"> <property name="Fertilizer" value="0" /> </property>
 	<property name="Class" value="PlantGrowing" />
 	<property name="PlantGrowing.Next" value="plantedMushroom2" />
 	<property name="PlantGrowing.GrowthRate" value="210" />
@@ -4749,6 +4750,7 @@ kind of free
 	<property name="MultiBlockDim" value="1,2,1" />
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket" />
 	<property name="IsTerrainDecoration" value="true" />
+	<property class="RepairItems"> <property name="Fertilizer" value="0" /> </property>
 	<property name="Class" value="PlantGrowing" />
 	<property name="PlantGrowing.Next" value="mushroom3Harvest" />
 	<property name="PlantGrowing.GrowthRate" value="210" />
