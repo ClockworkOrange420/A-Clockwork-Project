@@ -223,6 +223,20 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 
 <!-- If mushrooms are flagged as "plant" they can not spawn on cave floors with fertility < 1 -->
 <material id="Mmushrooms">
+	<property name="damage_category" value="crops" />
+	<property name="surface_category" value="plant" />
+	<property name="particle_destroy_category" value="xt_leaves2" />
+	<property name="Hardness" type="float" value="1" />
+	<property name="stepsound" value="tree" />
+	<property name="lightopacity" value="1" />
+	<property name="stability_glue" value="3" />
+	<property name="Mass" type="int" value="0" />
+	<property name="plant" value="true" />
+	<property name="StabilitySupport" value="false" />
+	<property name="MaxDamage" value="10" />
+</material>
+
+<material id="Mmushroom">
 	<property name="damage_category" value="earth" />
 	<property name="surface_category" value="plant" />
 	<property name="particle_destroy_category" value="xt_leaves2" />
