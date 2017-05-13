@@ -1002,7 +1002,7 @@ Mesh files no longer used:
 		<property name="DamageEntity" value="5" />
 		<property name="DamageBlock" value="1" />
 		<property name="Stamina_usage" value="3" />
-		<property name="DamageBonus.crops" value="0.01" />
+		<property name="DamageBonus.crops" value="5" />
 		<property name="DamageBonus.head" value="2" />
 		<property name="DamageBonus.organic" value="5" />
 		<property name="ToolCategory.Crops" value="1" />
