@@ -266,7 +266,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 </buff>
 
 <buff id="dysentery" mutex="cured,dysentery2" type="sickness" actions="increment(@wellness, -0.02, 30t, 0, 0)" duration="2400" onexpired="dysentery2"
-	icon="ui_game_symbol_dysentery" castsound="playersick" name_key="dysentery" description_key="dysenteryDesc" tooltip_key="dysenteryTooltip" cures="goldenRodTea,redTea,vitamins,herbalAntibiotics,antibiotics" causes="bottledRiverWater,canMurkyWater">
+	icon="ui_game_symbol_dysentery" castsound="playersick" name_key="dysentery" description_key="dysenteryDesc" tooltip_key="dysenteryTooltip" cures="goldenRodTea,redTea,herbalAntibiotics,antibiotics" causes="bottledRiverWater,canMurkyWater">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 </buff>
 
@@ -765,7 +765,7 @@ Stew
 	<modify id="0" stat="health" amount="1" rate="5" />
 </buff>
 
-<buff id="cured2" stack="reset" duration="2400t" actions="increment(@wellness, 0.05, 100t, 0, 0)" />
+<buff id="cured2" stack="reset" duration="2400t" actions="increment(@wellness, 0.05, 100t, 0, 0)" icon="ui_game_symbol_pills" name_key="Vitamins" description_key="Increases wellness slowly over time." tooltip_key="Slowly Increases Wellness." />
 
 <buff id="warmByFire" onexpired="warmByFire2" duration="10" stack="discard" buffif="+heatSource gequal 1" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
 	<modify id="0" stat="coretemp" modifyValue="30"/>

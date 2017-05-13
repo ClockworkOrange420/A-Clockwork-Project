@@ -2178,9 +2178,11 @@ group desc for stuff like metal siding
 <block id="258" name="plantedBlueberry3Harvest">
 	<property name="Extends" value="cropsHarvestableMaster" />
 	<property name="Texture" value="295" />
+	<drop event="Harvest" name="blueberrySeed" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="blueberrySeed" count="1" prob="0.25" tool_category="CropsSeed"/>
 	<drop event="Harvest" name="blueberries" count="1" tool_category="Crops"/>
-	<drop event="Destroy" name="blueberrySeed" count="1" prob="1" />
-	<drop event="Destroy" name="blueberrySeed" count="1" prob="0.25" />
+	<drop event="Harvest" name="blueberries" count="1" prob="0.25" tool_category="Crops"/>
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="259" name="plantedPotato1">
@@ -2209,9 +2211,11 @@ group desc for stuff like metal siding
 <block id="261" name="plantedPotato3Harvest">
 	<property name="Extends" value="cropsHarvestableMaster" />
 	<property name="Texture" value="298" />
+	<drop event="Harvest" name="potatoSeed" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="potatoSeed" count="1" prob="0.25" tool_category="CropsSeed"/>
 	<drop event="Harvest" name="potato" count="1" tool_category="Crops"/>
-	<drop event="Destroy" name="potatoSeed" count="1" prob="1" />
-	<drop event="Destroy" name="potatoSeed" count="1" prob="0.25" />
+	<drop event="Harvest" name="potato" count="1" prob="0.25" tool_category="Crops"/>
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="262" name="plantedBlueberry2">
@@ -4702,9 +4706,11 @@ kind of free
 <block id="529" name="plantedHop3Harvest">
 	<property name="Extends" value="cropsHarvestableMaster" />
 	<property name="Texture" value="449" />
+	<drop event="Harvest" name="hopSeed" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="hopSeed" count="1" prob="0.25" tool_category="CropsSeed"/>
 	<drop event="Harvest" name="hopsFlower" count="1" tool_category="Crops"/>
-	<drop event="Destroy" name="hopSeed" count="1" prob="1" />
-	<drop event="Destroy" name="hopSeed" count="1" prob="0.25" />
+	<drop event="Harvest" name="hopsFlower" count="1" prob="0.25" tool_category="Crops"/>
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="530" name="plantedMushroom1">
@@ -4764,9 +4770,10 @@ kind of free
 	<property name="MultiBlockDim" value="1,2,1" />
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket" />
 	<property name="IsTerrainDecoration" value="true" />
+	<drop event="Harvest" name="mushroomSeed" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="mushroomSeed" count="1" prob="0.25" tool_category="CropsSeed"/>
 	<drop event="Harvest" name="mushrooms" count="1" tool_category="Crops"/>
-	<drop event="Destroy" name="mushroomSeed" count="1" prob="1" />
-	<drop event="Destroy" name="mushroomSeed" count="1" prob="0.25" />
+	<drop event="Destroy" name="mushrooms" count="1" prob="0.25" />
 </block>
 
 <block id="533" name="plantedYucca1">
@@ -6655,9 +6662,11 @@ kind of free
 	<property name="Extends" value="cropsHarvestableMaster" />
 	<property name="CustomIcon" value="plantedCotton3Harvest" />
 	<property name="Texture" value="363" />
+	<drop event="Harvest" name="cottonSeed" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="cottonSeed" count="1" prob="0.25" tool_category="CropsSeed"/>
 	<drop event="Harvest" name="cottonPlant" count="1" tool_category="Crops"/>
-	<drop event="Destroy" name="cottonSeed" count="1" prob="1" />
-	<drop event="Destroy" name="cottonSeed" count="1" prob="0.25" />
+	<drop event="Harvest" name="cottonPlant" count="1" prob="0.25" tool_category="Crops"/>
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="715" name="wallPlasterBaseboard2Block">
@@ -7032,9 +7041,11 @@ kind of free
 <block id="761" name="plantedCoffee3Harvest">
 	<property name="Extends" value="cropsHarvestableMaster" />
 	<property name="Texture" value="395" />
+	<drop event="Harvest" name="coffeeBeans" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="coffeeBeans" count="1" prob="0.25" tool_category="CropsSeed"/>
 	<drop event="Harvest" name="coffeeBeans" count="1" tool_category="Crops"/>
-	<drop event="Destroy" name="coffeeBeans" count="1" prob="1" />
-	<drop event="Destroy" name="coffeeBeans" count="1" prob="0.25" />
+	<drop event="Harvest" name="coffeeBeans" count="1" prob="0.25" tool_category="Crops"/>
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="762" name="plantedGoldenrod1">
@@ -7064,9 +7075,11 @@ kind of free
 	<property name="Extends" value="cropsHarvestableMaster" />
 	<property name="CustomIcon" value="plantedGoldenrod3Harvest" />
 	<property name="Texture" value="362" />
+	<drop event="Harvest" name="goldenrodSeed" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="goldenrodSeed" count="1" prob="0.25" tool_category="CropsSeed"/>
 	<drop event="Harvest" name="goldenrodPlant" count="1" tool_category="Crops"/>
-	<drop event="Destroy" name="goldenrodSeed" count="1" prob="1" />
-	<drop event="Destroy" name="goldenrodSeed" count="1" prob="0.25" />
+	<drop event="Harvest" name="goldenrodPlant" count="1" prob="0.25" tool_category="Crops"/>
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="765" name="plantedGoldenrod3HarvestLargeLegacy">
@@ -7792,9 +7805,11 @@ kind of free
 	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab" />
 	<property name="MultiBlockDim" value="1,2,1" />
 	<property name="Collide" value="melee,movement,rocket" />
+	<drop event="Harvest" name="yuccaSeed" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="yuccaSeed" count="1" prob="0.25" tool_category="CropsSeed"/>
 	<drop event="Harvest" name="foodYuccaFruit" count="1" tool_category="Crops"/>
-	<drop event="Destroy" name="yuccaSeed" count="1" prob="1" />
-	<drop event="Destroy" name="yuccaSeed" count="1" prob="0.25" />
+	<drop event="Harvest" name="foodYuccaFruit" count="1" prob="0.25" tool_category="Crops"/>
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="854" name="plantedAloe3Harvest">
@@ -7803,9 +7818,11 @@ kind of free
 	<property name="Shape" value="ModelEntity" />
 	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab" />
 	<property name="Collide" value="melee,movement,rocket" />
+	<drop event="Harvest" name="aloeSeed" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="aloeSeed" count="1" prob="0.25" tool_category="CropsSeed"/>
 	<drop event="Harvest" name="aloePlant" count="1" tool_category="Crops"/>
-	<drop event="Destroy" name="aloeSeed" count="1" prob="1" />
-	<drop event="Destroy" name="aloeSeed" count="1" prob="0.25" />
+	<drop event="Harvest" name="aloePlant" count="1" prob="0.25" tool_category="Crops"/>
+	<drop event="Destroy" count="0" />
 	<property name="Group" value="Food/Cooking,Medicine" />
 </block>
 
@@ -7841,8 +7858,11 @@ kind of free
 <block id="857" name="snowberry3Harvest">
 	<property name="Extends" value="cropsHarvestableMaster" />
 	<property name="Texture" value="568" />
-	<drop event="Harvest" name="snowberryPlant" count="1" tool_category="Crops" prob="0.25"/>
-	<drop event="Destroy" name="snowberryPlant" count="1" />
+	<drop event="Harvest" name="snowberryPlant" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="snowberryPlant" count="1" prob="0.25" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="snowberryPlant" count="1" tool_category="Crops"/>
+	<drop event="Harvest" name="snowberryPlant" count="1" prob="0.25" tool_category="Crops"/>
+	<drop event="Destroy" count="0" />
 	<property name="DescriptionKey" value="snowberryPlantDesc"/>
 </block>
 
@@ -8049,9 +8069,11 @@ kind of free
 <block id="884" name="plantedChrysanthemum3Harvest">
 	<property name="Extends" value="cropsHarvestableMaster" />
 	<property name="Texture" value="244" />
+	<drop event="Harvest" name="chrysanthemumSeed" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="chrysanthemumSeed" count="1" prob="0.25" tool_category="CropsSeed"/>
 	<drop event="Harvest" name="chrysanthemumPlant" count="1" tool_category="Crops"/>
-	<drop event="Destroy" name="chrysanthemumSeed" count="1" prob="1" />
-	<drop event="Destroy" name="chrysanthemumSeed" count="1" prob="0.25" />
+	<drop event="Harvest" name="chrysanthemumPlant" count="1" prob="0.25" tool_category="Crops"/>
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="885" name="treePlant02"> <!-- pottedPlant -->
@@ -8263,9 +8285,11 @@ kind of free
 	<property name="MultiBlockDim" value="1,4,1" />
 	<property name="Collide" value="melee" />
 	<property name="Texture" value="529" />
+	<drop event="Harvest" name="cornSeed" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="cornSeed" count="1" prob="0.25" tool_category="CropsSeed"/>
 	<drop event="Harvest" name="corn" count="1" tool_category="Crops"/>
-	<drop event="Destroy" name="cornSeed" count="1" prob="1" />
-	<drop event="Destroy" name="cornSeed" count="1" prob="0.25" />
+	<drop event="Harvest" name="corn" count="1" prob="0.25" tool_category="Crops"/>
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="903" name="plantedCornDead"> <!-- dead corn for prefab use -->
@@ -11631,9 +11655,11 @@ kind of free
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket" />
 	<property name="Model" value="OutdoorDecor/mushroom01" param1="main_mesh" />
  	<property name="IsTerrainDecoration" value="true" />
+	<drop event="Harvest" name="mushroomSeed" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="mushroomSeed" count="1" prob="0.25" tool_category="CropsSeed"/>
 	<drop event="Harvest" name="mushrooms" count="1" tool_category="Crops"/>
-	<drop event="Destroy" name="mushroomSeed" count="1" prob="1" />
-	<drop event="Destroy" name="mushroomSeed" count="1" prob="0.25" />
+	<drop event="Harvest" name="mushrooms" count="1" prob="0.25" tool_category="Crops"/>
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="1383" name="mushroom02">
@@ -14339,9 +14365,11 @@ kind of free
   <block id="1918" name="plantedTomato3Harvest">
     <property name="Extends" value="cropsHarvestableMaster" />
 	<property name="Texture" value="244" />
+	<drop event="Harvest" name="Tomato_Seed" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="Tomato_Seed" count="1" prob="0.25" tool_category="CropsSeed"/>
     <drop event="Harvest" name="Tomato" count="1" tool_category="Crops"/>
-	<drop event="Destroy" name="Tomato_Seed" count="1" prob="1" />
-	<drop event="Destroy" name="Tomato_Seed" count="1" prob="0.25" />
+	<drop event="Harvest" name="Tomato" count="1" prob="0.25" tool_category="Crops"/>
+	<drop event="Destroy" count="0" />
   </block>
   
   <block id="1919" name="plantedWheat1">
@@ -14382,9 +14410,11 @@ kind of free
 	<property name="CustomIconTint" value="EECB58" />
 	<property name="Mesh" value="grass" />
     <property name="Texture" value="350" />
+	<drop event="Harvest" name="Wheat_Seed" count="1" tool_category="CropsSeed"/>
+	<drop event="Harvest" name="Wheat_Seed" count="1" prob="0.25" tool_category="CropsSeed"/>
     <drop event="Harvest" name="Wheat" count="1" tool_category="Crops"/>
-	<drop event="Destroy" name="Wheat_Seed" count="1" prob="1" />
-	<drop event="Destroy" name="Wheat_Seed" count="1" prob="0.25" />
+	<drop event="Harvest" name="Wheat" count="1" prob="0.25" tool_category="Crops"/>
+	<drop event="Destroy" count="0" />
    </block>
   
   <block id="1922" name="Empty_Composter">

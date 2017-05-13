@@ -6094,6 +6094,11 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="5" />
 	<property name="EconomicBundleSize" value="1" />
 	<property name="SellableToTrader" value="false" />
+	<property class="Action0"> <!-- UseAction -->
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedYucca1" />
+	</property>
 	<property class="Action1">
 		<property name="Class" value="Eat" />
 		<property name="Delay" value="1.0" />
@@ -6318,6 +6323,11 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="10" />
 	<property name="EconomicBundleSize" value="5" />
 	<property name="CraftingIngredientTime" value="5" />
+	<property class="Action0">
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedCorn1" />
+	</property>
 	<property class="Action1">
 		<property name="Class" value="Eat" />
 		<property name="Delay" value="1.0" />
@@ -6589,6 +6599,11 @@ which does not exist, yet. -->
 	<property name="EconomicBundleSize" value="5" />
 	<property name="CraftingIngredientTime" value="10" />
 	<!-- 14 is large round hold -->
+	<property class="Action0">
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedPotato1" />
+	</property>
 	<property class="Action1">
 		<property name="Class" value="Eat" />
 		<property name="Delay" value="1.0" />
@@ -6610,6 +6625,11 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="10" />
 	<property name="EconomicBundleSize" value="5" />
 	<property name="CraftingIngredientTime" value="8" />
+	<property class="Action0">
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedBlueberry1" />
+	</property>
 	<property class="Action1">
 		<property name="Class" value="Eat" />
 		<property name="Delay" value="1.0" />
@@ -6736,6 +6756,11 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="12" />
 	<property name="EconomicBundleSize" value="5" />
 	<property name="CraftingIngredientTime" value="5" />
+	<property class="Action0"> <!-- UseAction -->
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedMushroom1" />
+	</property>
 	<property class="Action1">
 		<property name="Class" value="Eat" />
 		<property name="Delay" value="1.0" />
@@ -7818,6 +7843,16 @@ which does not exist, yet. -->
 	<property name="Stacknumber" value="500" /> <!-- STK resource -->
 	<property name="EconomicValue" value="5" />
 	<property name="EconomicBundleSize" value="1" />
+	<property class="Action0"> <!-- UseAction -->
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedHop1" />
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedHop1" />
+	</property>
 	<property name="SellableToTrader" value="false" />
 	<property name="CraftingIngredientTime" value="20" />
 	<property name="Group" value="Food/Cooking" />
@@ -7834,6 +7869,11 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="12" />
 	<property name="EconomicBundleSize" value="5" />
 	<property name="CraftingIngredientTime" value="5" />
+	<property class="Action0"> <!-- UseAction -->
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedAloe1" />
+	</property>
 	<property name="Group" value="Medicine" />
 	<property name="DescriptionKey" value="plantedAloe3HarvestDesc"/>
 </item>
@@ -7848,6 +7888,11 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="12" />
 	<property name="EconomicBundleSize" value="5" />
 	<property name="CraftingIngredientTime" value="5" />
+	<property class="Action0"> <!-- UseAction -->
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedChrysanthemum1" />
+	</property>
 	<property name="Group" value="Food/Cooking" />
 	<property name="DescriptionKey" value="plantedChrysanthemum3HarvestDesc"/>
 </item>
@@ -8080,6 +8125,16 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="12" />
 	<property name="EconomicBundleSize" value="5" />
 	<property name="CraftingIngredientTime" value="5" />
+	<property class="Action0"> <!-- UseAction -->
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedCotton1" />
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedCotton1" />
+	</property>
 	<property name="Group" value="Resources" />
 	<property name="DescriptionKey" value="plantedCotton3HarvestDesc"/>
 </item>
@@ -8094,6 +8149,16 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="12" />
 	<property name="EconomicBundleSize" value="5" />
 	<property name="CraftingIngredientTime" value="5" />
+	<property class="Action0"> <!-- UseAction -->
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedGoldenrod1" />
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedGoldenrod1" />
+	</property>
 	<property name="Group" value="Resources" />
 	<property name="DescriptionKey" value="plantedGoldenrod3HarvestDesc"/>
 </item>
@@ -8663,6 +8728,11 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="12" />
 	<property name="EconomicBundleSize" value="5" />
 	<property name="CraftingIngredientTime" value="5" />
+	<property class="Action0">
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedCoffee1" />
+	</property>
 	<property class="Action1">
 		<property name="Class" value="PlaceAsBlock" />
 		<property name="Delay" value="0.5" />
@@ -9228,6 +9298,11 @@ which does not exist, yet. -->
 		<property name="CraftingIngredientTime" value="5" />
 		<property name="EconomicValue" value="10" />
 		<property name="EconomicBundleSize" value="5" />
+		<property class="Action0">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="plantedTomato1" />
+		</property>
         <property class="Action1">
             <!-- UseAction -->
             <property name="Class" value="Eat" />
@@ -9278,6 +9353,16 @@ which does not exist, yet. -->
 		<property name="CraftingIngredientTime" value="5" />
 		<property name="EconomicValue" value="10" />
 		<property name="EconomicBundleSize" value="5" />
+		<property class="Action0">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="plantedWheat1" />
+		</property>
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="plantedWheat1" />
+		</property>
         <property name="Group" value="Food/Cooking" />
 		<property name="DescriptionKey" value="wheatDesc"/>
     </item>
@@ -10347,6 +10432,25 @@ which does not exist, yet. -->
 			<property name="DamageBonus.stone" value="0.01" />
 			<property name="DamageBonus.organic" value="0.01" />
 			<property name="ToolCategory.Crops" value="1" />
+		</property>
+		<property class="Action1"> <!-- AttackAction -->
+			<property name="Class" value="Melee" />
+			<property name="Delay" value="0.2" />
+			<property name="Range" value="1" />
+			<property name="Sphere" value="0.1" />
+			<property name="Block_range" value="4" />
+			<property name="DamageEntity" value="1" />
+			<property name="DamageBlock" value="1" />
+			<property name="Sound_start" value="swoosh" />
+			<property name="Stamina_usage" value="1" />
+			<property name="DamageBonus.plants" value="25" />
+			<property name="DamageBonus.leaves" value="25" />
+			<property name="DamageBonus.wood" value="0.01" />
+			<property name="DamageBonus.head" value="0.01" />
+			<property name="DamageBonus.earth" value="0.01" />
+			<property name="DamageBonus.stone" value="0.01" />
+			<property name="DamageBonus.organic" value="0.01" />
+			<property name="ToolCategory.CropsSeed" value="1" />
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="1,1" />
