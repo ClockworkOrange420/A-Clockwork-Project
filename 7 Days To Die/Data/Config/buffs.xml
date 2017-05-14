@@ -312,9 +312,9 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="infectionActivatorInfectious" duration="1" requires="infectious" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
 <buff id="infectionNotification" buffif="infected gequal 240" debuffif="infected less 1" type="sickness" icon="ui_game_symbol_infection" name_key="Minor Infection" description_key="Close inspection reveals a minor infection." tooltip_key="Minor Infection" cures="antibiotics,herbalAntibiotics,Honey_Poultice"/>
 <buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0);increment(fatigue, 1, 50t, 0, 0);increment(@wellness, -0.1, 100t, 0, 0)" type="sickness">
-	<modify id="0" stat="stamina" amount="-1" rate="1"/>
-	<modify id="1" stat="food" amount="-1" rate="20"/>
-	<modify id="2" stat="water" amount="-1" rate="20"/>
+	<modify id="0" stat="stamina" amount="-1" rate="5"/>
+	<modify id="1" stat="food" amount="-1" rate="60"/>
+	<modify id="2" stat="water" amount="-1" rate="60"/>
 </buff>
 <buff id="infectionReset" duration="1" mutex="cured" actions="increment(infected, 10, 0, 0, 1);buff(infectionBase)" type="sickness">
 <modify id="0" stat="stamina" amount="-1" rate="1"/>
