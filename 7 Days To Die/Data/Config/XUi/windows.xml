@@ -1012,7 +1012,7 @@
 					<button depth="4" name="pageUp" style="icon30px, press" pos="84,-22" sprite="ui_game_symbol_arrow_right" pivot="center" sound="[paging_click]" />
 				</panel>
 			</rect>
-			<grid name="buffs" rows="6" cols="1" pos="3,-43" cell_width="314" cell_height="45" repeat_content="true" controller="ActiveBuffList">
+			<grid name="buffs" rows="10" cols="1" pos="3,-43" cell_width="314" cell_height="45" repeat_content="true" controller="ActiveBuffList">
 				<active_buff_entry />
 			</grid>
 		</panel>
