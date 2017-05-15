@@ -101,6 +101,13 @@
 		<style_entry name="foregroundlayer" value="true" />
 	</style>
 	
+	<style type="sprite" name="icon32pxs">
+		<style_entry name="color" value="[iconColor]"/>
+		<style_entry name="width" value="17"/>
+		<style_entry name="height" value="17"/>
+		<style_entry name="foregroundlayer" value="true" />
+	</style>
+	
 	<style type="sprite" name="icon30px">
 		<style_entry name="color" value="[iconColor]"/>
 		<style_entry name="width" value="30"/>
