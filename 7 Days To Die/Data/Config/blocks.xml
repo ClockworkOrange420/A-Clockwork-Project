@@ -3677,7 +3677,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="412" name="trapSpikesDamage4">
-	<property name="Extends" value="trapSpikesDamage1" />
+	<property name="Extends" value="trapSpikesDamage1" param1="DowngradeBlock" />
 	<property name="Model" value="Traps/trap_spikes01_damage04" param1="main_mesh" />
 	<property class="UpgradeBlock"> <property name="ItemCount" value="10" /> <property name="ToBlock" value="trapSpikesNew" /> </property>
 </block>
