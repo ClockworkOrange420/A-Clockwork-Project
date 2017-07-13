@@ -1655,7 +1655,7 @@
 			<property name="Stamina_usage" value="9"/>
 			<property name="DamageBonus.head" value="1"/>
 			<property name="DamageBonus.stone" value="2"/>
-			<property name="DamageBonus.metal" value="2.25"/>
+			<property name="DamageBonus.metal" value="3"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
 		<property class="Attributes">
