@@ -951,7 +951,7 @@
 	<item name="Rabbit"/>
 	<item name="Chicken"/>
 	<item name="Pork"/>
-	<item name="rawWolfMeat"/>
+	<item name="wolfMeatRaw"/>
 </lootgroup>
 
 <lootgroup name="coldfood">
