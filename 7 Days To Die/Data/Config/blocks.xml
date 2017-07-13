@@ -5091,8 +5091,8 @@
 		<property name="MultiBlockDim" value="2,2,1"/>
 		<property name="ImposterExclude" value="true"/>
 		<!--<property name="Mesh-Damage-1" value="Door/Door_DMG0"/><property name="Mesh-Damage-2" value="Door/Door_DMG1"/><property name="Mesh-Damage-3" value="Door/Door_DMG2"/><property name="Mesh-Damage-4" value="Door/Door_DMG3"/><property name="Mesh-Damage-5" value="Door/Door_DMG4"/><property name="OpenSound" value="open_door_metal"/><property name="CloseSound" value="close_door_metal"/>-->
-		<property name="OpenSound" value="open_dumpster"/>
-		<property name="CloseSound" value="close_dumpster"/>
+		<property name="OpenSound" value="open_door_jail"/>
+		<property name="CloseSound" value="close_door_jail"/>
 		<property class="RepairItems">
 			<property name="forgedSteel" value="12"/>
 		</property>
@@ -5639,24 +5639,6 @@
 		<drop event="Harvest" name="wood" count="100"/>
 		<drop event="Destroy" name="wood" count="50"/>
 		<property name="ParticleOnDeath" value="treeGib_dead_02"/>
-	</block>
-	<block id="583" name="rScrapIronHalf">
-		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="cube_half"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="steelHalf"/>
-		</property>
-		<property name="DowngradeBlock" value="scrapIronHalf"/>
-	</block>
-	<block id="584" name="rWoodHalf">
-		<property name="Extends" value="rWoodMaster"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="cube_half"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="pouredConcreteHalf"/>
-		</property>
-		<property name="DowngradeBlock" value="woodHalf"/>
 	</block>
 	<block id="585" name="rWoodPyramid">
 		<property name="Extends" value="rWoodMaster"/>
@@ -8246,6 +8228,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rWoodHalf"/>
 		</property>
+		<property name="DowngradeBlock" value="solidWoodFrameHalf" />
 	</block>
 	<block id="831" name="flagstoneWedgeTipCNRFullBottom">
 		<property name="Extends" value="flagstoneMaster"/>
@@ -12409,6 +12392,14 @@
 			<property name="ToBlock" value="pouredRConcreteWedgeTipStairs"/>
 		</property>
 	</block>
+	<block id="1369" name="woodFrameHalf">
+		<property name="Extends" value="woodFrameMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Shape" value="New" />
+		<property name="Model" value="cube_half" />
+		<property name="CanPickup" value="true" />
+		<property class="UpgradeBlock"> <property name="ToBlock" value="woodHalf" />	</property>
+	</block>
 	<!-- 1 Free -->
 	<block id="1370" name="woodCTRPlate">
 		<property name="Extends" value="woodNoUpgradeMaster"/>
@@ -12423,6 +12414,21 @@
 	<block id="1374" name="cntApacheArtifactChest">
 		<property name="Extends" value="cntMountainManStorageChest"/>
 		<property name="LootList" value="56"/>
+	</block>
+	<block id="1375" name="solidWoodFrameHalf">
+		<property name="Extends" value="woodFrameHalf" />
+		<property name="CreativeMode" value="Dev"/>
+		<property name="CustomIcon" value="woodFrameHalf" />
+		<property name="CanPickup" value="false" />
+	</block>
+	<block id="1376" name="rWoodHalf">
+		<property name="Extends" value="rWoodMaster"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="cube_half"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="pouredConcreteHalf"/>
+		</property>
+		<property name="DowngradeBlock" value="woodHalf"/>
 	</block>
 	<!-- 2 Free -->
 	<block id="1377" name="plainWoodWindowPlug">
@@ -12815,6 +12821,14 @@
 		<property name="EconomicValue" value="55"/>
 		<property name="EconomicBundleSize" value="10"/>
 	</block>
+	<block id="1417" name="scrapIronHalf">
+		<property name="Extends" value="scrapIronMaster"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="cube_half"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="rScrapIronHalf"/>
+		</property>
+	</block>
 	<!-- n Free -->
 	<block id="1418" name="rScrapIronTable">
 		<property name="Material" value="metal"/>
@@ -12832,6 +12846,15 @@
 		<drop event="Destroy" name="scrapIron" count="1,15"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="20"/>
+	</block>
+	<block id="1419" name="rScrapIronHalf">
+		<property name="Extends" value="rScrapIronMaster"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="cube_half"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="steelHalf"/>
+		</property>
+		<property name="DowngradeBlock" value="scrapIronHalf"/>
 	</block>
 	<!-- n Free -->
 	<block id="1420" name="rustyIronTable">
@@ -14472,6 +14495,9 @@
 	<block id="1648" name="corrugatedMetalCNRRound">
 		<property name="Extends" value="corrugatedMetalCNRRoundTop"/>
 		<property name="Model" value="corner_round1m"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="rScrapIronCNRRound"/>
+		</property>
 	</block>
 	<!-- n Free -->
 	<block id="1652" name="treePlantedWinterPine19mPlus">
@@ -15565,9 +15591,9 @@
 		<property name="Material" value="Mmetal_medium"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Mesh" value="models"/>
-		<property name="Model" value="Entities/Electrical/pressure_platePrefab"/>
-		<property name="ModelOffset" value="0,0,0"/>
-		<property name="OnlySimpleRotations" value="true"/>
+		<property name="Model" value="Entities/Electrical/pressure_platePrefab"/>  <property name="HandleFace" value="Bottom"/>
+		<property name="MultiBlockDim" value="1,1,1"/>
+		<property name="ModelOffset" value="0,0.5,0"/>
 		<property name="ImposterExchange" value="imposterPlate" param1="143"/>
 		<property name="Stacknumber" value="40"/>
 		<property name="CanPickup" value="false"/>
@@ -15749,10 +15775,9 @@
 		<property name="Material" value="Mmetal_hard"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Mesh" value="models"/>
-		<property name="Model" value="Entities/Electrical/pressure_plate_longPrefab"/>
-		<property name="ModelOffset" value="0,0,0"/>
+		<property name="Model" value="Entities/Electrical/pressure_plate_longPrefab"/>  <property name="HandleFace" value="Bottom"/>
+		<property name="ModelOffset" value="0,0.5,0"/>
 		<property name="MultiBlockDim" value="5,1,1"/>
-		<property name="OnlySimpleRotations" value="true"/>
 		<property name="ImposterExchange" value="imposterPlate" param1="143"/>
 		<property name="Stacknumber" value="40"/>
 		<property name="CanPickup" value="false"/>
@@ -17017,14 +17042,6 @@
 		<property name="Texture" value="356"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="stainlessSteelSheet"/>
-		</property>
-	</block>
-	<block id="951" name="scrapIronHalf">
-		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="cube_half"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="rScrapIronHalf"/>
 		</property>
 	</block>
 	<block id="952" name="woodEighth">
