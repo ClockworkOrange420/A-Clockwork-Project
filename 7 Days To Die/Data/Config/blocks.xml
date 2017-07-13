@@ -1078,7 +1078,6 @@
 		<property name="Tag" value="TreeTrunk"/>
 		<property name="IsPlant" value="true"/>
 		<property name="ParticleOnDeath" value="treeGib_burnt"/>
-		<property name="ImposterExclude" value="true"/>
 		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="129" name="treeMasterGrowing">
@@ -2492,7 +2491,6 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcreteSupport"/>
 		</property>
-		<property name="LightOpacity" value="0"/>
 	</block>
 	<block id="252" name="pouredRConcretePillar100">
 		<property name="Extends" value="pouredRConcreteMaster"/>
@@ -3545,7 +3543,6 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="ImposterExchange" value="imposterSheet" param1="20"/>
 		<property name="Tag" value="Window"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="FuelValue" value="150"/>
 		<drop event="Destroy" count="0"/>
 	</block>
@@ -15472,7 +15469,6 @@
 		<drop event="Harvest" name="electronicParts" count="1,2" prob="0.6" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Stacknumber" value="1"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="EconomicValue" value="500"/>
 	</block>
@@ -15631,7 +15627,6 @@
 		<drop event="Harvest" name="electricParts" count="0,2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapIron" count="5,10"/>
 		<drop event="Destroy" count="0"/>
-		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Stacknumber" value="250"/>
 		<property name="TakeDelay" value="5"/>
@@ -15703,7 +15698,6 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="TakeDelay" value="10"/>
-		<property name="EconomicValue" value="444"/>
 	</block>
 	<block id="2011" name="dartTrap">
 		<property name="Class" value="Launcher"/>
@@ -15832,7 +15826,6 @@
 		<property name="Extends" value="industrialLight01"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
-		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="industrialLight01"/>
 		<property name="RuntimeSwitch" value="true"/>
 		<property name="HandleFace" value="South"/>
@@ -15851,7 +15844,6 @@
 		<property name="Extends" value="porchLight01"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
-		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="porchLight01"/>
 		<property name="RuntimeSwitch" value="true"/>
 		<property name="HandleFace" value="West"/>
@@ -15861,7 +15853,6 @@
 		<property name="Extends" value="porchLight01"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
-		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="ceilingLight01"/>
 		<property name="RuntimeSwitch" value="true"/>
 		<property name="Material" value="glass"/>
@@ -15875,7 +15866,6 @@
 		<property name="Extends" value="porchLight01"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
-		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="ceilingLight02"/>
 		<property name="RuntimeSwitch" value="true"/>
 		<property name="Model" value="Entities/Lighting/player_ceilingLight02Prefab"/>
@@ -15886,7 +15876,6 @@
 		<property name="Extends" value="porchLight01"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
-		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="wallLight01"/>
 		<property name="RuntimeSwitch" value="true"/>
 		<property name="Model" value="Entities/Lighting/player_wall_light01Prefab"/>
@@ -15897,7 +15886,6 @@
 		<property name="Extends" value="porchLight01"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
-		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="ceilingLight07"/>
 		<property name="RuntimeSwitch" value="true"/>
 		<property name="HandleFace" value="Top"/>
