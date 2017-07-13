@@ -248,7 +248,7 @@
 			<property name="DamageEntity" value="7"/>
 			<property name="DamageBlock" value="5"/>
 			<property name="Sound_start" value="swoosh"/>
-			<property name="Stamina_usage" value="4"/>
+			<property name="Stamina_usage" value="6"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="ToolCategory.Butcher" value="0" param1="1"/>
 			<property name="ActionExp" value="4"/>
@@ -307,7 +307,7 @@
 			<property name="Range" value="2.2"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="Sound_start" value="swoosh"/>
-			<property name="Stamina_usage" value="5"/>
+			<property name="Stamina_usage" value="5.5"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.organic" value="10"/>
 			<property name="ToolCategory.Butcher" value="1" param1="1"/>
@@ -344,7 +344,7 @@
 			<property name="Range" value="2.2"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="Sound_start" value="swoosh"/>
-			<property name="Stamina_usage" value="7"/>
+			<property name="Stamina_usage" value="6.51"/>
 			<property name="DamageBonus.crops" value="0.01"/>
 			<property name="DamageBonus.wood" value="3"/>
 			<property name="DamageBonus.head" value="3"/>
@@ -2723,6 +2723,7 @@
 		<property name="Explosion.ParticleIndex" value="10"/>
 		<property name="Explosion.RadiusBlocks" value="3"/>
 		<property name="Explosion.RadiusEntities" value="4"/>
+		<property name="Explosion.RadiusBuffs" value="3"/>
 		<property name="Explosion.BlastPower" value="70"/>
 		<property name="Explosion.DamageBonus.stone" value="0.1"/>
 		<property name="Explosion.DamageBonus.metal" value="0"/>
@@ -2835,8 +2836,9 @@
 		<property name="Extends" value="ironArrow" param1="HandMeshfile"/>
 		<property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-		<property name="EconomicValue" value="28"/>
-		<property name="EconomicBundleSize" value="5"/>
+		<property name="Stacknumber" value="500"/> <!-- STK ammo -->
+		<property name="EconomicValue" value="34"/>
+		<property name="EconomicBundleSize" value="10"/>
 		<property class="Action1">
 			<property name="Velocity" value="55"/>
 			<property name="Gravity" value="-4"/>
