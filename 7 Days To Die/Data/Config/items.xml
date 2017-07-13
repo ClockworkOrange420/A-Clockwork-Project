@@ -7957,7 +7957,7 @@
 		<property name="Material" value="animalHide"/>
 		<property name="RepairTime" value="1"/>
 		<property name="RepairAmount" value="100"/>
-		<property name="Weight" value="5"/>
+		<property name="Weight" value="10"/>
 		<property name="Stacknumber" value="250"/>
 		<!-- STK resource -->
 		<property name="FuelValue" value="5"/>
@@ -7974,6 +7974,7 @@
 		<property name="RepairAmount" value="100"/>
 		<property name="HoldType" value="21"/>
 		<property name="Stacknumber" value="250"/>
+		<property name="Weight" value="5"/>
 		<!-- STK resource -->
 		<property name="FuelValue" value="5"/>
 		<property name="EconomicValue" value="22"/>

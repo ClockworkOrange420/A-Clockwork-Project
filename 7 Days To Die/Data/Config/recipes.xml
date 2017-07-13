@@ -2283,7 +2283,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="6"/>
 		<ingredient name="nail" count="3"/>
 	</recipe>
-	<recipe name="leather" count="1" craft_time = "4" craft_exp_gain="9" >
+	<recipe name="leather" count="2" craft_time = "4" craft_exp_gain="9" >
 		<ingredient name="animalHide" count="1"/>
 	</recipe>
 	<recipe name="cntLockers" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
