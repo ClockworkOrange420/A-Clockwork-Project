@@ -344,44 +344,44 @@
 		<item name="parts44Magnum_cylinder" quality="250,600"/> -->
 <lootqualitytemplates>
 	<lootqualitytemplate name="baseTemplate">
-		<qualitytemplate level="0,0.16" default_quality="1,100">
-			<loot quality="301,600" prob="0.01"/>
-			<loot quality="201,300" prob="0.05"/>
-			<loot quality="101,200" prob="0.15"/>
-			<loot quality="1,100"   prob="1"/>
-		</qualitytemplate>
-		<qualitytemplate level="0.16,0.32" default_quality="101,200">
-			<loot quality="301,600" prob="0.014"/>
-			<loot quality="201,300" prob="0.06"/>
-			<loot quality="101,200" prob="0.17"/>
-			<loot quality="1,200"   prob="1"/>
-		</qualitytemplate>
-		<qualitytemplate level="0.32,0.48" default_quality="201,300">
-			<loot quality="301,600" prob="0.02"/>
-			<loot quality="201,300" prob="0.08"/>
-			<loot quality="101,200" prob="0.20"/>
-			<loot quality="1,300"   prob="1"/>
-		</qualitytemplate>
-		<qualitytemplate level="0.48,0.64" default_quality="301,400">
-			<loot quality="501,600" prob="0.03"/>
-			<loot quality="401,500" prob="0.10"/>
-			<loot quality="301,400" prob="0.25"/>
-			<loot quality="1,300"   prob="0.75"/>
-		</qualitytemplate>
-		<qualitytemplate level="0.64,0.80" default_quality="401,500">
-			<loot quality="501,600" prob="0.05"/>
-			<loot quality="401,500" prob="0.17"/>
-			<loot quality="301,400" prob="0.25"/>
-			<loot quality="1,300"   prob="0.5"/>
-		</qualitytemplate>
-		<qualitytemplate level="0.80,1" default_quality="501,600">
-			<loot quality="501,600" prob="0.10"/>
-			<loot quality="401,500" prob="0.25"/>
-			<loot quality="301,400" prob="0.25"/>
-			<loot quality="1,300"   prob="0.4"/>
-		</qualitytemplate>
-	</lootqualitytemplate>
-</lootqualitytemplates>
+			<qualitytemplate level="0,0.16" default_quality="1,50">
+				<loot quality="201,300" prob="0.01"/>
+				<loot quality="101,200" prob="0.05" />
+				<loot quality="51,100" prob="0.15" />
+				<loot quality="1,50" prob="1"/>
+			</qualitytemplate>
+			<qualitytemplate level="0.16,0.32" default_quality="51,150">
+				<loot quality="201,350" prob="0.01"/>
+				<loot quality="151,200" prob="0.05" />
+				<loot quality="51,150" prob="0.15" />
+				<loot quality="1,100" prob="1"/>
+			</qualitytemplate>
+			<qualitytemplate level="0.32,0.48" default_quality="201,250">
+				<loot quality="301,400" prob="0.01"/>
+				<loot quality="251,300" prob="0.05" />
+				<loot quality="201,250" prob="0.15" />
+				<loot quality="1,200" prob="1"/>
+			</qualitytemplate>
+			<qualitytemplate level="0.48,0.64" default_quality="301,400">
+				<loot quality="451,500" prob="0.03"/>
+				<loot quality="401,450" prob=".10" /> 
+				<loot quality="301,400" prob="0.25" />
+				<loot quality="1,300" prob="0.75"/>
+			</qualitytemplate>
+			<qualitytemplate level="0.64,0.80" default_quality="401,500">
+				<loot quality="501,600" prob="0.05"/>
+				<loot quality="401,500" prob="0.25" />
+				<loot quality="301,400" prob="0.25" />
+				<loot quality="1,300" prob="0.5"/>
+			</qualitytemplate>
+			<qualitytemplate level="0.80,1" default_quality="501,600">
+				<loot quality="501,600" prob="0.10"/>
+				<loot quality="401,500" prob=".25" /> 
+				<loot quality="301,400" prob="0.25" />
+				<loot quality="1,300" prob="0.4"/>
+			</qualitytemplate>
+		</lootqualitytemplate>
+	</lootqualitytemplates>
 
 <lootqualitytemplates>
 	<lootqualitytemplate name="treasureTemplate">
