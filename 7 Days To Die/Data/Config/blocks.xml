@@ -301,7 +301,7 @@
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="PlantGrowing.GrowOnTop" value="treeTallGrassDiagonal"/>
 		<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
-	</block>
+	</block><!--
 	<block id="21" name="gore">
 		<property name="Class" value="UpgradeRated"/>
 		<property name="Material" value="organic"/>
@@ -319,7 +319,7 @@
 		<drop event="Destroy" name="rottingFlesh" count="1"/>
 		<drop event="Fall" name="femur" count="2" prob="0.5" stick_chance="0"/>
 		<drop event="Fall" name="rottingFlesh" count="2" prob="0.5" stick_chance="0"/>
-	</block>
+	</block>-->
 	<block id="22" name="fertileFarmland">
 		<property name="Material" value="Mfarmland"/>
 		<property name="Shape" value="Terrain"/>
@@ -634,7 +634,6 @@
 		<!-- used in prefabs, not just imposters -->
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Material" value="Mconcrete"/>
-		<property name="MaxDamage" value="1500"/>
 		<property name="Shape" value="Terrain"/>
 		<property name="Mesh" value="terrain"/>
 		<property name="Texture" value="8"/>
@@ -1055,7 +1054,7 @@
 	</block>
 	<block id="127" name="stainlessSteelSheet">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="DescriptionKey" value="scrapIronGroupDesc"/>
+		<property name="CustomIcon" value="stainlessSteelPlate"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="billboard"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -1157,7 +1156,6 @@
 	<block id="133" name="steelMaster">
 		<property name="Group" value="Building"/>
 		<property name="Material" value="Msteel"/>
-		<property name="MaxDamage" value="10000"/>
 		<property name="PassThroughDamage" value="true"/>
 		<property name="Texture" value="355,355,356,356,356,356"/>
 		<!-- <property name="ImposterExchange" value="imposterBlock" param1="112"/> -->
@@ -4189,7 +4187,6 @@
 	</block>
 	<block id="417" name="scrapMetalPile">
 		<property name="Material" value="MmetalNoGlue"/>
-		<property name="MaxDamage" value="50"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="broken_girder_beam"/>
@@ -7723,7 +7720,6 @@
 	</block>
 	<block id="770" name="woodLogPillar100">
 		<property name="Extends" value="woodMaster"/>
-		<property name="MaxDamage" value="400"/>
 		<property name="Class" value="Trunk"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole1m"/>
@@ -10795,7 +10791,7 @@
 	</block>
 	<block id="1180" name="houseFrontDoor1_v2">
 		<property name="Extends" value="houseFrontDoor1_v1"/>
-		<property name="MaxDamage" value="250"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="PassThroughDamage" value="true"/>
 		<property name="Texture" value="241"/>
 		<property name="Model" value="Entities/Doors/house_frontDoor1_v2Prefab"/>
@@ -16008,6 +16004,7 @@
 	<block id="77" name="plantedTomato3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="244"/>
+		<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
 		<property name="DowngradeBlock" value="plantedTomato1"/>
 		<drop event="Harvest" name="plantedTomato1" count="1" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="plantedTomato1" count="1" prob="0.25" tool_category="CropsSeed"/>
@@ -16050,11 +16047,9 @@
 		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="81" name="Empty_Composter">
-		<property name="Material" value="wood"/>
+		<property name="Extends" value="woodFrameMaster"/>
 		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole1m"/>
-		<property name="Texture" value="381"/>
 		<property name="CustomIcon" value="woodPillar100"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="OnlySimpleRotations" value="true"/>
@@ -16080,12 +16075,10 @@
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="82" name="Composter_Filling">
-		<property name="Class" value="PlantGrowing"/>
-		<property name="Material" value="wood"/>
+		<property name="Extends" value="woodPillar100"/>
+		<property name="CustomIcon" value="woodPillar100"/>
 		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="Pole1m"/>
-		<property name="Texture" value="241"/>
+		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="Full_Composter"/>
 		<property name="PlantGrowing.GrowthRate" value="180"/>
@@ -16099,12 +16092,10 @@
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="83" name="Full_Composter">
-		<property name="Class" value="Loot"/>
-		<property name="Material" value="wood"/>
+		<property name="Extends" value="rWoodPillar100"/>
+		<property name="CustomIcon" value="rWoodPillar100"/>
 		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="Pole1m"/>
-		<property name="Texture" value="379"/>
+		<property name="Class" value="Loot"/>
 		<property name="LootList" value="88"/>
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
@@ -16162,12 +16153,8 @@
 		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="86" name="chickenCoop_stage1">
+		<property name="Extends" value="burntWoodBlock6"/>
 		<property name="Material" value="wood_weak"/>
-		<property name="StabilitySupport" value="false"/>
-		<property name="Mesh" value="opaque"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="siding_burnt06"/>
-		<property name="Collide" value="movement,rocket,melee"/>
 		<property name="CustomIcon" value="burntWoodBlock6"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="OnlySimpleRotations" value="true"/>
@@ -16196,14 +16183,10 @@
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="87" name="chickenCoop_stage2">
-		<property name="Class" value="PlantGrowing"/>
+		<property name="Extends" value="burntWoodBlock4"/>
 		<property name="Material" value="wood_weak"/>
-		<property name="StabilitySupport" value="false"/>
-		<property name="Mesh" value="opaque"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="siding_burnt04"/>
-		<property name="Collide" value="movement,rocket,melee"/>
 		<property name="CustomIcon" value="burntWoodBlock4"/>
+		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="chickenCoop_stage3"/>
 		<property name="PlantGrowing.GrowthRate" value="90"/>
@@ -16224,14 +16207,11 @@
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="88" name="chickenCoop_stage3">
-		<property name="Class" value="PlantGrowing"/>
+		<property name="Extends" value="burntWoodBlock3"/>
 		<property name="Material" value="wood_weak"/>
 		<property name="StabilitySupport" value="false"/>
-		<property name="Mesh" value="opaque"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="siding_burnt03"/>
-		<property name="Collide" value="movement,rocket,melee"/>
 		<property name="CustomIcon" value="burntWoodBlock3"/>
+		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="chickenCoop_stage4"/>
 		<property name="PlantGrowing.GrowthRate" value="90"/>
@@ -16252,14 +16232,11 @@
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="89" name="chickenCoop_stage4">
-		<property name="Class" value="Loot"/>
+		<property name="Extends" value="burntWoodBlock1"/>
 		<property name="Material" value="wood"/>
 		<property name="StabilitySupport" value="false"/>
-		<property name="Mesh" value="opaque"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="siding_burnt01"/>
-		<property name="Collide" value="melee"/>
 		<property name="CustomIcon" value="burntWoodBlock1"/>
+		<property name="Class" value="Loot"/>
 		<property name="LootList" value="100"/>
 		<property name="DowngradeBlock" value="chickenCoop_stage1"/>
 		<drop event="Destroy" count="0"/>
@@ -16446,11 +16423,8 @@
 	</block>
 	<block id="95" name="Crafting_Table">
 		<property name="Class" value="Workstation"/>
-		<property name="Material" value="wood_weak"/>
-		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="table"/>
-		<property name="Texture" value="241"/>
+		<property name="Extends" value="woodTable"/>
+		<property name="CustomIcon" value="woodTable"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="HeatMapStrength" value="0.5"/>
 		<property name="HeatMapTime" value="1200"/>
@@ -16519,7 +16493,7 @@
 		<property name="ImposterExchange" value="imposterPyramid" param1="112"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="UseGlobalUV" value="Local"/>
-		<property name="CustomIcon" value="rScrapIronLogSpike5"/>
+		<property name="CustomIcon" value="steelLogSpike6"/>
 		<property name="CustomIconTint" value="194F5A"/>
 		<property name="BuffsWhenWalkedOn" value="bleedingBurningSmall"/>
 		<property name="DowngradeBlock" value="steelLogSpike6"/>
@@ -16719,7 +16693,7 @@
 	</block>
 	<block id="114" name="hiddenConcreteOpen">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="CustomIcon" value="concreteBlock"/>
+		<property name="CustomIcon" value="concreteMaster"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="hiddenConcreteClosed"/>
@@ -16730,7 +16704,7 @@
 	</block>
 	<block id="437" name="hiddenConcreteClosed">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="CustomIcon" value="concreteBlock"/>
+		<property name="CustomIcon" value="concreteMaster"/>
 		<property name="MultiBlockDim" value="1,1,2"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="hiddenConcreteOpen"/>
@@ -16925,12 +16899,7 @@
 		<property name="DescriptionKey" value="hiddenDoorDesc"/>
 	</block>
 	<block id="750" name="hiddenGlassOpen">
-		<property name="Material" value="glass"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="cube_glass"/>
-		<property name="Mesh" value="transparent"/>
-		<property name="LightOpacity" value="1"/>
-		<property name="Texture" value="285"/>
+		<property name="Extends" value="glassShowerBlock"/>
 		<property name="CustomIcon" value="glassShowerBlock"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property class="UpgradeBlock">
@@ -16941,12 +16910,7 @@
 		</property>
 	</block>
 	<block id="865" name="hiddenGlassClosed">
-		<property name="Material" value="glass"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="cube_glass"/>
-		<property name="Mesh" value="transparent"/>
-		<property name="LightOpacity" value="1"/>
-		<property name="Texture" value="285"/>
+		<property name="Extends" value="glassShowerBlock"/>
 		<property name="CustomIcon" value="glassShowerBlock"/>
 		<property name="MultiBlockDim" value="1,2,2"/>
 		<property class="UpgradeBlock">
@@ -17052,7 +17016,7 @@
 	</block>
 	<block id="950" name="steelSheet">
 		<property name="Extends" value="steelMaster"/>
-		<property name="DescriptionKey" value="scrapIronGroupDesc"/>
+		<property name="CustomIcon" value="steelPlate"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="billboard"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
