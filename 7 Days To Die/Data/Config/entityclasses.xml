@@ -723,7 +723,7 @@
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="2"/>
 	<property name="MaxHealth" value="450"/>
-	<property name="ExperienceGain" value="2509"/>
+	<property name="ExperienceGain" value="1556"/>
 	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
@@ -743,7 +743,7 @@
 <entity_class name="zombieSnowFeral" extends="zombieSnow">
 	<property name="HandItem" value="handZombieStrongFeral"/>
 	<property name="MaxHealth" value="700"/>
-	<property name="ExperienceGain" value="1556"/>
+	<property name="ExperienceGain" value="2916"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="LootListOnDeath" value="66"/>
@@ -1240,6 +1240,7 @@
 	<property name="HandItem" value="handZombieStripper"/>
 	<property name="MaxHealth" value="250"/>
 	<property name="ExperienceGain" value="1039"/>
+	<property name="LootListOnDeath" value="84"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
