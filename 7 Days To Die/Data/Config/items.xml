@@ -9070,7 +9070,7 @@
 	</item>
 	<item id="1464" name="unit_stone">
 		<property name="Extends" value="unit_iron"/>
-		<property name="CustomIcon" value="cobblestones"/>
+		<property name="CustomIcon" value="rockSmall"/>
 		<property name="Material" value="stone"/>
 		<property name="CreativeMode" value="None"/>
 	</item>
