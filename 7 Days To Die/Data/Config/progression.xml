@@ -17,7 +17,7 @@
 	skill_point_cost_multiplier="0"
 	skill_point_cost_per_level="1" > <!-- these are defaults and can be used to modify individual skills as needed -->
 	<!-- if skill_point_cost_multiplier > 0 then PointCostPerLevel = int(SkillPointCostMultiplier ^ currentTier) * SkillPointCostPerLevel -->
-
+	<!-- always_fire="true" : If a perk has requirements then it MAY not always fire correctly if/when/because it's not called in conjunction with a skill. This flag skips the particular bit of code. -->
 	<!-- Player Skills -->
 	<player_skill name="Athletics" exp_to_level="1000" skill_point_cost_per_level="0" icon="run" description_key="athleticsDesc" title_key="athletics" group="health" >
 		<effect name="StaminaDegradation">
@@ -555,11 +555,11 @@
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="10"/>
 		<recipe name="switch" unlock_level="1"/>
-		<recipe name="pressureplate" unlock_level="1"/>
+		<recipe name="tripwirepost" unlock_level="1"/>
 
 		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="15"/>
 		<requirement skill_level="2" required_skill_name="craftSkillMiscellaneous" required_skill_level="15"/>
-		<recipe name="tripwirepost" unlock_level="2"/>
+		<recipe name="pressureplate" unlock_level="2"/>
 		<recipe name="electrictimerrelay" unlock_level="2"/>
 		<recipe name="pressureplateLong" unlock_level="2"/>
 
@@ -636,7 +636,7 @@
 		<material_group name="txGroupMetal" unlock_level="1"/>
 	</perk>
 	
-	<perk name="Quality Joe" icon="quality_joe" description_key="qualityJoeDesc" title_key="qualityJoe" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="scavenging">
+	<perk name="Quality Joe" always_fire="true" icon="quality_joe" description_key="qualityJoeDesc" title_key="qualityJoe" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="scavenging">
 		<requirement skill_level="1" required_skill_name="Scavenging" required_skill_level="25"/>
 		<requirement skill_level="2" required_skill_name="Scavenging" required_skill_level="50"/>
 		<requirement skill_level="3" required_skill_name="Scavenging" required_skill_level="75"/>
@@ -770,7 +770,7 @@
 		</effect>
 	</perk>
 	
-	<perk name="Quicker Crafting" icon="forge" description_key="quickerCraftingDesc" title_key="quickerCrafting" max_level="4" skill_point_cost_multiplier="0" passive_effect="true" skill_point_cost_per_level="10" group="crafting">
+	<perk name="Quicker Crafting" always_fire="true" icon="forge" description_key="quickerCraftingDesc" title_key="quickerCrafting" max_level="4" skill_point_cost_multiplier="0" passive_effect="true" skill_point_cost_per_level="10" group="crafting">
 		<requirement perk_level="1" required_player_level="10" />
 		<requirement perk_level="2" required_player_level="20" />
 		<requirement perk_level="3" required_player_level="30" />
@@ -784,7 +784,7 @@
 		</effect>
 	</perk>
 	
-	<perk name="The Fixer" icon="quality_joe" description_key="theFixerDesc" title_key="theFixer" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" passive_effect="true" group="crafting">
+	<perk name="The Fixer" always_fire="true" icon="quality_joe" description_key="theFixerDesc" title_key="theFixer" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" passive_effect="true" group="crafting">
 		<requirement perk_level="1" required_player_level="10" />
 		<requirement perk_level="2" required_player_level="20" />
 		<requirement perk_level="3" required_player_level="30" />
@@ -868,12 +868,12 @@
 		</effect>
 	</perk>
 
-	<perk name="Secret Stash" icon="safe" description_key="secretStashDesc" title_key="secretStash" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="scavenging">
+	<perk name="Secret Stash" always_fire="true" icon="safe" description_key="secretStashDesc" title_key="secretStash" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="scavenging">
 		<requirement perk_level="1" required_skill_name="Barter" required_skill_level="20"/>
 		<requirement perk_level="2" required_skill_name="Barter" required_skill_level="40"/>
 		<requirement perk_level="3" required_skill_name="Barter" required_skill_level="80"/>
 		<effect name="SecretStash">
-			<add perk_level="0" value="0"/>
+			<add skill_level="0" value="0"/>
 			<add skill_level="1" value="500"/>
 			<add skill_level="2" value="1000"/>
 			<add skill_level="3" value="1500"/>
