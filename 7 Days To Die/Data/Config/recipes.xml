@@ -2695,6 +2695,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="secureDoorWooden" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="shortMetalPipe" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Pipe_Mold" material_based="true" >
 		<ingredient name="unit_iron" count="5"/>
