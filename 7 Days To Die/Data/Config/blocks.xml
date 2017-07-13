@@ -10578,7 +10578,6 @@
 		<property name="DescriptionKey" value="doorGroupDesc"/>
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="metal"/>
-		<property name="MaxDamage" value="500"/>
 		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
@@ -10616,7 +10615,6 @@
 	<block id="1165" name="commercialDoor1_v2">
 		<property name="Extends" value="commercialDoor1_v1"/>
 		<property name="Material" value="wood_regular"/>
-		<property name="MaxDamage" value="250"/>
 		<property name="PassThroughDamage" value="true"/>
 		<property name="Texture" value="241"/>
 		<property name="Model" value="Entities/Doors/commercial_door_1_v2Prefab"/>
@@ -10639,7 +10637,6 @@
 		<property name="DescriptionKey" value="doorGroupDesc"/>
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="Mmetal_medium"/>
-		<property name="MaxDamage" value="750"/>
 		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
@@ -10728,7 +10725,6 @@
 		<property name="DescriptionKey" value="doorGroupDesc"/>
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="wood_regular"/>
-		<property name="MaxDamage" value="250"/>
 		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
@@ -10791,7 +10787,6 @@
 	</block>
 	<block id="1180" name="houseFrontDoor1_v2">
 		<property name="Extends" value="houseFrontDoor1_v1"/>
-		<property name="MaxDamage" value="500"/>
 		<property name="PassThroughDamage" value="true"/>
 		<property name="Texture" value="241"/>
 		<property name="Model" value="Entities/Doors/house_frontDoor1_v2Prefab"/>
@@ -10807,7 +10802,6 @@
 	</block>
 	<block id="1181" name="houseFrontDoor1_v3">
 		<property name="Extends" value="commercialDoor1_v3"/>
-		<property name="MaxDamage" value="500"/>
 		<property name="Texture" value="241"/>
 		<property name="Model" value="Entities/Doors/house_frontDoor1_v3Prefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
