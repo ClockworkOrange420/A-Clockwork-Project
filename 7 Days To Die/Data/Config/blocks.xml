@@ -7040,7 +7040,6 @@
 		<drop event="Harvest" name="rottingFlesh" count="2" tool_category="Butcher" />
 		<drop event="Destroy" name="femur" count="1" />
 		<drop event="Destroy" name="rottingFlesh" count="1" />
-		<property name="DroppedEntityClass" value="EvisceratedRemains"/>
 	</block>
 	<block id="703" name="rWoodLogSpike2">
 		<!-- log spike 2 rWood -->

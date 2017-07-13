@@ -24,7 +24,6 @@
 			<property name="DamageBonus.head" value="2"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
-			<property name="ToolCategory.Butcher" value="0" param1="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="5,10"/>
@@ -136,7 +135,6 @@
 			<property name="DamageBonus.head" value="3"/>
 			<property name="DamageBonus.metal" value=".5"/>
 			<property name="DamageBonus.concrete" value="2"/>
-			<property name="ToolCategory.Butcher" value="0" param1="1"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
 		</property>
@@ -179,7 +177,6 @@
 			<property name="Buff" value="burning"/>
 			<property name="Buff_chance" value="0.2"/>
 			<property name="DamageBonus.head" value="2"/>
-			<property name="ToolCategory.Butcher" value="0" param1="1"/>
 		</property>
 		<property class="Action1">
 			<property name="Class" value="PlaceAsBlock"/>
@@ -218,7 +215,6 @@
 			<property name="Stamina_usage" value="7"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.glass" value="1"/>
-			<property name="ToolCategory.Butcher" value="0" param1="1"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
 		</property>
@@ -250,7 +246,6 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="6"/>
 			<property name="DamageBonus.head" value="2"/>
-			<property name="ToolCategory.Butcher" value="0" param1="1"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
 		</property>
@@ -274,7 +269,7 @@
 			<property name="Stamina_usage" value="5"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.organic" value="8"/>
-			<property name="ToolCategory.Butcher" value="0.75" param1="1"/>
+			<property name="ToolCategory.Butcher" value="0.75" param1="10"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
@@ -310,7 +305,7 @@
 			<property name="Stamina_usage" value="5.5"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.organic" value="10"/>
-			<property name="ToolCategory.Butcher" value="1" param1="1"/>
+			<property name="ToolCategory.Butcher" value="1" param1="10"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
@@ -349,7 +344,7 @@
 			<property name="DamageBonus.wood" value="3"/>
 			<property name="DamageBonus.head" value="3"/>
 			<property name="DamageBonus.organic" value="3"/>
-			<property name="ToolCategory.Butcher" value="1" param1="1"/>
+			<property name="ToolCategory.Butcher" value="1" param1="10"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
@@ -1511,7 +1506,6 @@
 			<property name="DamageBonus.organic" value="1"/>
 			<property name="ActionExp" value="2"/>
 			<property name="ToolCategory.Butcher" value="0.25" param1="10"/>
-			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 			<!-- value = harvest event multiplier, param1 = damage multiplier if matching harvest event present ont he block -->
 		</property>
 		<property class="Action1">
@@ -1577,7 +1571,6 @@
 			<property name="DamageBonus.organic" value="1"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ToolCategory.Butcher" value="0.25" param1="10"/>
-			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="10,15"/>
@@ -1601,7 +1594,7 @@
 		<property name="EconomicValue" value="912"/>
 		<property class="Action0">
 			<property name="DamageBonus.wood" value="2"/>
-			<property name="ToolCategory.Butcher" value="0.75" param1="10"/>
+			<property name="ToolCategory.Butcher" value="0.25" param1="10"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="15,20"/>
@@ -1637,7 +1630,6 @@
 			<property name="DamageBonus.metal" value="2.5"/>
 			<property name="DamageBonus.stone" value="2"/>
 			<property name="ActionExp" value="4"/>
-			<property name="ToolCategory.Butcher" value="0" param1="1"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
 		<property class="Attributes">
@@ -1702,7 +1694,6 @@
 			<property name="DamageBonus.stone" value="0.5"/>
 			<property name="DamageBonus.metal" value="0.25"/>
 			<property name="DamageBonus.organic" value="2"/>
-			<property name="ToolCategory.Butcher" value="0" param1="1"/>
 			<property name="ActionExp" value="4"/>
 		</property>
 		<property class="Attributes">
@@ -1744,7 +1735,6 @@
 			<property name="DamageBonus.stone" value="0.5"/>
 			<property name="DamageBonus.metal" value="0.25"/>
 			<property name="DamageBonus.organic" value="2"/>
-			<property name="ToolCategory.Butcher" value="0" param1="1"/>
 			<property name="ActionExp" value="4"/>
 		</property>
 		<property class="Attributes">
@@ -1806,7 +1796,6 @@
 			<property name="DamageBonus.stone" value="0.1"/>
 			<property name="DamageBonus.metal" value="0.1"/>
 			<property name="ActionExp" value="4"/>
-			<property name="ToolCategory.Butcher" value="0" param1="1"/>
 		</property>
 		<property class="Action1">
 			<property name="Class" value="MakeFertile"/>
@@ -1859,7 +1848,6 @@
 			<property name="ToolCategory.Disassemble" value="1" param1="1"  />
 			<property name="Sound_harvesting" value="wrench_harvest" param1="metal"/>
 			<property name="Particle_harvesting" value="true" param1="metal"/>
-			<property name="ToolCategory.Butcher" value="0" param1="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -1907,7 +1895,6 @@
 			<property name="DamageBonus.metal" value="1"/>
 			<property name="DamageBonus.organic" value="1"/>
 			<property name="DamageBonus.earth" value="1"/>
-			<property name="ToolCategory.Butcher" value="0" param1="1"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
 		</property>
@@ -2034,7 +2021,6 @@
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="SupportHarvesting" value="true"/>
 			<property name="UseMeleeCrosshair" value="true"/>
-			<property name="ToolCategory.Butcher" value="0" param1="20"/>
 			<property name="ActionExp" value="1"/>
 			<!-- xxx trains blade weapons SUPER fast but ActionExp cannot be set lower than 1 -->
 		</property>
@@ -2088,7 +2074,6 @@
 			<property name="DamageBonus.head" value="2"/>
 			<property name="SupportHarvesting" value="true"/>
 			<property name="UseMeleeCrosshair" value="true"/>
-			<property name="ToolCategory.Butcher" value="0" param1="1"/>
 			<property name="ActionExp" value="1"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
