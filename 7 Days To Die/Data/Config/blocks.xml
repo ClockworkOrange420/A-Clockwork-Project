@@ -910,7 +910,7 @@
 	</block>
 	<block id="119" name="cropsGrowingMaster">
 		<property name="CreativeMode" value="None"/>
-		<property name="DescriptionKey" value="devOnlyGroupDesc"/>
+		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
 		<property name="CustomIcon" value="blueberrySeed"/>
 		<property name="Material" value="plants"/>
 		<property name="LightOpacity" value="0"/>
@@ -935,7 +935,6 @@
 		<property name="HarvestOverdamage" value="false"/>
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
 		<property name="EconomicValue" value="12"/>
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="PickupJournalEntry" value="farmingTip"/>
@@ -6780,7 +6779,7 @@
 		<property name="ModelOffset" value="0,-0.3,0"/>
 		<property name="MultiBlockDim" value="1,6,1"/>
 		<property name="BigDecorationRadius" value="6"/>
-		<property name="ParticleOnDeath" value="treeGib_birch"/>
+		<property name="ParticleOnDeath" value="treeGib_maple_17m"/>
 		<property name="PlantGrowing.Next" value="treePlantedMaple17mPlus"/>
 		<property name="PlantGrowing.GrowthRate" value="1"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
@@ -6788,7 +6787,6 @@
 		<drop event="Destroy" name="wood" count="200"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" prob="1"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" prob="0.25"/>
-		<property name="ParticleOnDeath" value="treeGib_maple_17m"/>
 	</block>
 	<block id="685" name="pouredConcreteWedgeIncline">
 		<property name="Extends" value="pouredConcreteMaster"/>
@@ -8179,7 +8177,6 @@
 		<property name="Mesh" value="water"/>
 		<property name="Model" value="water_full"/>
 		<property name="Texture" value="223"/>
-		<property name="Map.Color" value="20,20,120"/>
 		<property name="Map.Color" value="119,136,204"/>
 	</block>
 	<block id="826" name="water">
@@ -8192,7 +8189,6 @@
 		<property name="Mesh" value="water"/>
 		<property name="Model" value="water_full"/>
 		<property name="Texture" value="223"/>
-		<property name="Map.Color" value="20,20,120"/>
 		<property name="Map.Color" value="119,136,204"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 	</block>
@@ -13521,7 +13517,6 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="FallDamage" value="false"/>
 		<property name="BuffsWhenWalkedOn" value="sleepingBigBedTrigger"/>
-		<property name="Group" value="Building"/>
 		<property class="RepairItems">
 			<property name="cloth" value="40"/>
 			<property name="cottonPlant" value="40"/>
@@ -13598,7 +13593,6 @@
 		<property name="Model" value="water_full"/>
 		<property name="Texture" value="223"/>
 		<property name="Count" value="8"/>
-		<property name="Map.Color" value="20,20,120"/>
 		<property name="Map.Color" value="119,136,204"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 	</block>
@@ -15590,7 +15584,7 @@
 		<property name="MultiBlockDim" value="1,1,1"/>
 		<property name="ModelOffset" value="0,0.5,0"/>
 		<property name="ImposterExchange" value="imposterPlate" param1="143"/>
-		<property name="Stacknumber" value="40"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="CanPickup" value="false"/>
 		<property name="RequiredPower" value="0"/>
 		<property name="Group" value="Science"/>
@@ -15603,7 +15597,6 @@
 		<drop event="Harvest" name="mechanicalParts" count="0,1" tool_category="Disassemble"/>
 		<drop event="Destroy" name="scrapIron" count="5,20" prob="1"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Stacknumber" value="250"/>
 		<property name="TakeDelay" value="5"/>
 		<property name="EconomicValue" value="124"/>
 		<property name="PickupJournalEntry" value="triggerDelayDurationTip,passthroughTriggeringTip"/>
@@ -15772,7 +15765,7 @@
 		<property name="ModelOffset" value="0,0.5,0"/>
 		<property name="MultiBlockDim" value="5,1,1"/>
 		<property name="ImposterExchange" value="imposterPlate" param1="143"/>
-		<property name="Stacknumber" value="40"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="CanPickup" value="false"/>
 		<property name="RequiredPower" value="0"/>
 		<property name="Group" value="Science"/>
@@ -15786,7 +15779,6 @@
 		<drop event="Harvest" name="scrapIron" count="20,100"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Stacknumber" value="250"/>
 		<property name="TakeDelay" value="5"/>
 		<property name="EconomicValue" value="524"/>
 		<property name="DescriptionKey" value="pressureplateDesc"/>
