@@ -7607,7 +7607,6 @@
 	<item id="919" name="qt_zombieRepeat">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="schematicMaster"/>
-		<property name="CreativeMode" value="None"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="qt_zombieRepeat1"/>
 			<property name="ActionExp" value="0"/>
@@ -7808,7 +7807,7 @@
 	</item>
 	<item id="1228" name="qt_zombieRepeat1">
 		<property name="Extends" value="treasureQuestMaster"/>
-		<property name="DescriptionKey" value="qt_zombieRepeatDesc"/>
+		<property name="DescriptionKey" value="qt_zombieRepeat1Desc"/>
 		<property class="Action1">
 			<property name="QuestGiven" value="quest_ZombieSlayer05"/>
 		</property>
