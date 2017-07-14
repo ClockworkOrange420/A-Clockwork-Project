@@ -17047,5 +17047,26 @@
 			<property name="ToBlock" value="pouredConcreteEighth"/>
 		</property>
 	</block>
+	<block id="954" name="asphalt2">
+		<property name="Material" value="Mconcrete"/>
+		<property name="MaxDamage" value="1500"/>
+		<property name="Shape" value="Terrain"/>
+		<property name="Mesh" value="terrain"/>
+		<property name="Texture" value="10"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="4"/>
+		<property name="DropScale" value="2"/>
+		<property name="Map.Color" value="204,177,131"/>
+		<property class="RepairItems">
+			<property name="concreteMix" value="10"/>
+		</property>
+		<drop event="Harvest" name="rockSmall" count="10"/>
+		<drop event="Destroy" name="rockSmall" count="10"/>
+		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
+		<property name="Group" value="Building"/>
+		<property name="CanMobsSpawnOn" value="true"/>
+		<property name="EconomicValue" value="5"/>
+		<property name="EconomicBundleSize" value="1"/>
+		<property name="SellableToTrader" value="false"/>
+	</block>
 </blocks>
 <!-- Block limit: No block can have an ID greater 2047. -->
