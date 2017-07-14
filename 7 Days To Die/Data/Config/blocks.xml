@@ -301,25 +301,8 @@
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="PlantGrowing.GrowOnTop" value="treeTallGrassDiagonal"/>
 		<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
-	</block><!--
-	<block id="21" name="gore">
-		<property name="Class" value="UpgradeRated"/>
-		<property name="Material" value="organic"/>
-		<property name="Shape" value="Terrain"/>
-		<property name="Mesh" value="terrain"/>
-		<property name="Texture" value="2"/>
-		<property name="DropScale" value="2"/>
-		<property name="FallDamage" value="false"/>
-		<drop event="Destroy" count="0" tool_category="Harvest"/>
-		<property name="UpgradeRated.ToBlock" value="air"/>
-		<property name="UpgradeRated.Rate" value="15"/>
-		<drop event="Harvest" name="femur" count="1" tool_category="Butcher"/>
-		<drop event="Harvest" name="rottingFlesh" count="1" tool_category="Butcher"/>
-		<drop event="Destroy" name="femur" count="1" tool_category="Harvest"/>
-		<drop event="Destroy" name="rottingFlesh" count="1" tool_category="Harvest"/>
-		<drop event="Fall" name="femur" count="2" prob="0.5" stick_chance="0"/>
-		<drop event="Fall" name="rottingFlesh" count="2" prob="0.5" stick_chance="0"/>
-	</block>-->
+	</block>
+	<!--<block id="21" name="gore"><property name="Class" value="UpgradeRated"/><property name="Material" value="organic"/><property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="2"/><property name="DropScale" value="2"/><property name="FallDamage" value="false"/><drop event="Destroy" count="0" tool_category="Harvest"/><property name="UpgradeRated.ToBlock" value="air"/><property name="UpgradeRated.Rate" value="15"/><drop event="Harvest" name="femur" count="1" tool_category="Butcher"/><drop event="Harvest" name="rottingFlesh" count="1" tool_category="Butcher"/><drop event="Destroy" name="femur" count="1" tool_category="Harvest"/><drop event="Destroy" name="rottingFlesh" count="1" tool_category="Harvest"/><drop event="Fall" name="femur" count="2" prob="0.5" stick_chance="0"/><drop event="Fall" name="rottingFlesh" count="2" prob="0.5" stick_chance="0"/></block>-->
 	<block id="22" name="fertileFarmland">
 		<property name="Material" value="Mfarmland"/>
 		<property name="Shape" value="Terrain"/>
@@ -962,7 +945,6 @@
 	<block id="121" name="stainlessSteelMaster">
 		<property name="Group" value="Building"/>
 		<property name="Material" value="MstainlessSteel"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="Texture" value="267"/>
 		<!-- <property name="ImposterExchange" value="imposterBlock" param1="77"/> -->
 		<property name="CreativeMode" value="None"/>
@@ -1154,7 +1136,6 @@
 	<block id="133" name="steelMaster">
 		<property name="Group" value="Building"/>
 		<property name="Material" value="Msteel"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="Texture" value="355,355,356,356,356,356"/>
 		<!-- <property name="ImposterExchange" value="imposterBlock" param1="112"/> -->
 		<property name="CreativeMode" value="None"/>
@@ -1177,7 +1158,6 @@
 	<block id="134" name="rConcreteMaster">
 		<property name="Group" value="Building"/>
 		<property name="Material" value="MrConcrete"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="Texture" value="315"/>
 		<!-- <property name="ImposterExchange" value="imposterBlock" param1="91"/> -->
 		<property name="CreativeMode" value="None"/>
@@ -1286,7 +1266,6 @@
 	<block id="141" name="rScrapIronMaster">
 		<property name="Group" value="Building"/>
 		<property name="Material" value="Mmetal_medium"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="Texture" value="352"/>
 		<!-- <property name="ImposterExchange" value="imposterBlock" param1="110"/> -->
 		<property name="CreativeMode" value="None"/>
@@ -1359,7 +1338,6 @@
 	<block id="144" name="scrapIronMaster">
 		<property name="Group" value="Building"/>
 		<property name="Material" value="Mmetal_medium"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="Texture" value="307"/>
 		<!-- <property name="ImposterExchange" value="imposterBlock" param1="87"/> -->
 		<property name="CreativeMode" value="None"/>
@@ -1434,7 +1412,6 @@
 		<property name="Group" value="Building"/>
 		<property name="DescriptionKey" value="woodFrameGroupDesc"/>
 		<property name="Material" value="wood+wood"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="Texture" value="379"/>
 		<!-- <property name="ImposterExchange" value="imposterBlock" param1="119"/> -->
 		<property name="CreativeMode" value="None"/>
@@ -1457,7 +1434,6 @@
 		<property name="Group" value="Building"/>
 		<property name="DescriptionKey" value="woodFrameGroupDesc"/>
 		<property name="Material" value="wood_regular"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="Texture" value="241"/>
 		<!-- <property name="ImposterExchange" value="imposterBlock" param1="67"/> -->
 		<property name="FuelValue" value="300"/>
@@ -5074,7 +5050,6 @@
 	<block id="535" name="jailDoor">
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="Msteel"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Collide" value="movement,melee,rocket,bullet"/>
 		<!-- -rocket -->
@@ -6100,7 +6075,6 @@
 		<property name="MultiBlockDim" value="3,2,3"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-		<property name="PassThroughDamage" value="true"/>
 		<drop event="Harvest" name="rockSmall" count="33" tool_category="Harvest"/>
 		<drop event="Harvest" name="scrapIron" count="11" tool_category="Harvest"/>
 		<drop event="Harvest" name="coal" count="10" prob="0.33" tool_category="Harvest"/>
@@ -6114,7 +6088,6 @@
 	<block id="631" name="secureDoorWooden">
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="wood_regular"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="FuelValue" value="300"/>
@@ -6257,7 +6230,6 @@
 		<property name="DescriptionKey" value="doorGroupDesc"/>
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="wood+wood"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
@@ -6295,7 +6267,6 @@
 		<property name="DescriptionKey" value="doorGroupDesc"/>
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="Mmetal_medium"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
@@ -9378,7 +9349,6 @@
 		<property name="Class" value="Ladder"/>
 		<property name="Material" value="Msteel"/>
 		<property name="MaxDamage" value="2000"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="Texture" value="267"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
@@ -10557,7 +10527,6 @@
 		<property name="DescriptionKey" value="doorGroupDesc"/>
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="metal"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
@@ -10594,7 +10563,6 @@
 	<block id="1165" name="commercialDoor1_v2">
 		<property name="Extends" value="commercialDoor1_v1"/>
 		<property name="Material" value="wood_regular"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="Texture" value="241"/>
 		<property name="Model" value="Entities/Doors/commercial_door_1_v2Prefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
@@ -10616,7 +10584,6 @@
 		<property name="DescriptionKey" value="doorGroupDesc"/>
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="Mmetal_medium"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
@@ -10704,7 +10671,6 @@
 		<property name="DescriptionKey" value="doorGroupDesc"/>
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="wood_regular"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Doors/house_frontDoor1_v1Prefab"/>
@@ -10766,7 +10732,6 @@
 	</block>
 	<block id="1180" name="houseFrontDoor1_v2">
 		<property name="Extends" value="houseFrontDoor1_v1"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="Texture" value="241"/>
 		<property name="Model" value="Entities/Doors/house_frontDoor1_v2Prefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
@@ -11097,7 +11062,6 @@
 	<block id="1217" name="doorFrameWhiteBoarded1">
 		<property name="Extends" value="doorFrameWhite1"/>
 		<property name="Material" value="wood_regular"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="Buildings/door_frame_white_boarded1" param1="main_mesh"/>
 		<property name="DowngradeBlock" value="doorFrameWhite1"/>
@@ -11277,7 +11241,6 @@
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="Mmetal_hard"/>
 		<!-- 2500 -->
-		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
@@ -11341,7 +11304,6 @@
 	<block id="1251" name="woodHatch1_v1">
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="wood_regular"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="StabilitySupport" value="false"/>
 		<!-- build restriction -->
@@ -12394,7 +12356,9 @@
 		<property name="Shape" value="New"/>
 		<property name="Model" value="cube_half"/>
 		<property name="CanPickup" value="true"/>
-		<property class="UpgradeBlock"> <property name="ToBlock" value="woodHalf"/>	</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="woodHalf"/>
+		</property>
 	</block>
 	<!-- 1 Free -->
 	<block id="1370" name="woodCTRPlate">
@@ -12984,7 +12948,6 @@
 	<block id="1429" name="garageDoorMetal_v1">
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="metal"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="MaxDamage" value="1300"/>
 		<!-- need higher hit points to account for their area -->
@@ -13041,7 +13004,6 @@
 	<block id="1431" name="garageDoorMetal_v3">
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="Mmetal_hard"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="MaxDamage" value="4000"/>
 		<!-- need higher hit points to account for their area -->
@@ -13192,7 +13154,6 @@
 	<block id="1449" name="vaultDoor01">
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="Msteel"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
@@ -13240,7 +13201,6 @@
 		<property name="DescriptionKey" value="doorGroupDesc"/>
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="MstainlessSteel"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
@@ -13296,7 +13256,6 @@
 		<property name="MultiBlockDim" value="2,2,6"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="ShowModelOnFall" value="false"/>
-		<property name="PassThroughDamage" value="true"/>
 		<drop event="Harvest" name="leather" count="2,7" prob="0.5" tool_category="Harvest"/>
 		<drop event="Harvest" name="scrapIron" count="10,20" tool_category="Harvest"/>
 		<drop event="Harvest" name="ductTape" count="1" prob="1" tool_category="Disassemble"/>
@@ -13350,7 +13309,6 @@
 		<property name="Model" value="Entities/Vehicles/car03_dmg1_Prefab"/>
 		<property name="MultiBlockDim" value="2,2,6"/>
 		<property name="ShowModelOnFall" value="false"/>
-		<property name="PassThroughDamage" value="true"/>
 		<drop event="Harvest" name="smallEngine" count="1" prob="0.18" tool_category="Disassemble"/>
 		<drop event="Harvest" name="carBattery" count="1" prob="0.2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="radiator" count="1" prob="0.5" tool_category="Disassemble"/>
@@ -13441,7 +13399,6 @@
 	<block id="1463" name="scrapHatch_v1">
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="Mmetal_medium"/>
-		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="StabilitySupport" value="false"/>
 		<!-- build restriction -->
@@ -15584,7 +15541,8 @@
 		<property name="Material" value="Mmetal_medium"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Mesh" value="models"/>
-		<property name="Model" value="Entities/Electrical/pressure_platePrefab"/>  <property name="HandleFace" value="Bottom"/>
+		<property name="Model" value="Entities/Electrical/pressure_platePrefab"/>
+		<property name="HandleFace" value="Bottom"/>
 		<property name="MultiBlockDim" value="1,1,1"/>
 		<property name="ModelOffset" value="0,0.5,0"/>
 		<property name="ImposterExchange" value="imposterPlate" param1="143"/>
@@ -15765,7 +15723,8 @@
 		<property name="Material" value="Mmetal_hard"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Mesh" value="models"/>
-		<property name="Model" value="Entities/Electrical/pressure_plate_longPrefab"/>  <property name="HandleFace" value="Bottom"/>
+		<property name="Model" value="Entities/Electrical/pressure_plate_longPrefab"/>
+		<property name="HandleFace" value="Bottom"/>
 		<property name="ModelOffset" value="0,0.5,0"/>
 		<property name="MultiBlockDim" value="5,1,1"/>
 		<property name="ImposterExchange" value="imposterPlate" param1="143"/>
