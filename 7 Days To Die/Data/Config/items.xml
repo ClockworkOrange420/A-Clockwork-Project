@@ -7584,7 +7584,7 @@
 		<property name="Extends" value="schematicMaster"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Mining_Tools_Skill"/>
-			<property name="ActionExp" value="2000"/>
+			<property name="ActionExp" value="5000"/>
 		</property>
 	</item>
 	<item id="915" name="Pistols">
