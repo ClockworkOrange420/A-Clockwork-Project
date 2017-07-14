@@ -272,9 +272,18 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="recovering" duration="2400t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recoveringSmall,recoveringTiny" stack="reset" actions="increment(infected, -1, 1t, 0, 0);buff(recoveringCommon);increment(@wellness, 0.1, 100t, 0, 0)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
 <buff id="recoveringSmall" duration="1200t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recovering,recoveringTiny" stack="reset" actions="increment(infected, -1, 1t, 0, 0);buff(recoveringCommon);increment(@wellness, 0.1, 100t, 0, 0)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
 <buff id="recoveringTiny" duration="600t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recovering,recoveringSmall" stack="reset" actions="increment(infected, -1, 1t, 0, 0);buff(recoveringCommon);increment(@wellness, 0.1, 100t, 0, 0)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
-<buff id="recovering2" requires="recoveringCommon" debuffif="CTRbedroll less 1" actions="increment(infected, -0.25, 1t, 0, 0)" icon="ui_game_symbol_natural_healing" name_key="Small Recovery Bonus" description_key="While sleeping on a sleeping bag you will cut Infection rate in half." tooltip_key="Slows Infection rate in half."/>
-<buff id="recovering3" requires="recoveringCommon" debuffif="CTRbed less 1" actions="increment(infected, -0.5, 1t, 0, 0)" icon="ui_game_symbol_natural_healing" name_key="Medium Recovery Bonus" description_key="While sleeping on a small bed you will stop infection rate completely." tooltip_key="Stops infection rate completely."/>
-<buff id="recovering4" requires="recoveringCommon" debuffif="CTRbigbed less 1" actions="increment(infected, -1, 1t, 0, 0)" icon="ui_game_symbol_natural_healing" name_key="Large Recovery Bonus" description_key="While sleeping on a big bed you will counter the infection by half its rate." tooltip_key="Counters infection rate by half."/>
+<buff id="recovering2" requires="recoveringCommon" debuffif="CTRbedroll less 1" actions="increment(infected, -0.25, 1t, 0, 0)" icon="ui_game_symbol_natural_healing" name_key="Small Recovery Bonus" description_key="While sleeping on a sleeping bag you will cut Infection rate in half." tooltip_key="Slows Infection rate in half.">
+	<modify id="0" stat="health" amount="1" rate="30" />
+	<modify id="0" stat="stamina" amount="1" rate="5" />
+</buff>
+<buff id="recovering3" requires="recoveringCommon" debuffif="CTRbed less 1" actions="increment(infected, -0.5, 1t, 0, 0)" icon="ui_game_symbol_natural_healing" name_key="Medium Recovery Bonus" description_key="While sleeping on a small bed you will stop infection rate completely." tooltip_key="Stops infection rate completely.">
+	<modify id="0" stat="health" amount="1" rate="15" />
+	<modify id="0" stat="stamina" amount="1" rate="3" />
+</buff>
+<buff id="recovering4" requires="recoveringCommon" debuffif="CTRbigbed less 1" actions="increment(infected, -1, 1t, 0, 0)" icon="ui_game_symbol_natural_healing" name_key="Large Recovery Bonus" description_key="While sleeping on a big bed you will counter the infection by half its rate." tooltip_key="Counters infection rate by half.">
+	<modify id="0" stat="health" amount="1" rate="5" />
+	<modify id="0" stat="stamina" amount="1" rate="3" />
+</buff>
 
 <buff id="infectionActivatorHygiene" duration="1" actions="increment(hygiene, 120, 1, 0, 0)"/>
 <buff id="infectionActivatorClean" duration="1" requires="clean" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
@@ -502,27 +511,15 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <!--Modded-->
 
 <buff id="sleepingBagTrigger" duration="1" actions="setvar(CTRbedroll, 3)"/>
-<buff id="sleepingBagEffect" duration="0" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(CTRbedroll, -1, 1, 0, 0);buff(recovering2)"
-	icon="ui_game_symbol_map_bed" name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip">
-	<modify id="0" stat="health" amount="1" rate="30" />
-	<modify id="0" stat="stamina" amount="1" rate="5" />
-</buff>
+<buff id="sleepingBagEffect" duration="0" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(CTRbedroll, -1, 1, 0, 0);buff(recovering2)" icon="ui_game_symbol_map_bed" name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip"/>
 <buff id="sleepingBagEffect2" duration="0" mutex="rested" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
 
 <buff id="sleepingBedTrigger" duration="1" actions="setvar(CTRbed, 3)" />
-<buff id="sleepingBedEffect" duration="0" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(CTRbed, -1, 1, 0, 0);buff(recovering3)"
-	name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip" icon="ui_game_symbol_map_bed">
-	<modify id="0" stat="health" amount="1" rate="15" />
-	<modify id="0" stat="stamina" amount="1" rate="3" />
-</buff>
+<buff id="sleepingBedEffect" duration="0" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(CTRbed, -1, 1, 0, 0);buff(recovering3)" name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip" icon="ui_game_symbol_map_bed"/>
 <buff id="sleepingBedEffect2" duration="0" mutex="rested" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
 
 <buff id="sleepingBigBedTrigger" duration="1" actions="setvar(CTRbigbed, 3)" />
-<buff id="sleepingBigBedEffect" duration="0" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(CTRbigbed, -1, 1, 0, 0);buff(recovering4)"
-	name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip" icon="ui_game_symbol_map_bed">
-	<modify id="0" stat="health" amount="1" rate="5" />
-	<modify id="0" stat="stamina" amount="1" rate="3" />
-</buff>
+<buff id="sleepingBigBedEffect" duration="0" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(CTRbigbed, -1, 1, 0, 0);buff(recovering4)" name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip" icon="ui_game_symbol_map_bed"/>
 <buff id="sleepingBigBedEffect2" duration="0" mutex="rested" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
 
 <buff id="asphaltStaBoostTrigger" duration="1" actions="setvar(CTRroadrun, 3)" />
