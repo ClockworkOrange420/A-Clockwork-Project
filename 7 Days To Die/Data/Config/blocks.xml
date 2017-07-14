@@ -6108,6 +6108,7 @@
 		<drop event="Harvest" name="coal" count="10" prob="0.33"/>
 		<drop event="Harvest" name="potassiumNitratePowder" count="10" prob="0.33"/>
 		<drop event="Harvest" name="scrapLead" count="10" prob="0.33"/>
+		<drop event="Fall" name="rockResourceBroke1" count="1" prob="1" stick_chance="1"/>
 		<drop event="Destroy" count="0"/>
 		<property name="DowngradeBlock" value="rockResourceBroke1"/>
 		<property name="Map.Color" value="120,120,120"/>
@@ -6333,17 +6334,20 @@
 		<property name="Extends" value="rockResource"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Entities/Resources/rock_resource_broke1Prefab"/>
+		<drop event="Fall" name="rockResourceBroke2" count="1" prob="1" stick_chance="1"/>
 		<property name="DowngradeBlock" value="rockResourceBroke2"/>
 	</block>
 	<block id="645" name="rockResourceBroke2">
 		<property name="Extends" value="rockResource" param1="DowngradeBlock"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Entities/Resources/rock_resource_broke2Prefab"/>
+		<drop event="Fall" name="rockSmall" count="15" prob="0.5" stick_chance="0"/>
 	</block>
 	<block id="646" name="rockResource02Broke1">
 		<property name="Extends" value="rockResource"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Entities/Resources/rock_resource02_broke1Prefab"/>
+		<drop event="Fall" name="rockResource02Broke2" count="1" prob="1" stick_chance="1"/>
 		<property name="DowngradeBlock" value="rockResource02Broke2"/>
 	</block>
 	<block id="647" name="rockResource02Broke2">
@@ -6351,6 +6355,7 @@
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Entities/Resources/rock_resource02_broke2Prefab"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
+		<drop event="Fall" name="rockSmall" count="15" prob="0.5" stick_chance="0"/>
 	</block>
 	<block id="648" name="rockResource02Broke3">
 		<!-- unused block? -->
