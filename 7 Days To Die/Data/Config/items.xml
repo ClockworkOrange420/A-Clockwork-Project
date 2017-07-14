@@ -24,6 +24,7 @@
 			<property name="DamageBonus.head" value="2"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="5,10"/>
@@ -137,6 +138,7 @@
 			<property name="DamageBonus.concrete" value="2"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="40,50"/>
@@ -306,6 +308,7 @@
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.organic" value="10"/>
 			<property name="ToolCategory.Butcher" value="1" param1="10"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
@@ -345,6 +348,7 @@
 			<property name="DamageBonus.head" value="3"/>
 			<property name="DamageBonus.organic" value="3"/>
 			<property name="ToolCategory.Butcher" value="1" param1="10"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
@@ -1135,7 +1139,8 @@
 			<property name="DamageBonus.crops" value="5"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.organic" value="5"/>
-			<property name="ToolCategory.Crops" value="1" param1="1"/>
+			<property name="ToolCategory.Crops" value="1"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -1504,8 +1509,10 @@
 			<property name="DamageBonus.stone" value="2"/>
 			<property name="DamageBonus.metal" value="2"/>
 			<property name="DamageBonus.organic" value="1"/>
-			<property name="ActionExp" value="2"/>
+			<property name="ActionExp" value="1"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 			<property name="ToolCategory.Butcher" value="0.25" param1="10"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 			<!-- value = harvest event multiplier, param1 = damage multiplier if matching harvest event present ont he block -->
 		</property>
 		<property class="Action1">
@@ -1569,8 +1576,10 @@
 			<property name="DamageBonus.metal" value="0.25"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.organic" value="1"/>
-			<property name="ActionExp" value="4"/>
+			<property name="ActionExp" value="1"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 			<property name="ToolCategory.Butcher" value="0.25" param1="10"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="10,15"/>
@@ -1629,6 +1638,7 @@
 			<property name="DamageBonus.organic" value="0.2"/>
 			<property name="DamageBonus.metal" value="2.5"/>
 			<property name="DamageBonus.stone" value="2"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="4"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
@@ -1694,6 +1704,7 @@
 			<property name="DamageBonus.stone" value="0.5"/>
 			<property name="DamageBonus.metal" value="0.25"/>
 			<property name="DamageBonus.organic" value="2"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="4"/>
 		</property>
 		<property class="Attributes">
@@ -1735,6 +1746,7 @@
 			<property name="DamageBonus.stone" value="0.5"/>
 			<property name="DamageBonus.metal" value="0.25"/>
 			<property name="DamageBonus.organic" value="2"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="4"/>
 		</property>
 		<property class="Attributes">
@@ -1795,6 +1807,7 @@
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.stone" value="0.1"/>
 			<property name="DamageBonus.metal" value="0.1"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="4"/>
 		</property>
 		<property class="Action1">
@@ -1848,6 +1861,7 @@
 			<property name="ToolCategory.Disassemble" value="1" param1="1"  />
 			<property name="Sound_harvesting" value="wrench_harvest" param1="metal"/>
 			<property name="Particle_harvesting" value="true" param1="metal"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -1895,8 +1909,10 @@
 			<property name="DamageBonus.metal" value="1"/>
 			<property name="DamageBonus.organic" value="1"/>
 			<property name="DamageBonus.earth" value="1"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -2021,6 +2037,7 @@
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="SupportHarvesting" value="true"/>
 			<property name="UseMeleeCrosshair" value="true"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="1"/>
 			<!-- xxx trains blade weapons SUPER fast but ActionExp cannot be set lower than 1 -->
 		</property>
@@ -2074,6 +2091,7 @@
 			<property name="DamageBonus.head" value="2"/>
 			<property name="SupportHarvesting" value="true"/>
 			<property name="UseMeleeCrosshair" value="true"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="1"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
@@ -7566,6 +7584,7 @@
 		<property name="Extends" value="schematicMaster"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Mining_Tools_Skill"/>
+			<property name="ActionExp" value="2000"/>
 		</property>
 	</item>
 	<item id="915" name="Pistols">
