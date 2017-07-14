@@ -17049,6 +17049,7 @@
 	</block>
 	<block id="954" name="asphalt2">
 		<property name="Material" value="Mconcrete"/>
+		<property name="CustomIcon" value="asphalt"/>
 		<property name="MaxDamage" value="1500"/>
 		<property name="Shape" value="Terrain"/>
 		<property name="Mesh" value="terrain"/>
