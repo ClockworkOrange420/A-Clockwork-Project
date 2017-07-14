@@ -1654,7 +1654,7 @@
 			<property name="Delay" value="1.5"/>
 			<property name="Stamina_usage" value="9"/>
 			<property name="DamageBonus.head" value="1"/>
-			<property name="DamageBonus.stone" value="2"/>
+			<property name="DamageBonus.stone" value="2.5"/>
 			<property name="DamageBonus.metal" value="3"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
