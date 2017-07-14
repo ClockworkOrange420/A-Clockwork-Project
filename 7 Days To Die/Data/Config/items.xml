@@ -1519,7 +1519,7 @@
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="5,10"/>
-			<property name="BlockDamage" value="15,30"/>
+			<property name="BlockDamage" value="10,20"/>
 			<property name="DegradationMax" value="600,600"/>
 			<property name="DegradationRate" value="6,1"/>
 			<property name="DismembermentBaseChance" value="0,0"/>
@@ -1574,7 +1574,7 @@
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="10,15"/>
-			<property name="BlockDamage" value="20,50"/>
+			<property name="BlockDamage" value="20,35"/>
 			<property name="DegradationMax" value="1000,1000"/>
 			<property name="DegradationRate" value="10,2"/>
 			<property name="DismembermentBaseChance" value="0.01,0.05"/>
@@ -1598,7 +1598,7 @@
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="15,20"/>
-			<property name="BlockDamage" value="40,70"/>
+			<property name="BlockDamage" value="40,75"/>
 			<property name="DegradationMax" value="4000,4000"/>
 			<property name="DegradationRate" value="40,6"/>
 			<property name="DismembermentBaseChance" value="0.02,0.06"/>
