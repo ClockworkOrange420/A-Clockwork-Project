@@ -6073,11 +6073,11 @@
 		<property name="MultiBlockDim" value="3,2,3"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-		<drop event="Harvest" name="rockSmall" count="33" tool_category="Harvest"/>
-		<drop event="Harvest" name="scrapIron" count="11" tool_category="Harvest"/>
-		<drop event="Harvest" name="coal" count="10" prob="0.33" tool_category="Harvest"/>
-		<drop event="Harvest" name="potassiumNitratePowder" count="10" prob="0.33" tool_category="Harvest"/>
-		<drop event="Harvest" name="scrapLead" count="10" prob="0.33" tool_category="Harvest"/>
+		<drop event="Harvest" name="rockSmall" count="7" tool_category="Harvest"/>
+		<drop event="Harvest" name="scrapIron" count="2" tool_category="Harvest"/>
+		<drop event="Harvest" name="coal" count="2" tool_category="Harvest"/>
+		<drop event="Harvest" name="potassiumNitratePowder" count="2" tool_category="Harvest"/>
+		<drop event="Harvest" name="scrapLead" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="rockResourceBroke1" count="1" prob="1" stick_chance="1"/>
 		<drop event="Destroy" count="0"/>
 		<property name="DowngradeBlock" value="rockResourceBroke1"/>
