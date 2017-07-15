@@ -7888,6 +7888,7 @@
 	</item>
 	<item id="1305" name="scrapIron">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="ironFragment"/>
 		<property name="DropMeshfile" value="Items/Misc/scrapIronDroppedPrefab"/>
 		<property name="HoldType" value="45"/>
 		<property name="Material" value="Miron_scrap"/>
