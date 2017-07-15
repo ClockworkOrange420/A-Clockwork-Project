@@ -14086,7 +14086,7 @@
 	<block id="1562" name="bedroll">
 		<property name="DescriptionKey" value="bedGroupDesc"/>
 		<property name="Class" value="SleepingBag"/>
-		<property name="Material" value="plants"/>
+		<property name="Material" value="cloth"/>
 		<property name="StabilitySupport" value="false"/>
 		<!-- build restriction -->
 		<property name="MaxDamage" value="100"/>
