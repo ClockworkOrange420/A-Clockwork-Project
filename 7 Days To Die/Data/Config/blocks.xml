@@ -110,8 +110,8 @@
 		<property name="Mesh" value="terrain"/>
 		<property name="Texture" value="33"/>
 		<property name="DropScale" value="2"/>
-		<drop event="Harvest" name="scrapIron" count="20" tool_category="Harvest"/>
-		<drop event="Destroy" name="scrapIron" count="20" tool_category="Harvest"/>
+		<drop event="Harvest" name="scrapIron" count="10" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapIron" count="10" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapIron" count="40" prob="0.5" stick_chance="0"/>
 		<property name="CanMobsSpawnOn" value="true"/>
 	</block>
