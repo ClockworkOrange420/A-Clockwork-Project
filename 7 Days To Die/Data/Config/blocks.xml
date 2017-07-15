@@ -12879,9 +12879,9 @@
 		<property class="RepairItems">
 			<property name="forgedIron" value="10"/>
 		</property>
-		<drop event="Harvest" name="forgedIron" count="10" tool_category="Harvest"/>
-		<drop event="Harvest" name="spring" count="2" tool_category="Harvest"/>
-		<drop event="Harvest" name="mechanicalParts" count="3" tool_category="Harvest"/>
+		<drop event="Harvest" name="forgedIron" count="10" tool_category="Disassemble"/>
+		<drop event="Harvest" name="spring" count="2" tool_category="Disassemble"/>
+		<drop event="Harvest" name="mechanicalParts" count="3" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	</block>
@@ -12901,9 +12901,9 @@
 		<property class="RepairItems">
 			<property name="forgedIron" value="10"/>
 		</property>
-		<drop event="Harvest" name="forgedIron" count="10" tool_category="Harvest"/>
-		<drop event="Harvest" name="spring" count="2" tool_category="Harvest"/>
-		<drop event="Harvest" name="mechanicalParts" count="3" tool_category="Harvest"/>
+		<drop event="Harvest" name="forgedIron" count="10" tool_category="Disassemble"/>
+		<drop event="Harvest" name="spring" count="2" tool_category="Disassemble"/>
+		<drop event="Harvest" name="mechanicalParts" count="3" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	</block>
@@ -12921,9 +12921,9 @@
 		<property class="RepairItems">
 			<property name="forgedIron" value="20"/>
 		</property>
-		<drop event="Harvest" name="forgedIron" count="20" tool_category="Harvest"/>
-		<drop event="Harvest" name="spring" count="5" tool_category="Harvest"/>
-		<drop event="Harvest" name="mechanicalParts" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="forgedIron" count="20" tool_category="Disassemble"/>
+		<drop event="Harvest" name="spring" count="5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="mechanicalParts" count="5" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	</block>
