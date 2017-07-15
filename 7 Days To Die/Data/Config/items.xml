@@ -2029,11 +2029,11 @@
 			<property name="Horde_meter_rate" value="0.275"/>
 			<property name="Horde_meter_distance" value="20"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
-			<property name="DamageBonus.wood" value="40"/>
+			<property name="DamageBonus.wood" value="10"/>
 			<property name="DamageBonus.stone" value="0.01"/>
 			<property name="DamageBonus.earth" value="0.01"/>
 			<property name="DamageBonus.head" value="2"/>
-			<property name="DamageBonus.organic" value="40"/>
+			<property name="DamageBonus.organic" value="10"/>
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="SupportHarvesting" value="true"/>
 			<property name="UseMeleeCrosshair" value="true"/>
@@ -2084,10 +2084,10 @@
 			<property name="Horde_meter_distance" value="20"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
 			<property name="DamageBonus.wood" value="0.2"/>
-			<property name="DamageBonus.earth" value="40"/>
-			<property name="DamageBonus.stone" value="40"/>
+			<property name="DamageBonus.earth" value="20"/>
+			<property name="DamageBonus.stone" value="30"/>
 			<property name="DamageBonus.metal" value="40"/>
-			<property name="DamageBonus.organic" value="40"/>
+			<property name="DamageBonus.organic" value="10"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="SupportHarvesting" value="true"/>
 			<property name="UseMeleeCrosshair" value="true"/>
