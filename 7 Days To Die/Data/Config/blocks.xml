@@ -5345,8 +5345,8 @@
 		<property name="BigDecorationRadius" value="2"/>
 		<property name="CanPlayersSpawnOn" value="false"/>
 		<property name="ParticleOnDeath" value="treeGib_small_dust"/>
-		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="25" tool_category="Harvest"/>
 	</block>
 	<block id="560" name="treeMountainPine8m">
 		<property name="Extends" value="treeMaster"/>
@@ -5354,8 +5354,8 @@
 		<property name="ModelOffset" value="0,-0.3,0"/>
 		<property name="MultiBlockDim" value="1,10,1"/>
 		<property name="BigDecorationRadius" value="2"/>
-		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="25" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" tool_category="Harvest"/>
 		<property name="ParticleOnDeath" value="treeGib_burnt"/>
 	</block>
@@ -5366,8 +5366,8 @@
 		<property name="ModelOffset" value="0,-0.3,0"/>
 		<property name="MultiBlockDim" value="1,19,1"/>
 		<property name="BigDecorationRadius" value="2"/>
-		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" tool_category="Harvest"/>
 		<property name="ParticleOnDeath" value="treeGib_burnt"/>
 	</block>
@@ -5378,8 +5378,8 @@
 		<property name="ModelOffset" value="0,-0.3,0"/>
 		<property name="MultiBlockDim" value="1,24,1"/>
 		<property name="BigDecorationRadius" value="3"/>
-		<drop event="Harvest" name="wood" count="300" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="75" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 		<property name="ParticleOnDeath" value="treeGib_burnt_55m"/>
@@ -5391,8 +5391,8 @@
 		<property name="ModelOffset" value="0,-0.3,0"/>
 		<property name="MultiBlockDim" value="1,27,1"/>
 		<property name="BigDecorationRadius" value="3"/>
-		<drop event="Harvest" name="wood" count="300" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="75" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 		<property name="ParticleOnDeath" value="treeGib_burnt_75m"/>
@@ -5404,8 +5404,8 @@
 		<property name="ModelOffset" value="0,-0.3,0"/>
 		<property name="MultiBlockDim" value="1,28,1"/>
 		<property name="BigDecorationRadius" value="4"/>
-		<drop event="Harvest" name="wood" count="400" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 		<property name="ParticleOnDeath" value="treeGib_burnt_75m"/>
@@ -5417,8 +5417,8 @@
 		<property name="MultiBlockDim" value="1,21,1"/>
 		<property name="BigDecorationRadius" value="3"/>
 		<property name="ModelOffset" value="0,-0.3,0"/>
-		<drop event="Harvest" name="wood" count="300" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="75" tool_category="Harvest"/>
 		<property name="ParticleOnDeath" value="treeGib_burnt_55m"/>
 	</block>
 	<block id="566" name="treeBirch10m">
@@ -5428,8 +5428,8 @@
 		<property name="MultiBlockDim" value="1,7,1"/>
 		<property name="BigDecorationRadius" value="2"/>
 		<property name="ParticleOnDeath" value="treeGib_birch_small"/>
-		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="25" tool_category="Harvest"/>
 	</block>
 	<block id="567" name="treeBirch12m">
 		<property name="Extends" value="treeMaster"/>
@@ -5439,8 +5439,8 @@
 		<property name="MultiBlockDim" value="1,4,1"/>
 		<property name="BigDecorationRadius" value="3"/>
 		<property name="ParticleOnDeath" value="treeGib_birch_small"/>
-		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
 	</block>
 	<block id="568" name="treeBirch15m">
 		<property name="Extends" value="treeMaster"/>
@@ -5450,8 +5450,8 @@
 		<property name="MultiBlockDim" value="1,13,1"/>
 		<property name="BigDecorationRadius" value="4"/>
 		<property name="ParticleOnDeath" value="treeGib_birch"/>
-		<drop event="Harvest" name="wood" count="300" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="75" tool_category="Harvest"/>
 	</block>
 	<block id="569" name="treeDeadShrub">
 		<property name="Material" value="wood_weak"/>
@@ -5472,8 +5472,8 @@
 		<property name="MultiBlockDim" value="1,5,1"/>
 		<property name="BigDecorationRadius" value="2"/>
 		<property name="ParticleOnDeath" value="treeGib_birch_6m"/>
-		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="25" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="571" name="treeMaple13m">
@@ -5484,8 +5484,8 @@
 		<property name="MultiBlockDim" value="1,7,1"/>
 		<property name="BigDecorationRadius" value="3"/>
 		<property name="ParticleOnDeath" value="treeGib_birch_small"/>
-		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="572" name="rConcreteCNRRoundTop">
@@ -5504,8 +5504,8 @@
 		<property name="MultiBlockDim" value="1,7,1"/>
 		<property name="BigDecorationRadius" value="4"/>
 		<property name="ParticleOnDeath" value="treeGib_birch_15m"/>
-		<drop event="Harvest" name="wood" count="300" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="75" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" prob="0.25" tool_category="Harvest"/>
 	</block>
@@ -5517,8 +5517,8 @@
 		<property name="MultiBlockDim" value="1,10,1"/>
 		<property name="BigDecorationRadius" value="5"/>
 		<property name="ParticleOnDeath" value="treeGib_birch"/>
-		<drop event="Harvest" name="wood" count="300" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="75" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" prob="0.25" tool_category="Harvest"/>
 	</block>
@@ -5530,8 +5530,8 @@
 		<property name="MultiBlockDim" value="1,6,1"/>
 		<property name="BigDecorationRadius" value="6"/>
 		<property name="ParticleOnDeath" value="treeGib_birch"/>
-		<drop event="Harvest" name="wood" count="400" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" prob="0.25" tool_category="Harvest"/>
 	</block>
@@ -5551,8 +5551,8 @@
 		<property name="MultiBlockDim" value="1,3,1"/>
 		<property name="BigDecorationRadius" value="3"/>
 		<property name="ParticleOnDeath" value="treeGib_burnt_small"/>
-		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="25" tool_category="Harvest"/>
 		<drop event="Harvest" name="coal" count="3,5" tool_category="Harvest"/>
 	</block>
 	<block id="578" name="treeBurntPine02">
@@ -5562,8 +5562,8 @@
 		<property name="ModelOffset" value="0.7,-1,-0.7"/>
 		<property name="MultiBlockDim" value="1,5,1"/>
 		<property name="BigDecorationRadius" value="4"/>
-		<drop event="Harvest" name="wood" count="300" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="75" tool_category="Harvest"/>
 		<drop event="Harvest" name="coal" count="8,15" tool_category="Harvest"/>
 	</block>
 	<block id="579" name="treeBurntPine03">
@@ -5573,8 +5573,8 @@
 		<property name="ModelOffset" value="-0.5,-1.3,-0.5"/>
 		<property name="MultiBlockDim" value="2,9,2"/>
 		<property name="BigDecorationRadius" value="4"/>
-		<drop event="Harvest" name="wood" count="400" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
 		<drop event="Harvest" name="coal" count="10,20" tool_category="Harvest"/>
 	</block>
 	<block id="580" name="steelCNRRoundTop">
@@ -5592,8 +5592,8 @@
 		<property name="MultiBlockDim" value="1,4,1"/>
 		<property name="BigDecorationRadius" value="2"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="25" tool_category="Harvest"/>
 		<property name="ParticleOnDeath" value="treeGib_dead_01"/>
 	</block>
 	<block id="582" name="treeDeadTree02">
@@ -5603,8 +5603,8 @@
 		<property name="Model" value="Entities/Trees/Haunted_Shrub_WastelandPrefab"/>
 		<property name="ModelOffset" value="0,-0.3,0"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="25" tool_category="Harvest"/>
 		<property name="ParticleOnDeath" value="treeGib_dead_02"/>
 	</block>
 	<block id="585" name="rWoodPyramid">
@@ -5622,8 +5622,8 @@
 		<property name="ModelOffset" value="0,-0.3,0"/>
 		<property name="MultiBlockDim" value="1,6,1"/>
 		<property name="BigDecorationRadius" value="1"/>
-		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="25" tool_category="Harvest"/>
 		<property name="FallOver" value="true"/>
 		<property name="ParticleOnDeath" value="treeGib_winter_small"/>
 	</block>
@@ -5634,8 +5634,8 @@
 		<property name="ModelOffset" value="0,-0.3,0"/>
 		<property name="MultiBlockDim" value="1,12,1"/>
 		<property name="BigDecorationRadius" value="2"/>
-		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 		<property name="ParticleOnDeath" value="treeGib_winter01"/>
@@ -5663,8 +5663,8 @@
 		<property name="ModelOffset" value="0,-0.3,0"/>
 		<property name="MultiBlockDim" value="1,19,1"/>
 		<property name="BigDecorationRadius" value="2"/>
-		<drop event="Harvest" name="wood" count="300" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="75" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 		<property name="ParticleOnDeath" value="treeGib_winter02"/>
@@ -5676,8 +5676,8 @@
 		<property name="ModelOffset" value="0,-0.3,0"/>
 		<property name="MultiBlockDim" value="1,28,1"/>
 		<property name="BigDecorationRadius" value="2"/>
-		<drop event="Harvest" name="wood" count="400" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 		<property name="ParticleOnDeath" value="treeGib_winter03"/>
@@ -6625,8 +6625,8 @@
 		<property name="MultiBlockDim" value="1,10,1"/>
 		<property name="BigDecorationRadius" value="2"/>
 		<property name="PlantGrowing.Next" value="treePlantedMountainPine8m"/>
-		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="25" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="676" name="treePlantedMountainPine8m">
@@ -6638,8 +6638,8 @@
 		<property name="MultiBlockDim" value="1,19,1"/>
 		<property name="BigDecorationRadius" value="2"/>
 		<property name="PlantGrowing.Next" value="treePlantedMountainPine13m"/>
-		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 	</block>
@@ -6653,8 +6653,8 @@
 		<property name="BigDecorationRadius" value="3"/>
 		<property name="PlantGrowing.Next" value="treePlantedMountainPine16m"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
-		<drop event="Harvest" name="wood" count="300" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="75" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 		<property name="ParticleOnDeath" value="treeGib_burnt_55m"/>
@@ -6671,8 +6671,8 @@
 		<property name="PlantGrowing.Next" value="treePlantedMountainPine19m"/>
 		<property name="PlantGrowing.GrowthRate" value="1"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
-		<drop event="Harvest" name="wood" count="400" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 		<property name="ParticleOnDeath" value="treeGib_burnt_55m"/>
@@ -6682,8 +6682,8 @@
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="treeMountainPine20m"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
-		<drop event="Harvest" name="wood" count="400" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 		<property name="ParticleOnDeath" value="treeGib_burnt_75m"/>
@@ -6693,8 +6693,8 @@
 		<property name="Extends" value="treePlantedMountainPine1m"/>
 		<property name="PlantGrowing.Next" value="treePlantedMaple6m"/>
 		<property name="ParticleOnDeath" value="treeGib_sapling"/>
-		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="25" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMountainPine1m" count="0" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" tool_category="Harvest"/>
 	</block>
@@ -6707,8 +6707,8 @@
 		<property name="BigDecorationRadius" value="2"/>
 		<property name="PlantGrowing.Next" value="treePlantedMaple13m"/>
 		<property name="ParticleOnDeath" value="treeGib_birch_6m"/>
-		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="25" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="682" name="treePlantedMaple13m">
@@ -6721,8 +6721,8 @@
 		<property name="BigDecorationRadius" value="3"/>
 		<property name="PlantGrowing.Next" value="treePlantedMaple15m"/>
 		<property name="ParticleOnDeath" value="treeGib_maple_13m"/>
-		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" prob="0.25" tool_category="Harvest"/>
 	</block>
@@ -6737,8 +6737,8 @@
 		<property name="PlantGrowing.Next" value="treePlantedMaple17m"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<property name="ParticleOnDeath" value="treeGib_maple_15m"/>
-		<drop event="Harvest" name="wood" count="300" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="75" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" prob="0.25" tool_category="Harvest"/>
 	</block>
@@ -6755,8 +6755,8 @@
 		<property name="PlantGrowing.Next" value="treePlantedMaple17mPlus"/>
 		<property name="PlantGrowing.GrowthRate" value="1"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
-		<drop event="Harvest" name="wood" count="400" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" prob="0.25" tool_category="Harvest"/>
 	</block>
@@ -7302,8 +7302,8 @@
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="treeMaple17m"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
-		<drop event="Harvest" name="wood" count="400" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedMaple1m" count="1" prob="0.25" tool_category="Harvest"/>
 	</block>
@@ -8525,8 +8525,8 @@
 		<property name="BigDecorationRadius" value="2"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="CanPlayersSpawnOn" value="false"/>
-		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="25" tool_category="Harvest"/>
 	</block>
 	<block id="864" name="treeGreenBrownGrassDiagonal">
 		<property name="Extends" value="treeGrassMaster" param1="CustomIcon"/>
@@ -14164,8 +14164,8 @@
 		<property name="MultiBlockDim" value="1,10,1"/>
 		<property name="BigDecorationRadius" value="2"/>
 		<property name="PlantGrowing.Next" value="treePlantedWinterPine13m"/>
-		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="50" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="25" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" tool_category="Harvest"/>
 	</block>
 	<!-- n Free -->
@@ -14178,8 +14178,8 @@
 		<property name="MultiBlockDim" value="1,12,1"/>
 		<property name="BigDecorationRadius" value="2"/>
 		<property name="PlantGrowing.Next" value="treePlantedWinterPine16m"/>
-		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="100" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="50" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 	</block>
@@ -14193,8 +14193,8 @@
 		<property name="BigDecorationRadius" value="2"/>
 		<property name="PlantGrowing.Next" value="treePlantedWinterPine19m"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
-		<drop event="Harvest" name="wood" count="300" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="75" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 	</block>
@@ -14210,8 +14210,8 @@
 		<property name="PlantGrowing.Next" value="treePlantedWinterPine19mPlus"/>
 		<property name="PlantGrowing.GrowthRate" value="1"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
-		<drop event="Harvest" name="wood" count="400" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 	</block>
@@ -14447,8 +14447,8 @@
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="treeWinterPine03"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
-		<drop event="Harvest" name="wood" count="300" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="150" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="75" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 	</block>
