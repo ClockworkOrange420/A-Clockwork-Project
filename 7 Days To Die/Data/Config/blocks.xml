@@ -12879,13 +12879,10 @@
 		<property class="RepairItems">
 			<property name="forgedIron" value="10"/>
 		</property>
-		<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
-		<drop event="Harvest" name="forgedIron" count="1,2" prob="0.1" tool_category="Harvest"/>
-		<drop event="Harvest" name="forgedSteel" count="0,2" prob="0.05" tool_category="Harvest"/>
-		<drop event="Harvest" name="scrapIron" count="5,15" tool_category="Harvest"/>
+		<drop event="Harvest" name="forgedIron" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="spring" count="2" tool_category="Harvest"/>
+		<drop event="Harvest" name="mechanicalParts" count="3" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
-		<drop event="Destroy" name="spring" count="1,2" tool_category="Disassemble"/>
-		<drop event="Destroy" name="mechanicalParts" count="1,3" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="1427" name="cntWallSafeInsecure">
@@ -12904,13 +12901,10 @@
 		<property class="RepairItems">
 			<property name="forgedIron" value="10"/>
 		</property>
-		<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
-		<drop event="Harvest" name="forgedIron" count="1,2" prob="0.1" tool_category="Harvest"/>
-		<drop event="Harvest" name="forgedSteel" count="0,2" prob="0.05" tool_category="Harvest"/>
-		<drop event="Harvest" name="scrapIron" count="5,15" tool_category="Harvest"/>
+		<drop event="Harvest" name="forgedIron" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="spring" count="2" tool_category="Harvest"/>
+		<drop event="Harvest" name="mechanicalParts" count="3" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
-		<drop event="Destroy" name="spring" count="1,2" tool_category="Disassemble"/>
-		<drop event="Destroy" name="mechanicalParts" count="1,3" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="1428" name="cntGunSafeInsecure">
@@ -12927,13 +12921,10 @@
 		<property class="RepairItems">
 			<property name="forgedIron" value="20"/>
 		</property>
-		<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
-		<drop event="Harvest" name="forgedIron" count="1,4" prob="0.1" tool_category="Harvest"/>
-		<drop event="Harvest" name="forgedSteel" count="0,2" prob="0.05" tool_category="Harvest"/>
-		<drop event="Harvest" name="scrapIron" count="5,15" tool_category="Harvest"/>
+		<drop event="Harvest" name="forgedIron" count="20" tool_category="Harvest"/>
+		<drop event="Harvest" name="spring" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="mechanicalParts" count="5" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
-		<drop event="Destroy" name="spring" count="1,5" tool_category="Disassemble"/>
-		<drop event="Destroy" name="mechanicalParts" count="1,5" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="1429" name="garageDoorMetal_v1">
