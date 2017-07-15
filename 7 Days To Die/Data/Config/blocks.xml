@@ -112,7 +112,7 @@
 		<property name="DropScale" value="2"/>
 		<drop event="Harvest" name="scrapIron" count="10" tool_category="Harvest"/>
 		<drop event="Destroy" name="scrapIron" count="10" tool_category="Harvest"/>
-		<drop event="Fall" name="scrapIron" count="40" prob="0.5" stick_chance="0"/>
+		<drop event="Fall" name="scrapIron" count="20" prob="0.5" stick_chance="0"/>
 		<property name="CanMobsSpawnOn" value="true"/>
 	</block>
 	<block id="8" name="sand">
@@ -180,9 +180,9 @@
 		<property name="Texture" value="316"/>
 		<property name="Weight" value="100"/>
 		<property name="DropScale" value="2"/>
-		<drop event="Harvest" name="scrapLead" count="20" tool_category="Harvest"/>
-		<drop event="Destroy" name="scrapLead" count="20" tool_category="Harvest"/>
-		<drop event="Fall" name="scrapLead" count="40" prob="0.5" stick_chance="0"/>
+		<drop event="Harvest" name="scrapLead" count="10" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapLead" count="10" tool_category="Harvest"/>
+		<drop event="Fall" name="scrapLead" count="20" prob="0.5" stick_chance="0"/>
 		<property name="CanMobsSpawnOn" value="true"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
