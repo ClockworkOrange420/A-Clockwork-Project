@@ -739,17 +739,17 @@ snowberryPlant feeds you for 90 sec. -->
 <!--End-->
 
 <buff id="zombieRadiatedBuff40" duration="0" icon="ui_game_symbol_fire">
-	<modify id="0" stat="health" amount="10" rate="3" />
+	<modify id="0" stat="health" amount="10" rate="8" />
 </buff>
 
 <buff id="zombieRadiatedBuff80" duration="0" icon="ui_game_symbol_fire">
-	<modify id="0" stat="health" amount="10" rate="2" />
+	<modify id="0" stat="health" amount="10" rate="5" />
 </buff>
 
 <buff id="shockedBuff" duration="4.5" stack="discard" debuffif="ShockAmount equals 0" buffif="ShockAmount greater 0"
 	actions="attach(ParticleEffects/p_electric_shock, @impact)" castsound="electric_fence_impact"
 	icon="ui_game_symbol_electric_power" name_key="shockedBuffName" description_key="shockedBuffDesc" tooltip_key="shockedBuffTooltip">
 	<modify id="0" stat="health" amount="-3" rate="0.5"/>
-	<modify id="1" stat="speedmodifier" mulValue="0.1" duration="3.2"/>
+	<modify id="1" stat="speedmodifier" mulValue="0.3" duration="3.2"/>
 </buff>
 </buffs>
