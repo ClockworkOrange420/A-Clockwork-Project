@@ -2998,6 +2998,12 @@
 		<property name="Model" value="Appliances/oven" param1="main_mesh"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="105"/>
 		<property name="LootList" value="5"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Old_Oven" />
+			<property name="Item" value="forgedIron" />
+			<property name="ItemCount" value="10" />
+			<property name="UpgradeHitCount" value="4" />
+		</property>
 		<drop event="Harvest" name="mechanicalParts" count="0,3" prob="0.1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electricParts" count="1,4" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electronicParts" count="0,2" tool_category="Disassemble"/>
@@ -9931,6 +9937,12 @@
 		<property name="Material" value="metal"/>
 		<property name="Texture" value="346,345,341,345,262,345"/>
 		<property name="LootList" value="3"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="New_Oven" />
+			<property name="Item" value="forgedIron" />
+			<property name="ItemCount" value="10" />
+			<property name="UpgradeHitCount" value="4" />
+		</property>
 		<drop event="Harvest" name="mechanicalParts" count="0,1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="shortMetalPipe" count="1,2" tool_category="Disassemble"/>
 		<drop event="Destroy" name="scrapIron" count="5,10" tool_category="Harvest"/>
