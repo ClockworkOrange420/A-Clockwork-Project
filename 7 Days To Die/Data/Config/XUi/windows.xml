@@ -63,7 +63,7 @@
 				<texture depth="7" pos="256,117" name="WatchTop03" size="350,350" texture="@file:Mods\ACPIcons\UI\DWatchTop.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
 				
 				<label depth="8" pos="297,80" size="240,240" name="TextContent" controller="PlayerStatsWindow" font_size="20" color="[beige]" justify="center" pivot="center" text="{playercoretemp}"/>
-				<label depth="8" pos="215,117" size="240,240" name="TextContent" controller="PlayerStatsWindow" font_size="16" color="[beige]" justify="center" pivot="center" text="{playerlevel}"/>
+				<label depth="8" pos="205,106" size="240,240" name="TextContent" controller="PlayerStatsWindow" font_size="16" color="[beige]" justify="center" pivot="center" text="{playerlevel}"/>
 				<label depth="8" pos="250,149" size="240,240" name="dayTimeLabel" controller="MapStats" text=" [DECEA3]{mapdaytime}[-]" font_size="22" justify="center" pivot="center"/>
 				<label depth="8" pos="201,80" size="240,240" name="elevLabel" controller="MapStats"   text=" [DECEA3]{mapelevation} M[-]" font_size="20" justify="center" pivot="center"/>
 				
