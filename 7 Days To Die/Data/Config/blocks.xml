@@ -1427,7 +1427,6 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
 		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
-		<drop event="Harvest" name="nail" count="3" tool_category="DisassembleHammer"/>
 		<drop event="Destroy" name="wood" count="5" tool_category="Harvest"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 	</block>
