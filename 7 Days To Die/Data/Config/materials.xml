@@ -61,7 +61,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="stability_glue" value="1" />
 	<property name="Mass" type="int" value="1" />
 	<property name="MaxDamage" value="200" />
-	<property name="movement_factor" value="0.2" />
+	<property name="movement_factor" value="0.4" />
 	<property name="Experience" value="0"/>
 </material>
 <!-- .1 and a zombie takes 2 damage hits.  .035 takes around 7 seconds to pass through -->
