@@ -1427,6 +1427,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
 		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="3" tool_category="DisassembleHammer"/>
 		<drop event="Destroy" name="wood" count="5" tool_category="Harvest"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 	</block>
@@ -1449,6 +1450,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="3" tool_category="DisassembleHammer"/>
 		<drop event="Destroy" name="wood" count="5" tool_category="Harvest"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="10"/>
@@ -1482,7 +1484,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<drop event="Harvest" name="wood" count="2" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="3" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="1" tool_category="Harvest"/>
 		<drop event="Fall" name="wood" count="5" prob="0.5" stick_chance="0"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="20"/>
@@ -3028,7 +3030,9 @@
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
-		<drop event="Destroy" name="wood" count="1,10" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
+		<drop event="Destroy" count="0"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="CanPickup" value="true"/>
 		<property name="EconomicValue" value="11"/>
@@ -3194,7 +3198,8 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="Weight" value="50"/>
 		<property name="FuelValue" value="150"/>
-		<drop event="Harvest" name="wood" count="6" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
 		<drop event="Destroy" count="0"/>
 		<property name="DescriptionKey" value="decorativeBlockGroupDesc"/>
 	</block>
@@ -3301,7 +3306,9 @@
 		<property class="RepairItems">
 			<property name="wood" value="20"/>
 		</property>
-		<drop event="Destroy" name="wood" count="1,3" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="5" tool_category="DisassembleHammer"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="6"/>
 	</block>
@@ -3339,6 +3346,7 @@
 			<property name="wood" value="10"/>
 		</property>
 		<drop event="Destroy" name="wood" count="1,3" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="340" name="cntTrashPile01">
@@ -4844,6 +4852,7 @@
 			<property name="wood" value="10"/>
 		</property>
 		<drop event="Destroy" name="wood" count="2,6" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
 		<property name="EconomicValue" value="15"/>
 		<property name="EconomicBundleSize" value="20"/>
 	</block>
@@ -5970,7 +5979,7 @@
 	</block>
 	<block id="624" name="cntCooler">
 		<property name="Class" value="Loot"/>
-		<property name="Material" value="wood_weak"/>
+		<property name="Material" value="Mplastics"/>
 		<property name="StabilitySupport" value="false"/>
 		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
@@ -5983,16 +5992,15 @@
 		<property class="RepairItems">
 			<property name="scrapPlastics" value="10"/>
 		</property>
-		<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
-		<drop event="Destroy" count="0"/>
-		<drop event="Destroy" name="scrapPlastics" count="2,7" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapPlastics" count="5" tool_category="Disassemble"/>
+		<drop event="Destroy" name="scrapPlastics" count="2" tool_category="Disassemble"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
 		<property name="EconomicValue" value="300"/>
 		<!-- disassemble value -->
 	</block>
 	<block id="625" name="schoolDesk">
-		<property name="Material" value="furniture"/>
+		<property name="Material" value="wood_weak"/>
 		<property name="StabilitySupport" value="false"/>
 		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
@@ -6000,9 +6008,10 @@
 		<property name="Mesh" value="models"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="Model" value="Furniture/school_desk" param1="main_mesh"/>
-		<drop event="Destroy" name="scrapPlastics" count="1,5" tool_category="Harvest"/>
-		<drop event="Destroy" name="scrapIron" count="1,15" tool_category="Harvest"/>
-		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="626" name="cntLockers">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
@@ -6120,8 +6129,8 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<drop event="Harvest" name="wood" count="4" tool_category="Harvest"/>
-		<!-- harvest amount is 40% of the building cost -->
+		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="2" tool_category="DisassembleHammer"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Building,Basics"/>
@@ -6205,7 +6214,9 @@
 		<property class="RepairItems">
 			<property name="wood" value="20"/>
 		</property>
-		<drop event="Destroy" name="wood" count="1,3" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="5" tool_category="DisassembleHammer"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="LPHardnessScale" value="8"/>
 		<property name="DowngradeBlock" value="cntStorageChest"/>
@@ -7355,11 +7366,13 @@
 		<property name="Texture" value="67,241,241,241,241,241"/>
 		<property name="Place" value="TowardsPlacer90"/>
 		<property name="LootList" value="49"/>
-		<drop event="Destroy" name="wood" count="1,3" tool_category="Harvest"/>
-		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
+		<drop event="Harvest" name="wood" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="5" tool_category="DisassembleHammer"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="30"/>
 		<!-- disassemble value -->
 	</block>
@@ -7857,7 +7870,9 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="ImposterExclude" value="true"/>
-		<drop event="Destroy" name="wood" count="1,3" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="3" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="1" tool_category="DisassembleHammer"/>
+		<drop event="Destroy" count="0"/>
 		<property name="EconomicValue" value="6"/>
 		<property name="EconomicBundleSize" value="20"/>
 	</block>
@@ -8222,11 +8237,13 @@
 		<property name="Texture" value="241"/>
 		<property name="UseGlobalUV" value="Global"/>
 		<property name="Stairs"/>
-		<drop event="Destroy" name="wood" count="2,6" tool_category="Harvest"/>
-		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
+		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="834" name="concreteStairs50">
 		<property name="Material" value="Mconcrete"/>
@@ -9958,7 +9975,9 @@
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
-		<drop event="Destroy" name="wood" count="1,3" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="10"/>
@@ -11336,7 +11355,8 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<drop event="Harvest" name="wood" count="4" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="1" tool_category="DisassembleHammer"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Building"/>
@@ -11461,7 +11481,9 @@
 		<!-- 55 wood -->
 		<property name="Place" value="TowardsPlacer90"/>
 		<property name="LootList" value="51"/>
-		<drop event="Destroy" name="wood" count="1,3" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="5" tool_category="DisassembleHammer"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="1261" name="cntBeerCooler">
@@ -12775,11 +12797,13 @@
 		<property name="FuelValue" value="300"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
-		<drop event="Destroy" name="wood" count="2,5"/>
-		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
+		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="EconomicValue" value="55"/>
 		<property name="EconomicBundleSize" value="10"/>
@@ -13499,7 +13523,9 @@
 		<property name="MultiBlockDim" value="1,1,2"/>
 		<property name="ImposterExchange" value="imposterPlate" param1="1"/>
 		<property name="LootList" value="1"/>
-		<drop event="Destroy" name="wood" count="1,3" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="5" tool_category="DisassembleHammer"/>
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="1469" name="vaultHatch_v1">
 		<property name="Extends" value="vaultDoor01"/>
@@ -14145,9 +14171,10 @@
 			<property name="nail" value="20"/>
 			<property name="glue" value="10"/>
 		</property>
-		<drop event="Harvest" name="wood" count="50" tool_category="Disassemble"/>
-		<drop event="Harvest" name="nail" count="20" tool_category="Disassemble"/>
-		<drop event="Harvest" name="glue" count="10" tool_category="Disassemble"/>
+		<drop event="Harvest" name="wood" count="30" tool_category="Disassemble"/>
+		<drop event="Harvest" name="nail" count="10" tool_category="Disassemble"/>
+		<drop event="Harvest" name="nail" count="5" tool_category="DisassembleHammer"/>
+		<drop event="Harvest" name="glue" count="5" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="TakeDelay" value="15"/>
@@ -16213,9 +16240,9 @@
 			<property name="Modules" value="tools,output"/>
 		</property>
 		<property class="RepairItems">
-			<property name="wood" value="20"/>
-			<property name="nail" value="15"/>
-			<property name="glue" value="5"/>
+			<property name="wood" value="10"/>
+			<property name="nail" value="7"/>
+			<property name="glue" value="2"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
 		<drop event="Harvest" name="wood" count="20" tool_category="Disassemble"/>
@@ -16329,9 +16356,9 @@
 			<property name="Modules" value="tools,output"/>
 		</property>
 		<property class="RepairItems">
-			<property name="wood" value="20"/>
-			<property name="nail" value="15"/>
-			<property name="glue" value="5"/>
+			<property name="wood" value="10"/>
+			<property name="nail" value="7"/>
+			<property name="glue" value="2"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
 		<drop event="Harvest" name="wood" count="20" tool_category="Disassemble"/>
@@ -16365,7 +16392,7 @@
 			<property name="forgedIron" value="40"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
-		<drop event="Harvest" name="forgedIron" count="40" tool_category="Disassemble"/>
+		<drop event="Harvest" name="forgedIron" count="20" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="smithingTableDesc"/>
@@ -16413,12 +16440,12 @@
 			<property name="Modules" value="tools,output"/>
 		</property>
 		<property class="RepairItems">
-			<property name="scrapIron" value="10"/>
-			<property name="ductTape" value="10"/>
+			<property name="scrapIron" value="5"/>
+			<property name="ductTape" value="5"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
-		<drop event="Harvest" name="scrapIron" count="10" tool_category="Disassemble"/>
-		<drop event="Harvest" name="ductTape" count="10" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="ductTape" count="5" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Building"/>

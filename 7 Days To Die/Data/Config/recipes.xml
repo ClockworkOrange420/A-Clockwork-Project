@@ -1539,6 +1539,8 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="cntCooler" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="scrapPlastics" count="10"/>
+		<ingredient name="wood" count="5"/>
+		<ingredient name="nail" count="2"/>
 	</recipe>
 	<recipe name="cntCabinet" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="cobblestones" count="5"/>
@@ -1549,6 +1551,10 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="cntDesk01" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="schoolDesk" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
@@ -1608,6 +1614,18 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="5"/>
 	</recipe>
 	<recipe name="cntNightstand" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="wood" count="20"/>
+		<ingredient name="nail" count="10"/>
+	</recipe>
+	<recipe name="cntBookcase" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="wood" count="20"/>
+		<ingredient name="nail" count="10"/>
+	</recipe>
+	<recipe name="cntPillCase" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="wood" count="20"/>
+		<ingredient name="nail" count="10"/>
+	</recipe>
+	<recipe name="cntCoffin" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
@@ -2489,8 +2507,20 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="gasCan" count="600"/>
 	</recipe>
 	<recipe name="oldChair" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="nail" count="10"/>
 		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="pew_segment01" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="pew_segment02" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="pew_segment03" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="paintTool" count="1" craft_time = "12" craft_exp_gain="40" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
@@ -2943,8 +2973,8 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="woodTable" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="nail" count="10"/>
 		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="woodenBow" count="1" craft_time = "12" craft_exp_gain="40" >
 		<ingredient name="wood" count="10"/>

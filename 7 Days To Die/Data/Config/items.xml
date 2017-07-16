@@ -1909,7 +1909,7 @@
 			<property name="DamageBonus.metal" value="1"/>
 			<property name="DamageBonus.organic" value="1"/>
 			<property name="DamageBonus.earth" value="1"/>
-			<property name="ToolCategory.Harvest" value="1"/>
+			<property name="ToolCategory.DisassembleHammer" value="1"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
 			<property name="ToolCategory.Harvest" value="1"/>
