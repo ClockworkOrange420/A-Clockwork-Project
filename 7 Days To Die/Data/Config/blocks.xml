@@ -14172,7 +14172,6 @@
 		</property>
 		<drop event="Harvest" name="wood" count="30" tool_category="Disassemble"/>
 		<drop event="Harvest" name="nail" count="10" tool_category="Disassemble"/>
-		<drop event="Harvest" name="nail" count="5" tool_category="DisassembleHammer"/>
 		<drop event="Harvest" name="glue" count="5" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
@@ -16042,8 +16041,8 @@
 			<property name="wood" value="20"/>
 			<property name="nail" value="10"/>
 		</property>
-		<drop event="Harvest" name="wood" count="20" tool_category="Disassemble"/>
-		<drop event="Harvest" name="nail" count="10" tool_category="Disassemble"/>
+		<drop event="Harvest" name="wood" count="10" tool_category="Disassemble"/>
+		<drop event="Harvest" name="nail" count="5" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="emptyComposterDesc"/>
@@ -16106,10 +16105,10 @@
 			<property name="animalHide" value="10"/>
 			<property name="ductTape" value="5"/>
 		</property>
-		<drop event="Harvest" name="forgedIron" count="10" tool_category="Disassemble"/>
-		<drop event="Harvest" name="wood" count="10" tool_category="Disassemble"/>
-		<drop event="Harvest" name="animalHide" count="10" tool_category="Disassemble"/>
-		<drop event="Harvest" name="ductTape" count="5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="forgedIron" count="5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="wood" count="5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="animalHide" count="5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="ductTape" count="2" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75"  stick_chance="1"/>
 		<property name="DescriptionKey" value="dewCollectorDesc"/>
@@ -16149,9 +16148,9 @@
 			<property name="nail" value="15"/>
 			<property name="glue" value="5"/>
 		</property>
-		<drop event="Harvest" name="wood" count="20" tool_category="Disassemble"/>
-		<drop event="Harvest" name="nail" count="15" tool_category="Disassemble"/>
-		<drop event="Harvest" name="glue" count="5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="wood" count="10" tool_category="Disassemble"/>
+		<drop event="Harvest" name="nail" count="7" tool_category="Disassemble"/>
+		<drop event="Harvest" name="glue" count="2" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="chickenCoopDesc"/>
@@ -16178,9 +16177,9 @@
 			<property name="nail" value="15"/>
 			<property name="glue" value="5"/>
 		</property>
-		<drop event="Harvest" name="wood" count="20" tool_category="Disassemble"/>
-		<drop event="Harvest" name="nail" count="15" tool_category="Disassemble"/>
-		<drop event="Harvest" name="glue" count="5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="wood" count="10" tool_category="Disassemble"/>
+		<drop event="Harvest" name="nail" count="7" tool_category="Disassemble"/>
+		<drop event="Harvest" name="glue" count="2" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Building"/>
@@ -16203,9 +16202,9 @@
 			<property name="nail" value="15"/>
 			<property name="glue" value="5"/>
 		</property>
-		<drop event="Harvest" name="wood" count="20" tool_category="Disassemble"/>
-		<drop event="Harvest" name="nail" count="15" tool_category="Disassemble"/>
-		<drop event="Harvest" name="glue" count="5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="wood" count="10" tool_category="Disassemble"/>
+		<drop event="Harvest" name="nail" count="7" tool_category="Disassemble"/>
+		<drop event="Harvest" name="glue" count="2" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Building"/>
@@ -16239,14 +16238,14 @@
 			<property name="Modules" value="tools,output"/>
 		</property>
 		<property class="RepairItems">
-			<property name="wood" value="10"/>
-			<property name="nail" value="7"/>
-			<property name="glue" value="2"/>
+			<property name="wood" value="20"/>
+			<property name="nail" value="15"/>
+			<property name="glue" value="5"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
-		<drop event="Harvest" name="wood" count="20" tool_category="Disassemble"/>
-		<drop event="Harvest" name="nail" count="15" tool_category="Disassemble"/>
-		<drop event="Harvest" name="glue" count="5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="wood" count="10" tool_category="Disassemble"/>
+		<drop event="Harvest" name="nail" count="7" tool_category="Disassemble"/>
+		<drop event="Harvest" name="glue" count="2" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="researchTableDesc"/>
@@ -16355,14 +16354,14 @@
 			<property name="Modules" value="tools,output"/>
 		</property>
 		<property class="RepairItems">
-			<property name="wood" value="10"/>
-			<property name="nail" value="7"/>
-			<property name="glue" value="2"/>
+			<property name="wood" value="20"/>
+			<property name="nail" value="15"/>
+			<property name="glue" value="5"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
-		<drop event="Harvest" name="wood" count="20" tool_category="Disassemble"/>
-		<drop event="Harvest" name="nail" count="15" tool_category="Disassemble"/>
-		<drop event="Harvest" name="glue" count="5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="wood" count="10" tool_category="Disassemble"/>
+		<drop event="Harvest" name="nail" count="7" tool_category="Disassemble"/>
+		<drop event="Harvest" name="glue" count="2" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="tailoringTableDesc"/>
@@ -16439,8 +16438,8 @@
 			<property name="Modules" value="tools,output"/>
 		</property>
 		<property class="RepairItems">
-			<property name="scrapIron" value="5"/>
-			<property name="ductTape" value="5"/>
+			<property name="scrapIron" value="10"/>
+			<property name="ductTape" value="10"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
 		<drop event="Harvest" name="scrapIron" count="5" tool_category="Disassemble"/>
