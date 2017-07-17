@@ -621,7 +621,7 @@
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="Water"/>
 				<property name="sourceModule2" value="land"/>
-				<property name="bounds" value="0,10000"/>
+				<property name="bounds" value="0,5000"/>
 				<property name="edgeFalloff" value="0.5"/>
 			</module>
 			
@@ -629,7 +629,7 @@
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="landMntWater"/>
 				<property name="sourceModule2" value="land"/>
-				<property name="bounds" value="0,10000"/> <!-- want more water make the value="" closer "0,1000" etc,. -->
+				<property name="bounds" value="0,5000"/> <!-- want more water make the value="" closer "0,1000" etc,. -->
 				<property name="edgeFalloff" value="0.5"/>
 			</module>
 			
