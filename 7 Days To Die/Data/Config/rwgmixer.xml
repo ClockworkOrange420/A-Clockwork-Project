@@ -535,7 +535,7 @@
 			</module>
 			<module name="land" type="ClampOutput">
 				<property name="sourceModule" value="scaleLandBase"/>
-				<property name="bounds" value="0.01,0.15"/>
+				<property name="bounds" value="0,0.05"/>
 			</module>
 			
 			<module name="landBase2" type="FastBillow" no_seed="true">
@@ -554,7 +554,7 @@
 			</module>
 			<module name="land2" type="ClampOutput">
 				<property name="sourceModule" value="scaleLandBase2"/>
-				<property name="bounds" value="0.01,0.15"/>
+				<property name="bounds" value="0,0.05"/>
 			</module>
 			
 			<module name="mountainsBase" type="FastNoise" no_seed="true">
