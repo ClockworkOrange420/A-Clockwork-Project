@@ -10721,7 +10721,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<drop event="Harvest" name="wood" count="4" tool_category="Harvest"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="doorKnob" count="1"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="1177" name="scrapIronWedgeTipStairs">
@@ -10752,10 +10752,26 @@
 		<property name="UpgradeRated.ToBlock" value="concreteWedgeTipStairs"/>
 	</block>
 	<block id="1180" name="houseFrontDoor1_v2">
-		<property name="Extends" value="houseFrontDoor1_v1"/>
-		<property name="Texture" value="241"/>
+		<property name="Class" value="DoorSecure"/>
+		<property name="Material" value="wood_regular"/>
+		<property name="LightOpacity" value="1"/>
+		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Doors/house_frontDoor1_v2Prefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
+		<property name="MultiBlockDim" value="1,2,1"/>
+		<property name="Tag" value="Door"/>
+		<property name="Place" value="Door"/>
+		<property name="PlaceEverywhere" value="true"/>
+		<property name="Mesh-Damage-1" value="Door/Door_DMG0"/>
+		<property name="Mesh-Damage-2" value="Door/Door_DMG1"/>
+		<property name="Mesh-Damage-3" value="Door/Door_DMG2"/>
+		<property name="Mesh-Damage-4" value="Door/Door_DMG3"/>
+		<property name="Mesh-Damage-5" value="Door/Door_DMG4"/>
+		<property name="OpenSound" value="open_door_wood"/>
+		<property name="CloseSound" value="close_door_wood"/>
+		<property class="RepairItems">
+			<property name="wood" value="10"/>
+		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="houseFrontDoor1_v3"/>
 			<property name="Item" value="scrapIron"/>
@@ -10764,6 +10780,9 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
 		<property name="DowngradeBlock" value="houseFrontDoor1_v1"/>
+		<drop event="Harvest" name="wood" count="4" tool_category="Harvest"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="1181" name="houseFrontDoor1_v3">
 		<property name="Extends" value="commercialDoor1_v3"/>
@@ -11116,12 +11135,37 @@
 	</block>
 	<!-- 3 Free -->
 	<block id="1226" name="houseFrontDoor2_v1">
-		<property name="Extends" value="houseFrontDoor1_v1"/>
+		<property name="Class" value="DoorSecure"/>
+		<property name="Material" value="wood_regular"/>
+		<property name="LightOpacity" value="1"/>
+		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Doors/house_frontDoor2_v1Prefab"/>
+		<property name="ModelOffset" value="0,0,0"/>
+		<property name="MultiBlockDim" value="1,2,1"/>
 		<property name="ImposterExchange" value="imposterCTRPlate" param1="70"/>
+		<property name="Tag" value="Door"/>
+		<property name="Place" value="Door"/>
+		<property name="PlaceEverywhere" value="true"/>
+		<property name="Mesh-Damage-1" value="Door/Door_DMG0"/>
+		<property name="Mesh-Damage-2" value="Door/Door_DMG1"/>
+		<property name="Mesh-Damage-3" value="Door/Door_DMG2"/>
+		<property name="Mesh-Damage-4" value="Door/Door_DMG3"/>
+		<property name="Mesh-Damage-5" value="Door/Door_DMG4"/>
+		<property name="OpenSound" value="open_door_wood"/>
+		<property name="CloseSound" value="close_door_wood"/>
+		<property class="RepairItems">
+			<property name="wood" value="10"/>
+		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="houseFrontDoor2_v2"/>
+			<property name="Item" value="wood"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
 		</property>
+		<property name="CustomUpgradeSound" value="place_block_wood"/>
+		<drop event="Harvest" name="wood" count="4" tool_category="Harvest"/>
+		<drop event="Destroy" name="doorKnob" count="1"/>
+		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="1227" name="houseFrontDoor2_v2">
 		<property name="Extends" value="houseFrontDoor1_v2"/>
