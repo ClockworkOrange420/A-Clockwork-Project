@@ -4185,7 +4185,7 @@
 		<!-- log spike 1 wood -->
 		<property name="Class" value="TrunkTip"/>
 		<property name="Damage" value="5"/>
-		<property name="Damage_received" value="15"/>
+		<property name="Damage_received" value="35"/>
 		<property name="Material" value="wood_regular"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
@@ -7029,7 +7029,7 @@
 		<property name="Extends" value="woodLogSpike1"/>
 		<property name="Material" value="wood+wood"/>
 		<property name="Damage" value="6"/>
-		<property name="Damage_received" value="8"/>
+		<property name="Damage_received" value="35"/>
 		<property name="Texture" value="379"/>
 		<property name="ImposterExchange" value="imposterPyramid" param1="119"/>
 		<property class="UpgradeBlock">
@@ -13100,7 +13100,7 @@
 		<!-- log spike 4 scrap -->
 		<property name="Extends" value="rWoodLogSpike2" param1="DowngradeBlock,RepairItems"/>
 		<property name="Damage" value="7"/>
-		<property name="Damage_received" value="12"/>
+		<property name="Damage_received" value="35"/>
 		<property name="Material" value="Mmetal_medium"/>
 		<property name="Texture" value="307"/>
 		<property name="ImposterExchange" value="imposterPyramid" param1="87"/>
@@ -13120,7 +13120,8 @@
 		<!-- log spike 5 rScrap -->
 		<property name="Extends" value="scrapIronLogSpike4"/>
 		<property name="Damage" value="8"/>
-		<property name="Damage_received" value="11"/>
+		<property name="Damage_received" value="35"/>
+		<property name="Material" value="Mmetal_hard"/>
 		<property name="Texture" value="352"/>
 		<property name="ImposterExchange" value="imposterPyramid" param1="110"/>
 		<property class="UpgradeBlock">
@@ -13163,7 +13164,7 @@
 		<!-- log spike 6 Steel -->
 		<property name="Class" value="TrunkTip"/>
 		<property name="Damage" value="9"/>
-		<property name="Damage_received" value="10"/>
+		<property name="Damage_received" value="35"/>
 		<property name="Material" value="Msteel"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
