@@ -23,11 +23,7 @@
 			<path_radius value="10" />
 			<hub_rule name="townSmall" prob="0.3"/>
 			<hub_rule name="townLarge" prob="0.3"/>
-			<hub_rule name="citySmall" prob="0.1"/>
-			<hub_rule name="Test" prob="0.1"/>
-			<!--
-			<hub_rule name="Test" prob="1"/>
-			-->
+			<hub_rule name="Test" prob="0.3"/>
 			
 			<wilderness_rule name="wildernessDefault" prob="1"/>
 			
@@ -68,7 +64,7 @@
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
 
-			<prefab_rule name="default"/>
+			<prefab_rule name="defaultTowns"/>
 			
 			<street_gen level="15" length_multiplier="4">
 				<axiom value="[FF*L]+[FFJK]+[FF*L]+[FFJK]"/>
@@ -88,7 +84,7 @@
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
 
-			<prefab_rule name="default"/>
+			<prefab_rule name="defaultTowns"/>
 			
 			<street_gen level="20" length_multiplier="4">
 				<axiom value="[FF*L]+[FFJK]+[FF*L]+[FFJK]"/>
@@ -183,6 +179,14 @@
 			<prefab rule="commercialGroup"/>
 			<prefab rule="downtownGroup"/>
 			<prefab rule="industrialGroup"/>
+			<prefab rule="ruralGroup"/>
+			<prefab rule="detailFillerGroup"/>
+		</prefab_rule>
+		
+		<prefab_rule name="defaultTowns">
+			<prefab rule="residentialOldGroup"/>
+			<prefab rule="residentialNewGroup"/>
+			<prefab rule="downtownTownGroup"/>
 			<prefab rule="ruralGroup"/>
 			<prefab rule="detailFillerGroup"/>
 		</prefab_rule>
@@ -298,6 +302,42 @@
 			<prefab name="store_salon" min_count="1" max_count="4" />
 		</prefab_rule>
 		
+		<prefab_rule name="downtownTownGroup">
+			<prefab name="store_gun_sm_01" max_count="3" prob="0.6"/>
+			<prefab name="store_pharmacy_sm_01" min_count="3" max_count="1"/>
+			<prefab name="store_hardware_sm_01" max_count="3" prob="0.6"/>
+			<prefab name="store_book_sm_01" max_count="3" prob="0.6"/>
+			<prefab name="store_grocery_sm_01" max_count="3" prob="0.6"/>
+			<prefab name="gas_station1" max_count="2"/>
+			<prefab name="gas_station2" max_count="2"/>
+			<prefab name="gas_station3" max_count="2"/>
+			<prefab name="gas_station4" max_count="2"/>
+			<prefab name="gas_station5" max_count="2"/>
+			<prefab name="diner_01" min_count="1" max_count="3"/>
+			<prefab name="diner_02" min_count="1" max_count="3"/>
+			<prefab name="fastfood_01" min_count="1" max_count="3"/>
+			<prefab name="fastfood_02" min_count="1" max_count="3"/>
+			<prefab name="fastfood_03" min_count="1" max_count="3"/>
+			<prefab name="store_autoparts_01" max_count="3"/>
+			<prefab name="skate_park_01"  max_count="1"/>
+			<prefab name="store_laundry_01" min_count="1" max_count="3" />
+			<prefab name="store_salon" min_count="1" max_count="4" />
+			<prefab name="business_red_brick_01" max_count="2"/>
+			<prefab name="business_red_brick_02" max_count="2"/>
+			<prefab name="business_red_brick_03" max_count="2"/>
+			<prefab name="business_red_brick_04" max_count="2"/>
+			<prefab name="business_red_brick_05" max_count="2"/>
+			<prefab name="business_red_brick_06" max_count="2"/>
+			<prefab name="business_red_brick_07" max_count="2"/>
+			<prefab name="business_tan_brick_01" max_count="2"/>
+			<prefab name="business_tan_brick_02" max_count="2"/>
+			<prefab name="business_tan_brick_03" max_count="2"/>
+			<prefab name="business_tan_brick_04" max_count="2"/>
+			<prefab name="business_tan_brick_05" max_count="2"/>
+			<prefab name="post_office_sm_01" max_count="1" />
+			<prefab name="bar_sm_01" max_count="1"/>
+		</prefab_rule>
+		
 		<prefab_rule name="downtownGroup">
 			<prefab name="business_red_brick_01" max_count="2"/>
 			<prefab name="business_red_brick_02" max_count="2"/>
@@ -390,10 +430,6 @@
 		</prefab_rule>
 		
 		<prefab_rule name="ruralGroup">	
-			<prefab name="blueberryfield_sm" max_count="3"/>
-			<prefab name="cornfield_sm" max_count="8"/>
-			<prefab name="cornfield_med" max_count="4"/>
-			<prefab name="potatofield_sm" max_count="2"/>	
 			<prefab name="barn_01" max_count="2"/>
 			<prefab name="barn_02" max_count="2"/>
 			<prefab name="barn_03" max_count="2"/>			
@@ -530,12 +566,12 @@
 			</module>
 			<module name="scaleLandBase" type="ScaleBiasOutput">
 				<property name="sourceModule" value="landT"/>
-				<property name="scale" value="0.15"/>
+				<property name="scale" value="0.015"/>
 				<property name="bias" value="0.25"/>
 			</module>
 			<module name="land" type="ClampOutput">
 				<property name="sourceModule" value="scaleLandBase"/>
-				<property name="bounds" value="0,0.05"/>
+				<property name="bounds" value="0.05,0.15"/>
 			</module>
 			
 			<module name="landBase2" type="FastBillow" no_seed="true">
@@ -549,12 +585,12 @@
 			</module>
 			<module name="scaleLandBase2" type="ScaleBiasOutput">
 				<property name="sourceModule" value="landT2"/>
-				<property name="scale" value="0.15"/>
+				<property name="scale" value="0.015"/>
 				<property name="bias" value="0.25"/>
 			</module>
 			<module name="land2" type="ClampOutput">
 				<property name="sourceModule" value="scaleLandBase2"/>
-				<property name="bounds" value="0,0.05"/>
+				<property name="bounds" value="0.05,0.15"/>
 			</module>
 			
 			<module name="mountainsBase" type="FastNoise" no_seed="true">
@@ -568,7 +604,7 @@
 			</module>
 			<module name="mountainsScaled" type="ScaleBiasOutput">
 				<property name="sourceModule" value="mountainsT"/>
-				<property name="scale" value="1.3"/>
+				<property name="scale" value="0.5"/>
 				<property name="bias" value="-0.4"/>
 			</module>
 			<module name="mountainsOutput" type="ClampOutput">
@@ -584,7 +620,7 @@
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="land"/>
 				<property name="sourceModule2" value="land2"/>
-				<property name="bounds" value="2500,5000"/>
+				<property name="bounds" value="2500,2600"/>
 				<property name="edgeFalloff" value="32"/>
 			</module>
 			
@@ -592,7 +628,7 @@
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="mountainsOutput"/>
 				<property name="sourceModule2" value="land"/>
-				<property name="bounds" value="0,5000"/> <!-- want more mountais? make value="" closer "0,2500" etc,. -->
+				<property name="bounds" value="0,2500"/> <!-- want more mountais? make value="" closer "0,2500" etc,. -->
 				<property name="edgeFalloff" value="32"/>
 			</module>
 			
@@ -600,7 +636,7 @@
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="landMnt2"/>
 				<property name="sourceModule2" value="land"/>
-				<property name="bounds" value="0,5000"/> <!-- want more mountais? make value="" closer "0,2500" etc,. -->
+				<property name="bounds" value="0,2500"/> <!-- want more mountais? make value="" closer "0,2500" etc,. -->
 				<property name="edgeFalloff" value="32"/>
 			</module>
 			
@@ -614,14 +650,14 @@
 			</module>
 			<module name="Water" type="ScaleOutput">
 				<property name="sourceModule" value="WaterOutput"/>
-				<property name="scale" value="0.15"/>
+				<property name="scale" value="0.30"/><!-- want water deeper? make value="" closer "0.20" etc,. -->
 			</module>
 			
 			<module name="landMntWater" type="Select" no_seed="true">
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="Water"/>
 				<property name="sourceModule2" value="land"/>
-				<property name="bounds" value="0,5000"/>
+				<property name="bounds" value="0,2500"/>
 				<property name="edgeFalloff" value="0.5"/>
 			</module>
 			
@@ -629,7 +665,7 @@
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="landMntWater"/>
 				<property name="sourceModule2" value="land"/>
-				<property name="bounds" value="0,5000"/> <!-- want more water make the value="" closer "0,1000" etc,. -->
+				<property name="bounds" value="0,2500"/> <!-- want more water closer to gether make the value="" closer "0,1000" etc,. -->
 				<property name="edgeFalloff" value="0.5"/>
 			</module>
 			
@@ -733,23 +769,23 @@
 		</biome_spawn_rule>
 		
 		<biome_spawn_rule name="plains">
-			<biome_generator range="0.1,0.3"/>
+			<biome_generator range="0.1,0.2"/>
 		</biome_spawn_rule>
 		
 		<biome_spawn_rule name="pine_forest">
-			<biome_generator range="0.3,0.4"/>
+			<biome_generator range="0.2,0.4"/>
 		</biome_spawn_rule>
 		
 		<biome_spawn_rule name="forest">
-			<biome_generator range="0.4,0.7"/>
+			<biome_generator range="0.4,0.6"/>
 		</biome_spawn_rule>
 		
 		<biome_spawn_rule name="burnt_forest">
-			<biome_generator range="0.7,0.8"/>
+			<biome_generator range="0.6,0.7"/>
 		</biome_spawn_rule>
 		
 		<biome_spawn_rule name="snow">
-			<biome_generator range="0.8,0.9"/>
+			<biome_generator range="0.7,0.9"/>
 		</biome_spawn_rule>
 		
 		<biome_spawn_rule name="wasteland">
@@ -759,32 +795,7 @@
 		<biome_spawn_rule name="radiated">
 			<distance_from_center range="30000,31000"/>
 		</biome_spawn_rule>
-		
-		<biome_spawn_rule name="pine_forest">
-			<terrain_generator range="50,70"/>
-		</biome_spawn_rule>
-		
-		<biome_spawn_rule name="snow">
-			<terrain_generator range="70,255"/>
-		</biome_spawn_rule>
-		
-		<biome_spawn_rule name="water">
-			<terrain_generator range="-31,-1"/>
-		</biome_spawn_rule>
-		
+
 	</biome_spawn_rules>
 	
-	<!-- Notes:
-	
-	 I do want to remove sharp peaks (not to cut - but to make its mountains look like hills).
-How should i take the parameters to start experimenting ?
-	
-	Size and shape of the biomes based off of frequencies when they get places but only for the random placed biomes. It also controls the dithering effect between biomes as well. The ones that use this rule <biome_generator range="0,1"/> in the biome list.
-	
-	Probably lower the scale some for the mountains modules. Once the land reaches 162m on the map display, the land wont go flat like it used to but be forced to have a peak and dip back down. Which results in the knife edge looking mountain ranges.
-If your mountains are giving sharp peaks in general you probably want to change the frequency used to FastNoise, FastBillow, Billow (with exceptions you can use the bias property to stretch and make the peaks more blunt at the tops. The RidgedMultifractal and FastRidgedMultifractal will naturally make sharp cuts and lines in the terrain, mountains and their peaks (again you can tweak the bias to make it more blunt except the peaks that reach 162m).
-
-edit: you can also lower the frequencies down as well but do so a little at a time. Example: if you had a frequency of 0.25 my next try would be 0.025 and see what I got. If that made it too flat for my liking I would then go 0.125 and cut the middle and then keep cutting the middle +/- and on and on till I found the sweet spot.
-Generally there is no reason to go beyond the thousandths mark (0.001), something that low in a frequency is pretty much flat for the terrain generator. 
-	-->
 </rwgmixer>
