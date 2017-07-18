@@ -48,11 +48,11 @@
 				
 				<texture depth="1" pos="236,117" name="WatchBottom03" size="350,350" texture="@file:Mods\ACPIcons\UI\DWatchBottom.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
 				
-				<sprite depth="2" pos="230,120" size="200,200" controller="HUDStatBar" stat_type="Health" visible="{statvisible}" name="BarContent" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="0" color="255,0,0" filldirection="radial360"/>
-				
+				<sprite depth="2" pos="180,123" size="308,208" controller="HUDStatBar" stat_type="Health" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="SemiCircle" justify="center" pivot="center" type="filled" fill="0" color="255,0,0" filldirection="Vertical"/>
+				<!--
 				<texture depth="3" pos="229,117" name="WatchMiddle" size="350,350" texture="@file:Mods\ACPIcons\UI\DWatchMiddle.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
-				
-				<sprite depth="4" pos="229,118" size="186,186" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}" name="BarContent" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="0" color="0,0,255" filldirection="radial360"/>
+				-->
+				<sprite depth="4" pos="280,123" size="308,208" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="SemiCircle" justify="center" pivot="center" flip="Horizontally" type="filled" fill="0" color="0,0,255" filldirection="Vertical"/>
 				
 				<texture depth="5" pos="229,117" name="WatchMiddle02" size="350,350" texture="@file:Mods\ACPIcons\UI\DWatchMiddle02.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
 				
@@ -66,7 +66,7 @@
 				<label depth="8" pos="185,106" size="240,240" name="TextContent" controller="PlayerStatsWindow" font_size="16" color="[beige]" justify="center" pivot="center" text="{playerlevel}"/>
 				<label depth="8" pos="230,149" size="240,240" name="dayTimeLabel" controller="MapStats" text=" [DECEA3]{mapdaytime}[-]" font_size="22" justify="center" pivot="center"/>
 				<label depth="8" pos="181,80" size="240,240" name="elevLabel" controller="MapStats"   text=" [DECEA3]{mapelevation} M[-]" font_size="20" justify="center" pivot="center"/>
-				
+				-->
 			</panel>
 		
 		<rect name="hud" pos="93,30" side="left" controller="BuffPopoutList" pivot="BottomLeft" >
