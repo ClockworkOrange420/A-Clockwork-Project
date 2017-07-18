@@ -1137,7 +1137,7 @@
 			<property name="DamageBlock" value="1"/>
 			<property name="Stamina_usage" value="5"/>
 			<property name="DamageBonus.crops" value="5"/>
-			<property name="DamageBonus.head" value="2.5"/>
+			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.organic" value="5"/>
 			<property name="ToolCategory.Crops" value="1"/>
 			<property name="ToolCategory.Harvest" value="1"/>
