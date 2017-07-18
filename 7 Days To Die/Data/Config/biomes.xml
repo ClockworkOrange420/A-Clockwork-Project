@@ -1237,7 +1237,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<Wind min="10" max="20" prob="0.9"/>
 			<Wind min="20" max="100" prob="0.1"/>
 			<Precipitation min="0" max="0" prob="1"/>
-      <ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="7"/>
+      <ParticleEffect prefab="ParticleEffects/hotembers" ChunkMargin="7"/>
     </weather>
 
 		<subbiome prob="0.02"> <!-- Burnt Forest Sub Biome Coal and Corpses -->
