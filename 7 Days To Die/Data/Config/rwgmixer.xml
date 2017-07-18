@@ -21,7 +21,7 @@
 			<cave_count value="1,8"/>
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
-			<hub_rule name="townLarge" prob="0.1"/>
+			<hub_rule name="townLarge" prob="0.3"/>
 			<hub_rule name="Test" prob="0.3"/>
 			
 			<wilderness_rule name="wildernessDefault" prob="1"/>
