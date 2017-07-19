@@ -688,7 +688,7 @@
 		<biome_generator name="vanilla">
 		
 			<module name="voronoi" type="Voronoi">
-				<property name="frequency" value="0.0008"/> <!-- want smaller biomes sizes? increase Value="" Vanilla was "0.0008" -->
+				<property name="frequency" value="0.0005"/> <!-- want smaller biomes sizes? increase Value="" Vanilla was "0.0008" -->
 				<property name="displacement" value="0.5"/>
 			</module>
 			<module name="biasOutput" type="BiasOutput">
@@ -705,9 +705,9 @@
 			
 			<module name="biomeJiggle" type="FastTurbulence">
 				<property name="sourceModule" value="biomeDither"/>
-				<property name="frequency" value="0.0016"/>
-				<property name="power" value="400"/>
-				<property name="roughness" value="1"/>
+				<property name="frequency" value="0.00016"/>
+				<property name="power" value="1000"/>
+				<property name="roughness" value="5"/>
 			</module>
 			
 			<module name="clampOutput" type="ClampOutput">
@@ -727,7 +727,7 @@
 		<biome_intensity_generator name="vanilla">
 		
 			<module name="voronoi" type="Voronoi">
-				<property name="frequency" value="0.0008"/> <!-- want smaller biomes sizes? increase Value="" Vanilla was "0.0008" -->
+				<property name="frequency" value="0.0005"/> <!-- want smaller biomes sizes? increase Value="" Vanilla was "0.0008" -->
 				<property name="displacement" value="0.5"/>
 				<property name="distanceEnabled" value="true"/>
 			</module>
@@ -745,9 +745,9 @@
 			
 			<module name="biomeJiggle" type="FastTurbulence">
 				<property name="sourceModule" value="biomeDither"/>
-				<property name="frequency" value="0.0016"/>
-				<property name="power" value="400"/>
-				<property name="roughness" value="1"/>
+				<property name="frequency" value="0.00016"/>
+				<property name="power" value="1000"/>
+				<property name="roughness" value="5"/>
 			</module>
 			
 			<module name="clampOutput" type="ClampOutput">
