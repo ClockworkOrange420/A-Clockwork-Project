@@ -1511,6 +1511,9 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="cloth" count="1" craft_time = "4" craft_exp_gain="14" >
 		<ingredient name="cottonPlant" count="2"/>
 	</recipe>
+	<recipe name="cloth" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" >
+		<ingredient name="cottonPlant" count="2"/>
+	</recipe>
 	<recipe name="clubBarbed" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Smithing_Table" craft_tool="anvil" >
 		<ingredient name="Barbed_Wire" count="10"/>
 		<ingredient name="wood" count="10"/>
@@ -2302,6 +2305,9 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="nail" count="3"/>
 	</recipe>
 	<recipe name="leather" count="2" craft_time = "4" craft_exp_gain="9" >
+		<ingredient name="animalHide" count="1"/>
+	</recipe>
+	<recipe name="leather" count="2" craft_time = "4" craft_exp_gain="9" craft_area="Tailoring_Table" >
 		<ingredient name="animalHide" count="1"/>
 	</recipe>
 	<recipe name="cntLockers" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
