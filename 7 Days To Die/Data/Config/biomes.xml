@@ -279,8 +279,8 @@ If you do not declare them, the decorations of the main biome are used.
 		<!-- random prob_min,_max per chunk where 0 equals no decoration and 256 means on every block -->
 		<!-- Decorations Main: Snow -->
 		<decorations>
-			<decoration type="prefab" name="rock_form02" prob=".001" rotatemax="7"/>
-			<decoration type="prefab" name="rock_form01" prob=".01" rotatemax="7"/>
+			<decoration type="prefab" name="rock_form02" prob="0.0007" rotatemax="7"/>
+			<decoration type="prefab" name="rock_form01" prob="0.0007" rotatemax="7"/>
 			<decoration type="prefab" name="resource_coal_pile" prob=".0007" rotatemax="7"/>
 			<decoration type="block" blockname="lootForestHelper" prob="0.00025"/>
 			<decoration type="block" blockname="rock05" prob ="0.005"/>
@@ -407,8 +407,8 @@ If you do not declare them, the decorations of the main biome are used.
 		<!-- Decorations Main: Maple Forest -->
 		<decorations>
 			<decoration type="block" blockname="lootForestHelper" prob="0.00025"/>
-			<decoration type="prefab" name="rock_form02" prob=".001" rotatemax="7"/>
-			<decoration type="prefab" name="rock_form01" prob=".01" rotatemax="7"/>
+			<decoration type="prefab" name="rock_form02" prob="0.0007" rotatemax="7"/>
+			<decoration type="prefab" name="rock_form01" prob="0.0007" rotatemax="7"/>
 			<decoration type="prefab" name="resource_lead_pile" prob=".0007" rotatemax="7"/>
 			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.003"/>
 			<decoration type="block" blockname="rock01" prob=".005"/>
@@ -582,8 +582,8 @@ If you do not declare them, the decorations of the main biome are used.
 		<!-- Decorations Main: Pine Forest -->
 		<decorations>
 			<decoration type="block" blockname="lootForestHelper" prob="0.00025"/>
-			<decoration type="prefab" name="rock_form02" prob=".001" rotatemax="7"/>
-			<decoration type="prefab" name="rock_form01" prob=".01" rotatemax="7"/>
+			<decoration type="prefab" name="rock_form02" prob="0.0007" rotatemax="7"/>
+			<decoration type="prefab" name="rock_form01" prob="0.0007" rotatemax="7"/>
 			<decoration type="prefab" name="resource_lead_pile" prob=".0007" rotatemax="7"/>
 			<decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.0007"/>
 			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.001"/>
@@ -748,7 +748,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="treeBurntPine01" prob="0.00025" rotatemax="7"/>
 			<decoration type="block" blockname="treeBurntPine02" prob="0.00025" rotatemax="7"/>
 			<decoration type="block" blockname="treeBurntPine03" prob="0.00025" rotatemax="7"/>
-			<decoration type="prefab" name="rock_form02" prob=".001" rotatemax="7"/>
+			<decoration type="prefab" name="rock_form02" prob="0.0007" rotatemax="7"/>
 			<decoration type="prefab" name="resource_coal_pile" prob=".0007" rotatemax="7"/>
 			<decoration type="block" blockname="treePlainsTree" prob="0.005" rotatemax="7"/>
 			<decoration type="block" blockname="rock01" prob=".001" rotatemax="3"/>
