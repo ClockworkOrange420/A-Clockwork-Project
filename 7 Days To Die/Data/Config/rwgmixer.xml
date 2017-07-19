@@ -688,7 +688,7 @@
 		<biome_generator name="vanilla">
 		
 			<module name="voronoi" type="Voronoi">
-				<property name="frequency" value="0.0005"/> <!-- want smaller biomes sizes? increase Value="" Vanilla was "0.0008" -->
+				<property name="frequency" value="0.00065"/> <!-- want smaller biomes sizes? increase Value="" Vanilla was "0.0008" -->
 				<property name="displacement" value="0.5"/>
 			</module>
 			<module name="biasOutput" type="BiasOutput">
@@ -727,7 +727,7 @@
 		<biome_intensity_generator name="vanilla">
 		
 			<module name="voronoi" type="Voronoi">
-				<property name="frequency" value="0.0005"/> <!-- want smaller biomes sizes? increase Value="" Vanilla was "0.0008" -->
+				<property name="frequency" value="0.00065"/> <!-- want smaller biomes sizes? increase Value="" Vanilla was "0.0008" -->
 				<property name="displacement" value="0.5"/>
 				<property name="distanceEnabled" value="true"/>
 			</module>
