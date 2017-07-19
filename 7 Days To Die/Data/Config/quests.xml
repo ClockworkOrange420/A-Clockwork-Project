@@ -76,7 +76,7 @@
 	<!-- Basic Survival 2 - Craft Plant Fiber Clothing /> -->
 	<quest id="quest_BasicSurvival2" group_name_key="Basic Survival" name_key="Plant Fiber Clothing 1/2" subtitle_key="Craft Plant Fiber Clothing" description_key="Craft plant fiber clothing to protect you from damage and keep you warm in cold weather. Gather plant fibers by attacking grass. Once you have the ingredients, access the Inventory and locate the Clothing category of the Crafting window." icon="ui_game_symbol_tailoring" category_key="Quest">
 		<objective type="FetchKeep" id="yuccaFibers" value="76" />
-		<objective type="Craft" id="Cordage" value="5" />
+		<objective type="FetchKeep" id="Cordage" value="5" />
 		<objective type="Craft" id="plantFiberPants" value="1" />
 		<objective type="Craft" id="plantFiberShirt" value="1" />
 		<objective type="Craft" id="plantFiberHood" value="1" />
@@ -101,6 +101,7 @@
 	<!-- Basic Survival 4 - Craft a Wooden Club /> -->	
 	<quest id="quest_BasicSurvival4" group_name_key="Basic Survival" name_key="Wooden Club" subtitle_key="Craft a Wooden Club" description_key="Gather wood by attacking trees or bushes. Once you have the ingredients, access the Inventory and locate Wooden Club in the Basics category of the Crafting window." icon="ui_game_symbol_club" category_key="Quest">
 		<objective type="FetchKeep" id="wood" value="10" />
+		
 		<objective type="Craft" id="clubWood" value="1" />
 		
 		<reward type="SkillPoints" value="1" />
@@ -113,7 +114,8 @@
 		<objective type="FetchKeep" id="yuccaFibers" value="2" />
 		<objective type="FetchKeep" id="feather" value="1" />
 		<objective type="FetchKeep" id="rockSmall" value="1" />
-		<objective type="Craft" id="Cordage" value="1" />
+		
+		<objective type="FetchKeep" id="Cordage" value="1" />
 		<objective type="Craft" id="woodenBow" value="1" />
 		<objective type="Craft" id="arrow" value="1" />
 		
@@ -160,6 +162,12 @@
 		<reward type="Quest" id="quest_BasicSurvival13" />
     </quest>
 	
+	
+	
+	<!--Problem-->
+	
+	
+	
 	<!--Build a workbench-->
 	<quest id="quest_BasicSurvival11" group_name_key="Basic Survival" name_key="Workbench" subtitle_key="Build a Workbench" description_key="To build a Workbench you will need to gather wood, nails and glue. Once you have the ingredients, access the Inventory and locate the Building category of the Crafting window." icon="ui_game_symbol_wrench" category_key="Quest">
 		<objective type="FetchKeep" id="wood" value="50" />
@@ -176,6 +184,8 @@
 	
 	<!-- Basic Survival 6 - Start a Base -->
 	<quest id="quest_BasicSurvival6" group_name_key="Basic Survival" name_key="Fortification" subtitle_key="Start a Base" description_key="Gather wood and craft Wooden Frames from the Basics category of the Crafting window in your workbench. Place Wooden Frames in the world by equipping them and using the secondary action. Upgrade them with a Stone Axe using the secondary action while you have extra wood in your Inventory." icon="ui_game_symbol_map_house" category_key="Quest">
+		
+		<objective type="FetchKeep" id="woodFrameBlock" value="10" />
 		<objective type="BlockPlace" id="woodFrameBlock" value="10" />
 		<objective type="BlockUpgrade" id="woodFrameBlock" value="10" />
 		
@@ -601,7 +611,7 @@
     </quest>
 	
 	<!--Armored to the core-->
-	<!--
+	
 	<quest id="quest_Armored01" group_name_key="quest_Armored0" name_key="quest_Armored01" subtitle_key="quest_Armored01_subtitle" description_key="quest_Armored01_description" icon="ui_game_symbol_defense" 
 	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
@@ -670,7 +680,7 @@
 		
 		<reward type="Item" id="forgedIron" value="500" />
 		<reward type="SkillPoints" value="10" />
-	</quest>-->
+	</quest>
 	
 	<!--Melee Weapons-->
 	
