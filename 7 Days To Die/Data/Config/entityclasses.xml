@@ -167,7 +167,7 @@
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="HeadDismemberBaseChance" value="0"/>
-	<property name="HeadDismemberBonusChance" value="0.08"/>
+	<property name="HeadDismemberBonusChance" value="0.05"/>
 	<property name="HeadDismemberThreshold" value="0.23"/> <!-- if the total damage exceeds that value, there is a chance for dismemberment -->
 	<property name="LowerLegDismemberThreshold" value="0.175"/>
 	<property name="LowerLegDismemberBaseChance" value="0"/>
@@ -177,10 +177,10 @@
 	<property name="UpperLegDismemberBonusChance" value="0.09"/>
 	<property name="LowerArmDismemberThreshold" value="0.105"/>
 	<property name="LowerArmDismemberBaseChance" value="0"/>
-	<property name="LowerArmDismemberBonusChance" value="0.9"/>
+	<property name="LowerArmDismemberBonusChance" value="0.09"/>
 	<property name="UpperArmDismemberThreshold" value="0.105"/>
 	<property name="UpperArmDismemberBaseChance" value="0"/>
-	<property name="UpperArmDismemberBonusChance" value="0.9"/>
+	<property name="UpperArmDismemberBonusChance" value="0.09"/>
 	<property name="LegCrawlerThreshold" value="0"/> <!-- at like .175 nearly every zombie knocked down from a leg hit turns into a crawler -->
 	<property name="LegCrippleThreshold" value="0.01"/>
 	<property name="KnockdownProneDamageThreshold" value="0.5"/>
@@ -235,7 +235,7 @@
 	<property name="Buffs" value="zombieRadiatedBuff80"/>
 	<!-- Radiated zombie decap rules -->
 	<property name="HeadDismemberBaseChance" value="-.15"/>
-	<property name="HeadDismemberBonusChance" value="0.08"/>
+	<property name="HeadDismemberBonusChance" value="0.05"/>
 	<property name="HeadDismemberThreshold" value="0.38"/>
 	<property name="LowerLegDismemberThreshold" value="0.325"/>
 	<property name="LowerLegDismemberBaseChance" value="-.15"/>
@@ -245,10 +245,10 @@
 	<property name="UpperLegDismemberBonusChance" value="0.09"/>
 	<property name="LowerArmDismemberThreshold" value="0.255"/>
 	<property name="LowerArmDismemberBaseChance" value="-.15"/>
-	<property name="LowerArmDismemberBonusChance" value="0.9"/>
+	<property name="LowerArmDismemberBonusChance" value="0.09"/>
 	<property name="UpperArmDismemberThreshold" value="0.255"/>
 	<property name="UpperArmDismemberBaseChance" value="-.15"/>
-	<property name="UpperArmDismemberBonusChance" value="0.9"/>
+	<property name="UpperArmDismemberBonusChance" value="0.09"/>
 	<property name="LegCrawlerThreshold" value="0"/>
 	<property name="LegCrippleThreshold" value="0.01"/>
 	<property name="KnockdownProneDamageThreshold" value="0.45"/>
@@ -814,7 +814,7 @@
 	<property name="Buffs" value="zombieRadiatedBuff40"/>
 	<!-- Radiated zombie decap rules -->
 	<property name="HeadDismemberBaseChance" value="-.15"/>
-	<property name="HeadDismemberBonusChance" value="0.08"/>
+	<property name="HeadDismemberBonusChance" value="0.05"/>
 	<property name="HeadDismemberThreshold" value="0.38"/>
 	<property name="LowerLegDismemberThreshold" value="0.325"/>
 	<property name="LowerLegDismemberBaseChance" value="-.15"/>
@@ -824,10 +824,10 @@
 	<property name="UpperLegDismemberBonusChance" value="0.09"/>
 	<property name="LowerArmDismemberThreshold" value="0.255"/>
 	<property name="LowerArmDismemberBaseChance" value="-.15"/>
-	<property name="LowerArmDismemberBonusChance" value="0.9"/>
+	<property name="LowerArmDismemberBonusChance" value="0.09"/>
 	<property name="UpperArmDismemberThreshold" value="0.255"/>
 	<property name="UpperArmDismemberBaseChance" value="-.15"/>
-	<property name="UpperArmDismemberBonusChance" value="0.9"/>
+	<property name="UpperArmDismemberBonusChance" value="0.09"/>
 	<property name="LegCrawlerThreshold" value="0"/>
 	<property name="LegCrippleThreshold" value="0.01"/>
 	<property name="KnockdownProneDamageThreshold" value="0.45"/>
@@ -976,7 +976,7 @@
 	<property name="Explosion.BlockDamage" value="500"/>
 	<property name="Explosion.EntityDamage" value="150"/>
 	<property name="Explosion.DamageBonus.earth" value="0"/>
-	<property name="HeadDismemberBonusChance" value="0.08"/>
+	<property name="HeadDismemberBonusChance" value="0.05"/>
 	<property name="HeadDismemberThreshold" value="0"/>
 	<property name="LowerLegDismemberThreshold" value="0"/>
 	<property name="UpperLegDismemberThreshold" value="0"/>
@@ -2228,7 +2228,7 @@
 </entity_classes>
 <!-- Radiated, harder to decap
 	<property name="HeadDismemberBaseChance" value="-.15"/>
-	<property name="HeadDismemberBonusChance" value="0.08"/>
+	<property name="HeadDismemberBonusChance" value="0.05"/>
 	<property name="HeadDismemberThreshold" value="0.38"/>
 	<property name="LowerLegDismemberThreshold" value="0.325"/>
 	<property name="LowerLegDismemberBaseChance" value="-.15"/>
@@ -2238,10 +2238,10 @@
 	<property name="UpperLegDismemberBonusChance" value="0.09"/>
 	<property name="LowerArmDismemberThreshold" value="0.255"/>
 	<property name="LowerArmDismemberBaseChance" value="-.15"/>
-	<property name="LowerArmDismemberBonusChance" value="0.9"/>
+	<property name="LowerArmDismemberBonusChance" value="0.09"/>
 	<property name="UpperArmDismemberThreshold" value="0.255"/>
 	<property name="UpperArmDismemberBaseChance" value="-.15"/>
-	<property name="UpperArmDismemberBonusChance" value="0.9"/>
+	<property name="UpperArmDismemberBonusChance" value="0.09"/>
 	<property name="LegCrawlerThreshold" value="0"/>
 	<property name="LegCrippleThreshold" value="0.01"/>
 	<property name="KnockdownProneDamageThreshold" value="0.45"/>
