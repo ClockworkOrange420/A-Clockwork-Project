@@ -12538,10 +12538,9 @@
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 		<property name="Model" value="OutdoorDecor/mushroom01" param1="main_mesh"/>
 		<property name="HandleFace" value="Bottom"/>
-		<property name="CanPickup" value="true" param1="mushrooms"/>
 		<property name="IsTerrainDecoration" value="true"/>
-		<drop event="Harvest" name="mushroomSeed" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="mushroomSeed" count="1" prob="0.25" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="plantedMushroom1" count="1" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="plantedMushroom1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="mushrooms" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="mushrooms" count="1" prob="0.25" tool_category="Crops"/>
 		<drop event="Destroy" count="0"/>
