@@ -201,8 +201,8 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="rock05" prob ="0.001"/>
 				<decoration type="block" blockname="rock06" prob ="0.001"/>
 				<decoration type="block" blockname="rock07" prob ="0.001"/>
-				<decoration type="block" blockname="rockResource" prob ="0.025" rotatemax="3"/>
-				<decoration type="block" blockname="rockResource02" prob ="0.025" rotatemax="3"/>
+				<decoration type="block" blockname="rockResource" prob ="0.005" rotatemax="3"/>
+				<decoration type="block" blockname="rockResource02" prob ="0.005" rotatemax="3"/>
 				<decoration type="block" blockname="cntBirdnest" prob ="0.002"/>
 				<decoration type="block" blockname="lootForestHelper" prob="0.001"/>
 				<decoration type="block" blockname="plantedBlueberry3Harvest" prob=".002"/>
@@ -238,8 +238,8 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="rock05" prob ="0.001"/>
 				<decoration type="block" blockname="rock06" prob ="0.001"/>
 				<decoration type="block" blockname="rock07" prob ="0.001"/>
-				<decoration type="block" blockname="rockResource" prob ="0.025" rotatemax="3"/>
-				<decoration type="block" blockname="rockResource02" prob ="0.025" rotatemax="3"/>
+				<decoration type="block" blockname="rockResource" prob ="0.005" rotatemax="3"/>
+				<decoration type="block" blockname="rockResource02" prob ="0.005" rotatemax="3"/>
 				<decoration type="block" blockname="lootForestHelper" prob="0.001"/>
 				<decoration type="block" blockname="snowberry3Harvest" prob ="0.001"/>
 				<decoration type="block" blockname="treeSnowyGrassDiagonal" prob ="0.4"/>
