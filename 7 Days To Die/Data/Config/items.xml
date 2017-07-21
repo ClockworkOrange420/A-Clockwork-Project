@@ -372,7 +372,7 @@
 			<property name="DamageBonus.stone" value="0.01"/>
 			<property name="DamageBonus.organic" value="0.01"/>
 			<property name="ToolCategory.Crops" value="1"/>
-			<property name="ActionExp" value="4"/>
+			<property name="ActionExp" value="1"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
@@ -1509,7 +1509,7 @@
 			<property name="DamageBonus.stone" value="2"/>
 			<property name="DamageBonus.metal" value="2"/>
 			<property name="DamageBonus.organic" value="1"/>
-			<property name="ActionExp" value="1"/>
+			<property name="ActionExp" value="2"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 			<property name="ToolCategory.Butcher" value="0.25" param1="10"/>
 			<property name="ToolCategory.Harvest" value="1"/>
@@ -1576,7 +1576,7 @@
 			<property name="DamageBonus.metal" value="0.25"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.organic" value="1"/>
-			<property name="ActionExp" value="1"/>
+			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 			<property name="ToolCategory.Butcher" value="0.25" param1="10"/>
 			<property name="ToolCategory.Harvest" value="1"/>
@@ -1640,6 +1640,7 @@
 			<property name="DamageBonus.stone" value="2"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="4"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
 		<property class="Attributes">
@@ -1666,6 +1667,8 @@
 			<property name="DamageBonus.head" value="1"/>
 			<property name="DamageBonus.stone" value="2.5"/>
 			<property name="DamageBonus.metal" value="3"/>
+			<property name="ActionExp" value="6"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
 		<property class="Attributes">
@@ -1706,6 +1709,7 @@
 			<property name="DamageBonus.organic" value="2"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="4"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="5,15"/>
@@ -1748,6 +1752,7 @@
 			<property name="DamageBonus.organic" value="2"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="4"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="8,19"/>
@@ -1809,6 +1814,7 @@
 			<property name="DamageBonus.metal" value="0.1"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="4"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<property name="Class" value="MakeFertile"/>
@@ -1862,6 +1868,8 @@
 			<property name="Sound_harvesting" value="wrench_harvest" param1="metal"/>
 			<property name="Particle_harvesting" value="true" param1="metal"/>
 			<property name="ToolCategory.Harvest" value="1"/>
+			<property name="ActionExp" value="4"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -1911,7 +1919,7 @@
 			<property name="DamageBonus.earth" value="1"/>
 			<property name="ToolCategory.DisassembleHammer" value="1"/>
 			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 		</property>
 		<property class="Action1">
@@ -1973,8 +1981,8 @@
 			<property name="Sound_reload" value="nailgun_reload"/>
 			<property name="DamageBonus.head" value="6"/>
 			<property name="DamageBonus.glass" value="1"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="1"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -2039,6 +2047,7 @@
 			<property name="UseMeleeCrosshair" value="true"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="1"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 			<!-- xxx trains blade weapons SUPER fast but ActionExp cannot be set lower than 1 -->
 		</property>
 		<property name="Group" value="Tools/Traps"/>
@@ -2093,6 +2102,7 @@
 			<property name="UseMeleeCrosshair" value="true"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="1"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
@@ -2120,7 +2130,6 @@
 			<property name="DegradationRate" value="20,2"/>
 		</property>
 		<property name="Group" value="Tools/Traps,Science"/>
-		<property name="ActionSkillGroup" value="Construction Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 		<property name="RepairExpMultiplier" value="5.5"/>
 		<property name="PickupJournalEntry" value="wireToolTip"/>
@@ -2162,7 +2171,6 @@
 			<property name="DegradationRate" value="5,1"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
-		<property name="ActionSkillGroup" value="Construction Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 		<property name="RepairExpMultiplier" value="5.5"/>
 		<property name="PickupJournalEntry" value="paintingTip"/>
@@ -7584,7 +7592,7 @@
 		<property name="Extends" value="schematicMaster"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Mining_Tools_Skill"/>
-			<property name="ActionExp" value="5000"/>
+			<property name="ActionExp" value="3000"/>
 		</property>
 	</item>
 	<item id="915" name="Pistols">

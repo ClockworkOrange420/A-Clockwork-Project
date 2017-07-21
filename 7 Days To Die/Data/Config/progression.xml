@@ -3,7 +3,7 @@
 <progression>
 <player
 	max_level="200"
-	exp_to_level="21050"
+	exp_to_level="19050"
 	experience_multiplier="1"
 	skill_points_per_level="5"
 	skill_point_multiplier="0"/>
@@ -66,7 +66,7 @@
 		</effect>
 	</action_skill>
 	
-	<action_skill name="Mining Tools" exp_to_level="10000" skill_point_cost_per_level="0" icon="mining" description_key="Do more damage with mining tools. Gain skill by using items from this group." title_key="Mining Tools" group="tools">
+	<action_skill name="Mining Tools" exp_to_level="6000" skill_point_cost_per_level="0" icon="mining" description_key="Do more damage with mining tools. Gain skill by using items from this group." title_key="Mining Tools" group="tools">
 		<effect name="BlockDamage">
 			<multiply skill_level="1,100" value="1,2"/>
 		</effect>
