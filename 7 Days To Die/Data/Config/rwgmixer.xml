@@ -21,8 +21,9 @@
 			<cave_count value="1,8"/>
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
-			<hub_rule name="townLarge" prob="0.3"/>
-			<hub_rule name="Test" prob="0.3"/>
+			<hub_rule name="townSmall" prob="0.1"/>
+			<!--
+			<hub_rule name="Test" prob="0.3"/>-->
 			
 			<wilderness_rule name="wildernessDefault" prob="1"/>
 			
@@ -555,41 +556,41 @@
 		<terrain_generator name="vanilla" use_old_final="false">
 		
 			<module name="landBase" type="FastBillow" no_seed="true">
-				<property name="frequency" value="0.02"/>
+				<property name="frequency" value="0.2"/>
 			</module>
 			<module name="landT" type="FastTurbulence">
 				<property name="sourceModule" value="landBase"/>
 				<property name="power" value="5"/>
-				<property name="frequency" value="0.025"/>
+				<property name="frequency" value="0.25"/>
 				<property name="roughness" value="8"/>
 			</module>
 			<module name="scaleLandBase" type="ScaleBiasOutput">
 				<property name="sourceModule" value="landT"/>
-				<property name="scale" value="0.015"/>
-				<property name="bias" value="0.25"/>
+				<property name="scale" value="0.15"/>
+				<property name="bias" value="0.15"/>
 			</module>
 			<module name="land" type="ClampOutput">
 				<property name="sourceModule" value="scaleLandBase"/>
-				<property name="bounds" value="0.05,0.15"/>
+				<property name="bounds" value="0.05,0.25"/>
 			</module>
 			
 			<module name="landBase2" type="FastBillow" no_seed="true">
-				<property name="frequency" value="0.02"/>
+				<property name="frequency" value="0.2"/>
 			</module>
 			<module name="landT2" type="FastTurbulence">
 				<property name="sourceModule" value="landBase2"/>
 				<property name="power" value="5"/>
-				<property name="frequency" value="0.025"/>
+				<property name="frequency" value="0.25"/>
 				<property name="roughness" value="8"/>
 			</module>
 			<module name="scaleLandBase2" type="ScaleBiasOutput">
 				<property name="sourceModule" value="landT2"/>
-				<property name="scale" value="0.015"/>
-				<property name="bias" value="0.25"/>
+				<property name="scale" value="0.15"/>
+				<property name="bias" value="0.14"/>
 			</module>
 			<module name="land2" type="ClampOutput">
 				<property name="sourceModule" value="scaleLandBase2"/>
-				<property name="bounds" value="0.05,0.15"/>
+				<property name="bounds" value="0.05,0.25"/>
 			</module>
 			
 			<module name="mountainsBase" type="FastNoise" no_seed="true">
@@ -645,7 +646,7 @@
 			</module>
 			<module name="WaterOutput" type="BiasOutput">
 				<property name="sourceModule" value="WaterBase"/>
-				<property name="bias" value="0.8"/>
+				<property name="bias" value="0.75"/>
 			</module>
 			<module name="Water" type="ScaleOutput">
 				<property name="sourceModule" value="WaterOutput"/>

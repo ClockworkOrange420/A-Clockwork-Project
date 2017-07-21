@@ -5033,6 +5033,7 @@
 		<drop event="Harvest" name="plantedMushroom1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="mushrooms" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="mushrooms" count="1" prob="0.25" tool_category="Crops"/>
+		<drop event="Destroy" count="0"/>
 		<property name="PickupJournalEntry" value="farmingTip"/>
 		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
 	</block>
@@ -16118,7 +16119,7 @@
 		<property name="CustomIcon" value="rWoodPillar100"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="Class" value="Loot"/>
-		<property name="LootList" value="88"/>
+		<property name="LootList" value="101"/>
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
@@ -16170,7 +16171,7 @@
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="Appliances/ac_unit" param1="main_mesh"/>
 		<property name="CustomIcon" value="airConditioner"/>
-		<property name="LootList" value="101"/>
+		<property name="LootList" value="99"/>
 		<property name="DowngradeBlock" value="dewCollector_filling"/>
 		<drop event="Destroy" count="0"/>
 	</block>
