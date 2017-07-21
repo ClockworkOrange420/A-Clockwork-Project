@@ -212,7 +212,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <!--End-->
 <buff id="CoffeeStaminaBoost" duration="180" stack="extend" type="staminaup" icon="ui_game_symbol_coffee"
 	name_key="caffeineBuzz" description_key="caffeineBuzzDesc" tooltip_key="caffeineBuzzTooltip" causes="coffee">
-	<modify id="0" stat="stamina" amount="2" rate="1"/>
+	<modify id="0" stat="stamina" amount="3" rate="1"/>
 	<modify id="1" stat="coretemp" modifyValue="10"/>
 </buff>
 
