@@ -50,7 +50,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<wildcard_forge_category />
 	</recipe>
 	<recipe name="scrapIron" count="1" craft_area="forge" material_based="true" craft_time = "1" craft_exp_gain="0" >
-		<ingredient name="unit_iron" count="1"/>
+		<ingredient name="unit_iron" count="5"/>
 	</recipe>
 	<recipe name="scrapIron" count="1" tooltip="ttScrapMetalIron" >
 		<wildcard_forge_category />
