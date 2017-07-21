@@ -163,11 +163,11 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 
 -->
 <buff id="DrinkBeer" duration="1" actions="increment(beers, 1, 0, 0, 1)">
-	<modify id="0" stat="stamina" amount="2" rate="1"/>
+	<modify id="0" stat="stamina" amount="3" rate="1"/>
 </buff>
 
 <buff id="DrinkGrainAlcohol" duration="1" actions="increment(beers, 4, 0, 0, 1)">
-	<modify id="0" stat="stamina" amount="2" rate="1"/>
+	<modify id="0" stat="stamina" amount="3" rate="1"/>
 </buff>
 
 <buff id="MetabolizeBeer" buffif="beers greater 0" debuffif="beers less 1" actions="increment(beers, -1, 100t, 0, 0);min(beers, 0)"/>
