@@ -1372,7 +1372,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="Cordage" count="1" craft_time = "4" craft_exp_gain="9" >
 		<ingredient name="yuccaFibers" count="2"/>
 	</recipe>
-	<recipe name="Cordage" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+	<recipe name="Cordage" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Tailoring_Table" >
 		<ingredient name="yuccaFibers" count="2"/>
 	</recipe>
 	<recipe name="barbedFence" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
