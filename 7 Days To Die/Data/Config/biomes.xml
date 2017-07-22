@@ -140,34 +140,26 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Snow Main Biome -->
 	<biome name="snow" biomemapcolor="#FFFFFF">
 		<weather>
-			<Temperature min="-75" max="-75" prob="1"/>
-			<Fog min="0" max="0" prob="0.75"/>
-			<Fog min="25" max="25" prob="0.24"/>
-			<Fog min="50" max="50" prob="0.16"/>
-			<Fog min="100" max="100" prob="0.08"/>
-			<!-- Cloud Density *Must be above 70 to Rain* -->
-			<CloudThickness min="0" max="0" prob="0.32"/>
-			<CloudThickness min="25" max="25" prob="0.24"/>
-			<CloudThickness min="70" max="70" prob="0.16"/>
-			<CloudThickness min="100" max="100" prob="0.08"/>
+			<Temperature min="-90" max="-90" prob="0"/>
+			<Fog min="0" max="5" prob="0.15"/>
+			<Fog min="0" max="0" prob="0.25"/>
+			<!-- Cloud Density *Must be above 60 to Rain* -->
+			<CloudThickness min="70" max="100" prob="0.25"/>
+			<CloudThickness min="50" max="70" prob="0.25"/>
+			<CloudThickness min="25" max="50" prob="0.25"/>
+			<CloudThickness min="0" max="25" prob="0.25"/>
 			<!-- Rain Density -->
-			<Precipitation min="5" max="5" prob="0.82"/>
-			<Precipitation min="10" max="10" prob="0.75"/>
-			<Precipitation min="20" max="20" prob="0.67"/>
-			<Precipitation min="30" max="30" prob="0.6"/>
-			<Precipitation min="40" max="40" prob="0.52"/>
-			<Precipitation min="50" max="50" prob="0.45"/>
-			<Precipitation min="60" max="60" prob="0.37"/>
-			<Precipitation min="70" max="60" prob="0.3"/>
-			<Precipitation min="80" max="80" prob="0.22"/>
-			<Precipitation min="90" max="90" prob="0.15"/>
-			<Precipitation min="100" max="100" prob="0.07"/>
+			<Precipitation min="100" max="100" prob="0.2"/>
+			<Precipitation min="50" max="75" prob="0.2"/>
+			<Precipitation min="25" max="50" prob="0.2"/>
+			<Precipitation min="0" max="25" prob="0.2"/>
+			<Precipitation min="0" max="0" prob="0.2"/>
 			<!-- Wind spd -->
-			<Wind min="0" max="0" prob="0.3"/>
-			<Wind min="25" max="25" prob="0.3"/>
-			<Wind min="50" max="50" prob="0.3"/>
-			<Wind min="100" max="100" prob="0.1"/>
-			<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="7"/>
+			<Wind min="75" max="100" prob="0.25"/>
+			<Wind min="50" max="75" prob="0.25"/>
+			<Wind min="25" max="50" prob="0.25"/>
+			<Wind min="25" max="50" prob="0.25"/>
+			<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="7"/> 
 		</weather>
 		<replacements> <!-- This affects only the grow event of blocks/plants. Grown blocks of one type are auto-replaced by the second.  -->
 			<replace source="treeTallGrassDiagonal" target="treeSnowyGrassDiagonal"/>
@@ -323,34 +315,26 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Forest Main Biome -->
 	<biome name="forest" biomemapcolor="#008D00" >
 		<weather>
-			<Temperature min="-10" max="-10" prob="1"/>
-			<Fog min="0" max="0" prob="0.75"/>
-			<Fog min="25" max="25" prob="0.24"/>
-			<Fog min="50" max="50" prob="0.16"/>
-			<Fog min="100" max="100" prob="0.08"/>
-			<!-- Cloud Density *Must be above 70 to Rain* -->
-			<CloudThickness min="0" max="0" prob="0.32"/>
-			<CloudThickness min="25" max="25" prob="0.24"/>
-			<CloudThickness min="70" max="70" prob="0.16"/>
-			<CloudThickness min="100" max="100" prob="0.08"/>
+			<Temperature min="-30" max="-30" prob="1"/>
+			<Fog min="0" max="5" prob="0.15"/>
+			<Fog min="0" max="0" prob="0.25"/>
+			<!-- Cloud Density *Must be above 60 to Rain* -->
+			<CloudThickness min="70" max="100" prob="0.25"/>
+			<CloudThickness min="50" max="70" prob="0.25"/>
+			<CloudThickness min="25" max="50" prob="0.25"/>
+			<CloudThickness min="0" max="25" prob="0.25"/>
 			<!-- Rain Density -->
-			<Precipitation min="5" max="5" prob="0.82"/>
-			<Precipitation min="10" max="10" prob="0.75"/>
-			<Precipitation min="20" max="20" prob="0.67"/>
-			<Precipitation min="30" max="30" prob="0.6"/>
-			<Precipitation min="40" max="40" prob="0.52"/>
-			<Precipitation min="50" max="50" prob="0.45"/>
-			<Precipitation min="60" max="60" prob="0.37"/>
-			<Precipitation min="70" max="60" prob="0.3"/>
-			<Precipitation min="80" max="80" prob="0.22"/>
-			<Precipitation min="90" max="90" prob="0.15"/>
-			<Precipitation min="100" max="100" prob="0.07"/>
+			<Precipitation min="100" max="100" prob="0.2"/>
+			<Precipitation min="50" max="75" prob="0.2"/>
+			<Precipitation min="25" max="50" prob="0.2"/>
+			<Precipitation min="0" max="25" prob="0.2"/>
+			<Precipitation min="0" max="0" prob="0.2"/>
 			<!-- Wind spd -->
-			<Wind min="0" max="0" prob="0.3"/>
-			<Wind min="25" max="25" prob="0.3"/>
-			<Wind min="50" max="50" prob="0.3"/>
-			<Wind min="100" max="100" prob="0.1"/>
-			<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="28"/>
+			<Wind min="75" max="100" prob="0.25"/>
+			<Wind min="50" max="75" prob="0.25"/>
+			<Wind min="25" max="50" prob="0.25"/>
+			<Wind min="0" max="25" prob="0.25"/>
+			<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="7" prob="0.3"/>
 		</weather>
 		
 		<subbiome prob="0.11"> <!-- Forest Sub Biome: Goldenrod, cotton, rocks -->
@@ -529,33 +513,25 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Pine Forest Main Biome  -->
 	<biome name="pine_forest" biomemapcolor="#004000" >
 		<weather>
-			<Temperature min="-40" max="-40" prob="1"/>
-			<Fog min="0" max="0" prob="0.75"/>
-			<Fog min="25" max="25" prob="0.24"/>
-			<Fog min="50" max="50" prob="0.16"/>
-			<Fog min="100" max="100" prob="0.08"/>
-			<!-- Cloud Density *Must be above 70 to Rain* -->
-			<CloudThickness min="0" max="0" prob="0.32"/>
-			<CloudThickness min="25" max="25" prob="0.24"/>
-			<CloudThickness min="70" max="70" prob="0.16"/>
-			<CloudThickness min="100" max="100" prob="0.08"/>
+			<Temperature min="-45" max="-45" prob="1"/>
+			<Fog min="0" max="5" prob="0.15"/>
+			<Fog min="0" max="0" prob="0.25"/>
+			<!-- Cloud Density *Must be above 60 to Rain* -->
+			<CloudThickness min="70" max="100" prob="0.25"/>
+			<CloudThickness min="50" max="70" prob="0.25"/>
+			<CloudThickness min="25" max="50" prob="0.25"/>
+			<CloudThickness min="0" max="25" prob="0.25"/>
 			<!-- Rain Density -->
-			<Precipitation min="5" max="5" prob="0.82"/>
-			<Precipitation min="10" max="10" prob="0.75"/>
-			<Precipitation min="20" max="20" prob="0.67"/>
-			<Precipitation min="30" max="30" prob="0.6"/>
-			<Precipitation min="40" max="40" prob="0.52"/>
-			<Precipitation min="50" max="50" prob="0.45"/>
-			<Precipitation min="60" max="60" prob="0.37"/>
-			<Precipitation min="70" max="60" prob="0.3"/>
-			<Precipitation min="80" max="80" prob="0.22"/>
-			<Precipitation min="90" max="90" prob="0.15"/>
-			<Precipitation min="100" max="100" prob="0.07"/>
+			<Precipitation min="100" max="100" prob="0.2"/>
+			<Precipitation min="50" max="75" prob="0.2"/>
+			<Precipitation min="25" max="50" prob="0.2"/>
+			<Precipitation min="0" max="25" prob="0.2"/>
+			<Precipitation min="0" max="0" prob="0.2"/>
 			<!-- Wind spd -->
-			<Wind min="0" max="0" prob="0.3"/>
-			<Wind min="25" max="25" prob="0.3"/>
-			<Wind min="50" max="50" prob="0.3"/>
-			<Wind min="100" max="100" prob="0.1"/>
+			<Wind min="75" max="100" prob="0.25"/>
+			<Wind min="50" max="75" prob="0.25"/>
+			<Wind min="0" max="25" prob="0.25"/>
+			<Wind min="25" max="50" prob="0.25"/>
 		</weather>
 
 		<subbiome prob="0.11"> <!-- Pine Forest Sub Biome Clustered Flowers and Boulders -->
@@ -720,33 +696,25 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Plains Main Biome-->
 	<biome name="plains" biomemapcolor="#00FF00" >
 		<weather>
-			<Temperature min="5" max="5" prob="1"/>
-			<Fog min="0" max="0" prob="0.3"/>
-			<Fog min="25" max="25" prob="0.5"/>
-			<Fog min="50" max="50" prob="0.15"/>
-			<Fog min="100" max="100" prob="0.05"/>
-			<!-- Cloud Density *Must be above 70 to Rain* -->
-			<CloudThickness min="0" max="0" prob="0.3"/>
-			<CloudThickness min="25" max="25" prob="0.5"/>
-			<CloudThickness min="70" max="70" prob="0.15"/>
-			<CloudThickness min="100" max="100" prob="0.05"/>
+			<Temperature min="-32" max="-32" prob="1"/>
+			<Fog min="0" max="5" prob="0.15"/>
+			<Fog min="0" max="0" prob="0.25"/>
+			<!-- Cloud Density *Must be above 60 to Rain* -->
+			<CloudThickness min="70" max="100" prob="0.25"/>
+			<CloudThickness min="50" max="70" prob="0.25"/>
+			<CloudThickness min="25" max="50" prob="0.25"/>
+			<CloudThickness min="0" max="25" prob="0.25"/>
 			<!-- Rain Density -->
-			<Precipitation min="5" max="5" prob="0.3"/>
-			<Precipitation min="10" max="10" prob="0.3"/>
-			<Precipitation min="20" max="20" prob="0.2"/>
-			<Precipitation min="30" max="30" prob="0.1"/>
-			<Precipitation min="40" max="40" prob="0.1"/>
-			<Precipitation min="50" max="50" prob="0"/>
-			<Precipitation min="60" max="60" prob="0"/>
-			<Precipitation min="70" max="60" prob="0"/>
-			<Precipitation min="80" max="80" prob="0"/>
-			<Precipitation min="90" max="90" prob="0"/>
-			<Precipitation min="100" max="100" prob="0"/>
+			<Precipitation min="100" max="100" prob="0.2"/>
+			<Precipitation min="50" max="75" prob="0.2"/>
+			<Precipitation min="25" max="50" prob="0.2"/>
+			<Precipitation min="0" max="25" prob="0.2"/>
+			<Precipitation min="0" max="0" prob="0.2"/>
 			<!-- Wind spd -->
-			<Wind min="0" max="0" prob="0.3"/>
-			<Wind min="25" max="25" prob="0.3"/>
-			<Wind min="50" max="50" prob="0.3"/>
-			<Wind min="100" max="100" prob="0.1"/>
+			<Wind min="75" max="100" prob="0.25"/>
+			<Wind min="50" max="75" prob="0.25"/>
+			<Wind min="25" max="50" prob="0.25"/>
+			<Wind min="0" max="25" prob="0.25"/>
 			<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="21"/>
 		</weather>
 
@@ -914,33 +882,23 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Desert Main Biome -->
 	<biome name="desert" biomemapcolor="#FFE477">
 		<weather>
-			<Temperature min="10" max="10" prob="1"/>
-			<Fog min="0" max="0" prob="0.3"/>
-			<Fog min="25" max="25" prob="0.5"/>
-			<Fog min="50" max="50" prob="0.15"/>
-			<Fog min="100" max="100" prob="0.05"/>
-			<!-- Cloud Density *Must be above 70 to Rain* -->
-			<CloudThickness min="0" max="0" prob="0.3"/>
-			<CloudThickness min="25" max="25" prob="0.5"/>
-			<CloudThickness min="70" max="70" prob="0.15"/>
-			<CloudThickness min="100" max="100" prob="0.05"/>
+			<Temperature min="0" max="0" prob="1"/>
+			<Fog min="0" max="5" prob="0.15"/>
+			<Fog min="0" max="0" prob="0.25"/>
+			<!-- Cloud Density *Must be above 60 to Rain* -->
+			<CloudThickness min="70" max="100" prob="0.25"/>
+			<CloudThickness min="50" max="70" prob="0.25"/>
+			<CloudThickness min="25" max="50" prob="0.25"/>
+			<CloudThickness min="0" max="25" prob="0.25"/>
 			<!-- Rain Density -->
-			<Precipitation min="5" max="5" prob="0.75"/>
-			<Precipitation min="10" max="10" prob="0.25"/>
-			<Precipitation min="20" max="20" prob="0.25"/>
-			<Precipitation min="30" max="30" prob="0"/>
-			<Precipitation min="40" max="40" prob="0"/>
-			<Precipitation min="50" max="50" prob="0"/>
-			<Precipitation min="60" max="60" prob="0"/>
-			<Precipitation min="70" max="60" prob="0"/>
-			<Precipitation min="80" max="80" prob="0"/>
-			<Precipitation min="90" max="90" prob="0"/>
-			<Precipitation min="100" max="100" prob="0"/>
+			<Precipitation min="25" max="50" prob="0.2"/>
+			<Precipitation min="0" max="25" prob="0.2"/>
+			<Precipitation min="0" max="0" prob="0.2"/>
 			<!-- Wind spd -->
-			<Wind min="0" max="0" prob="0.3"/>
-			<Wind min="25" max="25" prob="0.3"/>
-			<Wind min="50" max="50" prob="0.3"/>
-			<Wind min="100" max="100" prob="0.1"/>
+			<Wind min="75" max="100" prob="0.25"/>
+			<Wind min="50" max="75" prob="0.25"/>
+			<Wind min="25" max="50" prob="0.25"/>
+			<Wind min="0" max="25" prob="0.25"/>
 			<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="7"/>
 			<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="21"/>
 		</weather>
@@ -1082,17 +1040,25 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Water Main Biome -->
 	<biome name="water" biomemapcolor="#0063ff">
 		<weather>
-			<Temperature min="0" max="0" prob="1"/>
-			<CloudThickness min="5" max="50" prob="1"/>
-			<Fog min="0" max="0" prob=".9"/>
-			<Fog min="100" max="100" prob=".1"/>
-			<CloudThickness min="0" max="0" prob=".3"/>
-			<CloudThickness min="10" max="70" prob=".6"/>
-			<CloudThickness min="100" max="100" prob=".1"/>
-			<Precipitation min="0" max="0" prob=".0"/>
-			<Precipitation min="50" max="100" prob=".75"/>
-			<Wind min="10" max="20" prob="0.9"/>
-			<Wind min="20" max="100" prob="0.1"/>
+			<Temperature min="-10" max="-10" prob="1"/>
+			<Fog min="0" max="5" prob="0.15"/>
+			<Fog min="0" max="0" prob="0.25"/>
+			<!-- Cloud Density *Must be above 60 to Rain* -->
+			<CloudThickness min="70" max="100" prob="0.25"/>
+			<CloudThickness min="50" max="70" prob="0.25"/>
+			<CloudThickness min="25" max="50" prob="0.25"/>
+			<CloudThickness min="0" max="25" prob="0.25"/>
+			<!-- Rain Density -->
+			<Precipitation min="100" max="100" prob="0.2"/>
+			<Precipitation min="50" max="75" prob="0.2"/>
+			<Precipitation min="25" max="50" prob="0.2"/>
+			<Precipitation min="0" max="25" prob="0.2"/>
+			<Precipitation min="0" max="0" prob="0.2"/>
+			<!-- Wind spd -->
+			<Wind min="75" max="100" prob="0.25"/>
+			<Wind min="50" max="75" prob="0.25"/>
+			<Wind min="25" max="50" prob="0.25"/>
+			<Wind min="0" max="25" prob="0.25"/>
 		</weather>
 		<subbiome prob="0.05"> <!-- Water Sub Biome: Clay -->
 			<layers>
@@ -1249,33 +1215,25 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Wasteland Main Biome -->
 	<biome name="wasteland" biomemapcolor="#ffa800" >
 		<weather>
-			<Temperature min="-5" max="5" prob="1"/>
-			<Fog min="0" max="0" prob="0.75"/>
-			<Fog min="25" max="25" prob="0.24"/>
-			<Fog min="50" max="50" prob="0.16"/>
-			<Fog min="100" max="100" prob="0.08"/>
-			<!-- Cloud Density *Must be above 70 to Rain* -->
-			<CloudThickness min="0" max="0" prob="0.32"/>
-			<CloudThickness min="25" max="25" prob="0.24"/>
-			<CloudThickness min="70" max="70" prob="0.16"/>
-			<CloudThickness min="100" max="100" prob="0.08"/>
+			<Temperature min="-30" max="-10" prob="1"/>
+			<Fog min="0" max="5" prob="0.15"/>
+			<Fog min="0" max="0" prob="0.25"/>
+			<!-- Cloud Density *Must be above 60 to Rain* -->
+			<CloudThickness min="70" max="100" prob="0.25"/>
+			<CloudThickness min="50" max="70" prob="0.25"/>
+			<CloudThickness min="25" max="50" prob="0.25"/>
+			<CloudThickness min="0" max="25" prob="0.25"/>
 			<!-- Rain Density -->
-			<Precipitation min="0" max="0" prob="0.82"/>
-			<Precipitation min="10" max="10" prob="0.75"/>
-			<Precipitation min="20" max="20" prob="0.67"/>
-			<Precipitation min="30" max="30" prob="0.6"/>
-			<Precipitation min="40" max="40" prob="0.52"/>
-			<Precipitation min="50" max="50" prob="0.45"/>
-			<Precipitation min="60" max="60" prob="0.37"/>
-			<Precipitation min="70" max="60" prob="0.3"/>
-			<Precipitation min="80" max="80" prob="0.22"/>
-			<Precipitation min="90" max="90" prob="0.15"/>
-			<Precipitation min="100" max="100" prob="0.07"/>
+			<Precipitation min="100" max="100" prob="0.2"/>
+			<Precipitation min="50" max="75" prob="0.2"/>
+			<Precipitation min="25" max="50" prob="0.2"/>
+			<Precipitation min="0" max="25" prob="0.2"/>
+			<Precipitation min="0" max="0" prob="0.2"/>
 			<!-- Wind spd -->
-			<Wind min="0" max="0" prob="0.3"/>
-			<Wind min="25" max="25" prob="0.3"/>
-			<Wind min="50" max="50" prob="0.3"/>
-			<Wind min="100" max="100" prob="0.1"/>
+			<Wind min="75" max="100" prob="0.25"/>
+			<Wind min="50" max="75" prob="0.25"/>
+			<Wind min="25" max="50" prob="0.25"/>
+			<Wind min="0" max="25" prob="0.25"/>
 			<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="3"/>
 			<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="9"/>
 			<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="14"/>
@@ -1455,33 +1413,25 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Burnt Forest Main Biome -->
 	<biome name="burnt_forest" biomemapcolor="#ba00ff" >
 		<weather>
-			<Temperature min="7" max="7" prob="1"/>
-			<Fog min="0" max="0" prob="0.75"/>
-			<Fog min="25" max="25" prob="0.24"/>
-			<Fog min="50" max="50" prob="0.16"/>
-			<Fog min="100" max="100" prob="0.08"/>
-			<!-- Cloud Density *Must be above 70 to Rain* -->
-			<CloudThickness min="0" max="0" prob="0.32"/>
-			<CloudThickness min="25" max="25" prob="0.24"/>
-			<CloudThickness min="70" max="70" prob="0.16"/>
-			<CloudThickness min="100" max="100" prob="0.08"/>
+			<Temperature min="-20" max="-20" prob="1"/>
+			<Fog min="0" max="5" prob="0.15"/>
+			<Fog min="0" max="0" prob="0.25"/>
+			<!-- Cloud Density *Must be above 60 to Rain* -->
+			<CloudThickness min="70" max="100" prob="0.25"/>
+			<CloudThickness min="50" max="70" prob="0.25"/>
+			<CloudThickness min="25" max="50" prob="0.25"/>
+			<CloudThickness min="0" max="25" prob="0.25"/>
 			<!-- Rain Density -->
-			<Precipitation min="0" max="0" prob="0.82"/>
-			<Precipitation min="10" max="10" prob="0.75"/>
-			<Precipitation min="20" max="20" prob="0.67"/>
-			<Precipitation min="30" max="30" prob="0.6"/>
-			<Precipitation min="40" max="40" prob="0.52"/>
-			<Precipitation min="50" max="50" prob="0.45"/>
-			<Precipitation min="60" max="60" prob="0.37"/>
-			<Precipitation min="70" max="60" prob="0.3"/>
-			<Precipitation min="80" max="80" prob="0.22"/>
-			<Precipitation min="90" max="90" prob="0.15"/>
-			<Precipitation min="100" max="100" prob="0.07"/>
+			<Precipitation min="100" max="100" prob="0.2"/>
+			<Precipitation min="50" max="75" prob="0.2"/>
+			<Precipitation min="25" max="50" prob="0.2"/>
+			<Precipitation min="0" max="25" prob="0.2"/>
+			<Precipitation min="0" max="0" prob="0.2"/>
 			<!-- Wind spd -->
-			<Wind min="0" max="0" prob="0.3"/>
-			<Wind min="25" max="25" prob="0.3"/>
-			<Wind min="50" max="50" prob="0.3"/>
-			<Wind min="100" max="100" prob="0.1"/>
+			<Wind min="75" max="100" prob="0.25"/>
+			<Wind min="50" max="75" prob="0.25"/>
+			<Wind min="25" max="50" prob="0.25"/>
+			<Wind min="0" max="25" prob="0.25"/>
 			<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="14"/>
 			<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="9"/>
 			<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="3"/>
