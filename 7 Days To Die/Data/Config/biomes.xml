@@ -986,8 +986,8 @@ If you do not declare them, the decorations of the main biome are used.
 				<layer depth="3" blockname="bedrock"/>
 			</layers>
 			<decorations>
-				<decoration type="block" blockname="rockResource" prob ="0.0002" rotatemax="7"/>
-				<decoration type="block" blockname="rockResource02" prob ="0.0002" rotatemax="7"/>
+				<decoration type="block" blockname="rockResource" prob ="0.00002" rotatemax="7"/>
+				<decoration type="block" blockname="rockResource02" prob ="0.00002" rotatemax="7"/>
 				<decoration type="block" blockname="treeCactus01" prob ="0.00002" rotatemax="7"/>
 				<decoration type="block" blockname="treeCactus02" prob ="0.00002" rotatemax="7" />
 				<decoration type="block" blockname="treeCactus03" prob ="0.00002" rotatemax="7"/>
@@ -1024,8 +1024,15 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="rock01" prob=".001" rotatemax="3"/>
 			<decoration type="block" blockname="rock02" prob=".001" rotatemax="3"/>
 			<decoration type="block" blockname="rock04" prob=".001" rotatemax="3"/>
-			<decoration type="block" blockname="rockResource" prob ="0.0005" rotatemax="3"/>
-			<decoration type="block" blockname="rockResource02" prob ="0.0005" rotatemax="3"/>
+			<decoration type="block" blockname="rockResource" prob ="0.00005" rotatemax="3"/>
+			<decoration type="block" blockname="rockResource02" prob ="0.00005" rotatemax="3"/>
+			<decoration type="block" blockname="treeCactus01" prob ="0.00003" rotatemax="7"/>
+			<decoration type="block" blockname="treeCactus02" prob ="0.00003" rotatemax="7" />
+			<decoration type="block" blockname="treeCactus03" prob ="0.00003" rotatemax="7"/>
+			<decoration type="block" blockname="treeCactus04" prob ="0.00003" rotatemax="7"/>
+			<decoration type="block" blockname="treeCactus05" prob ="0.00003" rotatemax="7"/>
+			<decoration type="block" blockname="driftwood" prob ="0.00002" rotatemax="7"/>
+			<decoration type="block" blockname="driftwood2" prob ="0.00002" rotatemax="7"/>
 			<decoration type="block" blockname="lootDesertHelper" prob="0.00025"/>
 			<decoration type="block" blockname="treeDeadPineLeaf" prob ="0.00002" rotatemax="7" />
 			<decoration type="block" blockname="plantedYucca3Harvest" prob ="0.0002" rotatemax="7" />
