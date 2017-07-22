@@ -1910,6 +1910,7 @@
 	<property name="Explosion.ParticleIndex" value="6"/>
 	<property name="Explosion.RadiusBlocks" value="6"/>
 	<property name="Explosion.RadiusEntities" value="6"/>
+	<property name="Immunity" value="sickness;disease;bleeding;wellness"/>
 	<property name="RotateToGround" value="true"/>
 	<property name="Faction" value="none"/>
 	<property name="MapIcon" value="ui_game_symbol_minibike"/>

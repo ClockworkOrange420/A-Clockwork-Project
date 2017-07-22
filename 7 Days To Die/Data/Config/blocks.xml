@@ -13682,7 +13682,7 @@
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="LootContainers/garbage_decor1" param1="main_mesh"/>
 		<property name="IsTerrainDecoration" value="true"/>
-		<drop event="Destroy" name="paper" count="1" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapPlastics" count="2" tool_category="Harvest"/>
 	</block>
 	<block id="1483" name="garbage_decor2">
 		<property name="Material" value="trash"/>
@@ -13691,7 +13691,7 @@
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="LootContainers/garbage_decor2" param1="main_mesh"/>
 		<property name="IsTerrainDecoration" value="true"/>
-		<drop event="Destroy" name="paper" count="1" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapPlastics" count="2" tool_category="Harvest"/>
 	</block>
 	<block id="1484" name="garbage_decor3">
 		<property name="Material" value="trash"/>
@@ -13700,7 +13700,7 @@
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="LootContainers/garbage_decor3" param1="main_mesh"/>
 		<property name="IsTerrainDecoration" value="true"/>
-		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapPlastics" count="2" tool_category="Harvest"/>
 	</block>
 	<!-- 15 Free -->
 	<block id="1500" name="rebarFrameCNRInside">

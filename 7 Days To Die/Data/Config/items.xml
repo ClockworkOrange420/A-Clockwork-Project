@@ -8572,7 +8572,7 @@
 	</item>
 	<item id="1361" name="steelPolish">
 		<property name="Meshfile" value="Items/Food/coffeePrefab"/>
-		<property name="Material" value="Msteel"/>
+		<property name="Material" value="organic"/>
 		<property name="Weight" value="0"/>
 		<property name="HoldType" value="3"/>
 		<property name="Stacknumber" value="250"/>

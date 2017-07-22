@@ -990,6 +990,7 @@
 	<item group="seeds" prob="0.05"/>
 	<item name="bottledWater" prob="0.5"/>
 	<item name="emptyJar" count="1,4"/>
+	<item name="steelPolish" count="1,4"/>
 	<item name="electricParts" count="1,2" prob="0.05"/>
 	<item name="potassiumNitratePowder" count="2,6" prob="0.15"/>
 	<item name="paint" count="5,20" prob="0.15"/>
@@ -1223,6 +1224,7 @@
 	<item name="ironDoor1_v1"/>
 	<item name="sledgehammer"/>
 	<item group="nailgun+parts"/>
+	<item name="steelPolish" count="1,4"/>
 	<item name="calipers" prob="0.67"/>
 	<item name="toolAndDieSet" prob="0.67"/>
 	<item group="rareTools"/>
