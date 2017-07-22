@@ -140,7 +140,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Snow Main Biome -->
 	<biome name="snow" biomemapcolor="#FFFFFF">
 		<weather>
-			<Temperature min="-90" max="-90" prob="0"/>
+			<Temperature min="-90" max="-70" prob="0"/>
 			<Fog min="0" max="5" prob="0.15"/>
 			<Fog min="0" max="0" prob="0.25"/>
 			<!-- Cloud Density *Must be above 60 to Rain* -->
@@ -867,7 +867,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0007"/>
 			<decoration type="block" blockname="treeDesertShrub" prob ="0.0007"/>
 			<decoration type="block" blockname="treeDeadShrub" prob ="0.0005"/>
-			<decoration type="block" blockname="cntBirdnest" prob ="0.0009"/>
+			<decoration type="block" blockname="cntBirdnest" prob ="0.002"/>
 			<decoration type="block" blockname="treeCactus04" prob ="0.0025" rotatemax="3"/>
 			<decoration type="block" blockname="treeCactus05" prob ="0.0025" rotatemax="3"/>
 			<decoration type="block" blockname="treeCactus06" prob ="0.0025" rotatemax="3"/>
