@@ -1170,8 +1170,8 @@
 		<property class="Action0">
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="20"/>
-			<property name="Buff" value="bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.04,0.4,0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.04,0.4,0.05,0.2,0.3,0.4,0.5"/>
 		</property>
 	</item>
 	<item id="77" name="handZombie02">
@@ -1180,8 +1180,8 @@
 		<property name="HoldType" value="24"/>
 		<property class="Action0">
 			<property name="Delay" value="2.0"/>
-			<property name="Buff" value="sprainedLeg,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.2,0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,sprainedLeg,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.2,0.05,0.2,0.3,0.4,0.5"/>
 		</property>
 	</item>
 	<item id="78" name="handZombieBurning">
@@ -1192,8 +1192,8 @@
 			<property name="Sphere" value="0.4"/>
 			<property name="DamageEntity" value="15"/>
 			<property name="DamageBlock" value="10"/>
-			<property name="Buff" value="burningSmall,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.8,0.4,0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,burningSmall,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.8,0.4,0.05,0.2,0.3,0.4,0.5"/>
 		</property>
 	</item>
 	<item id="79" name="handZombieCop">
@@ -1204,8 +1204,8 @@
 			<property name="Range" value="1.75"/>
 			<property name="DamageEntity" value="40"/>
 			<property name="DamageBlock" value="60"/>
-			<property name="Buff" value="bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.3,0.4,0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.3,0.4,0.05,0.2,0.3,0.4,0.5"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -1225,8 +1225,8 @@
 			<property name="Sound_end" value=""/>
 			<property name="Sound_empty" value=""/>
 			<property name="Sound_reload" value=""/>
-			<property name="Buff" value="infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.05,0.2,0.3,0.4,0.5"/>
 		</property>
 	</item>
 	<item id="80" name="projectileZombieVomit">
@@ -1243,8 +1243,8 @@
 			<property name="LifeTime" value="4"/>
 			<property name="CollisionRadius" value="0.5"/>
 			<property name="DamageBonus.earth" value="0"/>
-			<property name="Buff" value="infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.05,0.2,0.3,0.4,0.5"/>
 		</property>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
@@ -1260,8 +1260,8 @@
 			<property name="Delay" value="0.7"/>
 			<property name="DamageEntity" value="18"/>
 			<property name="DamageBlock" value="18"/>
-			<property name="Buff" value="bleeding,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.3,0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,bleeding,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.3,0.05,0.2,0.3,0.4,0.5"/>
 			<property name="DamageBonus.earth" value="4"/>
 		</property>
 	</item>
@@ -1271,8 +1271,8 @@
 		<property class="Action0">
 			<property name="DamageEntity" value="30"/>
 			<property name="DamageBlock" value="50"/>
-			<property name="Buff" value="bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.2,0.4,0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.2,0.4,0.05,0.2,0.3,0.4,0.5"/>
 		</property>
 	</item>
 	<item id="83" name="handAnimalBear">
@@ -1286,8 +1286,8 @@
 			<property name="Sphere" value="0.4"/>
 			<property name="DamageEntity" value="60"/>
 			<property name="DamageBlock" value="100"/>
-			<property name="Buff" value="bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.4,0.3,0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.4,0.3,0.05,0.2,0.3,0.4,0.5"/>
 		</property>
 	</item>
 	<item id="84" name="handAnimalZombieBear">
@@ -1298,8 +1298,8 @@
 			<property name="Block_range" value="3"/>
 			<property name="DamageEntity" value="60"/>
 			<property name="DamageBlock" value="100"/>
-			<property name="Buff" value="bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.4,0.3,0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.4,0.3,0.05,0.2,0.3,0.4,0.5"/>
 		</property>
 	</item>
 	<item id="85" name="handZombieHazMat">
@@ -1307,8 +1307,8 @@
 		<property name="CreativeMode" value="None"/>
 		<property name="HoldType" value="24"/>
 		<property class="Action0">
-			<property name="Buff" value="bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.04,0.3,0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.04,0.3,0.05,0.2,0.3,0.4,0.5"/>
 		</property>
 	</item>
 	<item id="86" name="handZombieWorker">
@@ -1318,8 +1318,8 @@
 		<property class="Action0">
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="150"/>
-			<property name="Buff" value="bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.04,0.3,0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.04,0.3,0.05,0.2,0.3,0.4,0.5"/>
 		</property>
 	</item>
 	<item id="87" name="handZombieFootballPlayer">
@@ -1327,8 +1327,8 @@
 		<property name="CreativeMode" value="None"/>
 		<property name="HoldType" value="24"/>
 		<property class="Action0">
-			<property name="Buff" value="bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.04,0.5,0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.04,0.5,0.05,0.2,0.3,0.4,0.5"/>
 		</property>
 	</item>
 	<item id="88" name="handZombieStripper">
@@ -1336,8 +1336,8 @@
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="16"/>
-			<property name="Buff" value="bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.02,0.1,0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.02,0.1,0.05,0.2,0.3,0.4,0.5"/>
 		</property>
 	</item>
 	<item id="90" name="handZombieFeral">
@@ -1462,8 +1462,8 @@
 			<property name="Delay" value="0.7"/>
 			<property name="DamageEntity" value="10"/>
 			<property name="DamageBlock" value="10"/>
-			<property name="Buff" value="bleeding,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.4,0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,bleeding,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.4,0.05,0.2,0.3,0.4,0.5"/>
 		</property>
 	</item>
 	<item id="104" name="handAnimalWolf">
@@ -1475,8 +1475,8 @@
 			<property name="Range" value="1.75"/>
 			<property name="DamageEntity" value="22"/>
 			<property name="DamageBlock" value="22"/>
-			<property name="Buff" value="bleeding,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="0.3,0.05,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="infectionActivatorHygiene,bleeding,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,0.3,0.05,0.2,0.3,0.4,0.5"/>
 			<property name="DamageBonus.earth" value="4"/>
 		</property>
 	</item>
