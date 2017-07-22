@@ -315,7 +315,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Forest Main Biome -->
 	<biome name="forest" biomemapcolor="#008D00" >
 		<weather>
-			<Temperature min="-30" max="-30" prob="1"/>
+			<Temperature min="-35" max="5" prob="1"/>
 			<Fog min="0" max="5" prob="0.15"/>
 			<Fog min="0" max="0" prob="0.25"/>
 			<!-- Cloud Density *Must be above 60 to Rain* -->
@@ -513,7 +513,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Pine Forest Main Biome  -->
 	<biome name="pine_forest" biomemapcolor="#004000" >
 		<weather>
-			<Temperature min="-45" max="-45" prob="1"/>
+			<Temperature min="-50" max="-10" prob="1"/>
 			<Fog min="0" max="5" prob="0.15"/>
 			<Fog min="0" max="0" prob="0.25"/>
 			<!-- Cloud Density *Must be above 60 to Rain* -->
@@ -696,7 +696,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Plains Main Biome-->
 	<biome name="plains" biomemapcolor="#00FF00" >
 		<weather>
-			<Temperature min="-32" max="-32" prob="1"/>
+			<Temperature min="-5" max="-10" prob="1"/>
 			<Fog min="0" max="5" prob="0.15"/>
 			<Fog min="0" max="0" prob="0.25"/>
 			<!-- Cloud Density *Must be above 60 to Rain* -->
@@ -882,7 +882,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Desert Main Biome -->
 	<biome name="desert" biomemapcolor="#FFE477">
 		<weather>
-			<Temperature min="0" max="0" prob="1"/>
+			<Temperature min="20" max="30" prob="1"/>
 			<Fog min="0" max="5" prob="0.15"/>
 			<Fog min="0" max="0" prob="0.25"/>
 			<!-- Cloud Density *Must be above 60 to Rain* -->
@@ -1040,7 +1040,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Water Main Biome -->
 	<biome name="water" biomemapcolor="#0063ff">
 		<weather>
-			<Temperature min="-10" max="-10" prob="1"/>
+			<Temperature min="0" max="10" prob="1"/>
 			<Fog min="0" max="5" prob="0.15"/>
 			<Fog min="0" max="0" prob="0.25"/>
 			<!-- Cloud Density *Must be above 60 to Rain* -->
@@ -1181,7 +1181,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Radiated Main Biome -->
 	<biome name="radiated" biomemapcolor="#FF0000" radiationlevel="10">
 		<weather>
-			<Temperature min="50" max="50" prob="1"/>
+			<Temperature min="40" max="50" prob="1"/>
 			<Fog min="100" max="100" prob="1"/>
 			<CloudThickness min="100" max="100" prob="1"/>
 			<Precipitation min="100" max="100" prob="1"/>
@@ -1215,7 +1215,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Wasteland Main Biome -->
 	<biome name="wasteland" biomemapcolor="#ffa800" >
 		<weather>
-			<Temperature min="-30" max="-10" prob="1"/>
+			<Temperature min="-40" max="40" prob="1"/>
 			<Fog min="0" max="5" prob="0.15"/>
 			<Fog min="0" max="0" prob="0.25"/>
 			<!-- Cloud Density *Must be above 60 to Rain* -->
@@ -1413,7 +1413,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Burnt Forest Main Biome -->
 	<biome name="burnt_forest" biomemapcolor="#ba00ff" >
 		<weather>
-			<Temperature min="-20" max="-20" prob="1"/>
+			<Temperature min="0" max="20" prob="1"/>
 			<Fog min="0" max="5" prob="0.15"/>
 			<Fog min="0" max="0" prob="0.25"/>
 			<!-- Cloud Density *Must be above 60 to Rain* -->
@@ -1628,7 +1628,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- City Main Biome Diersville -->
 	<biome name="city" biomemapcolor="#808080" >
 		<weather>
-			<Temperature min="-5" max="-5" prob="1"/>
+			<Temperature min="-15" max="15" prob="1"/>
 			<Fog min="0" max="0" prob=".9"/>
 			<Fog min="100" max="100" prob=".1"/>
 			<CloudThickness min="0" max="0" prob=".2"/>
@@ -1696,7 +1696,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- City Main Biome Gravestown -->
 	<biome name="city_wasteland" biomemapcolor="#c0c0c0" >
 		<weather>
-			<Temperature min="-5" max="-5" prob="1"/>
+			<Temperature min="5" max="15" prob="1"/>
 			<Fog min="10" max="40" prob="1"/>
 			<CloudThickness min="10" max="70" prob="0.1"/>
 			<CloudThickness min="70" max="100" prob="0.9"/>
@@ -1759,7 +1759,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Wasteland Hub Biome Random Gen -->
 	<biome name="wasteland_hub" biomemapcolor="#a0a0a0" >
 		<weather>
-			<Temperature min="5" max="5" prob="1"/>
+			<Temperature min="5" max="15" prob="1"/>
 			<Fog min="0" max="0" prob=".8"/>
 			<Fog min="100" max="100" prob=".2"/>
 			<CloudThickness min="0" max="0" prob=".2"/>
