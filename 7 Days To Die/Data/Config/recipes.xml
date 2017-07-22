@@ -3461,103 +3461,103 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Chemistry_For_Dummies" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Gun_Smithing" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Medical_Book" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Leatherworking" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Tailoring" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Tool_Smithing" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Weapon_Smithing" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Archery" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Athletics" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Bladed_Weapons" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Blunt_Weapons" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="How_Mining_Works" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Pistols" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Rifles" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Shotguns" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<recipe name="Under_Construction" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
-		<ingredient name="Schematic_Page" count="2"/>
+		<ingredient name="Schematic_Page" count="3"/>
 	</recipe>
 	<!--Fake recipes for skill unlocks-->
 	<recipe name="Science_Skill" count="1" craft_area="Crafting_Table" >
