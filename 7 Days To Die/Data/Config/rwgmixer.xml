@@ -13,10 +13,8 @@
 			<cave_count value="1,8"/>
 			<path_material value="asphalt" />
 			<path_radius value="10" />
-			<hub_rule name="townLarge" prob="0.1"/>
-			<hub_rule name="Test" prob="0.7"/>
-			<hub_rule name="rural" prob="0.2"/>
-			<wilderness_rule name="wildernessDefault" prob="1"/>
+			<hub_rule name="cityLarge" prob="1"/>
+			<wilderness_rule name="wildernessDefault"/>
 		</cell_rule>
 	</cell_rules>
 	<hub_rules>
@@ -88,7 +86,7 @@
 				<alt_commands chars="J,K,L,Y,X"/>
 			</street_gen>
 		</hub_rule>
-		<hub_rule name="Test">
+		<hub_rule name="cityLarge">
 			<hub_type value="city"/>
 			<width value="1200, 1200" />
 			<height value="1200, 1200" />
@@ -457,7 +455,7 @@
 	<terrain_generators>
 		<terrain_generator name="vanilla" use_old_final="false">
 			<module name="landBase" type="FastBillow" no_seed="true">
-				<property name="frequency" value="0.2"/>
+				<property name="frequency" value="0.1"/>
 			</module>
 			<module name="landT" type="FastTurbulence">
 				<property name="sourceModule" value="landBase"/>
@@ -475,7 +473,7 @@
 				<property name="bounds" value="0.05,0.25"/>
 			</module>
 			<module name="landBase2" type="FastBillow" no_seed="true">
-				<property name="frequency" value="0.2"/>
+				<property name="frequency" value="0.1"/>
 			</module>
 			<module name="landT2" type="FastTurbulence">
 				<property name="sourceModule" value="landBase2"/>
@@ -486,7 +484,7 @@
 			<module name="scaleLandBase2" type="ScaleBiasOutput">
 				<property name="sourceModule" value="landT2"/>
 				<property name="scale" value="0.15"/>
-				<property name="bias" value="0.14"/>
+				<property name="bias" value="0.145"/>
 			</module>
 			<module name="land2" type="ClampOutput">
 				<property name="sourceModule" value="scaleLandBase2"/>
@@ -517,14 +515,14 @@
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="land"/>
 				<property name="sourceModule2" value="land2"/>
-				<property name="bounds" value="2500,2600"/>
+				<property name="bounds" value="2500,3000"/>
 				<property name="edgeFalloff" value="32"/>
 			</module>
 			<module name="landMnt2" type="Add" no_seed="true">
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="mountainsOutput"/>
 				<property name="sourceModule2" value="land"/>
-				<property name="bounds" value="0,2500"/>
+				<property name="bounds" value="0,3000"/>
 				<!-- want more mountais? make value="" closer "0,2500" etc,. -->
 				<property name="edgeFalloff" value="32"/>
 			</module>
@@ -532,7 +530,7 @@
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="landMnt2"/>
 				<property name="sourceModule2" value="land"/>
-				<property name="bounds" value="0,2500"/>
+				<property name="bounds" value="0,3000"/>
 				<!-- want more mountais? make value="" closer "0,2500" etc,. -->
 				<property name="edgeFalloff" value="32"/>
 			</module>
@@ -553,19 +551,16 @@
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="Water"/>
 				<property name="sourceModule2" value="land"/>
-				<property name="bounds" value="0,2500"/>
+				<property name="bounds" value="0,1"/>
 				<property name="edgeFalloff" value="0.5"/>
 			</module>
 			<module name="landMntWater2" type="Select" no_seed="true">
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="landMntWater"/>
 				<property name="sourceModule2" value="land"/>
-				<property name="bounds" value="0,2500"/>
+				<property name="bounds" value="0,1"/>
 				<!-- want more water closer to gether make the value="" closer "0,1000" etc,. -->
 				<property name="edgeFalloff" value="0.5"/>
-			</module>
-			<module name="Control" type="FastNoise" no_seed="true">
-				<property name="frequency" value="1"/>
 			</module>
 			<module name="scaleBiasOutput" type="ScaleBiasOutput">
 				<property name="sourceModule" value="landMntWater2"/>
