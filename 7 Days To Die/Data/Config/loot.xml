@@ -983,16 +983,23 @@
 	<item name="goldenrodPlant"/>
 </lootgroup>
 
+<lootgroup name="sinkTools">
+	<item name="clawHammer"/>
+	<item name="wrench"/>
+</lootgroup>
+
 <lootgroup name="cupboard">
 	<item name="canEmpty"/>
-	<item name="Schematic_Page" count="1,3"/>
 	<item group="cannedfood" prob="0.5"/>
 	<item group="seeds" prob="0.05"/>
 	<item name="bottledWater" prob="0.5"/>
 	<item name="emptyJar" count="1,4"/>
-	<item name="steelPolish" count="1,4"/>
-	<item name="electricParts" count="1,2" prob="0.05"/>
+	<item group="sinkTools" count="1" prob="0.15"/>
+	<item name="Schematic_Page" count="1,3" prob="0.15"/>
 	<item name="potassiumNitratePowder" count="2,6" prob="0.15"/>
+	<item name="steelPolish" count="1,4" prob="0.15"/>
+	<item name="electricParts" count="1,2" prob="0.15"/>
+	<item name="Geometry_Set" count="1" prob="0.15"/>
 	<item name="paint" count="5,20" prob="0.15"/>
 </lootgroup>
 
@@ -1004,8 +1011,8 @@
 
 <lootgroup name="junk">
 	<item name="ironArrowHead" count="1,12"/>
-	<item name="steelArrowHead" count="1,10" prob="0.05"/>
-	<item name="Geometry_Set" count="1" prob="0.05"/>
+	<item name="steelArrowHead" count="1,10" prob="0.15"/>
+	<item name="Geometry_Set" count="1" prob="0.15"/>
 	<item name="Schematic_Page" count="1,3"/>
 	<item name="candyTin"/>
 	<item name="emptyJar" count="1"/>
@@ -1419,8 +1426,7 @@
 <lootcontainer id="1" count="0,2" size="4,3" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
 	<item group="junk"/>
 	<item group="books" prob="0.1"/>
-	<item name="wrench" count="1"/>
-	<item name="clawHammer" count="1"/>
+	<item group="sinkTools" count="1" prob="0.05"/>
 	<item name="fireaxeIron" count="1"/>
 	<item name="Fertilizer" count="1,3" prob="0.05"/>
 	<item name="paint" count="50,150" prob="0.1"/>
@@ -1465,7 +1471,7 @@
 	<item group="ammo"/>
 	<item group="books" count="1"/>
 	<item group="medicine"/>
-	<item group="weaponsPistol+ammo" prob="1.5"/>
+	<item group="weaponsPistol+ammo"/>
 	<item name="flashlight02"/>
 </lootcontainer>
 
@@ -1480,11 +1486,10 @@
 	<item name="emptyJar" count="1,2"/>
 	<item name="canEmpty" count="1,2"/>
 	<item name="coffeeBeans" count="1,4"/>
-	<item name="shortMetalPipe" count="1,2" prob="1.5"/>
-	<item name="wrench" count="1"/>
-	<item name="clawHammer" count="1"/>
+	<item name="shortMetalPipe" count="1,2"/>
+	<item group="sinkTools" count="1" prob="0.3"/>
 	<item name="scrapLead" count="1,10"/>
-	<item name="potassiumNitratePowder" count="2,6" prob="0.3"/>
+	<item name="potassiumNitratePowder" count="2,6"/>
 </lootcontainer>
 
 <!-- backpack, place where people stash things, -->
@@ -1499,11 +1504,11 @@
 
 <!-- safes, weapon caches rare good loot -->
 <lootcontainer id="11" count="1,3" size="5,4" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="baseTemplate">
-	<item group="weaponsBasicGuns+ammo" prob="1.5"/>
+	<item group="weaponsBasicGuns+ammo"/>
 	<item group="books"/>
-	<item name="Schematic_Page" count="1" prob="0.05"/>
-	<item name="Geometry_Set" count="1" prob="0.05"/>
-	<item name="oldCash" count="10,35" prob="0.1"/>
+	<item name="Schematic_Page" count="1" prob="0.1"/>
+	<item name="Geometry_Set" count="1" prob="0.1"/>
+	<item name="oldCash" count="10,35" prob="0.05"/>
 	<item group="rareOres" prob="0.05"/>
 </lootcontainer>
 
@@ -1680,12 +1685,12 @@
 	<item group="books" count="1,2"/>
 	<item name="paper" count="1,2" prob="0.7"/>
 	<item name="oldCash" count="1,3" prob="0.3"/>
-	<item group="medicine" prob="0.05"/>
+	<item group="medicine" prob="0.15"/>
 	<item group="trophyGroup"/>
 	<item name="gunPowder" count="1,5"/>
-	<item name="padlock" prob="0.8"/>
-	<item name="Geometry_Set" count="1" prob="0.1"/>
-	<item name="Schematic_Page" count="1,3" prob="0.1"/>
+	<item name="padlock" prob="0.5"/>
+	<item name="Geometry_Set" count="1" prob="0.2"/>
+	<item name="Schematic_Page" count="1,3" prob="0.5"/>
 </lootcontainer>
 
 <!-- file cabinet -->
@@ -1697,8 +1702,8 @@
 	<item name="painkillers" prob="0.05"/>
 	<item group="trophyGroup"/>
 	<item name="padlock" prob="0.5"/>
-	<item name="Geometry_Set" count="1" prob="0.1"/>
-	<item name="Schematic_Page" count="1,3" prob="0.1"/>
+	<item name="Geometry_Set" count="1" prob="0.3"/>
+	<item name="Schematic_Page" count="1,3" prob="0.5"/>
 </lootcontainer>
 
 <!-- cooler loot -->
