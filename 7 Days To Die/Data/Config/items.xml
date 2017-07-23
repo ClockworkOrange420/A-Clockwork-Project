@@ -3457,6 +3457,7 @@
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="CustomIcon" value="shoppingBasketEmpty"/>
+		<property name="Material" value="Mplastics"/>
 		<property name="RepairTools" value="repairKit"/>
 		<property name="HoldType" value="45"/>
 		<property name="Weight" value="10"/>
