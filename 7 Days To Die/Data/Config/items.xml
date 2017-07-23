@@ -195,12 +195,12 @@
 	<item id="17" name="flashlight02">
 		<property name="Class" value="ItemClassToggle"/>
 		<property name="Meshfile" value="Items/Tools/flashlight02Prefab"/>
-		<property name="Material" value="scrapPlastics"/>
-		<property name="Weight" value="5"/>
+		<property name="Material" value="metal"/>
 		<property name="RepairTools" value="repairKit"/>
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="SoundJammed" value="ItemNeedsRepair"/>
 		<property name="EconomicValue" value="600"/>
+		<property name="Weight" value="10"/>
 		<property name="HoldType" value="13"/>
 		<property name="LightSource" value="lightSource"/>
 		<property name="ActivateObject" value="lightSource"/>
@@ -1945,7 +1945,7 @@
 	</item>
 	<item id="128" name="nailgun">
 		<property name="Meshfile" value="Items/Tools/nailgunPrefab"/>
-		<property name="Material" value="scrapPlastics"/>
+		<property name="Material" value="metal"/>
 		<property name="RepairTools" value="repairKit"/>
 		<property name="HoldType" value="37"/>
 		<property name="DegradationBreaksAfter" value="false"/>
