@@ -124,8 +124,8 @@
 	<property name="IsEnemyEntity" value="true"/>
 
 	<!-- Stealth settings -->
-	<property name="SightRange" value="30"/> <!-- distance in m -->
-	<property name="SightScale" value="-2,150"/> <!-- how well lit you have to be for the zombie to see you at min,max range -->
+	<property name="SightRange" value="60"/> <!-- distance in m -->
+	<property name="SightScale" value="-2,40"/> <!-- how well lit you have to be for the zombie to see you at min,max range -->
 
 	<property name="SleeperWakeupSightDetectionMin" value="-40,5"/> <!-- Indiv.Random. sight capability - "I see you" light value at point blank -->
 	<property name="SleeperWakeupSightDetectionMax" value="340,480"/> <!-- Indiv.Random. "I see you" light value at "SightRange" -->
@@ -155,7 +155,7 @@
 	<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 	<property name="SoundSleeperSense" value="sleepersense"/>
 	<property name="SoundSleeperBackToSleep" value="sleeperbacktosleep"/>
-	<property name="TimeStayAfterDeath" value="30"/>
+	<property name="TimeStayAfterDeath" value="3"/>
 	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="LootListOnDeath" value="15"/>
@@ -1996,9 +1996,9 @@
 	<property name="IsEnemyEntity" value="false"/>
 	<property name="LootListOnDeath" value="47"/>
 	<property name="Faction" value="none"/>
-</entity_class>-->
+</entity_class>
 
-<entity_class name="invisibleAnimal"> <!-- A hack to thin the amount of animals spawned (friendly animals) -->
+<entity_class name="invisibleAnimal">
 	<property name="Mesh" value="Gore/gore_block1_bonesPrefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
@@ -2006,11 +2006,11 @@
 	<property name="Parent" value="Animals"/>
 	<property name="TimeStayAfterDeath" value="1"/>
 	<property name="IsEnemyEntity" value="false"/>
-	<property name="LootListOnDeath" value="47"/> <!-- used to determine container X/Y size -->
+	<property name="LootListOnDeath" value="47"/>
 	<property name="Faction" value="none"/>
 </entity_class>
 
-<entity_class name="invisibleAnimalEnemy"> <!-- A hack to thin the amount of animals spawned (enemy animals) -->
+<entity_class name="invisibleAnimalEnemy">
 	<property name="Mesh" value="Gore/gore_block1_bonesPrefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
@@ -2018,9 +2018,9 @@
 	<property name="Parent" value="Animals"/>
 	<property name="TimeStayAfterDeath" value="1"/>
 	<property name="IsEnemyEntity" value="true"/>
-	<property name="LootListOnDeath" value="47"/> <!-- used to determine container X/Y size -->
+	<property name="LootListOnDeath" value="47"/>
 	<property name="Faction" value="none"/>
-</entity_class>
+</entity_class>-->
 
 <!-- BANDITS AND NPC -->
 <entity_class name="npcSurvivorTemplate">
