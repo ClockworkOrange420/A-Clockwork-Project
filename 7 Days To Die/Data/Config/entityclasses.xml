@@ -125,7 +125,7 @@
 
 	<!-- Stealth settings -->
 	<property name="SightRange" value="40"/> <!-- distance in m -->
-	<property name="SightScale" value="-2,40"/> <!-- how well lit you have to be for the zombie to see you at min,max range -->
+	<property name="SightScale" value="-2,100"/> <!-- how well lit you have to be for the zombie to see you at min,max range -->
 
 	<property name="SleeperWakeupSightDetectionMin" value="-40,5"/> <!-- Indiv.Random. sight capability - "I see you" light value at point blank -->
 	<property name="SleeperWakeupSightDetectionMax" value="340,480"/> <!-- Indiv.Random. "I see you" light value at "SightRange" -->
