@@ -227,6 +227,8 @@
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsDesert">
+		<entity name="animalZombieVulture" />
+		<entity name="animalSnake" />
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
 		<entity name="zombieJoe"/>
@@ -237,76 +239,38 @@
 		<entity name="zombieDarlene" />
 		<entity name="zombieMarlene" />
 		<entity name="zombieNurse" />
-		<entity name="animalZombieVulture" />
-		<entity name="animalSnake" />
 	</entitygroup>
 
 	<entitygroup name="FriendlyAnimalsDesert">
+		<entity name="animalRabbit" />
+		<entity name="animalChicken" />
+		<entity name="animalBoar" prob="0.4" />
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
 		<entity name="zombieSteve"/>
 		<entity name="zombieYo"/>
 		<entity name="zombieArlene" />
 		<entity name="zombieNurse" />
-		<entity name="animalRabbit" />
-		<entity name="animalChicken" />
-		<entity name="animalBoar" prob="0.4" />
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsSnow">
-		<entity name="zombieSnow" prob="6"/>
 		<entity name="animalZombieVulture" prob="0.4" />
 		<entity name="animalDireWolf" prob="0.05" />
 		<entity name="animalBear" prob="0.05" />
+		<entity name="zombieSnow" prob="6"/>
 	</entitygroup>
 
 	<entitygroup name="FriendlyAnimalsSnow">
-		<entity name="zombieSnow" prob="3"/>
 		<entity name="animalRabbit" />
 		<entity name="animalBoar" prob="0.4" />
 		<entity name="animalStag" prob="0.4" />
+		<entity name="zombieSnow" prob="3"/>
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsForest">
-		<entity name="zombieSpider"/>
-		<entity name="zombieBoe"/>
-		<entity name="zombieJoe"/>
-		<entity name="zombieSteve"/>
-		<entity name="zombieMoe"/>
-		<entity name="zombieYo"/>
-		<entity name="zombieArlene" />
-		<entity name="zombieDarlene" />
-		<entity name="zombieMarlene" />
-		<entity name="zombieNurse" />
 		<entity name="animalWolf" prob="0.4" />
 		<entity name="animalBear" prob="0.05" />
 		<entity name="animalDireWolf" prob="0.05" />
-	</entitygroup>
-
-	<entitygroup name="FriendlyAnimalsForest">
-		<entity name="zombieSpider"/>
-		<entity name="zombieJoe"/>
-		<entity name="zombieDarlene" />
-		<entity name="zombieNurse" />
-		<entity name="animalRabbit" />
-		<entity name="animalBoar" prob="0.4" />
-		<entity name="animalStag" prob="0.4" />
-	</entitygroup>
-
-	<entitygroup name="EnemyAnimalsBurntForest">
-		<entity name="zombieBurnt" prob="6" />
-		<entity name="animalZombieVulture" />
-		<entity name="animalZombieBear" prob="0.15" />
-	</entitygroup>
-
-	<entitygroup name="FriendlyAnimalsBurntForest">
-		<entity name="zombieBurnt" prob="6" />
-		<entity name="animalChicken" />
-		<entity name="animalStag" prob="0.4" />
-		<entity name="animalBoar" prob="0.4" />
-	</entitygroup>
-
-	<entitygroup name="EnemyAnimalsPlains">
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
 		<entity name="zombieJoe"/>
@@ -316,22 +280,58 @@
 		<entity name="zombieArlene" />
 		<entity name="zombieDarlene" />
 		<entity name="zombieMarlene" />
-		<entity name="zombieNurse" /> <!-- The first entity in the list of a group determines if it can spawn in safe zones or not. This animal is not friendly therefore this group will not spawn in safe zones-->
+		<entity name="zombieNurse" />
+	</entitygroup>
+
+	<entitygroup name="FriendlyAnimalsForest">
+		<entity name="animalRabbit" />
+		<entity name="animalBoar" prob="0.4" />
+		<entity name="animalStag" prob="0.4" />
+		<entity name="zombieSpider"/>
+		<entity name="zombieJoe"/>
+		<entity name="zombieDarlene" />
+		<entity name="zombieNurse" />
+	</entitygroup>
+
+	<entitygroup name="EnemyAnimalsBurntForest">
+		<entity name="animalZombieVulture" />
+		<entity name="animalZombieBear" prob="0.15" />
+		<entity name="zombieBurnt" prob="6" />
+	</entitygroup>
+
+	<entitygroup name="FriendlyAnimalsBurntForest">
+		<entity name="animalChicken" />
+		<entity name="animalStag" prob="0.4" />
+		<entity name="animalBoar" prob="0.4" />
+		<entity name="zombieBurnt" prob="6" />
+	</entitygroup>
+
+	<entitygroup name="EnemyAnimalsPlains">
 		<entity name="animalZombieVulture" />
 		<entity name="animalSnake" />
 		<entity name="animalWolf" />
+		<entity name="zombieSpider"/>
+		<entity name="zombieBoe"/>
+		<entity name="zombieJoe"/>
+		<entity name="zombieSteve"/>
+		<entity name="zombieMoe"/>
+		<entity name="zombieYo"/>
+		<entity name="zombieArlene" />
+		<entity name="zombieDarlene" />
+		<entity name="zombieMarlene" />
+		<entity name="zombieNurse" />
 	</entitygroup>
 
 	<entitygroup name="FriendlyAnimalsPlains">
-		<entity name="zombieJoe"/>
-		<entity name="zombieYo"/>
-		<entity name="zombieArlene" />
-		<entity name="zombieMarlene" />
-		<entity name="zombieNurse" />
 		<entity name="animalRabbit" />
 		<entity name="animalChicken" />
 		<entity name="animalBoar" />
 		<entity name="animalStag" />
+		<entity name="zombieJoe"/>
+		<entity name="zombieYo"/>
+		<entity name="zombieArlene" />
+		<entity name="zombieMarlene" />
+		<entity name="zombieNurse" />
 	</entitygroup>
 
 	<entitygroup name="AnimalsAll" >
