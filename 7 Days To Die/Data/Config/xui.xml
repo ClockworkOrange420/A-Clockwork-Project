@@ -13,7 +13,7 @@
 			<window name="PlayerStatsWindow" />
 			<window name="ActiveBuffsWindow" />
 		</window_group>		
-		<!--Modded-->
+		<!-- Modded -->
 		<window_group name="workstation_campfire" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
