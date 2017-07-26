@@ -227,7 +227,7 @@
 </entity_class>
 
 <entity_class name="zombieWightFeralRadiated" extends="zombieWightFeral">
-	<property name="MaxHealth" value="800"/>
+	<property name="MaxHealth" value="1125"/>
 	<property name="ExperienceGain" value="800"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/feral_rad"/>
@@ -928,7 +928,7 @@
 
 <entity_class name="zombieFatHawaiianFeral" extends="zombieFatHawaiian">
 	<property name="HandItem" value="handZombieCopFeral"/>
-	<property name="MaxHealth" value="800"/>
+	<property name="MaxHealth" value="1050"/>
 	<property name="ExperienceGain" value="800"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
@@ -998,7 +998,7 @@
 
 <entity_class name="zombieFatCopFeral" extends="zombieFatCop">
 	<property name="HandItem" value="handZombieCopFeral"/>
-	<property name="MaxHealth" value="800"/>
+	<property name="MaxHealth" value="1050"/>
 	<property name="ExperienceGain" value="800"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
@@ -1009,7 +1009,7 @@
 </entity_class>
 
 <entity_class name="zombieFatCopFeralRadiated" extends="zombieFatCopFeral">
-	<property name="MaxHealth" value="900"/>
+	<property name="MaxHealth" value="1200"/>
 	<property name="ExperienceGain" value="900"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/cop_rad"/>

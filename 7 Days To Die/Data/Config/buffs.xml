@@ -739,7 +739,7 @@ snowberryPlant feeds you for 90 sec. -->
 <!--End-->
 
 <buff id="zombieRadiatedBuff40" duration="0" icon="ui_game_symbol_fire">
-	<modify id="0" stat="health" amount="10" rate="8" />
+	<modify id="0" stat="health" amount="10" rate="10" />
 </buff>
 
 <buff id="zombieRadiatedBuff80" duration="0" icon="ui_game_symbol_fire">
