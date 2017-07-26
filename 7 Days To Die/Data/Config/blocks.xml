@@ -4364,7 +4364,7 @@
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="Traps/trap_mine_tin" param1="main_mesh"/>
 		<property name="IsTerrainDecoration" value="true"/>
-		<property name="Stacknumber" value="40"/>
+		<property name="Stacknumber" value="1"/>
 		<!-- STK explosives -->
 		<property name="MaxDamage" value="4"/>
 		<property name="Explosion.ParticleIndex" value="1"/>
@@ -4378,7 +4378,7 @@
 		<property name="Explosion.DamageBonus.earth" value="0"/>
 		<property name="Explosion.DamageBonus.wood" value="0"/>
 		<property name="Explosion.DamageBonus.water" value="0"/>
-		<property name="CanPickup" value="false"/>
+		<property name="CanPickup" value="true"/>
 		<property name="DropScale" value="3"/>
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Science"/>
@@ -4388,7 +4388,7 @@
 	<block id="432" name="mineHubcap">
 		<property name="Extends" value="mineCandyTin"/>
 		<property name="Model" value="Traps/trap_mine_hubcap" param1="main_mesh"/>
-		<property name="Stacknumber" value="20"/>
+		<property name="Stacknumber" value="1"/>
 		<!-- STK explosives -->
 		<property name="MaxDamage" value="5"/>
 		<property name="Explosion.RadiusBlocks" value="3"/>
@@ -4401,7 +4401,7 @@
 	<block id="433" name="mineAirFilter">
 		<property name="Extends" value="mineCandyTin"/>
 		<property name="Model" value="Traps/trap_mine_filter" param1="main_mesh"/>
-		<property name="Stacknumber" value="20"/>
+		<property name="Stacknumber" value="1"/>
 		<!-- STK explosives -->
 		<property name="MaxDamage" value="6"/>
 		<property name="Explosion.RadiusBlocks" value="4"/>
@@ -4933,13 +4933,13 @@
 		<property name="CustomIconTint" value="a00000"/>
 		<property name="Model" value="CampingGear/cooking_pot" param1="main_mesh"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
-		<property name="Stacknumber" value="40"/>
+		<property name="Stacknumber" value="1"/>
 		<!-- STK explosives -->
 		<property name="Explosion.RadiusBlocks" value="2"/>
 		<property name="Explosion.RadiusEntities" value="3"/>
 		<property name="Explosion.BlockDamage" value="10"/>
 		<property name="Explosion.EntityDamage" value="85"/>
-		<property name="CanPickup" value="true" param1="cookingPot"/>
+		<property name="CanPickup" value="true"/>
 		<property name="EconomicValue" value="120"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	</block>
@@ -12730,7 +12730,7 @@
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property name="Texture" value="352"/>
-		<property name="Stacknumber" value="20"/>
+		<property name="Stacknumber" value="1"/>
 		<!-- STK explosives -->
 		<property name="MaxDamage" value="4"/>
 		<property name="Explosion.ParticleIndex" value="1"/>
@@ -12744,7 +12744,7 @@
 		<property name="Explosion.DamageBonus.earth" value="0"/>
 		<property name="Explosion.DamageBonus.wood" value="0"/>
 		<property name="Explosion.DamageBonus.water" value="0"/>
-		<property name="CanPickup" value="false"/>
+		<property name="CanPickup" value="true"/>
 		<property name="DropScale" value="3"/>
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Science"/>
