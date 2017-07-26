@@ -56,8 +56,7 @@
 		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatCop" />
 		<entity name="zombieBurnt" />
-		<entity name="zombieMaleHazmat" prob="0.05" />
-		<entity name="zombieMaleHazmat" prob="0.05" />
+		<entity name="zombieMaleHazmat" prob="0.1" />
 		<entity name="zombieFatHawaiian" />
 	</entitygroup>
 
@@ -79,8 +78,7 @@
 		<entity name="zombieBurnt" />
 		<entity name="animalZombieBear" />
 		<entity name="zombieWightFeral" />
-		<entity name="zombieMaleHazmat" prob="0.1" />
-		<entity name="zombieMaleHazmat" prob="0.1" />
+		<entity name="zombieMaleHazmat" prob="0.2" />
 		<entity name="zombieFatHawaiian" />
 	</entitygroup>
 
@@ -104,8 +102,7 @@
 		<entity name="zombieFatCop" />
 		<entity name="zombieBurnt" />
 		<entity name="zombieWightFeral" />
-		<entity name="zombieMaleHazmat" prob="0.1" />
-		<entity name="zombieMaleHazmat" prob="0.1" />
+		<entity name="zombieMaleHazmat" prob="0.2" />
 		<entity name="zombieFatHawaiian" />
 	</entitygroup>
 

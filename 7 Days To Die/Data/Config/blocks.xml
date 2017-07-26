@@ -12730,7 +12730,7 @@
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property name="Texture" value="352"/>
-		<property name="Stacknumber" value="40"/>
+		<property name="Stacknumber" value="20"/>
 		<!-- STK explosives -->
 		<property name="MaxDamage" value="4"/>
 		<property name="Explosion.ParticleIndex" value="1"/>
@@ -17088,6 +17088,236 @@
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
+	</block>
+	<block id="955" name="autoTurretBroken">
+		<property name="Material" value="Mmetal_medium"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
+		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretPrefab"/>
+		<property name="OnlySimpleRotations" value="true"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="Stacknumber" value="10"/>
+		<property class="RepairItems">
+			<property name="forgedIron" value="10"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="autoTurretBroken1"/>
+			<property name="Item" value="forgedIron"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="autoTurretBroken" count="1" tool_category="Disassemble"/>
+		<property name="Group" value="Science"/>
+		<property name="DescriptionKey" value="autoTurretBrokenDesc"/>
+	</block>
+	<block id="956" name="autoTurretBroken1">
+		<property name="Material" value="Mmetal_medium"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
+		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretPrefab"/>
+		<property name="OnlySimpleRotations" value="true"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property class="RepairItems">
+			<property name="mechanicalParts" value="6"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="autoTurretBroken2"/>
+			<property name="Item" value="mechanicalParts"/>
+			<property name="ItemCount" value="6"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<property name="DowngradeBlock" value="autoTurretBroken"/>
+		<drop event="Harvest" name="forgedIron" count="10" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
+	</block>
+	<block id="957" name="autoTurretBroken2">
+		<property name="Material" value="Mmetal_medium"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
+		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretPrefab"/>
+		<property name="OnlySimpleRotations" value="true"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property class="RepairItems">
+			<property name="electricParts" value="5"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="autoTurretBroken3"/>
+			<property name="Item" value="electricParts"/>
+			<property name="ItemCount" value="5"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<property name="DowngradeBlock" value="autoTurretBroken1"/>
+		<drop event="Harvest" name="mechanicalParts" count="6" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
+	</block>
+	<block id="958" name="autoTurretBroken3">
+		<property name="Material" value="Mmetal_medium"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
+		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretPrefab"/>
+		<property name="OnlySimpleRotations" value="true"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property class="RepairItems">
+			<property name="electronicParts" value="5"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="autoTurret"/>
+			<property name="Item" value="electronicParts"/>
+			<property name="ItemCount" value="5"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<property name="DowngradeBlock" value="autoTurretBroken2"/>
+		<drop event="Harvest" name="electricParts" count="5" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
+	</block>
+	<block id="960" name="shotgunTurretBroken">
+		<property name="Material" value="Mmetal_medium"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
+		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretShotgunPrefab"/>
+		<property name="OnlySimpleRotations" value="true"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="Stacknumber" value="10"/>
+		<property class="RepairItems">
+			<property name="forgedIron" value="10"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="shotgunTurretBroken1"/>
+			<property name="Item" value="forgedIron"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="shotgunTurretBroken" count="1" tool_category="Disassemble"/>
+		<property name="Group" value="Science"/>
+		<property name="DescriptionKey" value="shotgunTurretBrokenDesc"/>
+	</block>
+	<block id="961" name="shotgunTurretBroken1">
+		<property name="Material" value="Mmetal_medium"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
+		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretShotgunPrefab"/>
+		<property name="OnlySimpleRotations" value="true"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property class="RepairItems">
+			<property name="mechanicalParts" value="6"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="shotgunTurretBroken2"/>
+			<property name="Item" value="mechanicalParts"/>
+			<property name="ItemCount" value="6"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<property name="DowngradeBlock" value="shotgunTurretBroken"/>
+		<drop event="Harvest" name="forgedIron" count="10" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
+	</block>
+	<block id="962" name="shotgunTurretBroken2">
+		<property name="Material" value="Mmetal_medium"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
+		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretShotgunPrefab"/>
+		<property name="OnlySimpleRotations" value="true"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property class="RepairItems">
+			<property name="electricParts" value="5"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="shotgunTurretBroken3"/>
+			<property name="Item" value="electricParts"/>
+			<property name="ItemCount" value="5"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<property name="DowngradeBlock" value="shotgunTurretBroken1"/>
+		<drop event="Harvest" name="mechanicalParts" count="6" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
+	</block>
+	<block id="963" name="shotgunTurretBroken3">
+		<property name="Material" value="Mmetal_medium"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
+		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretShotgunPrefab"/>
+		<property name="OnlySimpleRotations" value="true"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property class="RepairItems">
+			<property name="electronicParts" value="5"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="shotgunTurret"/>
+			<property name="Item" value="electronicParts"/>
+			<property name="ItemCount" value="5"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<property name="DowngradeBlock" value="shotgunTurretBroken2"/>
+		<drop event="Harvest" name="electricParts" count="5" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
+	</block>
+	<block id="964" name="bladeTrapBroken">
+		<property name="Material" value="Mmetal_hard"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Electrical/trap_spinning_bladePrefab"/>
+		<property name="HandleFace" value="Bottom"/>
+		<property name="MultiBlockDim" value="3,1,3"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="Group" value="Science"/>
+		<property class="RepairItems">
+			<property name="forgedIron" value="10"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="bladeTrapBroken1"/>
+			<property name="Item" value="forgedSteel"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="bladeTrapBroken" count="1" tool_category="Disassemble"/>
+		<property name="Stacknumber" value="10"/>
+		<property name="DescriptionKey" value="bladeTrapBrokenDesc"/>
+	</block>
+	<block id="965" name="bladeTrapBroken1">
+		<property name="Material" value="Mmetal_medium"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
+		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretShotgunPrefab"/>
+		<property name="OnlySimpleRotations" value="true"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property class="RepairItems">
+			<property name="forgedSteel" value="10"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="bladeTrapBroken2"/>
+			<property name="Item" value="mechanicalParts"/>
+			<property name="ItemCount" value="8"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<property name="DowngradeBlock" value="bladeTrapBroken"/>
+		<drop event="Harvest" name="forgedSteel" count="10" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
+	</block>
+	<block id="966" name="bladeTrapBroken2">
+		<property name="Material" value="Mmetal_medium"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
+		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretShotgunPrefab"/>
+		<property name="OnlySimpleRotations" value="true"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property class="RepairItems">
+			<property name="mechanicalParts" value="8"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="bladeTrap"/>
+			<property name="Item" value="electricParts"/>
+			<property name="ItemCount" value="6"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<property name="DowngradeBlock" value="bladeTrapBroken1"/>
+		<drop event="Harvest" name="mechanicalParts" count="8" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
 	</block>
 </blocks>
 <!-- Block limit: No block can have an ID greater 2047. -->

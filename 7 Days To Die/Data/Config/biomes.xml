@@ -1008,6 +1008,7 @@ If you do not declare them, the decorations of the main biome are used.
 		<layers>
 			<layer filluptorg="60" blockname="water"/>
 			<layer depth="1" blockname="desertGround"/>
+			<layer depth="2" blockname="desertGround"> <resource blockname="bladeTrapBroken" cluster="2" prob="0.005" rwgGenerationType="all"/> </layer>
 			<layer depth="22" blockname="sandStone"/>
 			<layer depth="*" blockname="sandStone" >
 				<resource blockname="ironOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
@@ -1274,6 +1275,8 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="rock01" prob ="0.001" />
 				<decoration type="block" blockname="rock02" prob ="0.001" />
 				<decoration type="block" blockname="rock04" prob ="0.001" />
+				<decoration type="block" blockname="autoTurretBroken" prob ="0.0005" rotatemax="7"/>
+				<decoration type="block" blockname="shotgunTurretBroken" prob ="0.0005" rotatemax="7"/>
 				<decoration type="block" blockname="rockResource" prob ="0.0005" rotatemax="7"/>
 				<decoration type="block" blockname="rockResource02" prob ="0.0005" rotatemax="7"/>
 				<decoration type="block" blockname="driftwood" prob ="0.001" rotatemax="7"/>
@@ -1385,6 +1388,9 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="rock01" prob="0.001" rotatemax="7"/>
 			<decoration type="block" blockname="rock02" prob="0.001" rotatemax="7"/>
 			<decoration type="block" blockname="rock04" prob="0.001" rotatemax="7"/>
+			<decoration type="block" blockname="autoTurretBroken" prob ="0.0005" rotatemax="7"/>
+			<decoration type="block" blockname="shotgunTurretBroken" prob ="0.0005" rotatemax="7"/>
+			<decoration type="block" blockname="mineCandyTin" prob ="0.005" rotatemax="7"/>
 			<decoration type="block" blockname="rockResource" prob ="0.0005" rotatemax="7"/>
 			<decoration type="block" blockname="rockResource02" prob ="0.0005" rotatemax="7"/>
 			<decoration type="block" blockname="cntBirdnest" prob ="0.002"/>
@@ -1406,9 +1412,6 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="prefab" name="mp_waste_pile_04" prob="0.0007" rotatemax="7"/>
 			<decoration type="prefab" name="mp_waste_pile_05" prob="0.0007" rotatemax="7"/>
 			<decoration type="block" blockname="cntCar03SedanDamage2" prob="0.0005" rotatemax="7"/>
-			<decoration type="block" blockname="mineCandyTin" prob="0.00015" />
-			<decoration type="block" blockname="mineHubcap" prob="0.00015" />
-			<decoration type="block" blockname="hubcapNoMine" prob="0.00011" />
 			<decoration type="block" blockname="treePlainsGrassDiagonal" prob ="0.035" rotatemax="7"/>
 			<decoration type="block" blockname="treeBrownGrassDiagonal" prob ="0.035" rotatemax="7"/>
 		</decorations>
