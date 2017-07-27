@@ -3279,13 +3279,13 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="mechanicalParts" count="3"/>
 	</recipe>
 	<recipe name="generatorbank" count="1" craft_time = "60" craft_exp_gain="134" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedIron" count="100"/>
 		<ingredient name="mechanicalParts" count="10"/>
 		<ingredient name="electricParts" count="10"/>
 		<ingredient name="electronicParts" count="4"/>
 	</recipe>
 	<recipe name="batterybank" count="1" craft_time = "60" craft_exp_gain="134" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedIron" count="100"/>
 		<ingredient name="electricParts" count="8"/>
 		<ingredient name="electronicParts" count="3"/>
 		<ingredient name="scrapPlastics" count="6"/>
