@@ -743,7 +743,7 @@ snowberryPlant feeds you for 90 sec. -->
 </buff>
 
 <buff id="zombieRadiatedBuff80" duration="0" icon="ui_game_symbol_fire">
-	<modify id="0" stat="health" amount="10" rate="5" />
+	<modify id="0" stat="health" amount="15" rate="10" />
 </buff>
 
 <buff id="shockedBuff" duration="4.5" stack="discard" debuffif="ShockAmount equals 0" buffif="ShockAmount greater 0"
