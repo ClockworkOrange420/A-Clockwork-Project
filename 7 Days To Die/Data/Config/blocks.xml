@@ -14752,10 +14752,11 @@
 			<property name="mechanicalParts" value="2"/>
 			<property name="electricParts" value="2"/>
 		</property>
+		<property name="DowngradeBlock" value="autoTurretBroken"/>
 		<drop event="Harvest" name="mechanicalParts" count="1,4" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electricParts" count="1,4" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="10,40" tool_category="Harvest"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" name="scrapIron" count="10" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapIron" count="10" tool_category="Harvest"/>
 		<property name="EconomicValue" value="3000"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="109"/>
@@ -14763,10 +14764,15 @@
 		<property name="PickupJournalEntry" value="cameraTip"/>
 	</block>
 	<block id="1679" name="shotgunTurret">
-		<property name="Extends" value="autoTurret"/>
+		<property name="Class" value="Ranged"/>
+		<property name="Material" value="Mmetal_medium"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
 		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretShotgunPrefab"/>
+		<property name="OnlySimpleRotations" value="true"/>
 		<property name="AmmoItem" value="shotgunShell"/>
 		<!-- does not use the damage value -->
+		<property name="TurnSpeed" value="22.5"/>
 		<property name="MaxDistance" value="15"/>
 		<property name="EntityDamage" value="11"/>
 		<!-- 180 dps, 440 / burst -->
@@ -14778,12 +14784,40 @@
 		<property name="BurstFireRate" value="0.61"/>
 		<property name="CooldownTime" value="2"/>
 		<property name="OvershootTime" value="0.8"/>
+		<property name="FallAsleepTime" value="10"/>
+		<property name="WakeUpTime" value="0.5"/>
+		<property name="YawRange" value="90"/>
+		<property name="PitchRange" value="90"/>
 		<property name="ParticlesMuzzleFire" value="nozzleflash_shotgun"/>
 		<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
+		<property name="DamageBonus.head" value="3"/>
+		<property name="DamageBonus.glass" value="1"/>
+		<property name="DamageBonus.wood" value="2"/>
+		<property name="DamageBonus.earth" value="0.2"/>
+		<property name="DamageBonus.stone" value="0.2"/>
+		<property name="DamageBonus.metal" value="0.2"/>
+		<property name="TargetingSound" value="turret_retarget_lp"/>
+		<property name="OverheatSound" value="turret_overheat_lp"/>
+		<property name="WakeUpSound" value="turret_windup"/>
+		<property name="RequiredPower" value="15"/>
 		<property name="Buff" value="shotgunWound"/>
 		<property name="BuffChance" value="0.8"/>
 		<property name="FireSound" value="pump_shotgun_fire"/>
-		<property name="EconomicValue" value="2500"/>
+		<property name="RequiredPower" value="15"/>
+		<property class="RepairItems">
+			<property name="forgedIron" value="10"/>
+			<property name="mechanicalParts" value="2"/>
+			<property name="electricParts" value="2"/>
+		</property>
+		<property name="DowngradeBlock" value="shotgunTurretBroken"/>
+		<drop event="Harvest" name="mechanicalParts" count="1,4" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electricParts" count="1,4" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="10" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapIron" count="10" tool_category="Harvest"/>
+		<property name="EconomicValue" value="3000"/>
+		<property name="EconomicBundleSize" value="1"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="109"/>
+		<property name="Group" value="Science"/>
 		<property name="PickupJournalEntry" value="cameraTip"/>
 	</block>
 	<!-- Free -->
@@ -15755,7 +15789,7 @@
 			<property name="ItemCount" value="5"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
-		<property name="DowngradeBlock" value="bladeTrapBroken1"/>
+		<property name="DowngradeBlock" value="bladeTrapBroken"/>
 		<drop event="Harvest" name="mechanicalParts" count="4,8" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electricParts" count="3,6" tool_category="Disassemble"/>
 		<drop event="Harvest" name="forgedIron" count="5,10" tool_category="Disassemble"/>
@@ -17308,7 +17342,7 @@
 			<property name="mechanicalParts" value="8"/>
 		</property>
 		<property class="UpgradeBlock">
-			<property name="ToBlock" value="bladeTrapBroken2"/>
+			<property name="ToBlock" value="bladeTrap"/>
 			<property name="Item" value="electricParts"/>
 			<property name="ItemCount" value="6"/>
 			<property name="UpgradeHitCount" value="4"/>
