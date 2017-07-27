@@ -4395,6 +4395,7 @@
 		<property name="Explosion.RadiusEntities" value="5"/>
 		<property name="Explosion.BlockDamage" value="10"/>
 		<property name="Explosion.EntityDamage" value="90"/>
+		<property name="CanPickup" value="true" param1="mineCandyTin"/>
 		<property name="EconomicValue" value="146"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	</block>
@@ -4408,6 +4409,7 @@
 		<property name="Explosion.RadiusEntities" value="5"/>
 		<property name="Explosion.BlockDamage" value="10"/>
 		<property name="Explosion.EntityDamage" value="180"/>
+		<property name="CanPickup" value="true" param1="mineCandyTin"/>
 		<property name="EconomicValue" value="182"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	</block>
@@ -12744,7 +12746,7 @@
 		<property name="Explosion.DamageBonus.earth" value="0"/>
 		<property name="Explosion.DamageBonus.wood" value="0"/>
 		<property name="Explosion.DamageBonus.water" value="0"/>
-		<property name="CanPickup" value="true"/>
+		<property name="CanPickup" value="false"/>
 		<property name="DropScale" value="3"/>
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Science"/>
