@@ -17259,6 +17259,7 @@
 	</block>
 	<block id="964" name="bladeTrapBroken">
 		<property name="Material" value="Mmetal_hard"/>
+		<property name="MaxDamage" value="2000"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Electrical/trap_spinning_bladePrefab"/>
 		<property name="HandleFace" value="Bottom"/>
