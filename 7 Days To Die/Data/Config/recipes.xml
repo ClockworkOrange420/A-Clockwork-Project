@@ -650,8 +650,8 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="flamingArrow" count="1"/>
 	</recipe>
 	<recipe name="asphalt2" count="1" craft_time = "4" craft_exp_gain="9" craft_area="cementMixer" >
-		<ingredient name="crushedSand" count="8"/>
-		<ingredient name="rockSmall" count="17"/>
+		<ingredient name="crushedSand" count="5"/>
+		<ingredient name="rockSmall" count="10"/>
 		<ingredient name="oilShale" count="5"/>
 	</recipe>
 	<recipe name="auger" count="1" craft_area="assembly" >
@@ -1535,7 +1535,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="cntBeerCooler" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="forgedIron" count="4"/>
+		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="shortMetalPipe" count="3"/>
 		<ingredient name="electricParts" count="5"/>
 		<ingredient name="electronicParts" count="1"/>
@@ -1546,10 +1546,14 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="nail" count="2"/>
 	</recipe>
 	<recipe name="cntCabinet" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="cobblestones" count="5"/>
-		<ingredient name="cntCabinetTop" count="1"/>
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="cntCabinetTop" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="cntCabinetOldTop" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
@@ -1591,14 +1595,14 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="electronicParts" count="2"/>
 	</recipe>
 	<recipe name="cntFridgeBottom" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="forgedIron" count="4"/>
+		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
 		<ingredient name="electricParts" count="4"/>
 		<ingredient name="electronicParts" count="1"/>
 	</recipe>
 	<recipe name="cntFridgeTop" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="forgedIron" count="4"/>
+		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
 		<ingredient name="electricParts" count="4"/>
@@ -1617,20 +1621,20 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="5"/>
 	</recipe>
 	<recipe name="cntNightstand" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="wood" count="20"/>
-		<ingredient name="nail" count="10"/>
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="cntBookcase" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="wood" count="20"/>
-		<ingredient name="nail" count="10"/>
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="cntPillCase" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="wood" count="20"/>
-		<ingredient name="nail" count="10"/>
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="cntCoffin" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="wood" count="20"/>
-		<ingredient name="nail" count="10"/>
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="cntSecureStorageChest" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="20"/>
@@ -1639,6 +1643,9 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="cntStorageGeneric" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="10"/>
+	</recipe>
+	<recipe name="cntSuitcase" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="scrapPlastics" count="10"/>
 	</recipe>
 	<recipe name="cntToilet01" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="bucketWater" count="1"/>
@@ -2525,8 +2532,8 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="gasCan" count="600"/>
 	</recipe>
 	<recipe name="oldChair" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
-		<ingredient name="wood" count="10"/>
-		<ingredient name="nail" count="5"/>
+		<ingredient name="wood" count="5"/>
+		<ingredient name="nail" count="3"/>
 	</recipe>
 	<recipe name="pew_segment01" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
@@ -3360,7 +3367,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="bladeTrap" count="1" craft_time = "30" craft_exp_gain="67" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="10"/>
-		<ingredient name="forgedSteel" count="10"/>
 		<ingredient name="mechanicalParts" count="8"/>
 		<ingredient name="electricParts" count="6"/>
 	</recipe>
