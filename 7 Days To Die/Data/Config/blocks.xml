@@ -4377,7 +4377,7 @@
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="Traps/trap_mine_tin" param1="main_mesh"/>
 		<property name="IsTerrainDecoration" value="true"/>
-		<property name="Stacknumber" value="1"/>
+		<property name="Stacknumber" value="10"/>
 		<!-- STK explosives -->
 		<property name="MaxDamage" value="4"/>
 		<property name="Explosion.ParticleIndex" value="1"/>
@@ -4391,7 +4391,7 @@
 		<property name="Explosion.DamageBonus.earth" value="0"/>
 		<property name="Explosion.DamageBonus.wood" value="0"/>
 		<property name="Explosion.DamageBonus.water" value="0"/>
-		<property name="CanPickup" value="true"/>
+		<property name="CanPickup" value="false"/>
 		<property name="DropScale" value="3"/>
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Science"/>
@@ -4401,7 +4401,7 @@
 	<block id="432" name="mineHubcap">
 		<property name="Extends" value="mineCandyTin"/>
 		<property name="Model" value="Traps/trap_mine_hubcap" param1="main_mesh"/>
-		<property name="Stacknumber" value="1"/>
+		<property name="Stacknumber" value="10"/>
 		<!-- STK explosives -->
 		<property name="MaxDamage" value="5"/>
 		<property name="Explosion.RadiusBlocks" value="3"/>
@@ -4415,7 +4415,7 @@
 	<block id="433" name="mineAirFilter">
 		<property name="Extends" value="mineCandyTin"/>
 		<property name="Model" value="Traps/trap_mine_filter" param1="main_mesh"/>
-		<property name="Stacknumber" value="1"/>
+		<property name="Stacknumber" value="10"/>
 		<!-- STK explosives -->
 		<property name="MaxDamage" value="6"/>
 		<property name="Explosion.RadiusBlocks" value="4"/>
@@ -4950,7 +4950,7 @@
 		<property name="CustomIconTint" value="a00000"/>
 		<property name="Model" value="CampingGear/cooking_pot" param1="main_mesh"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
-		<property name="Stacknumber" value="1"/>
+		<property name="Stacknumber" value="10"/>
 		<!-- STK explosives -->
 		<property name="Explosion.RadiusBlocks" value="2"/>
 		<property name="Explosion.RadiusEntities" value="3"/>
@@ -12768,7 +12768,7 @@
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property name="Texture" value="352"/>
-		<property name="Stacknumber" value="1"/>
+		<property name="Stacknumber" value="10"/>
 		<!-- STK explosives -->
 		<property name="MaxDamage" value="4"/>
 		<property name="Explosion.ParticleIndex" value="1"/>
@@ -15732,7 +15732,6 @@
 		<property name="RunningSoundBreaking" value="bladetrap_dm1_lp"/>
 		<property name="RunningSoundBroken" value="bladetrap_dm2_lp"/>
 		<property name="StabilitySupport" value="false"/>
-		<property name="OnlySimpleRotations" value="true"/>
 		<!-- build restriction -->
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Electrical/trap_spinning_bladePrefab"/>
@@ -17282,7 +17281,6 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 		<property name="ImposterDontBlock" value="true"/>
-		<property name="OnlySimpleRotations" value="true"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="Group" value="Science"/>
 		<property class="RepairItems">
@@ -17304,7 +17302,6 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretShotgunPrefab"/>
-		<property name="OnlySimpleRotations" value="true"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property class="RepairItems">
@@ -17334,7 +17331,6 @@
 		<property name="RunningSoundBreaking" value="bladetrap_dm1_lp"/>
 		<property name="RunningSoundBroken" value="bladetrap_dm2_lp"/>
 		<property name="StabilitySupport" value="false"/>
-		<property name="OnlySimpleRotations" value="true"/>
 		<!-- build restriction -->
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Electrical/trap_spinning_bladePrefab"/>

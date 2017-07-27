@@ -1390,7 +1390,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="rock04" prob="0.001" rotatemax="7"/>
 			<decoration type="block" blockname="autoTurretBroken" prob ="0.0005" rotatemax="7"/>
 			<decoration type="block" blockname="shotgunTurretBroken" prob ="0.0005" rotatemax="7"/>
-			<decoration type="block" blockname="mineCandyTin" prob ="0.005" rotatemax="7"/>
+			<decoration type="block" blockname="mineCandyTin" prob ="0.0025" rotatemax="7"/>
 			<decoration type="block" blockname="rockResource" prob ="0.0005" rotatemax="7"/>
 			<decoration type="block" blockname="rockResource02" prob ="0.0005" rotatemax="7"/>
 			<decoration type="block" blockname="cntBirdnest" prob ="0.002"/>
