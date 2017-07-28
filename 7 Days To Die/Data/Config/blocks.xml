@@ -3582,7 +3582,7 @@
 		<property name="DescriptionKey" value="lightPOIGroupDesc"/>
 		<property name="Material" value="metal"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
+		<property name="RuntimeSwitch" value="true"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="ImposterExchange" value="streetLightImposter"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
