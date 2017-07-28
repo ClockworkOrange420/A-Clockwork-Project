@@ -3591,7 +3591,7 @@
 		<drop event="Harvest" name="electricParts" count="4,8" tool_category="Disassemble"/>
 		<drop event="Destroy" name="scrapIron" count="1,5" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="TakeDelay" value="-1"/>
+		<property name="TakeDelay" value="10"/>
 		<property name="Group" value="Science"/>
 	</block>
 	<block id="365" name="airConditioner">
