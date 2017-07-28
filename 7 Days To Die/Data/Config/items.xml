@@ -1504,9 +1504,9 @@
 			<property name="Stamina_usage" value="3.5"/>
 			<property name="DamageBonus.head" value="1"/>
 			<property name="DamageBonus.glass" value="1"/>
-			<property name="DamageBonus.wood" value="2"/>
+			<property name="DamageBonus.wood" value="1.5"/>
 			<property name="DamageBonus.earth" value="0.5"/>
-			<property name="DamageBonus.stone" value="2"/>
+			<property name="DamageBonus.stone" value="1.5"/>
 			<property name="DamageBonus.metal" value="2"/>
 			<property name="DamageBonus.organic" value="1"/>
 			<property name="ActionExp" value="2"/>
