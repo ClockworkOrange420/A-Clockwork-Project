@@ -1392,6 +1392,12 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="20"/>
 		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
+	<recipe name="cntBin" count="1" craft_time = "20" craft_exp_gain="45" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="3"/>
+	</recipe>
+	<recipe name="cntTrash_can01" count="1" craft_time = "20" craft_exp_gain="45" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="5"/>
+	</recipe>
 	<recipe name="bedroll" count="1" craft_time = "20" craft_exp_gain="67" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="cloth" count="15"/>
 		<ingredient name="cottonPlant" count="20"/>
@@ -1557,6 +1563,24 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
+	<recipe name="cntCabinetOldBottom" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="cntCabinetOldCNRRoundFiller" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
+	<recipe name="cntGraniteSink" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="5"/>
+		<ingredient name="cntCabinetTop" count="1"/>
+		<ingredient name="shortMetalPipe" count="4"/>
+	</recipe>
+	<recipe name="cntCabinetOldSink" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="5"/>
+		<ingredient name="cntCabinetTop" count="1"/>
+		<ingredient name="shortMetalPipe" count="4"/>
+	</recipe>
 	<recipe name="cntDesk01" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
@@ -1648,19 +1672,19 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="scrapPlastics" count="10"/>
 	</recipe>
 	<recipe name="cntToilet01" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="bucketWater" count="1"/>
+		<ingredient name="bucket" count="1"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
 		<ingredient name="wood" count="4"/>
 	</recipe>
 	<recipe name="cntToilet02" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="bucketWater" count="1"/>
+		<ingredient name="bucket" count="1"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
 		<ingredient name="wood" count="4"/>
 	</recipe>
 	<recipe name="cntToilet03" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="bucketWater" count="1"/>
+		<ingredient name="bucket" count="1"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
 		<ingredient name="wood" count="4"/>
@@ -3303,7 +3327,8 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="electricParts" count="6"/>
 	</recipe>
 	<recipe name="wallLight01_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="forgedIron" count="12"/>
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="electricParts" count="6"/>
 	</recipe>
 	<recipe name="ceilingLight02_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
@@ -3322,6 +3347,12 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="scrapPlastics" count="3"/>
 	</recipe>
 	<recipe name="spotlightPlayer" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="headlight" count="1"/>
+		<ingredient name="electricParts" count="8"/>
+		<ingredient name="ductTape" count="2"/>
+	</recipe>
+	<recipe name="streetLight01" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="headlight" count="1"/>
 		<ingredient name="electricParts" count="8"/>
@@ -3637,15 +3668,14 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="Ink" count="1"/>
 	</recipe>
 	<!--End of Fake Recipes-->
-	<recipe name="cntGraniteSink" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="scrapIron" count="5"/>
-		<ingredient name="cntCabinetTop" count="1"/>
-		<ingredient name="shortMetalPipe" count="4"/>
+	<recipe name="graveStone01" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="cntCabinetOldSink" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="scrapIron" count="5"/>
-		<ingredient name="cntCabinetTop" count="1"/>
-		<ingredient name="shortMetalPipe" count="4"/>
+	<recipe name="graveStone02" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	<recipe name="graveStone03" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 </recipes>
 <!-- To do (maybe / later)<recipe name="steelArrowHead" count="1" craft_area="forge" 

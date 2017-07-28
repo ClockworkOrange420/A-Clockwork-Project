@@ -3283,7 +3283,7 @@
 		<property name="ImposterExchange" value="imposterCTREighth" param1="143"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="LootList" value="16"/>
-		<drop event="Destroy" name="scrapIron" count="5" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapIron" count="8" tool_category="Harvest"/>
 		<property name="EconomicValue" value="40"/>
 	</block>
 	<block id="336" name="cntBin">
@@ -4595,7 +4595,7 @@
 	</block>
 	<block id="470" name="signRoadArrowheadApache">
 		<property name="CreativeMode" value="Dev"/>
-		<property name="Material" value="Mmetal_medium"/>
+		<property name="Material" value="Mmetal_thin"/>
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -4604,50 +4604,69 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-		<drop event="Destroy" name="scrapIron" count="5,15" tool_category="Harvest"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="471" name="signRoadAZ260eastSpeed65">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_az260_east_speed65" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadAZ260eastSpeed65" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="472" name="signRoadAZ260west">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_az260_west" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadAZ260west" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="473" name="signRoadAZ260westSpeed65">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_az260_west_speed65" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadAZ260westSpeed65" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="474" name="signRoadAZ73north">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_az73_north" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadAZ73north" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="475" name="signRoadAZ73northSpeed65">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_az73_north_speed65" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadAZ73northSpeed65" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="476" name="signRoadAZ73south">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_az73_south" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadAZ73south" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="477" name="signRoadAZ73southSpeed65">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_az73_south_speed65" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadAZ73southSpeed65" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="478" name="signCamping">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_camping" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signCamping" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="479" name="signCampFish">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_camp_fish" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signCampFish" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="480" name="signRoadDestinationsEast">
 		<!-- 2 blocks -->
@@ -4656,6 +4675,8 @@
 		<property name="ModelOffset" value="0,-0.15,0"/>
 		<property name="MultiBlockDim" value="2,3,1"/>
 		<property name="CreativeMode" value="Dev"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadDestinationsEast" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="481" name="signRoadDestinationsWest">
 		<!-- 2 blocks -->
@@ -4664,164 +4685,232 @@
 		<property name="ModelOffset" value="0,-0.15,0"/>
 		<property name="MultiBlockDim" value="2,3,1"/>
 		<property name="CreativeMode" value="Dev"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadDestinationsWest" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="482" name="signInfoCenter">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_info_center" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signInfoCenter" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="483" name="signNoHazardousWaste">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_no_hazardous_waste" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signNoHazardousWaste" count="1" tool_category="Disassemble"/>
 	</block>
-	<!-- <block id="484" name="signRoadRightOnly"><property name="Extends" value="signRoadArrowheadApache"/><property name="Model" value="Signs/sign_right_only" param1="main_mesh"/></block> -->
 	<block id="485" name="signRoadWork">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_road_work" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadWork" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="486" name="signRoadRoughSurface">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_rough_surface" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadRoughSurface" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="487" name="signSchoolZone">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_schoolzone" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signSchoolZone" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="488" name="signRoadSlow">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_slow" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadSlow" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="489" name="signRoadSpeed25">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_speed25" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadSpeed25" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="490" name="signRoadSpeed25noTrucks">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_speed25_notrucks" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadSpeed25noTrucks" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="491" name="signRoadSpeed35">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_speed35" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadSpeed35" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="492" name="signRoadSpeed45">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_speed45" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadSpeed45" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="493" name="signRoadSpeed55">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_speed55" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadSpeed55" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="494" name="signRoadSpeed65">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_speed65" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadSpeed65" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="495" name="signRoadStop">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_stop" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadStop" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="496" name="signRoadStop4way">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_stop_4way" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadStop4way" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="497" name="signRoadApacheAZ260">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_street_apache_az260" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadApacheAZ260" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="498" name="signRoadBellLake">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_street_bell_lake" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadBellLake" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="499" name="signRoadCoronado">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_street_coronado" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadCoronado" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="500" name="signRoadCoronadoCourtland">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_street_coronado_courtland" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadCoronadoCourtland" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="501" name="signRoadCourtlandApache">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_street_courtland_apache" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadCourtlandApache" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="502" name="signRoadCourtlandAZ260">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_street_courtland_az260" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadCourtlandAZ260" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="503" name="signRoadCourtlandBell">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_street_courtland_bell" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadCourtlandBell" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="504" name="signRoadCourtlandHuenink">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_street_courtland_huenink" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadCourtlandHuenink" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="505" name="signRoadCourtlandMaple">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_street_courtland_maple" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadCourtlandMaple" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="506" name="signRoadCourtlandTran">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_street_courtland_tran" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadCourtlandTran" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="507" name="signRoadDavis">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_street_davis" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadDavis" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="508" name="signRoadEssig">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_street_essig" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadEssig" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="509" name="signRoadLangTran">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_street_lang_tran" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadLangTran" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="510" name="signRoadPrivate">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_street_private" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadPrivate" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="511" name="signRoadTran">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_street_tran" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadTran" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="512" name="signRoadCourtlandAZ260Duplicate">
-		<!-- Not a duplicate! No other block uses this model! -->
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_street_courtland_az260_2" param1="main_mesh"/>
 		<property name="CreativeMode" value="Dev"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadCourtlandAZ260Duplicate" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="513" name="signNationalPark">
 		<!-- 2 blocks -->
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_national_park" param1="main_mesh"/>
 		<property name="ModelOffset" value="0,-0.1,0"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signNationalPark" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="514" name="signSpillwayLake">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="Model" value="Signs/sign_spillway_lake" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signSpillwayLake" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="515" name="signAnselAdamsRiver">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Signs/sign_ansel_adams_river" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signAnselAdamsRiver" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="516" name="signRoadMaple">
 		<property name="Extends" value="signRoadArrowheadApache"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Class" value="Sign"/>
 		<property name="Model" value="Signs/sign_street_maple" param1="main_mesh"/>
+		<drop event="Destroy" name="signRoadArrowheadApache" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signRoadMaple" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="517" name="rebarDestroyed">
 		<property name="Material" value="Mmetal_medium"/>
@@ -12104,10 +12193,11 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Texture" value="427"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
-		<drop event="Destroy" name="signShopColdBeer" count="1" tool_category="Disassemble"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="DescriptionKey" value="decorativeBlockGroupDesc"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signShopColdBeer" count="1" tool_category="Disassemble"/>
 	</block>
 	<block id="1327" name="candleTable">
 		<property name="Extends" value="candleWall"/>
@@ -15210,9 +15300,8 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Material" value="Mmetal_weak"/>
 		<property name="OnlySimpleRotations" value="true"/>
-		<drop event="Harvest" name="electricParts" count="2" prob="0.7" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapPlastics" count="2" prob="0.8" tool_category="Disassemble"/>
-		<drop event="Destroy" name="scrapIron" count="1,5" tool_category="Harvest"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="signShopOpen" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="TakeDelay" value="-1"/>
 		<property name="Group" value="Science,Decor/Miscellaneous"/>
