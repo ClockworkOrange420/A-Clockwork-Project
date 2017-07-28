@@ -511,15 +511,15 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <!--Modded-->
 
 <buff id="sleepingBagTrigger" duration="1" actions="setvar(CTRbedroll, 3)"/>
-<buff id="sleepingBagEffect" duration="0" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(CTRbedroll, -1, 1, 0, 0);buff(recovering2)" icon="ui_game_symbol_map_bed" name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip"/>
+<buff id="sleepingBagEffect" duration="0" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(CTRbedroll, -1, 1, 0, 0);buff(recovering2)" name_key="You Are Resting" description_key="You are resting and will recover from fatigue slowly." tooltip_key="You are resting" icon="ui_game_symbol_map_bed"/>
 <buff id="sleepingBagEffect2" duration="0" mutex="rested" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
 
 <buff id="sleepingBedTrigger" duration="1" actions="setvar(CTRbed, 3)" />
-<buff id="sleepingBedEffect" duration="0" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(CTRbed, -1, 1, 0, 0);buff(recovering3)" name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip" icon="ui_game_symbol_map_bed"/>
+<buff id="sleepingBedEffect" duration="0" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(CTRbed, -1, 1, 0, 0);buff(recovering3)" name_key="You Are Resting" description_key="You are resting and will recover from fatigue, feels better than a sleeping bag!" tooltip_key="You are resting" icon="ui_game_symbol_map_bed"/>
 <buff id="sleepingBedEffect2" duration="0" mutex="rested" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
 
 <buff id="sleepingBigBedTrigger" duration="1" actions="setvar(CTRbigbed, 3)" />
-<buff id="sleepingBigBedEffect" duration="0" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(CTRbigbed, -1, 1, 0, 0);buff(recovering4)" name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip" icon="ui_game_symbol_map_bed"/>
+<buff id="sleepingBigBedEffect" duration="0" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(CTRbigbed, -1, 1, 0, 0);buff(recovering4)" name_key="You Are Resting" description_key="You are resting and will recover from fatigue, now this is comfy!" tooltip_key="You are resting" icon="ui_game_symbol_map_bed"/>
 <buff id="sleepingBigBedEffect2" duration="0" mutex="rested" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
 
 <buff id="asphaltStaBoostTrigger" duration="1" actions="setvar(CTRroadrun, 3)" />
@@ -579,24 +579,24 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="bloodBagDecay" duration="1" actions="increment(BDKbloodLoss, -25, 1, 0, 0)" />
 
 <buff id="bloodDrawWarn" stack="discard" mutex="bloodDrawWeak,bloodDrawSick" buffif="BDKbloodLoss greater 100" debuffif="BDKbloodLoss lequal 50" duration="0"
-	icon="ui_game_symbol_food_poisoning" name_key="BDKWarning" description_key="BDKWarningDesc" tooltip_key="BDKWarningDesc" >
-	<modify id="1" stat="stamina" amount="-.5" rate="1"/>
+	icon="ui_game_symbol_food_poisoning" name_key="Slight Blood Loss" description_key="You are feeling slightly weak from blood loss but nothing serious" tooltip_key="Slight Blood Loss Nothing Serious" >
+	<modify id="1" stat="stamina" amount="-0.5" rate="1"/>
 </buff>
 
 <buff id="bloodDrawWeak" stack="discard" mutex="bloodDrawSick" buffif="BDKbloodLoss greater 150" debuffif="BDKbloodLoss lequal 100" duration="0" actions="debuff(bloodDrawWarn)"
-	icon="ui_game_symbol_critical" name_key="BDKWeak" description_key="BDKWeakDesc" tooltip_key="BDKWeakDesc" >
+	icon="ui_game_symbol_critical" name_key="Blood Loss" description_key="You are feeling weak from blood loss and losing wellness" tooltip_key="Blood Loss" >
 	<modify id="0" stat="wellness" amount="-.25" rate="60" />
 	<modify id="1" stat="stamina" amount="-1" rate="1"/>
 </buff>
 
 <buff id="bloodDrawSick" stack="discard" buffif="BDKbloodLoss greater 200" debuffif="BDKbloodLoss lequal 150" duration="0" actions="debuff(bloodDrawWarn);debuff(bloodDrawWeak)"
-	icon="ui_game_symbol_death" name_key="BDKSick" description_key="BDKSickDesc" tooltip_key="BDKSickDesc" >
+	icon="ui_game_symbol_death" name_key="Extreme Blood Loss" description_key="You are feeling extrememly weak from major blood loss and are losing wellness" tooltip_key="Extreme Blood Loss" >
 	<modify id="0" stat="wellness" amount="-.5" rate="60" />
 	<modify id="1" stat="stamina" amount="-2" rate="1"/>
 	<modify id="2" stat="speedmodifier" setValue="0.80"/>
 </buff>
 
-<buff id="bloodDrawDead" stack="discard" buffif="BDKbloodLoss greater 250" actions="kill"/>
+<buff id="bloodDrawDead" stack="discard" buffif="BDKbloodLoss greater 250" actions="setvar(BDKbloodLoss, 0)kill"/>
 <!-- Snowberries double your natural water consumption. If you eat too much they are poisonous. Fun stuff. -->
 <buff id="eatSnowberryTrigger" duration="1" actions="increment(CTRsnowberry, 144, 0, 0, 1)"/>
 <buff id="eatsnowberryJuiceTrigger" duration="1" actions="increment(CTRsnowberry, 720, 0, 0, 1);buff(snowberryWarmingBuff)"/>
