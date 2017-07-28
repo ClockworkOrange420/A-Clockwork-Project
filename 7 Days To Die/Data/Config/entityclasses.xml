@@ -1839,7 +1839,7 @@
 	<property name="PhysicsBody" value="boar"/>
 	<property name="Mesh" value="Animals/Boar/AnimalBoarStandardRagdoll"/>
 	<property name="HandItem" value="handAnimalWolf"/>
-	<property name="MaxHealth" value="90"/>
+	<property name="MaxHealth" value="120"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="RagdollOnDeathChance" value=".5"/>

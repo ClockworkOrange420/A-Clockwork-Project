@@ -17,21 +17,21 @@
 	<!-- JOEL: change "respawndelay" to world days, change "maxcount" to entities per area -->
 <!-- All Navezgane Cities Now not used -->
     <biome name="city">
-        <spawn maxcount="3" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
-        <spawn maxcount="5" respawndelay="1" time="Night" entitygroup="ZombiesNight" />
+        <spawn maxcount="6" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
+        <spawn maxcount="6" respawndelay="1" time="Night" entitygroup="ZombiesNight" />
 		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="ZombieDogGroup" />
     </biome>
 <!-- Not Used anymore in Navezgane-->
     <biome name="city_wasteland">
-      <spawn maxcount="2" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
+      <spawn maxcount="6" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
       <spawn maxcount="1" respawndelay="1" time="Any" entitygroup="ZombiesBoss" />
-      <spawn maxcount="2" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
+      <spawn maxcount="6" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
       <spawn maxcount="1" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWasteland" />
     </biome>
 <!-- Random gen city not used anymore-->
     <biome name="wasteland_hub">
-      <spawn maxcount="5" respawndelay="1" time="Day" entitygroup="ZombiesWasteland" />
-      <spawn maxcount="5" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
+      <spawn maxcount="6" respawndelay="1" time="Day" entitygroup="ZombiesWasteland" />
+      <spawn maxcount="6" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
 	  <spawn maxcount="1" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWasteland" />
     </biome>
 
