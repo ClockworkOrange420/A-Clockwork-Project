@@ -7859,7 +7859,7 @@
 		<property name="HoldType" value="45"/>
 		<property name="Stacknumber" value="2000"/>
 		<!-- STK resource -->
-		<property name="FuelValue" value="50"/>
+		<property name="FuelValue" value="10"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="50"/>
 		<property name="Group" value="Resources,Basics"/>

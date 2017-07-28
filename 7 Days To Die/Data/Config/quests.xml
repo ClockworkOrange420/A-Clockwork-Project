@@ -229,6 +229,7 @@
 	
 	Place the Bedroll in the world by first equipping it and using the secondary action key. Once placed you'll see a Bed Icon on your compass and map. This will lead you back to your home and will act as a re-spawn point if you die." icon="ui_game_symbol_map_bed" category_key="Quest">
 		<objective type="FetchKeep" id="cottonPlant" value="20" />
+		<objective type="FetchKeep" id="Cordage" value="5" />
 		<objective type="Craft" id="cloth" value="15" />
 		<objective type="Craft" id="bedroll" value="1" />
 		<objective type="BlockPlace" id="bedroll" value="1" />
