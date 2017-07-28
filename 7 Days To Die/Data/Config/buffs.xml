@@ -320,7 +320,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="2" stat="food" amount="-1" rate="30"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
 </buff>
-<buff id="infection4" buffif="infected gequal 3840" actions="kill" icon="ui_game_symbol_infection" name_key="infection4" description_key="infection4Desc" tooltip_key="infection4Tooltip"/>
+<buff id="infection4" buffif="infected gequal 3840" actions="setvar(infected, 0);kill" icon="ui_game_symbol_infection" name_key="infection4" description_key="infection4Desc" tooltip_key="infection4Tooltip"/>
 
 <!--End-->
 <!--
@@ -721,10 +721,10 @@ snowberryPlant feeds you for 90 sec. -->
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 	<modify id="0" stat="speedmodifier" setValue="0.50"/>
 </buff>
-<buff id="deadTired" buffif="fatigue gequal 168" actions="kill"/>
+<buff id="deadTired" buffif="fatigue gequal 168" actions="setvar(fatigue, 0);kill"/>
 
 <buff id="HygieneLock" duration="0"/>
-<buff id="HygieneLockRemover" duration="1" actions="setvar(hygiene, 0);debuff(HygieneLock)"/>
+<buff id="HygieneLockRemover" duration="1" actions="debuff(HygieneLock)"/>
 <buff id="Hygiene" duration="0" buffif="coretemp lequal 300" mutex="HygieneLock" actions="increment(hygiene, 2, 4t, 0, 0)"/>
 <buff id="fullyClean" duration="0" buffif="hygiene less 1" debuffif="hygiene gequal 24" mutex="dirty,grimy,filthy,infectious" actions="debuff(bathing)" icon="ui_game_symbol_shirt" name_key="Nice and clean" description_key="You are clean." tooltip_key="Nice and clean" />
 <buff id="clean" duration="0" buffif="hygiene gequal 1" debuffif="hygiene gequal 600" mutex="dirty,grimy,filthy,infectious"/>
