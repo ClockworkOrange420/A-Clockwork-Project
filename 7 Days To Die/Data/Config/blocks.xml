@@ -14897,7 +14897,6 @@
 		<property name="Buff" value="shotgunWound"/>
 		<property name="BuffChance" value="0.8"/>
 		<property name="FireSound" value="pump_shotgun_fire"/>
-		<property name="RequiredPower" value="15"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="10"/>
 			<property name="mechanicalParts" value="2"/>
