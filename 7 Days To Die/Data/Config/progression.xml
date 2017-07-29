@@ -3,7 +3,7 @@
 <progression>
 <player
 	max_level="200"
-	exp_to_level="19050"
+	exp_to_level="19550"
 	experience_multiplier="1"
 	skill_points_per_level="5"
 	skill_point_multiplier="0"/>
@@ -19,7 +19,7 @@
 	<!-- if skill_point_cost_multiplier > 0 then PointCostPerLevel = int(SkillPointCostMultiplier ^ currentTier) * SkillPointCostPerLevel -->
 	<!-- always_fire="true" : If a perk has requirements then it MAY not always fire correctly if/when/because it's not called in conjunction with a skill. This flag skips the particular bit of code. -->
 	<!-- Player Skills -->
-	<player_skill name="Athletics" exp_to_level="1000" skill_point_cost_per_level="0" icon="run" description_key="athleticsDesc" title_key="athletics" group="health" >
+	<player_skill name="Athletics" skill_point_cost_per_level="0" icon="run" description_key="athleticsDesc" title_key="athletics" group="health" >
 		<effect name="StaminaDegradation">
 			<!-- <multiply skill_level= and <multiply perk_level= are completely interchangeable. They parse as the same value. -->
 			<multiply skill_level="1,100" value="1,0.5"/>

@@ -7573,7 +7573,6 @@
 		<property name="Extends" value="schematicMaster"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Athletics_Skill"/>
-			<property name="ActionExp" value="500"/>
 		</property>
 	</item>
 	<item id="912" name="Bladed_Weapons">
