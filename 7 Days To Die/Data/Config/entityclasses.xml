@@ -1644,7 +1644,7 @@
 	<property name="PhysicsBody" value="wolf"/>
 	<property name="Mesh" value="Animals/Wolf/animalStandardWolfRagdoll"/>
 	<property name="HandItem" value="handAnimalWolf"/>
-	<property name="MaxHealth" value="200"/>
+	<property name="MaxHealth" value="160"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="RagdollOnDeathChance" value=".5"/>
@@ -1702,8 +1702,8 @@
 <entity_class name="animalDireWolf" extends="animalWolf">
 	<property name="Mesh" value="Animals/Wolf/animalStandardDireWolfRagdoll"/>
 	<property name="HandItem" value="handAnimalZombieDogFeral"/>
-	<property name="MaxHealth" value="600"/>
-	<property name="ExperienceGain" value="600"/>
+	<property name="MaxHealth" value="300"/>
+	<property name="ExperienceGain" value="300"/>
 	<property name="ReplaceMaterial1" value="entities/animals/wolf/materials/wolfEyeFeral"/>
 	<property name="AITask-1" value="Swim"/>
 	<property name="AITask-2" value="BreakDoor"/>
