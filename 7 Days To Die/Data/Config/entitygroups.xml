@@ -241,7 +241,7 @@
 	<entitygroup name="FriendlyAnimalsDesert">
 		<entity name="animalRabbit" />
 		<entity name="animalChicken" />
-		<entity name="animalBoar" prob="0.4" />
+		<entity name="animalBoar"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
 		<entity name="zombieSteve"/>
@@ -259,8 +259,8 @@
 
 	<entitygroup name="FriendlyAnimalsSnow">
 		<entity name="animalRabbit" />
-		<entity name="animalBoar" prob="0.4" />
-		<entity name="animalStag" prob="0.4" />
+		<entity name="animalBoar"/>
+		<entity name="animalStag"/>
 		<entity name="zombieSnow" prob="6"/>
 	</entitygroup>
 
@@ -282,11 +282,12 @@
 
 	<entitygroup name="FriendlyAnimalsForest">
 		<entity name="animalRabbit" />
-		<entity name="animalBoar" prob="0.4" />
-		<entity name="animalStag" prob="0.4" />
+		<entity name="animalBoar"/>
+		<entity name="animalStag"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieJoe"/>
-		<entity name="zombieDarlene" />
+		<entity name="zombieYo"/>
+		<entity name="zombieArlene" />
 		<entity name="zombieNurse" />
 	</entitygroup>
 
