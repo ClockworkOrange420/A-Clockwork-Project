@@ -742,12 +742,12 @@ If you do not declare them, the decorations of the main biome are used.
 			</layers>
 			<decorations>
 				<decoration type="prefab" name="resource_coal_pile" prob=".0007" rotatemax="7"/>
-				<decoration type="block" blockname="treePlainsTree" prob="0.025" rotatemax="7"/>
+				<decoration type="block" blockname="treePlainsTree" prob="0.0025" rotatemax="7"/>
 				<decoration type="block" blockname="treePlainsTree2" prob="0.009"/>
-				<decoration type="block" blockname="rockResource" prob ="0.001" rotatemax="3"/>
-				<decoration type="block" blockname="rockResource02" prob ="0.001" rotatemax="3"/>
+				<decoration type="block" blockname="rockResource" prob ="0.0005" rotatemax="3"/>
+				<decoration type="block" blockname="rockResource02" prob ="0.0005" rotatemax="3"/>
 				<decoration type="block" blockname="lootPlainsHelper" prob="0.00025"/>
-				<decoration type="block" blockname="cntBirdnest" prob ="0.007"/>
+				<decoration type="block" blockname="cntBirdnest" prob ="0.00025"/>
 				<decoration type="block" blockname="treePlainsGrassDiagonal" prob ="0.15" rotatemax="7"/>
 				<decoration type="block" blockname="treeBrownGrassDiagonal" prob ="0.05" rotatemax="7"/>
 			</decorations>
@@ -867,7 +867,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0007"/>
 			<decoration type="block" blockname="treeDesertShrub" prob ="0.0007"/>
 			<decoration type="block" blockname="treeDeadShrub" prob ="0.0005"/>
-			<decoration type="block" blockname="cntBirdnest" prob ="0.002"/>
+			<decoration type="block" blockname="cntBirdnest" prob ="0.00025"/>
 			<decoration type="block" blockname="treeCactus04" prob ="0.0025" rotatemax="3"/>
 			<decoration type="block" blockname="treeCactus05" prob ="0.0025" rotatemax="3"/>
 			<decoration type="block" blockname="treeCactus06" prob ="0.0025" rotatemax="3"/>
