@@ -1474,7 +1474,7 @@
 	<property name="CanClimbLadders" value="false"/>
 	<property name="HandItem" value="handAnimalBear"/>
 	<property name="MaxHealth" value="1200"/>
-	<property name="MaxViewAngle" value="180"/>
+	<property name="MaxViewAngle" value="270"/>
 	<property name="WanderSpeed" value="0.25"/>
 	<property name="PanicSpeed" value="2.0"/>
 	<property name="ApproachSpeed" value="1.3"/>
