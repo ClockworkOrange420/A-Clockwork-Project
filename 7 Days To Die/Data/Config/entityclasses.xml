@@ -1850,9 +1850,9 @@
 	<property name="RagdollOnDeathChance" value=".5"/>
 	<property name="WanderSpeed" value="0.2"/>
 	<property name="PanicSpeed" value="2.0"/>
-	<property name="ApproachSpeed" value="1.3"/>
+	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightWanderSpeed" value="0.2"/>
-	<property name="NightApproachSpeed" value="1.3"/>
+	<property name="NightApproachSpeed" value="1.35"/>
 	<property class="MechanimAttackTriggers">
 		<property name="state0" value="AttackTrigger"/>
 	</property>
