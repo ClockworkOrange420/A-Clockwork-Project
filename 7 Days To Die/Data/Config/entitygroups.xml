@@ -261,7 +261,7 @@
 		<entity name="animalRabbit" />
 		<entity name="animalBoar" prob="0.4" />
 		<entity name="animalStag" prob="0.4" />
-		<entity name="zombieSnow" prob="3"/>
+		<entity name="zombieSnow" prob="6"/>
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsForest">

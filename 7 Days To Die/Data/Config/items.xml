@@ -132,8 +132,8 @@
 			<property name="Stamina_usage" value="15"/>
 			<property name="Buff" value="criticalBlunt,stunned,sprainedLeg"/>
 			<property name="Buff_chance" value="0.4,0.4,0.3"/>
-			<property name="DamageBonus.wood" value="3"/>
-			<property name="DamageBonus.head" value="3"/>
+			<property name="DamageBonus.wood" value="2"/>
+			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.metal" value=".5"/>
 			<property name="DamageBonus.concrete" value="2"/>
 			<property name="ActionExp" value="4"/>
@@ -344,8 +344,8 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="6.51"/>
 			<property name="DamageBonus.crops" value="0.01"/>
-			<property name="DamageBonus.wood" value="3"/>
-			<property name="DamageBonus.head" value="3"/>
+			<property name="DamageBonus.wood" value="1"/>
+			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.organic" value="3"/>
 			<property name="ToolCategory.Butcher" value="1" param1="10"/>
 			<property name="ToolCategory.Harvest" value="1"/>
@@ -1979,7 +1979,7 @@
 			<property name="Sound_end" value=""/>
 			<property name="Sound_empty" value="weapon_empty"/>
 			<property name="Sound_reload" value="nailgun_reload"/>
-			<property name="DamageBonus.head" value="6"/>
+			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="ActionExp" value="1"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
@@ -2485,7 +2485,7 @@
 			<property name="FlyTime" value="0"/>
 			<property name="Gravity" value="-4.7"/>
 			<property name="LifeTime" value="12"/>
-			<property name="DamageBonus.head" value="3"/>
+			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="0.1"/>
 			<property name="DamageBonus.earth" value="0.1"/>
@@ -2573,7 +2573,7 @@
 			<property name="FlyTime" value="0"/>
 			<property name="Gravity" value="-4"/>
 			<property name="LifeTime" value="12"/>
-			<property name="DamageBonus.head" value="3"/>
+			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="0.1"/>
 			<property name="DamageBonus.earth" value="0"/>
@@ -8509,7 +8509,7 @@
 			<property name="Velocity" value="55"/>
 			<property name="FlyTime" value="1"/>
 			<property name="LifeTime" value="1"/>
-			<property name="DamageBonus.head" value="5"/>
+			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="0.1"/>
 			<property name="DamageBonus.earth" value="0.1"/>
