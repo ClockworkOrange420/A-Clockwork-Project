@@ -180,7 +180,11 @@
 	</entitygroup>
 
 	<entitygroup name="SnowZombies">
-		<entity name="zombieSnow" prob="1"/>
+		<entity name="zombieSnow"/>
+		<entity name="zombieFemaleFat"/>
+		<entity name="zombieOldTimer"/>
+		<entity name="zombieFarmer" />
+		<entity name="zombieBiker"/>
 	</entitygroup>
 
 	<entitygroup name="ZombiesBoss">
@@ -254,14 +258,22 @@
 		<entity name="animalZombieVulture" prob="0.4" />
 		<entity name="animalDireWolf" prob="0.05" />
 		<entity name="animalBear" prob="0.05" />
-		<entity name="zombieSnow" prob="6"/>
+		<entity name="zombieSnow" prob="3"/>
+		<entity name="zombieFemaleFat"/>
+		<entity name="zombieOldTimer"/>
+		<entity name="zombieFarmer" />
+		<entity name="zombieBiker"/>
 	</entitygroup>
 
 	<entitygroup name="FriendlyAnimalsSnow">
 		<entity name="animalRabbit" />
 		<entity name="animalBoar"/>
 		<entity name="animalStag"/>
-		<entity name="zombieSnow" prob="6"/>
+		<entity name="zombieSnow" prob="3"/>
+		<entity name="zombieFemaleFat"/>
+		<entity name="zombieOldTimer"/>
+		<entity name="zombieFarmer" />
+		<entity name="zombieBiker"/>
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsForest">
