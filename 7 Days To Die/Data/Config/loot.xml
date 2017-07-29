@@ -801,7 +801,7 @@
 
 <lootgroup name="commonBooks" count="1">
 	<item name="paper" count="10,25" prob="20"/>
-	<item name="Schematic_Page" count="1,2"/>
+	<item name="Schematic_Page" count="1"/>
 	<item name="Chemistry_For_Dummies"/>
 	<item name="Armor_Smithing"/>
 	<item name="Gun_Smithing"/>
@@ -822,7 +822,7 @@
 </lootgroup>
 
 <lootgroup name="rareBooks" count="1">
-	<item name="Schematic_Page" count="1,2"/>
+	<item name="Schematic_Page" count="1"/>
 	<item name="Chemistry_For_Dummies"/>
 	<item name="Armor_Smithing"/>
 	<item name="Gun_Smithing"/>
@@ -1364,7 +1364,7 @@
 	<item group="tshirtAll"/>
 	<item group="tools"/>
 	<item name="wornBoots"/>
-	<item name="Schematic_Page" count="1,3"/>
+	<item name="Schematic_Page" count="1"/>
 	<item name="shades"/>
 	<item name="miningHelmet"/>
 	<item name="flashlight02" prob="0.3"/>
@@ -1504,7 +1504,6 @@
 <lootcontainer id="11" count="1,3" size="5,4" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="baseTemplate">
 	<item group="weaponsBasicGuns+ammo"/>
 	<item group="books"/>
-	<item name="Schematic_Page" count="1" prob="0.1"/>
 	<item name="Geometry_Set" count="1" prob="0.1"/>
 	<item name="oldCash" count="10,35" prob="0.05"/>
 	<item group="rareOres" prob="0.05"/>
@@ -1688,7 +1687,7 @@
 	<item name="gunPowder" count="1,5"/>
 	<item name="padlock" prob="0.5"/>
 	<item name="Geometry_Set" count="1" prob="0.2"/>
-	<item name="Schematic_Page" count="1,3" prob="0.5"/>
+	<item name="Schematic_Page" count="1" prob="0.4"/>
 </lootcontainer>
 
 <!-- file cabinet -->
@@ -1697,11 +1696,11 @@
 	<item group="books" count="1"/>
 	<item name="paper" count="5,10"/>
 	<item name="oldCash" count="1,6" prob="0.3"/>
-	<item name="painkillers" prob="0.05"/>
+	<item name="painkillers" prob="0.1"/>
 	<item group="trophyGroup"/>
 	<item name="padlock" prob="0.5"/>
 	<item name="Geometry_Set" count="1" prob="0.3"/>
-	<item name="Schematic_Page" count="1,3" prob="0.5"/>
+	<item name="Schematic_Page" count="1" prob="0.4"/>
 </lootcontainer>
 
 <!-- cooler loot -->
