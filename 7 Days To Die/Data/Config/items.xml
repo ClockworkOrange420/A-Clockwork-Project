@@ -85,8 +85,8 @@
 			<property name="Buff_chance" value="0.2,0.2,0.2"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="20,30"/>
-			<property name="BlockDamage" value="20,30"/>
+			<property name="EntityDamage" value="15,30"/>
+			<property name="BlockDamage" value="15,30"/>
 		</property>
 		<property name="CritChance" value="0.2"/>
 		<property name="Group" value="Ammo/Weapons"/>
@@ -103,8 +103,8 @@
 			<property name="Buff_chance" value="0.5,0.3,0.3"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="30,40"/>
-			<property name="BlockDamage" value="30,40"/>
+			<property name="EntityDamage" value="20,40"/>
+			<property name="BlockDamage" value="20,40"/>
 			<property name="DismembermentBaseChance" value="0.1,0.15"/>
 			<property name="DismembermentBonus" value="0,0.0003"/>
 		</property>
@@ -141,8 +141,8 @@
 			<property name="ToolCategory.Harvest" value="1"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="40,50"/>
-			<property name="BlockDamage" value="40,50"/>
+			<property name="EntityDamage" value="25,50"/>
+			<property name="BlockDamage" value="25,50"/>
 			<!-- 80% of a steel pick -->
 			<property name="DegradationMax" value="1500,1500"/>
 			<property name="DegradationRate" value="15,3"/>
@@ -376,7 +376,7 @@
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="20,30"/>
+			<property name="EntityDamage" value="15,30"/>
 			<property name="BlockDamage" value="5,10"/>
 			<property name="DegradationMax" value="2000,2000"/>
 			<property name="DegradationRate" value="20,2"/>
@@ -9221,7 +9221,7 @@
 			<property name="ActionExpBonusMultiplier" value="4"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="20,30"/>
+			<property name="EntityDamage" value="15,30"/>
 			<property name="BlockDamage" value="1,1"/>
 			<property name="DegradationMax" value="600,600"/>
 			<property name="DegradationRate" value="3,1"/>
