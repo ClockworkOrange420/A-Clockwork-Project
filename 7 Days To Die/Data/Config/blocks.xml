@@ -3370,7 +3370,7 @@
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="LootList" value="2"/>
-		<drop event="Destroy" name="scrapPlastics" count="0,2" prob="0.2" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapPlastics" count="0,2" tool_category="Harvest"/>
 	</block>
 	<block id="341" name="cntTrashPile02">
 		<property name="Extends" value="cntTrashPile01"/>
