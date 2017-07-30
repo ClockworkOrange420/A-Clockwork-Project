@@ -678,6 +678,8 @@
 <lootgroup name="trophyGroup" count="1">
 	<item name="trophy"/>
 	<item name="trophy2"/>
+	<item name="candleStick"/>
+	<item name="doorKnob"/>
 </lootgroup>
 
 <lootgroup name="weaponsSniperRifle+ammo" count="all">
@@ -921,18 +923,15 @@
 
 <lootgroup name="seeds">
 	<item name="plantedPotato1"/>
+	<item name="plantedTomato1"/>
 	<item name="plantedCoffee1"/>
 	<item name="plantedCorn1"/>
 	<item name="plantedBlueberry1"/>
-	<item name="plantedCotton1" prob="0.5"/>
-	<item name="plantedGoldenrod1"/>
 	<item name="plantedAloe1"/>
 	<item name="plantedMushroom1"/>
 	<item name="plantedYucca1"/>
+	<item name="plantedHop1"/>
 	<item name="plantedChrysanthemum1" prob="0.5"/>
-	<item name="treePlantedMountainPine1m" prob="0.3"/>
-	<item name="treePlantedMaple1m" prob="0.3"/>
-	<item name="treePlantedWinterPine1m" prob="0.3"/>
 </lootgroup>
 
 <lootgroup name="airdropfood">
@@ -991,7 +990,7 @@
 <lootgroup name="cupboard">
 	<item name="canEmpty"/>
 	<item group="cannedfood" prob="0.5"/>
-	<item group="seeds" prob="0.05"/>
+	<item group="seeds" prob="0.5"/>
 	<item name="bottledWater" prob="0.5"/>
 	<item name="emptyJar" count="1,4"/>
 	<item group="sinkTools" count="1" prob="0.15"/>
@@ -1020,16 +1019,14 @@
 	<item name="oldCash" count="1,6" prob="0.3"/>
 	<item name="cloth" count="1,4"/>
 	<item group="trophyGroup"/>
-	<item name="candleStick"/>
 	<item name="glassCTRSheet"/>
 	<item name="gunPowder" count="1,3"/>
-	<item name="doorKnob" count="1"/>
 	<item name="oil" count="2,6"/>
 	<item name="shortMetalPipe" count="1"/>
 	<item name="fishingWeight" count="1,3"/>
 	<item name="scrapLead" count="1,10"/>
 	<item name="wood" count="1,4"/>
-	<item name="glue" count="1"/>
+	<item name="glue" count="1,2"/>
 	<item name="nail" count="1,10"/>
 	<item name="casinoCoin" count="1,5"/>
 	<item name="bulletCasing" count="1,10"/>

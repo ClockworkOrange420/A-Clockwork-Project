@@ -2698,6 +2698,10 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="3"/>
 	</recipe>
+	<recipe name="chair01" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="wood" count="5"/>
+		<ingredient name="nail" count="3"/>
+	</recipe>
 	<recipe name="pew_segment01" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
@@ -2979,7 +2983,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="feather" count="1"/>
 	</recipe>
 	<recipe name="stone" count="1" craft_area="cementMixer" >
-		<ingredient name="rockSmall" count="30"/>
+		<ingredient name="rockSmall" count="10"/>
 		<ingredient name="cement" count="10"/>
 	</recipe>
 	<recipe name="stoneAxe" count="1" craft_time = "12" craft_exp_gain="40" >
