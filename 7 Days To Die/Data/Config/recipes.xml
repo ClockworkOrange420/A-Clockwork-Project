@@ -1186,6 +1186,36 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="potato" count="2"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
+	<recipe name="wolfMeatBoiled" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
+		<ingredient name="wolfMeatRaw" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
+	</recipe>
+	<recipe name="wolfMeatBoiled" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
+		<ingredient name="wolfMeatRaw" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
+	</recipe>
+	<recipe name="wolfMeatBoiled" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingPot" >
+		<ingredient name="wolfMeatRaw" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
+	</recipe>
+	<recipe name="wolfMeatGrilled" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
+		<ingredient name="wolfMeatRaw" count="1"/>
+	</recipe>
+	<recipe name="wolfMeatGrilled" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingGrill" >
+		<ingredient name="wolfMeatRaw" count="1"/>
+	</recipe>
+	<recipe name="wolfMeatGrilled" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingGrill" >
+		<ingredient name="wolfMeatRaw" count="1"/>
+	</recipe>
+	<recipe name="wolfMeatCharred" count="1" craft_time = "8" craft_area="campfire" >
+		<ingredient name="wolfMeatRaw" count="1"/>
+	</recipe>
+	<recipe name="wolfMeatCharred" count="1" craft_time = "8" craft_area="Old_Oven" >
+		<ingredient name="wolfMeatRaw" count="1"/>
+	</recipe>
+	<recipe name="wolfMeatCharred" count="1" craft_time = "8" craft_area="New_Oven" >
+		<ingredient name="wolfMeatRaw" count="1"/>
+	</recipe>
 	<recipe name="bottledWater" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="snowBall" count="1"/>
 		<ingredient name="emptyJar" count="1"/>
