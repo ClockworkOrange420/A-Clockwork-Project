@@ -14939,6 +14939,7 @@
 	</block>
 	<block id="1775" name="burningBarrel">
 		<property name="Extends" value="burningBarrelPlayer"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="burningBarrelPlayer"/>
 		<property name="Class" value="Torch"/>
