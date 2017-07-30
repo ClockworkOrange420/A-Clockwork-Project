@@ -164,6 +164,7 @@
 		<!-- STK torch -->
 		<property name="FuelValue" value="24"/>
 		<property name="EconomicValue" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="SoundIdle" value="torch_lp"/>
 		<!-- examples for joel<property name="SoundUnholster" value="weapon_empty"/><property name="SoundHolster" value="Pistol_Fire"/>-->
 		<!-- <property name="LightSource" value="ParticleEffect/Point light"/>-->
@@ -2143,6 +2144,7 @@
 		<property name="SoundJammed" value="ItemNeedsRepair"/>
 		<property name="SoundDestroy" value="wooddestroy1"/>
 		<property name="EconomicValue" value="20"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CrosshairUpAfterShot" value="false"/>
 		<property name="FuelValue" value="20"/>
 		<property class="Action0">
@@ -2477,6 +2479,7 @@
 		<property name="FuelValue" value="8"/>
 		<property name="EconomicValue" value="12"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action1">
 			<property name="Class" value="Projectile"/>
 			<property name="Explosion.ParticleIndex" value="0"/>
@@ -2808,6 +2811,7 @@
 		<property name="Weight" value="5"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="50"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Class" value="ThrowAway"/>
@@ -2830,6 +2834,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
 		<property class="Action0">
 			<!-- AttackAction -->
@@ -6248,6 +6253,7 @@
 		<property name="FuelValue" value="1"/>
 		<property name="Weight" value="5"/>
 		<property name="EconomicValue" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action0">
 			<property name="Class" value="UseOther"/>
 			<property name="Delay" value="1.0"/>
@@ -6496,6 +6502,7 @@
 		<property name="Weight" value="5"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="50"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
@@ -6754,6 +6761,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property class="Action0">
 			<property name="Class" value="PlaceAsBlock"/>
@@ -6891,6 +6899,7 @@
 		<property name="Stacknumber" value="10"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="20"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -6942,6 +6951,7 @@
 		<property name="Stacknumber" value="10"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="22"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
@@ -7030,6 +7040,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="10"/>
 		<!-- 14 is large round hold -->
 		<property class="Action0">
@@ -7057,6 +7068,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="8"/>
 		<property class="Action0">
 			<property name="Class" value="PlaceAsBlock"/>
@@ -7188,6 +7200,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="12"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property class="Action0">
 			<!-- UseAction -->
@@ -7861,6 +7874,7 @@
 		<property name="FuelValue" value="10"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="50"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources,Basics"/>
 		<property name="RepairAmount" value="100"/>
 		<property name="LootExpValue" value="1"/>
@@ -7877,6 +7891,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="50"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
 	</item>
 	<item id="1303" name="ironFragment">
@@ -7904,6 +7919,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
 		<property name="RepairTime" value="1"/>
 		<property name="RepairAmount" value="200"/>
@@ -7960,6 +7976,7 @@
 		<property name="Stacknumber" value="1000"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="16"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingIngredientExp" value="15"/>
 		<property name="CraftingIngredientTime" value="2"/>
@@ -7974,6 +7991,7 @@
 		<property name="FuelValue" value="5"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="50"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="DropScale" value="8"/>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingIngredientExp" value="2"/>
@@ -8052,6 +8070,7 @@
 		</property>
 		<property name="EconomicValue" value="12"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="Group" value="Science"/>
 		<property name="DescriptionKey" value="plantedAloe3HarvestDesc"/>
@@ -8072,6 +8091,7 @@
 		</property>
 		<property name="EconomicValue" value="12"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="plantedChrysanthemum3HarvestDesc"/>
@@ -8087,6 +8107,7 @@
 		<property name="Weight" value="5"/>
 		<property name="EconomicValue" value="20"/>
 		<property name="EconomicBundleSize" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
 	</item>
 	<item id="1318" name="scrapLead">
@@ -8100,6 +8121,7 @@
 		<property name="Weight" value="5"/>
 		<property name="EconomicValue" value="20"/>
 		<property name="EconomicBundleSize" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
 	</item>
 	<item id="1319" name="clayLump">
@@ -8111,6 +8133,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="6"/>
 		<property name="EconomicBundleSize" value="150"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingIngredientTime" value="0.5"/>
 	</item>
@@ -8197,6 +8220,7 @@
 		<property name="FuelValue" value="1"/>
 		<property name="Weight" value="5"/>
 		<property name="EconomicValue" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources,Clothing"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 	</item>
@@ -8212,6 +8236,7 @@
 		<property name="Weight" value="1"/>
 		<property name="EconomicValue" value="15"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
 	</item>
 	<item id="1330" name="militaryFiber">
@@ -8299,6 +8324,7 @@
 		</property>
 		<property name="EconomicValue" value="12"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<property name="Group" value="Resources"/>
 		<property name="DescriptionKey" value="plantedCotton3HarvestDesc"/>
@@ -8325,6 +8351,7 @@
 		</property>
 		<property name="EconomicValue" value="12"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="Group" value="Resources"/>
 		<property name="DescriptionKey" value="plantedGoldenrod3HarvestDesc"/>
@@ -8354,6 +8381,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="60"/>
 		<property class="Action1">
 			<property name="Delay" value="1.5"/>
@@ -8389,6 +8417,7 @@
 		<!-- <property name="CraftingIngredientExp" value="0"/> -->
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
 	</item>
 	<item id="1341" name="ironArrowHead">
@@ -8432,6 +8461,7 @@
 		<property name="DropScale" value="8"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingIngredientTime" value="1"/>
 		<property name="PickupJournalEntry" value="farmingTip"/>
@@ -8444,6 +8474,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingIngredientTime" value="2"/>
 	</item>
@@ -8502,6 +8533,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action1">
 			<property name="Class" value="Projectile"/>
 			<property name="Explosion.ParticleIndex" value="0"/>
@@ -8602,6 +8634,7 @@
 		<property name="Stacknumber" value="500"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="20"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -8625,6 +8658,7 @@
 		<property name="HoldType" value="14"/>
 		<property name="Stacknumber" value="500"/>
 		<property name="EconomicValue" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="9"/>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -8649,6 +8683,7 @@
 		<!-- STK resource -->
 		<property name="Weight" value="10"/>
 		<property name="EconomicValue" value="6"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="9"/>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -8861,6 +8896,7 @@
 		</property>
 		<property name="EconomicValue" value="12"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -9261,6 +9297,7 @@
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action0">
 			<property name="Class" value="PlaceAsBlock"/>
 			<property name="Delay" value="0.5"/>
@@ -9287,6 +9324,7 @@
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action0">
 			<property name="Class" value="PlaceAsBlock"/>
 			<property name="Delay" value="0.5"/>
@@ -9410,6 +9448,7 @@
 		<property name="Group" value="Resources"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action1">
 			<!-- AttackAction -->
 			<property name="Class" value="Repair"/>
@@ -9428,6 +9467,7 @@
 		<property name="HoldType" value="21"/>
 		<property name="Stacknumber" value="250"/>
 		<property name="EconomicValue" value="250"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="FuelValue" value="1"/>
 		<property name="CustomIcon" value="paper"/>
 		<property name="CustomIconTint" value="66B2FF"/>
@@ -9463,6 +9503,7 @@
 		<property name="Stacknumber" value="15"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="30"/>
 		<property name="CustomIcon" value="bottledWater"/>
 		<property name="CustomIconTint" value="00082E"/>
@@ -9499,6 +9540,7 @@
 		<property name="Material" value="metal"/>
 		<property name="Weight" value="20"/>
 		<property name="EconomicValue" value="25"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="HoldType" value="45"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="Group" value="Tools/Traps"/>
@@ -9513,6 +9555,7 @@
 		<property name="Group" value="Resources"/>
 		<property name="Material" value="organic"/>
 		<property name="EconomicValue" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
 		<property class="Action1">
 			<!-- AttackAction -->
@@ -9531,6 +9574,7 @@
 		<property name="HoldType" value="21"/>
 		<property name="Stacknumber" value="250"/>
 		<property name="EconomicValue" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="DescriptionKey" value="flourDesc"/>
@@ -9562,6 +9606,7 @@
 		<property name="FuelValue" value="2"/>
 		<property name="Material" value="plants"/>
 		<property name="EconomicValue" value="1"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Stacknumber" value="250"/>
 		<property name="RepairTime" value="1"/>
 		<property name="RepairAmount" value="10"/>
@@ -9576,6 +9621,7 @@
 		<property name="HoldType" value="3"/>
 		<property name="Group" value="Resources"/>
 		<property name="EconomicValue" value="3"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 		<property name="DescriptionKey" value="mortarPestleDesc"/>
@@ -9618,6 +9664,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
 		<property name="EconomicValue" value="30"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property class="Action1">
@@ -9644,6 +9691,7 @@
 		<property name="HoldType" value="31"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="EconomicValue" value="20"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -9669,6 +9717,7 @@
 		<property name="HoldType" value="31"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="EconomicValue" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -9694,6 +9743,7 @@
 		<property name="HoldType" value="31"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="EconomicValue" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -9887,6 +9937,7 @@
 		<property name="HoldType" value="31"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="EconomicValue" value="30"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -9908,6 +9959,7 @@
 		<property name="HoldType" value="31"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="EconomicValue" value="20"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -9929,6 +9981,7 @@
 		<property name="HoldType" value="31"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="EconomicValue" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -9950,6 +10003,7 @@
 		<property name="HoldType" value="31"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="EconomicValue" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -10324,6 +10378,7 @@
 		<property name="Material" value="cloth"/>
 		<property name="HoldType" value="14"/>
 		<property name="EconomicValue" value="3"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Stacknumber" value="25"/>
 		<property name="FuelValue" value="1"/>
 		<property class="Action1">
@@ -10344,6 +10399,7 @@
 		<property name="HoldType" value="14"/>
 		<property name="Stacknumber" value="25"/>
 		<property name="EconomicValue" value="1"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="FuelValue" value="1"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -10394,6 +10450,7 @@
 		<property name="Stacknumber" value="10"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="20"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -10419,6 +10476,7 @@
 		<property name="Stacknumber" value="10"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="22"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
