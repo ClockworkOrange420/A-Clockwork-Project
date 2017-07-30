@@ -1083,7 +1083,7 @@
 	</block>
 	<block id="130" name="corrugatedMetalNoUpgradeMaster">
 		<property name="Group" value="Building"/>
-		<property name="Material" value="Mmetal_medium"/>
+		<property name="Material" value="metal"/>
 		<!-- 300 HP -->
 		<property name="Texture" value="194"/>
 		<!-- <property name="ImposterExchange" value="imposterBlock" param1="57"/> -->
@@ -11832,6 +11832,7 @@
 	</block>
 	<block id="1280" name="metalRailing">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="metal_rail"/>
 		<property name="Texture" value="446"/>
@@ -13046,6 +13047,7 @@
 	<!-- 1 Free -->
 	<block id="1422" name="chainLink">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="Shape" value="New"/>
 		<property name="Mesh" value="cutout"/>
 		<property name="LightOpacity" value="0"/>
@@ -14106,6 +14108,7 @@
 	<!-- n Free -->
 	<block id="1545" name="fusebox">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -14214,6 +14217,7 @@
 	<!-- 1 Free -->
 	<block id="1556" name="conduit01">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="Shape" value="New"/>
 		<property name="Mesh" value="cutout"/>
 		<property name="LightOpacity" value="2"/>
@@ -14919,6 +14923,7 @@
 	<!-- Free -->
 	<block id="1774" name="burningBarrelPlayer">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="CanPickup" value="true"/>
 		<property name="Shape" value="ModelEntity"/>
@@ -15329,6 +15334,7 @@
 	</block>
 	<block id="1929" name="barStool">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
