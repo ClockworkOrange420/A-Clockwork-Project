@@ -1543,7 +1543,7 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="treeDeadShrub" prob="0.0002" rotatemax="7"/>
 				<decoration type="block" blockname="treeJuniper6m" prob="0.0002" rotatemax="7"/>
 				<decoration type="block" blockname="treeMountainPine8m" prob="0.0002" rotatemax="7"/>
-				<decoration type="block" blockname="cntBirdnest" prob ="0.002" />
+				<decoration type="block" blockname="cntBirdnest" prob ="0.0002" />
 				<decoration type="block" blockname="treePlainsGrassDiagonal" prob ="0.25" rotatemax="7"/>
 				<decoration type="block" blockname="treeBrownGrassDiagonal" prob ="0.25" rotatemax="7"/>
 			</decorations>
@@ -1563,7 +1563,7 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="treeDeadTree01" prob="0.002" rotatemax="7"/>
 				<decoration type="block" blockname="treeDeadTree02" prob="0.002" rotatemax="7"/>
 				<decoration type="block" blockname="treeDeadShrub" prob="0.002" rotatemax="7"/>
-				<decoration type="block" blockname="cntBirdnest" prob ="0.002" />
+				<decoration type="block" blockname="cntBirdnest" prob ="0.0002" />
 				<decoration type="block" blockname="treePlainsGrassDiagonal" prob ="0.25" rotatemax="7"/>
 				<decoration type="block" blockname="treeBrownGrassDiagonal" prob ="0.25" rotatemax="7"/>
 			</decorations>
@@ -1614,7 +1614,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="rock04" prob="0.005" rotatemax="7"/>
 			<decoration type="block" blockname="rockResource" prob ="0.0005" rotatemax="7"/>
 			<decoration type="block" blockname="rockResource02" prob ="0.0005" rotatemax="7"/>
-			<decoration type="block" blockname="cntBirdnest" prob ="0.002" />
+			<decoration type="block" blockname="cntBirdnest" prob ="0.00025" />
 			<decoration type="block" blockname="treeBurntPine01" prob="0.003" rotatemax="7"/>
 			<decoration type="block" blockname="treeBurntPine02" prob="0.003" rotatemax="7"/>
 			<decoration type="block" blockname="treeBurntPine03" prob="0.003" rotatemax="7"/>
