@@ -1201,7 +1201,7 @@
 	<item name="padlock"/>
 	<item name="hoeIron"/>
 	<item name="clawHammer"/>
-	<item name="wrench" prob="0.7"/>
+	<item name="wrench"/>
 	<item name="repairKit" count="1,4"/>
 	<item group="nailgun+parts"/>
 	<item group="rareTools"/>
