@@ -13047,7 +13047,7 @@
 	<!-- 1 Free -->
 	<block id="1422" name="chainLink">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
-		<property name="MaxDamage" value="500"/>
+		<property name="Material" value="Mmetal_weak"/>
 		<property name="Shape" value="New"/>
 		<property name="Mesh" value="cutout"/>
 		<property name="LightOpacity" value="0"/>
