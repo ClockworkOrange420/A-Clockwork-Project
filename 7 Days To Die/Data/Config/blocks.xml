@@ -925,6 +925,7 @@
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="EconomicValue" value="12"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="PickupJournalEntry" value="farmingTip"/>
 	</block>
@@ -946,6 +947,7 @@
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="HarvestOverdamage" value="false"/>
 		<drop event="Destroy" count="0"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
 	</block>
 	<block id="121" name="stainlessSteelMaster">
@@ -1078,6 +1080,7 @@
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="EconomicValue" value="24"/>
 		<property name="EconomicBundleSize" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CreativeMode" value="None"/>
 		<!-- <property name="PickupJournalEntry" value="farmingTip"/> -->
 	</block>
@@ -3299,7 +3302,7 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="LootList" value="2"/>
 		<drop event="Destroy" name="scrapIron" count="1" tool_category="Harvest"/>
-		<property name="EconomicValue" value="40"/>
+		<property name="EconomicValue" value="20"/>
 	</block>
 	<block id="337" name="cntNightstand">
 		<property name="Class" value="Loot"/>
@@ -4116,6 +4119,7 @@
 		<property name="Group" value="Tools/Traps,Science"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="50"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="409" name="trapSpikesDamage1">
 		<property name="Extends" value="trapSpikesNew"/>
@@ -4227,6 +4231,7 @@
 		<property name="DescriptionKey" value="woodLogSpike1Desc"/>
 		<property name="EconomicValue" value="30"/>
 		<property name="EconomicBundleSize" value="20"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="419" name="corrugatedMetalCNRInside">
 		<property name="Extends" value="corrugatedMetalMaster"/>
@@ -5107,6 +5112,7 @@
 		<drop event="Destroy" name="plantedMushroom1" count="1" tool_category="Harvest"/>
 		<property name="EconomicValue" value="12"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="PickupJournalEntry" value="farmingTip"/>
 	</block>
@@ -6247,6 +6253,7 @@
 		<property name="Group" value="Building,Basics"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="632" name="solidWoodFrameWedgeIncline">
 		<property name="Extends" value="woodFrameWedgeIncline"/>
@@ -6335,6 +6342,7 @@
 		<property name="DescriptionKey" value="cntSecureStorageChestDesc"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="640" name="rockResource02">
 		<!-- biome decoration -->
@@ -7985,6 +7993,7 @@
 		<drop event="Destroy" count="0"/>
 		<property name="EconomicValue" value="6"/>
 		<property name="EconomicBundleSize" value="20"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="789" name="stainlessSteelPyramid">
 		<property name="Extends" value="stainlessSteelMaster"/>
@@ -8638,6 +8647,7 @@
 		<drop event="Destroy" name="hayBaleBlock" count="1" tool_category="Harvest"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="20"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="862" name="rWoodArrowSlitHalf">
 		<property name="Extends" value="rWoodMaster"/>
@@ -8898,6 +8908,7 @@
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="20"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="894" name="woodFenceFarmSheet">
 		<property name="Material" value="wood_weak"/>
@@ -8919,6 +8930,7 @@
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="20"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="895" name="whitePicketFenceSheet">
 		<property name="Material" value="wood_weak"/>
@@ -8939,6 +8951,7 @@
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="20"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="896" name="wroughtIronFenceSheet">
 		<property name="Material" value="Mmetal_thin"/>
@@ -8955,6 +8968,7 @@
 		<drop event="Destroy" name="scrapIron" count="1" tool_category="Harvest"/>
 		<property name="EconomicValue" value="25"/>
 		<property name="EconomicBundleSize" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="897" name="stainlessSteelWedgeCNRInsideBottom">
 		<property name="Extends" value="stainlessSteelMaster"/>
@@ -11527,6 +11541,7 @@
 		<property name="Group" value="Building"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1252" name="woodHatch1_v2">
 		<property name="Extends" value="woodHatch1_v1"/>
@@ -11612,6 +11627,7 @@
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Building"/>
 		<property name="EconomicValue" value="6"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1257" name="cntStorageGenericInsecure">
 		<property name="CreativeMode" value="Player"/>
@@ -11773,6 +11789,7 @@
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="20"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1274" name="woodCatwalkRailingCNR">
 		<property name="Extends" value="woodCatwalk"/>
@@ -12988,6 +13005,7 @@
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="EconomicValue" value="55"/>
 		<property name="EconomicBundleSize" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1417" name="scrapIronHalf">
 		<property name="Extends" value="scrapIronMaster"/>
@@ -14330,6 +14348,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 	</block>
 	<block id="1563" name="workbench">
