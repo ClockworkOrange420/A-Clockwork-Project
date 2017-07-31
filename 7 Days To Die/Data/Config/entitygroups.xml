@@ -12,10 +12,10 @@
 		<entity name="zombieDarlene" />
 		<entity name="zombieMarlene" />
 		<entity name="zombieSkateboarder" />
+		<entity name="zombieFarmer"/>
 		<entity name="zombieCheerleader" prob="0.3" />
 		<entity name="zombieOldTimer" prob="0.3" />
 		<entity name="zombieBiker" prob="0.3" />
-		<entity name="zombieFarmer" prob="0.3" />
 		<entity name="zombieStripper" prob="0.3" />
 		<entity name="zombieUtilityWorker" prob="0.3" />
 		<entity name="zombieNurse" prob="0.3" />
