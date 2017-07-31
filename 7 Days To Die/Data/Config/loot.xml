@@ -1640,7 +1640,7 @@
 	<item group="cannedfood" prob="0.2"/>
 	<item name="painkillers" prob="0.1"/>
 	<item name="animalFat" count="2,4"/>
-	<item name="foodHoney" count="1" prob="0.3"/>
+	<item name="foodHoney" count="1" prob="0.2"/>
 	<item group="ammo" prob="0.1"/>
 	<item group="weaponsPistol+ammo" prob="0.1"/>
 </lootcontainer>
