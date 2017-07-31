@@ -299,47 +299,22 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="2" stat="food" amount="-1" rate="30"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
 </buff>
-<buff id="infection1" buffif="infected gequal 960" debuffif="infected lequal 959" mutex="infection2,infection3" actions="debuff(infectionNotification)" type="sickness" icon="ui_game_symbol_infection" name_key="Infection" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
+<buff id="infection1" buffif="infected gequal 960" debuffif="infected lequal 959" mutex="infection2,infection3" actions="debuff(infectionNotification);increment(fatigue, 1, 100t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="Infection" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
 	<modify id="1" stat="health" amount="-1" rate="30"/>
 	<modify id="2" stat="food" amount="-1" rate="30"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
 </buff>
-<buff id="infection2" buffif="infected gequal 1920" debuffif="infected lequal 1919" mutex="infection3" actions="debuff(infection1);damage(2,100t,0,30)" type="sickness" icon="ui_game_symbol_infection" name_key="Major Infection" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
+<buff id="infection2" buffif="infected gequal 1920" debuffif="infected lequal 1919" mutex="infection3" actions="debuff(infection1);damage(2,100t,0,30);increment(fatigue, 1, 50t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="Major Infection" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
 	<modify id="1" stat="health" amount="-1" rate="15"/>
 	<modify id="2" stat="food" amount="-1" rate="30"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
 </buff>
-<buff id="infection3" buffif="infected gequal 2880" debuffif="infected lequal 2879" actions="debuff(infection2);damage(5,100t,0,15)" type="sickness" icon="ui_game_symbol_infection" name_key="Extreme Infection" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
+<buff id="infection3" buffif="infected gequal 2880" debuffif="infected lequal 2879" actions="debuff(infection2);damage(5,100t,0,15);increment(fatigue, 1, 50t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="Extreme Infection" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
 	<modify id="1" stat="health" amount="-1" rate="5"/>
 	<modify id="2" stat="food" amount="-1" rate="30"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
 </buff>
 <buff id="infection4" buffif="infected gequal 3840" actions="setvar(infected, 0);kill" icon="ui_game_symbol_infection" name_key="infection4" description_key="infection4Desc" tooltip_key="infection4Tooltip"/>
-
-<!--End-->
-<!--
-<buff id="infection" mutex="cured,infection1,infection2,infection3,infection4" duration="9000" onexpired="infection1" type="sickness"
-	icon="ui_game_symbol_infection" name_key="infection" description_key="infectionDesc" tooltip_key="infectionTooltip" cures="foodHoney,antibiotics,herbalAntibiotics">
-</buff>
-
-<buff id="infection1" duration="9000" actions="debuff(infection)" onexpired="infection2" type="sickness"
-	icon="ui_game_symbol_infection" name_key="infection1" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics">
-	<modify id="0" stat="stamina" amount="-0.3" rate="1"/>
-</buff>
-
-<buff id="infection2" duration="9000" actions="damage(25,2100t,0,3);increment(@wellness, -0.25, 100t, 0, 0);debuff(infection);debuff(infection1)" onexpired="infection3" type="sickness"
-	icon="ui_game_symbol_infection" name_key="infection2" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics">
-	<modify id="0" stat="stamina" amount="-1" rate="1"/>
-</buff>
-
-<buff id="infection3" duration="3000" actions="damage(25,800t,0,3);increment(@wellness, -0.25, 100t, 0, 0);debuff(infection);debuff(infection1);debuff(infection2)" onexpired="infection4" type="sickness"
-	icon="ui_game_symbol_infection" name_key="infection3" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics">
-	<modify id="0" stat="stamina" amount="-2" rate="1"/>
-	<modify id="1" stat="health" amount="-1" rate="3"/>
-</buff>
-
-<buff id="infection4" actions="kill" icon="ui_game_symbol_infection" name_key="infection4" description_key="infection4Desc" tooltip_key="infection4Tooltip"/>
--->
 
 <buff id="firstAid" duration="60" stack="extend" type="healthup" icon="ui_game_symbol_medical" name_key="firstAid" description_key="firstAidDesc" tooltip_key="firstAidTooltip" causes="firstAidBandage">
 	<modify id="1" stat="health" amount="0.5" rate="1"/>
@@ -520,40 +495,6 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="asphaltStaminaEffect" duration="0" buffif="CTRroadrun greater 0" debuffif="CTRroadrun less 1" actions="increment(CTRroadrun, -1, 1, 0, 0)" >
 	<modify id="0" stat="stamina" amount="1" rate="2"/>
 </buff>
-
-<!--End-->
-<!--
-<buff id="sleepingBagTrigger" duration="1" actions="setvar(CTRbedroll, 10)" />
-<buff id="sleepingBagEffect" duration="0" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(CTRbedroll, -3, 2, 0, 0)"
-	icon="ui_game_symbol_map_bed" name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip">
-	<modify id="0" stat="health" amount="1" rate="30" />
-	<modify id="0" stat="stamina" amount="1" rate="3" />
-</buff>
-
-<buff id="sleepingBedTrigger" duration="1" actions="setvar(CTRbed, 10)" />
-<buff id="sleepingBedEffect" duration="0" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(CTRbed, -3, 2, 0, 0)"
-	name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip" icon="ui_game_symbol_map_bed">
-	<modify id="0" stat="health" amount="1" rate="15" />
-	<modify id="0" stat="stamina" amount="1" rate="3" />
-</buff>
-
-<buff id="sleepingBigBedTrigger" duration="1" actions="setvar(CTRbigbed, 10)" />
-<buff id="sleepingBigBedEffect" duration="0" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(CTRbigbed, -3, 2, 0, 0)"
-	name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip" icon="ui_game_symbol_map_bed">
-	<modify id="0" stat="health" amount="1" rate="5" />
-	<modify id="0" stat="stamina" amount="1" rate="3" />
-</buff>
-
-<buff id="asphaltStaBoostTrigger" duration="1" actions="setvar(CTRroadrun, 10)" />
-<buff id="asphaltStaminaEffect" duration="0" buffif="CTRroadrun greater 0" debuffif="CTRroadrun less 1" actions="increment(CTRroadrun, -1, 1, 0, 0)" >
-	<modify id="0" stat="stamina" amount="1" rate="2"/>
-</buff>
-
-<buff id="asphaltStaminaEffect" duration="0" buffif="CTRroadrun greater 0" debuffif="CTRroadrun less 1" actions="increment(CTRroadrun, -1, 1, 0, 0)"
-	icon="ui_game_symbol_run" name_key="Road Runner" description_key="Meep meep!" tooltip_key="Meep meep!">
-	<modify id="0" stat="stamina" amount="1" rate="1"/>
-</buff>
--->
 
 <buff id="critGunMP5" duration="1" castsound="Buffs/critical_blunt" >
 	<modify id="1" stat="health" amount="-100" rate="1"/>
