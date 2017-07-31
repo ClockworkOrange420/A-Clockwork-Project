@@ -13,6 +13,7 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieSkateboarder" />
 		<entity name="zombieFarmer"/>
+		<entity name="zombieFemaleFat"/>
 		<entity name="zombieCheerleader" prob="0.3" />
 		<entity name="zombieOldTimer" prob="0.3" />
 		<entity name="zombieBiker" prob="0.3" />
@@ -35,8 +36,12 @@
 		<entity name="zombieDarlene" />
 		<entity name="zombieMarlene" />
 		<entity name="zombieNurse" />
+		<entity name="zombieFarmer"/>
+		<entity name="zombieFemaleFat"/>
 		<entity name="animalZombieDog" prob="0.05" />
 		<entity name="zombieSteveCrawler" />
+		<entity name="zombieBiker" prob="0.3" />
+		<entity name="zombieOldTimer" prob="0.3" />
 		<entity name="zombieFatHawaiian" prob="0.3" />
 	</entitygroup>
 
