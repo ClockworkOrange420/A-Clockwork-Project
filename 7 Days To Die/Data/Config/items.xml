@@ -10130,7 +10130,7 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="5"/>
+			<property name="Gain_food" value="1"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="40"/>
 			<property name="Sound_start" value="player_drinking"/>
