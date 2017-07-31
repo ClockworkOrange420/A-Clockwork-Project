@@ -921,7 +921,6 @@
 		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<!--<property name="PlantGrowing.LightLevelGrow" value="8"/> default, light required for growing up<property name="PlantGrowing.LightLevelStay" value="0"/> default, light required for not dieing off<property name="PlantGrowing.GrowOnTop" value="treeSnowyGrassDiagonal"/><property name="PlantGrowing.GrowIfAnythinOnTop" value="false"/><property name="PlantGrowing.IsGrowOnTopEnabled" value="false"/>-->
-		<property name="HarvestOverdamage" value="false"/>
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="EconomicValue" value="12"/>
@@ -945,7 +944,6 @@
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
-		<property name="HarvestOverdamage" value="false"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
@@ -5137,7 +5135,6 @@
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
-		<property name="HarvestOverdamage" value="false"/>
 		<property name="DowngradeBlock" value="plantedMushroom1"/>
 		<drop event="Harvest" name="plantedMushroom1" count="1" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="plantedMushroom1" count="1" prob="0.25" tool_category="CropsSeed"/>
