@@ -1639,7 +1639,7 @@
 	<item group="cannedfood" prob="0.2"/>
 	<item name="painkillers" prob="0.1"/>
 	<item name="animalFat" count="2,4"/>
-	<item name="foodHoney" count="1"/>
+	<item name="foodHoney" count="1" prob="0.3"/>
 	<item group="ammo" prob="0.1"/>
 	<item group="weaponsPistol+ammo" prob="0.1"/>
 </lootcontainer>
@@ -2038,17 +2038,13 @@
 
 <!-- ZombieFarmer -->
 <lootcontainer id="85" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-	<item group="junk" prob="2"/>
-	<item group="tools" prob="1"/>
-	<item group="farmCrops" prob="1"/>
-	<item group="seeds" prob="1"/>
-	<item name="hoeIron" prob="1"/>
-	<item name="shovelIron" prob="1"/>
-	<item name="shovelSteel" prob="0.5"/>
-	<item name="beer" prob="1"/>
-	<item name="foodHoney" count="1"/>
-	<item group="weaponsCompoundBowParts" prob="0.02"/>
-	<item name="compoundBow" prob="0.04"/>
+	<item group="junk"/>
+	<item group="tools"/>
+	<item group="farmCrops"/>
+	<item group="seeds"/>
+	<item name="beer"/>
+	<item group="weaponsCompoundBowParts" prob="0.15"/>
+	<item name="compoundBow" prob="0.08"/>
 </lootcontainer>
 
 <!-- bookstore shipping crate -->
