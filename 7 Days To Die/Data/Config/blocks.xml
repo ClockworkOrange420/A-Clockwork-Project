@@ -13479,6 +13479,7 @@
 		<drop event="Harvest" name="mechanicalParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electricParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electronicParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="10,20"/>
 		<!-- <drop event="Fall" name="cntCar03SedanDamage1" count="1" prob="1.0" stick_chance="1"/> -->
 		<property name="DowngradeBlock" value="cntCar03SedanDamage1"/>
 		<property name="BigDecorationRadius" value="5"/>
@@ -13533,11 +13534,11 @@
 		<drop event="Harvest" name="ductTape" count="1,2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapIron" count="10,35" tool_category="Disassemble"/>
 		<drop event="Harvest" name="gasCan" count="20,250" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="12" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Harvest" name="mechanicalParts" count="2,4" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electricParts" count="0,2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electronicParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="12"/>
 		<!-- <drop event="Fall" name="cntCar03SedanDamage2" count="1" prob="1.0" stick_chance="1"/> -->
 		<property name="DowngradeBlock" value="cntCar03SedanDamage2"/>
 		<property name="BigDecorationRadius" value="5"/>
@@ -13590,7 +13591,7 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Harvest" name="mechanicalParts" count="1,5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electricParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="12" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="12"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="1" stick_chance="1"/>
 		<property name="BigDecorationRadius" value="5"/>
 		<property name="CanDecorateOnSlopes" value="false"/>
