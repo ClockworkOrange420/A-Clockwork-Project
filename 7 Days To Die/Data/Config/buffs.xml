@@ -129,7 +129,7 @@ built-in buff variables:
 <buff id="isPlayer" buffif="+full > 0" />
 
 <!-- This buff is called on the first time the player spawns into the game and on respawning the player after each death. Can not add buffs. -->
-<buff id="initvars" duration="1" actions="setvar(beers,0);setvar(BDKbloodLoss,0);setvar(CTRbed,0);setvar(CTRbedroll,0);setvar(CTRbigbed,0);setvar(CTRblockBurn2,0);setvar(CTRblockBurn3,0);setvar(CTRroadrun,0);setvar(CTRsnowberry,0);setvar(CTRtrapDmg1,0);setvar(CTRbluePill,0)"/>
+<buff id="initvars" duration="1" actions="setvar(hygiene, 0);setvar(infected, 0);setvar(fatigue, 0);setvar(beers,0);setvar(BDKbloodLoss,0);setvar(CTRbed,0);setvar(CTRbedroll,0);setvar(CTRbigbed,0);setvar(CTRblockBurn2,0);setvar(CTRblockBurn3,0);setvar(CTRroadrun,0);setvar(CTRsnowberry,0);setvar(CTRtrapDmg1,0);setvar(CTRbluePill,0)"/>
 
 <!--Modded-->
 <buff id="woundActivatorClean" duration="30" onexpired="infection" requires="clean" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3"/>
@@ -273,16 +273,16 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="recoveringSmall" duration="1200t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recovering,recoveringTiny" stack="reset" actions="increment(infected, -1, 1t, 0, 0);buff(recoveringCommon);increment(@wellness, 0.1, 100t, 0, 0)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
 <buff id="recoveringTiny" duration="600t" onexpired="recoveryRemover" requires="infectionBase" mutex="cured,recovering,recoveringSmall" stack="reset" actions="increment(infected, -1, 1t, 0, 0);buff(recoveringCommon);increment(@wellness, 0.1, 100t, 0, 0)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
 <buff id="recovering2" requires="recoveringCommon" debuffif="CTRbedroll less 1" actions="increment(infected, -0.25, 1t, 0, 0)" icon="ui_game_symbol_natural_healing" name_key="Small Recovery Bonus" description_key="While sleeping on a sleeping bag you will cut Infection rate in half." tooltip_key="Slows Infection rate in half.">
-	<modify id="0" stat="health" amount="1" rate="30" />
+	<modify id="0" stat="health" amount="1" rate="60" />
 	<modify id="0" stat="stamina" amount="1" rate="5" />
 </buff>
 <buff id="recovering3" requires="recoveringCommon" debuffif="CTRbed less 1" actions="increment(infected, -0.5, 1t, 0, 0)" icon="ui_game_symbol_natural_healing" name_key="Medium Recovery Bonus" description_key="While sleeping on a small bed you will stop infection rate completely." tooltip_key="Stops infection rate completely.">
-	<modify id="0" stat="health" amount="1" rate="15" />
-	<modify id="0" stat="stamina" amount="1" rate="3" />
+	<modify id="0" stat="health" amount="1" rate="30" />
+	<modify id="0" stat="stamina" amount="1" rate="5" />
 </buff>
 <buff id="recovering4" requires="recoveringCommon" debuffif="CTRbigbed less 1" actions="increment(infected, -1, 1t, 0, 0)" icon="ui_game_symbol_natural_healing" name_key="Large Recovery Bonus" description_key="While sleeping on a big bed you will counter the infection by half its rate." tooltip_key="Counters infection rate by half.">
-	<modify id="0" stat="health" amount="1" rate="5" />
-	<modify id="0" stat="stamina" amount="1" rate="3" />
+	<modify id="0" stat="health" amount="1" rate="15" />
+	<modify id="0" stat="stamina" amount="1" rate="5" />
 </buff>
 
 <buff id="infectionActivatorHygiene" duration="1" actions="increment(hygiene, 120, 1, 0, 0)"/>
@@ -293,29 +293,23 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="infectionActivatorInfectious" duration="1" requires="infectious" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
 <buff id="infection" duration="1" onexpired="infectionReset" mutex="cured,infectionBase" actions="setvar(infected, 0)" type="sickness"/>
 <buff id="infectionReset" duration="1" mutex="cured" actions="increment(infected, 10, 0, 0, 1);buff(infectionBase)" type="sickness" />
-<buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0);increment(fatigue, 1, 50t, 0, 0);increment(@wellness, -0.1, 100t, 0, 0);debuff(prettyTired2);debuff(veryTired2);debuff(extremelyTired2);debuff(insanelyTired2)" type="sickness">
-	<modify id="0" stat="stamina" amount="-1" rate="2"/>
-</buff>
+<buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0);increment(fatigue, 1, 100t, 0, 0);increment(@wellness, -0.1, 100t, 0, 0)" type="sickness"/>
 <buff id="infectionNotification" buffif="infected gequal 240" mutex="cured,infection1,infection2,infection3" debuffif="infected less 1" type="sickness" icon="ui_game_symbol_infection" name_key="Minor Infection" description_key="Close inspection reveals a minor infection." tooltip_key="Minor Infection" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
-	<modify id="0" stat="stamina" amount="-1" rate="2"/>
-	<modify id="1" stat="health" amount="-1" rate="30"/>
+	<modify id="1" stat="health" amount="-1" rate="60"/>
 	<modify id="2" stat="food" amount="-1" rate="30"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
 </buff>
 <buff id="infection1" buffif="infected gequal 960" debuffif="infected lequal 959" mutex="infection2,infection3" actions="debuff(infectionNotification)" type="sickness" icon="ui_game_symbol_infection" name_key="Infection" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
-	<modify id="0" stat="stamina" amount="-1" rate="2"/>
 	<modify id="1" stat="health" amount="-1" rate="30"/>
 	<modify id="2" stat="food" amount="-1" rate="30"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
 </buff>
 <buff id="infection2" buffif="infected gequal 1920" debuffif="infected lequal 1919" mutex="infection3" actions="debuff(infection1);damage(2,100t,0,30)" type="sickness" icon="ui_game_symbol_infection" name_key="Major Infection" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
-	<modify id="0" stat="stamina" amount="-1" rate="2"/>
 	<modify id="1" stat="health" amount="-1" rate="15"/>
 	<modify id="2" stat="food" amount="-1" rate="30"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
 </buff>
 <buff id="infection3" buffif="infected gequal 2880" debuffif="infected lequal 2879" actions="debuff(infection2);damage(5,100t,0,15)" type="sickness" icon="ui_game_symbol_infection" name_key="Extreme Infection" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
-	<modify id="0" stat="stamina" amount="-2" rate="2"/>
 	<modify id="1" stat="health" amount="-1" rate="5"/>
 	<modify id="2" stat="food" amount="-1" rate="30"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
@@ -680,45 +674,30 @@ snowberryPlant feeds you for 90 sec. -->
 </buff>
 
 <buff id="bleedingBurningSmall" duration="1" actions="buff(burningSmall);buff(bleeding)" />
-<!--
-<buff id="FatigueTest" duration="60" actions="increment(fatigue, 4, 5, 0, 0)" icon="ui_game_symbol_character" name_key="Test" description_key="Test" tooltip_key="test"/>
-<buff id="InfectionTest" duration="60" actions="increment(infected, 32, 1, 0, 0)" icon="ui_game_symbol_character" name_key="Test" description_key="Test" tooltip_key="test"/>
--->
+
 <buff id="FatigueMain" duration="0" buffif="coretemp lequal 300" actions="increment(fatigue, 1, 50t, 0, 0)"/>
 <buff id="rested" duration="0" buffif="fatigue less 1" debuffif="fatigue gequal 8" actions="debuff(sleepingBagEffect2);debuff(sleepingBedEffect2);debuff(sleepingBigBedEffect2)" icon="ui_game_symbol_map_bed" name_key="Well rested" description_key="You are well rested." tooltip_key="Well rested" />
-<buff id="tired" buffif="fatigue gequal 24" debuffif="fatigue lequal 23" mutex="prettyTired,prettyTired2,veryTired,veryTired2,extremelyTired,extremelyTired2,insanelyTired,insanelyTired2,deadtiredWarning" icon="ui_game_symbol_character" name_key="Tired" description_key="You are tired and should get some rest" tooltip_key="You are tired">
+<buff id="tired" buffif="fatigue gequal 24" debuffif="fatigue lequal 23" mutex="prettyTired,veryTired,extremelyTired,insanelyTired,deadtiredWarning" icon="ui_game_symbol_character" name_key="Tired" description_key="You are tired and should get some rest" tooltip_key="You are tired">
 	<modify id="0" stat="stamina" amount="-1" rate="2"/>
 </buff>
 <buff id="prettyTired" buffif="fatigue gequal 48" debuffif="fatigue lequal 47" actions="debuff(tired)" mutex="veryTired,veryTired2,extremelyTired,extremelyTired2,insanelyTired,insanelyTired2,deadtiredWarning" icon="ui_game_symbol_stunned" name_key="Pretty Tired" description_key="You are feeling pretty tired and should go to sleep." tooltip_key="You are pretty damn tired!">
-	<modify id="0" stat="stamina" amount="-1" rate="2"/>
+	<modify id="0" stat="stamina" amount="-1.5" rate="2"/>
 	<modify id="0" stat="speedmodifier" setValue="0.90"/>
 </buff>
-<buff id="prettyTired2" buffif="fatigue gequal 48" debuffif="fatigue lequal 47" actions="debuff(tired)" mutex="infectionBase,veryTired,veryTired2,extremelyTired,extremelyTired2,insanelyTired,insanelyTired2,deadtiredWarning" >
-	<modify id="0" stat="stamina" amount="-1" rate="2"/>
-</buff>
-<buff id="veryTired" buffif="fatigue gequal 72" debuffif="fatigue lequal 71" actions="debuff(prettyTired);debuff(prettyTired2)" mutex="extremelyTired,extremelyTired2,insanelyTired,insanelyTired2,deadtiredWarning" icon="ui_game_symbol_stunned" name_key="Very Tired" description_key="You are very tired and need to sleep!" tooltip_key="You are very tired!">
-	<modify id="0" stat="stamina" amount="-1" rate="2"/>
+<buff id="veryTired" buffif="fatigue gequal 72" debuffif="fatigue lequal 71" actions="debuff(prettyTired)" mutex="extremelyTired,extremelyTired2,insanelyTired,insanelyTired2,deadtiredWarning" icon="ui_game_symbol_stunned" name_key="Very Tired" description_key="You are very tired and need to sleep!" tooltip_key="You are very tired!">
+	<modify id="0" stat="stamina" amount="-1.5" rate="2"/>
 	<modify id="0" stat="speedmodifier" setValue="0.80"/>
 </buff>
-<buff id="veryTired2" buffif="fatigue gequal 72" debuffif="fatigue lequal 71" actions="debuff(prettyTired);debuff(prettyTired2)" mutex="infectionBase,extremelyTired,extremelyTired2,insanelyTired,insanelyTired2,deadtiredWarning" >
-	<modify id="0" stat="stamina" amount="-1" rate="1"/>
-</buff>
-<buff id="extremelyTired" buffif="fatigue gequal 96" debuffif="fatigue lequal 95" actions="debuff(veryTired);debuff(veryTired2)" mutex="insanelyTired,deadtiredWarning" icon="ui_game_symbol_oxygen" name_key="Extremely Tired" description_key="You are extremely tired and need to sleep!" tooltip_key="You are extremely tired!">
-	<modify id="0" stat="stamina" amount="-1" rate="2"/>
+<buff id="extremelyTired" buffif="fatigue gequal 96" debuffif="fatigue lequal 95" actions="debuff(veryTired)" mutex="insanelyTired,deadtiredWarning" icon="ui_game_symbol_oxygen" name_key="Extremely Tired" description_key="You are extremely tired and need to sleep!" tooltip_key="You are extremely tired!">
+	<modify id="0" stat="stamina" amount="-1.5" rate="2"/>
 	<modify id="0" stat="speedmodifier" setValue="0.70"/>
 </buff>
-<buff id="extremelyTired2" buffif="fatigue gequal 96" debuffif="fatigue lequal 95" actions="debuff(veryTired);debuff(veryTired2)" mutex="infectionBase,insanelyTired,deadtiredWarning" >
-	<modify id="0" stat="stamina" amount="-1" rate="1"/>
-</buff>
-<buff id="insanelyTired" buffif="fatigue gequal 120" debuffif="fatigue lequal 119" actions="debuff(extremelyTired);debuff(extremelyTired2)" mutex="deadtiredWarning" icon="ui_game_symbol_oxygen" name_key="Insanely Tired" description_key="You are insanely tired and running on fumes!" tooltip_key="You are insanely tired!">
-	<modify id="0" stat="stamina" amount="-1" rate="2"/>
+<buff id="insanelyTired" buffif="fatigue gequal 120" debuffif="fatigue lequal 119" actions="debuff(extremelyTired)" mutex="deadtiredWarning" icon="ui_game_symbol_oxygen" name_key="Insanely Tired" description_key="You are insanely tired and running on fumes!" tooltip_key="You are insanely tired!">
+	<modify id="0" stat="stamina" amount="-1.5" rate="2"/>
 	<modify id="0" stat="speedmodifier" setValue="0.60"/>
 </buff>
-<buff id="insanelyTired2" buffif="fatigue gequal 120" debuffif="fatigue lequal 119" actions="debuff(extremelyTired);debuff(extremelyTired2)" mutex="infectionBase,deadtiredWarning" >
-	<modify id="0" stat="stamina" amount="-1" rate="1"/>
-</buff>
-<buff id="deadtiredWarning" buffif="fatigue gequal 144" debuffif="fatigue lequal 143" actions="debuff(insanelyTired);debuff(insanelyTired2)" icon="ui_game_symbol_skull" name_key="Dead Tired" description_key="You are dead tired, and if you dont sleep soon you will die!" tooltip_key="You are now dead tired!">
-	<modify id="0" stat="stamina" amount="-1" rate="1"/>
+<buff id="deadtiredWarning" buffif="fatigue gequal 144" debuffif="fatigue lequal 143" actions="debuff(insanelyTired)" icon="ui_game_symbol_skull" name_key="Dead Tired" description_key="You are dead tired, and if you dont sleep soon you will die!" tooltip_key="You are now dead tired!">
+	<modify id="0" stat="stamina" amount="-1.5" rate="1"/>
 	<modify id="0" stat="speedmodifier" setValue="0.50"/>
 </buff>
 <buff id="deadTired" buffif="fatigue gequal 168" actions="setvar(fatigue, 0);kill"/>
