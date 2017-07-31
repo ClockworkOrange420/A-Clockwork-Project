@@ -3088,10 +3088,12 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="vaultDoor01" count="1" craft_time = "20" craft_exp_gain="45" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedSteel" count="12"/>
 		<ingredient name="spring" count="2"/>
+		<ingredient name="mechanicalParts" count="2"/>
 	</recipe>
 	<recipe name="vaultHatch_v1" count="1" craft_time = "20" craft_exp_gain="45" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedSteel" count="12"/>
 		<ingredient name="spring" count="2"/>
+		<ingredient name="mechanicalParts" count="2"/>
 	</recipe>
 	<recipe name="jailDoor" count="1" craft_time = "20" craft_exp_gain="45" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedSteel" count="12"/>
