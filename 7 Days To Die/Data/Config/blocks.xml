@@ -13477,8 +13477,8 @@
 		<property name="MultiBlockDim" value="2,2,6"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="ShowModelOnFall" value="false"/>
-		<drop event="Harvest" name="leather" count="2,7" prob="0.5" tool_category="Harvest"/>
-		<drop event="Harvest" name="scrapIron" count="10,20" tool_category="Harvest"/>
+		<drop event="Harvest" name="leather" count="2,7" prob="0.5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="10,20" tool_category="Disassemble"/>
 		<drop event="Harvest" name="headlight" count="1" prob="0.2" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Harvest" name="mechanicalParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
@@ -13595,7 +13595,7 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Harvest" name="mechanicalParts" count="1,5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electricParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="12" tool_category="Harvest"/>
+		<drop event="Harvest" name="scrapIron" count="12" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="1" stick_chance="1"/>
 		<property name="BigDecorationRadius" value="5"/>
 		<property name="CanDecorateOnSlopes" value="false"/>
