@@ -1022,6 +1022,7 @@
 	<item name="glassCTRSheet"/>
 	<item name="gunPowder" count="1,3"/>
 	<item name="oil" count="2,6"/>
+	<item name="foodHoney" count="1"/>
 	<item name="shortMetalPipe" count="1"/>
 	<item name="fishingWeight" count="1,3"/>
 	<item name="scrapLead" count="1,10"/>
