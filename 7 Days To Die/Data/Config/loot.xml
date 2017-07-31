@@ -974,12 +974,12 @@
 <lootgroup name="farmCrops">
 	<item name="corn"/>
 	<item name="Tomato"/>
-	<item name="Wheat"/>
+	<item name="foodYuccaFruit"/>
+	<item name="aloePlant"/>
+	<item name="mushrooms"/>
 	<item name="potato"/>
 	<item name="blueberries"/>
-	<item name="cottonPlant"/>
 	<item name="coffeeBeans"/>
-	<item name="goldenrodPlant"/>
 </lootgroup>
 
 <lootgroup name="sinkTools">
@@ -1639,6 +1639,7 @@
 	<item group="cannedfood" prob="0.2"/>
 	<item name="painkillers" prob="0.1"/>
 	<item name="animalFat" count="2,4"/>
+	<item name="foodHoney" count="1"/>
 	<item group="ammo" prob="0.1"/>
 	<item group="weaponsPistol+ammo" prob="0.1"/>
 </lootcontainer>
@@ -1799,9 +1800,7 @@
 	<item name="canHam" count="1,2"/>
 	<item group="coldfood"/>
 	<item group="beverages" count="1,2"/>
-	<item name="foodHoney" count="1" prob="0.1"/>
-	<item name="paper" count="5,10" prob="0.4"/>
-	<item name="scrapPlastics" count="1,8" prob="0.5"/>
+	<item name="foodHoney" count="1"/>
 </lootcontainer>
 
 <!-- Bookstore bookcase -->
@@ -2047,6 +2046,7 @@
 	<item name="shovelIron" prob="1"/>
 	<item name="shovelSteel" prob="0.5"/>
 	<item name="beer" prob="1"/>
+	<item name="foodHoney" count="1"/>
 	<item group="weaponsCompoundBowParts" prob="0.02"/>
 	<item name="compoundBow" prob="0.04"/>
 </lootcontainer>

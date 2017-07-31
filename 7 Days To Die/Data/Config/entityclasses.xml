@@ -381,7 +381,7 @@
 	<property name="SleeperSmellWakeThreshold" value="20,50"/>
 	<property name="SmellAlertThreshold" value="20"/> <!-- for awake zombies -->
 
-	<property name="LootListOnDeath" value="85"/>
+	<property name="LootListOnDeath" value="38"/>
 	<property name="TintMaterial2" value="64,63,62"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -394,7 +394,7 @@
 	<property name="ExperienceGain" value="600"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
-	<property name="LootListOnDeath" value="85"/>
+	<property name="LootListOnDeath" value="38"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -893,7 +893,7 @@
 	<property name="ExperienceGain" value="250"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
-	<property name="LootListOnDeath" value="38"/>
+	<property name="LootListOnDeath" value="21"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>

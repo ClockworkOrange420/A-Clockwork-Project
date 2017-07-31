@@ -2438,28 +2438,20 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="bottledRiverWater" count="1"/>
 	</recipe>
 	<recipe name="Honey_Poultice" count="1" craft_time = "3" craft_exp_gain="10" craft_area="chemistryStation" craft_tool="cookingPot" >
-		<ingredient name="aloeCream" count="1"/>
+		<ingredient name="aloePlant" count="1"/>
 		<ingredient name="foodHoney" count="1"/>
-		<ingredient name="potato" count="1"/>
-		<ingredient name="emptyJar" count="1"/>
 	</recipe>
 	<recipe name="Honey_Poultice" count="1" craft_time = "6" craft_exp_gain="20" craft_area="Old_Oven" craft_tool="cookingPot" >
-		<ingredient name="aloeCream" count="1"/>
+		<ingredient name="aloePlant" count="1"/>
 		<ingredient name="foodHoney" count="1"/>
-		<ingredient name="potato" count="1"/>
-		<ingredient name="emptyJar" count="1"/>
 	</recipe>
 	<recipe name="Honey_Poultice" count="1" craft_time = "6" craft_exp_gain="20" craft_area="New_Oven" craft_tool="cookingPot" >
-		<ingredient name="aloeCream" count="1"/>
+		<ingredient name="aloePlant" count="1"/>
 		<ingredient name="foodHoney" count="1"/>
-		<ingredient name="potato" count="1"/>
-		<ingredient name="emptyJar" count="1"/>
 	</recipe>
 	<recipe name="Honey_Poultice" count="1" craft_time = "6" craft_exp_gain="20" craft_area="campfire" craft_tool="cookingPot" >
-		<ingredient name="aloeCream" count="1"/>
+		<ingredient name="aloePlant" count="1"/>
 		<ingredient name="foodHoney" count="1"/>
-		<ingredient name="potato" count="1"/>
-		<ingredient name="emptyJar" count="1"/>
 	</recipe>
 	<recipe name="Scythe" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Smithing_Table" craft_tool="anvil" >
 		<ingredient name="forgedIron" count="10"/>
