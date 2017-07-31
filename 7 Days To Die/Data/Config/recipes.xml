@@ -2437,7 +2437,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="chrysanthemumPlant" count="1"/>
 		<ingredient name="bottledRiverWater" count="1"/>
 	</recipe>
-	<recipe name="Honey_Poultice" count="1" craft_time = "3" craft_exp_gain="10" craft_area="chemistryStation" >
+	<recipe name="Honey_Poultice" count="1" craft_time = "3" craft_exp_gain="10" craft_area="chemistryStation">
 		<ingredient name="aloePlant" count="1"/>
 		<ingredient name="foodHoney" count="1"/>
 	</recipe>
@@ -2523,7 +2523,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="metalReinforcedWoodDrawBridge" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="forgedIron" count="100"/>
-		<ingredient name="wood" count="2000"/>
+		<ingredient name="wood" count="1000"/>
 		<ingredient name="spring" count="20"/>
 		<ingredient name="mechanicalParts" count="30"/>
 	</recipe>
@@ -2835,6 +2835,15 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="crushedSand" count="10"/>
 		<ingredient name="cloth" count="10"/>
 		<ingredient name="Cordage" count="1"/>
+	</recipe>
+	<recipe name="oil" count="1" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="oilShale" count="24"/>
+		<ingredient name="canEmpty" count="1"/>
+	</recipe>
+	<recipe name="paper" count="10" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="glue" count="1"/>
+		<ingredient name="bottledRiverWater" count="1"/>
 	</recipe>
 	<recipe name="omnigel" count="100" craft_time = "12" craft_exp_gain="40" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="potato" count="4"/>

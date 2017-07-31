@@ -2388,7 +2388,7 @@
 		<property name="EconomicValue" value="17"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="3,9"/>
+			<property name="EntityDamage" value="6,10"/>
 			<property name="BlockDamage" value="5,13"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
@@ -6195,7 +6195,6 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Sound_start" value="player_bandage"/>
-			<property name="Debuff" value="woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious"/>
 			<property name="Buff" value="splint"/>
 			<property name="ActionExp" value="10"/>
 		</property>
@@ -6207,7 +6206,6 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Sound_start" value="player_bandage"/>
-			<property name="Debuff" value="woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious"/>
 			<property name="Buff" value="splint"/>
 			<property name="ActionExp" value="10"/>
 		</property>
@@ -6582,8 +6580,7 @@
 			<property name="Gain_stamina" value="30"/>
 			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="yuccaJuiceCooling"/>
-			<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+			<property name="Buff" value="yuccaJuiceCooling,extinguishFireBuff"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -7264,9 +7261,8 @@
 			<property name="Gain_sickness" value="15"/>
 			<property name="Gain_wellness" value="-0.5"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="dysentery"/>
-			<property name="Buff_chance" value="0.5"/>
-			<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+			<property name="Buff" value="dysentery,extinguishFireBuff"/>
+			<property name="Buff_chance" value="0.5,1"/>
 			<property name="Create_item" value="canEmpty"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -7288,7 +7284,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="20"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+			<property name="Buff" value="extinguishFireBuff"/>
 			<property name="Create_item" value="canEmpty"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -7315,9 +7311,8 @@
 			<property name="Gain_sickness" value="15"/>
 			<property name="Gain_wellness" value="-0.5"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="dysentery"/>
-			<property name="Buff_chance" value="0.5"/>
-			<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+			<property name="Buff" value="dysentery,extinguishFireBuff"/>
+			<property name="Buff_chance" value="0.5,1"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -7340,7 +7335,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="20"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+			<property name="Buff" value="extinguishFireBuff"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -7356,8 +7351,7 @@
 			<property name="Gain_stamina" value="10"/>
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="10"/>
-			<property name="Buff" value="eatsnowberryJuiceTrigger"/>
-			<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+			<property name="Buff" value="eatsnowberryJuiceTrigger,extinguishFireBuff"/>
 		</property>
 		<property name="Group" value="Medicine"/>
 	</item>
@@ -7378,7 +7372,7 @@
 			<property name="Gain_stamina" value="40"/>
 			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Debuff" value="dysentery,burningSmall,burning"/>
+			<property name="Buff" value="extinguishFireBuff"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -7400,8 +7394,7 @@
 			<property name="Gain_stamina" value="40"/>
 			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="redTeaCooling"/>
-			<property name="Debuff" value="dysentery,burningSmall,burning"/>
+			<property name="Buff" value="redTeaCooling,extinguishFireBuff"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -7421,8 +7414,7 @@
 		<property class="Action1">
 			<property name="Gain_water" value="8"/>
 			<property name="Gain_stamina" value="0"/>
-			<property name="Buff" value="megaCrushBuff"/>
-			<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+			<property name="Buff" value="megaCrushBuff,extinguishFireBuff"/>
 		</property>
 	</item>
 	<item id="786" name="coffee">
@@ -7443,8 +7435,7 @@
 			<property name="Gain_stamina" value="100"/>
 			<property name="Gain_wellness" value="-0.1"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="CoffeeStaminaBoost"/>
-			<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+			<property name="Buff" value="CoffeeStaminaBoost,extinguishFireBuff"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -7467,8 +7458,7 @@
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="-0.1"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="DrinkBeer"/>
-			<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+			<property name="Buff" value="DrinkBeer,extinguishFireBuff"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -10387,8 +10377,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Create_item" value="Dry Towel"/>
-			<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
-			<property name="Buff" value="rinsingOff"/>
+			<property name="Buff" value="rinsingOff,extinguishFireBuff"/>
 		</property>
 		<property name="Group" value="Resources,Clothing"/>
 	</item>
@@ -10407,8 +10396,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Create_item" value="cloth"/>
-			<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
-			<property name="Buff" value="rinsingOffSmall"/>
+			<property name="Buff" value="rinsingOffSmall,extinguishFireBuff"/>
 		</property>
 		<property name="Group" value="Resources,Clothing"/>
 	</item>
