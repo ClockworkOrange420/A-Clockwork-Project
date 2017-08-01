@@ -2627,7 +2627,6 @@
 		<property name="Tag" value="Gore"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="FallDamage" value="false"/>
-		<property name="LootList" value="1"/>  <!-- dummy loot list, will be overridden by the animal that died -->
 		<!-- WILL NOT WORK WITH GORE ANY MORE<property name="UpgradeRated.ToBlock" value="air"/-->
 		<!-- 1=min, 15=max NOTE: 1 tick is approximately a 1 to 2 minute real-time interval. -->
 		<!-- property name="UpgradeRated.Rate" value="15"/>-->
