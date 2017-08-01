@@ -1843,7 +1843,7 @@
 	<item id="126" name="wrench">
 		<property name="Meshfile" value="Items/Tools/wrenchPrefab"/>
 		<property name="Material" value="metal"/>
-		<property name="RepairTools" value="forgedSteel"/>
+		<property name="RepairTools" value="forgedIron"/>
 		<property name="HoldType" value="29"/>
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="SoundJammed" value="ItemNeedsRepair"/>
