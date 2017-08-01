@@ -747,12 +747,12 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="unit_iron" count="200"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="arrow" count="1" craft_time = "4" craft_exp_gain="14" >
+	<recipe name="arrow" count="1" craft_time = "4" craft_exp_gain="1" >
 		<ingredient name="rockSmall" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
 	</recipe>
-	<recipe name="arrow" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Ammunition_Table" >
+	<recipe name="arrow" count="1" craft_time = "4" craft_exp_gain="1" craft_area="Ammunition_Table" >
 		<ingredient name="rockSmall" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
