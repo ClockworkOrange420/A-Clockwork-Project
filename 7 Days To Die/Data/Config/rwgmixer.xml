@@ -455,7 +455,7 @@
 	<terrain_generators>
 		<terrain_generator name="vanilla" use_old_final="false">
 			<module name="landBase" type="FastBillow" no_seed="true">
-				<property name="frequency" value="0.1"/>
+				<property name="frequency" value="0.075"/>
 			</module>
 			<module name="landT" type="FastTurbulence">
 				<property name="sourceModule" value="landBase"/>
@@ -473,7 +473,7 @@
 				<property name="bounds" value="0.05,0.25"/>
 			</module>
 			<module name="landBase2" type="FastBillow" no_seed="true">
-				<property name="frequency" value="0.1"/>
+				<property name="frequency" value="0.075"/>
 			</module>
 			<module name="landT2" type="FastTurbulence">
 				<property name="sourceModule" value="landBase2"/>
