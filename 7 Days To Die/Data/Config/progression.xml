@@ -114,7 +114,7 @@
 				<multiply skill_level="1,100" value="1,0.5"/>
 			</effect>
 			<effect name="RepairQualityLoss">
-				<multiply skill_level="1,100" value="1,0"/>
+				<multiply skill_level="1,100" value="0.4,0"/>
 			</effect>
 	</crafting_skill>
 	
@@ -129,7 +129,7 @@
 				<multiply skill_level="1,100" value="1,0.5"/>
 			</effect>
 			<effect name="RepairQualityLoss">
-				<multiply skill_level="1,100" value="1,0"/>
+				<multiply skill_level="1,100" value="0.4,0"/>
 			</effect>
 	</crafting_skill>
 	
@@ -144,7 +144,7 @@
 				<multiply skill_level="1,100" value="1,0.5"/>
 			</effect>
 			<effect name="RepairQualityLoss">
-				<multiply skill_level="1,100" value="1,0"/>
+				<multiply skill_level="1,100" value="0.4,0"/>
 			</effect>
 	</crafting_skill>
 	
@@ -159,7 +159,7 @@
 				<multiply skill_level="1,100" value="1,0.5"/>
 			</effect>
 			<effect name="RepairQualityLoss">
-				<multiply skill_level="1,100" value="1,0"/>
+				<multiply skill_level="1,100" value="0.4,0"/>
 			</effect>
 	</crafting_skill>
 	
@@ -174,7 +174,7 @@
 				<multiply skill_level="1,100" value="1,0.5"/>
 			</effect>
 			<effect name="RepairQualityLoss">
-				<multiply skill_level="1,100" value="1,0"/>
+				<multiply skill_level="1,100" value="0.4,0"/>
 			</effect>
 	</crafting_skill>
 	
@@ -189,7 +189,7 @@
 				<multiply skill_level="1,100" value="1,0.5"/>
 			</effect>
 			<effect name="RepairQualityLoss">
-				<multiply skill_level="1,100" value="1,0"/>
+				<multiply skill_level="1,100" value="0.4,0"/>
 			</effect>
 	</crafting_skill>
 	
@@ -204,7 +204,7 @@
 				<multiply skill_level="1,100" value="1,0.5"/>
 			</effect>
 			<effect name="RepairQualityLoss">
-				<multiply skill_level="1,100" value="1,0"/>
+				<multiply skill_level="1,100" value="0.4,0"/>
 			</effect>
 	</crafting_skill>
 	
@@ -219,7 +219,7 @@
 				<multiply skill_level="1,100" value="1,0.5"/>
 			</effect>
 			<effect name="RepairQualityLoss">
-				<multiply skill_level="1,100" value="1,0"/>
+				<multiply skill_level="1,100" value="0.4,0"/>
 			</effect>
 	</crafting_skill>
 	
