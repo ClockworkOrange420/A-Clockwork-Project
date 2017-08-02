@@ -3434,7 +3434,6 @@
 		<drop event="Harvest" name="electronicParts" count="0,2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="shortMetalPipe" count="1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapIron" count="5" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapPlastics" count="0,3" prob="0.2" tool_category="Disassemble"/>
 		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="192"/>
