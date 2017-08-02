@@ -5333,7 +5333,7 @@
 		<drop event="Harvest" name="leather" count="2" tool_category="Harvest"/>
 		<drop event="Harvest" name="Remote" count="1" prob="0.025" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
-		<drop event="Destroy" name="oldCash" count="1,3" prob="0.05" tool_category="Disassemble"/>
+		<drop event="Destroy" name="oldCash" count="1,3" prob="0.05" tool_category="Harvest"/>
 		<property name="EconomicValue" value="18"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
 	</block>
@@ -5408,10 +5408,10 @@
 			<property name="clayLump" value="50"/>
 			<property name="animalHide" value="20"/>
 		</property>
-		<drop event="Harvest" name="rockSmall" count="20" tool_category="Harvest"/>
 		<drop event="Harvest" name="rockSmall" count="10" tool_category="Disassemble"/>
 		<drop event="Harvest" name="clayLump" count="10" tool_category="Disassemble"/>
 		<drop event="Harvest" name="leather" count="3" tool_category="Disassemble"/>
+		<drop event="Harvest" name="rockSmall" count="20" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="TakeDelay" value="15"/>
@@ -6110,8 +6110,8 @@
 		<property class="RepairItems">
 			<property name="scrapPlastics" value="10"/>
 		</property>
-		<drop event="Harvest" name="scrapPlastics" count="3" tool_category="Disassemble"/>
-		<drop event="Destroy" name="scrapPlastics" count="1" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapPlastics" count="3" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapPlastics" count="1" tool_category="Harvest"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
 		<property name="EconomicValue" value="300"/>
@@ -7007,10 +7007,10 @@
 			<property name="clayLump" value="50"/>
 			<property name="animalHide" value="20"/>
 		</property>
-		<drop event="Harvest" name="rockSmall" count="10" tool_category="Harvest"/>
 		<drop event="Harvest" name="rockSmall" count="10" tool_category="Disassemble"/>
 		<drop event="Harvest" name="clayLump" count="10" tool_category="Disassemble"/>
 		<drop event="Harvest" name="leather" count="2" tool_category="Disassemble"/>
+		<drop event="Harvest" name="rockSmall" count="10" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
@@ -7065,10 +7065,10 @@
 			<property name="spring" value="4"/>
 			<property name="mechanicalParts" value="10"/>
 		</property>
-		<drop event="Harvest" name="scrapIron" count="10" tool_category="Harvest"/>
 		<drop event="Harvest" name="forgedIron" count="5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="spring" count="2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="mechanicalParts" count="4" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="10" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
@@ -7626,11 +7626,11 @@
 			<property name="forgedIron" value="100"/>
 			<property name="wood" value="1000"/>
 		</property>
+		<drop event="Destroy" name="spring" count="4,12" prob="1" tool_category="Disassemble"/>
+		<drop event="Destroy" name="mechanicalParts" count="4,20" prob="1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapIron" count="100" tool_category="Harvest"/>
 		<drop event="Harvest" name="wood" count="400" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
-		<drop event="Destroy" name="spring" count="4,12" prob="1" tool_category="Disassemble"/>
-		<drop event="Destroy" name="mechanicalParts" count="4,20" prob="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="drawBridgeGroupDesc"/>
 		<property name="ActivationDistance" value="14"/>
@@ -8458,6 +8458,7 @@
 			<property name="electricParts" value="4"/>
 			<property name="electronicParts" value="1"/>
 		</property>
+		<drop event="Harvest" name="mechanicalParts" count="0,1" prob="0.1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electricParts" count="1,4" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electronicParts" count="0,1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="shortMetalPipe" count="1" tool_category="Disassemble"/>
@@ -8470,11 +8471,6 @@
 		<property name="Extends" value="cntFridgeTop"/>
 		<property name="Texture" value="267,267,266,267,266,267"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		<drop event="Harvest" name="electricParts" count="1,4" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electronicParts" count="0,1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="shortMetalPipe" count="1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="3" tool_category="Disassemble"/>
-		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
 	</block>
 	<block id="842" name="treeForestGrassDiagonal">
 		<property name="Extends" value="treeGrassMaster" param1="CustomIcon"/>
