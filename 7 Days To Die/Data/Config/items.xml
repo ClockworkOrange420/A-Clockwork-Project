@@ -1866,9 +1866,9 @@
 			<property name="DamageBonus.organic" value="0.5"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ToolCategory.Disassemble" value="1" param1="10"  />
+			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="Sound_harvesting" value="wrench_harvest" param1="metal"/>
 			<property name="Particle_harvesting" value="true" param1="metal"/>
-			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
