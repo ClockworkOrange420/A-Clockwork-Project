@@ -626,7 +626,7 @@ snowberryPlant feeds you for 90 sec. -->
 <buff id="FatigueMain" duration="0" buffif="coretemp lequal 300" actions="increment(fatigue, 1, 50t, 0, 0)"/>
 <buff id="rested" duration="0" buffif="fatigue less 1" debuffif="fatigue gequal 8" actions="debuff(sleepingBagEffect2);debuff(sleepingBedEffect2);debuff(sleepingBigBedEffect2)" icon="ui_game_symbol_map_bed" name_key="Well rested" description_key="You are well rested." tooltip_key="Well rested" />
 <buff id="tired" buffif="fatigue gequal 24" debuffif="fatigue lequal 23" mutex="prettyTired,veryTired,extremelyTired,insanelyTired,deadtiredWarning" icon="ui_game_symbol_character" name_key="Tired" description_key="You are tired and should get some rest" tooltip_key="You are tired">
-	<modify id="0" stat="stamina" amount="-1" rate="2"/>
+	<modify id="0" stat="stamina" amount="-1.5" rate="2"/>
 </buff>
 <buff id="prettyTired" buffif="fatigue gequal 48" debuffif="fatigue lequal 47" actions="debuff(tired)" mutex="veryTired,veryTired2,extremelyTired,extremelyTired2,insanelyTired,insanelyTired2,deadtiredWarning" icon="ui_game_symbol_stunned" name_key="Pretty Tired" description_key="You are feeling pretty tired and should go to sleep." tooltip_key="You are pretty damn tired!">
 	<modify id="0" stat="stamina" amount="-1.5" rate="2"/>
@@ -637,15 +637,15 @@ snowberryPlant feeds you for 90 sec. -->
 	<modify id="0" stat="speedmodifier" setValue="0.80"/>
 </buff>
 <buff id="extremelyTired" buffif="fatigue gequal 96" debuffif="fatigue lequal 95" actions="debuff(veryTired)" mutex="insanelyTired,deadtiredWarning" icon="ui_game_symbol_oxygen" name_key="Extremely Tired" description_key="You are extremely tired and need to sleep!" tooltip_key="You are extremely tired!">
-	<modify id="0" stat="stamina" amount="-1.5" rate="2"/>
+	<modify id="0" stat="stamina" amount="-2" rate="2"/>
 	<modify id="0" stat="speedmodifier" setValue="0.70"/>
 </buff>
 <buff id="insanelyTired" buffif="fatigue gequal 120" debuffif="fatigue lequal 119" actions="debuff(extremelyTired)" mutex="deadtiredWarning" icon="ui_game_symbol_oxygen" name_key="Insanely Tired" description_key="You are insanely tired and running on fumes!" tooltip_key="You are insanely tired!">
-	<modify id="0" stat="stamina" amount="-1.5" rate="2"/>
+	<modify id="0" stat="stamina" amount="-2" rate="2"/>
 	<modify id="0" stat="speedmodifier" setValue="0.60"/>
 </buff>
 <buff id="deadtiredWarning" buffif="fatigue gequal 144" debuffif="fatigue lequal 143" actions="debuff(insanelyTired)" icon="ui_game_symbol_skull" name_key="Dead Tired" description_key="You are dead tired, and if you dont sleep soon you will die!" tooltip_key="You are now dead tired!">
-	<modify id="0" stat="stamina" amount="-1.5" rate="1"/>
+	<modify id="0" stat="stamina" amount="-2" rate="2"/>
 	<modify id="0" stat="speedmodifier" setValue="0.50"/>
 </buff>
 <buff id="deadTired" buffif="fatigue gequal 168" actions="setvar(fatigue, 0);kill"/>
