@@ -1011,6 +1011,7 @@
 	<item name="ironArrowHead" count="1,12"/>
 	<item name="steelArrowHead" count="1,10" prob="0.15"/>
 	<item name="Geometry_Set" count="1" prob="0.15"/>
+	
 	<item name="candyTin"/>
 	<item name="emptyJar" count="1"/>
 	<item name="canEmpty" count="1"/>
@@ -1025,8 +1026,7 @@
 	<item name="foodHoney" count="1"/>
 	<item name="shortMetalPipe" count="1"/>
 	<item name="fishingWeight" count="1,3"/>
-	<item name="scrapLead" count="1,10"/>
-	<item name="wood" count="1,4"/>
+	<item name="scrapPlastics" count="1,2"/>
 	<item name="glue" count="1,2"/>
 	<item name="nail" count="1,10"/>
 	<item name="casinoCoin" count="1,5"/>
@@ -1039,8 +1039,6 @@
 	<item group="seeds"/>
 	<item group="questChallenge" count="1" prob="0.11"/> 	<!-- 0.06 = .23 % -->
 	<item group="treasureMaps" count="1" prob="0.092"/>
-	<item name="femur" count="1,2" prob="0.05"/>
-	<item name="scrapPlastics" count="1,2" prob="0.3"/>
 </lootgroup>
 
 <lootgroup name="rareAutomotive">
