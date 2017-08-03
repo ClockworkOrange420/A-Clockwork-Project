@@ -1687,9 +1687,9 @@
 			</grid>
 		</panel>
 	</window>
-
+                   <!-- modded windowSkillInfo height="791" -->
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
-	<window name="windowSkillInfo" width="603" height="470" panel="Right" controller="SkillInfoWindow" cursor_area="true" >
+	<window name="windowSkillInfo" width="603" height="791" panel="Right" controller="SkillInfoWindow" cursor_area="true" >
 	<!--#$-IGS END.-$#-->
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite pos="4,-5" depth="2" name="windowIcon" style="icon32px" sprite="ui_game_symbol_skills"/>
@@ -1723,9 +1723,11 @@
 				<sprite depth="3" pos="160,-215" height="10" width="287" color="[lightGrey]" foregroundlayer="true" visible="{skillpercentshouldshow}" type="sliced" />
 				<sprite depth="3" pos="160,-215" height="10" width="287" color="[red]" foregroundlayer="true" type="filled" fill="{skillpercentthislevel}" visible="{skillpercentshouldshow}" />
 			</rect>
-			<rect depth="1" pos="0,-234" width="600" height="197">
+							  <!--Modded width="601" height="497"-->
+			<rect depth="1" pos="0,-234" width="601" height="497">
 				<sprite depth="1" name="background" color="[darkGrey]" type="sliced"/>
-				<sprite depth="3" pos="0,1" width="603" height="198" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
+								<!--Modded width="601" height="498"-->
+				<sprite depth="3" pos="0,1" width="603" height="498" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
 				<rect name="tableHeader" pos="0,0" width="600" height="43">
 					<sprite depth="1" name="background" color="[lightGrey]" type="sliced"/>
 					<rect depth="1" width="303" height="40">
@@ -1743,8 +1745,14 @@
 						<!--#$-IGS END.-$#-->
 					</rect>
 				</rect>
+				<!--Modded Added skill_attribute / skill_requirement -->
 				<grid rows="5" cols="1" pos="6,-46" width="300" cell_width="147" cell_height="28" controller="SkillAttributeList">
 					<skill_attribute/>
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
 					<skill_attribute />
 					<skill_attribute />
 					<skill_attribute />
@@ -1755,11 +1763,19 @@
 					<skill_requirement />
 					<skill_requirement />
 					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
 				</grid>
 			</rect>
-			<rect depth="3" width="600" height="43" pos="3,-432" controller="Paging">
-				<sprite depth="0" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="603" height="49" color="[black]" type="sliced" fillcenter="false" />
-				<sprite name="pagingControls" width="597" color="[mediumGrey]" type="sliced" />
+							 <!--Modded height="42" pos="3,-685"-->
+			<rect depth="3" width="600" height="42" pos="3,-685" controller="Paging">	   <!--modded height="48" -->
+				<sprite depth="0" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="603" height="48" color="[black]" type="sliced" fillcenter="false" />
+								   <!--Modded width="598"-->
+				<sprite name="pagingControls" width="598" color="[mediumGrey]" type="sliced" />
 
 				<label depth="5" name="currentSkillLevel" pos="6, -8" width="250" height="30" text="{currentSkillLevel} {skillLevel}/{maxSkillLevel}" font_size="30" justify="left"/>
 

@@ -480,7 +480,7 @@
 		<recipe name="antibiotics" unlock_level="3"/>
 	</perk>
 	
-	<perk name="Chemical Crafting" icon="science" description_key="Unlocks the ability to craft paint, ink, beer, grain alcohol, and steel polish." title_key="Chemical Crafting" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="crafting">
+	<perk name="Chemical Crafting" icon="science" description_key="Unlocks the ability to craft paint, ink, beer, grain alcohol, and steel polish." title_key="Chemical Crafting" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="10"/>
 		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="20"/>
 		<requirement skill_level="3" required_skill_name="craftSkillScience" required_skill_level="30"/>
@@ -491,7 +491,7 @@
 		<recipe name="steelPolish" unlock_level="3"/>
 	</perk>
 	
-	<perk name="ChemStationPerk" icon="resource" description_key="Unlocks the Chemistry Station and Omnigel" title_key="Chemistry Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+	<perk name="ChemStationPerk" icon="resource" description_key="Unlocks the Chemistry Station and Omnigel" title_key="Chemistry Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="75"/>
 		<recipe name="chemistryStation" unlock_level="1"/>
 		<recipe name="omnigel" unlock_level="1"/>
@@ -533,81 +533,112 @@
 		<recipe name="steelDart" unlock_level="1"/>
 	</perk>
 
-	<perk name="electricBasicsPerk" icon="electric_power" description_key="electricBasicsDesc" title_key="electricBasicsName" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="craftSkillScience">
-		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="1"/>
+	<perk name="electricBasicsPerk" icon="electric_power" description_key="electricBasicsDesc" title_key="Electricity Basics 1" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="5"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="5"/>
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="5"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="5"/>
 		<recipe name="wireTool" unlock_level="1"/>
 		<recipe name="electricwirerelay" unlock_level="1"/>
 		<recipe name="ceilingLight01_player" unlock_level="1"/>
 		<recipe name="porchLight01_player" unlock_level="1"/>
 		<recipe name="wallLight01_player" unlock_level="1"/>
-
-		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="5"/>
-		<requirement skill_level="2" required_skill_name="craftSkillMiscellaneous" required_skill_level="10"/>
-		<recipe name="ceilingLight02_player" unlock_level="2"/>
-		<recipe name="industrialLight01_player" unlock_level="2"/>
-		<recipe name="ceilingLight07_player" unlock_level="2"/>
-		<recipe name="spotlightPlayer" unlock_level="2"/>
-		<recipe name="speaker" unlock_level="2"/>
+		<recipe name="ceilingLight02_player" unlock_level="1"/>
+		<recipe name="industrialLight01_player" unlock_level="1"/>
+		<recipe name="ceilingLight07_player" unlock_level="1"/>
+		<recipe name="spotlightPlayer" unlock_level="1"/>
+		<recipe name="speaker" unlock_level="1"/>
 	</perk>
 
-	<perk name="electricTriggersPerk" icon="electric_switch" description_key="electricTriggersDesc" title_key="electricTriggersName" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="craftSkillScience">
+	<perk name="electricTriggersPerk" icon="electric_switch" description_key="electricTriggersDesc" title_key="electricTriggersName" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 		<recipe name="switch" unlock_level="1"/>
 		<recipe name="tripwirepost" unlock_level="1"/>
 
 		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="15"/>
 		<requirement skill_level="2" required_skill_name="craftSkillMiscellaneous" required_skill_level="15"/>
+		<requirement skill_level="2" required_skill_name="craftSkillTools" required_skill_level="15"/>
+		<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="15"/>
 		<recipe name="pressureplate" unlock_level="2"/>
 		<recipe name="electrictimerrelay" unlock_level="2"/>
 		<recipe name="pressureplateLong" unlock_level="2"/>
 
 		<requirement skill_level="3" required_skill_name="craftSkillScience" required_skill_level="20"/>
 		<requirement skill_level="3" required_skill_name="craftSkillMiscellaneous" required_skill_level="20"/>
+		<requirement skill_level="3" required_skill_name="craftSkillTools" required_skill_level="20"/>
+		<requirement skill_level="3" required_skill_name="Construction Tools" required_skill_level="20"/>
 		<recipe name="motionsensor" unlock_level="3"/>
 	</perk>
 
-	<perk name="electricTrapsMeleePerk" icon="wind" description_key="electricTrapsMeleeDesc" title_key="electricTrapsMeleeName" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="craftSkillScience">
+	<perk name="electricTrapsMeleePerk" icon="wind" description_key="electricTrapsMeleeDesc" title_key="electricTrapsMeleeName" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="20"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="20"/>
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="20"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
 		<recipe name="electricfencepost" unlock_level="1"/>
 		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="40"/>
 		<requirement skill_level="2" required_skill_name="craftSkillMiscellaneous" required_skill_level="40"/>
+		<requirement skill_level="2" required_skill_name="craftSkillTools" required_skill_level="40"/>
+		<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="40"/>
 		<recipe name="bladeTrap" unlock_level="2"/>
 	</perk>
 
-	<perk name="electricTrapsRangedPerk" icon="electric_turret" description_key="electricTrapsRangedDesc" title_key="electricTrapsRangedName" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="craftSkillScience">
+	<perk name="electricTrapsRangedPerk" icon="electric_turret" description_key="electricTrapsRangedDesc" title_key="electricTrapsRangedName" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="20"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="20"/>
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="20"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
 		<recipe name="dartTrap" unlock_level="1"/>
 		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="80"/>
 		<requirement skill_level="2" required_skill_name="craftSkillMiscellaneous" required_skill_level="80"/>
+		<requirement skill_level="2" required_skill_name="craftSkillTools" required_skill_level="80"/>
+		<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="80"/>
 		<recipe name="shotgunTurret" unlock_level="2"/>
 		<recipe name="autoTurret" unlock_level="2"/>
 	</perk>
 	
-	<perk name="electricGeneratorPerk" icon="electric_generator" description_key="electricGeneratorDesc" title_key="electricGeneratorName" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="craftSkillScience">
+	<perk name="electricGeneratorPerk" icon="electric_generator" description_key="electricGeneratorDesc" title_key="electricGeneratorName" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="90"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="90"/>
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="90"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="90"/>
 		<recipe name="generatorbank" unlock_level="1"/>
 	</perk>
 	
-	<perk name="electricBatteryBankPerk" icon="battery" description_key="electricBatteryBankDesc" title_key="electricBatteryBankName" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="craftSkillScience">
+	<perk name="electricSolarBankPerk" icon="electric_generator" description_key="This perk will unlock recipes for electrical devices." title_key="Solar Bank" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="50"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="50"/>
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="50"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="50"/>
+		<recipe name="solarbank" unlock_level="1"/>
+	</perk>
+	
+	<perk name="electricBatteryBankPerk" icon="battery" description_key="This perk will unlock recipes for electrical devices." title_key="Battery Bank" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="30"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="30"/>
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="30"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="30"/>
 		<recipe name="batterybank" unlock_level="1"/>
 	</perk>
 
-	<perk name="doItYourselfPerk" icon="misc_crafting" description_key="doItYourselfDesc" title_key="doItYourselfName" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="craftSkillScience">
+	<perk name="doItYourselfPerk" icon="misc_crafting" description_key="doItYourselfDesc" title_key="doItYourselfName" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 		<recipe name="insulator" unlock_level="1"/>
 		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="30"/>
+		<requirement skill_level="2" required_skill_name="craftSkillMiscellaneous" required_skill_level="30"/>
 		<requirement skill_level="2" required_skill_name="craftSkillTools" required_skill_level="30"/>
+		<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="30"/>
 		<recipe name="electricParts" unlock_level="2"/>
 		<requirement skill_level="3" required_skill_name="craftSkillScience" required_skill_level="50"/>
+		<requirement skill_level="3" required_skill_name="craftSkillMiscellaneous" required_skill_level="50"/>
 		<requirement skill_level="3" required_skill_name="craftSkillTools" required_skill_level="50"/>
+		<requirement skill_level="3" required_skill_name="Construction Tools" required_skill_level="50"/>
 		<recipe name="electronicParts" unlock_level="3"/>
 	</perk>
 
