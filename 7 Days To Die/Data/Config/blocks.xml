@@ -10594,6 +10594,10 @@
 		<property name="Texture" value="60"/>
 		<property name="ImposterExclude" value="true"/>
 		<property name="ShapeMinBB" value="0.3,0,0.3"/>
+		<drop event="Harvest" name="wood" count="2" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="1" tool_category="DisassembleHammer"/>
+		<drop event="Destroy" name="wood" count="1" tool_category="Harvest"/>
+		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="railingGroupDesc"/>
 	</block>
 	<block id="1144" name="railingOldWoodSheet">
