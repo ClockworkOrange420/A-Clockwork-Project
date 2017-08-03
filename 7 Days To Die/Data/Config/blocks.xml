@@ -3030,7 +3030,7 @@
 		<!-- disassemble value 355 -->
 	</block>
 	<block id="312" name="oldChair">
-		<property name="Material" value="wood_weak"/>
+		<property name="Material" value="furniture"/>
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
