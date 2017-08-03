@@ -4939,7 +4939,7 @@
 		<property name="Weight" value="30"/>
 		<property name="CanPickup" value="true"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
-		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="3" tool_category="Harvest"/>
 		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
 		<drop event="Destroy" count="0"/>
 	</block>
