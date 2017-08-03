@@ -4939,7 +4939,9 @@
 		<property name="Weight" value="30"/>
 		<property name="CanPickup" value="true"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
-		<drop event="Destroy" name="wood" count="1,3" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="519" name="cntDesk01">
 		<property name="Class" value="Loot"/>
