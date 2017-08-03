@@ -3268,14 +3268,14 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="nail" count="15"/>
 		<ingredient name="glue" count="5"/>
 	</recipe>
-	<recipe name="Ammunition_Table" count="1" craft_time = "30" craft_exp_gain="67" >
+	<recipe name="Ammunition_Table" count="1" craft_time = "30" craft_exp_gain="67" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="scrapIron" count="10"/>
 		<ingredient name="ductTape" count="10"/>
 	</recipe>
 	<recipe name="Smithing_Table" count="1" craft_time = "30" craft_exp_gain="67" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="40"/>
 	</recipe>
-	<recipe name="Research_Table" count="1" craft_time = "30" craft_exp_gain="67" >
+	<recipe name="Research_Table" count="1" craft_time = "30" craft_exp_gain="67" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="15"/>
 		<ingredient name="glue" count="5"/>
