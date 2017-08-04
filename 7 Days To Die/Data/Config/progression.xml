@@ -268,83 +268,84 @@
 	</perk>
 	
 	<!--Melee Weapon Unlocks-->
-	<perk name="Iron Spear Crafting" icon="knife" description_key="Unlocks the ability to make an Iron Spear." title_key="Iron Spear Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
+	<perk name="Blade Weapon Crafting" icon="knife" description_key="Unlocks the ability to make better blade weapons." title_key="Blade Weapon Crafting" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
 		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="Blade Weapons" required_skill_level="10"/>
+		<requirement skill_level="2" required_skill_name="craftSkillWeapons" required_skill_level="30"/>
+		<requirement skill_level="2" required_skill_name="Blade Weapons" required_skill_level="30"/>
+		<requirement skill_level="3" required_skill_name="craftSkillWeapons" required_skill_level="50"/>
+		<requirement skill_level="3" required_skill_name="Blade Weapons" required_skill_level="50"/>
+		<requirement skill_level="4" required_skill_name="craftSkillWeapons" required_skill_level="70"/>
+		<requirement skill_level="4" required_skill_name="Blade Weapons" required_skill_level="70"/>
 		<recipe name="ironTippedSpear" unlock_level="1"/>
+		<recipe name="huntingKnife" unlock_level="2"/>
+		<recipe name="steelTippedSpear" unlock_level="3"/>
+		<recipe name="machete" unlock_level="4"/>
 	</perk>
-	<perk name="Iron Club Crafting" icon="club" description_key="Unlocks the ability to make an Iron Club." title_key="Iron Club Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
+	<perk name="Blunt Weapon Crafting" icon="club" description_key="Unlocks the ability to make better blunt weapons." title_key="Blunt Weapon Crafting" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
 		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="Blunt Weapons" required_skill_level="10"/>
+		<requirement skill_level="2" required_skill_name="craftSkillWeapons" required_skill_level="30"/>
+		<requirement skill_level="2" required_skill_name="Blunt Weapons" required_skill_level="30"/>
+		<requirement skill_level="3" required_skill_name="craftSkillWeapons" required_skill_level="50"/>
+		<requirement skill_level="3" required_skill_name="Blunt Weapons" required_skill_level="50"/>
+		<requirement skill_level="4" required_skill_name="craftSkillWeapons" required_skill_level="70"/>
+		<requirement skill_level="4" required_skill_name="Blunt Weapons" required_skill_level="70"/>
 		<recipe name="clubIron" unlock_level="1"/>
-	</perk>
-	<perk name="Barbed Club Crafting" icon="club" description_key="Unlocks the ability to make a Barbed Club." title_key="Barbed Club Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
-		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="30"/>
-		<recipe name="clubBarbed" unlock_level="1"/>
-	</perk>
-	<perk name="Sledgehammer Crafting" icon="club" description_key="Unlocks the ability to make a Sledgehammer" title_key="Sledgehammer Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
-		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="50"/>
-		<recipe name="sledgehammer" unlock_level="1"/>
-	</perk>
-	<perk name="Steel Spear Crafting" icon="knife" description_key="Unlocks the ability to make an Steel Spear." title_key="Steel Spear Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
-		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="50"/>
-		<recipe name="steelTippedSpear" unlock_level="1"/>
-	</perk>
-	<perk name="Hunting Knife Crafting" icon="knife" description_key="Unlocks the ability to make a Hunting Knife." title_key="Hunting Knife Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
-		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="60"/>
-		<recipe name="huntingKnife" unlock_level="1"/>
-	</perk>
-	<perk name="Spiked Club Crafting" icon="club" description_key="Unlocks the ability to make a Spiked Club." title_key="Spiked Club Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
-		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="70"/>
-		<recipe name="clubSpiked" unlock_level="1"/>
-	</perk>
-	<perk name="Machete Crafting" icon="knife" description_key="Unlocks the ability to make a Machete." title_key="Machete Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
-		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="90"/>
-		<recipe name="machete" unlock_level="1"/>
+		<recipe name="clubBarbed" unlock_level="2"/>
+		<recipe name="sledgehammer" unlock_level="3"/>
+		<recipe name="clubSpiked" unlock_level="4"/>
 	</perk>
 	
 	<!--Ranged Weapon Unlocks-->
-	<perk name="Compound Bow Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble a Compound Bow." title_key="Compound Bow Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
+	<perk name="Bow Crafting" icon="gunsmithing" description_key="Unlocks the ability to make better bows." title_key="Bow Crafting" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
 		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="Archery" required_skill_level="10"/>
+		<requirement skill_level="2" required_skill_name="craftSkillWeapons" required_skill_level="30"/>
+		<requirement skill_level="2" required_skill_name="Archery" required_skill_level="30"/>
 		<recipe name="compoundBow" unlock_level="1"/>
+		<recipe name="crossbow" unlock_level="2"/>
 	</perk>
-	<perk name="Crossbow Crafting" icon="gunsmithing" description_key="Unlocks the ability to craft a Crossbow." title_key="Crossbow Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
-		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="20"/>
-		<requirement skill_level="1" required_skill_name="Archery" required_skill_level="20"/>
-		<recipe name="crossbow" unlock_level="1"/>
-	</perk>
-	<perk name="9mm Pistol Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble a 9mm Pistol and craft 9mm ammunition." title_key="9mm Pistol Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
-		<requirement skill_level="1" required_skill_name="craftSkillGuns" required_skill_level="20"/>
+	<perk name="Pistol Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble better pistols and craft ammunition." title_key="Pistol Crafting" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
+		<requirement skill_level="1" required_skill_name="craftSkillGuns" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="Pistols" required_skill_level="10"/>
+		<requirement skill_level="2" required_skill_name="craftSkillGuns" required_skill_level="30"/>
+		<requirement skill_level="2" required_skill_name="Pistols" required_skill_level="30"/>
+		<requirement skill_level="3" required_skill_name="craftSkillGuns" required_skill_level="50"/>
+		<requirement skill_level="3" required_skill_name="Pistols" required_skill_level="50"/>
 		<recipe name="gunPistol" unlock_level="1"/>
 		<recipe name="9mmBullet" unlock_level="1"/>
 		<recipe name="bulletTip" unlock_level="1"/>
 		<recipe name="bulletCasing" unlock_level="1"/>
+		<recipe name="gunMP5" unlock_level="2"/>
+		<recipe name="gun44Magnum" unlock_level="3"/>
+		<recipe name="44MagBullet" unlock_level="3"/>
 	</perk>
-	<perk name="MP5 Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble an MP5." title_key="MP5 Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
+	<perk name="Shotgun Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble Shotguns and craft shells and slugs." title_key="Shotgun Crafting" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
 		<requirement skill_level="1" required_skill_name="craftSkillGuns" required_skill_level="30"/>
-		<recipe name="gunMP5" unlock_level="1"/>
-	</perk>
-	<perk name="Shotgun Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble Shotguns and craft shells and slugs." title_key="Shotgun Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
-		<requirement skill_level="1" required_skill_name="craftSkillGuns" required_skill_level="40"/>
+		<requirement skill_level="1" required_skill_name="Shotguns" required_skill_level="10"/>
+		<requirement skill_level="2" required_skill_name="craftSkillGuns" required_skill_level="50"/>
+		<requirement skill_level="2" required_skill_name="Shotguns" required_skill_level="30"/>
 		<recipe name="gunSawedOffPumpShotgun" unlock_level="1"/>
-		<recipe name="gunPumpShotgun" unlock_level="1"/>
 		<recipe name="buckshot" unlock_level="1"/>
 		<recipe name="shotgunShell" unlock_level="1"/>
 		<recipe name="shotgunSlug" unlock_level="1"/>
+		<recipe name="gunPumpShotgun" unlock_level="2"/>
 	</perk>
-	<perk name="44 Magnum Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble a 44 Magnum and craft 44 caliber ammunition." title_key="44 Magnum Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
-		<requirement skill_level="1" required_skill_name="craftSkillGuns" required_skill_level="50"/>
-		<recipe name="gun44Magnum" unlock_level="1"/>
-		<recipe name="44MagBullet" unlock_level="1"/>
-	</perk>
-	<perk name="Rifle Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble all high powered rifles and craft 762mm ammunition." title_key="Rifle Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
-		<requirement skill_level="1" required_skill_name="craftSkillGuns" required_skill_level="60"/>
-		<recipe name="gunAK47" unlock_level="1"/>
+	<perk name="Rifle Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble all high powered rifles and craft 762mm ammunition." title_key="Rifle Crafting" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
+		<requirement skill_level="1" required_skill_name="craftSkillGuns" required_skill_level="30"/>
+		<requirement skill_level="2" required_skill_name="craftSkillGuns" required_skill_level="50"/>
+		<requirement skill_level="2" required_skill_name="Rifles" required_skill_level="10"/>
+		<requirement skill_level="3" required_skill_name="craftSkillGuns" required_skill_level="70"/>
+		<requirement skill_level="3" required_skill_name="Rifles" required_skill_level="30"/>
 		<recipe name="gunHuntingRifle" unlock_level="1"/>
-		<recipe name="gunSniperRifle" unlock_level="1"/>
 		<recipe name="762mmBullet" unlock_level="1"/>
+		<recipe name="gunAK47" unlock_level="2"/>
+		<recipe name="gunSniperRifle" unlock_level="3"/>
 	</perk>
 	<perk name="RPG Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble a Rocket Launcher and craft Rockets." title_key="RPG Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
 		<requirement skill_level="1" required_skill_name="craftSkillGuns" required_skill_level="70"/>
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="50"/>
 		<recipe name="gunRocketLauncher" unlock_level="1"/>
 		<recipe name="rocket" unlock_level="1"/>
 		<recipe name="rocketCasing" unlock_level="1"/>
@@ -353,120 +354,110 @@
 	
 	<!--Tool Unlocks-->
 	
-	<perk name="Tool Crafting Stage 1" icon="tool_smithing" description_key="Unlocks the ability to make a Fireaxe, Pickaxe, Shovel, Hoe, and scythe." title_key="Tool Crafting Stage 1" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+	<perk name="Construction Tool Crafting" icon="tool_smithing" description_key="Unlocks the ability to make better construction tools." title_key="Construction Tool Crafting" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
+		<requirement skill_level="2" required_skill_name="craftSkillTools" required_skill_level="30"/>
+		<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="30"/>
+		<requirement skill_level="3" required_skill_name="craftSkillTools" required_skill_level="50"/>
+		<requirement skill_level="3" required_skill_name="Construction Tools" required_skill_level="50"/>
+		<recipe name="clawHammer" unlock_level="1"/>
+		<recipe name="wrench" unlock_level="1"/>
+		<recipe name="nailgun" unlock_level="2"/>
+		<recipe name="calipers" unlock_level="3"/>
+		<recipe name="toolAndDieSet" unlock_level="3"/>
+	</perk>
+	<perk name="Mining Tool Crafting" icon="tool_smithing" description_key="Unlocks the ability to make better mining tools." title_key="Mining Tool Crafting" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="20"/>
+		<requirement skill_level="2" required_skill_name="craftSkillTools" required_skill_level="40"/>
+		<requirement skill_level="2" required_skill_name="Mining Tools" required_skill_level="40"/>
+		<requirement skill_level="3" required_skill_name="craftSkillTools" required_skill_level="80"/>
+		<requirement skill_level="3" required_skill_name="Mining Tools" required_skill_level="80"/>
 		<recipe name="fireaxeIron" unlock_level="1"/>
 		<recipe name="pickaxeIron" unlock_level="1"/>
 		<recipe name="shovelIron" unlock_level="1"/>
 		<recipe name="hoeIron" unlock_level="1"/>
 		<recipe name="Scythe" unlock_level="1"/>
+		<recipe name="pickaxeSteel" unlock_level="2"/>
+		<recipe name="fireaxeSteel" unlock_level="2"/>
+		<recipe name="shovelSteel" unlock_level="2"/>
+		<recipe name="chainsaw" unlock_level="3"/>
+		<recipe name="partsChainsaw_parts" unlock_level="3"/>
+		<recipe name="partsChainsaw_blade" unlock_level="3"/>
+		<recipe name="auger" unlock_level="3"/>
+		<recipe name="partsAuger_parts" unlock_level="3"/>
+		<recipe name="partsAuger_blade" unlock_level="3"/>
 	</perk>
-	<perk name="Tool Crafting Stage 2" icon="tool_smithing" description_key="Unlocks the ability to make a Claw Hammer and Wrench." title_key="Tool Crafting Stage 2" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
-		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="20"/>
-		<recipe name="clawHammer" unlock_level="1"/>
-		<recipe name="wrench" unlock_level="1"/>
-	</perk>
-	<perk name="Tool Crafting Stage 3" icon="tool_smithing" description_key="Unlocks the ability to make a Steel Fireaxe Steel Pickaxe And Steel Shovel." title_key="Tool Crafting Stage 3" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
-		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="40"/>
-		<recipe name="pickaxeSteel" unlock_level="1"/>
-		<recipe name="fireaxeSteel" unlock_level="1"/>
-		<recipe name="shovelSteel" unlock_level="1"/>
-	</perk>
-	<perk name="Tool Crafting Stage 4" icon="tool_smithing" description_key="Unlocks the ability to make a Nailgun Calipers and Tool and Die Set." title_key="Tool Crafting Stage 4" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
-		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="60"/>
-		<recipe name="nailgun" unlock_level="1"/>
-		<recipe name="calipers" unlock_level="1"/>
-		<recipe name="toolAndDieSet" unlock_level="1"/>
-	</perk>
-	<perk name="Tool Crafting Stage 5" icon="tool_smithing" description_key="Unlocks the ability to make a Chainsaw, Chainsaw Blade, Chainsaw Parts, Auger, Auger Blade, Auger Parts." title_key="Tool Crafting Stage 5" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
-		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="80"/>
-		<recipe name="chainsaw" unlock_level="1"/>
-		<recipe name="partsChainsaw_parts" unlock_level="1"/>
-		<recipe name="partsChainsaw_blade" unlock_level="1"/>
-		<recipe name="auger" unlock_level="1"/>
-		<recipe name="partsAuger_parts" unlock_level="1"/>
-		<recipe name="partsAuger_blade" unlock_level="1"/>
-	</perk>
-	<perk name="Tool Crafting Stage 6" icon="tool_smithing" description_key="Unlocks the ability to make a Small Engine." title_key="Tool Crafting Stage 6" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+	<perk name="Engine Crafting" icon="tool_smithing" description_key="Unlocks the ability to make a Small Engine." title_key="Engine Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="100"/>
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="100"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="80"/>
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="80"/>
 		<recipe name="smallEngine" unlock_level="1"/>
 	</perk>
 	
 	<!--Minibike Unlock-->
 	
 	<perk name="Minibike Assembly" icon="tool_smithing" description_key="Unlocks the ability to make the Minibike Chassis, Seat and Handlebars." title_key="Minibike Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="crafting">
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="60"/>
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="60"/>
 		<requirement skill_level="1" required_skill_name="Tailoring" required_skill_level="30"/>
 		<requirement skill_level="1" required_skill_name="Leatherworking" required_skill_level="30"/>
-		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="60"/>
 		<recipe name="minibikeChassis" unlock_level="1"/>
 		<recipe name="minibikeSeat" unlock_level="1"/>
 		<recipe name="minibikeHandlebars" unlock_level="1"/>
 	</perk>
 	
 	<!--Armor Unlocks-->
-	
-	<perk name="Leather Armor Crafting Stage 1" icon="armor_leather" description_key="Unlocks the ability to make basic Leather Armor." title_key="Leather Armor Crafting Stage 1" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
+	<perk name="Leather Armor Crafting" icon="armor_leather" description_key="Unlocks the ability to make better Leather Armor." title_key="Leather Armor Crafting" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
 		<requirement skill_level="1" required_skill_name="Leatherworking" required_skill_level="20"/>
+		<requirement skill_level="2" required_skill_name="Leatherworking" required_skill_level="50"/>
 		<recipe name="leatherBoots" unlock_level="1"/>
 		<recipe name="leatherPants" unlock_level="1"/>
 		<recipe name="leatherJacket" unlock_level="1"/>
 		<recipe name="leatherHood" unlock_level="1"/>
 		<recipe name="leatherGloves" unlock_level="1"/>
 		<recipe name="leatherDuster" unlock_level="1"/>
+		<recipe name="nightvisionGoggles" unlock_level="2"/>
+		<recipe name="militaryHelmet" unlock_level="2"/>
+		<recipe name="militaryGloves" unlock_level="2"/>
+		<recipe name="militaryBoots" unlock_level="2"/>
+		<recipe name="militaryLegArmor" unlock_level="2"/>
+		<recipe name="militaryVest" unlock_level="2"/>
 	</perk>
-	<perk name="Leather Armor Crafting Stage 2" icon="armor_leather" description_key="Unlocks the ability to make Military Armor and NVG." title_key="Leather Armor Crafting Stage 2" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
-		<requirement skill_level="1" required_skill_name="Leatherworking" required_skill_level="50"/>
-		<recipe name="nightvisionGoggles" unlock_level="1"/>
-		<recipe name="militaryHelmet" unlock_level="1"/>
-		<recipe name="militaryGloves" unlock_level="1"/>
-		<recipe name="militaryBoots" unlock_level="1"/>
-		<recipe name="militaryLegArmor" unlock_level="1"/>
-		<recipe name="militaryVest" unlock_level="1"/>
-	</perk>
-	<perk name="Armor Smithing Stage 1" icon="forge" description_key="Unlocks the ability to make Scrap Armor." title_key="Armor Smithing Stage 1" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
+	<perk name="Armor Smithing" icon="forge" description_key="Unlocks the ability to make Scrap Armor." title_key="Armor Smithing" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
 		<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="20"/>
+		<requirement skill_level="2" required_skill_name="craftSkillArmor" required_skill_level="50"/>
 		<recipe name="scrapBoots" unlock_level="1"/>
 		<recipe name="scrapLegArmor" unlock_level="1"/>
 		<recipe name="scrapChestArmor" unlock_level="1"/>
 		<recipe name="scrapHelmet" unlock_level="1"/>
 		<recipe name="scrapGloves" unlock_level="1"/>
-	</perk>
-	<perk name="Armor Smithing Stage 2" icon="forge" description_key="Unlocks the ability to make Iron Armor." title_key="Armor Smithing Stage 2" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
-		<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="50"/>
-		<recipe name="swatHelmet" unlock_level="1"/>
-		<recipe name="ironBoots" unlock_level="1"/>
-		<recipe name="ironLegArmor" unlock_level="1"/>
-		<recipe name="ironChestArmor" unlock_level="1"/>
-		<recipe name="ironHelmet" unlock_level="1"/>
-		<recipe name="ironGloves" unlock_level="1"/>
+		<recipe name="swatHelmet" unlock_level="2"/>
+		<recipe name="ironBoots" unlock_level="2"/>
+		<recipe name="ironLegArmor" unlock_level="2"/>
+		<recipe name="ironChestArmor" unlock_level="2"/>
+		<recipe name="ironHelmet" unlock_level="2"/>
+		<recipe name="ironGloves" unlock_level="2"/>
 	</perk>
 	
 	<!--Explosive-->
 	
-	<perk name="Explosives Crafting Stage 1" icon="ui_game_symbol_fire" description_key="Unlocks the ability to make gunpowder." title_key="Explosives Crafting Stage 1" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
+	<perk name="Explosives Crafting" icon="ui_game_symbol_fire" description_key="Unlocks the ability to make gunpowder." title_key="Explosives Crafting" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="10"/>
+		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="20"/>
+		<requirement skill_level="3" required_skill_name="craftSkillScience" required_skill_level="30"/>
+		<requirement skill_level="4" required_skill_name="craftSkillScience" required_skill_level="40"/>
+		<requirement skill_level="5" required_skill_name="craftSkillScience" required_skill_level="50"/>
 		<recipe name="gunPowder" unlock_level="1"/>
-	</perk>
-	<perk name="Explosives Crafting Stage 2" icon="ui_game_symbol_fire" description_key="Unlocks the ability to make mines and pipe bombs." title_key="Explosives Crafting Stage 2" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
-		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="20"/>
-		<recipe name="mineCandyTin" unlock_level="1"/>
-		<recipe name="pipeBomb" unlock_level="1"/>
-		<recipe name="mineHubcap" unlock_level="1"/>
-		<recipe name="mineAirFilter" unlock_level="1"/>
-		<recipe name="rScrapIronPlateMine" unlock_level="1"/>
-	</perk>
-	<perk name="Explosives Crafting Stage 3" icon="ui_game_symbol_fire" description_key="Unlocks the ability to make dynamite." title_key="Explosives Crafting Stage 3" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
-		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="30"/>
-		<recipe name="dynamite" unlock_level="1"/>
-	</perk>
-	<perk name="Explosives Crafting Stage 4" icon="ui_game_symbol_fire" description_key="Unlocks the ability to make exploding bolts." title_key="Explosives Crafting Stage 4" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
-		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="40"/>
-		<recipe name="explodingCrossbowBolt" unlock_level="1"/>
-	</perk>
-	<perk name="Explosives Crafting Stage 5" icon="ui_game_symbol_fire" description_key="Unlocks the ability to make TNT." title_key="Explosives Crafting Stage 5" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
-		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="50"/>
-		<recipe name="tnt" unlock_level="1"/>
+		<recipe name="mineCandyTin" unlock_level="2"/>
+		<recipe name="rScrapIronPlateMine" unlock_level="2"/>
+		<recipe name="pipeBomb" unlock_level="3"/>
+		<recipe name="mineHubcap" unlock_level="3"/>
+		<recipe name="mineAirFilter" unlock_level="4"/>
+		<recipe name="explodingCrossbowBolt" unlock_level="4"/>
+		<recipe name="dynamite" unlock_level="5"/>
+		<recipe name="tnt" unlock_level="5"/>
 	</perk>
 	
 	<!--Resource Unlocks-->
@@ -479,7 +470,6 @@
 		<recipe name="firstAidKit" unlock_level="2"/>
 		<recipe name="antibiotics" unlock_level="3"/>
 	</perk>
-	
 	<perk name="Chemical Crafting" icon="science" description_key="Unlocks the ability to craft paint, ink, beer, grain alcohol, and steel polish." title_key="Chemical Crafting" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="10"/>
 		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="20"/>
@@ -490,18 +480,15 @@
 		<recipe name="grainAlcohol" unlock_level="2"/>
 		<recipe name="steelPolish" unlock_level="3"/>
 	</perk>
-	
 	<perk name="ChemStationPerk" icon="resource" description_key="Unlocks the Chemistry Station and Omnigel" title_key="Chemistry Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
-		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="75"/>
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="70"/>
 		<recipe name="chemistryStation" unlock_level="1"/>
 		<recipe name="omnigel" unlock_level="1"/>
 	</perk>
-	
 	<perk name="Leather Tanning" icon="resource" description_key="Unlocks the ability to craft leather from animal hides or by scrapping leather items." title_key="Leather Tanning" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="clothing">
 		<requirement skill_level="1" required_skill_name="Leatherworking" required_skill_level="10"/>
 		<recipe name="leather" unlock_level="1"/>
 	</perk>
-	
 	<perk name="Concrete Mixing" icon="resource" description_key="Unlocks the ability to make bricks, cement, concrete mix and the xement mixer." title_key="Concrete Mixing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="Mining Tools" required_skill_level="20"/>
@@ -512,7 +499,6 @@
 		<recipe name="cement" unlock_level="1"/>
 		<recipe name="Bricks" unlock_level="1"/>
 	</perk>
-	
 	<perk name="Iron Working" icon="resource" description_key="Unlocks Iron Plates for upgrading your base." title_key="Iron Working" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="crafting">
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
 		<requirement skill_level="1" required_skill_name="Mining Tools" required_skill_level="30"/>
@@ -520,7 +506,6 @@
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="40"/>
 		<recipe name="scrapIronPlate" unlock_level="1"/>
 	</perk>
-	
 	<perk name="Steel Smithing" icon="resource" description_key="Unlocks Steel smithing." title_key="Steel Smithing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="crafting">
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="30"/>
 		<requirement skill_level="1" required_skill_name="Mining Tools" required_skill_level="40"/>
@@ -532,7 +517,7 @@
 		<recipe name="steelCrossbowBolt" unlock_level="1"/>
 		<recipe name="steelDart" unlock_level="1"/>
 	</perk>
-
+	<!--Electrical Unlocks-->
 	<perk name="electricBasicsPerk" icon="electric_power" description_key="electricBasicsDesc" title_key="Electricity Basics" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="5"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="5"/>
@@ -549,99 +534,90 @@
 		<recipe name="spotlightPlayer" unlock_level="1"/>
 		<recipe name="speaker" unlock_level="1"/>
 	</perk>
-
 	<perk name="electricTriggersPerk" icon="electric_switch" description_key="electricTriggersDesc" title_key="electricTriggersName" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
-		<recipe name="switch" unlock_level="1"/>
-		<recipe name="tripwirepost" unlock_level="1"/>
-
 		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="15"/>
 		<requirement skill_level="2" required_skill_name="craftSkillMiscellaneous" required_skill_level="15"/>
 		<requirement skill_level="2" required_skill_name="craftSkillTools" required_skill_level="15"/>
 		<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="15"/>
-		<recipe name="pressureplate" unlock_level="2"/>
-		<recipe name="electrictimerrelay" unlock_level="2"/>
-		<recipe name="pressureplateLong" unlock_level="2"/>
-
 		<requirement skill_level="3" required_skill_name="craftSkillScience" required_skill_level="20"/>
 		<requirement skill_level="3" required_skill_name="craftSkillMiscellaneous" required_skill_level="20"/>
 		<requirement skill_level="3" required_skill_name="craftSkillTools" required_skill_level="20"/>
 		<requirement skill_level="3" required_skill_name="Construction Tools" required_skill_level="20"/>
+		<recipe name="switch" unlock_level="1"/>
+		<recipe name="tripwirepost" unlock_level="1"/>
+		<recipe name="pressureplate" unlock_level="2"/>
+		<recipe name="electrictimerrelay" unlock_level="2"/>
+		<recipe name="pressureplateLong" unlock_level="2"/>
 		<recipe name="motionsensor" unlock_level="3"/>
 	</perk>
-
 	<perk name="electricTrapsMeleePerk" icon="wind" description_key="electricTrapsMeleeDesc" title_key="electricTrapsMeleeName" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="20"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="20"/>
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="20"/>
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
-		<recipe name="electricfencepost" unlock_level="1"/>
 		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="40"/>
 		<requirement skill_level="2" required_skill_name="craftSkillMiscellaneous" required_skill_level="40"/>
 		<requirement skill_level="2" required_skill_name="craftSkillTools" required_skill_level="40"/>
 		<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="40"/>
+		<recipe name="electricfencepost" unlock_level="1"/>
 		<recipe name="bladeTrap" unlock_level="2"/>
 	</perk>
-
 	<perk name="electricTrapsRangedPerk" icon="electric_turret" description_key="electricTrapsRangedDesc" title_key="electricTrapsRangedName" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="20"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="20"/>
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="20"/>
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
+		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="60"/>
+		<requirement skill_level="2" required_skill_name="craftSkillMiscellaneous" required_skill_level="60"/>
+		<requirement skill_level="2" required_skill_name="craftSkillTools" required_skill_level="60"/>
+		<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="60"/>
 		<recipe name="dartTrap" unlock_level="1"/>
-		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="80"/>
-		<requirement skill_level="2" required_skill_name="craftSkillMiscellaneous" required_skill_level="80"/>
-		<requirement skill_level="2" required_skill_name="craftSkillTools" required_skill_level="80"/>
-		<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="80"/>
 		<recipe name="shotgunTurret" unlock_level="2"/>
 		<recipe name="autoTurret" unlock_level="2"/>
 	</perk>
-	
-	<perk name="electricGeneratorPerk" icon="electric_generator" description_key="electricGeneratorDesc" title_key="electricGeneratorName" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="science">
-		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="90"/>
-		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="90"/>
-		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="90"/>
-		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="90"/>
-		<recipe name="generatorbank" unlock_level="1"/>
-	</perk>
-	
 	<perk name="electricSolarBankPerk" icon="electric_generator" description_key="This perk will unlock recipes for electrical devices." title_key="Solar Bank" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
-		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="50"/>
-		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="50"/>
-		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="50"/>
-		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="50"/>
-		<recipe name="solarbank" unlock_level="1"/>
-	</perk>
-	
-	<perk name="electricBatteryBankPerk" icon="battery" description_key="This perk will unlock recipes for electrical devices." title_key="Battery Bank" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="30"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="30"/>
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="30"/>
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="30"/>
+		<recipe name="solarbank" unlock_level="1"/>
+	</perk>
+	<perk name="electricBatteryBankPerk" icon="battery" description_key="This perk will unlock recipes for electrical devices." title_key="Battery Bank" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="40"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="40"/>
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="40"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="40"/>
 		<recipe name="batterybank" unlock_level="1"/>
 	</perk>
-
+	<perk name="electricGeneratorPerk" icon="electric_generator" description_key="electricGeneratorDesc" title_key="electricGeneratorName" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="science">
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="50"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="50"/>
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="50"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="50"/>
+		<recipe name="generatorbank" unlock_level="1"/>
+	</perk>
 	<perk name="doItYourselfPerk" icon="misc_crafting" description_key="doItYourselfDesc" title_key="doItYourselfName" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
-		<recipe name="insulator" unlock_level="1"/>
 		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="30"/>
 		<requirement skill_level="2" required_skill_name="craftSkillMiscellaneous" required_skill_level="30"/>
 		<requirement skill_level="2" required_skill_name="craftSkillTools" required_skill_level="30"/>
 		<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="30"/>
-		<recipe name="electricParts" unlock_level="2"/>
 		<requirement skill_level="3" required_skill_name="craftSkillScience" required_skill_level="50"/>
 		<requirement skill_level="3" required_skill_name="craftSkillMiscellaneous" required_skill_level="50"/>
 		<requirement skill_level="3" required_skill_name="craftSkillTools" required_skill_level="50"/>
 		<requirement skill_level="3" required_skill_name="Construction Tools" required_skill_level="50"/>
+		<recipe name="insulator" unlock_level="1"/>
+		<recipe name="electricParts" unlock_level="2"/>
 		<recipe name="electronicParts" unlock_level="3"/>
 	</perk>
-
+	<!--Decoration-->
 	<perk name="paintDecorations" icon="paint_brush" description_key="This skill can be purchased with skill points." title_key="paintMagazineDecorations" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="painting">
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="5"/>
 		<material_group name="txGroupDecoration" unlock_level="1"/>
