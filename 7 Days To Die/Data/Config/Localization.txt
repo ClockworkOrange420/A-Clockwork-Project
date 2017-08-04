@@ -31,7 +31,7 @@ coffeeBeansDesc,items,Farming,EnChanged,Brew coffee at a campfire or craft the b
 foodYuccaFruitDesc,items,Food,EnChanged,Yucca fruit is edible and can be juiced to gain a bit of water. It is harvested from cacti and yucca plants.,Les fruits de yucca se mangent et peuvent être cueillis sur les cactus.,Die Yucca-Frucht ist essbar und kann von Kakteen geerntet werden.,,La yuca es comestible y se puede recoger de los cactus.
 moldyBreadDesc,items,Food,EnChanged,Eat at your own risk. Can be used to craft antibiotics at a chemistry station.,,"Auf eigene Gefahr essen. Kann benutzt werden, um am Chemietisch Antibiotika zu fertigen.",,
 blunderbussDesc,items,Gun,EnChanged,A primitive muzzle loader can be crafted from mainly forged iron. Effective at very close ranges.,"Une arme primitive à chargement par la bouche peut être fabriquée à partir de tuyaux, de fer forgé, de bois et de ressorts. Efficace sur de très courtes distances.",Ein einfacher Vorderlader der hauptsächlich aus geschmiedetem Eisen gefertigt wird. Ist im Nahkampf sehr effektiv.,,"Se puede fabricar un arma de avancarga rudimentaria con tuberías, hierro forjado, madera y resortes. Eficaz a distancias muy cortas."
-gunMP5Desc,items,Gun,EnChanged,This silenced submachine gun uses 9mm ammo. Can be re-assembled and repaired if you read the schematic.,Cette formidable mitraillette nécessite des munitions de calibre 9 mm. L'arme peut être réassemblée et réparée si vous lisez le schéma.,"Diese schallgedämpfte Maschinenpistole verwendet 9 mm Munition. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,Esta metralleta pateaculos utiliza munición de 9 mm. Se puede rearmar y reparar si lees el esquema.
+gunMP5Desc,items,Gun,EnChanged,This machine pistol uses 9mm ammo. Can be re-assembled and repaired if you read the schematic.,Cette formidable mitraillette nécessite des munitions de calibre 9 mm. L'arme peut être réassemblée et réparée si vous lisez le schéma.,"Diese schallgedämpfte Maschinenpistole verwendet 9 mm Munition. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,Esta metralleta pateaculos utiliza munición de 9 mm. Se puede rearmar y reparar si lees el esquema.
 animalHideDesc,items,Item,EnChanged,Use animal hide to make warm clothing and leather.,"Après avoir lu « Le livre du cuir », servez-vous de peaux de bête pour fabriquer des vêtements, des soufflets pour la forge et du cuir.",Tierhäute dienen dazu warme Kleidung und Leder herzustellen.,,"Una vez que hayas leído el libro del cuero, podrás usar la piel de animal para hacer ropa, fabricar fuelles para la fragua y cuero."
 bellowsDesc,items,Item,EnChanged,"Bellows made with wood, leather and pipes are needed to make a forge.","Un soufflet est fait de bois, de peau de bête et de tuyaux. Il sert à construire une forge.","Blasebälge bestehen aus Holz, Leder und Röhren, und sind notwendig, um eine Schmiede zu bauen.",,"Se necesitan fuelles de madera, piel de animal y tuberías para construir una fragua."
 oilShaleDesc,items,Item,EnChanged,Oil shale can be found in the desert and crafted into gas at a chemistry station.,,Ölschiefer kann in der Wüste gefunden werden und am Chemietisch zu Benzin verarbeitet werden.,,
@@ -1503,7 +1503,7 @@ gunAK47,items,Gun,KgNone,AK-47 Assault Rifle,Fusil d'assaut AK-47,AK-47 Sturmgew
 gunAK47Desc,items,Gun,KgNone,This badass AK-47 Assault Rifle uses 7.62mm ammo. Can be re-assembled and repaired if you read the schematic.,"Ultra badass, le fusil d'assaut AK-47 nécessite des munitions de calibre 7,62 mm. L'arme peut être réassemblée et réparée si vous lisez le schéma.","Das krasse AK-47 Sturmgewehr verwendet 7,62 mm Munition. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,Este rudo rifle de asalto AK-47 usa munición de 7.62 mm. Se puede rearmar y reparar si lees el esquema.
 gunHuntingRifle,items,Gun,KgNone,Hunting Rifle,Fusil de chasse,Jagdgewehr,,Rifle de caza
 gunHuntingRifleDesc,items,Gun,KgNone,"This common farmer's hunting rifle uses 7.62mm ammo. Can be assembled, repaired and augmented once you've read the schematic.","Ce fusil de chasse de fermier classique nécessite des munitions de calibre 7,62 mm. Peut être assemblé, réparé et amélioré une fois que vous avez lu le schéma associé.","Dieses gewöhnliches Jagdgewehr eines Bauern verwendet 7,62 mm Munition. Kann zusammengesetzt, repariert und verbessert werden, wenn du den Bauplan gelesen hast.",,"Este rifle de caza normal de granjero utiliza munición de 7,62 mm. Una vez que has leído el esquema, lo puedes armar, reparar y mejorar."
-gunMP5,items,Gun,KgNone,SMG,Mitraillette,Maschinenpistole,,Metralleta
+gunMP5,items,Gun,KgNone,Machine Pistol,Mitraillette,Maschinenpistole,,Metralleta
 gunPistol,items,Gun,KgNone,Pistol,Pistolet,Pistole,,Revólver
 gunPistolDesc,items,Gun,KgNone,A basic pistol. Uses 9mm ammo. Can be re-assembled and repaired if you read the pistol book.,Un pistolet de base. Nécessite des munitions de calibre 9 mm. L'arme peut être réassemblée et réparée si vous lisez « Le livre des pistolets ».,"Eine einfache Pistole. Verwendet 9 mm Munition. Kann zusammengesetzt und repariert werden, wenn du das Buch „Pistolen“ gelesen hast.",,Un revólver básico. Utiliza munición de 9 mm. Se puede rearmar y reparar si has leído el libro de la pistola.
 gunPumpShotgun,items,Gun,KgNone,Shotgun,Fusil à pompe,Schrotflinte,,Escopeta
@@ -1727,11 +1727,11 @@ partsHuntingRifle_parts,items,Part,KgNone,Hunting Rifle Parts,Pièces de fusil d
 partsHuntingRifle_receiver,items,Part,KgNone,Hunting Rifle Receiver,Carcasse de fusil de chasse,Jagdgewehr-Verschlussgehäuse,,Receptor de rifle de caza
 partsHuntingRifle_stock,items,Part,KgNone,Hunting Rifle Stock,Crosse de fusil de chasse,Jagdgewehrschaft,,Cantonera de rifle de caza
 partsHuntingRifleGroupDesc,items,Part,KgNone,A part of the hunting rifle. Assemble with other parts to create a complete hunting rifle once you've read the schematic.,Une pièce de fusil de chasse. À assembler à d'autres pièces pour fabriquer un fusil de chasse une fois que vous avez lu le schéma.,"Ein Teil von einem Jagdgewehr. Setze es mit den anderen Teilen zu einem Jagdgewehr zusammen, wenn du den Bauplan gelesen hast.",,"Una parte de un rifle de caza. Una vez que has leído el esquema, ármala con otras partes para crear un rifle de caza completo."
-partsMP5_barrel,items,Part,KgNone,SMG Barrel,Canon de mitraillette,Maschinenpistolenlauf,,Cañón de metralleta
-partsMP5_parts,items,Part,KgNone,SMG Parts,Pièces de mitraillette,Maschinenpistolenteile,,Partes de metralleta
-partsMP5_receiver,items,Part,KgNone,SMG Receiver,Carcasse de mitraillette,Maschinenpistolen-Verschlussgehäuse,,Receptor de metralleta
-partsMP5_stock,items,Part,KgNone,SMG Stock,Crosse de mitraillette,Maschinenpistolenschaft,,Cantonera de metralleta
-partsMP5GroupDesc,items,Part,KgNone,A part of the Submachine Gun. Assemble with other parts to create a complete SMG once you've read the schematic.,Une pièce de mitraillette. À assembler à d'autres pièces pour fabriquer une mitraillette une fois que vous avez lu le schéma.,"Ein Teil von einer Maschinenpistole. Setze es mit den anderen Teilen zu einer Maschinenpistole zusammen, wenn du den Bauplan gelesen hast.",,"Una parte de una metralleta. Una vez que has leído el esquema, ármala con otras partes para crear una metralleta completa."
+partsMP5_barrel,items,Part,KgNone,Machine Pistol Barrel,Canon de mitraillette,Maschinenpistolenlauf,,Cañón de metralleta
+partsMP5_parts,items,Part,KgNone,Machine Pistol Parts,Pièces de mitraillette,Maschinenpistolenteile,,Partes de metralleta
+partsMP5_receiver,items,Part,KgNone,Machine Pistol Receiver,Carcasse de mitraillette,Maschinenpistolen-Verschlussgehäuse,,Receptor de metralleta
+partsMP5_stock,items,Part,KgNone,Machine Pistol Stock,Crosse de mitraillette,Maschinenpistolenschaft,,Cantonera de metralleta
+partsMP5GroupDesc,items,Part,KgNone,A part of the Submachine Gun. Assemble with other parts to create a complete machine pistol once you've unlocked the perk.,Une pièce de mitraillette. À assembler à d'autres pièces pour fabriquer une mitraillette une fois que vous avez lu le schéma.,"Ein Teil von einer Maschinenpistole. Setze es mit den anderen Teilen zu einer Maschinenpistole zusammen, wenn du den Bauplan gelesen hast.",,"Una parte de una metralleta. Una vez que has leído el esquema, ármala con otras partes para crear una metralleta completa."
 partsPistol_barrel,items,Part,KgNone,Pistol Barrel,Canon de pistolet,Pistolenlauf,,Cañón de revólver
 partsPistol_grip,items,Part,KgNone,Pistol Grip,Crosse de pistolet,Pistolengriff,,Empuñadura de revólver
 partsPistol_parts,items,Part,KgNone,Pistol Parts,Pièces de pistolet,Pistolenteile,,Partes de revólver
@@ -4983,6 +4983,38 @@ Empty_Jar_Mold,items,Item Tool,KgNone,Empty Jar Mold,,
 emptyJarMoldDesc,items,Item,KgNone,An empty jar mold is used to craft empty jars at the forge and eyeware at the smithing table.,,
 Glass_Pane_Mold,items,Item Tool,KgNone,Glass Pane Mold,,
 glassPaneMoldDesc,items,Item,KgNone,A glass pane mold is used to craft windows and bulletproof glass at the forge.,,
+44Magnum_Cylinder_Mold,items,Item Tool,KgNone,44Magnum Cylinder Mold,,
+44Magnum_Frame_Mold,items,Item Tool,KgNone,44Magnum Frame Mold,,
+44Magnum_Grip_Mold,items,Item Tool,KgNone,44Magnum Grip Mold,,
+44Magnum_Parts_Mold,items,Item Tool,KgNone,44Magnum Parts Mold,,
+AK47_Barrel_Mold,items,Item Tool,KgNone,AK47 Barrel Mold,,
+AK47_Parts_Mold,items,Item Tool,KgNone,AK47 Parts Mold,,
+AK47_Reciever_Mold,items,Item Tool,KgNone,AK47 Reciever Mold,,
+AK47_Stock_Mold,items,Item Tool,KgNone,AK47 Stock Mold,,
+Hunting_Rifle_Barrel_Mold,items,Item Tool,KgNone,Hunting Rifle Barrel Mold,,
+Hunting_Rifle_Parts_Mold,items,Item Tool,KgNone,Hunting Rifle Parts Mold,,
+Hunting_Rifle_Reciever_Mold,items,Item Tool,KgNone,Hunting Rifle Reciever Mold,,
+Pistol_Barrel_Mold,items,Item Tool,KgNone,Pistol Barrel Mold,,
+Pistol_Grip_Mold,items,Item Tool,KgNone,Pistol Grip Mold,,
+Pistol_Parts_Mold,items,Item Tool,KgNone,Pistol Parts Mold,,
+Pistol_Reciever_Mold,items,Item Tool,KgNone,Pistol Reciever Mold,,
+Rocket_Launcher_Barrel_Mold,items,Item Tool,KgNone,Rocket Launcher Barrel Mold,,
+Rocket_Launcher_Parts_Mold,items,Item Tool,KgNone,Rocket Launcher Parts Mold,,
+Rocket_Launcher_Reciever_Mold,items,Item Tool,KgNone,Rocket Launcher Reciever Mold,,
+Rocket_Launcher_Stock_Mold,items,Item Tool,KgNone,Rocket Launcher Stock Mold,,
+Shotgun_Barrel_Mold,items,Item Tool,KgNone,Shotgun Barrel Mold,,
+Shotgun_Parts_Mold,items,Item Tool,KgNone,Shotgun Parts Mold,,
+Shotgun_Reciever_Mold,items,Item Tool,KgNone,Shotgun Reciever Mold,,
+Shotgun_Short_Barrel_Mold,items,Item Tool,KgNone,Shotgun Short Barrel Mold,,
+SMG_Barrel_Mold,items,Item Tool,KgNone,Machine Pistol Barrel Mold,,
+SMG_Parts_Mold,items,Item Tool,KgNone,Machine Pistol Parts Mold,,
+SMG_Reciever_Mold,items,Item Tool,KgNone,Machine Pistol Reciever Mold,,
+SMG_Stock_Mold,items,Item Tool,KgNone,Machine Pistol Stock Mold,,
+Sniper_Barrrel_Mold,items,Item Tool,KgNone,Sniper Barrrel Mold,,
+Sniper_Parts_Mold,items,Item Tool,KgNone,Sniper Parts Mold,,
+Sniper_Reciever_Mold,items,Item Tool,KgNone,Sniper Reciever Mold,,
+Sniper_Stock_Mold,items,Item Tool,KgNone,Sniper Stock Mold,,
+partsMoldDesc,items,Item,KgNone,A mold used to craft parts at the forge.,,
 Mortar_and_Pestle,items,Item,KgNone,Mortar & Pestle,,
 mortarPestleDesc,items,Item,KgNone,Clay bowl with pestle used for grinding and mixing ingredients into a fine blend.,,
 Cordage,items,Item,KgNone,Cordage,,

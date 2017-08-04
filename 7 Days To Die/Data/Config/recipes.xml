@@ -113,9 +113,12 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<!--Clothing-->
 	<recipe name="militaryFiber" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
-		<ingredient name="cloth" count="2"/>
-		<ingredient name="leather" count="5"/>
-		<ingredient name="Cordage" count="1"/>
+		<ingredient name="cloth" count="1"/>
+		<ingredient name="leather" count="1"/>
+		<ingredient name="glue" count="1"/>
+	</recipe>
+	<recipe name="partsCompoundBow_string" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="militaryFiber" count="2"/>
 	</recipe>
 	<recipe name="Dry Towel" count="1" craft_time = "6" craft_exp_gain="20" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="cloth" count="10"/>
@@ -779,14 +782,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="smallEngine" count="1"/>
 		<ingredient name="partsAuger_parts" count="1"/>
 		<ingredient name="partsAuger_blade" count="1"/>
-	</recipe>
-	<recipe name="partsAuger_parts" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="anvil" material_based="true" >
-		<ingredient name="unit_iron" count="20"/>
-		<ingredient name="unit_clay" count="10"/>
-	</recipe>
-	<recipe name="partsAuger_blade" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="anvil" material_based="true" >
-		<ingredient name="unit_iron" count="50"/>
-		<ingredient name="unit_clay" count="30"/>
 	</recipe>
 	<recipe name="awningBlock" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="wood" count="4"/>
@@ -1669,14 +1664,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="partsChainsaw_parts" count="1"/>
 		<ingredient name="partsChainsaw_blade" count="1"/>
 	</recipe>
-	<recipe name="partsChainsaw_parts" count="1" craft_time = "20" craft_exp_gain="67" craft_area="forge" craft_tool="anvil" material_based="true" >
-		<ingredient name="unit_iron" count="20"/>
-		<ingredient name="unit_clay" count="10"/>
-	</recipe>
-	<recipe name="partsChainsaw_blade" count="1" craft_time = "20" craft_exp_gain="67" craft_area="forge" craft_tool="anvil" material_based="true" >
-		<ingredient name="unit_iron" count="50"/>
-		<ingredient name="unit_clay" count="30"/>
-	</recipe>
 	<recipe name="clawHammer" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Smithing_Table" craft_tool="anvil" >
 		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="wood" count="10"/>
@@ -2470,6 +2457,11 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
 	</recipe>
+	<recipe name="ironArrow" count="1" craft_time = "4" craft_exp_gain="9" >
+		<ingredient name="ironArrowHead" count="1"/>
+		<ingredient name="wood" count="1"/>
+		<ingredient name="feather" count="1"/>
+	</recipe>
 	<recipe name="ironArrowHead" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="anvil" material_based="true" >
 		<ingredient name="unit_iron" count="2"/>
 		<ingredient name="unit_clay" count="1"/>
@@ -3000,6 +2992,11 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
 	<recipe name="steelArrow" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Ammunition_Table" >
+		<ingredient name="steelArrowHead" count="1"/>
+		<ingredient name="wood" count="1"/>
+		<ingredient name="feather" count="1"/>
+	</recipe>
+	<recipe name="steelArrow" count="1" craft_time = "4" craft_exp_gain="14" >
 		<ingredient name="steelArrowHead" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
@@ -3684,6 +3681,354 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="Glass_Pane_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
 		<ingredient name="glassCTRSheet" count="1"/>
 		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="44Magnum_Cylinder_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="parts44Magnum_cylinder" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="parts44Magnum_cylinder" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="44Magnum_Cylinder_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="10"/>
+		<ingredient name="unit_clay" count="5"/>
+	</recipe>
+	<recipe name="44Magnum_Frame_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="parts44Magnum_frame" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="parts44Magnum_frame" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="44Magnum_Frame_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="20"/>
+		<ingredient name="unit_clay" count="10"/>
+	</recipe>
+	<recipe name="44Magnum_Grip_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="parts44Magnum_grip" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="parts44Magnum_grip" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="44Magnum_Grip_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="15"/>
+		<ingredient name="unit_clay" count="7"/>
+	</recipe>
+	<recipe name="44Magnum_Parts_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="parts44Magnum_parts" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="parts44Magnum_parts" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="44Magnum_Parts_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="10"/>
+		<ingredient name="unit_clay" count="5"/>
+	</recipe>
+	<recipe name="AK47_Barrel_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsAK47_barrel" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsAK47_barrel" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="AK47_Barrel_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="35"/>
+		<ingredient name="unit_clay" count="17"/>
+	</recipe>
+	<recipe name="AK47_Parts_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsAK47_parts" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsAK47_parts" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="AK47_Parts_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="15"/>
+		<ingredient name="unit_clay" count="7"/>
+	</recipe>
+	<recipe name="AK47_Reciever_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsAK47_receiver" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsAK47_receiver" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="AK47_Reciever_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="30"/>
+		<ingredient name="unit_clay" count="15"/>
+	</recipe>
+	<recipe name="AK47_Stock_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsAK47_stock" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsAK47_stock" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="AK47_Stock_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="30"/>
+		<ingredient name="unit_clay" count="15"/>
+	</recipe>
+	<recipe name="Hunting_Rifle_Barrel_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsHuntingRifle_barrel" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsHuntingRifle_barrel" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Hunting_Rifle_Barrel_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="35"/>
+		<ingredient name="unit_clay" count="17"/>
+	</recipe>
+	<recipe name="Hunting_Rifle_Parts_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsHuntingRifle_parts" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsHuntingRifle_parts" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Hunting_Rifle_Parts_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="15"/>
+		<ingredient name="unit_clay" count="7"/>
+	</recipe>
+	<recipe name="Hunting_Rifle_Reciever_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsHuntingRifle_receiver" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsHuntingRifle_receiver" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Hunting_Rifle_Reciever_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="30"/>
+		<ingredient name="unit_clay" count="15"/>
+	</recipe>
+	<recipe name="partsHuntingRifle_stock" count="1" craft_time = "30" craft_exp_gain="10" craft_area="Smithing_Table" craft_tool="wrench" >
+		<ingredient name="wood" count="20"/>
+		<ingredient name="ductTape" count="5"/>
+	</recipe>
+	<recipe name="Pistol_Barrel_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsPistol_barrel" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsPistol_barrel" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Pistol_Barrel_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="10"/>
+		<ingredient name="unit_clay" count="5"/>
+	</recipe>
+	<recipe name="Pistol_Grip_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsPistol_grip" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsPistol_grip" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Pistol_Grip_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="10"/>
+		<ingredient name="unit_clay" count="5"/>
+	</recipe>
+	<recipe name="Pistol_Parts_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsPistol_parts" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsPistol_parts" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Pistol_Parts_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="10"/>
+		<ingredient name="unit_clay" count="5"/>
+	</recipe>
+	<recipe name="Pistol_Reciever_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsPistol_receiver" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsPistol_receiver" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Pistol_Reciever_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="20"/>
+		<ingredient name="unit_clay" count="10"/>
+	</recipe>
+	<recipe name="Rocket_Launcher_Barrel_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsRocketLauncher_barrel" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsRocketLauncher_barrel" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Rocket_Launcher_Barrel_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="45"/>
+		<ingredient name="unit_clay" count="22"/>
+	</recipe>
+	<recipe name="Rocket_Launcher_Parts_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsRocketLauncher_parts" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsRocketLauncher_parts" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Rocket_Launcher_Parts_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="20"/>
+		<ingredient name="unit_clay" count="10"/>
+	</recipe>
+	<recipe name="Rocket_Launcher_Reciever_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsRocketLauncher_receiver" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsRocketLauncher_receiver" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Rocket_Launcher_Reciever_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="35"/>
+		<ingredient name="unit_clay" count="17"/>
+	</recipe>
+	<recipe name="Rocket_Launcher_Stock_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsRocketLauncher_stock" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsRocketLauncher_stock" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Rocket_Launcher_Stock_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="35"/>
+		<ingredient name="unit_clay" count="17"/>
+	</recipe>
+	<recipe name="Shotgun_Barrel_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsPumpShotgun_barrel" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsPumpShotgun_barrel" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Shotgun_Barrel_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="30"/>
+		<ingredient name="unit_clay" count="15"/>
+	</recipe>
+	<recipe name="Shotgun_Parts_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsPumpShotgun_parts" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsPumpShotgun_parts" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Shotgun_Parts_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="15"/>
+		<ingredient name="unit_clay" count="7"/>
+	</recipe>
+	<recipe name="Shotgun_Reciever_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsPumpShotgun_receiver" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsPumpShotgun_receiver" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Shotgun_Reciever_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="25"/>
+		<ingredient name="unit_clay" count="12"/>
+	</recipe>
+	<recipe name="Shotgun_Short_Barrel_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsPumpShotgun_barrelShort" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsPumpShotgun_barrelShort" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Shotgun_Short_Barrel_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="20"/>
+		<ingredient name="unit_clay" count="10"/>
+	</recipe>
+	<recipe name="partsPumpShotgun_stockShort" count="1" craft_time = "30" craft_exp_gain="10" craft_area="Smithing_Table" craft_tool="wrench" >
+		<ingredient name="wood" count="15"/>
+		<ingredient name="ductTape" count="5"/>
+	</recipe>
+	<recipe name="partsPumpShotgun_stock" count="1" craft_time = "30" craft_exp_gain="10" craft_area="Smithing_Table" craft_tool="wrench" >
+		<ingredient name="wood" count="20"/>
+		<ingredient name="ductTape" count="5"/>
+	</recipe>
+	<recipe name="SMG_Barrel_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsMP5_barrel" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsMP5_barrel" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="SMG_Barrel_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="25"/>
+		<ingredient name="unit_clay" count="12"/>
+	</recipe>
+	<recipe name="SMG_Parts_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsMP5_parts" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsMP5_parts" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="SMG_Parts_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="15"/>
+		<ingredient name="unit_clay" count="7"/>
+	</recipe>
+	<recipe name="SMG_Reciever_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsMP5_receiver" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsMP5_receiver" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="SMG_Reciever_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="25"/>
+		<ingredient name="unit_clay" count="12"/>
+	</recipe>
+	<recipe name="SMG_Stock_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsMP5_stock" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsMP5_stock" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="SMG_Stock_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="25"/>
+		<ingredient name="unit_clay" count="12"/>
+	</recipe>
+	<recipe name="Sniper_Barrrel_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsSniperRifle_barrel" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsSniperRifle_barrel" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Sniper_Barrrel_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="40"/>
+		<ingredient name="unit_clay" count="20"/>
+	</recipe>
+	<recipe name="Sniper_Parts_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsSniperRifle_parts" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsSniperRifle_parts" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Sniper_Parts_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="15"/>
+		<ingredient name="unit_clay" count="7"/>
+	</recipe>
+	<recipe name="Sniper_Reciever_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsSniperRifle_receiver" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsSniperRifle_receiver" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Sniper_Reciever_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="30"/>
+		<ingredient name="unit_clay" count="15"/>
+	</recipe>
+	<recipe name="Sniper_Stock_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsSniperRifle_stock" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsSniperRifle_stock" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Sniper_Stock_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="30"/>
+		<ingredient name="unit_clay" count="15"/>
+	</recipe>
+	<recipe name="Compound_Bow_Parts_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsCompoundBow_parts" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsCompoundBow_parts" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Compound_Bow_Parts_Mold" >
+		<ingredient name="scrapPlastics" count="10"/>
+		<ingredient name="glue" count="10"/>
+	</recipe>
+	<recipe name="Compound_Bow_Grip_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsCompoundBow_grip" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsCompoundBow_grip" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Compound_Bow_Grip_Mold" >
+		<ingredient name="scrapPlastics" count="10"/>
+		<ingredient name="glue" count="10"/>
+	</recipe>
+	<recipe name="Compound_Bow_Body_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsCompoundBow_body" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsCompoundBow_body" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Compound_Bow_Body_Mold" >
+		<ingredient name="scrapPlastics" count="20"/>
+		<ingredient name="glue" count="20"/>
+	</recipe>
+	<recipe name="Nailgun_Battery_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsNailgun_battery" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsNailgun_battery" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Nailgun_Battery_Mold" material_based="true" >
+		<ingredient name="unit_lead" count="15"/>
+		<ingredient name="unit_clay" count="7"/>
+	</recipe>
+	<recipe name="Nailgun_Parts_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsNailgun_parts" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsNailgun_parts" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Nailgun_Parts_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="10"/>
+		<ingredient name="unit_clay" count="5"/>
+	</recipe>
+	<recipe name="Nailgun_Receiver_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsNailgun_receiver" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsNailgun_receiver" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Nailgun_Receiver_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="30"/>
+		<ingredient name="unit_clay" count="15"/>
+	</recipe>
+	<recipe name="Nailgun_Frame_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsNailgun_frame" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsNailgun_frame" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Nailgun_Frame_Mold" >
+		<ingredient name="scrapPlastics" count="10"/>
+		<ingredient name="glue" count="10"/>
+	</recipe>
+	<recipe name="Chainsaw_Parts_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsChainsaw_parts" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsChainsaw_parts" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Chainsaw_Parts_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="20"/>
+		<ingredient name="unit_clay" count="10"/>
+	</recipe>
+	<recipe name="Chainsaw_Blade_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsChainsaw_blade" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsChainsaw_blade" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Chainsaw_Blade_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="50"/>
+		<ingredient name="unit_clay" count="25"/>
+	</recipe>
+	<recipe name="Auger_Parts_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsAuger_parts" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsAuger_parts" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Auger_Parts_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="20"/>
+		<ingredient name="unit_clay" count="10"/>
+	</recipe>
+	<recipe name="Auger_Blade_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="partsAuger_blade" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="partsAuger_blade" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Auger_Blade_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="50"/>
+		<ingredient name="unit_clay" count="25"/>
 	</recipe>
 	<!--Schematics-->
 	<recipe name="Ink" count="1" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >

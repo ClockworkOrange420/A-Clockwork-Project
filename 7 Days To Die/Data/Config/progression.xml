@@ -304,6 +304,10 @@
 		<requirement skill_level="2" required_skill_name="craftSkillWeapons" required_skill_level="30"/>
 		<requirement skill_level="2" required_skill_name="Archery" required_skill_level="30"/>
 		<recipe name="compoundBow" unlock_level="1"/>
+		<recipe name="partsCompoundBow_string" unlock_level="1"/>
+		<recipe name="partsCompoundBow_parts" unlock_level="1"/>
+		<recipe name="partsCompoundBow_grip" unlock_level="1"/>
+		<recipe name="partsCompoundBow_body" unlock_level="1"/>
 		<recipe name="crossbow" unlock_level="2"/>
 	</perk>
 	<perk name="Pistol Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble better pistols and craft ammunition." title_key="Pistol Crafting" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
@@ -313,11 +317,23 @@
 		<requirement skill_level="3" required_skill_name="craftSkillGuns" required_skill_level="50"/>
 		<requirement skill_level="3" required_skill_name="Pistols" required_skill_level="50"/>
 		<recipe name="gunPistol" unlock_level="1"/>
+		<recipe name="partsPistol_barrel" unlock_level="1"/>
+		<recipe name="partsPistol_grip" unlock_level="1"/>
+		<recipe name="partsPistol_parts" unlock_level="1"/>
+		<recipe name="partsPistol_receiver" unlock_level="1"/>
 		<recipe name="9mmBullet" unlock_level="1"/>
 		<recipe name="bulletTip" unlock_level="1"/>
 		<recipe name="bulletCasing" unlock_level="1"/>
 		<recipe name="gunMP5" unlock_level="2"/>
+		<recipe name="partsMP5_barrel" unlock_level="2"/>
+		<recipe name="partsMP5_parts" unlock_level="2"/>
+		<recipe name="partsMP5_receiver" unlock_level="2"/>
+		<recipe name="partsMP5_stock" unlock_level="2"/>
 		<recipe name="gun44Magnum" unlock_level="3"/>
+		<recipe name="parts44Magnum_frame" unlock_level="3"/>
+		<recipe name="parts44Magnum_parts" unlock_level="3"/>
+		<recipe name="parts44Magnum_cylinder" unlock_level="3"/>
+		<recipe name="parts44Magnum_grip" unlock_level="3"/>
 		<recipe name="44MagBullet" unlock_level="3"/>
 	</perk>
 	<perk name="Shotgun Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble Shotguns and craft shells and slugs." title_key="Shotgun Crafting" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
@@ -326,10 +342,16 @@
 		<requirement skill_level="2" required_skill_name="craftSkillGuns" required_skill_level="50"/>
 		<requirement skill_level="2" required_skill_name="Shotguns" required_skill_level="30"/>
 		<recipe name="gunSawedOffPumpShotgun" unlock_level="1"/>
+		<recipe name="partsPumpShotgun_barrelShort" unlock_level="1"/>
+		<recipe name="partsPumpShotgun_parts" unlock_level="1"/>
+		<recipe name="partsPumpShotgun_receiver" unlock_level="1"/>
+		<recipe name="partsPumpShotgun_stockShort" unlock_level="1"/>
 		<recipe name="buckshot" unlock_level="1"/>
 		<recipe name="shotgunShell" unlock_level="1"/>
 		<recipe name="shotgunSlug" unlock_level="1"/>
 		<recipe name="gunPumpShotgun" unlock_level="2"/>
+		<recipe name="partsPumpShotgun_barrel" unlock_level="2"/>
+		<recipe name="partsPumpShotgun_stock" unlock_level="2"/>
 	</perk>
 	<perk name="Rifle Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble all high powered rifles and craft 762mm ammunition." title_key="Rifle Crafting" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
 		<requirement skill_level="1" required_skill_name="craftSkillGuns" required_skill_level="30"/>
@@ -338,14 +360,30 @@
 		<requirement skill_level="3" required_skill_name="craftSkillGuns" required_skill_level="70"/>
 		<requirement skill_level="3" required_skill_name="Rifles" required_skill_level="30"/>
 		<recipe name="gunHuntingRifle" unlock_level="1"/>
+		<recipe name="partsHuntingRifle_barrel" unlock_level="1"/>
+		<recipe name="partsHuntingRifle_parts" unlock_level="1"/>
+		<recipe name="partsHuntingRifle_receiver" unlock_level="1"/>
+		<recipe name="partsHuntingRifle_stock" unlock_level="1"/>
 		<recipe name="762mmBullet" unlock_level="1"/>
 		<recipe name="gunAK47" unlock_level="2"/>
+		<recipe name="partsAK47_barrel" unlock_level="2"/>
+		<recipe name="partsAK47_parts" unlock_level="2"/>
+		<recipe name="partsAK47_receiver" unlock_level="2"/>
+		<recipe name="partsAK47_stock" unlock_level="2"/>
 		<recipe name="gunSniperRifle" unlock_level="3"/>
+		<recipe name="partsSniperRifle_barrel" unlock_level="3"/>
+		<recipe name="partsSniperRifle_parts" unlock_level="3"/>
+		<recipe name="partsSniperRifle_receiver" unlock_level="3"/>
+		<recipe name="partsSniperRifle_stock" unlock_level="3"/>
 	</perk>
 	<perk name="RPG Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble a Rocket Launcher and craft Rockets." title_key="RPG Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
 		<requirement skill_level="1" required_skill_name="craftSkillGuns" required_skill_level="70"/>
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="50"/>
 		<recipe name="gunRocketLauncher" unlock_level="1"/>
+		<recipe name="partsRocketLauncher_barrel" unlock_level="1"/>
+		<recipe name="partsRocketLauncher_parts" unlock_level="1"/>
+		<recipe name="partsRocketLauncher_receiver" unlock_level="1"/>
+		<recipe name="partsRocketLauncher_stock" unlock_level="1"/>
 		<recipe name="rocket" unlock_level="1"/>
 		<recipe name="rocketCasing" unlock_level="1"/>
 		<recipe name="rocketTip" unlock_level="1"/>
@@ -362,7 +400,12 @@
 		<requirement skill_level="3" required_skill_name="Construction Tools" required_skill_level="50"/>
 		<recipe name="clawHammer" unlock_level="1"/>
 		<recipe name="wrench" unlock_level="1"/>
+		<recipe name="paintTool" unlock_level="1"/>
 		<recipe name="nailgun" unlock_level="2"/>
+		<recipe name="partsNailgun_battery" unlock_level="2"/>
+		<recipe name="partsNailgun_parts" unlock_level="2"/>
+		<recipe name="partsNailgun_receiver" unlock_level="2"/>
+		<recipe name="partsNailgun_frame" unlock_level="2"/>
 		<recipe name="calipers" unlock_level="3"/>
 		<recipe name="toolAndDieSet" unlock_level="3"/>
 	</perk>
@@ -504,6 +547,7 @@
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="40"/>
 		<recipe name="scrapIronPlate" unlock_level="1"/>
+		<recipe name="ironArrow" unlock_level="1"/>
 	</perk>
 	<perk name="Steel Smithing" icon="resource" description_key="Unlocks Steel smithing." title_key="Steel Smithing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="crafting">
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="30"/>

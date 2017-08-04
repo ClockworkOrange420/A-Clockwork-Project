@@ -2852,7 +2852,8 @@
 		<property name="Extends" value="ironArrow" param1="HandMeshfile"/>
 		<property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-		<property name="Stacknumber" value="500"/> <!-- STK ammo -->
+		<property name="Stacknumber" value="500"/>
+		<!-- STK ammo -->
 		<property name="EconomicValue" value="34"/>
 		<property name="EconomicBundleSize" value="10"/>
 		<property class="Action1">
@@ -2882,7 +2883,6 @@
 		<property name="PickupJournalEntry" value="gunAssemblyTip"/>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-		<!-- NOPE <property name="RepairExpMultiplier" value="10"/><property name="CraftingIngredientExp" value="80"/>-->
 	</item>
 	<item id="210" name="partsPistol_grip">
 		<property name="Extends" value="partsMaster"/>
@@ -3074,7 +3074,6 @@
 	</item>
 	<item id="232" name="partsMP5_parts">
 		<property name="Extends" value="partsMaster"/>
-		<property name="CustomIcon" value="parts44Magnum_parts"/>
 		<!-- xxx -->
 		<property name="DescriptionKey" value="partsMP5GroupDesc"/>
 		<property name="PartType" value="Pump"/>
@@ -3138,7 +3137,6 @@
 	</item>
 	<item id="239" name="partsAK47_barrel">
 		<property name="Extends" value="partsMaster"/>
-		<property name="CustomIcon" value="partsPistol_barrel"/>
 		<!-- xxx -->
 		<property name="DescriptionKey" value="partsAK47GroupDesc"/>
 		<property name="PartType" value="Barrel"/>
@@ -3177,7 +3175,6 @@
 	</item>
 	<item id="244" name="partsHuntingRifle_parts">
 		<property name="Extends" value="partsMaster"/>
-		<property name="CustomIcon" value="partsPistol_parts"/>
 		<!-- xxx -->
 		<property name="DescriptionKey" value="partsHuntingRifleGroupDesc"/>
 		<property name="PartType" value="Pump"/>
@@ -3228,7 +3225,6 @@
 	</item>
 	<item id="250" name="partsSniperRifle_parts">
 		<property name="Extends" value="partsMaster"/>
-		<property name="CustomIcon" value="partsPistol_parts"/>
 		<!-- xxx -->
 		<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
 		<property name="PartType" value="Pump"/>
@@ -3316,7 +3312,6 @@
 	</item>
 	<item id="261" name="partsChainsaw_parts">
 		<property name="Extends" value="partsMaster"/>
-		<property name="CustomIcon" value="partsAuger_parts"/>
 		<!-- xxx -->
 		<property name="PartType" value="Stock"/>
 		<property name="Weight" value="20"/>
@@ -3480,7 +3475,7 @@
 		<property name="DescriptionKey" value="partsNailgunGroupDesc"/>
 		<property name="PartType" value="Stock"/>
 		<property name="Material" value="Mplastics"/>
-		<property name="Weight" value="8"/>
+		<property name="Weight" value="10"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
 			<property name="DegradationRate" value="10,1"/>
@@ -3493,7 +3488,7 @@
 		<property name="DescriptionKey" value="partsNailgunGroupDesc"/>
 		<property name="PartType" value="Receiver"/>
 		<property name="Material" value="metal"/>
-		<property name="Weight" value="27"/>
+		<property name="Weight" value="30"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
 			<property name="DegradationRate" value="10,1"/>
@@ -3544,7 +3539,7 @@
 		<property name="DescriptionKey" value="partsCompoundBowGroupDesc"/>
 		<property name="PartType" value="Receiver"/>
 		<property name="Material" value="Mplastics"/>
-		<property name="Weight" value="5"/>
+		<property name="Weight" value="10"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
 			<property name="DegradationRate" value="10,2"/>
@@ -3556,7 +3551,7 @@
 		<property name="DescriptionKey" value="partsCompoundBowGroupDesc"/>
 		<property name="PartType" value="Pump"/>
 		<property name="Material" value="Mplastics"/>
-		<property name="Weight" value="7"/>
+		<property name="Weight" value="10"/>
 		<property class="Attributes">
 			<property name="EntityDamage" value="2,10"/>
 			<property name="BlockDamage" value="1,3"/>
@@ -3569,7 +3564,7 @@
 		<property name="Extends" value="partsMaster"/>
 		<property name="DescriptionKey" value="partsCompoundBowGroupDesc"/>
 		<property name="PartType" value="Barrel"/>
-		<property name="Material" value="Mplastics"/>
+		<property name="Material" value="MmilitaryFiber"/>
 		<property name="Weight" value="5"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
@@ -9626,7 +9621,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-		
+		<property name="DescriptionKey" value="partsMoldDesc"/>
 	</item>
 	<item id="1532" name="Pipe_Mold">
 		<property name="Extends" value="Blank_Mold"/>
@@ -9648,8 +9643,133 @@
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 		<property name="DescriptionKey" value="glassPaneMoldDesc"/>
 	</item>
-	<!--<item id="1536" name="44Magnum_Cylinder_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1537" name="44Magnum_Frame_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1538" name="44Magnum_Grip_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1539" name="44Magnum_Parts_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1540" name="AK47_Barrel_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1541" name="AK47_Parts_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1542" name="AK47_Reciever_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1543" name="AK47_Stock_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1544" name="Hunting_Rifle_Barrel_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1545" name="Hunting_Rifle_Parts_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1546" name="Hunting_Rifle_Reciever_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1547" name="Pistol_Barrel_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1548" name="Pistol_Grip_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1549" name="Pistol_Parts_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1550" name="Pistol_Reciever_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1551" name="Rocket_Launcher_Barrel_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1552" name="Rocket_Launcher_Parts_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1553" name="Rocket_Launcher_Reciever_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1554" name="Rocket_Launcher_Stock_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1555" name="Shotgun_Barrel_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1556" name="Shotgun_Parts_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1557" name="Shotgun_Reciever_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1558" name="Shotgun_Short_Barrel_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1559" name="SMG_Barrel_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1560" name="SMG_Parts_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1561" name="SMG_Reciever_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1562" name="SMG_Stock_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1563" name="Sniper_Barrrel_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1564" name="Sniper_Parts_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1565" name="Sniper_Reciever_Mold"><property name="Extends" value="Blank_Mold"/></item><item id="1566" name="Sniper_Stock_Mold"><property name="Extends" value="Blank_Mold"/></item>-->
-	<item id="1567" name="Bear">
+	<item id="1536" name="44Magnum_Cylinder_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1537" name="44Magnum_Frame_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1538" name="44Magnum_Grip_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1539" name="44Magnum_Parts_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1540" name="AK47_Barrel_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1541" name="AK47_Parts_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1542" name="AK47_Reciever_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1543" name="AK47_Stock_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1544" name="Hunting_Rifle_Barrel_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1545" name="Hunting_Rifle_Parts_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1546" name="Hunting_Rifle_Reciever_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1547" name="Pistol_Barrel_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1548" name="Pistol_Grip_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1549" name="Pistol_Parts_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1550" name="Pistol_Reciever_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1551" name="Rocket_Launcher_Barrel_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1552" name="Rocket_Launcher_Parts_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1553" name="Rocket_Launcher_Reciever_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1554" name="Rocket_Launcher_Stock_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1555" name="Shotgun_Barrel_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1556" name="Shotgun_Parts_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1557" name="Shotgun_Reciever_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1558" name="Shotgun_Short_Barrel_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1559" name="SMG_Barrel_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1560" name="SMG_Parts_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1561" name="SMG_Reciever_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1562" name="SMG_Stock_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1563" name="Sniper_Barrrel_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1564" name="Sniper_Parts_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1565" name="Sniper_Reciever_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1566" name="Sniper_Stock_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1567" name="Compound_Bow_Parts_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1568" name="Compound_Bow_Grip_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1569" name="Compound_Bow_Body_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1570" name="Nailgun_Battery_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1571" name="Nailgun_Parts_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1572" name="Nailgun_Receiver_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1573" name="Nailgun_Frame_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1574" name="Chainsaw_Parts_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1575" name="Chainsaw_Blade_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1576" name="Auger_Parts_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1577" name="Auger_Blade_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<item id="1578" name="Bear">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9675,7 +9795,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1568" name="Pork">
+	<item id="1579" name="Pork">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9701,7 +9821,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1569" name="Rabbit">
+	<item id="1580" name="Rabbit">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9727,7 +9847,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1570" name="Chicken">
+	<item id="1581" name="Chicken">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9753,7 +9873,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1571" name="Grilled_Bear">
+	<item id="1582" name="Grilled_Bear">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9774,7 +9894,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1572" name="Grilled_Pork">
+	<item id="1583" name="Grilled_Pork">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9795,7 +9915,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1573" name="Grilled_Rabbit">
+	<item id="1584" name="Grilled_Rabbit">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9816,7 +9936,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1574" name="Grilled_Chicken">
+	<item id="1585" name="Grilled_Chicken">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9837,7 +9957,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1575" name="Boiled_Bear">
+	<item id="1586" name="Boiled_Bear">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9858,7 +9978,7 @@
 		<property name="Smell" value="smallSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1576" name="Boiled_Pork">
+	<item id="1587" name="Boiled_Pork">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9879,7 +9999,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1577" name="Boiled_Rabbit">
+	<item id="1588" name="Boiled_Rabbit">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9900,7 +10020,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1578" name="Boiled_Chicken">
+	<item id="1589" name="Boiled_Chicken">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9921,7 +10041,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1579" name="Charred_Bear">
+	<item id="1590" name="Charred_Bear">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9943,7 +10063,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1580" name="Charred_Pork">
+	<item id="1591" name="Charred_Pork">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9965,7 +10085,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1581" name="Charred_Rabbit">
+	<item id="1592" name="Charred_Rabbit">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9987,7 +10107,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1582" name="Charred_Chicken">
+	<item id="1593" name="Charred_Chicken">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -10009,7 +10129,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1583" name="Bear_Stew">
+	<item id="1594" name="Bear_Stew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10031,19 +10151,19 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1584" name="Creamed_Corn">
+	<item id="1595" name="Creamed_Corn">
 		<property name="Extends" value="Tomato_Soup"/>
 		<property name="DescriptionKey" value="creamedCornDesc"/>
 	</item>
-	<item id="1585" name="Chicken_Noodle_Soup">
+	<item id="1596" name="Chicken_Noodle_Soup">
 		<property name="Extends" value="Tomato_Soup"/>
 		<property name="DescriptionKey" value="chickenNoodleSoupDesc"/>
 	</item>
-	<item id="1586" name="Mushroom_Soup">
+	<item id="1597" name="Mushroom_Soup">
 		<property name="Extends" value="Tomato_Soup"/>
 		<property name="DescriptionKey" value="mushroomSoupDesc"/>
 	</item>
-	<item id="1587" name="Venison_Stew">
+	<item id="1598" name="Venison_Stew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10065,7 +10185,7 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1588" name="Blueberry_Jam">
+	<item id="1599" name="Blueberry_Jam">
 		<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10087,7 +10207,7 @@
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1589" name="Cornbread_and_Jam">
+	<item id="1600" name="Cornbread_and_Jam">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="organic"/>
@@ -10108,7 +10228,7 @@
 		<property name="DescriptionKey" value="cornBreadAndJamDesc"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1591" name="Honey_Poultice">
+	<item id="1601" name="Honey_Poultice">
 		<property name="Meshfile" value="Items/Food/honeyPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
@@ -10132,7 +10252,7 @@
 		<property name="Group" value="Medicine"/>
 		<property name="ActionExp" value="50"/>
 	</item>
-	<item id="1592" name="Barbed_Wire">
+	<item id="1602" name="Barbed_Wire">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="metal"/>
@@ -10144,7 +10264,7 @@
 		<property name="Group" value="Resources"/>
 		<property name="DescriptionKey" value="BarbedWireDesc"/>
 	</item>
-	<item id="1593" name="MasterSkill">
+	<item id="1603" name="MasterSkill">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="paper"/>
@@ -10153,74 +10273,74 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="Group" value="Resources"/>
 	</item>
-	<item id="1594" name="Science_Skill">
+	<item id="1604" name="Science_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillScience"/>
 	</item>
-	<item id="1595" name="Armor_Smithing_Skill">
+	<item id="1605" name="Armor_Smithing_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillArmor"/>
 	</item>
-	<item id="1596" name="Athletics_Skill">
+	<item id="1606" name="Athletics_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Athletics"/>
 	</item>
-	<item id="1597" name="Blunt_Weapons_Skill">
+	<item id="1607" name="Blunt_Weapons_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Blunt Weapons"/>
 	</item>
-	<item id="1598" name="Blade_Weapons_Skill">
+	<item id="1608" name="Blade_Weapons_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Blade Weapons"/>
 	</item>
-	<item id="1599" name="Mining_Tools_Skill">
+	<item id="1609" name="Mining_Tools_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 	</item>
-	<item id="1600" name="Construction_Tools_Skill">
+	<item id="1610" name="Construction_Tools_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Construction Tools"/>
 	</item>
-	<item id="1601" name="Pistols_Skill">
+	<item id="1611" name="Pistols_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Pistols"/>
 	</item>
-	<item id="1602" name="Shotguns_Skill">
+	<item id="1612" name="Shotguns_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Shotguns"/>
 	</item>
-	<item id="1603" name="Rifles_Skill">
+	<item id="1613" name="Rifles_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Rifles"/>
 	</item>
-	<item id="1604" name="Archery_Skill">
+	<item id="1614" name="Archery_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Archery"/>
 	</item>
-	<item id="1605" name="Medicine_Skill">
+	<item id="1615" name="Medicine_Skill">
 		<property name="Extends" value="MasterSkill"/>
 	</item>
-	<item id="1606" name="Weapon_Smithing_Skill">
+	<item id="1616" name="Weapon_Smithing_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillWeapons"/>
 	</item>
-	<item id="1607" name="Tool_Smithing_Skill">
+	<item id="1617" name="Tool_Smithing_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillTools"/>
 	</item>
-	<item id="1608" name="Gun_Smithing_Skill">
+	<item id="1618" name="Gun_Smithing_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillGuns"/>
 	</item>
-	<item id="1609" name="Tailoring_Skill">
+	<item id="1619" name="Tailoring_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Tailoring"/>
 	</item>
-	<item id="1610" name="Leatherworking_Skill">
+	<item id="1620" name="Leatherworking_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Leatherworking"/>
 	</item>
-	<item id="1611" name="Chicken_Stew">
+	<item id="1621" name="Chicken_Stew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10242,7 +10362,7 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1612" name="Rabbit_Stew">
+	<item id="1622" name="Rabbit_Stew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10264,7 +10384,7 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1613" name="Scythe">
+	<item id="1623" name="Scythe">
 		<property name="Meshfile" value="Items/Weapons/Melee/Knives/machetePrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="RepairTools" value="forgedIron"/>
@@ -10327,7 +10447,7 @@
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	</item>
 	<!--Free-->
-	<item id="1615" name="Bricks">
+	<item id="1624" name="Bricks">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="Mbrick"/>
@@ -10338,7 +10458,7 @@
 		<property name="DescriptionKey" value="BricksDesc"/>
 		<property name="Group" value="Resources"/>
 	</item>
-	<item id="1616" name="Dry Towel">
+	<item id="1625" name="Dry Towel">
 		<property name="Meshfile" value="Items/Crafting/cloth"/>
 		<property name="DescriptionKey" value="DryTowelDesc"/>
 		<property name="Material" value="cloth"/>
@@ -10362,7 +10482,7 @@
 		<property name="Group" value="Resources,Clothing"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 	</item>
-	<item id="1617" name="Wet Towel">
+	<item id="1626" name="Wet Towel">
 		<property name="Meshfile" value="Items/Crafting/cloth"/>
 		<property name="DescriptionKey" value="WetTowelDesc"/>
 		<property name="Material" value="cloth"/>
@@ -10381,7 +10501,7 @@
 		</property>
 		<property name="Group" value="Resources,Clothing"/>
 	</item>
-	<item id="1618" name="Wet Cloth">
+	<item id="1627" name="Wet Cloth">
 		<property name="Meshfile" value="Items/Crafting/cloth"/>
 		<property name="DescriptionKey" value="WetClothDesc"/>
 		<property name="Material" value="cloth"/>
@@ -10400,7 +10520,7 @@
 		</property>
 		<property name="Group" value="Resources,Clothing"/>
 	</item>
-	<item id="1619" name="Remote">
+	<item id="1628" name="Remote">
 		<property name="Meshfile" value="Items/Crafting/ingotIron"/>
 		<property name="Material" value="Mplastics"/>
 		<property name="HoldType" value="21"/>
@@ -10431,7 +10551,7 @@
 		<property name="Group" value="Tools/Traps"/>
 		<property name="DescriptionKey" value="RemoteDesc"/>
 	</item>
-	<item id="1620" name="wolfMeatRaw">
+	<item id="1629" name="wolfMeatRaw">
 		<property name="Meshfile" value="Items/Misc/raw_meatPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
@@ -10456,7 +10576,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1621" name="wolfMeatCharred">
+	<item id="1630" name="wolfMeatCharred">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
@@ -10478,7 +10598,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1622" name="wolfMeatGrilled">
+	<item id="1631" name="wolfMeatGrilled">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
@@ -10499,7 +10619,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1623" name="wolfMeatBoiled">
+	<item id="1632" name="wolfMeatBoiled">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
@@ -10521,7 +10641,7 @@
 		<property name="Smell" value="smallSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1624" name="wolfMeatStew">
+	<item id="1633" name="wolfMeatStew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
