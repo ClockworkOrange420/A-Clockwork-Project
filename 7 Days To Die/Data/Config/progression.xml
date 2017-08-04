@@ -308,7 +308,6 @@
 	</perk>
 	<perk name="Pistol Crafting" icon="gunsmithing" description_key="Unlocks the ability to assemble better pistols and craft ammunition." title_key="Pistol Crafting" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
 		<requirement skill_level="1" required_skill_name="craftSkillGuns" required_skill_level="10"/>
-		<requirement skill_level="1" required_skill_name="Pistols" required_skill_level="10"/>
 		<requirement skill_level="2" required_skill_name="craftSkillGuns" required_skill_level="30"/>
 		<requirement skill_level="2" required_skill_name="Pistols" required_skill_level="30"/>
 		<requirement skill_level="3" required_skill_name="craftSkillGuns" required_skill_level="50"/>
