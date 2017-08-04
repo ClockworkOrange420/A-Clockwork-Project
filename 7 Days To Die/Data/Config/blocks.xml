@@ -6669,6 +6669,7 @@
 	</block>
 	<block id="667" name="glassCTRSheet">
 		<property name="Material" value="glass"/>
+		<property name="Weight" value="20"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
