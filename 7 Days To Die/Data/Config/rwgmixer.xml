@@ -484,7 +484,7 @@
 			<module name="scaleLandBase2" type="ScaleBiasOutput">
 				<property name="sourceModule" value="landT2"/>
 				<property name="scale" value="0.15"/>
-				<property name="bias" value="0.145"/>
+				<property name="bias" value="0.143"/>
 			</module>
 			<module name="land2" type="ClampOutput">
 				<property name="sourceModule" value="scaleLandBase2"/>
