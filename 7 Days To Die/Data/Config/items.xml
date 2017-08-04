@@ -622,12 +622,10 @@
 			<property name="Sound_reload" value="shotgun_reload"/>
 			<property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
-			<property name="DamageBonus.head" value="3"/>
+			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="2"/>
 			<property name="DamageBonus.earth" value="0.2"/>
-			<property name="Buff" value="shotgunWound"/>
-			<property name="Buff_chance" value="1.0"/>
 			<property name="ActionExp" value="1"/>
 			<property name="ActionExpBonusMultiplier" value="2"/>
 		</property>
@@ -690,12 +688,10 @@
 			<property name="Sound_reload" value="shotgun_reload"/>
 			<property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
-			<property name="DamageBonus.head" value="3"/>
+			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="2"/>
 			<property name="DamageBonus.earth" value="0.2"/>
-			<property name="Buff" value="shotgunWound"/>
-			<property name="Buff_chance" value="1.0"/>
 			<property name="ActionExp" value="1"/>
 			<property name="ActionExpBonusMultiplier" value="2"/>
 		</property>
@@ -1080,8 +1076,6 @@
 			<property name="DamageBonus.wood" value="2.5"/>
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.earth" value="0.2"/>
-			<property name="Buff" value="shotgunWound"/>
-			<property name="Buff_chance" value="1.0"/>
 			<property name="ActionExp" value="1"/>
 			<property name="ActionExpBonusMultiplier" value="2"/>
 		</property>
@@ -1093,7 +1087,7 @@
 		</property>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="6,10"/>
+			<property name="EntityDamage" value="3,5"/>
 			<property name="BlockDamage" value="1.6,5"/>
 			<property name="FalloffRange" value="15,25"/>
 			<property name="DegradationMax" value="1000,1000"/>
@@ -2388,8 +2382,8 @@
 		<property name="EconomicValue" value="17"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="6,10"/>
-			<property name="BlockDamage" value="5,13"/>
+			<property name="EntityDamage" value="3,9"/>
+			<property name="BlockDamage" value="4,9"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 		<property name="Group" value="Ammo/Weapons"/>
@@ -2403,8 +2397,8 @@
 		<property name="EconomicValue" value="56"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="80,90"/>
-			<property name="BlockDamage" value="100,150"/>
+			<property name="EntityDamage" value="30,90"/>
+			<property name="BlockDamage" value="40,60"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 		<property name="Group" value="Ammo/Weapons"/>
