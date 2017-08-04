@@ -762,8 +762,6 @@
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
-			<property name="Buff" value="critGunMP5"/>
-			<property name="Buff_chance" value="0.1"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
 		</property>
@@ -832,8 +830,6 @@
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
-			<property name="Buff" value="critGunAK47"/>
-			<property name="Buff_chance" value="0.1"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="10"/>
 		</property>
