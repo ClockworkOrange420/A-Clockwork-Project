@@ -2729,7 +2729,7 @@
 		<property name="CanPickup" value="true"/>
 		<property name="IsDecoration" value="true"/>
 		<property name="ImposterExclude" value="true"/>
-		<drop event="Destroy" name="brokenGlass" count="1,2" tool_category="Harvest"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 		<property name="DescriptionKey" value="decorativeBlockGroupDesc"/>
 	</block>
 	<block id="278" name="cntLootCrateBookstore">
@@ -2749,7 +2749,7 @@
 		<property name="Mesh" value="transparent"/>
 		<property name="Texture" value="285"/>
 		<property name="DescriptionKey" value="glassGroupDesc"/>
-		<drop event="Destroy" name="brokenGlass" count="1,4" tool_category="Harvest"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="281" name="pouredConcreteCNRRoundTop">
 		<property name="CreativeMode" value="Player"/>
@@ -2792,7 +2792,7 @@
 		<property name="Model" value="Plate"/>
 		<property name="Texture" value="358,335,335,335,335,335"/>
 		<property name="LootList" value="7"/>
-		<drop event="Destroy" name="brokenGlass" count="1,2" tool_category="Harvest"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="287" name="securityGateCTRPlate">
 		<property name="Material" value="Mmetal_medium"/>
@@ -5961,7 +5961,7 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<drop event="Destroy" name="brokenGlass" count="1,4" tool_category="Harvest"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="Group" value="Tools/Traps,Science"/>
 	</block>
@@ -6682,7 +6682,7 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="brokenGlass" count="1"/>
 		<property name="EconomicValue" value="6"/>
 	</block>
 	<block id="668" name="treeCactus01">
@@ -10656,7 +10656,7 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<drop event="Destroy" name="brokenGlass" count="1,4" tool_category="Harvest"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 		<property name="EconomicValue" value="10"/>
 	</block>
 	<block id="1159" name="glassBusinessCTRSheet">
@@ -10672,7 +10672,7 @@
 		<property name="Mesh" value="transparent"/>
 		<property name="Texture" value="285"/>
 		<property name="DescriptionKey" value="glassGroupDesc"/>
-		<drop event="Destroy" name="brokenGlass" count="1,4" tool_category="Harvest"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 		<property name="EconomicValue" value="10"/>
 	</block>
 	<block id="1161" name="glassBusinessPlate">
@@ -16216,7 +16216,7 @@
 		<property name="Mesh" value="transparent"/>
 		<property name="Texture" value="285"/>
 		<property name="DescriptionKey" value="glassGroupDesc"/>
-		<drop event="Destroy" name="brokenGlass" count="1,4" tool_category="Harvest"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 	</block>
 	<!--Modded-->
 	<block id="75" name="plantedTomato1">
