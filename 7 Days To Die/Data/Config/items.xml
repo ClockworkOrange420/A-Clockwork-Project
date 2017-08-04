@@ -783,7 +783,7 @@
 		<property name="AttachmentFlashlight" value="flashlight02"/>
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons"/>
-		<property name="ActionSkillGroup" value="Rifles"/>
+		<property name="ActionSkillGroup" value="Pistols"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 		<property name="RepairExpMultiplier" value="10.8"/>
 		<property name="LightValue" value="0.45"/>
