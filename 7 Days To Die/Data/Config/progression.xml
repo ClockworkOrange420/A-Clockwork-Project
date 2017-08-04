@@ -401,6 +401,7 @@
 		<recipe name="clawHammer" unlock_level="1"/>
 		<recipe name="wrench" unlock_level="1"/>
 		<recipe name="paintTool" unlock_level="1"/>
+		<recipe name="wireTool" unlock_level="1"/>
 		<recipe name="nailgun" unlock_level="2"/>
 		<recipe name="partsNailgun_battery" unlock_level="2"/>
 		<recipe name="partsNailgun_parts" unlock_level="2"/>
@@ -430,12 +431,27 @@
 		<recipe name="partsAuger_parts" unlock_level="3"/>
 		<recipe name="partsAuger_blade" unlock_level="3"/>
 	</perk>
-	<perk name="Engine Crafting" icon="tool_smithing" description_key="Unlocks the ability to make a Small Engine." title_key="Engine Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
-		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="100"/>
-		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="100"/>
-		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="80"/>
-		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="80"/>
-		<recipe name="smallEngine" unlock_level="1"/>
+	<perk name="Engine Crafting" icon="tool_smithing" description_key="Unlocks the ability to make a Small Engine." title_key="Engine Crafting" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="10"/>
+		<requirement skill_level="2" required_skill_name="craftSkillMiscellaneous" required_skill_level="30"/>
+		<requirement skill_level="2" required_skill_name="craftSkillTools" required_skill_level="30"/>
+		<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="30"/>
+		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="30"/>
+		<requirement skill_level="3" required_skill_name="craftSkillMiscellaneous" required_skill_level="50"/>
+		<requirement skill_level="3" required_skill_name="craftSkillTools" required_skill_level="50"/>
+		<requirement skill_level="3" required_skill_name="Construction Tools" required_skill_level="50"/>
+		<requirement skill_level="3" required_skill_name="craftSkillScience" required_skill_level="50"/>
+		<requirement skill_level="4" required_skill_name="craftSkillMiscellaneous" required_skill_level="100"/>
+		<requirement skill_level="4" required_skill_name="craftSkillTools" required_skill_level="100"/>
+		<requirement skill_level="4" required_skill_name="Construction Tools" required_skill_level="80"/>
+		<requirement skill_level="4" required_skill_name="craftSkillScience" required_skill_level="80"/>
+		<recipe name="airFilter" unlock_level="1"/>
+		<recipe name="radiator" unlock_level="2"/>
+		<recipe name="carBattery" unlock_level="3"/>
+		<recipe name="smallEngine" unlock_level="4"/>
 	</perk>
 	
 	<!--Minibike Unlock-->
@@ -566,10 +582,10 @@
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="5"/>
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="5"/>
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="5"/>
-		<recipe name="wireTool" unlock_level="1"/>
 		<recipe name="electricwirerelay" unlock_level="1"/>
 		<recipe name="ceilingLight01_player" unlock_level="1"/>
 		<recipe name="porchLight01_player" unlock_level="1"/>
+		<recipe name="headlight" unlock_level="1"/>
 		<recipe name="wallLight01_player" unlock_level="1"/>
 		<recipe name="ceilingLight02_player" unlock_level="1"/>
 		<recipe name="industrialLight01_player" unlock_level="1"/>

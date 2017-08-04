@@ -2639,14 +2639,18 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="cloth" count="1"/>
 		<ingredient name="grainAlcohol" count="1"/>
 	</recipe>
-	<recipe name="candyTin" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" >
-		<ingredient name="scrapIron" count="5"/>
+	<recipe name="candyTin" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="scrapIron" count="1"/>
 	</recipe>
-	<recipe name="hubcap" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" >
-		<ingredient name="scrapIron" count="10"/>
+	<recipe name="hubcap" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="scrapIron" count="2"/>
 	</recipe>
-	<recipe name="airFilter" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" >
-		<ingredient name="scrapIron" count="15"/>
+	<recipe name="airFilter" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="scrapIron" count="3"/>
+		<ingredient name="cloth" count="1"/>
+	</recipe>
+	<recipe name="radiator" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="scrapBrass" count="20"/>
 	</recipe>
 	<recipe name="minibikeChassis" count="1" craft_time = "20" craft_exp_gain="67" craft_area="forge" craft_tool="anvil" material_based="true" >
 		<ingredient name="unit_iron" count="200"/>
@@ -3530,6 +3534,11 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="5"/>
 		<ingredient name="electronicParts" count="3"/>
+		<ingredient name="scrapPlastics" count="3"/>
+	</recipe>
+	<recipe name="headlight" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="glassCTRSheet" count="2"/>
+		<ingredient name="electricParts" count="6"/>
 		<ingredient name="scrapPlastics" count="3"/>
 	</recipe>
 	<recipe name="spotlightPlayer" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
