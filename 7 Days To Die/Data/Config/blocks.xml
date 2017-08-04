@@ -3085,7 +3085,7 @@
 		<property name="Class" value="Light"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="DescriptionKey" value="lightPOIGroupDesc"/>
-		<property name="Material" value="Mmetal_thin"/>
+		<property name="Material" value="Mmetal_frame"/>
 		<property name="StabilitySupport" value="false"/>
 		<!-- build restriction -->
 		<property name="Shape" value="ModelEntity"/>
@@ -3121,7 +3121,6 @@
 	<block id="319" name="ceilingLight01">
 		<property name="Extends" value="porchLight01"/>
 		<property name="CreativeMode" value="Dev"/>
-		<property name="Material" value="glass"/>
 		<property name="StabilitySupport" value="false"/>
 		<!-- build restriction -->
 		<property name="Model" value="Entities/Lighting/ceilingLight01Prefab"/>
@@ -6560,7 +6559,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="window02Frame"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 		<property name="EconomicValue" value="20"/>
 	</block>
 	<block id="657" name="cntVendingMachine">
@@ -11051,6 +11050,7 @@
 		<property name="LightOpacity" value="0"/>
 		<property name="Mesh" value="cutout"/>
 		<property name="Texture" value="410,410,409,410,409,410"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="1197" name="window02Broken02CTRPlate">
 		<property name="Extends" value="sidingWhiteBurntCTRPlate"/>
@@ -11058,6 +11058,7 @@
 		<property name="LightOpacity" value="0"/>
 		<property name="Mesh" value="cutout"/>
 		<property name="Texture" value="410,410,411,410,411,410"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="1198" name="woodCNRRampFiller">
 		<property name="Extends" value="woodMaster"/>
@@ -11077,6 +11078,7 @@
 		<property name="Mesh" value="cutout"/>
 		<property name="Texture" value="410,410,412,410,412,410"/>
 		<property name="Collide" value="movement,melee,rocket"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 		<!-- -rocket -->
 	</block>
 	<block id="1200" name="window03Broke1">
@@ -11095,7 +11097,7 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="1201" name="window03Broke2">
 		<property name="Material" value="glass"/>
@@ -11114,7 +11116,7 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="1202" name="window03Broke3">
 		<property name="Extends" value="window03Broke2"/>
@@ -11149,7 +11151,7 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 		<property name="EconomicValue" value="6"/>
 	</block>
 	<block id="1207" name="glassIndustrial02Broken01CTRPlate">
@@ -11199,7 +11201,7 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="1212" name="window04">
 		<property name="Material" value="glass"/>
@@ -11211,7 +11213,6 @@
 		<property name="Place" value="TowardsPlacer"/>
 		<property name="Collide" value="movement,melee,rocket"/>
 		<!-- -rocket -->
-		<drop event="Destroy" count="0"/>
 		<property name="DowngradeBlock" value="window04Frame"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plainWoodWindowPlug"/>
@@ -11220,6 +11221,7 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="1213" name="doorFrameWhite1">
 		<property name="Material" value="wood_weak"/>
@@ -12932,7 +12934,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="window03WoodFrame"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="1410" name="window03WoodBroke2">
 		<property name="Material" value="glass"/>
@@ -12954,7 +12956,7 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="1411" name="window03WoodBroke3">
 		<property name="Extends" value="window03WoodBroke2"/>
@@ -12982,7 +12984,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="window03WoodBroke1"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 		<property name="Group" value="Building"/>
 		<property name="EconomicValue" value="8"/>
 		<property name="EconomicBundleSize" value="20"/>
@@ -16086,7 +16088,6 @@
 		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
 		<property name="CustomIcon" value="ceilingLight01"/>
 		<property name="RuntimeSwitch" value="true"/>
-		<property name="Material" value="glass"/>
 		<property name="StabilitySupport" value="false"/>
 		<!-- build restriction -->
 		<property name="Model" value="Entities/Lighting/player_ceilingLight01Prefab"/>
