@@ -856,9 +856,9 @@
 			<property name="cloth" value="10"/>
 			<property name="wood" value="4"/>
 		</property>
-		<drop event="Harvest" name="cloth" count="5" tool_category="Harvest"/>
-		<drop event="Harvest" name="wood" count="4" tool_category="Harvest"/>
-		<drop event="Destroy" name="cloth" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="cloth" count="3" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="2" tool_category="Harvest"/>
+		<drop event="Destroy" name="cloth" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="cloth" count="10" prob="0.5" stick_chance="0"/>
 		<property name="EconomicValue" value="25"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
