@@ -141,7 +141,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="fertile_level" value="2" />
 	<property name="stability_glue" value="20" />
 	<property name="Mass" type="int" value="10" />
-	<property name="MaxDamage" value="200" />
+	<property name="MaxDamage" value="250" />
 	<property name="Experience" value="0"/>
 </material>
 
@@ -335,7 +335,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="surface_category" value="wood" />
 	<property name="Hardness" type="float" value="1" />
 	<property name="stepsound" value="wood" />
-	<property name="stability_glue" value="200" />
+	<property name="stability_glue" value="250" />
 	<property name="Mass" type="int" value="5" />
 	<property name="MaxDamage" value="750" />
 	<property name="Experience" value="0"/>
@@ -350,7 +350,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="fertile_level" value="1" />
 	<property name="stability_glue" value="4" />
 	<property name="Mass" type="int" value="10" />
-	<property name="MaxDamage" value="200" />
+	<property name="MaxDamage" value="250" />
 	<property name="Experience" value="0"/>
 </material>
 
@@ -426,7 +426,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="stepsound" value="stone" />
 	<property name="stability_glue" value="20" />
 	<property name="Mass" type="int" value="10" />
-	<property name="MaxDamage" value="200" />
+	<property name="MaxDamage" value="250" />
 	<property name="Experience" value="0"/>
 </material>
 
@@ -451,7 +451,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="StabilitySupport" value="false" />
 	<property name="stability_glue" value="10" />
 	<property name="Mass" type="int" value="10" />
-	<property name="MaxDamage" value="200" />
+	<property name="MaxDamage" value="500" />
 	<property name="Experience" value="0"/>
 </material>
 
@@ -464,7 +464,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="StabilitySupport" value="false" />
 	<property name="stability_glue" value="20" />
 	<property name="Mass" type="int" value="20" />
-	<property name="MaxDamage" value="200" />
+	<property name="MaxDamage" value="500" />
 	<property name="Experience" value="0"/>
 </material>
 <material id="Mbrass_scrap">
