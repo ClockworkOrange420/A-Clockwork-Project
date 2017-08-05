@@ -1092,7 +1092,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Shotguns"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="6"/>
 	</item>
 	<!-- * * * * * * * * * * player / zombie / animal weapons / hands (and great big fangs) * * * * * * * * * * -->
 	<item id="69" name="handMaster">
@@ -1989,7 +1989,7 @@
 		<property name="Group" value="Tools/Traps"/>
 		<property name="ActionSkillGroup" value="Construction Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="6"/>
 	</item>
 	<item id="130" name="chainsaw">
 		<property name="Meshfile" value="Items/Weapons/Melee/Chainsaw/chainsaw"/>
@@ -2044,7 +2044,7 @@
 		<property name="Group" value="Tools/Traps"/>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="1.5"/>
 	</item>
 	<item id="131" name="auger">
 		<property name="Meshfile" value="Items/Tools/augerPrefab"/>
@@ -2098,7 +2098,7 @@
 		<property name="Group" value="Tools/Traps"/>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="1.5"/>
 	</item>
 	<item id="133" name="wireTool">
 		<property name="Meshfile" value="Items/Tools/wire_strippersPrefab"/>
@@ -2334,7 +2334,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
-		<property name="RepairExpMultiplier" value="2"/>
+		<property name="RepairExpMultiplier" value="6"/>
 		<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 	</item>
 	<!-- * * * * * * * * * * ammunition / arrows / bolts / fuel * * * * * * * * * * -->
@@ -3561,7 +3561,7 @@
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<!-- redundant because this is the default but it's easier to read -->
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="351" name="plantFiberShirt">
 		<!-- plantFiberClothes -->
@@ -3658,7 +3658,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="358" name="clothPants">
 		<!-- clothArmor -->
@@ -3756,7 +3756,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Medium Armor"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="365" name="animalHideLegArmor">
 		<!-- hideArmor -->
@@ -3856,7 +3856,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Medium Armor"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="371" name="leatherGloves">
 		<!-- leatherArmor -->
@@ -3954,7 +3954,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Heavy Armor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="378" name="scrapLegArmor">
 		<!-- scrapArmor -->
@@ -4053,7 +4053,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Heavy Armor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="384" name="ironLegArmor">
 		<!-- ironArmor -->
@@ -4158,7 +4158,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Medium Armor"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
-		<property name="RepairExpMultiplier" value="12.8"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="391" name="militaryHelmet">
 		<!-- militaryArmor -->
@@ -4251,7 +4251,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Medium Armor"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="398" name="hazmatPants">
 		<!-- hazMatArmor -->
@@ -4357,7 +4357,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Heavy Armor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="403" name="heavyBanditGasmask">
 		<!-- banditArmor -->
@@ -4653,7 +4653,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Heavy Armor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2"/>
 		<property name="LightValue" value="0.7"/>
 	</item>
 	<item id="465" name="swatHelmet">
@@ -4685,7 +4685,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Heavy Armor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="466" name="footballHelmet">
 		<property name="Waterproof" value="0.15"/>
@@ -4719,7 +4719,7 @@
 		<property name="DescriptionKey" value="footballHelmetDesc"/>
 		<property name="ActionSkillGroup" value="Heavy Armor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="467" name="footballHelmetZU">
 		<property name="Extends" value="footballHelmet"/>
@@ -4766,7 +4766,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Heavy Armor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2"/>
 		<property name="CreativeMode" value="Dev"/>
 	</item>
 	<item id="471" name="shades">
@@ -4846,7 +4846,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Heavy Armor"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="475" name="shadesBlack">
 		<property name="Extends" value="shades"/>
