@@ -2084,9 +2084,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="ductTape" count="1"/>
 		<ingredient name="wood" count="10"/>
 	</recipe>
-	<recipe name="destroyedStone" count="1" craft_time = "4" craft_exp_gain="9" >
-		<ingredient name="rockSmall" count="18"/>
-	</recipe>
 	<recipe name="ductTape" count="1" craft_time = "6" craft_exp_gain="20" >
 		<ingredient name="glue" count="1"/>
 		<ingredient name="cloth" count="1"/>
@@ -2472,7 +2469,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="ironBarsCentered" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="shortMetalPipe" count="4"/>
-		<ingredient name="forgedIron" count="4"/>
+		<ingredient name="forgedIron" count="3"/>
 	</recipe>
 	<recipe name="ironCrossbowBolt" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Ammunition_Table" >
 		<ingredient name="ironArrowHead" count="1"/>
@@ -2903,38 +2900,44 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="sectionalPlaidCouchSofaArm" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="cloth" count="5"/>
-		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="cottonPlant" count="5"/>
+		<ingredient name="nail" count="5"/>
+		<ingredient name="wood" count="5"/>
 		<ingredient name="Cordage" count="5"/>
 	</recipe>
 	<recipe name="sectionalPlaidCouchSofaMiddle" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="cloth" count="5"/>
-		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="cottonPlant" count="5"/>
+		<ingredient name="nail" count="5"/>
+		<ingredient name="wood" count="5"/>
 		<ingredient name="Cordage" count="5"/>
 	</recipe>
 	<recipe name="sectionalPlaidCouchSofaCorner" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="cloth" count="5"/>
-		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="cottonPlant" count="5"/>
+		<ingredient name="nail" count="5"/>
+		<ingredient name="wood" count="5"/>
 		<ingredient name="Cordage" count="5"/>
 	</recipe>
 	<recipe name="sectionalLeatherCouchSofaArm" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="leather" count="5"/>
-		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="cottonPlant" count="5"/>
+		<ingredient name="nail" count="5"/>
+		<ingredient name="wood" count="5"/>
 		<ingredient name="Cordage" count="5"/>
 	</recipe>
 	<recipe name="sectionalLeatherCouchSofaMiddle" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="leather" count="5"/>
-		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="cottonPlant" count="5"/>
+		<ingredient name="nail" count="5"/>
+		<ingredient name="wood" count="5"/>
 		<ingredient name="Cordage" count="5"/>
 	</recipe>
 	<recipe name="sectionalLeatherCouchSofaCorner" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="leather" count="5"/>
-		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="cottonPlant" count="5"/>
+		<ingredient name="nail" count="5"/>
+		<ingredient name="wood" count="5"/>
 		<ingredient name="Cordage" count="5"/>
 	</recipe>
 	<recipe name="secureDoorWooden" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
@@ -3312,7 +3315,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="mechanicalParts" count="1"/>
 	</recipe>
 	<recipe name="wroughtIronFenceSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="anvil" material_based="true" >
-		<ingredient name="unit_iron" count="15"/>
+		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
 	<recipe name="looseBoardsTrapBlock1x1" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
@@ -3673,6 +3676,14 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="curtain_bottom1Sheet3" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="cloth" count="5"/>
 		<ingredient name="Cordage" count="1"/>
+	</recipe>
+	<recipe name="commercialBlindsTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="cloth" count="5"/>
+		<ingredient name="scrapPlastics" count="2"/>
+	</recipe>
+	<recipe name="commercialBlindsBottom" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+		<ingredient name="cloth" count="5"/>
+		<ingredient name="scrapPlastics" count="2"/>
 	</recipe>
 	<!-- Molds and Gun Parts -->
 	<recipe name="Pipe_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
