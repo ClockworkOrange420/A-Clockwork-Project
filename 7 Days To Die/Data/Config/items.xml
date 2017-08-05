@@ -39,7 +39,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Blunt Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 		<!-- 54 = about 250 points of crafting skill XP. This does not base off the crafting XP auto-calculation. 	It has a base value of 5 or so. This only affects REPAIRING an item, not workbench combines. -->
 	</item>
 	<item id="6" name="clubWood">
@@ -324,7 +324,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Blade Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="22" name="machete">
 		<property name="Meshfile" value="Items/Weapons/Melee/Knives/machetePrefab"/>
@@ -387,7 +387,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Blade Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<!-- 40* * * * * * * * * * firearms * * * * * * * * * * -->
 	<item id="40" name="gunPistol">
@@ -448,7 +448,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Pistols"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-		<property name="RepairExpMultiplier" value="10"/>
+		<property name="RepairExpMultiplier" value="6"/>
 		<property name="LightValue" value="0.45"/>
 	</item>
 	<item id="41" name="gunPistolSilenced">
@@ -510,7 +510,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Pistols"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="6"/>
 		<property name="LightValue" value="0.45"/>
 		<property name="DescriptionKey" value="devOnlyGroupDesc"/>
 	</item>
@@ -577,7 +577,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Pistols"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2.5"/>
 		<property name="LightValue" value="0.45"/>
 	</item>
 	<item id="44" name="gunSawedOffPumpShotgun">
@@ -643,7 +643,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Shotguns"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="4.5"/>
 		<property name="LightValue" value="0.45"/>
 	</item>
 	<item id="45" name="gunPumpShotgun">
@@ -709,7 +709,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Shotguns"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="4.5"/>
 		<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 		<property name="LightValue" value="0.45"/>
 	</item>
@@ -779,7 +779,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Pistols"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="2.5"/>
 		<property name="LightValue" value="0.45"/>
 	</item>
 	<item id="48" name="gunAK47">
@@ -847,7 +847,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Rifles"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="1.5"/>
 		<property name="LightValue" value="0.45"/>
 	</item>
 	<item id="50" name="gunHuntingRifle">
@@ -913,7 +913,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Rifles"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="4.5"/>
 		<property name="LightValue" value="0.45"/>
 	</item>
 	<item id="51" name="gunSniperRifle">
@@ -979,7 +979,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Rifles"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="1.5"/>
 		<property name="LightValue" value="0.45"/>
 	</item>
 	<item id="54" name="gunRocketLauncher">
@@ -1029,7 +1029,7 @@
 		</property>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="RepairExpMultiplier" value="1"/>
 	</item>
 	<item id="55" name="blunderbuss">
 		<property name="Meshfile" value="Items/Weapons/Ranged/blunderbuss/blunderbussPrefab"/>
@@ -1527,7 +1527,7 @@
 		<property name="Group" value="Tools/Traps,Basics"/>
 		<property name="ActionSkillGroup" value="Construction Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="106" name="tazasStoneaxe">
 		<property name="DescriptionKey" value="tazasStoneaxeDesc"/>
@@ -1582,7 +1582,7 @@
 		<property name="Group" value="Tools/Traps"/>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="108" name="fireaxeSteel">
 		<property name="Extends" value="fireaxeIron"/>
@@ -1644,7 +1644,7 @@
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 		<property name="PickupJournalEntry" value="miningTip"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="114" name="pickaxeSteel">
 		<property name="Extends" value="pickaxeIron"/>
@@ -1713,7 +1713,7 @@
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 		<property name="PickupJournalEntry" value="miningTip"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="118" name="shovelIron">
 		<property name="Meshfile" value="Items/Tools/shovel_ironPrefab"/>
@@ -1757,7 +1757,7 @@
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 		<property name="PickupJournalEntry" value="miningTip"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="119" name="shovelSteel">
 		<property name="Extends" value="shovelIron"/>
@@ -1828,7 +1828,7 @@
 		<property name="PickupJournalEntry" value="farmingTip"/>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="126" name="wrench">
 		<property name="Meshfile" value="Items/Tools/wrenchPrefab"/>
@@ -1881,7 +1881,7 @@
 		<property name="Group" value="Tools/Traps"/>
 		<property name="ActionSkillGroup" value="Construction Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="127" name="clawHammer">
 		<property name="Meshfile" value="Items/Tools/hammerPrefab"/>
@@ -1932,7 +1932,7 @@
 		<property name="Group" value="Tools/Traps"/>
 		<property name="ActionSkillGroup" value="Construction Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="128" name="nailgun">
 		<property name="Meshfile" value="Items/Tools/nailgunPrefab"/>
@@ -2122,7 +2122,7 @@
 		</property>
 		<property name="Group" value="Tools/Traps,Science"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 		<property name="PickupJournalEntry" value="wireToolTip"/>
 	</item>
 	<item id="134" name="paintTool">
@@ -2164,7 +2164,7 @@
 		</property>
 		<property name="Group" value="Tools/Traps"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 		<property name="PickupJournalEntry" value="paintingTip"/>
 	</item>
 	<!-- * * * * * * * * * * bows, crossbows * * * * * * * * * * -->
@@ -2225,7 +2225,7 @@
 		</property>
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 		<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 	</item>
 	<item id="146" name="crossbow">
@@ -2279,7 +2279,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 		<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 	</item>
 	<item id="147" name="compoundBow">
@@ -2334,7 +2334,7 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 		<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 	</item>
 	<!-- * * * * * * * * * * ammunition / arrows / bolts / fuel * * * * * * * * * * -->
@@ -3040,7 +3040,7 @@
 		<property name="Weight" value="25"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="3000,3000"/>
-			<property name="DegradationRate" value="15,3"/>
+			<property name="DegradationRate" value="30,6"/>
 		</property>
 		<property name="EconomicValue" value="1125"/>
 	</item>
@@ -3087,7 +3087,7 @@
 		<property name="Weight" value="30"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="5000,5000"/>
-			<property name="DegradationRate" value="15,2"/>
+			<property name="DegradationRate" value="50,10"/>
 		</property>
 		<property name="EconomicValue" value="1500"/>
 	</item>
@@ -4469,7 +4469,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="451" name="blackCowboyHat">
 		<property name="Extends" value="cowboyHat"/>
@@ -4538,7 +4538,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="456" name="skullCap">
 		<!-- skullCapMaster -->
@@ -4576,7 +4576,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="457" name="skullCapRed">
 		<property name="Extends" value="skullCap"/>
@@ -4797,7 +4797,7 @@
 		</property>
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="472" name="aviatorGoggles">
 		<property name="Extends" value="shades"/>
@@ -4930,7 +4930,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Medium Armor"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="482" name="bandana">
 		<!-- bandanaMaster -->
@@ -4965,7 +4965,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="483" name="bandanaRed">
 		<property name="Extends" value="bandana"/>
@@ -5042,7 +5042,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="491" name="blackDenimPants">
 		<property name="Extends" value="denimPants"/>
@@ -5116,7 +5116,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="498" name="tankTopRed">
 		<property name="Extends" value="tankTopWhite"/>
@@ -5201,7 +5201,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="508" name="runningShoes">
 		<property name="Extends" value="leatherBoots"/>
@@ -5250,7 +5250,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="510" name="shirtRed">
 		<property name="Extends" value="shirt"/>
@@ -5336,7 +5336,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Medium Armor"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="518" name="leatherDusterBlack">
 		<property name="Extends" value="leatherDuster"/>
@@ -5381,7 +5381,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="521" name="pufferCoatRed">
 		<property name="Extends" value="pufferCoat"/>
@@ -5469,7 +5469,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="532" name="sweatshirtRed">
 		<property name="Extends" value="sweatshirt"/>
@@ -5549,7 +5549,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="538" name="tshirtRed">
 		<property name="Extends" value="tshirtWhite"/>
@@ -5638,7 +5638,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="545" name="skirtRed">
 		<property name="Extends" value="skirt"/>
@@ -5832,7 +5832,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="565" name="hoodedSweatshirtRed">
 		<property name="Extends" value="hoodedSweatshirtWhite"/>
@@ -6095,7 +6095,7 @@
 		<property name="Group" value="Clothing"/>
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="599" name="suitJacketBlack">
 		<property name="Extends" value="jacketWhite"/>
