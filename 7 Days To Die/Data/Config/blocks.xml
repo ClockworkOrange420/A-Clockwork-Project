@@ -9882,8 +9882,7 @@
 		<property name="UseGlobalUV" value="L,D,D,D,D,D"/>
 		<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
 		<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
-		<drop event="Harvest" name="cloth" count="3" tool_category="Harvest"/>
-		<drop event="Destroy" name="scrapPlastics" count="1" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapPlastics" count="3" tool_category="Harvest"/>
 		<property name="EconomicValue" value="20"/>
 	</block>
 	<block id="1044" name="commercialBlindsBottom">
