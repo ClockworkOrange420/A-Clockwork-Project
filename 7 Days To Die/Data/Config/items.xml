@@ -2885,7 +2885,7 @@
 		<property name="Weight" value="10"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,1"/>
+			<property name="DegradationRate" value="10,2"/>
 		</property>
 		<property name="EconomicValue" value="412"/>
 	</item>
