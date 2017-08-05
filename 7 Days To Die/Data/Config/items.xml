@@ -3273,7 +3273,7 @@
 		<property class="Attributes">
 			<!-- One tank = 200 gas.  6000 / 3 = 2000 shots or 10 tanks until the item breaks -->
 			<property name="DegradationMax" value="6000,6000"/>
-			<property name="DegradationRate" value="6,3"/>
+			<property name="DegradationRate" value="60,6"/>
 		</property>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -8872,8 +8872,8 @@
 			<property name="VehicleNoise" value="1,0.1"/>
 			<property name="VehicleMaxSpeed" value="5,20"/>
 			<property name="VehicleAcceleration" value="7,14"/>
-			<property name="VehicleMetersPerLiter" value="10,24"/>
-			<property name="VehicleIdleSecondsPerLiter" value="6,12"/>
+			<property name="VehicleMetersPerLiter" value="8,24"/>
+			<property name="VehicleIdleSecondsPerLiter" value="6,24"/>
 			<property name="VehicleStartDelayInSeconds" value="1,0.1"/>
 			<property name="VehicleStartChance" value="0.5,0.99"/>
 			<property name="VehicleTankSize" value="1000, 1000"/>
