@@ -22,8 +22,8 @@
 			<property name="Stamina_usage" value="7"/>
 			<!-- 10 is the break even point with maxed Athletics and Sexosaurus, standing still -->
 			<property name="DamageBonus.head" value="2"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="5"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 		</property>
 		<property class="Attributes">
@@ -136,8 +136,8 @@
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.metal" value=".5"/>
 			<property name="DamageBonus.concrete" value="2"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="7"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 		</property>
 		<property class="Attributes">
@@ -218,8 +218,8 @@
 			<property name="Stamina_usage" value="7"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.glass" value="1"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="5"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property class="Attributes">
@@ -249,8 +249,8 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="6"/>
 			<property name="DamageBonus.head" value="2"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="5"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property name="ActionSkillGroup" value="Blunt Weapons"/>
 		<property name="Group" value="Resources"/>
@@ -274,14 +274,14 @@
 			<property name="DamageBonus.organic" value="8"/>
 			<property name="ToolCategory.Butcher" value="0.75" param1="10"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="5"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="5,10"/>
 			<property name="BlockDamage" value="1,2"/>
 			<property name="DegradationMax" value="600,600"/>
-			<property name="DegradationRate" value="20,1"/>
+			<property name="DegradationRate" value="12,1"/>
 			<property name="DismembermentBaseChance" value="0.01,0.05"/>
 		</property>
 		<property name="Group" value="Ammo/Weapons"/>
@@ -311,8 +311,8 @@
 			<property name="ToolCategory.Butcher" value="1" param1="10"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="5"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="10,20"/>
@@ -351,8 +351,8 @@
 			<property name="ToolCategory.Butcher" value="1" param1="10"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="5"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<property name="Class" value="Melee"/>
@@ -431,8 +431,8 @@
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.wood" value="3"/>
 			<property name="DamageBonus.earth" value="0.1"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="10"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -491,8 +491,8 @@
 			<property name="DamageBonus.wood" value="3"/>
 			<property name="DamageBonus.earth" value="0.4"/>
 			<property name="DamageBonus.glass" value="1"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="10"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<property name="Class" value="Zoom"/>
@@ -560,8 +560,8 @@
 			<property name="DamageBonus.wood" value="4"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="10"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -627,7 +627,7 @@
 			<property name="DamageBonus.wood" value="2"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="ActionExp" value="1"/>
-			<property name="ActionExpBonusMultiplier" value="2"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -693,7 +693,7 @@
 			<property name="DamageBonus.wood" value="2"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="ActionExp" value="1"/>
-			<property name="ActionExpBonusMultiplier" value="2"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -762,8 +762,8 @@
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="5"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -830,8 +830,8 @@
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="5"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -896,8 +896,8 @@
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="10"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -961,8 +961,8 @@
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="10"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -1073,7 +1073,7 @@
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="ActionExp" value="1"/>
-			<property name="ActionExpBonusMultiplier" value="2"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -1500,7 +1500,7 @@
 			<property name="DamageBonus.stone" value="1.5"/>
 			<property name="DamageBonus.metal" value="2"/>
 			<property name="DamageBonus.organic" value="1"/>
-			<property name="ActionExp" value="2"/>
+			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 			<property name="ToolCategory.Butcher" value="0.25" param1="10"/>
 			<property name="ToolCategory.Harvest" value="1"/>
@@ -2209,8 +2209,8 @@
 			<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 			<property name="Max_strain_time" value="0.5"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="1"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -2263,8 +2263,8 @@
 			<property name="Sound_end" value=""/>
 			<property name="Sound_empty" value="weapon_empty"/>
 			<property name="Sound_reload" value="crossbow_reload"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="1"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
@@ -2323,8 +2323,8 @@
 			<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 			<property name="Max_strain_time" value="0.43"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="1"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
 			<property name="Class" value="Zoom"/>
@@ -2484,6 +2484,8 @@
 			<property name="DamageBonus.earth" value="0.1"/>
 			<property name="DamageBonus.metal" value="0.1"/>
 			<property name="DamageBonus.cloth" value="0.5"/>
+			<property name="ActionExp" value="10"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property name="Group" value="Ammo/Weapons,Basics"/>
 		<property class="Attributes">
@@ -2572,6 +2574,8 @@
 			<property name="DamageBonus.earth" value="0"/>
 			<property name="DamageBonus.metal" value="0"/>
 			<property name="DamageBonus.cloth" value="0"/>
+			<property name="ActionExp" value="10"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
@@ -2881,7 +2885,7 @@
 		<property name="Weight" value="10"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,2"/>
+			<property name="DegradationRate" value="10,1"/>
 		</property>
 		<property name="EconomicValue" value="412"/>
 	</item>
@@ -2893,7 +2897,6 @@
 		<property class="Attributes">
 			<property name="FalloffRange" value="22,50"/>
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,2"/>
 		</property>
 		<property name="EconomicValue" value="412"/>
 	</item>
@@ -2904,7 +2907,6 @@
 		<property name="Weight" value="10"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,2"/>
 		</property>
 		<property name="EconomicValue" value="412"/>
 	</item>
@@ -2917,7 +2919,6 @@
 			<property name="EntityDamage" value="10,15"/>
 			<property name="BlockDamage" value="7,13"/>
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,2"/>
 		</property>
 		<property name="EconomicValue" value="412"/>
 	</item>
@@ -2940,7 +2941,6 @@
 		<property class="Attributes">
 			<property name="FalloffRange" value="30,50"/>
 			<property name="DegradationMax" value="3000,3000"/>
-			<property name="DegradationRate" value="30,6"/>
 		</property>
 		<property name="EconomicValue" value="1125"/>
 	</item>
@@ -2951,7 +2951,6 @@
 		<property name="Weight" value="10"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="3000,3000"/>
-			<property name="DegradationRate" value="30,6"/>
 		</property>
 		<property name="EconomicValue" value="1125"/>
 	</item>
@@ -2964,7 +2963,6 @@
 			<property name="EntityDamage" value="30,40"/>
 			<property name="BlockDamage" value="14,24"/>
 			<property name="DegradationMax" value="3000,3000"/>
-			<property name="DegradationRate" value="30,6"/>
 		</property>
 		<property name="EconomicValue" value="1125"/>
 	</item>
@@ -2989,7 +2987,6 @@
 		<property class="Attributes">
 			<property name="FalloffRange" value="36,60"/>
 			<property name="DegradationMax" value="2000,2000"/>
-			<property name="DegradationRate" value="20,4"/>
 		</property>
 		<property name="EconomicValue" value="525"/>
 	</item>
@@ -3000,7 +2997,6 @@
 		<property name="Weight" value="15"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="2000,2000"/>
-			<property name="DegradationRate" value="20,4"/>
 		</property>
 		<property name="EconomicValue" value="525"/>
 	</item>
@@ -3011,7 +3007,6 @@
 		<property name="Weight" value="20"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="2000,2000"/>
-			<property name="DegradationRate" value="20,4"/>
 		</property>
 		<property name="EconomicValue" value="525"/>
 	</item>
@@ -3035,7 +3030,6 @@
 		<property name="Weight" value="30"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="2000,2000"/>
-			<property name="DegradationRate" value="20,4"/>
 		</property>
 		<property name="EconomicValue" value="675"/>
 	</item>
@@ -3058,7 +3052,6 @@
 		<property class="Attributes">
 			<property name="FalloffRange" value="40,72"/>
 			<property name="DegradationMax" value="3000,3000"/>
-			<property name="DegradationRate" value="15,3"/>
 		</property>
 		<property name="EconomicValue" value="1125"/>
 	</item>
@@ -3072,7 +3065,6 @@
 			<property name="Accuracy" value="5,5"/>
 			<!-- 10 -->
 			<property name="DegradationMax" value="3000,3000"/>
-			<property name="DegradationRate" value="15,3"/>
 		</property>
 		<property name="EconomicValue" value="1125"/>
 	</item>
@@ -3085,7 +3077,6 @@
 			<property name="EntityDamage" value="15,20"/>
 			<property name="BlockDamage" value="3,5"/>
 			<property name="DegradationMax" value="3000,3000"/>
-			<property name="DegradationRate" value="15,3"/>
 		</property>
 		<property name="EconomicValue" value="1125"/>
 	</item>
@@ -3108,7 +3099,6 @@
 		<property class="Attributes">
 			<property name="FalloffRange" value="54,90"/>
 			<property name="DegradationMax" value="5000,5000"/>
-			<property name="DegradationRate" value="15,2"/>
 		</property>
 		<property name="EconomicValue" value="1500"/>
 	</item>
@@ -3121,7 +3111,6 @@
 			<property name="Accuracy" value="7,7"/>
 			<!-- 14.5 -->
 			<property name="DegradationMax" value="5000,5000"/>
-			<property name="DegradationRate" value="15,2"/>
 		</property>
 		<property name="EconomicValue" value="1500"/>
 	</item>
@@ -3135,7 +3124,6 @@
 			<property name="EntityDamage" value="30,40"/>
 			<property name="BlockDamage" value="5,9.5"/>
 			<property name="DegradationMax" value="5000,5000"/>
-			<property name="DegradationRate" value="15,2"/>
 		</property>
 		<property name="EconomicValue" value="1500"/>
 	</item>
@@ -3160,7 +3148,6 @@
 		<property class="Attributes">
 			<property name="FalloffRange" value="96,160"/>
 			<property name="DegradationMax" value="2000,2000"/>
-			<property name="DegradationRate" value="20,4"/>
 		</property>
 	</item>
 	<item id="244" name="partsHuntingRifle_parts">
@@ -3173,7 +3160,6 @@
 			<property name="Accuracy" value="11,11"/>
 			<!-- 29 -->
 			<property name="DegradationMax" value="2000,2000"/>
-			<property name="DegradationRate" value="20,4"/>
 		</property>
 	</item>
 	<item id="245" name="partsHuntingRifle_barrel">
@@ -3185,7 +3171,6 @@
 			<property name="EntityDamage" value="30,40"/>
 			<property name="BlockDamage" value="8,14"/>
 			<property name="DegradationMax" value="2000,2000"/>
-			<property name="DegradationRate" value="20,4"/>
 		</property>
 	</item>
 	<item id="248" name="partsSniperRifle_stock">
@@ -3209,7 +3194,6 @@
 		<property class="Attributes">
 			<property name="FalloffRange" value="96,160"/>
 			<property name="DegradationMax" value="5000,5000"/>
-			<property name="DegradationRate" value="50,10"/>
 		</property>
 		<property name="EconomicValue" value="875"/>
 	</item>
@@ -3223,7 +3207,6 @@
 			<property name="Accuracy" value="13,13"/>
 			<!-- 39 -->
 			<property name="DegradationMax" value="5000,5000"/>
-			<property name="DegradationRate" value="50,10"/>
 		</property>
 		<property name="EconomicValue" value="875"/>
 	</item>
@@ -3236,7 +3219,6 @@
 			<property name="EntityDamage" value="35,50"/>
 			<property name="BlockDamage" value="8,14"/>
 			<property name="DegradationMax" value="5000,5000"/>
-			<property name="DegradationRate" value="50,10"/>
 		</property>
 		<property name="EconomicValue" value="875"/>
 	</item>
@@ -3258,7 +3240,6 @@
 		<property name="Weight" value="35"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="10000,10000"/>
-			<property name="DegradationRate" value="1000,100"/>
 		</property>
 		<property name="EconomicValue" value="1500"/>
 	</item>
@@ -3269,7 +3250,6 @@
 		<property name="Weight" value="20"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="10000,10000"/>
-			<property name="DegradationRate" value="1000,100"/>
 		</property>
 		<property name="EconomicValue" value="1500"/>
 	</item>
@@ -3283,7 +3263,6 @@
 			<property name="BlockDamage" value="1000,1000"/>
 			<!-- xxx is this working? -->
 			<property name="DegradationMax" value="10000,10000"/>
-			<property name="DegradationRate" value="1000,100"/>
 		</property>
 		<property name="EconomicValue" value="1500"/>
 	</item>
@@ -3292,7 +3271,6 @@
 		<property name="PartType" value="Pump"/>
 		<property name="EconomicValue" value="306"/>
 		<property class="Attributes">
-			<property name="DegradationRate" value="3,3"/>
 			<!-- One tank = 200 gas.  6000 / 3 = 2000 shots or 10 tanks until the item breaks -->
 			<property name="DegradationMax" value="6000,6000"/>
 			<property name="DegradationRate" value="6,3"/>
@@ -3308,7 +3286,6 @@
 		<property class="Attributes">
 			<property name="FalloffRange" value="2.35,2.35"/>
 			<property name="DegradationMax" value="6000,6000"/>
-			<property name="DegradationRate" value="6,3"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	</item>
@@ -3322,7 +3299,6 @@
 			<property name="DismembermentBaseChance" value="0.01,0.03"/>
 			<property name="DismembermentBonus" value="0,0"/>
 			<property name="DegradationMax" value="6000,6000"/>
-			<property name="DegradationRate" value="6,3"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 		<property name="Group" value="Resources,Tools/Traps"/>
@@ -3334,7 +3310,6 @@
 		<property class="Attributes">
 			<property name="FalloffRange" value="4,4"/>
 			<property name="DegradationMax" value="6000,6000"/>
-			<property name="DegradationRate" value="6,3"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	</item>
@@ -3346,7 +3321,6 @@
 			<property name="EntityDamage" value="5,10"/>
 			<property name="BlockDamage" value="5,10"/>
 			<property name="DegradationMax" value="6000,6000"/>
-			<property name="DegradationRate" value="6,3"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 		<property name="Group" value="Resources,Tools/Traps"/>
@@ -3382,7 +3356,6 @@
 		<property class="Attributes">
 			<property name="VehiclePlayerStaminaDrainRate" value="1,0"/>
 			<property name="DegradationMax" value="6000,6000"/>
-			<property name="DegradationRate" value="200,10"/>
 		</property>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
@@ -3401,7 +3374,6 @@
 			<property name="VehicleTraction" value="0.1,1"/>
 			<property name="VehicleDrag" value="0.02,0.01"/>
 			<property name="DegradationMax" value="6000,6000"/>
-			<property name="DegradationRate" value="200,10"/>
 		</property>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -3417,7 +3389,6 @@
 		<property name="EconomicValue" value="150"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="6000,6000"/>
-			<property name="DegradationRate" value="200,10"/>
 		</property>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -3437,7 +3408,6 @@
 			<property name="LightIntensity" value="0.75,0.75"/>
 			<!--Don't put a range or it will get scaled by minibike quality-->
 			<property name="DegradationMax" value="6000,6000"/>
-			<property name="DegradationRate" value="200,10"/>
 		</property>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -3456,7 +3426,6 @@
 			<property name="VehicleStorageWidth" value="3,8"/>
 			<property name="VehicleStorageHeight" value="3,5"/>
 			<property name="DegradationMax" value="6000,6000"/>
-			<property name="DegradationRate" value="200,10"/>
 		</property>
 		<property name="Group" value="Decor/Miscellaneous"/>
 	</item>
@@ -3481,7 +3450,6 @@
 		<property name="Weight" value="30"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,1"/>
 		</property>
 		<property name="EconomicValue" value="300"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -3494,7 +3462,6 @@
 		<property name="Weight" value="10"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,1"/>
 		</property>
 		<property name="EconomicValue" value="300"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -3507,7 +3474,6 @@
 		<property name="Weight" value="15"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,1"/>
 		</property>
 		<property name="EconomicValue" value="300"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -3532,7 +3498,6 @@
 		<property name="Weight" value="10"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,2"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 	</item>
@@ -3546,7 +3511,6 @@
 			<property name="EntityDamage" value="2,10"/>
 			<property name="BlockDamage" value="1,3"/>
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,2"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 	</item>
@@ -3558,7 +3522,6 @@
 		<property name="Weight" value="5"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,2"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 	</item>
