@@ -2465,7 +2465,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="ironBars" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="shortMetalPipe" count="4"/>
-		<ingredient name="forgedIron" count="4"/>
+		<ingredient name="forgedIron" count="3"/>
 	</recipe>
 	<recipe name="ironBarsCentered" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="shortMetalPipe" count="4"/>
@@ -3678,12 +3678,12 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="commercialBlindsTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
-		<ingredient name="scrapPlastics" count="5"/>
-		<ingredient name="Cordage" count="1"/>
+		<ingredient name="cloth" count="5"/>
+		<ingredient name="scrapPlastics" count="2"/>
 	</recipe>
 	<recipe name="commercialBlindsBottom" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
-		<ingredient name="scrapPlastics" count="5"/>
-		<ingredient name="Cordage" count="1"/>
+		<ingredient name="cloth" count="5"/>
+		<ingredient name="scrapPlastics" count="2"/>
 	</recipe>
 	<!-- Molds and Gun Parts -->
 	<recipe name="Pipe_Mold" count="1" craft_time = "8" craft_exp_gain="27" >

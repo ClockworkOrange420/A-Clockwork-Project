@@ -5454,7 +5454,7 @@
 		<property name="Collide" value="movement,melee,rocket"/>
 		<!-- -rocket -->
 		<property class="RepairItems">
-			<property name="forgedIron" value="6"/>
+			<property name="forgedIron" value="5"/>
 		</property>
 		<drop event="Harvest" name="scrapIron" count="5" tool_category="Harvest"/>
 		<drop event="Destroy" name="scrapIron" count="5" tool_category="Harvest"/>
