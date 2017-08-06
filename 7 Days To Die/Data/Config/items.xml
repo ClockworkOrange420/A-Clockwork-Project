@@ -16,7 +16,7 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.33"/>
-			<property name="Range" value="2.2"/>
+			<property name="Range" value="1.65"/>
 			<property name="Sphere" value="0.2"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="7"/>
@@ -125,7 +125,7 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.8"/>
-			<property name="Range" value="2.4"/>
+			<property name="Range" value="1.75"/>
 			<property name="Sphere" value="0.2"/>
 			<property name="Block_range" value="4"/>
 			<property name="Sound_start" value="SlowSwoosh"/>
@@ -171,7 +171,7 @@
 		<property class="Action0">
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.17"/>
-			<property name="Range" value="2.5"/>
+			<property name="Range" value="1.65"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="DamageEntity" value="6"/>
 			<property name="DamageBlock" value="1"/>
@@ -210,7 +210,7 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.1"/>
-			<property name="Range" value="2.0"/>
+			<property name="Range" value="1.65"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="DamageEntity" value="6"/>
 			<property name="DamageBlock" value="0.7"/>
@@ -243,7 +243,7 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.33"/>
-			<property name="Range" value="2.2"/>
+			<property name="Range" value="1.65"/>
 			<property name="DamageEntity" value="7"/>
 			<property name="DamageBlock" value="5"/>
 			<property name="Sound_start" value="swoosh"/>
@@ -266,7 +266,7 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.2"/>
-			<property name="Range" value="2.2"/>
+			<property name="Range" value="1.65"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="5"/>
@@ -302,7 +302,7 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.2"/>
-			<property name="Range" value="2.2"/>
+			<property name="Range" value="1.65"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="5.5"/>
@@ -340,7 +340,7 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.2"/>
-			<property name="Range" value="2.2"/>
+			<property name="Range" value="1.65"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="6.51"/>
@@ -1488,7 +1488,7 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="0.8"/>
-			<property name="Range" value="2.1"/>
+			<property name="Range" value="1.65"/>
 			<property name="Block_range" value="3"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="Sound_start" value="swoosh"/>
@@ -1555,7 +1555,7 @@
 		<property class="Action0">
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.1"/>
-			<property name="Range" value="2.1"/>
+			<property name="Range" value="1.65"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="Block_range" value="4"/>
 			<property name="Sound_start" value="swoosh"/>
@@ -1617,7 +1617,7 @@
 		<property class="Action0">
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.0"/>
-			<property name="Range" value="2"/>
+			<property name="Range" value="1.65"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="Block_range" value="4"/>
 			<property name="Sound_start" value="swoosh"/>
@@ -1686,7 +1686,7 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.2"/>
-			<property name="Range" value="2"/>
+			<property name="Range" value="1.65"/>
 			<property name="Sphere" value="0.2"/>
 			<property name="Block_range" value="4"/>
 			<property name="Sound_start" value="swoosh"/>
@@ -1729,7 +1729,7 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.2"/>
-			<property name="Range" value="2"/>
+			<property name="Range" value="1.65"/>
 			<property name="Block_range" value="4"/>
 			<property name="Sphere" value="0.2"/>
 			<property name="Sound_start" value="swoosh"/>
@@ -1793,7 +1793,7 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1"/>
-			<property name="Range" value="2"/>
+			<property name="Range" value="1.65"/>
 			<property name="Sphere" value="0.2"/>
 			<property name="Block_range" value="4"/>
 			<property name="Sound_start" value="swoosh"/>
@@ -1843,7 +1843,7 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.1"/>
-			<property name="Range" value="2"/>
+			<property name="Range" value="1.65"/>
 			<property name="Block_range" value="4"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="Sound_start" value="swoosh"/>
@@ -1897,7 +1897,7 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="0.8"/>
-			<property name="Range" value="2.1"/>
+			<property name="Range" value="1.65"/>
 			<property name="Block_range" value="4"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="Sound_start" value="swoosh"/>
@@ -9098,8 +9098,8 @@
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
-			<property name="Delay" value="1.2"/>
-			<property name="Range" value="4"/>
+			<property name="Delay" value="1.5"/>
+			<property name="Range" value="1.75"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="DamageEntity" value="8"/>
 			<property name="DamageBlock" value="0.4"/>
@@ -9138,8 +9138,8 @@
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
-			<property name="Delay" value="1.2"/>
-			<property name="Range" value="4"/>
+			<property name="Delay" value="1.5"/>
+			<property name="Range" value="1.75"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="DamageEntity" value="15"/>
 			<property name="DamageBlock" value="0.4"/>
@@ -9178,8 +9178,8 @@
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
-			<property name="Delay" value="1.2"/>
-			<property name="Range" value="4"/>
+			<property name="Delay" value="1.5"/>
+			<property name="Range" value="1.75"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="0.4"/>
