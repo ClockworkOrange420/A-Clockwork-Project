@@ -644,6 +644,7 @@
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="30"/>
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="30"/>
 		<recipe name="solarbank" unlock_level="1"/>
+		<recipe name="solarCell" unlock_level="1"/>
 	</perk>
 	<perk name="electricBatteryBankPerk" icon="battery" description_key="This perk will unlock recipes for electrical devices." title_key="Battery Bank" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="40"/>
@@ -714,19 +715,17 @@
 		</effect>
 	</perk>
 	
-	<perk name="Knife Guy" icon="knife" description_key="knifeGuyDesc" title_key="knifeGuy" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
-		<requirement perk_level="1" required_skill_name="Blade Weapons" required_skill_level="20"/>
-		<requirement perk_level="2" required_skill_name="Blade Weapons" required_skill_level="40"/>
-		<requirement perk_level="3" required_skill_name="Blade Weapons" required_skill_level="60"/>
-		<requirement perk_level="4" required_skill_name="Blade Weapons" required_skill_level="80"/>
-		<requirement perk_level="5" required_skill_name="Blade Weapons" required_skill_level="100"/>
+	<perk name="Knife Guy" icon="knife" description_key="knifeGuyDesc" title_key="knifeGuy" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+		<requirement perk_level="1" required_skill_name="Blade Weapons" required_skill_level="25"/>
+		<requirement perk_level="2" required_skill_name="Blade Weapons" required_skill_level="50"/>
+		<requirement perk_level="3" required_skill_name="Blade Weapons" required_skill_level="75"/>
+		<requirement perk_level="4" required_skill_name="Blade Weapons" required_skill_level="100"/>
 		<effect name="EntityDamage">
 			<multiply perk_level="0" value="1"/>
-			<multiply skill_level="1" value="1.2"/>
-			<multiply skill_level="2" value="1.4"/>
-			<multiply skill_level="3" value="1.6"/>
-			<multiply skill_level="4" value="1.8"/>
-			<multiply skill_level="5" value="2.0"/>
+			<multiply skill_level="1" value="1.25"/>
+			<multiply skill_level="2" value="1.5"/>
+			<multiply skill_level="3" value="1.75"/>
+			<multiply skill_level="4" value="2"/>
 		</effect>
 	</perk>
 	
@@ -742,19 +741,17 @@
 		</effect>
 	</perk>
 	
-	<perk name="Robin Hood" icon="archery" description_key="Increases damage with each rank, using a Bow." title_key="Robin Hood" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
-		<requirement perk_level="1" required_skill_name="Archery" required_skill_level="20"/>
-		<requirement perk_level="2" required_skill_name="Archery" required_skill_level="40"/>
-		<requirement perk_level="3" required_skill_name="Archery" required_skill_level="60"/>
-		<requirement perk_level="4" required_skill_name="Archery" required_skill_level="80"/>
-		<requirement perk_level="5" required_skill_name="Archery" required_skill_level="100"/>
+	<perk name="Robin Hood" icon="archery" description_key="Increases damage with each rank, using a Bow." title_key="Robin Hood" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+		<requirement perk_level="1" required_skill_name="Archery" required_skill_level="25"/>
+		<requirement perk_level="2" required_skill_name="Archery" required_skill_level="50"/>
+		<requirement perk_level="3" required_skill_name="Archery" required_skill_level="75"/>
+		<requirement perk_level="4" required_skill_name="Archery" required_skill_level="100"/>
 		<effect name="EntityDamage">
 			<multiply perk_level="0" value="1"/>
-			<multiply skill_level="1" value="1.2"/>
-			<multiply skill_level="2" value="1.4"/>
-			<multiply skill_level="3" value="1.6"/>
-			<multiply skill_level="4" value="1.8"/>
-			<multiply skill_level="5" value="2.0"/>
+			<multiply skill_level="1" value="1.25"/>
+			<multiply skill_level="2" value="1.5"/>
+			<multiply skill_level="3" value="1.75"/>
+			<multiply skill_level="4" value="2"/>
 		</effect>
 	</perk>
 	
@@ -803,10 +800,10 @@
 		<requirement perk_level="4" required_skill_name="Shotguns" required_skill_level="100"/>
 		<effect name="EntityDamage">
 			<multiply perk_level="0" value="1"/>
-			<multiply skill_level="1" value="1.1"/>
-			<multiply skill_level="2" value="1.15"/>
-			<multiply skill_level="3" value="1.2"/>
-			<multiply skill_level="4" value="1.25"/>
+			<multiply skill_level="1" value="1.25"/>
+			<multiply skill_level="2" value="1.5"/>
+			<multiply skill_level="3" value="1.75"/>
+			<multiply skill_level="4" value="2"/>
 		</effect>
 	</perk>
 	
@@ -829,10 +826,38 @@
 		<requirement perk_level="4" required_skill_name="Rifles" required_skill_level="100"/>
 		<effect name="EntityDamage">
 			<multiply perk_level="0" value="1"/>
-			<multiply skill_level="1" value="1.1"/>
-			<multiply skill_level="2" value="1.15"/>
-			<multiply skill_level="3" value="1.2"/>
-			<multiply skill_level="4" value="1.25"/>
+			<multiply skill_level="1" value="1.25"/>
+			<multiply skill_level="2" value="1.5"/>
+			<multiply skill_level="3" value="1.75"/>
+			<multiply skill_level="4" value="2"/>
+		</effect>
+	</perk>
+	
+	<perk name="Pummel Pete" icon="club" description_key="pummelPeteDesc" title_key="pummelPete" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+		<requirement perk_level="1" required_skill_name="Blunt Weapons" required_skill_level="20"/>
+		<requirement perk_level="2" required_skill_name="Blunt Weapons" required_skill_level="50"/>
+		<requirement perk_level="3" required_skill_name="Blunt Weapons" required_skill_level="75"/>
+		<requirement perk_level="4" required_skill_name="Blunt Weapons" required_skill_level="100"/>
+		<effect name="EntityDamage">
+			<multiply perk_level="0" value="1"/>
+			<multiply skill_level="1" value="1.25"/>
+			<multiply skill_level="2" value="1.5"/>
+			<multiply skill_level="3" value="1.75"/>
+			<multiply skill_level="4" value="2"/>
+		</effect>
+	</perk>
+	
+	<perk name="Miner 69er" icon="mining" description_key="miner69erDesc" title_key="miner69er" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+		<requirement perk_level="1" required_skill_name="Mining Tools" required_skill_level="25"/>
+		<requirement perk_level="2" required_skill_name="Mining Tools" required_skill_level="50"/>
+		<requirement perk_level="3" required_skill_name="Mining Tools" required_skill_level="75"/>
+		<requirement perk_level="4" required_skill_name="Mining Tools" required_skill_level="100"/>
+		<effect name="BlockDamage">
+			<multiply perk_level="0" value="1"/>
+			<multiply skill_level="1" value="1.25"/>
+			<multiply skill_level="2" value="1.5"/>
+			<multiply skill_level="3" value="1.75"/>
+			<multiply skill_level="4" value="2"/>
 		</effect>
 	</perk>
 	
@@ -864,38 +889,6 @@
 		</effect>
 	</perk>
 
-	<perk name="Pummel Pete" icon="club" description_key="pummelPeteDesc" title_key="pummelPete" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
-		<requirement perk_level="1" required_skill_name="Blunt Weapons" required_skill_level="20"/>
-		<requirement perk_level="2" required_skill_name="Blunt Weapons" required_skill_level="40"/>
-		<requirement perk_level="3" required_skill_name="Blunt Weapons" required_skill_level="60"/>
-		<requirement perk_level="4" required_skill_name="Blunt Weapons" required_skill_level="80"/>
-		<requirement perk_level="5" required_skill_name="Blunt Weapons" required_skill_level="100"/>
-		<effect name="EntityDamage">
-			<multiply perk_level="0" value="1"/>
-			<multiply skill_level="1" value="1.2"/>
-			<multiply skill_level="2" value="1.4"/>
-			<multiply skill_level="3" value="1.6"/>
-			<multiply skill_level="4" value="1.8"/>
-			<multiply skill_level="5" value="2.0"/>
-		</effect>
-	</perk>
-	
-	<perk name="Miner 69er" icon="mining" description_key="miner69erDesc" title_key="miner69er" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
-		<requirement perk_level="1" required_skill_name="Mining Tools" required_skill_level="20"/>
-		<requirement perk_level="2" required_skill_name="Mining Tools" required_skill_level="40"/>
-		<requirement perk_level="3" required_skill_name="Mining Tools" required_skill_level="60"/>
-		<requirement perk_level="4" required_skill_name="Mining Tools" required_skill_level="80"/>
-		<requirement perk_level="5" required_skill_name="Mining Tools" required_skill_level="100"/>
-		<effect name="BlockDamage">
-			<multiply perk_level="0" value="1"/>
-			<multiply skill_level="1" value="1.2"/>
-			<multiply skill_level="2" value="1.4"/>
-			<multiply skill_level="3" value="1.6"/>
-			<multiply skill_level="4" value="1.8"/>
-			<multiply skill_level="5" value="2.0"/>
-		</effect>
-	</perk>
-	
 	<perk name="Fast Eddie" icon="loot_sack" description_key="fastEddieDesc" title_key="fastEddie" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" always_fire="true" group="scavenging">
 		<requirement perk_level="1" required_skill_name="Scavenging" required_skill_level="1"/>
 		<requirement perk_level="2" required_skill_name="Scavenging" required_skill_level="25"/>
@@ -905,23 +898,6 @@
 			<multiply skill_level="1" value="0.75"/>
 			<multiply skill_level="2" value="0.5"/>
 			<multiply skill_level="3" value="0.25"/>
-		</effect>
-	</perk>
-
-	<perk name="Breaking And Entering" icon="club" description_key="breakingAndEnteringDesc" title_key="breakingAndEntering" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
-		<requirement perk_level="1" required_skill_name="Blunt Weapons" required_skill_level="1"/>
-		<requirement perk_level="1" required_skill_name="Pummel Pete" required_skill_level="1"/>
-		<requirement perk_level="2" required_skill_name="Pummel Pete" required_skill_level="2"/>
-		<requirement perk_level="3" required_skill_name="Pummel Pete" required_skill_level="3"/>
-		<requirement perk_level="4" required_skill_name="Pummel Pete" required_skill_level="4"/>
-		<requirement perk_level="5" required_skill_name="Pummel Pete" required_skill_level="5"/>
-		<effect name="BlockDamage">
-			<multiply perk_level="0" value="1"/>
-			<multiply skill_level="1" value="1.2"/>
-			<multiply skill_level="2" value="1.4"/>
-			<multiply skill_level="3" value="1.6"/>
-			<multiply skill_level="4" value="1.8"/>
-			<multiply skill_level="5" value="2.0"/>
 		</effect>
 	</perk>
 

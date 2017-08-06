@@ -10365,6 +10365,7 @@
 			<property name="DamageBonus.stone" value="0.01"/>
 			<property name="DamageBonus.organic" value="0.01"/>
 			<property name="ToolCategory.Crops" value="1"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 		</property>
 		<property class="Action1">
 			<!-- AttackAction -->
@@ -10386,6 +10387,7 @@
 			<property name="DamageBonus.stone" value="0.01"/>
 			<property name="DamageBonus.organic" value="0.01"/>
 			<property name="ToolCategory.CropsSeed" value="1"/>
+			<property name="ToolCategory.Harvest" value="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="1,1"/>
