@@ -1567,7 +1567,7 @@
 			<property name="DamageBonus.metal" value="0.25"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.organic" value="1"/>
-			<property name="ActionExp" value="4"/>
+			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 			<property name="ToolCategory.Butcher" value="0.25" param1="10"/>
 			<property name="ToolCategory.Harvest" value="1"/>
@@ -1630,7 +1630,7 @@
 			<property name="DamageBonus.metal" value="2.5"/>
 			<property name="DamageBonus.stone" value="1"/>
 			<property name="ToolCategory.Harvest" value="1"/>
-			<property name="ActionExp" value="4"/>
+			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
@@ -1658,7 +1658,7 @@
 			<property name="DamageBonus.head" value="1"/>
 			<property name="DamageBonus.stone" value="1"/>
 			<property name="DamageBonus.metal" value="2.5"/>
-			<property name="ActionExp" value="6"/>
+			<property name="ActionExp" value="7"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
@@ -1699,7 +1699,7 @@
 			<property name="DamageBonus.metal" value="0.25"/>
 			<property name="DamageBonus.organic" value="2"/>
 			<property name="ToolCategory.Harvest" value="1"/>
-			<property name="ActionExp" value="4"/>
+			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
@@ -1742,7 +1742,7 @@
 			<property name="DamageBonus.metal" value="0.25"/>
 			<property name="DamageBonus.organic" value="2"/>
 			<property name="ToolCategory.Harvest" value="1"/>
-			<property name="ActionExp" value="4"/>
+			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
