@@ -14338,8 +14338,6 @@
 		<property name="Group" value="Building,Science"/>
 	</block>
 	<block id="1562" name="bedroll">
-		<property name="DescriptionKey" value="bedGroupDesc"/>
-		<property name="Class" value="SleepingBag"/>
 		<property name="Material" value="cloth"/>
 		<property name="StabilitySupport" value="false"/>
 		<!-- build restriction -->
@@ -14372,6 +14370,7 @@
 		<property name="EconomicBundleSize" value="10"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
+		<property name="DescriptionKey" value="dirtyBedrollDesc"/>
 	</block>
 	<block id="1563" name="workbench">
 		<property name="Class" value="Workstation"/>
@@ -17524,6 +17523,12 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="TakeDelay" value="10"/>
+	</block>
+	<block id="964" name="bedroll_Player">
+		<property name="Extends" value="bedroll"/>
+		<property name="Class" value="SleepingBag"/>
+		<property name="CustomIcon" value="bedroll"/>
+		<property name="DescriptionKey" value="bedGroupDesc"/>
 	</block>
 </blocks>
 <!-- Block limit: No block can have an ID greater 2047. -->

@@ -222,8 +222,8 @@ awningGroupDesc,blocks,Block,KgNone,An awning made from cloth.,Une toile en tiss
 bed01,blocks,Block,KgNone,An Old Bed,Un vieux lit,Altes Bett,,Una cama vieja
 bed01Frame,blocks,Block,KgNone,Iron Bed Frame,Cadre de lit en fer,Eisenbettgestell,,Bastidor de cama de hierro
 bed02,blocks,Block,KgNone,King Size Bed,Grand lit,Doppelbett,,Cama king size
-bedGroupDesc,blocks,Block,KgNone,Placing it on the ground will let you spawn there when you die and then show the spot on your map. Standing on a bed will decrease your fatigue and speed up infection recovery time of antibiotics and honey poultice,"En le plaçant à terre, vous pourrez réapparaître à cet endroit lorsque vous mourrez et il sera indiqué sur votre carte.","Wenn du dies platzierst, kannst du dort wiedererscheinen, falls du stirbst. Außerdem wird der Standort auf deiner Karte angezeigt.",,"Si la colocas en el suelo, revives allí cada vez que mueras. Además, se mostrará el lugar en el mapa."
-bedroll,blocks,Block,KgNone,Bedroll,Sac de couchage,Schlafsack,,Saco de dormir
+bedGroupDesc,blocks,Block,KgNone,Placing it on the ground will let you spawn there when you die and then show the spot on your map. Standing on a bed will decrease your fatigue and speed up infection recovery time with antibiotics and honey poultice,"En le plaçant à terre, vous pourrez réapparaître à cet endroit lorsque vous mourrez et il sera indiqué sur votre carte.","Wenn du dies platzierst, kannst du dort wiedererscheinen, falls du stirbst. Außerdem wird der Standort auf deiner Karte angezeigt.",,"Si la colocas en el suelo, revives allí cada vez que mueras. Además, se mostrará el lugar en el mapa."
+bedroll,blocks,Block,KgNone,Dirty Old Bedroll,Sac de couchage,Schlafsack,,Saco de dormir
 boardedWindowsSheet4,blocks,Block,KgNone,Window Boards,Rebords de fenêtre,Fensterbretter,,Tapias
 brickBlock,blocks,Block,KgNone,Bricks,Briques,Ziegel,,Ladrillos
 brickCNRFull,blocks,Block,KgNone,Brick Full Corner,Angle complet en brique,Ziegel – Komplette Ecke,,Esquina de ladrillo
@@ -5119,6 +5119,8 @@ shotgunTurretBrokenDesc,blocks,Electricity,New,"A broken shotgun turret, needs r
 bladeTrapBroken,blocks,Electricity,New,Broken Blade Trap,,,,
 bladeTrapBrokenDesc,blocks,Electricity,New,"A broken blade trap, needs repairs.",,,,
 bladeTrapSteel,blocks,Electricity,New,Steel Blade Trap,,,,
+bedroll_Player,blocks,Block,KgNone,Bedroll,Sac de couchage,Schlafsack,,Saco de dormir
+dirtyBedrollDesc,blocks,Block,KgNone,Dirty old bedroll not good enough to respawn at. But it will still decrease your fatigue and speed up infection recovery time with antibiotics and honey poultice.,,,,
 bombDefusalKit,items,Item,KgNone,Bomb Defusal Kit,,,,
 bombDefusalKitDesc,items,Item,KgNone,Use this kit along with defuser to defuse mines.,,,,
 defuser,items,Item,KgNone,Defuser,,,,

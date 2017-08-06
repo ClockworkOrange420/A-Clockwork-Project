@@ -1555,7 +1555,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="cntTrash_can01" count="1" craft_time = "20" craft_exp_gain="45" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="5"/>
 	</recipe>
-	<recipe name="bedroll" count="1" craft_time = "20" craft_exp_gain="67" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+	<recipe name="bedroll_Player" count="1" craft_time = "20" craft_exp_gain="67" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="cloth" count="15"/>
 		<ingredient name="cottonPlant" count="20"/>
 		<ingredient name="Cordage" count="5"/>
