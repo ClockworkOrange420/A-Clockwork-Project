@@ -2833,7 +2833,25 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="oilShale" count="24"/>
 		<ingredient name="canEmpty" count="1"/>
 	</recipe>
+	<recipe name="oil" count="1" craft_time = "4" craft_exp_gain="24" craft_area="Old_Oven" craft_tool="beaker" >
+		<ingredient name="oilShale" count="24"/>
+		<ingredient name="canEmpty" count="1"/>
+	</recipe>
+	<recipe name="oil" count="1" craft_time = "4" craft_exp_gain="24" craft_area="New_Oven" craft_tool="beaker" >
+		<ingredient name="oilShale" count="24"/>
+		<ingredient name="canEmpty" count="1"/>
+	</recipe>
 	<recipe name="paper" count="10" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="glue" count="1"/>
+		<ingredient name="bottledRiverWater" count="1"/>
+	</recipe>
+	<recipe name="paper" count="10" craft_time = "4" craft_exp_gain="24" craft_area="Old_Oven" craft_tool="beaker" >
+		<ingredient name="wood" count="10"/>
+		<ingredient name="glue" count="1"/>
+		<ingredient name="bottledRiverWater" count="1"/>
+	</recipe>
+	<recipe name="paper" count="10" craft_time = "4" craft_exp_gain="24" craft_area="New_Oven" craft_tool="beaker" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="glue" count="1"/>
 		<ingredient name="bottledRiverWater" count="1"/>
@@ -2846,6 +2864,14 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="Tomato" count="4"/>
 	</recipe>
 	<recipe name="steelPolish" count="1" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="Flour" count="1"/>
+		<ingredient name="animalFat" count="1"/>
+	</recipe>
+	<recipe name="steelPolish" count="1" craft_time = "8" craft_exp_gain="14" craft_area="Old_Oven" craft_tool="beaker" >
+		<ingredient name="Flour" count="1"/>
+		<ingredient name="animalFat" count="1"/>
+	</recipe>
+	<recipe name="steelPolish" count="1" craft_time = "8" craft_exp_gain="14" craft_area="New_Oven" craft_tool="beaker" >
 		<ingredient name="Flour" count="1"/>
 		<ingredient name="animalFat" count="1"/>
 	</recipe>
