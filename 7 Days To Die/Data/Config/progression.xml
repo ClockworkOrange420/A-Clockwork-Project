@@ -564,7 +564,6 @@
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="40"/>
 		<recipe name="scrapIronPlate" unlock_level="1"/>
 		<recipe name="ironArrow" unlock_level="1"/>
-		<recipe name="ironTippedSpear" unlock_level="1"/>
 	</perk>
 	<perk name="Steel Smithing" icon="resource" description_key="Unlocks Steel smithing." title_key="Steel Smithing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="crafting">
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="30"/>
@@ -572,7 +571,6 @@
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="15"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="50"/>
 		<recipe name="forgedSteel" unlock_level="1"/>
-		<recipe name="steelTippedSpear" unlock_level="1"/>
 		<recipe name="steelArrowHead" unlock_level="1"/>
 		<recipe name="steelArrow" unlock_level="1"/>
 		<recipe name="steelCrossbowBolt" unlock_level="1"/>
