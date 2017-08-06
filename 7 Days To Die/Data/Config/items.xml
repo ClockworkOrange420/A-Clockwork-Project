@@ -1574,9 +1574,9 @@
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="10,15"/>
-			<property name="BlockDamage" value="20,35"/>
+			<property name="BlockDamage" value="20,30"/>
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,2"/>
+			<property name="DegradationRate" value="5,2"/>
 			<property name="DismembermentBaseChance" value="0.01,0.05"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
@@ -1598,9 +1598,9 @@
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="15,20"/>
-			<property name="BlockDamage" value="40,75"/>
+			<property name="BlockDamage" value="30,50"/>
 			<property name="DegradationMax" value="4000,4000"/>
-			<property name="DegradationRate" value="40,6"/>
+			<property name="DegradationRate" value="15,6"/>
 			<property name="DismembermentBaseChance" value="0.02,0.06"/>
 		</property>
 	</item>
@@ -1628,7 +1628,7 @@
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.organic" value="0.2"/>
 			<property name="DamageBonus.metal" value="2.5"/>
-			<property name="DamageBonus.stone" value="2"/>
+			<property name="DamageBonus.stone" value="1"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
@@ -1636,9 +1636,9 @@
 		<property name="Group" value="Tools/Traps"/>
 		<property class="Attributes">
 			<property name="EntityDamage" value="5,15"/>
-			<property name="BlockDamage" value="30,60"/>
+			<property name="BlockDamage" value="40,60"/>
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,2"/>
+			<property name="DegradationRate" value="5,2"/>
 			<property name="DismembermentBaseChance" value="0.01,0.03"/>
 		</property>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
@@ -1656,18 +1656,18 @@
 			<property name="Delay" value="1.5"/>
 			<property name="Stamina_usage" value="9"/>
 			<property name="DamageBonus.head" value="1"/>
-			<property name="DamageBonus.stone" value="2.5"/>
-			<property name="DamageBonus.metal" value="3"/>
+			<property name="DamageBonus.stone" value="1"/>
+			<property name="DamageBonus.metal" value="2.5"/>
 			<property name="ActionExp" value="6"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
 		<property class="Attributes">
 			<property name="EntityDamage" value="6,20"/>
-			<property name="BlockDamage" value="60,120"/>
+			<property name="BlockDamage" value="60,80"/>
 			<!-- up to x4 from skills -->
 			<property name="DegradationMax" value="4000,4000"/>
-			<property name="DegradationRate" value="40,6"/>
+			<property name="DegradationRate" value="15,6"/>
 		</property>
 	</item>
 	<item id="117" name="stoneShovel">
@@ -1685,13 +1685,13 @@
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
-			<property name="Delay" value="1.1"/>
+			<property name="Delay" value="1.2"/>
 			<property name="Range" value="2"/>
 			<property name="Sphere" value="0.2"/>
 			<property name="Block_range" value="4"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="7"/>
-			<property name="DamageBonus.earth" value="1.5"/>
+			<property name="DamageBonus.earth" value="1"/>
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.head" value="1"/>
 			<property name="DamageBonus.wood" value="0.3"/>
@@ -1704,7 +1704,7 @@
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="5,15"/>
-			<property name="BlockDamage" value="10,20"/>
+			<property name="BlockDamage" value="15,20"/>
 			<property name="DegradationMax" value="600,600"/>
 			<property name="DegradationRate" value="6,1"/>
 		</property>
@@ -1728,13 +1728,13 @@
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
-			<property name="Delay" value="1.1"/>
+			<property name="Delay" value="1.2"/>
 			<property name="Range" value="2"/>
 			<property name="Block_range" value="4"/>
 			<property name="Sphere" value="0.2"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="7"/>
-			<property name="DamageBonus.earth" value="2"/>
+			<property name="DamageBonus.earth" value="1"/>
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.head" value="1"/>
 			<property name="DamageBonus.wood" value="0.25"/>
@@ -1747,10 +1747,10 @@
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="8,19"/>
-			<property name="BlockDamage" value="15,30"/>
+			<property name="BlockDamage" value="20,25"/>
 			<!-- dirt blocks have up to 250 hp; skills + perks up to x4 the damage  -->
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,2"/>
+			<property name="DegradationRate" value="5,2"/>
 			<property name="DismembermentBaseChance" value="0.04,0.08"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
@@ -1769,14 +1769,14 @@
 		<property class="Action0">
 			<property name="Delay" value="1.2"/>
 			<property name="Stamina_usage" value="7"/>
-			<property name="DamageBonus.earth" value="2"/>
+			<property name="DamageBonus.earth" value="1"/>
 			<property name="DamageBonus.organic" value="2"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="8,19"/>
-			<property name="BlockDamage" value="20,40"/>
+			<property name="BlockDamage" value="25,30"/>
 			<property name="DegradationMax" value="4000,4000"/>
-			<property name="DegradationRate" value="40,6"/>
+			<property name="DegradationRate" value="15,6"/>
 		</property>
 	</item>
 	<item id="122" name="hoeIron">
@@ -1821,7 +1821,7 @@
 			<property name="EntityDamage" value="4,12"/>
 			<property name="BlockDamage" value="10,20"/>
 			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,2"/>
+			<property name="DegradationRate" value="5,2"/>
 			<property name="DismembermentBaseChance" value="-0.3,-0.15"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
@@ -2083,10 +2083,10 @@
 			<property name="Horde_meter_rate" value="0.275"/>
 			<property name="Horde_meter_distance" value="20"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
-			<property name="DamageBonus.wood" value="0.2"/>
-			<property name="DamageBonus.earth" value="20"/>
-			<property name="DamageBonus.stone" value="30"/>
-			<property name="DamageBonus.metal" value="40"/>
+			<property name="DamageBonus.wood" value="0.02"/>
+			<property name="DamageBonus.earth" value="2"/>
+			<property name="DamageBonus.stone" value="3"/>
+			<property name="DamageBonus.metal" value="20"/>
 			<property name="DamageBonus.organic" value="10"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="SupportHarvesting" value="true"/>
@@ -3295,7 +3295,7 @@
 		<property name="Weight" value="50"/>
 		<property class="Attributes">
 			<property name="EntityDamage" value="10,20"/>
-			<property name="BlockDamage" value="5,10"/>
+			<property name="BlockDamage" value="15,20"/>
 			<property name="DismembermentBaseChance" value="0.01,0.03"/>
 			<property name="DismembermentBonus" value="0,0"/>
 			<property name="DegradationMax" value="6000,6000"/>
@@ -3319,7 +3319,7 @@
 		<property name="Weight" value="50"/>
 		<property class="Attributes">
 			<property name="EntityDamage" value="5,10"/>
-			<property name="BlockDamage" value="5,10"/>
+			<property name="BlockDamage" value="15,20"/>
 			<property name="DegradationMax" value="6000,6000"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
