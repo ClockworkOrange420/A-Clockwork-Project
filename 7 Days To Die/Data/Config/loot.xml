@@ -2248,7 +2248,7 @@
 	
 	<!-- for composter -->
 	<lootgroup name="composter" count="all" >
-		<item name="Fertilizer" count="20" />
+		<item name="Fertilizer" count="15" />
 	</lootgroup>
 	<lootcontainer id="102"  count="1" size="2,2" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest">
 		<item group="composter" prob="1" />

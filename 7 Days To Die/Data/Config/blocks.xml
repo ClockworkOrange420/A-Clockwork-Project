@@ -16301,7 +16301,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="Composter_Filling"/>
 			<property name="Item" value="Compost"/>
-			<property name="ItemCount" value="20"/>
+			<property name="ItemCount" value="5"/>
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
 		<property class="RepairItems">
