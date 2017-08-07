@@ -5,7 +5,7 @@
 	max_level="200"
 	exp_to_level="19550"
 	experience_multiplier="1"
-	skill_points_per_level="5"
+	skill_points_per_level="7"
 	skill_point_multiplier="0"/>
 	<!-- A15: 8000 XP for level 1 and 134k for level 199, total cumulative of 9MXP; XPRequired = exp_to_level * experience_multiplier ^ level -->
 	<!-- A16: 8300 XP for level 1, total cumulative of 11MXP -->
@@ -38,7 +38,7 @@
 		</effect>
 	</player_skill>
 	
-	<player_skill name="Barter" exp_to_level="100" skill_point_cost_per_level="0" icon="coin" description_key="barterDesc" title_key="barter" group="scavenging">
+	<player_skill name="Barter" exp_to_level="2000" skill_point_cost_per_level="0" icon="coin" description_key="barterDesc" title_key="barter" group="scavenging">
 		<effect name="Bartering">
 			<add skill_level="1,10" value="0.00,0.15"/>
 			<add skill_level="10,20" value="0.15,0.23"/>
@@ -225,45 +225,51 @@
 	
 	<!--Perk Recipe Unlocks-->
 	
-	<perk name="Light Armor" icon="light_armor" description_key="clothingArmorDesc" title_key="Light Armor" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
-		<requirement perk_level="1" required_skill_name="Tailoring" required_skill_level="25"/>
-		<requirement perk_level="2" required_skill_name="Tailoring" required_skill_level="50"/>
-		<requirement perk_level="3" required_skill_name="Tailoring" required_skill_level="75"/>
-		<requirement perk_level="4" required_skill_name="Tailoring" required_skill_level="100"/>
+	<perk name="Light Armor" icon="light_armor" description_key="clothingArmorDesc" title_key="Light Armor" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
+		<requirement perk_level="1" required_skill_name="Tailoring" required_skill_level="10"/>
+		<requirement perk_level="2" required_skill_name="Tailoring" required_skill_level="30"/>
+		<requirement perk_level="3" required_skill_name="Tailoring" required_skill_level="50"/>
+		<requirement perk_level="4" required_skill_name="Tailoring" required_skill_level="70"/>
+		<requirement perk_level="5" required_skill_name="Tailoring" required_skill_level="90"/>
 		<effect name="ArmorDefense">
 			<add perk_level="0" value="0"/>
-			<add skill_level="1" value="0.05"/>
-			<add skill_level="2" value="0.1"/>
-			<add skill_level="3" value="0.15"/>
-			<add skill_level="4" value="0.2"/>
+			<add skill_level="1" value="0.04"/>
+			<add skill_level="2" value="0.08"/>
+			<add skill_level="3" value="0.12"/>
+			<add skill_level="4" value="0.16"/>
+			<add skill_level="5" value="0.2"/>
 		</effect>
 	</perk>
 	
-	<perk name="Medium Armor" icon="ui_game_symbol_armor_leather" description_key="clothingArmorDesc" title_key="Medium Armor" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
-		<requirement perk_level="1" required_skill_name="Leatherworking" required_skill_level="25"/>
-		<requirement perk_level="2" required_skill_name="Leatherworking" required_skill_level="50"/>
-		<requirement perk_level="3" required_skill_name="Leatherworking" required_skill_level="75"/>
-		<requirement perk_level="4" required_skill_name="Leatherworking" required_skill_level="100"/>
+	<perk name="Medium Armor" icon="ui_game_symbol_armor_leather" description_key="clothingArmorDesc" title_key="Medium Armor" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
+		<requirement perk_level="1" required_skill_name="Leatherworking" required_skill_level="10"/>
+		<requirement perk_level="2" required_skill_name="Leatherworking" required_skill_level="30"/>
+		<requirement perk_level="3" required_skill_name="Leatherworking" required_skill_level="50"/>
+		<requirement perk_level="4" required_skill_name="Leatherworking" required_skill_level="70"/>
+		<requirement perk_level="5" required_skill_name="Leatherworking" required_skill_level="90"/>
 		<effect name="ArmorDefense">
 			<add perk_level="0" value="0"/>
-			<add skill_level="1" value="0.05"/>
-			<add skill_level="2" value="0.1"/>
-			<add skill_level="3" value="0.15"/>
-			<add skill_level="4" value="0.2"/>
+			<add skill_level="1" value="0.04"/>
+			<add skill_level="2" value="0.08"/>
+			<add skill_level="3" value="0.12"/>
+			<add skill_level="4" value="0.16"/>
+			<add skill_level="5" value="0.2"/>
 		</effect>
 	</perk>
 	
-	<perk name="Heavy Armor" icon="ui_game_symbol_armor_iron" description_key="clothingArmorDesc" title_key="Heavy Armor" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
-		<requirement perk_level="1" required_skill_name="craftSkillArmor" required_skill_level="25"/>
-		<requirement perk_level="2" required_skill_name="craftSkillArmor" required_skill_level="50"/>
-		<requirement perk_level="3" required_skill_name="craftSkillArmor" required_skill_level="75"/>
-		<requirement perk_level="4" required_skill_name="craftSkillArmor" required_skill_level="100"/>
+	<perk name="Heavy Armor" icon="ui_game_symbol_armor_iron" description_key="clothingArmorDesc" title_key="Heavy Armor" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
+		<requirement perk_level="1" required_skill_name="craftSkillArmor" required_skill_level="10"/>
+		<requirement perk_level="2" required_skill_name="craftSkillArmor" required_skill_level="30"/>
+		<requirement perk_level="3" required_skill_name="craftSkillArmor" required_skill_level="50"/>
+		<requirement perk_level="4" required_skill_name="craftSkillArmor" required_skill_level="70"/>
+		<requirement perk_level="5" required_skill_name="craftSkillArmor" required_skill_level="90"/>
 		<effect name="ArmorDefense">
 			<add perk_level="0" value="0"/>
-			<add skill_level="1" value="0.05"/>
-			<add skill_level="2" value="0.1"/>
-			<add skill_level="3" value="0.15"/>
-			<add skill_level="4" value="0.2"/>
+			<add skill_level="1" value="0.04"/>
+			<add skill_level="2" value="0.08"/>
+			<add skill_level="3" value="0.12"/>
+			<add skill_level="4" value="0.16"/>
+			<add skill_level="5" value="0.2"/>
 		</effect>
 	</perk>
 	
@@ -653,7 +659,7 @@
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="40"/>
 		<recipe name="batterybank" unlock_level="1"/>
 	</perk>
-	<perk name="electricGeneratorPerk" icon="electric_generator" description_key="electricGeneratorDesc" title_key="electricGeneratorName" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="science">
+	<perk name="electricGeneratorPerk" icon="electric_generator" description_key="electricGeneratorDesc" title_key="electricGeneratorName" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="50"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="50"/>
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="50"/>
@@ -715,21 +721,23 @@
 		</effect>
 	</perk>
 	
-	<perk name="Knife Guy" icon="knife" description_key="knifeGuyDesc" title_key="knifeGuy" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
-		<requirement perk_level="1" required_skill_name="Blade Weapons" required_skill_level="25"/>
-		<requirement perk_level="2" required_skill_name="Blade Weapons" required_skill_level="50"/>
-		<requirement perk_level="3" required_skill_name="Blade Weapons" required_skill_level="75"/>
-		<requirement perk_level="4" required_skill_name="Blade Weapons" required_skill_level="100"/>
+	<perk name="Knife Guy" icon="knife" description_key="knifeGuyDesc" title_key="knifeGuy" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+		<requirement perk_level="1" required_skill_name="Blade Weapons" required_skill_level="10"/>
+		<requirement perk_level="2" required_skill_name="Blade Weapons" required_skill_level="30"/>
+		<requirement perk_level="3" required_skill_name="Blade Weapons" required_skill_level="50"/>
+		<requirement perk_level="4" required_skill_name="Blade Weapons" required_skill_level="70"/>
+		<requirement perk_level="5" required_skill_name="Blade Weapons" required_skill_level="90"/>
 		<effect name="EntityDamage">
 			<multiply perk_level="0" value="1"/>
-			<multiply skill_level="1" value="1.25"/>
-			<multiply skill_level="2" value="1.5"/>
-			<multiply skill_level="3" value="1.75"/>
-			<multiply skill_level="4" value="2"/>
+			<multiply skill_level="1" value="1.2"/>
+			<multiply skill_level="2" value="1.4"/>
+			<multiply skill_level="3" value="1.6"/>
+			<multiply skill_level="4" value="1.8"/>
+			<multiply skill_level="5" value="2"/>
 		</effect>
 	</perk>
 	
-	<perk name="The Decapitator" icon="knife" description_key="theDecapitatorDesc" title_key="decapitator" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+	<perk name="The Decapitator" icon="knife" description_key="theDecapitatorDesc" title_key="Jack The Ripper" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
 		<requirement perk_level="1" required_skill_name="Blade Weapons" required_skill_level="50"/>
 		<requirement perk_level="2" required_skill_name="Blade Weapons" required_skill_level="75"/>
 		<requirement perk_level="3" required_skill_name="Blade Weapons" required_skill_level="100"/>
@@ -741,17 +749,19 @@
 		</effect>
 	</perk>
 	
-	<perk name="Robin Hood" icon="archery" description_key="Increases damage with each rank, using a Bow." title_key="Robin Hood" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
-		<requirement perk_level="1" required_skill_name="Archery" required_skill_level="25"/>
-		<requirement perk_level="2" required_skill_name="Archery" required_skill_level="50"/>
-		<requirement perk_level="3" required_skill_name="Archery" required_skill_level="75"/>
-		<requirement perk_level="4" required_skill_name="Archery" required_skill_level="100"/>
+	<perk name="Robin Hood" icon="archery" description_key="Increases damage with each rank, using a Bow." title_key="Robin Hood" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+		<requirement perk_level="1" required_skill_name="Archery" required_skill_level="10"/>
+		<requirement perk_level="2" required_skill_name="Archery" required_skill_level="30"/>
+		<requirement perk_level="3" required_skill_name="Archery" required_skill_level="50"/>
+		<requirement perk_level="4" required_skill_name="Archery" required_skill_level="70"/>
+		<requirement perk_level="5" required_skill_name="Archery" required_skill_level="90"/>
 		<effect name="EntityDamage">
 			<multiply perk_level="0" value="1"/>
-			<multiply skill_level="1" value="1.25"/>
-			<multiply skill_level="2" value="1.5"/>
-			<multiply skill_level="3" value="1.75"/>
-			<multiply skill_level="4" value="2"/>
+			<multiply skill_level="1" value="1.2"/>
+			<multiply skill_level="2" value="1.4"/>
+			<multiply skill_level="3" value="1.6"/>
+			<multiply skill_level="4" value="1.8"/>
+			<multiply skill_level="5" value="2"/>
 		</effect>
 	</perk>
 	
@@ -767,17 +777,19 @@
 		</effect>
 	</perk>
 	
-	<perk name="The Outlaw" icon="pistol" description_key="theOutlawDesc" title_key="theOutlaw" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
-		<requirement perk_level="1" required_skill_name="Pistols" required_skill_level="25"/>
-		<requirement perk_level="2" required_skill_name="Pistols" required_skill_level="50"/>
-		<requirement perk_level="3" required_skill_name="Pistols" required_skill_level="75"/>
-		<requirement perk_level="4" required_skill_name="Pistols" required_skill_level="100"/>
+	<perk name="The Outlaw" icon="pistol" description_key="theOutlawDesc" title_key="theOutlaw" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
+		<requirement perk_level="1" required_skill_name="Pistols" required_skill_level="10"/>
+		<requirement perk_level="2" required_skill_name="Pistols" required_skill_level="30"/>
+		<requirement perk_level="3" required_skill_name="Pistols" required_skill_level="50"/>
+		<requirement perk_level="4" required_skill_name="Pistols" required_skill_level="70"/>
+		<requirement perk_level="5" required_skill_name="Pistols" required_skill_level="90"/>
 		<effect name="EntityDamage">
 			<multiply perk_level="0" value="1"/>
-			<multiply skill_level="1" value="1.25"/>
-			<multiply skill_level="2" value="1.5"/>
-			<multiply skill_level="3" value="1.75"/>
-			<multiply skill_level="4" value="2"/>
+			<multiply skill_level="1" value="1.2"/>
+			<multiply skill_level="2" value="1.4"/>
+			<multiply skill_level="3" value="1.6"/>
+			<multiply skill_level="4" value="1.8"/>
+			<multiply skill_level="5" value="2"/>
 		</effect>
 	</perk>
 		
@@ -793,17 +805,19 @@
 		</effect>
 	</perk>
 	
-	<perk name="Boom Stick" icon="shotgun" description_key="boomStickDesc" title_key="boomStick" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
-		<requirement perk_level="1" required_skill_name="Shotguns" required_skill_level="25"/>
-		<requirement perk_level="2" required_skill_name="Shotguns" required_skill_level="50"/>
-		<requirement perk_level="3" required_skill_name="Shotguns" required_skill_level="75"/>
-		<requirement perk_level="4" required_skill_name="Shotguns" required_skill_level="100"/>
+	<perk name="Boom Stick" icon="shotgun" description_key="boomStickDesc" title_key="boomStick" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
+		<requirement perk_level="1" required_skill_name="Shotguns" required_skill_level="10"/>
+		<requirement perk_level="2" required_skill_name="Shotguns" required_skill_level="30"/>
+		<requirement perk_level="3" required_skill_name="Shotguns" required_skill_level="50"/>
+		<requirement perk_level="4" required_skill_name="Shotguns" required_skill_level="70"/>
+		<requirement perk_level="5" required_skill_name="Shotguns" required_skill_level="90"/>
 		<effect name="EntityDamage">
 			<multiply perk_level="0" value="1"/>
-			<multiply skill_level="1" value="1.25"/>
-			<multiply skill_level="2" value="1.5"/>
-			<multiply skill_level="3" value="1.75"/>
-			<multiply skill_level="4" value="2"/>
+			<multiply skill_level="1" value="1.2"/>
+			<multiply skill_level="2" value="1.4"/>
+			<multiply skill_level="3" value="1.6"/>
+			<multiply skill_level="4" value="1.8"/>
+			<multiply skill_level="5" value="2"/>
 		</effect>
 	</perk>
 	
@@ -819,45 +833,75 @@
 		</effect>
 	</perk>
 	
-	<perk name="Better Lead Than Dead" icon="rifle" description_key="betterLeadThanDeadDesc" title_key="betterLeadThanDead" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
-		<requirement perk_level="1" required_skill_name="Rifles" required_skill_level="25"/>
-		<requirement perk_level="2" required_skill_name="Rifles" required_skill_level="50"/>
-		<requirement perk_level="3" required_skill_name="Rifles" required_skill_level="75"/>
-		<requirement perk_level="4" required_skill_name="Rifles" required_skill_level="100"/>
+	<perk name="Better Lead Than Dead" icon="rifle" description_key="betterLeadThanDeadDesc" title_key="betterLeadThanDead" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
+		<requirement perk_level="1" required_skill_name="Rifles" required_skill_level="10"/>
+		<requirement perk_level="2" required_skill_name="Rifles" required_skill_level="30"/>
+		<requirement perk_level="3" required_skill_name="Rifles" required_skill_level="50"/>
+		<requirement perk_level="4" required_skill_name="Rifles" required_skill_level="70"/>
+		<requirement perk_level="5" required_skill_name="Rifles" required_skill_level="90"/>
 		<effect name="EntityDamage">
 			<multiply perk_level="0" value="1"/>
-			<multiply skill_level="1" value="1.25"/>
-			<multiply skill_level="2" value="1.5"/>
-			<multiply skill_level="3" value="1.75"/>
-			<multiply skill_level="4" value="2"/>
+			<multiply skill_level="1" value="1.2"/>
+			<multiply skill_level="2" value="1.4"/>
+			<multiply skill_level="3" value="1.6"/>
+			<multiply skill_level="4" value="1.8"/>
+			<multiply skill_level="5" value="2"/>
 		</effect>
 	</perk>
 	
-	<perk name="Pummel Pete" icon="club" description_key="pummelPeteDesc" title_key="pummelPete" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
-		<requirement perk_level="1" required_skill_name="Blunt Weapons" required_skill_level="20"/>
-		<requirement perk_level="2" required_skill_name="Blunt Weapons" required_skill_level="50"/>
-		<requirement perk_level="3" required_skill_name="Blunt Weapons" required_skill_level="75"/>
-		<requirement perk_level="4" required_skill_name="Blunt Weapons" required_skill_level="100"/>
-		<effect name="EntityDamage">
-			<multiply perk_level="0" value="1"/>
-			<multiply skill_level="1" value="1.25"/>
-			<multiply skill_level="2" value="1.5"/>
-			<multiply skill_level="3" value="1.75"/>
-			<multiply skill_level="4" value="2"/>
+	<perk name="Billy The Kid" icon="rifle" description_key="Increases chance to dismember or decapitate a zombie with each rank, using a Rifle." title_key="Billy The Kid" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+		<requirement perk_level="1" required_skill_name="Rifles" required_skill_level="50"/>
+		<requirement perk_level="2" required_skill_name="Rifles" required_skill_level="75"/>
+		<requirement perk_level="3" required_skill_name="Rifles" required_skill_level="100"/>
+		<effect name="DismembermentChance">
+			<add perk_level="0" value="1"/>
+			<add skill_level="1" value="0.1"/>
+			<add skill_level="2" value="0.2"/>
+			<add skill_level="3" value="0.3"/>
 		</effect>
 	</perk>
 	
-	<perk name="Miner 69er" icon="mining" description_key="miner69erDesc" title_key="miner69er" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
-		<requirement perk_level="1" required_skill_name="Mining Tools" required_skill_level="25"/>
-		<requirement perk_level="2" required_skill_name="Mining Tools" required_skill_level="50"/>
-		<requirement perk_level="3" required_skill_name="Mining Tools" required_skill_level="75"/>
-		<requirement perk_level="4" required_skill_name="Mining Tools" required_skill_level="100"/>
+	<perk name="Pummel Pete" icon="club" description_key="pummelPeteDesc" title_key="pummelPete" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+		<requirement perk_level="1" required_skill_name="Blunt Weapons" required_skill_level="10"/>
+		<requirement perk_level="2" required_skill_name="Blunt Weapons" required_skill_level="30"/>
+		<requirement perk_level="3" required_skill_name="Blunt Weapons" required_skill_level="50"/>
+		<requirement perk_level="4" required_skill_name="Blunt Weapons" required_skill_level="70"/>
+		<requirement perk_level="4" required_skill_name="Blunt Weapons" required_skill_level="90"/>
+		<effect name="EntityDamage">
+			<multiply perk_level="0" value="1"/>
+			<multiply skill_level="1" value="1.2"/>
+			<multiply skill_level="2" value="1.4"/>
+			<multiply skill_level="3" value="1.6"/>
+			<multiply skill_level="4" value="1.8"/>
+			<multiply skill_level="5" value="2"/>
+		</effect>
+	</perk>
+	
+	<perk name="Skull Crusher" icon="rifle" description_key="Increases chance to dismember or decapitate a zombie with each rank, using a blunt weapon." title_key="Skull Crusher" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+		<requirement perk_level="1" required_skill_name="Blunt Weapons" required_skill_level="50"/>
+		<requirement perk_level="2" required_skill_name="Blunt Weapons" required_skill_level="75"/>
+		<requirement perk_level="3" required_skill_name="Blunt Weapons" required_skill_level="100"/>
+		<effect name="DismembermentChance">
+			<add perk_level="0" value="1"/>
+			<add skill_level="1" value="0.1"/>
+			<add skill_level="2" value="0.2"/>
+			<add skill_level="3" value="0.3"/>
+		</effect>
+	</perk>
+	
+	<perk name="Miner 69er" icon="mining" description_key="miner69erDesc" title_key="miner69er" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+		<requirement perk_level="1" required_skill_name="Mining Tools" required_skill_level="10"/>
+		<requirement perk_level="2" required_skill_name="Mining Tools" required_skill_level="30"/>
+		<requirement perk_level="3" required_skill_name="Mining Tools" required_skill_level="50"/>
+		<requirement perk_level="4" required_skill_name="Mining Tools" required_skill_level="70"/>
+		<requirement perk_level="5" required_skill_name="Mining Tools" required_skill_level="90"/>
 		<effect name="BlockDamage">
 			<multiply perk_level="0" value="1"/>
-			<multiply skill_level="1" value="1.25"/>
-			<multiply skill_level="2" value="1.5"/>
-			<multiply skill_level="3" value="1.75"/>
-			<multiply skill_level="4" value="2"/>
+			<multiply skill_level="1" value="1.2"/>
+			<multiply skill_level="2" value="1.4"/>
+			<multiply skill_level="3" value="1.6"/>
+			<multiply skill_level="4" value="1.8"/>
+			<multiply skill_level="5" value="2"/>
 		</effect>
 	</perk>
 	
@@ -890,8 +934,8 @@
 	</perk>
 
 	<perk name="Fast Eddie" icon="loot_sack" description_key="fastEddieDesc" title_key="fastEddie" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" always_fire="true" group="scavenging">
-		<requirement perk_level="1" required_skill_name="Scavenging" required_skill_level="1"/>
-		<requirement perk_level="2" required_skill_name="Scavenging" required_skill_level="25"/>
+		<requirement perk_level="1" required_skill_name="Scavenging" required_skill_level="10"/>
+		<requirement perk_level="2" required_skill_name="Scavenging" required_skill_level="30"/>
 		<requirement perk_level="3" required_skill_name="Scavenging" required_skill_level="50"/>
 		<effect name="LootTime">
 			<multiply perk_level="0" value="1"/>
