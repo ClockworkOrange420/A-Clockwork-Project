@@ -721,7 +721,7 @@
 		</effect>
 	</perk>
 	
-	<perk name="Knife Guy" icon="knife" description_key="knifeGuyDesc" title_key="knifeGuy" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+	<perk name="Knife Guy" icon="knife" description_key="knifeGuyDesc" title_key="Jack The Ripper" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
 		<requirement perk_level="1" required_skill_name="Blade Weapons" required_skill_level="10"/>
 		<requirement perk_level="2" required_skill_name="Blade Weapons" required_skill_level="30"/>
 		<requirement perk_level="3" required_skill_name="Blade Weapons" required_skill_level="50"/>
@@ -737,7 +737,7 @@
 		</effect>
 	</perk>
 	
-	<perk name="The Decapitator" icon="knife" description_key="theDecapitatorDesc" title_key="Jack The Ripper" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+	<perk name="The Decapitator" icon="knife" description_key="theDecapitatorDesc" title_key="decapitator" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
 		<requirement perk_level="1" required_skill_name="Blade Weapons" required_skill_level="50"/>
 		<requirement perk_level="2" required_skill_name="Blade Weapons" required_skill_level="75"/>
 		<requirement perk_level="3" required_skill_name="Blade Weapons" required_skill_level="100"/>
