@@ -44,7 +44,7 @@
 		
 	<window name="HUDLeftStatBars">
 
-			<panel name="ClockworkWatch" backgroundcolor="[black]">
+			<panel name="ClockworkWatch" backgroundcolor="[black]" controller="HUDStatBar">
 				
 				<texture depth="1" pos="236,117" name="WatchBottom03" size="350,350" texture="@file:Mods\ACPIcons\UI\DWatchBottom.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
 				
@@ -78,7 +78,7 @@
 		</rect>
 	</window>
 	
-	<window name="windowToolbeltNumbersHUD" depth="10" width="603" height="22" pos="-313,100" anchor="CenterBottom">		
+	<window name="windowToolbeltNumbersHUD" depth="10" width="603" height="22" pos="-313,103" anchor="CenterBottom" controller="ToolbeltWindow">		
 		<label name="slot1" pos="22,0" width="22" height="22" text="  [DECEA3]1" font_size="20" justify="center"/>
 		<label name="slot2" pos="97,0" width="22" height="22" text="  [DECEA3]2" font_size="20" justify="center"/>
 		<label name="slot3" pos="172,0" width="22" height="22" text="  [DECEA3]3" font_size="20" justify="center"/>
