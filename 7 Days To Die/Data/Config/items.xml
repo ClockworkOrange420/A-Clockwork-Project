@@ -1511,6 +1511,8 @@
 			<property name="Repair_amount" value="100"/>
 			<property name="Upgrade_hit_offset" value="0"/>
 			<property name="Sound_start" value="repair_block"/>
+			<property name="ActionExp" value="1"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlate,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlate,concreteMix,cobblestones,yuccaFibers"/>
 		</property>
 		<property class="Attributes">
@@ -1868,6 +1870,8 @@
 			<property name="Upgrade_hit_offset" value="-1"/>
 			<property name="Sound_start" value="repair_block"/>
 			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlate,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlate,concreteMix,cobblestones,yuccaFibers"/>
+			<property name="ActionExp" value="1"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="4,10"/>
@@ -1919,6 +1923,8 @@
 			<property name="Upgrade_hit_offset" value="-2"/>
 			<property name="Sound_start" value="repair_block"/>
 			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlate,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlate,concreteMix,cobblestones,yuccaFibers,nail"/>
+			<property name="ActionExp" value="1"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="8,20"/>
@@ -1983,6 +1989,8 @@
 			<property name="Upgrade_action_sound" value="nailgun_fire"/>
 			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlate,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlate,concreteMix,cobblestones,yuccaFibers,nail"/>
 			<!--<property name="Restricted_upgrade_items" value="concrete"/>-->
+			<property name="ActionExp" value="1"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
 		<property name="ActionSkillGroup" value="Construction Tools"/>
