@@ -2,18 +2,18 @@
 <rwgmixer>
 	<world ruleset="vanilla" />
 	<rulesets>
-		<!-- if having trouble loading try changing the cell_size to "2000" or "2200" -->
 		<ruleset name="vanilla" cell_cache_size="8" cell_size="1800" cell_offset="0" generation_distance="30000" terrain_generator="vanilla" biome_generator="vanilla">
 			<cell_rule name="default" prob="1"/>
-			<!--<cell_rule name="customHubTest" position="0,1" prob="0"/>-->
 		</ruleset>
 	</rulesets>
 	<cell_rules>
 		<cell_rule name="default">
-			<cave_count value="1,8"/>
+			<cave_count value="4,8"/>
 			<path_material value="asphalt" />
 			<path_radius value="10" />
-			<hub_rule name="cityLarge" prob="1"/>
+			<hub_rule name="townLarge" prob="0.3"/>
+			<hub_rule name="cityLarge" prob="0.6"/>
+			<hub_rule name="rural" prob="0.3"/>
 			<wilderness_rule name="wildernessDefault" prob="1"/>
 		</cell_rule>
 	</cell_rules>
@@ -41,7 +41,7 @@
 			<height value="300, 400" />
 			<path_material value="asphalt" />
 			<path_radius value="10" />
-			<prefab_rule name="defaultTowns"/>
+			<prefab_rule name="default"/>
 			<street_gen level="15" length_multiplier="4">
 				<axiom value="[FF*L]+[FFJK]+[FF*L]+[FFJK]"/>
 				<rule char="J" replace_with="[KYX*]"/>
@@ -58,7 +58,7 @@
 			<height value="400, 600" />
 			<path_material value="asphalt" />
 			<path_radius value="10" />
-			<prefab_rule name="defaultTowns"/>
+			<prefab_rule name="default"/>
 			<street_gen level="20" length_multiplier="4">
 				<axiom value="[FF*L]+[FFJK]+[FF*L]+[FFJK]"/>
 				<rule char="J" replace_with="[KYX*]"/>
@@ -451,7 +451,6 @@
 			<prefab name="settlement_trader_05" />
 		</prefab_rule>
 	</prefab_rules>
-	<!-- 	GENERATOR MODULE TYPES AbsoluteOutput Add BiasOutput Blend ClampOutput CurveOutput DisplaceInput ExponentialOutput InvertInput InvertOutput LargerOutput Multiply Power RotateInput ScaleBiasOutput ScaleInput ScaleOutput Select SmallerOutput Terrace TranslateInput Billow Checkerboard Constant FastBillow FastNoise FastNoiseBasis FastRidgedMultifractal FastTurbulence GradientNoiseBasis RidgedMultifractal Turbulence Voronoi -->
 	<terrain_generators>
 		<terrain_generator name="vanilla" use_old_final="false">
 			<module name="landBase" type="FastBillow" no_seed="true">
