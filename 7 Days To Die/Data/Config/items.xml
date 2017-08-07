@@ -127,7 +127,7 @@
 			<property name="Sphere" value="0.2"/>
 			<property name="Block_range" value="4"/>
 			<property name="Sound_start" value="SlowSwoosh"/>
-			<property name="Stamina_usage" value="15"/>
+			<property name="Stamina_usage" value="9"/>
 			<property name="Buff" value="criticalBlunt,stunned,sprainedLeg"/>
 			<property name="Buff_chance" value="0.4,0.4,0.3"/>
 			<property name="DamageBonus.wood" value="2"/>
