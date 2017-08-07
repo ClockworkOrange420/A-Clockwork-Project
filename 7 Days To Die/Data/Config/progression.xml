@@ -877,7 +877,7 @@
 		</effect>
 	</perk>
 	
-	<perk name="Skull Crusher" icon="rifle" description_key="Increases chance to dismember or decapitate a zombie with each rank, using a blunt weapon." title_key="Skull Crusher" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+	<perk name="Skull Crusher" icon="club" description_key="Increases chance to dismember or decapitate a zombie with each rank, using a blunt weapon." title_key="Skull Crusher" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
 		<requirement perk_level="1" required_skill_name="Blunt Weapons" required_skill_level="50"/>
 		<requirement perk_level="2" required_skill_name="Blunt Weapons" required_skill_level="75"/>
 		<requirement perk_level="3" required_skill_name="Blunt Weapons" required_skill_level="100"/>
