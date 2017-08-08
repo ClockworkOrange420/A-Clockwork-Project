@@ -6872,7 +6872,7 @@
 		<property name="Meshfile" value="Items/Food/meat_rabbit"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="21"/>
-		<property name="Stacknumber" value="10"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
