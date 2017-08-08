@@ -4048,7 +4048,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="partsNailgun_frame" count="1"/>
 		<ingredient name="clayLump" count="5"/>
 	</recipe>
-	<recipe name="partsNailgun_frame" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Nailgun_Frame_Mold" >
+	<recipe name="partsNailgun_frame" count="1" craft_time = "30" craft_exp_gain="100" craft_area="Smithing_Table" craft_tool="Nailgun_Frame_Mold" >
 		<ingredient name="scrapPlastics" count="10"/>
 		<ingredient name="glue" count="10"/>
 	</recipe>
