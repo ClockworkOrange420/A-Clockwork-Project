@@ -1454,11 +1454,11 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="hiddenRScrapIronPlacement" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="scrapIronPlate" count="3" />
+		<ingredient name="scrapIronPlating" count="3" />
 	</recipe>
 	<recipe name="hiddenScrapIronPlacement" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
-		<ingredient name="scrapIronPlate" count="2" />
+		<ingredient name="scrapIronPlating" count="2" />
 	</recipe>
 	<recipe name="hiddenRConcretePlacement" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
@@ -2173,7 +2173,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="unit_clay" count="10"/>
 	</recipe>
 	<recipe name="garageDoorMetal_v1" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="scrapIronPlate" count="10"/>
+		<ingredient name="scrapIronPlating" count="10"/>
 		<ingredient name="spring" count="6"/>
 		<ingredient name="mechanicalParts" count="12"/>
 	</recipe>
@@ -2481,9 +2481,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="ironDoor1_v1" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="10"/>
 	</recipe>
-	<recipe name="rustyIronTable" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="scrapIron" count="10"/>
-	</recipe>
 	<recipe name="keystoneBlock" count="1" craft_area="workbench" >
 		<ingredient name="forgedSteel" count="50"/>
 	</recipe>
@@ -2769,7 +2766,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="nail" count="20"/>
 		<ingredient name="wood" count="100"/>
 	</recipe>
-	<recipe name="scrapIronPlate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="scrapIronPlating" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
 	<recipe name="stainlessSteelPlate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
@@ -2777,7 +2774,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="steelPolish" count="1"/>
 	</recipe>
 	<recipe name="rScrapIronPlateMine" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
-		<ingredient name="scrapIronPlate" count="1"/>
+		<ingredient name="scrapIronPlating" count="1"/>
 		<ingredient name="gunPowder" count="8"/>
 		<ingredient name="ductTape" count="1"/>
 		<ingredient name="nail" count="10"/>
@@ -2922,9 +2919,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="electricParts" count="10"/>
 		<ingredient name="ductTape" count="4"/>
 		<ingredient name="scrapPlastics" count="4"/>
-	</recipe>
-	<recipe name="rScrapIronTable" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="scrapIron" count="10"/>
 	</recipe>
 	<recipe name="sectionalPlaidCouchSofaArm" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="cloth" count="5"/>

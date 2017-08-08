@@ -831,7 +831,7 @@
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rScrapIronMaster"/>
-			<property name="Item" value="scrapIronPlate"/>
+			<property name="Item" value="scrapIronPlating"/>
 			<property name="ItemCount" value="1"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
@@ -1176,7 +1176,7 @@
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="scrapIronMaster"/>
-			<property name="Item" value="scrapIronPlate"/>
+			<property name="Item" value="scrapIronPlating"/>
 			<property name="ItemCount" value="1"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
@@ -1358,7 +1358,7 @@
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rScrapIronMaster"/>
-			<property name="Item" value="scrapIronPlate"/>
+			<property name="Item" value="scrapIronPlating"/>
 			<property name="ItemCount" value="1"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
@@ -1389,7 +1389,7 @@
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="scrapIronMaster"/>
-			<property name="Item" value="scrapIronPlate"/>
+			<property name="Item" value="scrapIronPlating"/>
 			<property name="ItemCount" value="1"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
@@ -1412,7 +1412,7 @@
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rScrapIronMaster"/>
-			<property name="Item" value="scrapIronPlate"/>
+			<property name="Item" value="scrapIronPlating"/>
 			<property name="ItemCount" value="1"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
@@ -6396,7 +6396,7 @@
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="metalReinforcedDoorWooden"/>
-			<property name="Item" value="scrapIronPlate"/>
+			<property name="Item" value="scrapIronPlating"/>
 			<property name="ItemCount" value="1"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
@@ -6433,7 +6433,7 @@
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="ironDoor1_v1"/>
-			<property name="Item" value="scrapIronPlate"/>
+			<property name="Item" value="scrapIronPlating"/>
 			<property name="ItemCount" value="1"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
@@ -7163,7 +7163,7 @@
 		<property name="ImposterExchange" value="imposterPyramid" param1="119"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="scrapIronLogSpike4"/>
-			<property name="Item" value="scrapIronPlate"/>
+			<property name="Item" value="scrapIronPlating"/>
 			<property name="ItemCount" value="1"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
@@ -11570,7 +11570,7 @@
 		<property name="ModelOffset" value="0,.5,0"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="scrapHatch_v1"/>
-			<property name="Item" value="scrapIronPlate"/>
+			<property name="Item" value="scrapIronPlating"/>
 			<property name="ItemCount" value="1"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
@@ -13017,6 +13017,12 @@
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="rustyIronTable"/>
+			<property name="Item" value="scrapIronPlating"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
 		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
 		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
 		<drop event="Destroy" count="0"/>
@@ -13036,7 +13042,7 @@
 	</block>
 	<!-- n Free -->
 	<block id="1418" name="rScrapIronTable">
-		<property name="Material" value="metal"/>
+		<property name="Material" value="Mmetal_medium"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="table"/>
 		<property name="IsDecoration" value="true"/>
@@ -13073,6 +13079,12 @@
 		<property name="ImposterExclude" value="true"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="10"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="rScrapIronTable"/>
+			<property name="Item" value="scrapIronPlating"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
@@ -13209,7 +13221,7 @@
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="garageDoorMetal_v2"/>
-			<property name="Item" value="scrapIronPlate"/>
+			<property name="Item" value="scrapIronPlating"/>
 			<property name="ItemCount" value="10"/>
 			<property name="UpgradeHitCount" value="5"/>
 		</property>
@@ -13232,7 +13244,7 @@
 		<property name="OnlySimpleRotations" value="true"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="garageDoorMetal_v3"/>
-			<property name="Item" value="scrapIronPlate"/>
+			<property name="Item" value="scrapIronPlating"/>
 			<property name="ItemCount" value="10"/>
 			<property name="UpgradeHitCount" value="6"/>
 		</property>
@@ -13289,7 +13301,7 @@
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rScrapIronLogSpike5"/>
-			<property name="Item" value="scrapIronPlate"/>
+			<property name="Item" value="scrapIronPlating"/>
 			<property name="ItemCount" value="1"/>
 		</property>
 		<drop event="Destroy" name="wood" count="0" tool_category="Harvest"/>
@@ -13665,7 +13677,7 @@
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="scrapHatch_v2"/>
-			<property name="Item" value="scrapIronPlate"/>
+			<property name="Item" value="scrapIronPlating"/>
 			<property name="ItemCount" value="1"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
