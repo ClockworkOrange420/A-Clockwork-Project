@@ -16669,6 +16669,7 @@
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<property name="OnlySimpleRotations" value="true"/>
+		<property name="CreativeMode" value="Dev"/>
 		<property class="Workstation">
 			<property name="Modules" value="tools,output"/>
 		</property>

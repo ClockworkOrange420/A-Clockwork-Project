@@ -7450,7 +7450,7 @@
 		<property name="FuelValue" value="5"/>
 		<property name="Stacknumber" value="1"/>
 		<!-- STK book -->
-		<property name="EconomicValue" value="250"/>
+		<property name="EconomicValue" value="2000"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="LearnRecipe"/>
@@ -7495,13 +7495,13 @@
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Leatherworking_Skill"/>
 		</property>
-	</item>
+	</item><!--
 	<item id="906" name="Medical_Book">
 		<property name="Extends" value="schematicMaster"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Medicine_Skill"/>
 		</property>
-	</item>
+	</item>-->
 	<item id="907" name="Tailoring">
 		<property name="Extends" value="schematicMaster"/>
 		<property class="Action1">
@@ -10229,6 +10229,7 @@
 		<property name="HoldType" value="45"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="Group" value="Resources"/>
+		<property name="UserHidden" value="true"/>
 	</item>
 	<item id="1604" name="Science_Skill">
 		<property name="Extends" value="MasterSkill"/>
@@ -10273,10 +10274,10 @@
 	<item id="1614" name="Archery_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Archery"/>
-	</item>
+	</item><!--
 	<item id="1615" name="Medicine_Skill">
 		<property name="Extends" value="MasterSkill"/>
-	</item>
+	</item>-->
 	<item id="1616" name="Weapon_Smithing_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillWeapons"/>

@@ -4240,10 +4240,10 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="Archery_Skill" count="1" craft_area="Crafting_Table" >
 		<ingredient name="Ink" count="1"/>
-	</recipe>
+	</recipe><!--
 	<recipe name="Medicine_Skill" count="1" craft_area="Crafting_Table" >
 		<ingredient name="Ink" count="1"/>
-	</recipe>
+	</recipe>-->
 	<recipe name="Weapon_Smithing_Skill" count="1" craft_area="Crafting_Table" >
 		<ingredient name="Ink" count="1"/>
 	</recipe>
