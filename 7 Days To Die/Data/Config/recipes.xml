@@ -2769,7 +2769,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="scrapIronPlating" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="stainlessSteelPlate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="stainlessSteelPlating" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedSteel" count="5"/>
 		<ingredient name="steelPolish" count="1"/>
 	</recipe>

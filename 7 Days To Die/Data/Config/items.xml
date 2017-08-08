@@ -1513,7 +1513,7 @@
 			<property name="Sound_start" value="repair_block"/>
 			<property name="ActionExp" value="1"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
-			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlate,concreteMix,cobblestones,yuccaFibers"/>
+			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlating,concreteMix,cobblestones,yuccaFibers"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="5,10"/>
@@ -1869,7 +1869,7 @@
 			<property name="Repair_amount" value="350"/>
 			<property name="Upgrade_hit_offset" value="-1"/>
 			<property name="Sound_start" value="repair_block"/>
-			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlate,concreteMix,cobblestones,yuccaFibers"/>
+			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlating,concreteMix,cobblestones,yuccaFibers"/>
 			<property name="ActionExp" value="1"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
@@ -1922,7 +1922,7 @@
 			<property name="Repair_amount" value="250"/>
 			<property name="Upgrade_hit_offset" value="-2"/>
 			<property name="Sound_start" value="repair_block"/>
-			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlate,concreteMix,cobblestones,yuccaFibers,nail"/>
+			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlating,concreteMix,cobblestones,yuccaFibers,nail"/>
 			<property name="ActionExp" value="1"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
@@ -1987,7 +1987,7 @@
 			<property name="Upgrade_hit_offset" value="-3"/>
 			<property name="Repair_action_sound" value="nailgun_fire"/>
 			<property name="Upgrade_action_sound" value="nailgun_fire"/>
-			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlate,concreteMix,cobblestones,yuccaFibers,nail"/>
+			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlating,concreteMix,cobblestones,yuccaFibers,nail"/>
 			<!--<property name="Restricted_upgrade_items" value="concrete"/>-->
 			<property name="ActionExp" value="1"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
@@ -10630,9 +10630,20 @@
 		<property name="CustomIcon" value="scrapIronPlate"/>
 		<property name="HoldType" value="45"/>
 		<property name="Stacknumber" value="1000"/>
-		<property name="EconomicValue" value="30"/>
+		<property name="EconomicValue" value="500"/>
 		<property name="Weight" value="50"/>
 		<property name="DescriptionKey" value="scrapIronPlatingDesc"/>
+		<property name="Group" value="Resources"/>
+	</item>
+	<item id="1635" name="stainlessSteelPlating">
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="Material" value="metal"/>
+		<property name="CustomIcon" value="steelPlate"/>
+		<property name="HoldType" value="45"/>
+		<property name="Stacknumber" value="1000"/>
+		<property name="EconomicValue" value="1000"/>
+		<property name="Weight" value="100"/>
+		<property name="DescriptionKey" value="stainlessSteelPlatingDesc"/>
 		<property name="Group" value="Resources"/>
 	</item>
 </items>
