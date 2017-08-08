@@ -4016,7 +4016,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="partsCompoundBow_body" count="1"/>
 		<ingredient name="clayLump" count="5"/>
 	</recipe>
-	<recipe name="partsCompoundBow_body" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Compound_Bow_Body_Mold" >
+	<recipe name="partsCompoundBow_body" count="1" craft_time = "30" craft_exp_gain="100" craft_area="Smithing_Table" craft_tool="Compound_Bow_Body_Mold" >
 		<ingredient name="scrapPlastics" count="20"/>
 		<ingredient name="glue" count="20"/>
 	</recipe>
