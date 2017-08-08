@@ -1448,7 +1448,8 @@
 	<item name="Dry Towel"/>
 	<item group="trophyGroup"/>
 	<item name="Remote" count="1"/>
-	<item name="partsNailgun_battery"/>
+	<item group="nailgunParts" prob="0.6"/>
+	<item group="weaponsCompoundBowParts" prob="0.6"/>
 	<item group="ammo"/>
 	<item group="books" count="1"/>
 	<item group="medicine"/>
