@@ -386,19 +386,19 @@
 <lootqualitytemplates>
 	<lootqualitytemplate name="treasureTemplate">
 		<qualitytemplate level="0,0.16" default_quality="1,100">
-			<loot quality="301,600" prob="0.015"/>
+			<loot quality="301,400" prob="0.015"/>
 			<loot quality="201,300" prob="0.075"/>
 			<loot quality="101,200" prob="0.22"/>
 			<loot quality="1,100"   prob="1"/>
 		</qualitytemplate>
 		<qualitytemplate level="0.16,0.32" default_quality="101,200">
-			<loot quality="301,600" prob="0.021"/>
+			<loot quality="301,450" prob="0.021"/>
 			<loot quality="201,300" prob="0.09"/>
 			<loot quality="101,200" prob="0.25"/>
 			<loot quality="1,200"   prob="1"/>
 		</qualitytemplate>
 		<qualitytemplate level="0.32,0.48" default_quality="201,300">
-			<loot quality="301,600" prob="0.03"/>
+			<loot quality="301,500" prob="0.03"/>
 			<loot quality="201,300" prob="0.12"/>
 			<loot quality="101,200" prob="0.30"/>
 			<loot quality="1,300"   prob="1"/>
@@ -687,21 +687,35 @@
 	<item name="762mmBullet" count="1,10"/>
 </lootgroup>
 
-<lootgroup name="weaponsCompoundBowParts" loot_quality_template="treasureTemplate"> <!-- weaponPartsTemplate -->
+<lootgroup name="weaponsCompoundBowParts" loot_quality_template="baseTemplate"> <!-- weaponPartsTemplate -->
 	<item name="partsCompoundBow_body"/>
 	<item name="partsCompoundBow_grip"/>
 	<item name="partsCompoundBow_parts"/>
 	<item name="partsCompoundBow_string"/>
 </lootgroup>
 
-<lootgroup name="weaponsMagnumParts" loot_quality_template="treasureTemplate"> <!-- weaponPartsTemplate -->
+<lootgroup name="weaponsCompoundBowPartsTreasure" loot_quality_template="treasureTemplate"> <!-- weaponPartsTemplate -->
+	<item name="partsCompoundBow_body"/>
+	<item name="partsCompoundBow_grip"/>
+	<item name="partsCompoundBow_parts"/>
+	<item name="partsCompoundBow_string"/>
+</lootgroup>
+
+<lootgroup name="weaponsMagnumParts" loot_quality_template="baseTemplate"> <!-- weaponPartsTemplate -->
 	<item name="parts44Magnum_cylinder"/>
 	<item name="parts44Magnum_frame"/>
 	<item name="parts44Magnum_grip"/>
 	<item name="parts44Magnum_parts"/>
 </lootgroup>
 
-<lootgroup name="weaponsCommonParts" loot_quality_template="treasureTemplate"> <!-- weaponPartsTemplate -->
+<lootgroup name="weaponsMagnumPartsTreasure" loot_quality_template="treasureTemplate"> <!-- weaponPartsTemplate -->
+	<item name="parts44Magnum_cylinder"/>
+	<item name="parts44Magnum_frame"/>
+	<item name="parts44Magnum_grip"/>
+	<item name="parts44Magnum_parts"/>
+</lootgroup>
+
+<lootgroup name="weaponsCommonParts" loot_quality_template="baseTemplate"> <!-- weaponPartsTemplate -->
 	<item name="partsPistol_barrel"/>
 	<item name="partsPistol_parts"/>
 	<item name="partsPistol_receiver"/>
@@ -718,14 +732,50 @@
 	<item name="partsHuntingRifle_parts"/>
 </lootgroup>
 
-<lootgroup name="weaponsHuntingRifleParts" loot_quality_template="treasureTemplate"> <!-- weaponPartsTemplate -->
+<lootgroup name="weaponsCommonPartsTreasure" loot_quality_template="treasureTemplate"> <!-- weaponPartsTemplate -->
+	<item name="partsPistol_barrel"/>
+	<item name="partsPistol_parts"/>
+	<item name="partsPistol_receiver"/>
+	<item name="partsPistol_grip"/>
+	<item name="partsPumpShotgun_barrel"/>
+	<item name="partsPumpShotgun_parts"/>
+	<item name="partsPumpShotgun_barrelShort"/>
+	<item name="partsPumpShotgun_stockShort"/>
+	<item name="partsPumpShotgun_stock"/>
+	<item name="partsPumpShotgun_receiver"/>
 	<item name="partsHuntingRifle_barrel"/>
 	<item name="partsHuntingRifle_stock"/>
 	<item name="partsHuntingRifle_receiver"/>
 	<item name="partsHuntingRifle_parts"/>
 </lootgroup>
 
-<lootgroup name="weaponsMilitaryParts" loot_quality_template="treasureTemplate"> <!-- weaponPartsTemplate -->
+<lootgroup name="weaponsHuntingRifleParts" loot_quality_template="baseTemplate"> <!-- weaponPartsTemplate -->
+	<item name="partsHuntingRifle_barrel"/>
+	<item name="partsHuntingRifle_stock"/>
+	<item name="partsHuntingRifle_receiver"/>
+	<item name="partsHuntingRifle_parts"/>
+</lootgroup>
+
+<lootgroup name="weaponsMilitaryParts" loot_quality_template="baseTemplate"> <!-- weaponPartsTemplate -->
+	<item name="partsMP5_barrel"/>
+	<item name="partsMP5_stock"/>
+	<item name="partsMP5_receiver"/>
+	<item name="partsMP5_parts"/>
+	<item name="partsAK47_barrel"/>
+	<item name="partsAK47_stock"/>
+	<item name="partsAK47_receiver"/>
+	<item name="partsAK47_parts"/>
+	<item name="partsSniperRifle_barrel"/>
+	<item name="partsSniperRifle_stock"/>
+	<item name="partsSniperRifle_receiver"/>
+	<item name="partsSniperRifle_parts"/>
+	<item name="partsRocketLauncher_barrel"/>
+	<item name="partsRocketLauncher_stock"/>
+	<item name="partsRocketLauncher_receiver"/>
+	<item name="partsRocketLauncher_parts"/>
+</lootgroup>
+
+<lootgroup name="weaponsMilitaryPartsTreasure" loot_quality_template="treasureTemplate"> <!-- weaponPartsTemplate -->
 	<item name="partsMP5_barrel"/>
 	<item name="partsMP5_stock"/>
 	<item name="partsMP5_receiver"/>
@@ -773,14 +823,14 @@
 	<item name="ironCrossbowBolt" count="10,30"/>
 </lootgroup>
 
-<lootgroup name="nailgunParts" count="1" loot_quality_template="treasureTemplate"> <!-- weaponPartsTemplate -->
+<lootgroup name="nailgunParts" count="1" loot_quality_template="baseTemplate"> <!-- weaponPartsTemplate -->
 	<item name="partsNailgun_frame"/>
 	<item name="partsNailgun_receiver"/>
 	<item name="partsNailgun_parts"/>
 	<item name="partsNailgun_battery"/>
 </lootgroup>
 
-<lootgroup name="motorToolParts" count="1" loot_quality_template="treasureTemplate"> <!-- weaponPartsTemplate -->
+<lootgroup name="motorToolParts" count="1" loot_quality_template="baseTemplate"> <!-- weaponPartsTemplate -->
 	<item name="partsChainsaw_blade"/>
 	<item name="partsChainsaw_parts"/>
 	<item name="partsAuger_blade"/>
@@ -879,7 +929,27 @@
 	<item name="shotgunShell" count="80,200"/>
 	<item name="9mmBullet" count="80,220"/>
 	<item name="762mmBullet" count="50,140"/>
-	<item name="44MagBullet" count="60,150" prob="0.5"/>
+	<item name="44MagBullet" count="60,150"/>
+</lootgroup>
+
+<lootgroup name="treasureParts">
+	<item group="weaponsCommonPartsTreasure"/>
+	<item group="weaponsMilitaryPartsTreasure"/>
+	<item group="weaponsMagnumPartsTreasure"/>
+	<item group="weaponsCompoundBowPartsTreasure"/>
+</lootgroup>
+
+<lootgroup name="treasureGuns" count="1">
+	<item name="gunPistol"/>
+	<item name="gun44Magnum"/>
+	<item name="gunSawedOffPumpShotgun"/>
+	<item name="gunPumpShotgun"/>
+	<item name="compoundBow"/>
+	<item name="gunHuntingRifle"/>
+	<item name="gunMP5"/>
+	<item name="gunAK47" prob="0.25"/>
+	<item name="gunSniperRifle" prob="0.2"/>
+	<item name="gunRocketLauncher" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="electricalDevices">
@@ -1532,7 +1602,7 @@
 </lootcontainer>
 
 <!-- washing machine, clothes in good condition -->
-<lootcontainer id="18" count="0,2" size="4,3" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="treasureTemplate">
+<lootcontainer id="18" count="0,2" size="4,3" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="baseTemplate">
 	<item group="clothes" prob="0.4"/>
 	<item name="cloth" count="1,5"/>
 </lootcontainer>
@@ -1701,7 +1771,7 @@
 </lootcontainer>
 
 <!-- trash compactor, trash deluxe! -->
-<lootcontainer id="46" count="0,3" size="6,4" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="treasureTemplate">
+<lootcontainer id="46" count="0,3" size="6,4" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="baseTemplate">
 	<item group="junk" prob="10"/>
 	<item group="clothes"/>
 	<item group="cannedfood"/>
@@ -1870,10 +1940,11 @@
 </lootcontainer>
 
 <!-- Treasure chest -->
-<lootcontainer id="70" count="2,5" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="treasureTemplate">
-	<item group="weaponsMilitaryGuns+ammo"/>
+<lootcontainer id="70" count="1,3" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="treasureTemplate">
+	<item group="treasureParts"/>
+	<item group="treasureGuns"/>
 	<item group="treasureAmmo"/>
-	<item name="casinoCoin" count="3000,8000"/>
+	<item name="casinoCoin" count="1000,1500"/>
 	<item group="rareOres" count="5,11"/>
 	<item name="oldCash" count="50,250" prob="0.5"/>
 </lootcontainer>
