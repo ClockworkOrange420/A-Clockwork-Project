@@ -1,4 +1,4 @@
-<traders buy_markup="3.0" sell_markdown="0.2" quality_mod="1,2" currency_item="casinoCoin" >
+<traders buy_markup="3.0" sell_markdown="0.05" quality_mod="1,2" currency_item="casinoCoin" >
 <!--
 When adding items or blocks to the list, check if they have an "EconomicValue".
 Most world-decoration blocks like "cntSuitcase" or "airConditioner" do not have values set.
