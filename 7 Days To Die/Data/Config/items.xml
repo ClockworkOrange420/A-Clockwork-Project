@@ -6872,7 +6872,7 @@
 		<property name="Meshfile" value="Items/Food/meat_rabbit"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="21"/>
-		<property name="Stacknumber" value="100"/>
+		<property name="Stacknumber" value="250"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
@@ -8576,7 +8576,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="45"/>
 		<property name="FuelValue" value="20"/>
-		<property name="Stacknumber" value="500"/>
+		<property name="Stacknumber" value="250"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="20"/>
 		<property name="SellableToTrader" value="false"/>
@@ -8589,7 +8589,7 @@
 		<property name="Material" value="organic"/>
 		<property name="FuelValue" value="20"/>
 		<property name="HoldType" value="45"/>
-		<property name="Stacknumber" value="500"/>
+		<property name="Stacknumber" value="250"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="24"/>
 		<property name="CraftingIngredientTime" value="15"/>
