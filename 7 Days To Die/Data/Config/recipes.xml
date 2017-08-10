@@ -868,7 +868,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="plantedWheat1" count="2"/>
 	</recipe>
 	<recipe name="Flour" count="1" craft_time = "8" >
-		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Wheat" count="1"/>
 	</recipe>
 	<recipe name="Bread" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingGrill" >
