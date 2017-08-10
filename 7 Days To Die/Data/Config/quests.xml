@@ -231,8 +231,8 @@
 		<objective type="FetchKeep" id="cottonPlant" value="20" />
 		<objective type="FetchKeep" id="Cordage" value="5" />
 		<objective type="Craft" id="cloth" value="15" />
-		<objective type="Craft" id="bedroll" value="1" />
-		<objective type="BlockPlace" id="bedroll" value="1" />
+		<objective type="Craft" id="bedroll_Player" value="1" />
+		<objective type="BlockPlace" id="bedroll_Player" value="1" />
 		
 		<reward type="SkillPoints" value="1" />
     </quest>
