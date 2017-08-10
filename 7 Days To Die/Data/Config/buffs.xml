@@ -485,6 +485,9 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 </buff>
 
 <!--Modded-->
+<buff id="sleepingChairTrigger" duration="1" actions="setvar(CTRChair, 3)"/>
+<buff id="sleepingChairEffect" duration="0" buffif="CTRChair greater 0" debuffif="CTRChair less 1" actions="increment(CTRChair, -1, 1, 0, 0)" name_key="You Are Resting" description_key="You are resting and will recover from fatigue slowly." tooltip_key="You are resting" icon="ui_game_symbol_map_bed"/>
+<buff id="sleepingChairEffect2" duration="0" mutex="rested" buffif="CTRChair greater 0" debuffif="CTRChair less 1" actions="increment(fatigue, -0.5, 1, 0, 0)"/>
 
 <buff id="sleepingBagTrigger" duration="1" actions="setvar(CTRbedroll, 3)"/>
 <buff id="sleepingBagEffect" duration="0" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(CTRbedroll, -1, 1, 0, 0);buff(recovering2)" name_key="You Are Resting" description_key="You are resting and will recover from fatigue slowly." tooltip_key="You are resting" icon="ui_game_symbol_map_bed"/>
@@ -624,7 +627,7 @@ snowberryPlant feeds you for 90 sec. -->
 <buff id="bleedingBurningSmall" duration="1" actions="buff(burningSmall);buff(bleeding)" />
 
 <buff id="FatigueMain" duration="0" buffif="coretemp lequal 300" actions="increment(fatigue, 1, 50t, 0, 0)"/>
-<buff id="rested" duration="0" buffif="fatigue less 1" debuffif="fatigue gequal 8" actions="debuff(sleepingBagEffect2);debuff(sleepingBedEffect2);debuff(sleepingBigBedEffect2)" icon="ui_game_symbol_map_bed" name_key="Well rested" description_key="You are well rested." tooltip_key="Well rested" />
+<buff id="rested" duration="0" buffif="fatigue less 1" debuffif="fatigue gequal 8" actions="debuff(sleepingChairEffect2);debuff(sleepingBagEffect2);debuff(sleepingBedEffect2);debuff(sleepingBigBedEffect2)" icon="ui_game_symbol_map_bed" name_key="Well rested" description_key="You are well rested." tooltip_key="Well rested" />
 <buff id="tired" buffif="fatigue gequal 24" debuffif="fatigue lequal 23" mutex="prettyTired,veryTired,extremelyTired,insanelyTired,deadtiredWarning" icon="ui_game_symbol_character" name_key="Tired" description_key="You are tired and should get some rest" tooltip_key="You are tired">
 	<modify id="0" stat="stamina" amount="-1.5" rate="2"/>
 </buff>

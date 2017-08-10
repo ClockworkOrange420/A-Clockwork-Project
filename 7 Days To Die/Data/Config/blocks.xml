@@ -3041,6 +3041,7 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="FuelValue" value="200"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
+		<property name="BuffsWhenWalkedOn" value="sleepingChairTrigger"/>
 		<property class="RepairItems">
 			<property name="wood" value="5"/>
 		</property>
@@ -3063,6 +3064,7 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="FuelValue" value="300"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
+		<property name="BuffsWhenWalkedOn" value="sleepingBagTrigger"/>
 		<property class="RepairItems">
 			<property name="wood" value="6"/>
 			<property name="cloth" value="4"/>
@@ -4941,6 +4943,7 @@
 		<property name="Weight" value="30"/>
 		<property name="CanPickup" value="true"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
+		<property name="BuffsWhenWalkedOn" value="sleepingChairTrigger"/>
 		<drop event="Harvest" name="wood" count="3" tool_category="Harvest"/>
 		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
 		<drop event="Destroy" count="0"/>
@@ -4999,6 +5002,7 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="FuelValue" value="90"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
+		<property name="BuffsWhenWalkedOn" value="sleepingChairTrigger"/>
 		<property class="RepairItems">
 			<property name="leather" value="5"/>
 			<property name="cottonPlant" value="10"/>
@@ -5327,6 +5331,7 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="FuelValue" value="150"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
+		<property name="BuffsWhenWalkedOn" value="sleepingBagTrigger"/>
 		<property class="RepairItems">
 			<property name="wood" value="6"/>
 			<property name="leather" value="4"/>
