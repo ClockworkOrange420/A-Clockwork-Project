@@ -734,17 +734,17 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="antibiotics" count="1" craft_time = "12" craft_exp_gain="40" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="moldyBread" count="1"/>
 		<ingredient name="potassiumNitratePowder" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="antibiotics" count="1" craft_time = "30" craft_exp_gain="100" craft_area="Old_Oven" craft_tool="beaker" >
 		<ingredient name="moldyBread" count="1"/>
 		<ingredient name="potassiumNitratePowder" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="antibiotics" count="1" craft_time = "30" craft_exp_gain="100" craft_area="New_Oven" craft_tool="beaker" >
 		<ingredient name="moldyBread" count="1"/>
 		<ingredient name="potassiumNitratePowder" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="anvil" count="1" craft_time = "60" craft_exp_gain="200" craft_area="forge" material_based="true" >
 		<ingredient name="unit_iron" count="200"/>
@@ -1210,9 +1210,13 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="wolfMeatCharred" count="1" craft_time = "8" craft_area="New_Oven" >
 		<ingredient name="wolfMeatRaw" count="1"/>
 	</recipe>
-	<recipe name="bottledWater" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
+	<recipe name="bottledRiverWater" count="1" craft_time = "4" >
 		<ingredient name="snowBall" count="1"/>
 		<ingredient name="emptyJar" count="1"/>
+	</recipe>
+	<recipe name="canMurkyWater" count="1" craft_time = "4" >
+		<ingredient name="snowBall" count="1"/>
+		<ingredient name="canEmpty" count="1"/>
 	</recipe>
 	<recipe name="bottledWater" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="bottledRiverWater" count="1"/>
@@ -1231,10 +1235,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="canBoiledWater" count="1" craft_time = "8" craft_area="New_Oven" >
 		<ingredient name="canMurkyWater" count="1"/>
-	</recipe>
-	<recipe name="bottledRiverWater" count="1" craft_time = "4" >
-		<ingredient name="snowBall" count="1"/>
-		<ingredient name="emptyJar" count="1"/>
 	</recipe>
 	<recipe name="cornBread" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="cornMeal" count="2"/>
@@ -1348,17 +1348,17 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="beer" count="1" craft_time = "8" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="hopsFlower" count="2"/>
 		<ingredient name="Yeast" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="beer" count="2" craft_time = "8" craft_area="Old_Oven" craft_tool="beaker" >
 		<ingredient name="hopsFlower" count="2"/>
 		<ingredient name="Yeast" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="beer" count="2" craft_time = "8" craft_area="New_Oven" craft_tool="beaker" >
 		<ingredient name="hopsFlower" count="2"/>
 		<ingredient name="Yeast" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="goldenRodTea" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="goldenrodPlant" count="1"/>
@@ -2292,10 +2292,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="glue" count="1" craft_time = "6" craft_exp_gain="20" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="femur" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
-	</recipe>
-	<recipe name="glue" count="1" craft_time = "6" craft_exp_gain="20" craft_area="chemistryStation" craft_tool="beaker" >
-		<ingredient name="femur" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="glue" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Old_Oven" craft_tool="beaker" >
@@ -2399,28 +2395,28 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="mushrooms" count="1"/>
 		<ingredient name="chrysanthemumPlant" count="1"/>
 		<ingredient name="potassiumNitratePowder" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="herbalAntibiotics" count="1" craft_time = "12" craft_exp_gain="40" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="blueberries" count="2"/>
 		<ingredient name="potassiumNitratePowder" count="1"/>
 		<ingredient name="mushrooms" count="1"/>
 		<ingredient name="chrysanthemumPlant" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="herbalAntibiotics" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Old_Oven" craft_tool="cookingPot" >
 		<ingredient name="blueberries" count="2"/>
 		<ingredient name="potassiumNitratePowder" count="1"/>
 		<ingredient name="mushrooms" count="1"/>
 		<ingredient name="chrysanthemumPlant" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="herbalAntibiotics" count="1" craft_time = "12" craft_exp_gain="40" craft_area="New_Oven" craft_tool="cookingPot" >
 		<ingredient name="blueberries" count="2"/>
 		<ingredient name="potassiumNitratePowder" count="1"/>
 		<ingredient name="mushrooms" count="1"/>
 		<ingredient name="chrysanthemumPlant" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="Honey_Poultice" count="1" craft_time = "3" craft_exp_gain="10" craft_area="chemistryStation">
 		<ingredient name="aloePlant" count="1"/>
@@ -2735,7 +2731,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="chrysanthemumPlant" count="1"/>
 		<ingredient name="blueberries" count="1"/>
 		<ingredient name="goldenrodPlant" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="pickaxeIron" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Smithing_Table" craft_tool="anvil" >
 		<ingredient name="forgedIron" count="20"/>
@@ -2842,17 +2838,17 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="paper" count="10" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="glue" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="paper" count="10" craft_time = "4" craft_exp_gain="24" craft_area="Old_Oven" craft_tool="beaker" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="glue" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="paper" count="10" craft_time = "4" craft_exp_gain="24" craft_area="New_Oven" craft_tool="beaker" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="glue" count="1"/>
-		<ingredient name="bottledRiverWater" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="omnigel" count="100" craft_time = "12" craft_exp_gain="40" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="potato" count="4"/>
