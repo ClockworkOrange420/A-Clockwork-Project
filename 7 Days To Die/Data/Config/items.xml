@@ -1631,7 +1631,7 @@
 			<property name="DamageBonus.metal" value="2.5"/>
 			<property name="DamageBonus.stone" value="1"/>
 			<property name="ToolCategory.Harvest" value="1"/>
-			<property name="ActionExp" value="5"/>
+			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
@@ -1659,7 +1659,7 @@
 			<property name="DamageBonus.head" value="1"/>
 			<property name="DamageBonus.stone" value="1"/>
 			<property name="DamageBonus.metal" value="2.5"/>
-			<property name="ActionExp" value="7"/>
+			<property name="ActionExp" value="6"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
