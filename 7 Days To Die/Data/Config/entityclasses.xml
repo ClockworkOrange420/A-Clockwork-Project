@@ -215,7 +215,6 @@
 	<property name="MaxHealth" value="750"/>
 	<property name="ExperienceGain" value="750"/>
 	<property name="LootListOnDeath" value="61"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="HeadDismemberThreshold" value="0.2"/>
 	<property name="LowerLegDismemberThreshold" value="0.105"/>
 	<property name="UpperLegDismemberThreshold" value="0.105"/>
@@ -278,7 +277,6 @@
 	<property name="ExperienceGain" value="8982"/>
 	<property name="MaxHealth" value="5000"/>
 	<property name="DeadBodyHitPoints" value="700"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/Z_eye1"/>
@@ -304,7 +302,6 @@
 	<property name="WalkType" value="2"/>
 	<property name="ExperienceGain" value="200"/>
 	<property name="MaxHealth" value="200"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/Z_eye1"/>
@@ -339,7 +336,6 @@
 	<property name="WalkType" value="6"/>
 	<property name="MaxHealth" value="400"/>
 	<property name="HandItem" value="handZombieFootballPlayer"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="WanderSpeed" value="0.75"/>
 	<property name="ApproachSpeed" value="1.15"/>
 	<property name="NightWanderSpeed" value="0.75"/>
@@ -443,7 +439,6 @@
 	<property name="Weight" value="70"/>
 	<property name="PushFactor" value="20"/>
 	<property name="CanClimbLadders" value="true"/>
-	<property name="PhysicsBody" value="zombieStandard"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="LootListOnDeath" value="38"/>
@@ -479,7 +474,6 @@
 	<property name="HandItem" value="handZombie"/>
 	<property name="MaxHealth" value="100"/>
 	<property name="CanClimbLadders" value="true"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="LootListOnDeath" value="38"/>
@@ -515,7 +509,6 @@
 	<property name="HandItem" value="handZombie"/>
 	<property name="MaxHealth" value="100"/>
 	<property name="CanClimbLadders" value="true"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="LootListOnDeath" value="38"/>
@@ -551,7 +544,6 @@
 	<property name="MaxHealth" value="100"/>
 	<property name="ExperienceGain" value="200"/>
 	<property name="CanClimbLadders" value="true"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="LootListOnDeath" value="38"/>
@@ -588,7 +580,6 @@
 	<property name="MaxHealth" value="100"/>
 	<property name="ExperienceGain" value="200"/>
 	<property name="CanClimbLadders" value="true"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="LootListOnDeath" value="38"/>
@@ -615,7 +606,6 @@
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="5"/>
-	<property name="PhysicsBody" value="zombieStandard"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="TintMaterial3" value="23,17,13"/>
@@ -642,7 +632,6 @@
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="6"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="TintMaterial2" value="36,38,45"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
@@ -673,7 +662,6 @@
 	<property name="WalkType" value="4"/>
 	<property name="CanClimbLadders" value="false"/>
 	<property name="RotateToGround" value="true"/>
-	<property name="PhysicsBody" value="zombieStandard"/>
 	<property name="RootMotion" value="true"/>
 	<property name="TintMaterial2" value="36,38,45"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
@@ -697,7 +685,6 @@
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="7"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="TintMaterial1" value="36,38,45"/>
 	<property name="LootListOnDeath" value="89"/>
@@ -726,7 +713,6 @@
 	<property name="WalkType" value="2"/>
 	<property name="MaxHealth" value="450"/>
 	<property name="ExperienceGain" value="450"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="SoundRandom" value="Enemies/Snow_Zombie_Male/zombiemalesnowroam"/>
@@ -758,7 +744,6 @@
 <entity_class name="zombieSpider" extends="zombieTemplateMale">
 	<property name="Mesh" value="Zombies/zombieStandardSpiderRagdoll"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
-	<property name="PhysicsBody" value="zombieStandard"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="ModelType" value="Standard"/>
@@ -877,7 +862,6 @@
 	<property name="WalkType" value="7"/>
 	<property name="HandItem" value="handZombie"/>
 	<property name="CanClimbLadders" value="true"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="LootListOnDeath" value="21"/>
@@ -1048,7 +1032,6 @@
 	<property name="WalkType" value="6"/>
 	<property name="MaxHealth" value="200"/>
 	<property name="ExperienceGain" value="200"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="HandItem" value="handZombieWorker"/>
@@ -1084,7 +1067,6 @@
 	<property name="WalkType" value="2"/>
 	<property name="MaxHealth" value="500"/>
 	<property name="ExperienceGain" value="500"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="HandItem" value="handZombieWorker"/>
@@ -1149,7 +1131,6 @@
 	<property name="MaxHealth" value="120"/>
 	<property name="ExperienceGain" value="200"/>
 	<property name="CanClimbLadders" value="true"/>
-	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="LootListOnDeath" value="79"/>
@@ -1420,7 +1401,8 @@
 	<property name="ExperienceGain" value="200"/>
 	<property name="SwimOffset" value="2"/>
 	<property name="Faction" value="animals"/>
-	<property name="HasRagdoll" value="true"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="HasDeathAnim" value="true"/>
 	<property name="DeadBodyHitPoints" value="175"/>
 	<drop event="Harvest" name="Chicken" tool_category="Butcher" count="4" />
 	<drop event="Harvest" name="feather" tool_category="Butcher" count="30" />
