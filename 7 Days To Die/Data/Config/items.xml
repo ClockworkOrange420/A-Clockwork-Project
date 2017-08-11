@@ -159,6 +159,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="12"/>
 		<property name="Stacknumber" value="50"/>
+		<property name="Degradation" value="50" param1="false" />
 		<!-- STK torch -->
 		<property name="FuelValue" value="24"/>
 		<property name="EconomicValue" value="10"/>
@@ -171,7 +172,7 @@
 			<property name="Delay" value="1.17"/>
 			<property name="Range" value="2.2"/>
 			<property name="Sphere" value="0.1"/>
-			<property name="DamageEntity" value="6"/>
+			<property name="DamageEntity" value="5"/>
 			<property name="DamageBlock" value="1"/>
 			<property name="Sound_start" value="torch_swoosh"/>
 			<property name="Stamina_usage" value="8"/>
