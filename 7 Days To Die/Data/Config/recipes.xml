@@ -2183,11 +2183,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="animalFat" count="3"/>
 		<ingredient name="grainAlcohol" count="1"/>
 	</recipe>
-	<recipe name="gasCan" count="100" craft_time = "6" craft_exp_gain="20" craft_area="chemistryStation" craft_tool="beaker" >
-		<ingredient name="animalFat" count="2"/>
-		<ingredient name="beer" count="1"/>
-		<ingredient name="Yeast" count="1"/>
-	</recipe>
 	<recipe name="gasCan" count="100" craft_time = "12" craft_exp_gain="40" craft_area="Old_Oven" craft_tool="beaker" >
 		<ingredient name="oilShale" count="12"/>
 	</recipe>
@@ -2195,22 +2190,12 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="animalFat" count="3"/>
 		<ingredient name="grainAlcohol" count="1"/>
 	</recipe>
-	<recipe name="gasCan" count="100" craft_time = "12" craft_exp_gain="40" craft_area="Old_Oven" craft_tool="beaker" >
-		<ingredient name="animalFat" count="2"/>
-		<ingredient name="beer" count="1"/>
-		<ingredient name="Yeast" count="1"/>
-	</recipe>
 	<recipe name="gasCan" count="100" craft_time = "12" craft_exp_gain="40" craft_area="New_Oven" craft_tool="beaker" >
 		<ingredient name="oilShale" count="12"/>
 	</recipe>
 	<recipe name="gasCan" count="100" craft_time = "12" craft_exp_gain="40" craft_area="New_Oven" craft_tool="beaker" >
 		<ingredient name="animalFat" count="3"/>
 		<ingredient name="grainAlcohol" count="1"/>
-	</recipe>
-	<recipe name="gasCan" count="100" craft_time = "12" craft_exp_gain="40" craft_area="New_Oven" craft_tool="beaker" >
-		<ingredient name="animalFat" count="2"/>
-		<ingredient name="beer" count="1"/>
-		<ingredient name="Yeast" count="1"/>
 	</recipe>
 	<recipe name="gasCan" count="600" craft_time = "12" craft_exp_gain="40" craft_area="workbench" >
 		<ingredient name="oilBarrel" count="1"/>
@@ -2727,7 +2712,19 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="10"/>
 		<ingredient name="animalHide" count="1"/>
 	</recipe>
-	<recipe name="paint" count="50" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" >
+	<recipe name="paint" count="50" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="chrysanthemumPlant" count="1"/>
+		<ingredient name="blueberries" count="1"/>
+		<ingredient name="goldenrodPlant" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
+	</recipe>
+	<recipe name="paint" count="50" craft_time = "4" craft_exp_gain="24" craft_area="Old_Oven" craft_tool="beaker" >
+		<ingredient name="chrysanthemumPlant" count="1"/>
+		<ingredient name="blueberries" count="1"/>
+		<ingredient name="goldenrodPlant" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
+	</recipe>
+	<recipe name="paint" count="50" craft_time = "4" craft_exp_gain="24" craft_area="New_Oven" craft_tool="beaker" >
 		<ingredient name="chrysanthemumPlant" count="1"/>
 		<ingredient name="blueberries" count="1"/>
 		<ingredient name="goldenrodPlant" count="1"/>
