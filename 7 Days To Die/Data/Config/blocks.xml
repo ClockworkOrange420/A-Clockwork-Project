@@ -14725,8 +14725,8 @@
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="treeWinterPine03"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
-		<drop event="Harvest" name="wood" count="150" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="75" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="200" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="100" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" prob="0.25" tool_category="Harvest"/>
 	</block>
