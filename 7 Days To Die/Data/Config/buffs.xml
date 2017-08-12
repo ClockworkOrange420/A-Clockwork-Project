@@ -429,20 +429,20 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 
 <buff id="freezing" mutex="hot,overheated,heat1,heat2,hypo1,hypo2" duration="0" stack="discard"	buffif="coretemp lequal 30" debuffif="coretemp greater 30"
 	type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_cold" name_key="freezing" description_key="freezingDesc" tooltip_key="freezingTooltip" actions="attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson);addtip(coldWeatherTip)" cures="coffee,meatStew,leatherDuster,hoodedSweatshirtWhite,denimPants">
-	<modify id="0" stat="food" amount="-1" rate="10"/>
+	<modify id="0" stat="food" amount="-1" rate="30"/>
 </buff>
 
 <buff id="hypo1" mutex="hot,overheated,heat1,heat2,hypo2" duration="0" stack="discard" buffif="coretemp lequal 20" debuffif="coretemp greater 20"
 	actions="debuff(freezing);attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson)" type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_cold" name_key="hypo1" description_key="hypo1Desc" tooltip_key="hypo1Tooltip" cures="coffee,meatStew,leatherDuster,hoodedSweatshirtWhite,denimPants">
 	<modify id="0" stat="speedmodifier" mulValue="0.8"/>
-	<modify id="1" stat="food" amount="-1" rate="10"/>
+	<modify id="1" stat="food" amount="-1" rate="20"/>
 	<modify id="2" stat="stamina" amount="-1" rate="1"/>
 </buff>
 
 <buff id="hypo2" mutex="hot,overheated,heat1,heat2" duration="0" stack="discard" buffif="coretemp lequal 10" debuffif="coretemp greater 10"
 	actions="damage(0,10,0,0);debuff(freezing);debuff(hypo1);attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson)" type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_cold" name_key="hypo2" description_key="hypo2Desc" tooltip_key="hypo2Tooltip" cures="coffee,meatStew,leatherDuster,hoodedSweatshirtWhite,denimPants">
 	<modify id="0" stat="speedmodifier" mulValue="0.7"/>
-	<modify id="1" stat="food" amount="-1" rate="7"/>
+	<modify id="1" stat="food" amount="-1" rate="10"/>
 	<modify id="2" stat="stamina" amount="-2" rate="1"/>
 	<modify id="3" stat="health" amount="-1" rate="10" />
 </buff>
@@ -457,13 +457,13 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 
 <buff id="overheated" mutex="heat1,heat2,cold,freezing,hypo1,hypo2" duration="0" stack="discard" buffif="coretemp gequal 100" debuffif="coretemp less 100"
 	type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_hot" name_key="overheated" description_key="overheatedDesc" tooltip_key="overheatedTooltip" actions="addtip(hotWeatherTip)" cures="foodYuccaJuice,redTea,animalHidePoncho,plantFiberHat,tankTopWhite,denimShortsPants">
-	<modify id="1" stat="water" amount="-1" rate="10"/>
+	<modify id="1" stat="water" amount="-1" rate="20"/>
 </buff>
 
 <buff id="heat1" mutex="heat2,cold,freezing,hypo1,hypo2" duration="0" stack="discard" buffif="coretemp gequal 110" debuffif="coretemp less 110"
 	actions="debuff(overheated)" type="coretemp" notificationClass="TemperatureBuffNotification" icon="ui_game_symbol_hot" name_key="heat1" description_key="heat1Desc" tooltip_key="heat1Tooltip" cures="foodYuccaJuice,redTea,animalHidePoncho,plantFiberHat,tankTopWhite,denimShortsPants">
 	<modify id="0" stat="speedmodifier" mulValue="0.7"/>
-	<modify id="1" stat="water" amount="-1" rate="7"/>
+	<modify id="1" stat="water" amount="-1" rate="10"/>
 	<modify id="2" stat="stamina" amount="-1" rate="1"/>
 </buff>
 
