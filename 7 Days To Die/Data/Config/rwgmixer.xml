@@ -338,7 +338,7 @@
 			<prefab name="installation_red_mesa" max_count="1"/>
 			<prefab name="sawmill_01_snow" max_count="3"/>
 			<prefab name="utility_celltower_01" max_count="1"/>
-			<prefab name="utility_celltower_01" max_count="1"/>
+			<prefab name="utility_celltower_02" max_count="1"/>
 			<prefab name="junkyard_lg_01" max_count="2"/>
 			<prefab name="junkyard_med_01" max_count="2"/>
 			<prefab name="vacant_lot_med_01" max_count="1"/>
@@ -383,7 +383,7 @@
 			<prefab name="pond02" max_count="4"/>
 			<prefab name="pond01" max_count="4"/>
 			<prefab name="water_tower_01" max_count="1"/>
-			<prefab name="water_tower_01" max_count="1"/>
+			<prefab name="water_tower_02" max_count="1"/>
 			<prefab name="oldwest_watertower" max_count="1"/>
 			<prefab name="oldwest_church" max_count="1"/>
 			<prefab name="oldwest_hotel_01" max_count="2"/>
