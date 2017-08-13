@@ -8164,7 +8164,7 @@
 		<!-- STK resource -->
 		<property name="RepairAmount" value="100"/>
 		<property name="FuelValue" value="1"/>
-		<property name="Weight" value="5"/>
+		<property name="Weight" value="2"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources,Clothing"/>
