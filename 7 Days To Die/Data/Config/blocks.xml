@@ -290,23 +290,11 @@
 		<!-- only used for the icon. Should fix that eventually... -->
 		<property name="Extends" value="dirt"/>
 		<property name="CreativeMode" value="None"/>
-		<property name="Class" value="UpgradeRated"/>
-		<property name="UpgradeRated.ToBlock" value="fertileGrass"/>
-		<property name="UpgradeRated.Rate" value="3"/>
-		<!-- The coder told me that "63 or maybe more" is max for this timer. -->
 	</block>
 	<block id="20" name="fertileGrass">
 		<property name="Extends" value="grass"/>
 		<property name="CustomIcon" value="grass"/>
 		<property name="CreativeMode" value="None"/>
-		<property name="Class" value="PlantGrowing"/>
-		<property name="PlantGrowing.FertileLevel" value="0"/>
-		<property name="PlantGrowing.Next" value="grass"/>
-		<property name="PlantGrowing.GrowthRate" value="1"/>
-		<property name="PlantGrowing.IsRandom" value="false"/>
-		<property name="PlantGrowing.LightLevelStay" value="0"/>
-		<property name="PlantGrowing.GrowOnTop" value="treeTallGrassDiagonal"/>
-		<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
 	</block>
 	<!--<block id="21" name="gore"><property name="Class" value="UpgradeRated"/><property name="Material" value="organic"/><property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="2"/><property name="DropScale" value="2"/><property name="FallDamage" value="false"/><drop event="Destroy" count="0"/><property name="UpgradeRated.ToBlock" value="air"/><property name="UpgradeRated.Rate" value="15"/><drop event="Harvest" name="femur" count="1" tool_category="Butcher"/><drop event="Harvest" name="rottingFlesh" count="1" tool_category="Butcher"/><drop event="Destroy" name="femur" count="1" tool_category="Harvest"/><drop event="Destroy" name="rottingFlesh" count="1" tool_category="Harvest"/><drop event="Fall" name="femur" count="2" prob="0.5" stick_chance="0"/><drop event="Fall" name="rottingFlesh" count="2" prob="0.5" stick_chance="0"/></block>-->
 	<block id="22" name="fertileFarmland">
@@ -540,21 +528,16 @@
 		<property name="Extends" value="dirt"/>
 		<property name="CreativeMode" value="None"/>
 		<property name="CustomIcon" value="dirt"/>
-		<property name="Class" value="UpgradeRated"/>
-		<property name="UpgradeRated.ToBlock" value="grass"/>
-		<property name="UpgradeRated.Rate" value="3"/>
 	</block>
 	<block id="38" name="plainsGroundFromDirt">
 		<property name="Extends" value="grassFromDirt"/>
 		<property name="CreativeMode" value="None"/>
 		<property name="CustomIcon" value="dirt"/>
-		<property name="UpgradeRated.ToBlock" value="plainsGround"/>
 	</block>
 	<block id="39" name="plainsGroundWGrass1">
 		<property name="Extends" value="fertileDirt"/>
 		<property name="CreativeMode" value="None"/>
 		<property name="CustomIcon" value="dirt"/>
-		<property name="UpgradeRated.ToBlock" value="plainsGroundWGrass2"/>
 	</block>
 	<block id="40" name="plainsGroundWGrass2">
 		<property name="Extends" value="fertileGrass"/>
@@ -562,20 +545,16 @@
 		<property name="CustomIcon" value="plainsGround"/>
 		<property name="Texture" value="396"/>
 		<property name="Map.Color" value="110,95,49"/>
-		<property name="PlantGrowing.Next" value="plainsGround"/>
-		<property name="PlantGrowing.GrowOnTop" value="treePlainsGrassDiagonal"/>
 	</block>
 	<block id="41" name="burntForestGroundFromDirt">
 		<property name="Extends" value="grassFromDirt"/>
 		<property name="CreativeMode" value="None"/>
 		<property name="CustomIcon" value="dirt"/>
-		<property name="UpgradeRated.ToBlock" value="burntForestGround"/>
 	</block>
 	<block id="42" name="burntForestGroundWGrass1">
 		<property name="Extends" value="fertileDirt"/>
 		<property name="CreativeMode" value="None"/>
 		<property name="CustomIcon" value="dirt"/>
-		<property name="UpgradeRated.ToBlock" value="burntForestGroundWGrass2"/>
 	</block>
 	<block id="43" name="burntForestGroundWGrass2">
 		<property name="Extends" value="fertileGrass"/>
@@ -583,20 +562,16 @@
 		<property name="CustomIcon" value="burntForestGround"/>
 		<property name="Texture" value="288"/>
 		<property name="Map.Color" value="55,55,50"/>
-		<property name="PlantGrowing.Next" value="burntForestGround"/>
-		<property name="PlantGrowing.GrowOnTop" value="treeBrownGrassDiagonal"/>
 	</block>
 	<block id="44" name="forestGroundFromDirt">
 		<property name="Extends" value="grassFromDirt"/>
 		<property name="CreativeMode" value="None"/>
 		<property name="CustomIcon" value="dirt"/>
-		<property name="UpgradeRated.ToBlock" value="forestGround"/>
 	</block>
 	<block id="45" name="forestGroundWGrass1">
 		<property name="Extends" value="fertileDirt"/>
 		<property name="CreativeMode" value="None"/>
 		<property name="CustomIcon" value="dirt"/>
-		<property name="UpgradeRated.ToBlock" value="forestGroundWGrass2"/>
 	</block>
 	<block id="46" name="forestGroundWGrass2">
 		<property name="Extends" value="fertileGrass"/>
@@ -604,8 +579,6 @@
 		<property name="CustomIcon" value="forestGround"/>
 		<property name="Texture" value="195"/>
 		<property name="Map.Color" value="35,80,45"/>
-		<property name="PlantGrowing.Next" value="forestGround"/>
-		<property name="PlantGrowing.GrowOnTop" value="treeTallGrassDiagonal"/>
 	</block>
 	<block id="47" name="clayInSandstone">
 		<property name="Extends" value="clay"/>
