@@ -14378,6 +14378,7 @@
 		<property name="CanPickup" value="true"/>
 		<property name="BuffsWhenWalkedOn" value="sleepingBagTrigger"/>
 		<property name="IsTerrainDecoration" value="true"/>
+		<property name="Weight" value="25"/>
 		<property name="Group" value="Basics,Building"/>
 		<property class="RepairItems">
 			<property name="cloth" value="15"/>
