@@ -6177,7 +6177,7 @@
 			<property name="Class" value="UseOther"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="10"/>
+			<property name="Gain_health" value="5"/>
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Sound_start" value="player_ointment"/>
@@ -6187,7 +6187,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="10"/>
+			<property name="Gain_health" value="5"/>
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Sound_start" value="player_ointment"/>
@@ -6354,7 +6354,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="0"/>
-			<property name="Gain_water" value="-30"/>
+			<property name="Gain_water" value="-10"/>
 			<property name="Sound_start" value="player_painkillers"/>
 			<property name="Buff" value="painkillerBuff"/>
 		</property>
@@ -6364,7 +6364,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="0"/>
-			<property name="Gain_water" value="-30"/>
+			<property name="Gain_water" value="-10"/>
 			<property name="Sound_start" value="player_painkillers"/>
 			<property name="Buff" value="painkillerBuff"/>
 		</property>
@@ -6553,7 +6553,7 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="15"/>
+			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="-10"/>
 			<property name="Gain_wellness" value="-0.15"/>
 			<property name="Sound_start" value="player_eating"/>
@@ -6725,7 +6725,7 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="1"/>
+			<property name="Gain_food" value="2"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
@@ -6808,7 +6808,7 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="10"/>
+			<property name="Gain_food" value="6"/>
 			<property name="Buff" value="foodPoisoning"/>
 			<property name="Buff_chance" value="0.6"/>
 			<property name="Gain_water" value="0"/>
@@ -6836,7 +6836,7 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="15"/>
+			<property name="Gain_food" value="10"/>
 			<property name="Gain_wellness" value="-0.1"/>
 			<property name="Buff" value="foodPoisoning"/>
 			<property name="Buff_chance" value="0.6"/>
@@ -7054,9 +7054,9 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="2"/>
 			<property name="Buff" value="foodPoisoning"/>
-			<property name="Buff_chance" value="0.2"/>
+			<property name="Buff_chance" value="0.1"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_stamina" value="-8"/>
+			<property name="Gain_stamina" value="0"/>
 			<property name="Gain_sickness" value="30"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
@@ -7074,7 +7074,7 @@
 			<property name="Delay" value="2.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="5"/>
+			<property name="Gain_food" value="4"/>
 			<property name="Gain_water" value="2"/>
 			<property name="Gain_stamina" value="0"/>
 			<property name="Gain_wellness" value="0.15"/>
@@ -7116,7 +7116,7 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="4"/>
+			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
@@ -7136,7 +7136,7 @@
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="10"/>
+			<property name="Gain_food" value="12"/>
 			<property name="Gain_wellness" value="0.3"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
@@ -7165,7 +7165,7 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="3"/>
+			<property name="Gain_food" value="2"/>
 			<property name="Gain_water" value="1"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
@@ -9275,9 +9275,15 @@
 			<property name="Blockname" value="plantedWheat1"/>
 		</property>
 		<property class="Action1">
-			<property name="Class" value="PlaceAsBlock"/>
-			<property name="Delay" value="0.5"/>
-			<property name="Blockname" value="plantedWheat1"/>
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="1"/>
+			<property name="Gain_water" value="-1"/>
+			<property name="Gain_stamina" value="0"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="wheatDesc"/>
@@ -9296,7 +9302,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="1"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_stamina" value="3"/>
 			<property name="Gain_wellness" value="0.18"/>
@@ -9430,9 +9436,9 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="3"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_stamina" value="5"/>
-			<property name="Gain_food" value="10"/>
+			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="10"/>
 			<property name="Gain_wellness" value="0.3"/>
 			<property name="Sound_start" value="player_drinking"/>
@@ -9741,7 +9747,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="2"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="12"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
@@ -9767,7 +9773,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="2"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
@@ -9793,7 +9799,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="2"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
@@ -9819,7 +9825,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="2"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
@@ -9843,7 +9849,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="2"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="12"/>
 			<property name="Gain_water" value="-2"/>
 			<property name="Gain_wellness" value="0.36"/>
@@ -9864,7 +9870,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="2"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="-2"/>
 			<property name="Gain_wellness" value="0.24"/>
@@ -9885,7 +9891,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="1"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="-2"/>
 			<property name="Gain_wellness" value="0.15"/>
@@ -9906,7 +9912,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="1"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="-2"/>
 			<property name="Gain_wellness" value="0.15"/>
@@ -9927,7 +9933,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="2"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="12"/>
 			<property name="Gain_water" value="2"/>
 			<property name="Gain_wellness" value="0.36"/>
@@ -9948,7 +9954,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="2"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="2"/>
 			<property name="Gain_wellness" value="0.24"/>
@@ -9969,7 +9975,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="1"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="2"/>
 			<property name="Gain_wellness" value="0.15"/>
@@ -9990,7 +9996,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="1"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="2"/>
 			<property name="Gain_wellness" value="0.15"/>
@@ -10012,7 +10018,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="2"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="12"/>
 			<property name="Gain_water" value="-5"/>
 			<property name="Gain_wellness" value="0.12"/>
@@ -10034,7 +10040,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="2"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="-5"/>
 			<property name="Gain_wellness" value="0.08"/>
@@ -10056,7 +10062,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="2"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="-5"/>
 			<property name="Gain_wellness" value="0.05"/>
@@ -10078,7 +10084,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="2"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="-5"/>
 			<property name="Gain_wellness" value="0.05"/>
@@ -10100,8 +10106,8 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="5"/>
-			<property name="Gain_food" value="25"/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="22"/>
 			<property name="Gain_water" value="5"/>
 			<property name="Gain_wellness" value="1.25"/>
 			<property name="Sound_start" value="player_drinking"/>
@@ -10134,7 +10140,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="5"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="20"/>
 			<property name="Gain_water" value="5"/>
 			<property name="Gain_wellness" value="1"/>
@@ -10156,7 +10162,7 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="5"/>
+			<property name="Gain_food" value="2"/>
 			<property name="Gain_water" value="2"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
@@ -10179,7 +10185,7 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="10"/>
+			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="2"/>
 			<property name="Gain_wellness" value="0.3"/>
 			<property name="Sound_start" value="player_eating"/>
@@ -10312,7 +10318,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="5"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="20"/>
 			<property name="Gain_water" value="5"/>
 			<property name="Gain_wellness" value="1"/>
@@ -10334,7 +10340,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="5"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="20"/>
 			<property name="Gain_water" value="5"/>
 			<property name="Gain_wellness" value="1"/>
@@ -10615,7 +10621,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="5"/>
+			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="20"/>
 			<property name="Gain_water" value="5"/>
 			<property name="Gain_wellness" value="1"/>

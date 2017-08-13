@@ -837,31 +837,31 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="Pork" count="1"/>
 	</recipe>
 	<recipe name="bakedPotato" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
-		<ingredient name="potato" count="1"/>
+		<ingredient name="potato" count="3"/>
 	</recipe>
 	<recipe name="bakedPotato" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingGrill" >
-		<ingredient name="potato" count="1"/>
+		<ingredient name="potato" count="3"/>
 	</recipe>
 	<recipe name="bakedPotato" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingGrill" >
-		<ingredient name="potato" count="1"/>
+		<ingredient name="potato" count="3"/>
 	</recipe>
 	<recipe name="mushroomGrilled" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
-		<ingredient name="mushrooms" count="2"/>
+		<ingredient name="mushrooms" count="3"/>
 	</recipe>
 	<recipe name="mushroomGrilled" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingGrill" >
-		<ingredient name="mushrooms" count="2"/>
+		<ingredient name="mushrooms" count="3"/>
 	</recipe>
 	<recipe name="mushroomGrilled" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingGrill" >
-		<ingredient name="mushrooms" count="2"/>
+		<ingredient name="mushrooms" count="3"/>
 	</recipe>
 	<recipe name="cornGrilled" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
-		<ingredient name="corn" count="2"/>
+		<ingredient name="corn" count="3"/>
 	</recipe>
 	<recipe name="cornGrilled" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingGrill" >
-		<ingredient name="corn" count="2"/>
+		<ingredient name="corn" count="3"/>
 	</recipe>
 	<recipe name="cornGrilled" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingGrill" >
-		<ingredient name="corn" count="2"/>
+		<ingredient name="corn" count="3"/>
 	</recipe>
 	<recipe name="Chicken_Feed" count="1" craft_time = "4" >
 		<ingredient name="plantedCorn1" count="2"/>
@@ -878,27 +878,31 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Flour" count="3"/>
 	</recipe>
+	<recipe name="Bread" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
+		<ingredient name="bottledWater" count="1"/>
+		<ingredient name="Flour" count="3"/>
+	</recipe>
 	<recipe name="blueberryPie" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
-		<ingredient name="blueberries" count="2"/>
+		<ingredient name="blueberries" count="4"/>
 		<ingredient name="egg" count="2"/>
 		<ingredient name="Flour" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="blueberryPie" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
-		<ingredient name="blueberries" count="2"/>
+		<ingredient name="blueberries" count="4"/>
 		<ingredient name="egg" count="2"/>
 		<ingredient name="Flour" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="blueberryPie" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingPot" >
-		<ingredient name="blueberries" count="2"/>
+		<ingredient name="blueberries" count="4"/>
 		<ingredient name="egg" count="2"/>
 		<ingredient name="Flour" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="Blueberry_Jam" count="1" craft_time = "8" >
 		<ingredient name="bottledWater" count="1"/>
-		<ingredient name="blueberries" count="3"/>
+		<ingredient name="blueberries" count="2"/>
 	</recipe>
 	<recipe name="Cornbread_and_Jam" count="1" craft_time = "8" >
 		<ingredient name="Blueberry_Jam" count="1"/>
@@ -1093,91 +1097,91 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="Venison_Stew" count="1" craft_time = "16" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Venison" count="1"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="Venison_Stew" count="1" craft_time = "16" craft_area="Old_Oven" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Venison" count="1"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="Venison_Stew" count="1" craft_time = "16" craft_area="New_Oven" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Venison" count="1"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="Chicken_Stew" count="1" craft_time = "16" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Chicken" count="2"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="Chicken_Stew" count="1" craft_time = "16" craft_area="Old_Oven" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Chicken" count="2"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="Chicken_Stew" count="1" craft_time = "16" craft_area="New_Oven" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Chicken" count="2"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="Rabbit_Stew" count="1" craft_time = "16" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Rabbit" count="2"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="Rabbit_Stew" count="1" craft_time = "16" craft_area="Old_Oven" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Rabbit" count="2"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="Rabbit_Stew" count="1" craft_time = "16" craft_area="New_Oven" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Rabbit" count="2"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="Bear_Stew" count="1" craft_time = "16" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Bear" count="1"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="Bear_Stew" count="1" craft_time = "16" craft_area="Old_Oven" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Bear" count="1"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="Bear_Stew" count="1" craft_time = "16" craft_area="New_Oven" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Bear" count="1"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="wolfMeatStew" count="1" craft_time = "16" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="wolfMeatRaw" count="1"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="wolfMeatStew" count="1" craft_time = "16" craft_area="Old_Oven" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="wolfMeatRaw" count="1"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="wolfMeatStew" count="1" craft_time = "16" craft_area="New_Oven" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="wolfMeatRaw" count="1"/>
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="3"/>
 		<ingredient name="corn" count="2"/>
 	</recipe>
 	<recipe name="wolfMeatBoiled" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
@@ -1237,30 +1241,30 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="canMurkyWater" count="1"/>
 	</recipe>
 	<recipe name="cornBread" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
-		<ingredient name="cornMeal" count="2"/>
+		<ingredient name="cornMeal" count="3"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="cornBread" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
-		<ingredient name="cornMeal" count="2"/>
+		<ingredient name="cornMeal" count="3"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="cornBread" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingPot" >
-		<ingredient name="cornMeal" count="2"/>
+		<ingredient name="cornMeal" count="3"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="cornMeal" count="1" craft_time = "4" >
 		<ingredient name="corn" count="1"/>
 	</recipe>
 	<recipe name="cornOnTheCob" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
-		<ingredient name="corn" count="2"/>
+		<ingredient name="corn" count="3"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="cornOnTheCob" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
-		<ingredient name="corn" count="2"/>
+		<ingredient name="corn" count="3"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="cornOnTheCob" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingPot" >
-		<ingredient name="corn" count="2"/>
+		<ingredient name="corn" count="3"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="eggboiled" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
