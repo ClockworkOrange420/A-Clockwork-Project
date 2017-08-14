@@ -160,6 +160,7 @@
 		<property name="HoldType" value="12"/>
 		<property name="Stacknumber" value="50"/>
 		<property name="Degradation" value="50" param1="false" />
+		<property name="DegradationBreaksAfter" value="false"/>
 		<!-- STK torch -->
 		<property name="FuelValue" value="24"/>
 		<property name="EconomicValue" value="10"/>
