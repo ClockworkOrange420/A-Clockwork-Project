@@ -45,7 +45,6 @@
 		<property name="DropScale" value="2"/>
 		<property name="LPHardnessScale" value="4"/>
 		<property name="Map.Color" value="50,120,55"/>
-		<property name="PlaceAltBlockValue" value="grassFromDirt,fertileDirt"/>
 		<property class="RepairItems">
 			<property name="dirtFragment" value="20"/>
 		</property>
@@ -85,7 +84,6 @@
 		<property name="Texture" value="396,570,570,570,570,570"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="118"/>
 		<property name="Map.Color" value="110,95,49"/>
-		<property name="PlaceAltBlockValue" value="plainsGroundFromDirt,plainsGroundFromDirt,plainsGroundFromDirt,plainsGroundWGrass1,plainsGroundWGrass1,plainsGroundWGrass1,plainsGroundWGrass1"/>
 	</block>
 	<block id="5" name="radiated">
 		<property name="Extends" value="dirt"/>
@@ -289,12 +287,27 @@
 	<block id="19" name="fertileDirt">
 		<!-- only used for the icon. Should fix that eventually... -->
 		<property name="Extends" value="dirt"/>
+		<property name="Class" value="PlantGrowing"/>
 		<property name="CreativeMode" value="None"/>
+		<property name="PlantGrowing.FertileLevel" value="0"/>
+		<property name="PlantGrowing.Next" value="fertileGrass"/>
+		<property name="PlantGrowing.GrowthRate" value="10"/>
+		<property name="PlantGrowing.IsRandom" value="true"/>
+		<property name="PlantGrowing.LightLevelStay" value="0"/>
+		<property name="PlantGrowing.GrowIfAnythinOnTop" value="false"/>
 	</block>
 	<block id="20" name="fertileGrass">
 		<property name="Extends" value="grass"/>
+		<property name="Class" value="PlantGrowing"/>
 		<property name="CustomIcon" value="grass"/>
 		<property name="CreativeMode" value="None"/>
+		<property name="PlantGrowing.FertileLevel" value="0"/>
+		<property name="PlantGrowing.Next" value="grass"/>
+		<property name="PlantGrowing.GrowthRate" value="2"/>
+		<property name="PlantGrowing.IsRandom" value="true"/>
+		<property name="PlantGrowing.LightLevelStay" value="0"/>
+		<property name="PlantGrowing.GrowOnTop" value="treeTallGrassDiagonal"/>
+		<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
 	</block>
 	<!--<block id="21" name="gore"><property name="Class" value="UpgradeRated"/><property name="Material" value="organic"/><property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="2"/><property name="DropScale" value="2"/><property name="FallDamage" value="false"/><drop event="Destroy" count="0"/><property name="UpgradeRated.ToBlock" value="air"/><property name="UpgradeRated.Rate" value="15"/><drop event="Harvest" name="femur" count="1" tool_category="Butcher"/><drop event="Harvest" name="rottingFlesh" count="1" tool_category="Butcher"/><drop event="Destroy" name="femur" count="1" tool_category="Harvest"/><drop event="Destroy" name="rottingFlesh" count="1" tool_category="Harvest"/><drop event="Fall" name="femur" count="2" prob="0.5" stick_chance="0"/><drop event="Fall" name="rottingFlesh" count="2" prob="0.5" stick_chance="0"/></block>-->
 	<block id="22" name="fertileFarmland">
@@ -340,7 +353,6 @@
 		<property name="DropScale" value="2"/>
 		<property name="LPHardnessScale" value="2"/>
 		<property name="Map.Color" value="55,55,50"/>
-		<property name="PlaceAltBlockValue" value="burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundWGrass1"/>
 		<property class="RepairItems">
 			<property name="dirtFragment" value="20"/>
 		</property>
@@ -361,7 +373,6 @@
 		<property name="DropScale" value="2"/>
 		<property name="LPHardnessScale" value="2"/>
 		<property name="Map.Color" value="35,80,45"/>
-		<property name="PlaceAltBlockValue" value="forestGroundFromDirt,forestGroundWGrass1"/>
 		<property class="RepairItems">
 			<property name="dirtFragment" value="20"/>
 		</property>
@@ -2593,7 +2604,7 @@
 	</block>
 	<block id="267" name="animalGore">
 		<property name="CreativeMode" value="Dev"/>
-		<!--<property name="Class" value="Gore" />-->
+		<!--<property name="Class" value="Gore"/>-->
 		<property name="Material" value="organic"/>
 		<property name="Shape" value="ModelEntity"/>
 		<!-- A ModelEntity does NOT need a texture entry. -->
@@ -2988,10 +2999,10 @@
 		<property name="ImposterExchange" value="imposterBlock" param1="105"/>
 		<property name="LootList" value="5"/>
 		<property class="UpgradeBlock">
-			<property name="ToBlock" value="Old_Oven" />
-			<property name="Item" value="forgedIron" />
-			<property name="ItemCount" value="10" />
-			<property name="UpgradeHitCount" value="4" />
+			<property name="ToBlock" value="Old_Oven"/>
+			<property name="Item" value="forgedIron"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<drop event="Harvest" name="scrapIron" count="5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="mechanicalParts" count="1" tool_category="Disassemble"/>
@@ -10077,10 +10088,10 @@
 		<property name="Texture" value="346,345,341,345,262,345"/>
 		<property name="LootList" value="3"/>
 		<property class="UpgradeBlock">
-			<property name="ToBlock" value="New_Oven" />
-			<property name="Item" value="forgedIron" />
-			<property name="ItemCount" value="10" />
-			<property name="UpgradeHitCount" value="4" />
+			<property name="ToBlock" value="New_Oven"/>
+			<property name="Item" value="forgedIron"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<drop event="Harvest" name="scrapIron" count="5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="mechanicalParts" count="1" tool_category="Disassemble"/>
