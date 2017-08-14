@@ -1652,7 +1652,7 @@
 
 <!-- Supply Crate General, the normal airdrop -->
 <lootcontainer id="34" count="4" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="baseTemplate">
-	<item group="weaponsMilitaryGuns+ammo" prob="1.2"/>
+	<item group="treasureParts" prob="1.2"/>
 	<item group="rareBooks"/>
 	<item group="airdropMedicine" count="1,4"/>
 	<item name="flashlight02" prob="0.2"/>
