@@ -487,7 +487,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 <!--Modded-->
 <buff id="sleepingChairTrigger" duration="1" actions="setvar(CTRChair, 3)"/>
 <buff id="sleepingChairEffect" duration="0" buffif="CTRChair greater 0" debuffif="CTRChair less 1" actions="increment(CTRChair, -1, 1, 0, 0)" name_key="You Are Resting" description_key="You are resting and will recover from fatigue slowly." tooltip_key="You are resting" icon="ui_game_symbol_map_bed"/>
-<buff id="sleepingChairEffect2" duration="0" mutex="rested" buffif="CTRChair greater 0" debuffif="CTRChair less 1" actions="increment(fatigue, -0.5, 1, 0, 0)"/>
+<buff id="sleepingChairEffect2" duration="0" mutex="rested" buffif="CTRChair greater 0" debuffif="CTRChair less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
 
 <buff id="sleepingBagTrigger" duration="1" actions="setvar(CTRbedroll, 3)"/>
 <buff id="sleepingBagEffect" duration="0" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(CTRbedroll, -1, 1, 0, 0);buff(recovering2)" name_key="You Are Resting" description_key="You are resting and will recover from fatigue slowly." tooltip_key="You are resting" icon="ui_game_symbol_map_bed"/>
