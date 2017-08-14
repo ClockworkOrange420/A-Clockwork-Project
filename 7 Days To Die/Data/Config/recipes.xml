@@ -4108,13 +4108,13 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="5"/>
-	</recipe>
+	</recipe><!--
 	<recipe name="Medical_Book" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="5"/>
-	</recipe>
+	</recipe>-->
 	<recipe name="Leatherworking" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
