@@ -1757,8 +1757,28 @@
 					<skill_attribute />
 					<skill_attribute />
 					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
 				</grid>
 				<grid rows="4" cols="1" pos="300,-46" width="300" cell_width="147" cell_height="42" controller="SkillRequirementList">
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
 					<skill_requirement />
 					<skill_requirement />
 					<skill_requirement />

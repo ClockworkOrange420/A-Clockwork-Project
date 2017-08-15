@@ -1500,20 +1500,20 @@ flare,items,Gun,KgNone,Flare,Fusée de détresse,Leuchtfackel,,Bengala
 gun44Magnum,items,Gun,KgNone,.44 Magnum,.44 magnum,.44 Magnum,,Magnum 44
 gun44MagnumDesc,items,Gun,KgNone,The .44 Magnum is the king of handguns. It's the most powerful but makes the most noise. Wield this bad boy and make Clint proud.,"Le .44 magnum est le roi des armes à feu. C'est le pistolet le plus puissant, mais aussi le plus bruyant. Servez-vous-en correctement pour faire plaisir à Clint.","Die .44 Magnum ist die Königin aller Handfeuerwaffen. Sie verursacht am meisten Schaden, ist aber auch am lautesten. Zieh dieses Baby und mach Clint stolz.",,"La Magnum 44 es la reina de las pistolas. Es la más poderosa, pero también la más ruidosa. Empuña esta preciosidad y haz que Clint se sienta orgulloso."
 gunAK47,items,Gun,KgNone,AK-47 Assault Rifle,Fusil d'assaut AK-47,AK-47 Sturmgewehr,,Rifle de asalto AK-47
-gunAK47Desc,items,Gun,KgNone,This badass AK-47 Assault Rifle uses 7.62mm ammo. Can be re-assembled and repaired if you read the schematic.,"Ultra badass, le fusil d'assaut AK-47 nécessite des munitions de calibre 7,62 mm. L'arme peut être réassemblée et réparée si vous lisez le schéma.","Das krasse AK-47 Sturmgewehr verwendet 7,62 mm Munition. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,Este rudo rifle de asalto AK-47 usa munición de 7.62 mm. Se puede rearmar y reparar si lees el esquema.
+gunAK47Desc,items,Gun,KgNone,This badass AK-47 Assault Rifle uses 7.62mm ammo. Can be re-assembled and repaired if you've unlocked the skill.,"Ultra badass, le fusil d'assaut AK-47 nécessite des munitions de calibre 7,62 mm. L'arme peut être réassemblée et réparée si vous lisez le schéma.","Das krasse AK-47 Sturmgewehr verwendet 7,62 mm Munition. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,Este rudo rifle de asalto AK-47 usa munición de 7.62 mm. Se puede rearmar y reparar si lees el esquema.
 gunHuntingRifle,items,Gun,KgNone,Hunting Rifle,Fusil de chasse,Jagdgewehr,,Rifle de caza
-gunHuntingRifleDesc,items,Gun,KgNone,"This common farmer's hunting rifle uses 7.62mm ammo. Can be assembled, repaired and augmented once you've read the schematic.","Ce fusil de chasse de fermier classique nécessite des munitions de calibre 7,62 mm. Peut être assemblé, réparé et amélioré une fois que vous avez lu le schéma associé.","Dieses gewöhnliches Jagdgewehr eines Bauern verwendet 7,62 mm Munition. Kann zusammengesetzt, repariert und verbessert werden, wenn du den Bauplan gelesen hast.",,"Este rifle de caza normal de granjero utiliza munición de 7,62 mm. Una vez que has leído el esquema, lo puedes armar, reparar y mejorar."
+gunHuntingRifleDesc,items,Gun,KgNone,"This common farmer's hunting rifle uses 7.62mm ammo. Can be assembled, repaired and augmented once you've unlocked the skill.","Ce fusil de chasse de fermier classique nécessite des munitions de calibre 7,62 mm. Peut être assemblé, réparé et amélioré une fois que vous avez lu le schéma associé.","Dieses gewöhnliches Jagdgewehr eines Bauern verwendet 7,62 mm Munition. Kann zusammengesetzt, repariert und verbessert werden, wenn du den Bauplan gelesen hast.",,"Este rifle de caza normal de granjero utiliza munición de 7,62 mm. Una vez que has leído el esquema, lo puedes armar, reparar y mejorar."
 gunMP5,items,Gun,KgNone,Machine Pistol,Mitraillette,Maschinenpistole,,Metralleta
 gunPistol,items,Gun,KgNone,Pistol,Pistolet,Pistole,,Revólver
-gunPistolDesc,items,Gun,KgNone,A basic pistol. Uses 9mm ammo. Can be re-assembled and repaired if you read the pistol book.,Un pistolet de base. Nécessite des munitions de calibre 9 mm. L'arme peut être réassemblée et réparée si vous lisez « Le livre des pistolets ».,"Eine einfache Pistole. Verwendet 9 mm Munition. Kann zusammengesetzt und repariert werden, wenn du das Buch „Pistolen“ gelesen hast.",,Un revólver básico. Utiliza munición de 9 mm. Se puede rearmar y reparar si has leído el libro de la pistola.
+gunPistolDesc,items,Gun,KgNone,A basic pistol. Uses 9mm ammo. Can be re-assembled and repaired if you've unlocked the skill.,Un pistolet de base. Nécessite des munitions de calibre 9 mm. L'arme peut être réassemblée et réparée si vous lisez « Le livre des pistolets ».,"Eine einfache Pistole. Verwendet 9 mm Munition. Kann zusammengesetzt und repariert werden, wenn du das Buch „Pistolen“ gelesen hast.",,Un revólver básico. Utiliza munición de 9 mm. Se puede rearmar y reparar si has leído el libro de la pistola.
 gunPumpShotgun,items,Gun,KgNone,Shotgun,Fusil à pompe,Schrotflinte,,Escopeta
-gunPumpShotgunDesc,items,Gun,KgNone,A long-barreled shotgun uses shells for ammo. Can be re-assembled and repaired if you read the Shotgun Schematic.,Les munitions du fusil à pompe à long canon sont des cartouches. L'arme peut être réassemblée et réparée si vous lisez le schéma du fusil à pompe.,"Eine Schrotflinte mit langem Lauf verwendet Flintenmunition. Kann zusammengesetzt und repariert werden, wenn du den Bauplan für Schrotflinten gelesen hast.",,Una escopeta de largo alcance utiliza cartuchos como munición. Se puede rearmar y reparar si has leído el esquema de escopeta.
+gunPumpShotgunDesc,items,Gun,KgNone,A long-barreled shotgun uses shells for ammo. Can be re-assembled and repaired if you've unlocked the skill.,Les munitions du fusil à pompe à long canon sont des cartouches. L'arme peut être réassemblée et réparée si vous lisez le schéma du fusil à pompe.,"Eine Schrotflinte mit langem Lauf verwendet Flintenmunition. Kann zusammengesetzt und repariert werden, wenn du den Bauplan für Schrotflinten gelesen hast.",,Una escopeta de largo alcance utiliza cartuchos como munición. Se puede rearmar y reparar si has leído el esquema de escopeta.
 gunRocketLauncher,items,Gun,KgNone,Rocket Launcher,Lance-roquettes,Raketenwerfer,,Lanzacohetes
-gunRocketLauncherDesc,items,Gun,KgNone,A Rocket Launcher shoots rocket propelled grenades. Can be re-assembled & repaired once you've read the Rocket Launcher Schematic.,Un lance-roquettes tire des grenades propulsées par des roquettes. L'arme peut être réassemblée et réparée si vous lisez le schéma du lance-roquettes.,"Ein Raketenwerfer feuert raketengetriebene Granaten ab. Kann zusammengesetzt und repariert werden, wenn du den Bauplan für Raketenwerfer gelesen hast.",,Un lanzacohetes que lanza granadas propulsadas por cohete. Se puede rearmar y reparar una vez que has leído el esquema de lanzacohetes.
+gunRocketLauncherDesc,items,Gun,KgNone,A Rocket Launcher shoots rocket propelled grenades. Can be re-assembled & repaired once you've unlocked the skill.,Un lance-roquettes tire des grenades propulsées par des roquettes. L'arme peut être réassemblée et réparée si vous lisez le schéma du lance-roquettes.,"Ein Raketenwerfer feuert raketengetriebene Granaten ab. Kann zusammengesetzt und repariert werden, wenn du den Bauplan für Raketenwerfer gelesen hast.",,Un lanzacohetes que lanza granadas propulsadas por cohete. Se puede rearmar y reparar una vez que has leído el esquema de lanzacohetes.
 gunSawedOffPumpShotgun,items,Gun,KgNone,Sawed-off Shotgun,Fusil à pompe à canon scié,Abgesägte Schrotflinte,,Escopeta recortada
-gunSawedOffPumpShotgunDesc,items,Gun,KgNone,A sawed-off shotgun fires shotgun shells. Can be re-assembled and repaired once you've read the schematic.,Les munitions du fusil à pompe à canon scié sont des cartouches. L'arme peut être réassemblée et réparée si vous lisez le schéma.,"Eine abgesägte Schrotflinte feuert Flintenmunition ab. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,Una escopeta recortada dispara cartuchos de escopeta. Se puede rearmar y reparar una vez que has leído el esquema.
+gunSawedOffPumpShotgunDesc,items,Gun,KgNone,A sawed-off shotgun fires shotgun shells. Can be re-assembled and repaired once you've unlocked the skill.,Les munitions du fusil à pompe à canon scié sont des cartouches. L'arme peut être réassemblée et réparée si vous lisez le schéma.,"Eine abgesägte Schrotflinte feuert Flintenmunition ab. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,Una escopeta recortada dispara cartuchos de escopeta. Se puede rearmar y reparar una vez que has leído el esquema.
 gunSniperRifle,items,Gun,KgNone,Sniper Rifle,Fusil de précision,Scharfschützengewehr,,Rifle de francotirador
-gunSniperRifleDesc,items,Gun,KgNone,A sniper rifle uses 7.62mm ammo and has a scope for zooming. Can be re-assembled and repaired once you've read the schematic.,"Le fusil de précision nécessite des munitions de calibre 7,62 mm et possède une lunette pour zoomer. L'arme peut être réassemblée et réparée si vous lisez le schéma.","Ein Scharfschützengewehr verwendet 7,62 mm Munition und hat ein Zielfernrohr, mit dem gezoomt werden kann. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,"El rifle de francotirador utiliza munición de 7,62 mm y tiene una mira para enfocar. Se puede rearmar y reparar una vez que has leído el esquema."
+gunSniperRifleDesc,items,Gun,KgNone,A sniper rifle uses 7.62mm ammo and has a scope for zooming. Can be re-assembled and repaired once you've unlocked the skill.,"Le fusil de précision nécessite des munitions de calibre 7,62 mm et possède une lunette pour zoomer. L'arme peut être réassemblée et réparée si vous lisez le schéma.","Ein Scharfschützengewehr verwendet 7,62 mm Munition und hat ein Zielfernrohr, mit dem gezoomt werden kann. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,"El rifle de francotirador utiliza munición de 7,62 mm y tiene una mira para enfocar. Se puede rearmar y reparar una vez que has leído el esquema."
 pipeBomb,items,Gun,EnChanged,Pipe Bomb (Ammo),Bombe-tuyau,Rohrbombe (Mun),,Bomba casera
 pipeBombDesc,items,Gun,KgNone,"Make pipe bombs with gun powder, pipes & plant fibers. Light them with the secondary action & throw them with the primary action.","Fabriquez une bombe-tuyau avec de la poudre à canon, des tuyaux et des fibres végétales. Allumez-la avec l'action secondaire et jetez-la avec l'action principale.","Fertige Rohrbomben mit Schießpulver, Rohren und Pflanzenfasern. Zünde sie mit der sekundären Aktion und wirf sie mit der primären Aktion.",,"Fabrica bombas caseras con pólvora, tuberías y fibra vegetal. Enciéndalas con la acción secundaria, y lánzalas con la acción primaria."
 woodenBow,items,Gun,KgNone,Wooden Bow,Arc en bois,Holzbogen,,Arco de madera
@@ -5025,6 +5025,7 @@ Chainsaw_Parts_Mold,items,Item Tool,KgNone,Chainsaw Parts Mold,,
 Chainsaw_Blade_Mold,items,Item Tool,KgNone,Chainsaw Blade Mold,,
 Auger_Parts_Mold,items,Item Tool,KgNone,Auger Parts Mold,,
 Auger_Blade_Mold,items,Item Tool,KgNone,Auger Blade Mold,,
+Silencer_Mold,items,Item Tool,KgNone,Silencer Mold,,
 partsMoldDesc,items,Item,KgNone,A mold used to craft parts at the forge.,,
 Mortar_and_Pestle,items,Item,KgNone,Mortar & Pestle,,
 mortarPestleDesc,items,Item,KgNone,Clay bowl with pestle used for grinding and mixing ingredients into a fine blend.,,
@@ -5161,6 +5162,41 @@ BlueberryYogurt,items,Food,New,Blueberry Yogurt,,,,
 BlueberryYogurtDesc,items,Food,New,Ah the better kind of yogurt,,,,
 Yogurt,items,Food,New,Yogurt,,,,
 YogurtDesc,items,Food,New,Plain yogurt but it will do,,,,
+partsPistol_barrelSilenced,items,Part,KgNone,Silenced Pistol Barrel,Canon de pistolet,Pistolenlauf,,Cañón de revólver
+Silencer,items,Item,KgNone,Silencer,,,,
+gunPistolSilenced,items,Gun,KgNone,Silenced Pistol,,,,
+Chemistry_For_Dummies,items,Book,New,Chemistry For Dummies,,,,
+Chemistry_For_DummiesDesc,items,Book,New,Study the knowledge of science.,,,,
+Armor_Smithing,items,Book,New,Armor Smithing,,,,
+Armor_SmithingDesc,items,Book,New,Study the knowledge of armor.,,,,
+Gun_Smithing,items,Book,New,Gun Smithing,,,,
+Gun_SmithingDesc,items,Book,New,Study the knowledge of guns.,,,,
+Leatherworking,items,Book,New,Leatherworking,,,,
+LeatherworkingDesc,items,Book,New,Study the knowledge of leatherworking.,,,,
+Tailoring,items,Book,New,Tailoring,,,,
+TailoringDesc,items,Book,New,Study the knowledge of tailoring.,,,,
+Tool_Smithing,items,Book,New,Tool Smithing,,,,
+Tool_SmithingDesc,items,Book,New,Study the knowledge of tools.,,,,
+Weapon_Smithing,items,Book,New,Weapon Smithing,,,,
+Weapon_SmithingDesc,items,Book,New,Study the knowledge of weapons.,,,,
+Archery,items,Book,New,Archery,,,,
+ArcheryDesc,items,Book,New,Study the knowledge of archery.,,,,
+Athletics,items,Book,New,Athletics,,,,
+AthleticsDesc,items,Book,New,Study the knowledge of athletics.,,,,
+Bladed_Weapons,items,Book,New,Bladed Weapons,,,,
+Bladed_WeaponsDesc,items,Book,New,Study the knowledge of blade weapons.,,,,
+Blunt_Weapons,items,Book,New,Blunt Weapons,,,,
+Blunt_WeaponsDesc,items,Book,New,Study the knowledge of blunt beapons.,,,,
+How_Mining_Works,items,Book,New,How Mining Works,,,,
+How_Mining_WorksDesc,items,Book,New,Study the knowledge of mining.,,,,
+Pistols,items,Book,New,Pistols,,,,
+PistolsDesc,items,Book,New,Study the knowledge of pistols.,,,,
+Rifles,items,Book,New,Rifles,,,,
+RiflesDesc,items,Book,New,Study the knowledge of rifles.,,,,
+Shotguns,items,Book,New,Shotguns,,,,
+ShotgunsDesc,items,Book,New,Study the knowledge of shotguns.,,,,
+Under_Construction,items,Book,New,Under Construction,,,,
+Under_ConstructionDesc,items,Book,New,Study the knowledge of construction.,,,,
 qt_zombie,items,Zombie Challenge Note,KgNone,News Report,,,,
 qt_zombieDesc,items,Zombie Challenge Note,KgNone,Todays news report!,,,,
 qt_zombieRepeat,items,Zombie Challenge Note,KgNone,Zombie Repeat Unlock,,,,

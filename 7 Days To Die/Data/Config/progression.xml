@@ -323,6 +323,9 @@
 		<requirement skill_level="3" required_skill_name="craftSkillGuns" required_skill_level="50"/>
 		<requirement skill_level="3" required_skill_name="Pistols" required_skill_level="50"/>
 		<recipe name="gunPistol" unlock_level="1"/>
+		<recipe name="gunPistolSilenced" unlock_level="1"/>
+		<recipe name="Silencer" unlock_level="1"/>
+		<recipe name="partsPistol_barrelSilenced" unlock_level="1"/>
 		<recipe name="partsPistol_barrel" unlock_level="1"/>
 		<recipe name="partsPistol_grip" unlock_level="1"/>
 		<recipe name="partsPistol_parts" unlock_level="1"/>

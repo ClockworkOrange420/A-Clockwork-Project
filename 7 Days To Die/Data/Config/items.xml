@@ -452,67 +452,66 @@
 		<property name="LightValue" value="0.45"/>
 	</item>
 	<item id="41" name="gunPistolSilenced">
-		<property name="CreativeMode" value="Dev"/>
-		<property name="CustomIcon" value="gunPistol"/>
-		<property name="CustomIconTint" value="a0a0ff"/>
 		<property name="Meshfile" value="Items/Weapons/Ranged/Pistol/PistolPrefab"/>
 		<property name="Material" value="metal"/>
-		<property name="Weight" value="50"/>
 		<property name="RepairTools" value="repairKit"/>
 		<property name="HoldType" value="1"/>
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="SoundJammed" value="weapon_jam"/>
+		<property name="Attachments" value="flashlight02"/>
 		<property name="CrosshairOnAim" value="false"/>
 		<!-- aimTest -->
 		<property name="CrosshairUpAfterShot" value="true"/>
 		<!-- aimTest -->
+		<property class="Parts">
+			<property name="Stock" value="partsPistol_grip"/>
+			<property name="Receiver" value="partsPistol_receiver"/>
+			<property name="Pump" value="partsPistol_parts"/>
+			<property name="Barrel" value="partsPistol_barrelSilenced"/>
+		</property>
+		<property name="Sound_Sight_In" value="pistol_sight_in"/>
+		<property name="Sound_Sight_Out" value="pistol_sight_out"/>
 		<property class="Action0">
 			<property name="Class" value="Ranged"/>
 			<property name="Delay" value="0.3"/>
 			<property name="Crosshair_min_distance" value="5"/>
-			<!-- 5 -->
 			<property name="Crosshair_max_distance" value="6"/>
-			<!-- 6 -->
 			<property name="Magazine_size" value="15"/>
 			<property name="Magazine_items" value="9mmBullet, Unload"/>
 			<property name="Magazine_item_ray_counts" value="1, 1"/>
 			<property name="Magazine_item_ray_spreads" value="0.85, 0"/>
-			<!-- .85 -->
 			<property name="Reload_time" value="2"/>
 			<property name="Bullet_icon" value="pistol"/>
-			<property name="Sound_start" value="Pistol_Fire"/>
+			<property name="Sound_start" value="Pistol_Fire2"/>
 			<property name="Sound_repeat" value=""/>
 			<property name="Sound_end" value=""/>
 			<property name="Sound_empty" value="weapon_empty"/>
 			<property name="Sound_reload" value="pistol_reload"/>
 			<property name="Particles_muzzle_fire" value="nozzleflash"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmoke"/>
-			<property name="DamageBonus.head" value="6"/>
+			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.wood" value="3"/>
-			<property name="DamageBonus.earth" value="0.4"/>
-			<property name="DamageBonus.glass" value="1"/>
+			<property name="DamageBonus.earth" value="0.1"/>
 			<property name="ActionExp" value="10"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Action1">
+			<!-- UseAction -->
 			<property name="Class" value="Zoom"/>
 			<property name="Zoom_max_out" value="35"/>
 			<property name="Zoom_max_in" value="35"/>
 		</property>
-		<property class="Attributes">
-			<property name="FalloffRange" value="22,50"/>
-			<property name="Accuracy" value="1,0.01"/>
-			<property name="EntityDamage" value="8,13"/>
-			<property name="BlockDamage" value="8,13"/>
-			<property name="DegradationMax" value="1000,1000"/>
-			<property name="DegradationRate" value="10,2"/>
-		</property>
+		<property name="LightSource" value="lightSource"/>
+		<!-- Start: Needed for the attachment flashlight -->
+		<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+		<property name="AttachmentFlashlight" value="flashlight02"/>
+		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Pistols"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 		<property name="RepairExpMultiplier" value="6"/>
 		<property name="LightValue" value="0.45"/>
-		<property name="DescriptionKey" value="devOnlyGroupDesc"/>
+		<property name="DescriptionKey" value="gunPistolDesc"/>
 	</item>
 	<item id="42" name="gun44Magnum">
 		<property name="Meshfile" value="Items/Weapons/Ranged/Magnums/44MagnumPrefab"/>
@@ -2926,6 +2925,18 @@
 		<property class="Attributes">
 			<property name="EntityDamage" value="10,15"/>
 			<property name="BlockDamage" value="7,13"/>
+			<property name="DegradationMax" value="1000,1000"/>
+		</property>
+		<property name="EconomicValue" value="412"/>
+	</item>
+	<item id="214" name="partsPistol_barrelSilenced">
+		<property name="Extends" value="partsMaster"/>
+		<property name="DescriptionKey" value="partsPistolGroupDesc"/>
+		<property name="PartType" value="Barrel"/>
+		<property name="Weight" value="25"/>
+		<property class="Attributes">
+			<property name="EntityDamage" value="9,14"/>
+			<property name="BlockDamage" value="6,10"/>
 			<property name="DegradationMax" value="1000,1000"/>
 		</property>
 		<property name="EconomicValue" value="412"/>
@@ -7477,24 +7488,28 @@
 	</item>
 	<item id="902" name="Chemistry_For_Dummies">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="Chemistry_For_DummiesDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Science_Skill"/>
 		</property>
 	</item>
 	<item id="903" name="Armor_Smithing">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="Armor_SmithingDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Armor_Smithing_Skill"/>
 		</property>
 	</item>
 	<item id="904" name="Gun_Smithing">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="Gun_SmithingDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Gun_Smithing_Skill"/>
 		</property>
 	</item>
 	<item id="905" name="Leatherworking">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="LeatherworkingDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Leatherworking_Skill"/>
 		</property>
@@ -7507,48 +7522,56 @@
 	</item>-->
 	<item id="907" name="Tailoring">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="TailoringDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Tailoring_Skill"/>
 		</property>
 	</item>
 	<item id="908" name="Tool_Smithing">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="Tool_SmithingDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Tool_Smithing_Skill"/>
 		</property>
 	</item>
 	<item id="909" name="Weapon_Smithing">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="Weapon_SmithingDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Weapon_Smithing_Skill"/>
 		</property>
 	</item>
 	<item id="910" name="Archery">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="ArcheryDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Archery_Skill"/>
 		</property>
 	</item>
 	<item id="911" name="Athletics">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="AthleticsDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Athletics_Skill"/>
 		</property>
 	</item>
 	<item id="912" name="Bladed_Weapons">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="Bladed_WeaponsDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Blade_Weapons_Skill"/>
 		</property>
 	</item>
 	<item id="913" name="Blunt_Weapons">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="Blunt_WeaponsDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Blunt_Weapons_Skill"/>
 		</property>
 	</item>
 	<item id="914" name="How_Mining_Works">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="How_Mining_WorksDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Mining_Tools_Skill"/>
 			<property name="ActionExp" value="3000"/>
@@ -7556,24 +7579,28 @@
 	</item>
 	<item id="915" name="Pistols">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="PistolsDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Pistols_Skill"/>
 		</property>
 	</item>
 	<item id="916" name="Rifles">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="RiflesDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Rifles_Skill"/>
 		</property>
 	</item>
 	<item id="917" name="Shotguns">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="ShotgunsDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Shotguns_Skill"/>
 		</property>
 	</item>
 	<item id="918" name="Under_Construction">
 		<property name="Extends" value="schematicMaster"/>
+		<property name="DescriptionKey" value="Under_ConstructionDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Construction_Tools_Skill"/>
 		</property>
@@ -7581,6 +7608,7 @@
 	<item id="919" name="qt_zombieRepeat">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="schematicMaster"/>
+		<property name="DescriptionKey" value="qt_zombieRepeatDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="qt_zombieRepeat1"/>
 			<property name="ActionExp" value="0"/>
@@ -9707,38 +9735,53 @@
 	</item>
 	<item id="1567" name="Compound_Bow_Parts_Mold">
 		<property name="Extends" value="Blank_Mold"/>
+		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 	</item>
 	<item id="1568" name="Compound_Bow_Grip_Mold">
 		<property name="Extends" value="Blank_Mold"/>
+		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 	</item>
 	<item id="1569" name="Compound_Bow_Body_Mold">
 		<property name="Extends" value="Blank_Mold"/>
+		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 	</item>
 	<item id="1570" name="Nailgun_Battery_Mold">
 		<property name="Extends" value="Blank_Mold"/>
+		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	</item>
 	<item id="1571" name="Nailgun_Parts_Mold">
 		<property name="Extends" value="Blank_Mold"/>
+		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	</item>
 	<item id="1572" name="Nailgun_Receiver_Mold">
 		<property name="Extends" value="Blank_Mold"/>
+		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	</item>
 	<item id="1573" name="Nailgun_Frame_Mold">
 		<property name="Extends" value="Blank_Mold"/>
+		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	</item>
 	<item id="1574" name="Chainsaw_Parts_Mold">
 		<property name="Extends" value="Blank_Mold"/>
+		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	</item>
 	<item id="1575" name="Chainsaw_Blade_Mold">
 		<property name="Extends" value="Blank_Mold"/>
+		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	</item>
 	<item id="1576" name="Auger_Parts_Mold">
 		<property name="Extends" value="Blank_Mold"/>
+		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	</item>
 	<item id="1577" name="Auger_Blade_Mold">
 		<property name="Extends" value="Blank_Mold"/>
+		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	</item>
-	<item id="1578" name="Bear">
+	<item id="1578" name="Silencer_Mold">
+		<property name="Extends" value="Blank_Mold"/>
+	</item>
+	<!--Free-->
+	<item id="1598" name="Bear">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9764,7 +9807,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1579" name="Pork">
+	<item id="1599" name="Pork">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9790,7 +9833,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1580" name="Rabbit">
+	<item id="1590" name="Rabbit">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9816,7 +9859,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1581" name="Chicken">
+	<item id="1591" name="Chicken">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9842,7 +9885,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1582" name="Grilled_Bear">
+	<item id="1592" name="Grilled_Bear">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9863,7 +9906,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1583" name="Grilled_Pork">
+	<item id="1593" name="Grilled_Pork">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9884,7 +9927,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1584" name="Grilled_Rabbit">
+	<item id="1594" name="Grilled_Rabbit">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9905,7 +9948,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1585" name="Grilled_Chicken">
+	<item id="1595" name="Grilled_Chicken">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9926,7 +9969,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1586" name="Boiled_Bear">
+	<item id="1596" name="Boiled_Bear">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9947,7 +9990,7 @@
 		<property name="Smell" value="smallSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1587" name="Boiled_Pork">
+	<item id="1597" name="Boiled_Pork">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9968,7 +10011,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1588" name="Boiled_Rabbit">
+	<item id="1598" name="Boiled_Rabbit">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9989,7 +10032,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1589" name="Boiled_Chicken">
+	<item id="1599" name="Boiled_Chicken">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -10010,7 +10053,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1590" name="Charred_Bear">
+	<item id="1600" name="Charred_Bear">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -10032,7 +10075,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1591" name="Charred_Pork">
+	<item id="1601" name="Charred_Pork">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -10054,7 +10097,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1592" name="Charred_Rabbit">
+	<item id="1602" name="Charred_Rabbit">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -10076,7 +10119,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1593" name="Charred_Chicken">
+	<item id="1603" name="Charred_Chicken">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -10098,7 +10141,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1594" name="Bear_Stew">
+	<item id="1604" name="Bear_Stew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10120,19 +10163,19 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1595" name="Creamed_Corn">
+	<item id="1605" name="Creamed_Corn">
 		<property name="Extends" value="Tomato_Soup"/>
 		<property name="DescriptionKey" value="creamedCornDesc"/>
 	</item>
-	<item id="1596" name="Chicken_Noodle_Soup">
+	<item id="1606" name="Chicken_Noodle_Soup">
 		<property name="Extends" value="Tomato_Soup"/>
 		<property name="DescriptionKey" value="chickenNoodleSoupDesc"/>
 	</item>
-	<item id="1597" name="Mushroom_Soup">
+	<item id="1607" name="Mushroom_Soup">
 		<property name="Extends" value="Tomato_Soup"/>
 		<property name="DescriptionKey" value="mushroomSoupDesc"/>
 	</item>
-	<item id="1598" name="Venison_Stew">
+	<item id="1608" name="Venison_Stew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10154,7 +10197,7 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1599" name="Blueberry_Jam">
+	<item id="1609" name="Blueberry_Jam">
 		<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10176,7 +10219,7 @@
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1600" name="Cornbread_and_Jam">
+	<item id="1610" name="Cornbread_and_Jam">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="organic"/>
@@ -10197,7 +10240,7 @@
 		<property name="DescriptionKey" value="cornBreadAndJamDesc"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1601" name="Honey_Poultice">
+	<item id="1611" name="Honey_Poultice">
 		<property name="Meshfile" value="Items/Food/honeyPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
@@ -10221,7 +10264,7 @@
 		<property name="Group" value="Medicine"/>
 		<property name="ActionExp" value="50"/>
 	</item>
-	<item id="1602" name="Barbed_Wire">
+	<item id="1612" name="Barbed_Wire">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="metal"/>
@@ -10233,7 +10276,7 @@
 		<property name="Group" value="Resources"/>
 		<property name="DescriptionKey" value="BarbedWireDesc"/>
 	</item>
-	<item id="1603" name="MasterSkill">
+	<item id="1613" name="MasterSkill">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="paper"/>
@@ -10243,74 +10286,74 @@
 		<property name="Group" value="Resources"/>
 		<property name="UserHidden" value="true"/>
 	</item>
-	<item id="1604" name="Science_Skill">
+	<item id="1614" name="Science_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillScience"/>
 	</item>
-	<item id="1605" name="Armor_Smithing_Skill">
+	<item id="1615" name="Armor_Smithing_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillArmor"/>
 	</item>
-	<item id="1606" name="Athletics_Skill">
+	<item id="1616" name="Athletics_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Athletics"/>
 	</item>
-	<item id="1607" name="Blunt_Weapons_Skill">
+	<item id="1617" name="Blunt_Weapons_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Blunt Weapons"/>
 	</item>
-	<item id="1608" name="Blade_Weapons_Skill">
+	<item id="1618" name="Blade_Weapons_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Blade Weapons"/>
 	</item>
-	<item id="1609" name="Mining_Tools_Skill">
+	<item id="1619" name="Mining_Tools_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 	</item>
-	<item id="1610" name="Construction_Tools_Skill">
+	<item id="1620" name="Construction_Tools_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Construction Tools"/>
 	</item>
-	<item id="1611" name="Pistols_Skill">
+	<item id="1621" name="Pistols_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Pistols"/>
 	</item>
-	<item id="1612" name="Shotguns_Skill">
+	<item id="1622" name="Shotguns_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Shotguns"/>
 	</item>
-	<item id="1613" name="Rifles_Skill">
+	<item id="1623" name="Rifles_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Rifles"/>
 	</item>
-	<item id="1614" name="Archery_Skill">
+	<item id="1624" name="Archery_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Archery"/>
 	</item><!--
-	<item id="1615" name="Medicine_Skill">
+	<item id="1625" name="Medicine_Skill">
 		<property name="Extends" value="MasterSkill"/>
 	</item>-->
-	<item id="1616" name="Weapon_Smithing_Skill">
+	<item id="1626" name="Weapon_Smithing_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillWeapons"/>
 	</item>
-	<item id="1617" name="Tool_Smithing_Skill">
+	<item id="1627" name="Tool_Smithing_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillTools"/>
 	</item>
-	<item id="1618" name="Gun_Smithing_Skill">
+	<item id="1628" name="Gun_Smithing_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillGuns"/>
 	</item>
-	<item id="1619" name="Tailoring_Skill">
+	<item id="1629" name="Tailoring_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Tailoring"/>
 	</item>
-	<item id="1620" name="Leatherworking_Skill">
+	<item id="1630" name="Leatherworking_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Leatherworking"/>
 	</item>
-	<item id="1621" name="Chicken_Stew">
+	<item id="1631" name="Chicken_Stew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10332,7 +10375,7 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1622" name="Rabbit_Stew">
+	<item id="1632" name="Rabbit_Stew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10354,7 +10397,7 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1623" name="Scythe">
+	<item id="1633" name="Scythe">
 		<property name="Meshfile" value="Items/Weapons/Melee/Knives/machetePrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="RepairTools" value="forgedIron"/>
@@ -10418,8 +10461,7 @@
 		<property name="Group" value="Tools/Traps"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	</item>
-	<!--Free-->
-	<item id="1624" name="Bricks">
+	<item id="1634" name="Bricks">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="Mbrick"/>
@@ -10430,7 +10472,7 @@
 		<property name="DescriptionKey" value="BricksDesc"/>
 		<property name="Group" value="Resources"/>
 	</item>
-	<item id="1625" name="Dry Towel">
+	<item id="1635" name="Dry Towel">
 		<property name="Meshfile" value="Items/Crafting/cloth"/>
 		<property name="DescriptionKey" value="DryTowelDesc"/>
 		<property name="Material" value="cloth"/>
@@ -10454,7 +10496,7 @@
 		<property name="Group" value="Resources,Clothing"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 	</item>
-	<item id="1626" name="Wet Towel">
+	<item id="1636" name="Wet Towel">
 		<property name="Meshfile" value="Items/Crafting/cloth"/>
 		<property name="DescriptionKey" value="WetTowelDesc"/>
 		<property name="Material" value="cloth"/>
@@ -10473,7 +10515,7 @@
 		</property>
 		<property name="Group" value="Resources,Clothing"/>
 	</item>
-	<item id="1627" name="Wet Cloth">
+	<item id="1637" name="Wet Cloth">
 		<property name="Meshfile" value="Items/Crafting/cloth"/>
 		<property name="DescriptionKey" value="WetClothDesc"/>
 		<property name="Material" value="cloth"/>
@@ -10492,7 +10534,7 @@
 		</property>
 		<property name="Group" value="Resources,Clothing"/>
 	</item>
-	<item id="1628" name="Remote">
+	<item id="1638" name="Remote">
 		<property name="Meshfile" value="Items/Crafting/ingotIron"/>
 		<property name="Material" value="Mplastics"/>
 		<property name="HoldType" value="21"/>
@@ -10523,7 +10565,7 @@
 		<property name="Group" value="Tools/Traps"/>
 		<property name="DescriptionKey" value="RemoteDesc"/>
 	</item>
-	<item id="1629" name="wolfMeatRaw">
+	<item id="1639" name="wolfMeatRaw">
 		<property name="Meshfile" value="Items/Misc/raw_meatPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
@@ -10548,7 +10590,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1630" name="wolfMeatCharred">
+	<item id="1640" name="wolfMeatCharred">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
@@ -10570,7 +10612,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1631" name="wolfMeatGrilled">
+	<item id="1641" name="wolfMeatGrilled">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
@@ -10591,7 +10633,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1632" name="wolfMeatBoiled">
+	<item id="1642" name="wolfMeatBoiled">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
@@ -10613,7 +10655,7 @@
 		<property name="Smell" value="smallSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1633" name="wolfMeatStew">
+	<item id="1643" name="wolfMeatStew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10635,26 +10677,295 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1634" name="scrapIronPlating">
+	<item id="1644" name="scrapIronPlating">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="CustomIcon" value="scrapIronPlate"/>
 		<property name="HoldType" value="45"/>
 		<property name="Stacknumber" value="1000"/>
 		<property name="EconomicValue" value="500"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Weight" value="50"/>
 		<property name="DescriptionKey" value="scrapIronPlatingDesc"/>
 		<property name="Group" value="Resources"/>
 	</item>
-	<item id="1635" name="stainlessSteelPlating">
+	<item id="1645" name="stainlessSteelPlating">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="CustomIcon" value="steelPlate"/>
 		<property name="HoldType" value="45"/>
 		<property name="Stacknumber" value="1000"/>
 		<property name="EconomicValue" value="1000"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Weight" value="100"/>
 		<property name="DescriptionKey" value="stainlessSteelPlatingDesc"/>
+		<property name="Group" value="Resources"/>
+	</item>
+	<item id="1646" name="Yogurt">
+		<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="23"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="EconomicValue" value="10"/>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="4"/>
+			<property name="Gain_water" value="2"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_eating"/>
+			<property name="Buff" value="4eatDairy"/>
+		</property>
+		<property name="DescriptionKey" value="YogurtDesc"/>
+		<property name="DropScale" value="4"/>
+		<property name="Group" value="Food/Cooking"/>
+	</item>
+	<item id="1647" name="BlueberryYogurt">
+		<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="23"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="EconomicValue" value="10"/>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="4"/>
+			<property name="Gain_water" value="2"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_eating"/>
+			<property name="Buff" value="3eatDairy,eatFruit"/>
+		</property>
+		<property name="DescriptionKey" value="BlueberryYogurtDesc"/>
+		<property name="DropScale" value="4"/>
+		<property name="Group" value="Food/Cooking"/>
+	</item>
+	<item id="1648" name="Cheese">
+		<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="23"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="EconomicValue" value="10"/>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="4"/>
+			<property name="Gain_water" value="2"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_eating"/>
+			<property name="Buff" value="4eatDairy"/>
+		</property>
+		<property name="DescriptionKey" value="CheeseDesc"/>
+		<property name="DropScale" value="4"/>
+		<property name="Group" value="Food/Cooking"/>
+	</item>
+	<item id="1649" name="SoyMilk">
+		<property name="Meshfile" value="Items/Food/bottledRiverWaterPrefab"/>
+		<property name="Material" value="glass"/>
+		<property name="HoldType" value="3"/>
+		<property name="Stacknumber" value="500"/>
+		<!-- STK resource -->
+		<property name="Weight" value="10"/>
+		<property name="EconomicValue" value="10"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="CraftingIngredientTime" value="10"/>
+		<property class="Action1">
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_stamina" value="5"/>
+			<property name="Gain_food" value="1"/>
+			<property name="Gain_water" value="10"/>
+			<property name="Gain_sickness" value="0"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_drinking"/>
+			<property name="Buff" value="eatDairy"/>
+		</property>
+		<property name="DescriptionKey" value="SoyMilkDesc"/>
+		<property name="Group" value="Food/Cooking"/>
+	</item>
+	<item id="1650" name="Pizza">
+		<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="23"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="EconomicValue" value="35"/>
+		<property name="EconomicBundleSize" value="1"/>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="20"/>
+			<property name="Gain_water" value="-2"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_eating"/>
+			<property name="Buff" value="4eatDairy,8eatMeat,2eatGrain,6eatVeg"/>
+		</property>
+		<property name="DescriptionKey" value="PizzaDesc"/>
+		<property name="DropScale" value="4"/>
+		<property name="Group" value="Food/Cooking"/>
+	</item>
+	<item id="1651" name="HoneyHam">
+		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="31"/>
+		<property name="Stacknumber" value="50"/>
+		<property name="EconomicValue" value="25"/>
+		<property name="EconomicBundleSize" value="1"/>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="2.1"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="9"/>
+			<property name="Gain_water" value="-2"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_eating"/>
+			<property name="Buff" value="8eatMeat,eatFruit"/>
+		</property>
+		<property name="DescriptionKey" value="HoneyHamDesc"/>
+		<property name="Smell" value="mediumSmell"/>
+		<property name="Group" value="Food/Cooking"/>
+	</item>
+	<item id="1652" name="Crackers">
+		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="31"/>
+		<property name="EconomicValue" value="10"/>
+		<property name="Stacknumber" value="50"/>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="2"/>
+			<property name="Gain_water" value="-2"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_eating"/>
+			<property name="Buff" value="2eatGrain"/>
+		</property>
+		<property name="DescriptionKey" value="CrackersDesc"/>
+		<property name="Group" value="Food/Cooking"/>
+	</item>
+	<item id="1653" name="CrackersAndCheese">
+		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="31"/>
+		<property name="EconomicValue" value="10"/>
+		<property name="Stacknumber" value="50"/>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="6"/>
+			<property name="Gain_water" value="-2"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_eating"/>
+			<property name="Buff" value="2eatGrain,4eatDairy"/>
+		</property>
+		<property name="DescriptionKey" value="CrackersAndCheeseDesc"/>
+		<property name="Group" value="Food/Cooking"/>
+	</item>
+	<item id="1654" name="SoyBeans">
+		<property name="Meshfile" value="Items/Food/seed_blueberryPrefab"/>
+		<property name="Material" value="plants"/>
+		<property name="HoldType" value="21"/>
+		<property name="Stacknumber" value="500"/>
+		<property name="SellableToTrader" value="false"/>
+		<!-- STK resource -->
+		<property class="Action0">
+			<property name="Class" value="PlaceAsBlock"/>
+			<property name="Delay" value="0.5"/>
+			<property name="Blockname" value="plantedSoy1"/>
+		</property>
+		<property class="Action1">
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="2"/>
+			<property name="Gain_water" value="0"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_eating"/>
+			<property name="Buff" value="eatVeg"/>
+		</property>
+		<property name="EconomicValue" value="12"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="DescriptionKey" value="SoyBeansDesc"/>
+		<property name="Group" value="Food/Cooking"/>
+	</item>
+	<item id="1655" name="Pancakes">
+		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="31"/>
+		<property name="EconomicValue" value="10"/>
+		<property name="Stacknumber" value="50"/>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="6"/>
+			<property name="Gain_water" value="-2"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_eating"/>
+			<property name="Buff" value="2eatGrain,4eatDairy"/>
+		</property>
+		<property name="DescriptionKey" value="PancakesDesc"/>
+		<property name="Group" value="Food/Cooking"/>
+	</item>
+	<item id="1656" name="BlueberryPancakes">
+		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="31"/>
+		<property name="EconomicValue" value="10"/>
+		<property name="Stacknumber" value="50"/>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="6"/>
+			<property name="Gain_water" value="-2"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_eating"/>
+			<property name="Buff" value="2eatGrain,2eatDairy,2eatFruit"/>
+		</property>
+		<property name="DescriptionKey" value="BlueberryPancakesDesc"/>
+		<property name="Group" value="Food/Cooking"/>
+	</item>
+	<item id="1657" name="Silencer">
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="Material" value="metal"/>
+		<property name="HoldType" value="45"/>
+		<property name="Stacknumber" value="1000"/>
+		<property name="EconomicValue" value="1000"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Weight" value="10"/>
+		<property name="DescriptionKey" value="SilencerDesc"/>
 		<property name="Group" value="Resources"/>
 	</item>
 </items>

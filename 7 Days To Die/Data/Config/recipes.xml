@@ -2343,6 +2343,13 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="partsPistol_receiver" count="1"/>
 		<ingredient name="partsPistol_grip" count="1"/>
 	</recipe>
+	<recipe name="gunPistolSilenced" count="1" craft_area="assembly" >
+		<ingredient name="flashlight02" count="0"/>
+		<ingredient name="partsPistol_parts" count="1"/>
+		<ingredient name="partsPistol_barrelSilenced" count="1"/>
+		<ingredient name="partsPistol_receiver" count="1"/>
+		<ingredient name="partsPistol_grip" count="1"/>
+	</recipe>
 	<recipe name="gunPowder" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Ammunition_Table" craft_tool="Mortar_and_Pestle" >
 		<ingredient name="coal" count="1"/>
 		<ingredient name="potassiumNitratePowder" count="1"/>
@@ -3824,6 +3831,18 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="partsPistol_barrel" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Pistol_Barrel_Mold" material_based="true" >
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="5"/>
+	</recipe>
+	<recipe name="Silencer_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="Silencer" count="1"/>
+		<ingredient name="clayLump" count="5"/>
+	</recipe>
+	<recipe name="Silencer" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" craft_tool="Silencer_Mold" material_based="true" >
+		<ingredient name="unit_iron" count="10"/>
+		<ingredient name="unit_clay" count="5"/>
+	</recipe>
+	<recipe name="partsPistol_barrelSilenced" count="1" craft_time = "8" craft_exp_gain="27" >
+		<ingredient name="Silencer" count="1"/>
+		<ingredient name="partsPistol_barrel" count="1"/>
 	</recipe>
 	<recipe name="Pistol_Grip_Mold" count="1" craft_time = "8" craft_exp_gain="27" >
 		<ingredient name="partsPistol_grip" count="1"/>
