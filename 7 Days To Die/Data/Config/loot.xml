@@ -637,6 +637,7 @@
 <lootgroup name="weaponsPistol+ammo" count="all">
 	<item name="9mmBullet" count="1,30"/>
 	<item name="gunPistol" count="1"/>
+	<item name="gunPistolSilenced" count="1"/>
 </lootgroup>
 
 <lootgroup name="toiletLoot" count="1">
@@ -717,6 +718,7 @@
 
 <lootgroup name="weaponsCommonParts" loot_quality_template="baseTemplate"> <!-- weaponPartsTemplate -->
 	<item name="partsPistol_barrel"/>
+	<item name="Silencer"/>
 	<item name="partsPistol_parts"/>
 	<item name="partsPistol_receiver"/>
 	<item name="partsPistol_grip"/>
@@ -737,6 +739,7 @@
 	<item name="partsPistol_parts"/>
 	<item name="partsPistol_receiver"/>
 	<item name="partsPistol_grip"/>
+	<item name="Silencer"/>
 	<item name="partsPumpShotgun_barrel"/>
 	<item name="partsPumpShotgun_parts"/>
 	<item name="partsPumpShotgun_barrelShort"/>
@@ -939,6 +942,7 @@
 
 <lootgroup name="treasureGuns" count="1">
 	<item name="gunPistol"/>
+	<item name="gunPistolSilenced"/>
 	<item name="gun44Magnum"/>
 	<item name="gunSawedOffPumpShotgun"/>
 	<item name="gunPumpShotgun"/>
@@ -1086,6 +1090,7 @@
 	<item name="paper" count="1,6" prob="0.7"/>
 	<item name="oldCash" count="1,6" prob="0.3"/>
 	<item name="cloth" count="1,4"/>
+	<item name="Silencer" count="1"/>
 	<item group="trophyGroup"/>
 	<item name="glassCTRSheet"/>
 	<item name="gunPowder" count="3,6"/>
@@ -1332,8 +1337,10 @@
 	<item name="bulletCasing" count="20,50"/>
 	<item name="bulletTip" count="20,50"/>
 	<item group="motorToolParts"/>
+	<item name="Silencer" count="1"/>
 	<item group="nailgunParts"/>
 	<item group="weaponsCompoundBowParts"/>
+	<item group="weaponsCommonParts"/>
 	<item name="steelArrowHead" count="1,10"/>
 	<item name="ironArrowHead" count="1,10"/>
 	<item name="cookingGrill"/>
@@ -1515,8 +1522,9 @@
 	<item name="Dry Towel"/>
 	<item group="trophyGroup"/>
 	<item name="Remote" count="1"/>
-	<item group="nailgunParts" prob="0.6"/>
-	<item group="weaponsCompoundBowParts" prob="0.6"/>
+	<item group="nailgunParts" prob="0.3"/>
+	<item group="weaponsCompoundBowParts" prob="0.3"/>
+	<item group="weaponsCommonParts" prob="0.3"/>
 	<item group="ammo"/>
 	<item group="books" count="1"/>
 	<item group="medicine"/>
