@@ -10961,8 +10961,8 @@
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="HoldType" value="45"/>
-		<property name="Stacknumber" value="1000"/>
-		<property name="EconomicValue" value="1000"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="EconomicValue" value="250"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Weight" value="10"/>
 		<property name="DescriptionKey" value="SilencerDesc"/>
