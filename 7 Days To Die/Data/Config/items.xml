@@ -9833,7 +9833,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1590" name="Rabbit">
+	<item id="1600" name="Rabbit">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9859,7 +9859,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1591" name="Chicken">
+	<item id="1601" name="Chicken">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9885,7 +9885,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1592" name="Grilled_Bear">
+	<item id="1602" name="Grilled_Bear">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9906,7 +9906,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1593" name="Grilled_Pork">
+	<item id="1603" name="Grilled_Pork">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9927,7 +9927,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1594" name="Grilled_Rabbit">
+	<item id="1604" name="Grilled_Rabbit">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9948,7 +9948,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1595" name="Grilled_Chicken">
+	<item id="1605" name="Grilled_Chicken">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9969,7 +9969,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1596" name="Boiled_Bear">
+	<item id="1606" name="Boiled_Bear">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -9990,7 +9990,7 @@
 		<property name="Smell" value="smallSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1597" name="Boiled_Pork">
+	<item id="1607" name="Boiled_Pork">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -10011,7 +10011,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1598" name="Boiled_Rabbit">
+	<item id="1608" name="Boiled_Rabbit">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -10032,7 +10032,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1599" name="Boiled_Chicken">
+	<item id="1609" name="Boiled_Chicken">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -10053,7 +10053,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1600" name="Charred_Bear">
+	<item id="1610" name="Charred_Bear">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -10075,7 +10075,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1601" name="Charred_Pork">
+	<item id="1611" name="Charred_Pork">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -10097,7 +10097,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1602" name="Charred_Rabbit">
+	<item id="1612" name="Charred_Rabbit">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -10119,7 +10119,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1603" name="Charred_Chicken">
+	<item id="1613" name="Charred_Chicken">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -10141,7 +10141,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1604" name="Bear_Stew">
+	<item id="1614" name="Bear_Stew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10163,19 +10163,19 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1605" name="Creamed_Corn">
+	<item id="1615" name="Creamed_Corn">
 		<property name="Extends" value="Tomato_Soup"/>
 		<property name="DescriptionKey" value="creamedCornDesc"/>
 	</item>
-	<item id="1606" name="Chicken_Noodle_Soup">
+	<item id="1616" name="Chicken_Noodle_Soup">
 		<property name="Extends" value="Tomato_Soup"/>
 		<property name="DescriptionKey" value="chickenNoodleSoupDesc"/>
 	</item>
-	<item id="1607" name="Mushroom_Soup">
+	<item id="1617" name="Mushroom_Soup">
 		<property name="Extends" value="Tomato_Soup"/>
 		<property name="DescriptionKey" value="mushroomSoupDesc"/>
 	</item>
-	<item id="1608" name="Venison_Stew">
+	<item id="1618" name="Venison_Stew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10197,7 +10197,7 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1609" name="Blueberry_Jam">
+	<item id="1619" name="Blueberry_Jam">
 		<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10219,7 +10219,7 @@
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1610" name="Cornbread_and_Jam">
+	<item id="1620" name="Cornbread_and_Jam">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="organic"/>
@@ -10240,7 +10240,7 @@
 		<property name="DescriptionKey" value="cornBreadAndJamDesc"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1611" name="Honey_Poultice">
+	<item id="1621" name="Honey_Poultice">
 		<property name="Meshfile" value="Items/Food/honeyPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
@@ -10264,7 +10264,7 @@
 		<property name="Group" value="Medicine"/>
 		<property name="ActionExp" value="50"/>
 	</item>
-	<item id="1612" name="Barbed_Wire">
+	<item id="1622" name="Barbed_Wire">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="metal"/>
@@ -10276,7 +10276,7 @@
 		<property name="Group" value="Resources"/>
 		<property name="DescriptionKey" value="BarbedWireDesc"/>
 	</item>
-	<item id="1613" name="MasterSkill">
+	<item id="1623" name="MasterSkill">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="paper"/>
@@ -10286,74 +10286,74 @@
 		<property name="Group" value="Resources"/>
 		<property name="UserHidden" value="true"/>
 	</item>
-	<item id="1614" name="Science_Skill">
+	<item id="1624" name="Science_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillScience"/>
 	</item>
-	<item id="1615" name="Armor_Smithing_Skill">
+	<item id="1625" name="Armor_Smithing_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillArmor"/>
 	</item>
-	<item id="1616" name="Athletics_Skill">
+	<item id="1626" name="Athletics_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Athletics"/>
 	</item>
-	<item id="1617" name="Blunt_Weapons_Skill">
+	<item id="1627" name="Blunt_Weapons_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Blunt Weapons"/>
 	</item>
-	<item id="1618" name="Blade_Weapons_Skill">
+	<item id="1628" name="Blade_Weapons_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Blade Weapons"/>
 	</item>
-	<item id="1619" name="Mining_Tools_Skill">
+	<item id="1629" name="Mining_Tools_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 	</item>
-	<item id="1620" name="Construction_Tools_Skill">
+	<item id="1630" name="Construction_Tools_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Construction Tools"/>
 	</item>
-	<item id="1621" name="Pistols_Skill">
+	<item id="1631" name="Pistols_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Pistols"/>
 	</item>
-	<item id="1622" name="Shotguns_Skill">
+	<item id="1632" name="Shotguns_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Shotguns"/>
 	</item>
-	<item id="1623" name="Rifles_Skill">
+	<item id="1633" name="Rifles_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Rifles"/>
 	</item>
-	<item id="1624" name="Archery_Skill">
+	<item id="1634" name="Archery_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Archery"/>
 	</item><!--
-	<item id="1625" name="Medicine_Skill">
+	<item id="1635" name="Medicine_Skill">
 		<property name="Extends" value="MasterSkill"/>
 	</item>-->
-	<item id="1626" name="Weapon_Smithing_Skill">
+	<item id="1636" name="Weapon_Smithing_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillWeapons"/>
 	</item>
-	<item id="1627" name="Tool_Smithing_Skill">
+	<item id="1637" name="Tool_Smithing_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillTools"/>
 	</item>
-	<item id="1628" name="Gun_Smithing_Skill">
+	<item id="1638" name="Gun_Smithing_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="craftSkillGuns"/>
 	</item>
-	<item id="1629" name="Tailoring_Skill">
+	<item id="1639" name="Tailoring_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Tailoring"/>
 	</item>
-	<item id="1630" name="Leatherworking_Skill">
+	<item id="1640" name="Leatherworking_Skill">
 		<property name="Extends" value="MasterSkill"/>
 		<property name="ActionSkillGroup" value="Leatherworking"/>
 	</item>
-	<item id="1631" name="Chicken_Stew">
+	<item id="1641" name="Chicken_Stew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10375,7 +10375,7 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1632" name="Rabbit_Stew">
+	<item id="1642" name="Rabbit_Stew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10397,7 +10397,7 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1633" name="Scythe">
+	<item id="1643" name="Scythe">
 		<property name="Meshfile" value="Items/Weapons/Melee/Knives/machetePrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="RepairTools" value="forgedIron"/>
@@ -10461,7 +10461,7 @@
 		<property name="Group" value="Tools/Traps"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	</item>
-	<item id="1634" name="Bricks">
+	<item id="1644" name="Bricks">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="Mbrick"/>
@@ -10472,7 +10472,7 @@
 		<property name="DescriptionKey" value="BricksDesc"/>
 		<property name="Group" value="Resources"/>
 	</item>
-	<item id="1635" name="Dry Towel">
+	<item id="1645" name="Dry Towel">
 		<property name="Meshfile" value="Items/Crafting/cloth"/>
 		<property name="DescriptionKey" value="DryTowelDesc"/>
 		<property name="Material" value="cloth"/>
@@ -10496,7 +10496,7 @@
 		<property name="Group" value="Resources,Clothing"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 	</item>
-	<item id="1636" name="Wet Towel">
+	<item id="1646" name="Wet Towel">
 		<property name="Meshfile" value="Items/Crafting/cloth"/>
 		<property name="DescriptionKey" value="WetTowelDesc"/>
 		<property name="Material" value="cloth"/>
@@ -10515,7 +10515,7 @@
 		</property>
 		<property name="Group" value="Resources,Clothing"/>
 	</item>
-	<item id="1637" name="Wet Cloth">
+	<item id="1647" name="Wet Cloth">
 		<property name="Meshfile" value="Items/Crafting/cloth"/>
 		<property name="DescriptionKey" value="WetClothDesc"/>
 		<property name="Material" value="cloth"/>
@@ -10534,7 +10534,7 @@
 		</property>
 		<property name="Group" value="Resources,Clothing"/>
 	</item>
-	<item id="1638" name="Remote">
+	<item id="1648" name="Remote">
 		<property name="Meshfile" value="Items/Crafting/ingotIron"/>
 		<property name="Material" value="Mplastics"/>
 		<property name="HoldType" value="21"/>
@@ -10565,7 +10565,7 @@
 		<property name="Group" value="Tools/Traps"/>
 		<property name="DescriptionKey" value="RemoteDesc"/>
 	</item>
-	<item id="1639" name="wolfMeatRaw">
+	<item id="1649" name="wolfMeatRaw">
 		<property name="Meshfile" value="Items/Misc/raw_meatPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
@@ -10590,7 +10590,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1640" name="wolfMeatCharred">
+	<item id="1650" name="wolfMeatCharred">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
@@ -10612,7 +10612,7 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1641" name="wolfMeatGrilled">
+	<item id="1651" name="wolfMeatGrilled">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
@@ -10633,7 +10633,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1642" name="wolfMeatBoiled">
+	<item id="1652" name="wolfMeatBoiled">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
@@ -10655,7 +10655,7 @@
 		<property name="Smell" value="smallSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1643" name="wolfMeatStew">
+	<item id="1653" name="wolfMeatStew">
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10677,7 +10677,7 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1644" name="scrapIronPlating">
+	<item id="1654" name="scrapIronPlating">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="CustomIcon" value="scrapIronPlate"/>
@@ -10689,7 +10689,7 @@
 		<property name="DescriptionKey" value="scrapIronPlatingDesc"/>
 		<property name="Group" value="Resources"/>
 	</item>
-	<item id="1645" name="stainlessSteelPlating">
+	<item id="1655" name="stainlessSteelPlating">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="CustomIcon" value="steelPlate"/>
@@ -10701,7 +10701,7 @@
 		<property name="DescriptionKey" value="stainlessSteelPlatingDesc"/>
 		<property name="Group" value="Resources"/>
 	</item><!--
-	<item id="1646" name="Yogurt">
+	<item id="1656" name="Yogurt">
 		<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10722,7 +10722,7 @@
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1647" name="BlueberryYogurt">
+	<item id="1657" name="BlueberryYogurt">
 		<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10743,7 +10743,7 @@
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1648" name="Cheese">
+	<item id="1658" name="Cheese">
 		<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10764,7 +10764,7 @@
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1649" name="SoyMilk">
+	<item id="1659" name="SoyMilk">
 		<property name="Meshfile" value="Items/Food/bottledRiverWaterPrefab"/>
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
@@ -10789,7 +10789,7 @@
 		<property name="DescriptionKey" value="SoyMilkDesc"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1650" name="Pizza">
+	<item id="1660" name="Pizza">
 		<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
@@ -10811,7 +10811,7 @@
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1651" name="HoneyHam">
+	<item id="1661" name="HoneyHam">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
@@ -10833,7 +10833,7 @@
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1652" name="Crackers">
+	<item id="1662" name="Crackers">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="organic"/>
@@ -10854,7 +10854,7 @@
 		<property name="DescriptionKey" value="CrackersDesc"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1653" name="CrackersAndCheese">
+	<item id="1663" name="CrackersAndCheese">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="organic"/>
@@ -10875,7 +10875,7 @@
 		<property name="DescriptionKey" value="CrackersAndCheeseDesc"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1654" name="SoyBeans">
+	<item id="1664" name="SoyBeans">
 		<property name="Meshfile" value="Items/Food/seed_blueberryPrefab"/>
 		<property name="Material" value="plants"/>
 		<property name="HoldType" value="21"/>
@@ -10904,7 +10904,7 @@
 		<property name="DescriptionKey" value="SoyBeansDesc"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1655" name="Pancakes">
+	<item id="1665" name="Pancakes">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="organic"/>
@@ -10925,7 +10925,7 @@
 		<property name="DescriptionKey" value="PancakesDesc"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-	<item id="1656" name="BlueberryPancakes">
+	<item id="1666" name="BlueberryPancakes">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="organic"/>
@@ -10946,7 +10946,7 @@
 		<property name="DescriptionKey" value="BlueberryPancakesDesc"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>-->
-	<item id="1657" name="Silencer">
+	<item id="1667" name="Silencer">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="HoldType" value="45"/>
