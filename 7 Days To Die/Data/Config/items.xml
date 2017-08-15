@@ -10700,7 +10700,7 @@
 		<property name="Weight" value="100"/>
 		<property name="DescriptionKey" value="stainlessSteelPlatingDesc"/>
 		<property name="Group" value="Resources"/>
-	</item>
+	</item><!--
 	<item id="1646" name="Yogurt">
 		<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
 		<property name="Material" value="organic"/>
@@ -10708,7 +10708,6 @@
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="10"/>
 		<property class="Action1">
-			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -10730,7 +10729,6 @@
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="10"/>
 		<property class="Action1">
-			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -10752,7 +10750,6 @@
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="10"/>
 		<property class="Action1">
-			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -10772,7 +10769,6 @@
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
 		<property name="Stacknumber" value="500"/>
-		<!-- STK resource -->
 		<property name="Weight" value="10"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="SellableToTrader" value="false"/>
@@ -10801,7 +10797,6 @@
 		<property name="EconomicValue" value="35"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property class="Action1">
-			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -10824,7 +10819,6 @@
 		<property name="EconomicValue" value="25"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property class="Action1">
-			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
@@ -10847,7 +10841,6 @@
 		<property name="EconomicValue" value="10"/>
 		<property name="Stacknumber" value="50"/>
 		<property class="Action1">
-			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -10869,7 +10862,6 @@
 		<property name="EconomicValue" value="10"/>
 		<property name="Stacknumber" value="50"/>
 		<property class="Action1">
-			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -10889,7 +10881,6 @@
 		<property name="HoldType" value="21"/>
 		<property name="Stacknumber" value="500"/>
 		<property name="SellableToTrader" value="false"/>
-		<!-- STK resource -->
 		<property class="Action0">
 			<property name="Class" value="PlaceAsBlock"/>
 			<property name="Delay" value="0.5"/>
@@ -10921,7 +10912,6 @@
 		<property name="EconomicValue" value="10"/>
 		<property name="Stacknumber" value="50"/>
 		<property class="Action1">
-			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -10943,7 +10933,6 @@
 		<property name="EconomicValue" value="10"/>
 		<property name="Stacknumber" value="50"/>
 		<property class="Action1">
-			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -10956,7 +10945,7 @@
 		</property>
 		<property name="DescriptionKey" value="BlueberryPancakesDesc"/>
 		<property name="Group" value="Food/Cooking"/>
-	</item>
+	</item>-->
 	<item id="1657" name="Silencer">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="Material" value="metal"/>
