@@ -1524,7 +1524,7 @@
 	<item name="Remote" count="1"/>
 	<item group="nailgunParts" prob="0.3"/>
 	<item group="weaponsCompoundBowParts" prob="0.3"/>
-	<item group="weaponsCommonParts" prob="0.3"/>
+	<item name="Silencer" count="1"/>
 	<item group="ammo"/>
 	<item group="books" count="1"/>
 	<item group="medicine"/>
