@@ -16344,7 +16344,13 @@
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="82" name="Composter_Filling">
-		<property name="Extends" value="woodPillar100"/>
+		<property name="Material" value="wood_regular"/>
+		<property name="Texture" value="241"/>
+		<property name="FuelValue" value="300"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="Pole1m"/>
+		<property name="UseGlobalUV" value="Local"/>
+		<property name="ImposterExchange" value="imposterDontBlockBlock" param1="67"/>
 		<property name="CustomIcon" value="woodPillar100"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="Class" value="PlantGrowing"/>
@@ -16361,8 +16367,14 @@
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="83" name="Full_Composter">
-		<property name="Extends" value="rWoodPillar100"/>
-		<property name="CustomIcon" value="rWoodPillar100"/>
+		<property name="Material" value="wood_regular"/>
+		<property name="Texture" value="241"/>
+		<property name="FuelValue" value="300"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="Pole1m"/>
+		<property name="UseGlobalUV" value="Local"/>
+		<property name="ImposterExchange" value="imposterDontBlockBlock" param1="67"/>
+		<property name="CustomIcon" value="woodPillar100"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="Class" value="Loot"/>
 		<property name="LootList" value="102"/>
@@ -16453,9 +16465,16 @@
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="87" name="chickenCoop_stage2">
-		<property name="Extends" value="burntWoodBlock4"/>
-		<property name="Material" value="wood_regular"/>
+		<property name="Mesh" value="opaque"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="siding_burnt04"/>
+		<property name="Texture" value="303,303,303,303,303,302"/>
+		<property name="ImposterExclude" value="false"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="85"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="Collide" value="movement,melee,rocket"/>
 		<property name="CustomIcon" value="burntWoodBlock4"/>
+		<property name="Material" value="wood_regular"/>
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="chickenCoop_stage3"/>
@@ -16474,7 +16493,14 @@
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="88" name="chickenCoop_stage3">
-		<property name="Extends" value="burntWoodBlock3"/>
+		<property name="Mesh" value="opaque"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="siding_burnt03"/>
+		<property name="Texture" value="303,303,303,303,303,302"/>
+		<property name="ImposterExclude" value="false"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="85"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="Collide" value="movement,melee,rocket"/>
 		<property name="Material" value="wood_regular"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="CustomIcon" value="burntWoodBlock3"/>
@@ -16496,8 +16522,15 @@
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="89" name="chickenCoop_stage4">
-		<property name="Extends" value="burntWoodBlock1"/>
-		<property name="Material" value="wood"/>
+		<property name="Mesh" value="opaque"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="siding_burnt01"/>
+		<property name="Texture" value="303,303,303,303,303,302"/>
+		<property name="ImposterExclude" value="false"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="85"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="Collide" value="movement,melee,rocket"/>
+		<property name="Material" value="wood_regular"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="CustomIcon" value="burntWoodBlock1"/>
 		<property name="Class" value="Loot"/>
