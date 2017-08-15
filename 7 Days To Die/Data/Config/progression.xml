@@ -553,10 +553,10 @@
 		<requirement skill_level="1" required_skill_name="Leatherworking" required_skill_level="10"/>
 		<recipe name="leather" unlock_level="1"/>
 	</perk>
-	<perk name="Concrete Mixing" icon="resource" description_key="Unlocks the ability to make bricks, cement, concrete mix and the xement mixer." title_key="Concrete Mixing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+	<perk name="Concrete Mixing" icon="resource" description_key="Unlocks the ability to make bricks, cement, concrete mix and the cement mixer." title_key="Concrete Mixing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="Mining Tools" required_skill_level="20"/>
-		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="5"/>
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="30"/>
 		<recipe name="cementMixer" unlock_level="1"/>
 		<recipe name="concreteMix" unlock_level="1"/>
@@ -564,18 +564,18 @@
 		<recipe name="Bricks" unlock_level="1"/>
 	</perk>
 	<perk name="Iron Working" icon="resource" description_key="Unlocks Iron Plates for upgrading your base." title_key="Iron Working" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="crafting">
-		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
-		<requirement skill_level="1" required_skill_name="Mining Tools" required_skill_level="30"/>
-		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="10"/>
-		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="40"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="30"/>
+		<requirement skill_level="1" required_skill_name="Mining Tools" required_skill_level="40"/>
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="30"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="50"/>
 		<recipe name="scrapIronPlating" unlock_level="1"/>
 		<recipe name="ironArrow" unlock_level="1"/>
 	</perk>
 	<perk name="Steel Smithing" icon="resource" description_key="Unlocks Steel smithing." title_key="Steel Smithing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="crafting">
-		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="30"/>
-		<requirement skill_level="1" required_skill_name="Mining Tools" required_skill_level="40"/>
-		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="15"/>
-		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="50"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="50"/>
+		<requirement skill_level="1" required_skill_name="Mining Tools" required_skill_level="60"/>
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="50"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="70"/>
 		<recipe name="forgedSteel" unlock_level="1"/>
 		<recipe name="steelArrowHead" unlock_level="1"/>
 		<recipe name="steelArrow" unlock_level="1"/>
