@@ -2551,7 +2551,6 @@
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
-		<property name="DowngradeBlock" value="plantedBlueberry1"/>
 		<drop event="Harvest" name="plantedBlueberry1" count="1" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="plantedBlueberry1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="blueberries" count="1" tool_category="Crops"/>
@@ -2574,8 +2573,8 @@
 	</block>
 	<block id="260" name="plantedPotato2">
 		<property name="Extends" value="cropsGrowingMaster"/>
-		<property name="CustomIcon" value="potatoSeed"/>
 		<property name="CreativeMode" value="Dev"/>
+		<property name="CustomIcon" value="potatoSeed"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 		<property name="PlantGrowing.Next" value="plantedPotato3Harvest"/>
@@ -2599,7 +2598,7 @@
 		<property name="CustomIcon" value="blueberrySeed"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
-		<property name="PlantGrowing.Next" value="plantedBlueberry3Harvest"/>
+		<property name="PlantGrowing.Next" value="plantedBlueberry3Harvest_Player"/>
 		<drop event="Destroy" name="plantedBlueberry1" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="263" name="lootWastelandHelper">
@@ -7291,7 +7290,6 @@
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="plantedCotton3Harvest"/>
 		<property name="Texture" value="363"/>
-		<property name="DowngradeBlock" value="plantedCotton1"/>
 		<drop event="Harvest" name="plantedCotton1" count="1" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="plantedCotton1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="cottonPlant" count="1" tool_category="Crops"/>
@@ -7777,14 +7775,13 @@
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="goldenrodSeed"/>
 		<property name="Texture" value="402"/>
-		<property name="PlantGrowing.Next" value="plantedGoldenrod3Harvest"/>
+		<property name="PlantGrowing.Next" value="plantedGoldenrod3Harvest_Player"/>
 		<drop event="Destroy" name="plantedGoldenrod1" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="764" name="plantedGoldenrod3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="plantedGoldenrod3Harvest"/>
 		<property name="Texture" value="362"/>
-		<property name="DowngradeBlock" value="plantedGoldenrod1"/>
 		<drop event="Harvest" name="plantedGoldenrod1" count="1" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="plantedGoldenrod1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="goldenrodPlant" count="1" tool_category="Crops"/>
@@ -8715,7 +8712,7 @@
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="plantedChrysanthemum1"/>
 		<property name="Texture" value="551"/>
-		<property name="PlantGrowing.Next" value="plantedChrysanthemum3Harvest"/>
+		<property name="PlantGrowing.Next" value="plantedChrysanthemum3Harvest_Player"/>
 		<drop event="Destroy" name="plantedChrysanthemum1" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="871" name="treeDeadPineLeaf">
@@ -8830,7 +8827,6 @@
 	<block id="884" name="plantedChrysanthemum3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="244"/>
-		<property name="DowngradeBlock" value="plantedChrysanthemum1"/>
 		<drop event="Harvest" name="plantedChrysanthemum1" count="1" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="plantedChrysanthemum1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="chrysanthemumPlant" count="1" tool_category="Crops"/>
@@ -10632,7 +10628,7 @@
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="cottonSeed"/>
 		<property name="Texture" value="20"/>
-		<property name="PlantGrowing.Next" value="plantedCotton3Harvest"/>
+		<property name="PlantGrowing.Next" value="plantedCotton3Harvest_Player"/>
 		<drop event="Destroy" name="plantedCotton1" count="1" tool_category="Harvest"/>
 	</block>
 	<!-- 9 Free -->
@@ -16308,7 +16304,7 @@
 		<property name="CustomIcon" value="treePlainsGrassDiagonal"/>
 		<property name="CustomIconTint" value="cc9900"/>
 		<property name="Texture" value="397,397,399,400,398,398"/>
-		<property name="PlantGrowing.Next" value="plantedWheat3Harvest"/>
+		<property name="PlantGrowing.Next" value="plantedWheat3Harvest_Player"/>
 		<drop event="Destroy" name="plantedWheat1" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="80" name="plantedWheat3Harvest">
@@ -16316,7 +16312,6 @@
 		<property name="CustomIcon" value="treeSnowyGrassDiagonal"/>
 		<property name="CustomIconTint" value="EECB58"/>
 		<property name="Texture" value="350"/>
-		<property name="DowngradeBlock" value="plantedWheat1"/>
 		<drop event="Harvest" name="plantedWheat1" count="1" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="plantedWheat1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="Wheat" count="1" tool_category="Crops"/>
@@ -16349,19 +16344,13 @@
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="82" name="Composter_Filling">
-		<property name="Material" value="wood_regular"/>
-		<property name="Texture" value="241"/>
-		<property name="FuelValue" value="300"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="Pole1m"/>
-		<property name="UseGlobalUV" value="Local"/>
-		<property name="ImposterExchange" value="imposterDontBlockBlock" param1="67"/>
+		<property name="Extends" value="woodPillar100"/>
 		<property name="CustomIcon" value="woodPillar100"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="Full_Composter"/>
-		<property name="PlantGrowing.GrowthRate" value="0.1"/>
+		<property name="PlantGrowing.GrowthRate" value="180"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property class="RepairItems">
@@ -16372,14 +16361,8 @@
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="83" name="Full_Composter">
-		<property name="Material" value="wood_regular"/>
-		<property name="Texture" value="241"/>
-		<property name="FuelValue" value="300"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="Pole1m"/>
-		<property name="UseGlobalUV" value="Local"/>
-		<property name="ImposterExchange" value="imposterDontBlockBlock" param1="67"/>
-		<property name="CustomIcon" value="woodPillar100"/>
+		<property name="Extends" value="rWoodPillar100"/>
+		<property name="CustomIcon" value="rWoodPillar100"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="Class" value="Loot"/>
 		<property name="LootList" value="102"/>
@@ -16470,16 +16453,9 @@
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="87" name="chickenCoop_stage2">
-		<property name="Mesh" value="opaque"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="siding_burnt04"/>
-		<property name="Texture" value="303,303,303,303,303,302"/>
-		<property name="ImposterExclude" value="false"/>
-		<property name="ImposterExchange" value="imposterBlock" param1="85"/>
-		<property name="ImposterDontBlock" value="true"/>
-		<property name="Collide" value="movement,melee,rocket"/>
-		<property name="CustomIcon" value="burntWoodBlock4"/>
+		<property name="Extends" value="burntWoodBlock4"/>
 		<property name="Material" value="wood_regular"/>
+		<property name="CustomIcon" value="burntWoodBlock4"/>
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="chickenCoop_stage3"/>
@@ -16498,14 +16474,7 @@
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="88" name="chickenCoop_stage3">
-		<property name="Mesh" value="opaque"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="siding_burnt03"/>
-		<property name="Texture" value="303,303,303,303,303,302"/>
-		<property name="ImposterExclude" value="false"/>
-		<property name="ImposterExchange" value="imposterBlock" param1="85"/>
-		<property name="ImposterDontBlock" value="true"/>
-		<property name="Collide" value="movement,melee,rocket"/>
+		<property name="Extends" value="burntWoodBlock3"/>
 		<property name="Material" value="wood_regular"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="CustomIcon" value="burntWoodBlock3"/>
@@ -16527,15 +16496,8 @@
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="89" name="chickenCoop_stage4">
-		<property name="Mesh" value="opaque"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="siding_burnt01"/>
-		<property name="Texture" value="303,303,303,303,303,302"/>
-		<property name="ImposterExclude" value="false"/>
-		<property name="ImposterExchange" value="imposterBlock" param1="85"/>
-		<property name="ImposterDontBlock" value="true"/>
-		<property name="Collide" value="movement,melee,rocket"/>
-		<property name="Material" value="wood_regular"/>
+		<property name="Extends" value="burntWoodBlock1"/>
+		<property name="Material" value="wood"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="CustomIcon" value="burntWoodBlock1"/>
 		<property name="Class" value="Loot"/>
@@ -16747,6 +16709,7 @@
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
+	<!--Free-->
 	<block id="97" name="Ammunition_Table">
 		<property name="Class" value="Workstation"/>
 		<property name="Material" value="metal"/>
@@ -17726,11 +17689,22 @@
 		<property name="CustomIcon" value="plantedPotato3Harvest"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
-		<property name="PlantGrowing.Next" value="plantedSoy3Harvest"/>
+		<property name="PlantGrowing.Next" value="plantedSoy3Harvest_Player"/>
 		<property name="Collide" value="melee"/>
 		<drop event="Destroy" name="plantedSoy1" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="974" name="plantedSoy3Harvest">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CustomIcon" value="plantedPotato3Harvest"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+		<property name="Collide" value="melee"/>
+		<drop event="Harvest" name="plantedSoy1" count="1" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="plantedSoy1" count="1" prob="0.25" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="SoyBeans" count="1" tool_category="Crops"/>
+		<drop event="Harvest" name="SoyBeans" count="1" prob="0.25" tool_category="Crops"/>
+	</block>
+	<block id="975" name="plantedSoy3Harvest_Player">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="plantedPotato3Harvest"/>
 		<property name="Shape" value="ModelEntity"/>
@@ -17741,6 +17715,56 @@
 		<drop event="Harvest" name="plantedSoy1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="SoyBeans" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="SoyBeans" count="1" prob="0.25" tool_category="Crops"/>
+	</block>
+	<block id="976" name="plantedGoldenrod3Harvest_Player">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CustomIcon" value="plantedGoldenrod3Harvest"/>
+		<property name="Texture" value="362"/>
+		<property name="DowngradeBlock" value="plantedGoldenrod1"/>
+		<drop event="Harvest" name="plantedGoldenrod1" count="1" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="plantedGoldenrod1" count="1" prob="0.25" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="goldenrodPlant" count="1" tool_category="Crops"/>
+		<drop event="Harvest" name="goldenrodPlant" count="1" prob="0.25" tool_category="Crops"/>
+	</block>
+	<block id="977" name="plantedChrysanthemum3Harvest_Player">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="Texture" value="244"/>
+		<property name="DowngradeBlock" value="plantedChrysanthemum1"/>
+		<drop event="Harvest" name="plantedChrysanthemum1" count="1" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="plantedChrysanthemum1" count="1" prob="0.25" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="chrysanthemumPlant" count="1" tool_category="Crops"/>
+		<drop event="Harvest" name="chrysanthemumPlant" count="1" prob="0.25" tool_category="Crops"/>
+	</block>
+	<block id="978" name="plantedWheat3Harvest_Player">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CustomIcon" value="treeSnowyGrassDiagonal"/>
+		<property name="CustomIconTint" value="EECB58"/>
+		<property name="Texture" value="350"/>
+		<property name="DowngradeBlock" value="plantedWheat1"/>
+		<drop event="Harvest" name="plantedWheat1" count="1" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="plantedWheat1" count="1" prob="0.25" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="Wheat" count="1" tool_category="Crops"/>
+		<drop event="Harvest" name="Wheat" count="1" prob="0.25" tool_category="Crops"/>
+	</block>
+	<block id="979" name="plantedCotton3Harvest_Player">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CustomIcon" value="plantedCotton3Harvest"/>
+		<property name="Texture" value="363"/>
+		<property name="DowngradeBlock" value="plantedCotton1"/>
+		<drop event="Harvest" name="plantedCotton1" count="1" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="plantedCotton1" count="1" prob="0.25" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="cottonPlant" count="1" tool_category="Crops"/>
+		<drop event="Harvest" name="cottonPlant" count="1" prob="0.25" tool_category="Crops"/>
+	</block>
+	<block id="980" name="plantedBlueberry3Harvest_Player">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+		<property name="DowngradeBlock" value="plantedBlueberry1"/>
+		<drop event="Harvest" name="plantedBlueberry1" count="1" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="plantedBlueberry1" count="1" prob="0.25" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="blueberries" count="1" tool_category="Crops"/>
+		<drop event="Harvest" name="blueberries" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
 </blocks>
 <!-- Block limit: No block can have an ID greater 2047. -->
