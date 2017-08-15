@@ -2619,6 +2619,9 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="cloth" count="1"/>
 		<ingredient name="grainAlcohol" count="1"/>
 	</recipe>
+	<recipe name="canEmpty" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="scrapIron" count="1"/>
+	</recipe>
 	<recipe name="candyTin" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="1"/>
 	</recipe>
