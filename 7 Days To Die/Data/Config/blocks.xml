@@ -16498,7 +16498,7 @@
 			<property name="glue" value="5"/>
 		</property>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
-		<drop event="Destroy" name="coal" count="0" tool_category="Harvest"/>
+		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="88" name="chickenCoop_stage3">
@@ -16527,7 +16527,7 @@
 			<property name="glue" value="5"/>
 		</property>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
-		<drop event="Destroy" name="coal" count="0" tool_category="Harvest"/>
+		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="89" name="chickenCoop_stage4">
@@ -16546,7 +16546,6 @@
 		<property name="LootList" value="101"/>
 		<property name="DowngradeBlock" value="chickenCoop_stage1"/>
 		<drop event="Destroy" count="0"/>
-		<drop event="Destroy" name="coal" count="0" tool_category="Harvest"/>
 	</block>
 	<block id="90" name="Research_Table">
 		<property name="Class" value="Workstation"/>
@@ -17279,6 +17278,7 @@
 			<property name="RadiusEntities" value="5"/>
 			<property name="EntityDamage" value="1000"/>
 		</property>
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="868" name="rWoodQuarter">
 		<property name="Extends" value="rWoodMaster"/>
