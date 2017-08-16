@@ -11067,6 +11067,10 @@
 		<property name="LightOpacity" value="0"/>
 		<property name="Mesh" value="cutout"/>
 		<property name="Texture" value="410,410,409,410,409,410"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="plainWoodWindowPlug"/>
+		</property>
+		<property name="DowngradeBlock" value="window02Frame"/>
 		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="1197" name="window02Broken02CTRPlate">
@@ -11075,6 +11079,10 @@
 		<property name="LightOpacity" value="0"/>
 		<property name="Mesh" value="cutout"/>
 		<property name="Texture" value="410,410,411,410,411,410"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="plainWoodWindowPlug"/>
+		</property>
+		<property name="DowngradeBlock" value="window02Frame"/>
 		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="1198" name="woodCNRRampFiller">
@@ -11095,6 +11103,10 @@
 		<property name="Mesh" value="cutout"/>
 		<property name="Texture" value="410,410,412,410,412,410"/>
 		<property name="Collide" value="movement,melee,rocket"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="plainWoodWindowPlug"/>
+		</property>
+		<property name="DowngradeBlock" value="window02Frame"/>
 		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 		<!-- -rocket -->
 	</block>
