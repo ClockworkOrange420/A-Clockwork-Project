@@ -8698,6 +8698,7 @@
 	<!-- 4 Free -->
 	<block id="869" name="plantedChrysanthemum1">
 		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
+		<property name="CustomIcon" value="Chrysanthemum_Seed"/>
 		<property name="Texture" value="550"/>
 		<property name="PlantGrowing.Next" value="plantedChrysanthemum2"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -17774,6 +17775,7 @@
 	</block>
 	<block id="977" name="plantedChrysanthemum3Harvest_Player">
 		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CustomIcon" value="plantedChrysanthemum1"/>
 		<property name="Texture" value="244"/>
 		<property name="DowngradeBlock" value="plantedChrysanthemum1"/>
 		<drop event="Harvest" name="plantedChrysanthemum1" count="1" tool_category="CropsSeed"/>
@@ -17804,6 +17806,7 @@
 	</block>
 	<block id="980" name="plantedBlueberry3Harvest_Player">
 		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
 		<property name="DowngradeBlock" value="plantedBlueberry1"/>
@@ -17814,6 +17817,7 @@
 	</block>
 	<block id="981" name="plantedYucca3Harvest_Player">
 		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CustomIcon" value="plantedYucca3Harvest"/>
 		<property name="Material" value="Mcorn"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
