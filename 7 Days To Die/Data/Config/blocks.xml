@@ -5180,7 +5180,7 @@
 		<property name="Extends" value="plantedYucca1"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
-		<property name="PlantGrowing.Next" value="plantedYucca3Harvest"/>
+		<property name="PlantGrowing.Next" value="plantedYucca3Harvest_Player"/>
 		<drop event="Destroy" name="plantedYucca1" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="535" name="jailDoor">
@@ -8576,7 +8576,6 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
 		<property name="Collide" value="melee,movement,rocket"/>
-		<property name="DowngradeBlock" value="plantedYucca1"/>
 		<drop event="Harvest" name="plantedYucca1" count="1" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="plantedYucca1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="foodYuccaFruit" count="1" tool_category="Crops"/>
@@ -17798,6 +17797,18 @@
 		<drop event="Harvest" name="plantedBlueberry1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="blueberries" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="blueberries" count="1" prob="0.25" tool_category="Crops"/>
+	</block>
+	<block id="981" name="plantedYucca3Harvest_Player">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="Material" value="Mcorn"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+		<property name="Collide" value="melee,movement,rocket"/>
+		<property name="DowngradeBlock" value="plantedYucca1"/>
+		<drop event="Harvest" name="plantedYucca1" count="1" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="plantedYucca1" count="1" prob="0.25" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="foodYuccaFruit" count="1" tool_category="Crops"/>
+		<drop event="Harvest" name="foodYuccaFruit" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
 </blocks>
 <!-- Block limit: No block can have an ID greater 2047. -->
