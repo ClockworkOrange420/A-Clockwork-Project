@@ -11230,7 +11230,7 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="1212" name="window04">
 		<property name="Material" value="glass"/>
@@ -13023,6 +13023,7 @@
 		<property name="Material" value="wood_regular"/>
 		<property name="MaxDamage" value="100"/>
 		<property name="Model" value="Buildings/window03_wood_frame" param1="main_mesh"/>
+		<drop event="Destroy" count="0"/>
 	</block>
 	<!-- 1 Free -->
 	<block id="1416" name="woodTable">
