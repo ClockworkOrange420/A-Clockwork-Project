@@ -4234,7 +4234,8 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" name="wood" count="2" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Tools/Traps,Science"/>
 		<property name="DescriptionKey" value="woodLogSpike1Desc"/>
@@ -7178,7 +7179,9 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
 		<property name="DowngradeBlock" value="woodLogSpike1"/>
-		<property name="EconomicValue" value="0"/>
+		<drop event="Harvest" name="wood" count="2" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="2" tool_category="Harvest"/>
+		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="704" name="rWoodMetalLogSpike3">
 		<!-- log spike 3 wood+metal -->
@@ -13317,8 +13320,10 @@
 			<property name="Item" value="scrapIronPlating"/>
 			<property name="ItemCount" value="1"/>
 		</property>
-		<drop event="Destroy" name="wood" count="0" tool_category="Harvest"/>
+		<drop event="Harvest" name="wood" count="0" tool_category="Harvest"/>
+		<drop event="Harvest" name="scrapIron" count="2" tool_category="Harvest"/>
 		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="0" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="1433" name="rScrapIronLogSpike5">
@@ -13336,6 +13341,11 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="DowngradeBlock" value="scrapIronLogSpike4"/>
+		<drop event="Harvest" name="wood" count="0" tool_category="Harvest"/>
+		<drop event="Harvest" name="scrapIron" count="2" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="0" tool_category="Harvest"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="1434" name="chainLinkFenceBottomPole">
 		<property name="Extends" value="chainLink"/>
@@ -13389,12 +13399,13 @@
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
+		<drop event="Harvest" name="wood" count="0" tool_category="Harvest"/>
 		<drop event="Harvest" name="scrapIron" count="2" tool_category="Harvest"/>
 		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="0" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="EconomicValue" value="160"/>
 		<property name="Group" value="Tools/Traps,Science"/>
-		<property name="DescriptionKey" value="woodLogSpike1Desc"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<!-- x Free -->
 	<block id="1448" name="spotlightNailedDownPOI">
@@ -16797,12 +16808,18 @@
 		<property name="CustomIcon" value="steelLogSpike6"/>
 		<property name="CustomIconTint" value="194F5A"/>
 		<property name="BuffsWhenWalkedOn" value="bleedingBurningSmall"/>
-		<property name="DowngradeBlock" value="steelLogSpike6"/>
-		<drop event="Destroy" count="0"/>
 		<property class="RepairItems">
 			<property name="gasCan" value="4"/>
 		</property>
+		<property name="DowngradeBlock" value="steelLogSpike6"/>
+		<drop event="Harvest" name="wood" count="0" tool_category="Harvest"/>
+		<drop event="Harvest" name="scrapIron" count="0" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapIron" count="0" tool_category="Harvest"/>
+		<drop event="Destroy" name="wood" count="0" tool_category="Harvest"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Tools/Traps"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="101" name="hiddenSteelPlacement">
 		<property name="Material" value="Msteel"/>
