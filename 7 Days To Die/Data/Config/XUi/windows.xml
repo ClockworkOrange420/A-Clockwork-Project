@@ -380,34 +380,34 @@
 
 		</rect>
 	</window>
-							  <!--Modded 678 from 603-->
+
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
-	<window name="emptyInfoPanel" width="678" height="427" panel="Center" controller="InfoWindow" cursor_area="true" >
+	<window name="emptyInfoPanel" width="603" height="427" panel="Center" controller="InfoWindow" cursor_area="true" >
 	<!--#$-IGS END.-$#-->
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="ui_game_symbol_search"/>
 			<label style="header.name" text="INSPECT" text_key="xuiInspect" />
 		</panel>
 
-		<rect name="contentCraftingInfo" height="381" depth="1" pos="0,-46" ><!--Modded 678 from 603-->
-			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="678" height="381" color="[black]" type="sliced" fillcenter="false" />
+		<rect name="contentCraftingInfo" height="381" depth="1" pos="0,-46" >
+			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="603" height="381" color="[black]" type="sliced" fillcenter="false" />
 			<sprite color="[mediumGrey]" type="sliced" />
 			<label pos="0,-120" depth="3" name="descriptionText" width="100%" height="150" text="[LEFT CLICK] TO INSPECT AN ITEM, RECIPE OR ACTIVE EFFECT\n[LEFT CLICK] HOLD AND DRAG TO TAKE A STACK\n[LEFT CLICK] TO DROP OR SWAP A STACK\n[RIGHT CLICK] HOLD AND DRAG TO TAKE A HALF STACK\n[RIGHT CLICK] TO DROP ONE ITEM AT A TIME" text_key="xuiEmptyInfoPanelText"  justify="center" font_size="28" />
 		</rect>
 	</window>
 
-	<!--#$-IGS BEGIN: Adding cursor area. -$#--><!--Modded 678 from 603-->
-	<window name="itemInfoPanel" width="678" height="427" controller="ItemInfoWindow" panel="Center" cursor_area="true" >
+	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
+	<window name="itemInfoPanel" width="603" height="427" controller="ItemInfoWindow" panel="Center" cursor_area="true" >
 	<!--#$-IGS END.-$#-->
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="{itemgroupicon}"/>
 			<label depth="2" name="windowName" pos="39,-6" width="500" height="32" text="{itemname}" font_size="32" />
-			<label depth="2" pos="420,-8" width="225" height="28" text="{pricelabel} {itemcost}{markup}" color="[lightGrey]" justify="right" />
-			<sprite depth="4" name="costIcon" sprite="ui_game_symbol_coin" size="24,24" pos="649,-10" color="[white]" foregroundlayer="true" />
-		</panel><!--Modded Positions 420 from 350-->					<!--Modded Positions 649 from 577-->
+			<label depth="2" pos="350,-8" width="225" height="28" text="{pricelabel} {itemcost}{markup}" color="[lightGrey]" justify="right" />
+			<sprite depth="4" name="costIcon" sprite="ui_game_symbol_coin" size="24,24" pos="577,-10" color="[white]" foregroundlayer="true" />
+		</panel>
 
-		<rect name="contentInfo" height="381" depth="1" pos="0,-46" ><!--Modded 678 from 603-->
-			<sprite depth="5" name="backgroundMain" sprite="menu_empty3px" width="678" height="380" color="[black]" type="sliced" fillcenter="false" />
+		<rect name="contentInfo" height="381" depth="1" pos="0,-46" >
+			<sprite depth="5" name="backgroundMain" sprite="menu_empty3px" width="603" height="380" color="[black]" type="sliced" fillcenter="false" />
 			<rect depth="1" pos="3,0" name="preview" width="147" height="150">
 				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="153" height="153" color="[black]" type="sliced" fillcenter="false" />
 				<sprite depth="1" color="[darkGrey]" pos="0,0" type="sliced" globalopacity="true" />
@@ -440,21 +440,21 @@
 			</rect>
 
 			<sprite depth="3" name="fillerBackground" pos="3,-363" height="15" width="147" color="[mediumGrey]" type="sliced"/>
-													<!--Modded 522 from 477-->
-			<rect depth="1" pos="153,0" name="description" width="522" height="198">
-				<sprite depth="1" color="[mediumGrey]" type="sliced" globalopacity="true" /><!--Modded 528 from 453-->
-				<sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="528" height="201" color="[black]" type="sliced" fillcenter="false" />
+
+			<rect depth="1" pos="153,0" name="description" width="447" height="198">
+				<sprite depth="1" color="[mediumGrey]" type="sliced" globalopacity="true" />
+				<sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="453" height="201" color="[black]" type="sliced" fillcenter="false" />
 				<label depth="3" name="statText" pos="6,-2" width="254" height="100%" text="{itemstats1}" />
 				<label depth="3" name="statText2" pos="227,-2" width="220" height="100%" text="{itemstats2}" />
 			</rect>
-														<!--Modded 522 from 447-->
-			<rect depth="2" pos="153,-200" name="description" width="522" height="103">
-				<sprite depth="1" color="[darkGrey]" type="sliced" globalopacity="true" /><!--Modded 528 from 453-->
-				<sprite depth="5" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="528" height="108" color="[black]" type="sliced" fillcenter="false" />
+
+			<rect depth="2" pos="153,-200" name="description" width="447" height="103">
+				<sprite depth="1" color="[darkGrey]" type="sliced" globalopacity="true" />
+				<sprite depth="5" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="453" height="108" color="[black]" type="sliced" fillcenter="false" />
 				<label depth="3" name="descriptionText" pos="6,-5" text="{itemdescription}"  width="440" />
 			</rect>
-							<!--Modded Cols 7 from 6-->
-			<grid name="parts" rows="1" cols="7" pos="153,-306" cell_width="75" cell_height="75" repeat_content="true" controller="PartList">
+
+			<grid name="parts" rows="1" cols="6" pos="153,-306" cell_width="75" cell_height="75" repeat_content="true" controller="PartList">
 				<item_stack name="0"/>
 			</grid>
 		</rect>
@@ -470,22 +470,22 @@
 		</rect>
 	</window>
 
-	<!--#$-IGS BEGIN: Adding cursor area. -$#--><!--MOdded 678 from 603-->
-	<window name="windowBackpack" width="678" height="349" panel="Center" controller="BackpackWindow" cursor_area="true" >
+	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
+	<window name="windowBackpack" width="603" height="349" panel="Center" controller="BackpackWindow" cursor_area="true" >
 	<!--#$-IGS END.-$#-->
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<button depth="3" name="btnSort" style="icon32px, press, hover" pivot="center" pos="21,-21" sprite="ui_game_symbol_backpack" tooltip_key="lblSortInventory" sound="[paging_click]" />
 			<label depth="3" name="windowName" pos="42,-6" width="250" height="32" text="INVENTORY" text_key="xuiInventory" font_size="32" />
-					<!--Modded 544 from 472-->
-			<label depth="2" pos="544,-8" width="100" height="28" text="{currencyamount}" color="[mediumGrey]" justify="right" />
-			<sprite depth="4" name="costIcon" sprite="ui_game_symbol_coin" size="24,24" pos="649,-10" color="[white]" foregroundlayer="true" />
-		</panel>															<!--Modded 649 from 577-->
+
+			<label depth="2" pos="472,-8" width="100" height="28" text="{currencyamount}" color="[mediumGrey]" justify="right" />
+			<sprite depth="4" name="costIcon" sprite="ui_game_symbol_coin" size="24,24" pos="577,-10" color="[white]" foregroundlayer="true" />
+		</panel>
 
 		<panel name="content" width="100%" height="303" depth="0" pos="0,-46" disableautobackground="true">
 				<!-- <sprite name="background" color="[black]" type="sliced" globalopacity="true"/> -->
 				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="603" height="303" color="[black]" type="sliced" fillcenter="false" on_press="true" />
-				<grid depth="1" name="inventory" rows="4" cols="9" pos="3,-3" cell_width="75" cell_height="75" controller="Backpack" repeat_content="true" >
-					<item_stack name="0"/><!--MOdded Cols 9 from 8-->
+				<grid depth="1" name="inventory" rows="4" cols="8" pos="3,-3" cell_width="75" cell_height="75" controller="Backpack" repeat_content="true" >
+					<item_stack name="0"/>
 				</grid>
 		</panel>
 	</window>
