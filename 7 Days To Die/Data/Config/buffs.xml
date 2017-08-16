@@ -299,17 +299,17 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="2" stat="food" amount="-1" rate="30"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
 </buff>
-<buff id="infection1" buffif="infected gequal 960" debuffif="infected lequal 959" mutex="infection2,infection3" actions="debuff(infectionNotification);increment(fatigue, 1, 100t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="Infection" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
+<buff id="infection1" buffif="infected gequal 960" debuffif="infected lequal 959" mutex="infection2,infection3" actions="debuff(infectionNotification)" type="sickness" icon="ui_game_symbol_infection" name_key="Infection" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
 	<modify id="1" stat="health" amount="-1" rate="30"/>
 	<modify id="2" stat="food" amount="-1" rate="30"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
 </buff>
-<buff id="infection2" buffif="infected gequal 1920" debuffif="infected lequal 1919" mutex="infection3" actions="debuff(infection1);damage(2,100t,0,30);increment(fatigue, 1, 50t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="Major Infection" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
+<buff id="infection2" buffif="infected gequal 1920" debuffif="infected lequal 1919" mutex="infection3" actions="debuff(infection1);damage(2,100t,0,30)" type="sickness" icon="ui_game_symbol_infection" name_key="Major Infection" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
 	<modify id="1" stat="health" amount="-1" rate="15"/>
 	<modify id="2" stat="food" amount="-1" rate="30"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
 </buff>
-<buff id="infection3" buffif="infected gequal 2880" debuffif="infected lequal 2879" actions="debuff(infection2);damage(5,100t,0,15);increment(fatigue, 1, 50t, 0, 0)" type="sickness" icon="ui_game_symbol_infection" name_key="Extreme Infection" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
+<buff id="infection3" buffif="infected gequal 2880" debuffif="infected lequal 2879" actions="debuff(infection2);damage(5,100t,0,15)" type="sickness" icon="ui_game_symbol_infection" name_key="Extreme Infection" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
 	<modify id="1" stat="health" amount="-1" rate="5"/>
 	<modify id="2" stat="food" amount="-1" rate="30"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
@@ -486,7 +486,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 
 <!--Modded-->
 <buff id="sleepingChairTrigger" duration="1" actions="setvar(CTRChair, 3)"/>
-<buff id="sleepingChairEffect" duration="0" buffif="CTRChair greater 0" debuffif="CTRChair less 1" actions="increment(CTRChair, -1, 1, 0, 0)" name_key="You Are Resting" description_key="You are resting and will recover from fatigue slowly." tooltip_key="You are resting" icon="ui_game_symbol_map_bed"/>
+<buff id="sleepingChairEffect" duration="0" buffif="CTRChair greater 0" debuffif="CTRChair less 1" actions="increment(CTRChair, -1, 1, 0, 0)" name_key="You Are Resting" description_key="You are resting and will recover from fatigue slowly." tooltip_key="You are resting" icon="ui_game_symbol_chair"/>
 <buff id="sleepingChairEffect2" duration="0" mutex="rested" buffif="CTRChair greater 0" debuffif="CTRChair less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
 
 <buff id="sleepingBagTrigger" duration="1" actions="setvar(CTRbedroll, 3)"/>
