@@ -13399,10 +13399,8 @@
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
-		<drop event="Harvest" name="wood" count="0" tool_category="Harvest"/>
 		<drop event="Harvest" name="scrapIron" count="2" tool_category="Harvest"/>
 		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="0" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Tools/Traps,Science"/>
 		<property name="SellableToTrader" value="false"/>
@@ -16812,11 +16810,8 @@
 			<property name="gasCan" value="4"/>
 		</property>
 		<property name="DowngradeBlock" value="steelLogSpike6"/>
-		<drop event="Harvest" name="wood" count="0" tool_category="Harvest"/>
 		<drop event="Harvest" name="scrapIron" count="0" tool_category="Harvest"/>
 		<drop event="Destroy" name="scrapIron" count="0" tool_category="Harvest"/>
-		<drop event="Destroy" name="wood" count="0" tool_category="Harvest"/>
-		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Tools/Traps"/>
 		<property name="SellableToTrader" value="false"/>
