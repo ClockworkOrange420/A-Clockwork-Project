@@ -14325,7 +14325,6 @@
 	</block>
 	<block id="1559" name="leatherCouchSofa">
 		<property name="Extends" value="sectionalLeatherCouchSofaArm" param1="CustomIcon"/>
-		<property name="MaxDamage" value="40"/>
 		<property name="Model" value="Furniture/sofa02" param1="main_mesh"/>
 		<property name="MultiBlockDim" value="3,1,1"/>
 		<property name="ImposterExchange" value="imposterRamp" param1="43"/>
