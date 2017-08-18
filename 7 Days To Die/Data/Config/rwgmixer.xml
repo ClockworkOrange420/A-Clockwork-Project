@@ -8,7 +8,7 @@
 	</rulesets>
 	<cell_rules>
 		<cell_rule name="default">
-			<cave_count value="4,8"/>
+			<cave_count value="20,50"/>
 			<path_material value="asphalt" />
 			<path_radius value="10" />
 			<hub_rule name="townLarge" prob="0.3"/>
