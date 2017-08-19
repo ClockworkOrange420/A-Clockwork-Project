@@ -2540,6 +2540,7 @@
 		<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 		<property name="PlantGrowing.Next" value="plantedBlueberry2"/>
 		<property name="Group" value="Food/Cooking"/>
+		<property name="Stacknumber" value="250"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plantedBlueberry2"/>
 			<property name="Item" value="Fertilizer"/>
@@ -2563,6 +2564,7 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 		<property name="Collide" value="melee"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="PlantGrowing.Next" value="plantedPotato2"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plantedPotato2"/>
@@ -5075,6 +5077,7 @@
 		<property name="EconomicValue" value="250"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plantedHop2"/>
@@ -5110,6 +5113,7 @@
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 		<property name="IsTerrainDecoration" value="true"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="HandleFace" value="Bottom"/>
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.Next" value="plantedMushroom2"/>
@@ -5167,6 +5171,7 @@
 		<property name="Material" value="Mcorn"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="PlantGrowing.Next" value="plantedYucca2"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plantedYucca2"/>
@@ -7282,6 +7287,7 @@
 		<property name="Texture" value="392"/>
 		<property name="PlantGrowing.Next" value="plantedCotton2"/>
 		<property name="Group" value="Resources"/>
+		<property name="Stacknumber" value="250"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plantedCotton2"/>
 			<property name="Item" value="Fertilizer"/>
@@ -7737,6 +7743,7 @@
 		<property name="PlantGrowing.Next" value="plantedCoffee2"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="Group" value="Food/Cooking"/>
+		<property name="Stacknumber" value="250"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plantedCoffee2"/>
 			<property name="Item" value="Fertilizer"/>
@@ -7767,6 +7774,7 @@
 		<property name="Texture" value="401"/>
 		<property name="PlantGrowing.Next" value="plantedGoldenrod2"/>
 		<property name="Group" value="Food/Cooking"/>
+		<property name="Stacknumber" value="250"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plantedGoldenrod2"/>
 			<property name="Item" value="Fertilizer"/>
@@ -8604,6 +8612,7 @@
 		<property name="CustomIcon" value="Aloe_Seed"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="PlantGrowing.Next" value="plantedAloe2"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plantedAloe2"/>
@@ -8704,6 +8713,7 @@
 		<property name="Texture" value="550"/>
 		<property name="PlantGrowing.Next" value="plantedChrysanthemum2"/>
 		<property name="Group" value="Food/Cooking"/>
+		<property name="Stacknumber" value="250"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plantedChrysanthemum2"/>
 			<property name="Item" value="Fertilizer"/>
@@ -9032,6 +9042,7 @@
 		<property name="Collide" value="melee"/>
 		<property name="Texture" value="529"/>
 		<property name="Place" value="Door"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="PlantGrowing.Next" value="plantedCorn2"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plantedCorn2"/>
@@ -16283,6 +16294,7 @@
 		<property name="CustomIcon" value="Tomato_Seed"/>
 		<property name="IsDeveloper" value="true"/>
 		<property name="Texture" value="550"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="PlantGrowing.Next" value="plantedTomato2"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plantedTomato2"/>
@@ -16313,6 +16325,7 @@
 		<property name="Extends" value="cropsGrowingMaster"/>
 		<property name="CustomIcon" value="Wheat_Seed"/>
 		<property name="Texture" value="441"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="PlantGrowing.Next" value="plantedWheat2"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plantedWheat2"/>
@@ -17734,6 +17747,7 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 		<property name="Collide" value="melee"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="PlantGrowing.Next" value="plantedSoy2"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plantedSoy2"/>
