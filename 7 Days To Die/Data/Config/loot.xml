@@ -1100,7 +1100,7 @@
 	<item name="fishingWeight" count="1,3"/>
 	<item name="scrapPlastics" count="1,2"/>
 	<item name="glue" count="1,3"/>
-	<item name="nail" count="1,10"/>
+	<item name="nail" count="1,5"/>
 	<item name="casinoCoin" count="3,6"/>
 	<item name="bulletCasing" count="3,20"/>
 	<item name="feather" count="3,6"/>
