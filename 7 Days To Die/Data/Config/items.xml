@@ -239,12 +239,14 @@
 		<property name="EconomicValue" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="SoundDestroy" value="wooddestroy1"/>
+		<property name="Degradation" value="50" param1="false" />
+		<property name="DegradationBreaksAfter" value="false"/>
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.33"/>
 			<property name="Range" value="2.2"/>
-			<property name="DamageEntity" value="7"/>
+			<property name="DamageEntity" value="5"/>
 			<property name="DamageBlock" value="5"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="6"/>
