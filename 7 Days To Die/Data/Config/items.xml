@@ -8385,7 +8385,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="plants"/>
 		<property name="HoldType" value="45"/>
-		<property name="Stacknumber" value="250"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
