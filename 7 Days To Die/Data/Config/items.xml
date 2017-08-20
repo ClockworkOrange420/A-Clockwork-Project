@@ -2812,6 +2812,7 @@
 		<!-- STK resource -->
 		<property name="RepairAmount" value="300"/>
 		<property name="Weight" value="5"/>
+		<property name="RepairTime" value="2.5"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="50"/>
 		<property name="SellableToTrader" value="false"/>
@@ -7887,6 +7888,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources,Basics"/>
 		<property name="RepairAmount" value="100"/>
+		<property name="RepairTime" value="1"/>
 		<property name="LootExpValue" value="1"/>
 		<property name="DescriptionKey" value="woodDesc"/>
 		<property name="CraftingIngredientTime" value="0.25"/>
@@ -8224,6 +8226,7 @@
 		<property name="Material" value="cloth"/>
 		<property name="HoldType" value="14"/>
 		<property name="Stacknumber" value="250"/>
+		<property name="RepairTime" value="1"/>
 		<!-- STK resource -->
 		<property name="RepairAmount" value="100"/>
 		<property name="FuelValue" value="1"/>
@@ -8257,7 +8260,7 @@
 		<!-- STK resource -->
 		<property name="CraftingIngredientExp" value="10"/>
 		<property name="CraftingIngredientTime" value="10"/>
-		<property name="RepairTime" value="0.6"/>
+		<property name="RepairTime" value="1"/>
 		<property name="RepairAmount" value="100"/>
 		<property name="Weight" value="1"/>
 		<property name="EconomicValue" value="200"/>
@@ -8594,7 +8597,7 @@
 		<property name="Stacknumber" value="50"/>
 		<!-- STK repairKit -->
 		<property name="EconomicValue" value="186"/>
-		<property name="RepairTime" value="2"/>
+		<property name="RepairTime" value="2.5"/>
 		<property name="RepairAmount" value="1000"/>
 		<property name="Group" value="Resources,Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
