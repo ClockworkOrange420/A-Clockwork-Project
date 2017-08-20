@@ -3071,7 +3071,7 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="FuelValue" value="300"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
-		<property name="BuffsWhenWalkedOn" value="sleepingBagTrigger"/>
+		<property name="BuffsWhenWalkedOn" value="sleepingCouchTrigger"/>
 		<property class="RepairItems">
 			<property name="wood" value="6"/>
 			<property name="cloth" value="4"/>
@@ -5342,7 +5342,7 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="FuelValue" value="150"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
-		<property name="BuffsWhenWalkedOn" value="sleepingBagTrigger"/>
+		<property name="BuffsWhenWalkedOn" value="sleepingCouchTrigger"/>
 		<property class="RepairItems">
 			<property name="wood" value="6"/>
 			<property name="leather" value="4"/>
