@@ -1505,9 +1505,9 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="Cordage" count="1" />
 	</recipe>
 	<recipe name="stoneTippedSpear" count="1" craft_time = "12" craft_exp_gain="40" >
-		<ingredient name="rockSmall" count="2" />
-		<ingredient name="wood" count="4"/>
+		<ingredient name="rockSmall" count="2"/>
 		<ingredient name="Cordage" count="1"/>
+		<ingredient name="wood" count="5"/>
 	</recipe>
 	<recipe name="steelTippedSpear" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Smithing_Table" craft_tool="anvil" >
 		<ingredient name="steelArrowHead" count="6" />
