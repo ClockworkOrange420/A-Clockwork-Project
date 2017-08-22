@@ -475,6 +475,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="plantedMushroom1"/>
 			<item name="plantedWheat1"/>
 			<item name="plantedTomato1"/>
+			<item name="plantedSoy1"/>
 			<item name="plantedYucca1"/>
 		</trader_item_group>
 
@@ -524,6 +525,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="blueberries" count="5,15"/>
 			<item name="snowberryPlant" count="4,8"/>
 			<item name="snowberryExtract" count="1,5"/>
+			<item name="lotusExtract" count="1,5"/>
 			<item name="cornMeal" count="5,15"/>
 			<item name="mushrooms" count="4,8"/>
 			<item name="foodHoney" count="1,2"/>
@@ -540,6 +542,13 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="vegetableStew"/>
 			<item name="cornBread"/>
 			<item name="Bread"/>
+			<item name="Pizza"/>
+			<item name="HoneyHam"/>
+			<item name="Cheese"/>
+			<item name="BlueberryYogurt"/>
+			<item name="Yogurt"/>
+			<item name="Pancakes"/>
+			<item name="BlueberryPancakes"/>
 			<item name="Grilled_Bear"/>
 			<item name="Grilled_Pork"/>
 			<item name="Grilled_Rabbit"/>
@@ -573,6 +582,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="bottledWater"/>
 			<item name="goldenRodTea"/>
 			<item name="redTea"/>
+			<item name="SoyMilk"/>
 			<item name="coffee"/>
 			<item name="beer"/>
 			<item name="grainAlcohol"/>

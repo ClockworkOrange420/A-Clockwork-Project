@@ -8578,9 +8578,12 @@
 		<property name="UpgradeRated.ToBlock" value="concreteWedgeCNRInsideBottom"/>
 	</block>
 	<block id="852" name="forestFlower">
-		<property name="Extends" value="treeGrassMaster" param1="CustomIcon"/>
-		<property name="Class" value="Tallgrass"/>
+		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="567"/>
+		<drop event="Harvest" name="plantedForestFlower1" count="1" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="plantedForestFlower1" count="1" prob="0.25" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="forestFlowerPlant" count="1" tool_category="Crops"/>
+		<drop event="Harvest" name="forestFlowerPlant" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
 	<block id="853" name="plantedYucca3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
@@ -8634,7 +8637,10 @@
 	<block id="857" name="snowberry3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="568"/>
-		<drop event="Harvest" name="snowberryPlant" count="1" tool_category="Harvest"/>
+		<drop event="Harvest" name="plantedSnowberry1" count="1" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="plantedSnowberry1" count="1" prob="0.25" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="snowberryPlant" count="1" tool_category="Crops"/>
+		<drop event="Harvest" name="snowberryPlant" count="1" prob="0.25" tool_category="Crops"/>
 		<property name="DescriptionKey" value="snowberryPlantDesc"/>
 	</block>
 	<block id="858" name="concreteWedgeCNRInsideBottom">
@@ -13039,6 +13045,7 @@
 	</block>
 	<!-- 1 Free -->
 	<block id="1416" name="woodTable">
+		<property name="Class" value="Workstation"/>
 		<property name="Material" value="wood_regular"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="table"/>
@@ -13047,25 +13054,27 @@
 		<property name="ImposterExclude" value="true"/>
 		<property name="UseGlobalUV" value="Local"/>
 		<property name="FuelValue" value="300"/>
-		<property name="DescriptionKey" value="furnitureGroupDesc"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="HeatMapStrength" value="0.5"/>
+		<property name="HeatMapTime" value="1200"/>
+		<property name="HeatMapFrequency" value="25"/>
+		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="rWoodTable"/>
-			<property name="Item" value="wood"/>
-			<property name="ItemCount" value="10"/>
-			<property name="UpgradeHitCount" value="4"/>
+		<property class="Workstation">
+			<property name="Modules" value="tools,output"/>
 		</property>
+		<property name="TakeDelay" value="15"/>
 		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
 		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
-		<property name="EconomicValue" value="55"/>
-		<property name="EconomicBundleSize" value="10"/>
+		<property name="EconomicValue" value="550"/>
 		<property name="SellableToTrader" value="false"/>
+		<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	</block>
 	<block id="1417" name="scrapIronHalf">
 		<property name="Extends" value="scrapIronMaster"/>
@@ -13088,12 +13097,6 @@
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="10"/>
-		</property>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="steelTable"/>
-			<property name="Item" value="stainlessSteelPlating"/>
-			<property name="ItemCount" value="1"/>
-			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="DowngradeBlock" value="rustyIronTable"/>
 		<drop event="Harvest" name="scrapIron" count="3" tool_category="Harvest"/>
@@ -16324,6 +16327,8 @@
 	<block id="78" name="plantedWheat1">
 		<property name="Extends" value="cropsGrowingMaster"/>
 		<property name="CustomIcon" value="Wheat_Seed"/>
+		<property name="Shape" value="Grass"/>
+		<property name="Mesh" value="grass"/>
 		<property name="Texture" value="441"/>
 		<property name="Stacknumber" value="250"/>
 		<property name="PlantGrowing.Next" value="plantedWheat2"/>
@@ -16337,18 +16342,18 @@
 	</block>
 	<block id="79" name="plantedWheat2">
 		<property name="Extends" value="cropsGrowingMaster"/>
-		<property name="CustomIcon" value="treePlainsGrassDiagonal"/>
-		<property name="CustomIconTint" value="cc9900"/>
+		<property name="CustomIcon" value="treeBrownGrassDiagonal"/>
+		<property name="Shape" value="Grass"/>
+		<property name="Mesh" value="grass"/>
 		<property name="CreativeMode" value="Dev"/>
-		<property name="Texture" value="397,397,399,400,398,398"/>
+		<property name="Texture" value="201"/>
 		<property name="PlantGrowing.Next" value="plantedWheat3Harvest_Player"/>
 		<drop event="Destroy" name="plantedWheat1" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="80" name="plantedWheat3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
-		<property name="CustomIcon" value="treeSnowyGrassDiagonal"/>
-		<property name="CustomIconTint" value="EECB58"/>
-		<property name="Texture" value="350"/>
+		<property name="CustomIcon" value="treeBrownGrassDiagonal"/>
+		<property name="Texture" value="201"/>
 		<drop event="Harvest" name="plantedWheat1" count="1" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="plantedWheat1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="Wheat" count="1" tool_category="Crops"/>
@@ -17632,115 +17637,7 @@
 		<property name="CustomIcon" value="bedroll"/>
 		<property name="DescriptionKey" value="bedGroupDesc"/>
 	</block>
-	<block id="965" name="rWoodTable">
-		<property name="Extends" value="rWoodMaster"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="table"/>
-		<property name="IsDecoration" value="true"/>
-		<property name="ImposterExclude" value="true"/>
-		<property name="UseGlobalUV" value="Local"/>
-		<property name="DescriptionKey" value="furnitureGroupDesc"/>
-		<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="pouredConcreteTable"/>
-		</property>
-		<property name="DowngradeBlock" value="woodTable"/>
-		<property name="EconomicValue" value="180"/>
-		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Decor/Miscellaneous"/>
-	</block>
-	<block id="966" name="pouredConcreteTable">
-		<property name="Extends" value="pouredConcreteMaster"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="table"/>
-		<property name="IsDecoration" value="true"/>
-		<property name="ImposterExclude" value="true"/>
-		<property name="UseGlobalUV" value="Local"/>
-		<property name="DescriptionKey" value="furnitureGroupDesc"/>
-		<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
-		<property name="UpgradeRated.ToBlock" value="concreteTable"/>
-		<property name="Group" value="Decor/Miscellaneous"/>
-	</block>
-	<block id="967" name="concreteTable">
-		<property name="Extends" value="concreteMaster"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="table"/>
-		<property name="IsDecoration" value="true"/>
-		<property name="ImposterExclude" value="true"/>
-		<property name="UseGlobalUV" value="Local"/>
-		<property name="DescriptionKey" value="furnitureGroupDesc"/>
-		<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="pouredRConcreteTable"/>
-		</property>
-		<property name="EconomicValue" value="180"/>
-		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Decor/Miscellaneous"/>
-	</block>
-	<block id="968" name="pouredRConcreteTable">
-		<property name="Extends" value="pouredRConcreteMaster"/>
-		<property name="CustomIcon" value="pouredConcreteTable"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="table"/>
-		<property name="IsDecoration" value="true"/>
-		<property name="ImposterExclude" value="true"/>
-		<property name="UseGlobalUV" value="Local"/>
-		<property name="DescriptionKey" value="furnitureGroupDesc"/>
-		<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
-		<property name="UpgradeRated.ToBlock" value="rConcreteTable"/>
-		<property name="Group" value="Decor/Miscellaneous"/>
-	</block>
-	<block id="969" name="rConcreteTable">
-		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="table"/>
-		<property name="IsDecoration" value="true"/>
-		<property name="ImposterExclude" value="true"/>
-		<property name="UseGlobalUV" value="Local"/>
-		<property name="FuelValue" value="300"/>
-		<property name="DescriptionKey" value="furnitureGroupDesc"/>
-		<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="rustyIronTable"/>
-		</property>
-		<property name="DowngradeBlock" value="concreteTable"/>
-		<property name="Group" value="Decor/Miscellaneous"/>
-		<property name="EconomicValue" value="280"/>
-		<property name="EconomicBundleSize" value="10"/>
-		<property name="SellableToTrader" value="false"/>
-	</block>
-	<block id="970" name="steelTable">
-		<property name="Extends" value="steelMaster"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="table"/>
-		<property name="IsDecoration" value="true"/>
-		<property name="ImposterExclude" value="true"/>
-		<property name="UseGlobalUV" value="Local"/>
-		<property name="DescriptionKey" value="furnitureGroupDesc"/>
-		<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="stainlessSteelTable"/>
-		</property>
-		<property name="Group" value="Decor/Miscellaneous"/>
-		<property name="EconomicValue" value="500"/>
-		<property name="EconomicBundleSize" value="10"/>
-		<property name="SellableToTrader" value="false"/>
-	</block>
-	<block id="971" name="stainlessSteelTable">
-		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="table"/>
-		<property name="IsDecoration" value="true"/>
-		<property name="ImposterExclude" value="true"/>
-		<property name="UseGlobalUV" value="Local"/>
-		<property name="DescriptionKey" value="furnitureGroupDesc"/>
-		<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
-		<property name="DowngradeBlock" value="steelTable"/>
-		<property name="Group" value="Decor/Miscellaneous"/>
-		<property name="EconomicValue" value="800"/>
-		<property name="EconomicBundleSize" value="10"/>
-		<property name="SellableToTrader" value="false"/>
-	</block>
+	<!--Free-->
 	<block id="972" name="plantedSoy1">
 		<property name="Extends" value="cropsGrowingMaster"/>
 		<property name="CustomIcon" value="SoyBeans"/>
@@ -17813,9 +17710,8 @@
 	</block>
 	<block id="978" name="plantedWheat3Harvest_Player">
 		<property name="Extends" value="cropsHarvestableMaster"/>
-		<property name="CustomIcon" value="treeSnowyGrassDiagonal"/>
-		<property name="CustomIconTint" value="EECB58"/>
-		<property name="Texture" value="350"/>
+		<property name="CustomIcon" value="treeBrownGrassDiagonal"/>
+		<property name="Texture" value="201"/>
 		<property name="DowngradeBlock" value="plantedWheat1"/>
 		<drop event="Harvest" name="plantedWheat1" count="1" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="plantedWheat1" count="1" prob="0.25" tool_category="CropsSeed"/>
@@ -17871,6 +17767,76 @@
 		<drop event="Harvest" name="plantedCorn1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="corn" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="corn" count="1" prob="0.25" tool_category="Crops"/>
+	</block>
+	<block id="983" name="plantedSnowberry1">
+		<property name="Extends" value="cropsGrowingMaster"/>
+		<property name="CustomIcon" value="plantedSnowberry1"/>
+		<property name="Shape" value="Grass"/>
+		<property name="Mesh" value="grass"/>
+		<property name="Texture" value="441"/>
+		<property name="Stacknumber" value="250"/>
+		<property name="PlantGrowing.Next" value="plantedSnowberry2"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="plantedSnowberry2"/>
+			<property name="Item" value="Fertilizer"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="1"/>
+		</property>
+		<drop event="Destroy" name="plantedSnowberry1" count="1" tool_category="Harvest"/>
+	</block>
+	<block id="984" name="plantedSnowberry2">
+		<property name="Extends" value="cropsGrowingMaster"/>
+		<property name="CustomIcon" value="treeSnowyGrassDiagonal"/>
+		<property name="Shape" value="Grass"/>
+		<property name="Mesh" value="grass"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Texture" value="350"/>
+		<property name="PlantGrowing.Next" value="plantedSnowberry3Harvest_Player"/>
+		<drop event="Destroy" name="plantedSnowberry1" count="1" tool_category="Harvest"/>
+	</block>
+	<block id="1010" name="plantedSnowberry3Harvest_Player">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CustomIcon" value="snowberry3Harvest"/>
+		<property name="Texture" value="568"/>
+		<drop event="Harvest" name="plantedSnowberry1" count="1" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="plantedSnowberry1" count="1" prob="0.25" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="snowberryPlant" count="1" tool_category="Crops"/>
+		<drop event="Harvest" name="snowberryPlant" count="1" prob="0.25" tool_category="Crops"/>
+	</block>
+	<block id="1011" name="plantedForestFlower1">
+		<property name="Extends" value="cropsGrowingMaster"/>
+		<property name="CustomIcon" value="plantedForestFlower1"/>
+		<property name="Shape" value="Grass"/>
+		<property name="Mesh" value="grass"/>
+		<property name="Texture" value="441"/>
+		<property name="Stacknumber" value="250"/>
+		<property name="PlantGrowing.Next" value="plantedForestFlower2"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="plantedForestFlower2"/>
+			<property name="Item" value="Fertilizer"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="1"/>
+		</property>
+		<drop event="Destroy" name="plantedForestFlower1" count="1" tool_category="Harvest"/>
+	</block>
+	<block id="1012" name="plantedForestFlower2">
+		<property name="Extends" value="cropsGrowingMaster"/>
+		<property name="CustomIcon" value="forestFlower"/>
+		<property name="Shape" value="Grass"/>
+		<property name="Mesh" value="grass"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Texture" value="567"/>
+		<property name="PlantGrowing.Next" value="plantedForestFlower3Harvest_Player"/>
+		<drop event="Destroy" name="plantedForestFlower1" count="1" tool_category="Harvest"/>
+	</block>
+	<block id="1013" name="plantedForestFlower3Harvest_Player">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CustomIcon" value="forestFlower"/>
+		<property name="Texture" value="567"/>
+		<drop event="Harvest" name="plantedForestFlower1" count="1" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="plantedForestFlower1" count="1" prob="0.25" tool_category="CropsSeed"/>
+		<drop event="Harvest" name="forestFlowerPlant" count="1" tool_category="Crops"/>
+		<drop event="Harvest" name="forestFlowerPlant" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
 </blocks>
 <!-- Block limit: No block can have an ID greater 2047. -->

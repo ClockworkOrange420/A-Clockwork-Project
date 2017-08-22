@@ -1003,6 +1003,7 @@
 	<item name="plantedAloe1"/>
 	<item name="plantedMushroom1"/>
 	<item name="plantedYucca1"/>
+	<item name="plantedSoy1"/>
 	<item name="plantedHop1"/>
 </lootgroup>
 
@@ -1034,6 +1035,15 @@
 <lootgroup name="coldfood">
 	<item name="egg" count="1,2"/>
 	<item name="blueberryPie"/>
+	<item name="Yogurt"/>
+	<item name="BlueberryYogurt"/>
+	<item name="Cheese"/>
+	<item name="Pizza"/>
+	<item name="HoneyHam"/>
+	<item name="slicedHam"/>
+	<item name="Pepperoni"/>
+	<item name="Pancakes"/>
+	<item name="BlueberryPancakes"/>
 	<item group="allStews"/>
 	<item group="allRawMeats" count="1,2"/>
 	<item name="Tomato"/>
@@ -1052,6 +1062,7 @@
 	<item name="potato"/>
 	<item name="blueberries"/>
 	<item name="coffeeBeans"/>
+	<item name="SoyBeans"/>
 </lootgroup>
 
 <lootgroup name="sinkTools">
@@ -1061,6 +1072,8 @@
 
 <lootgroup name="cupboard">
 	<item name="canEmpty" count="1,3"/>
+	<item name="Crackers" count="1,3"/>
+	<item name="Noodles" count="1,3"/>
 	<item group="cannedfood" prob="0.5"/>
 	<item group="seeds" count="1,3" prob="0.5"/>
 	<item name="bottledWater" prob="0.5"/>
@@ -1354,6 +1367,7 @@
 	<item name="emptyJar" prob="1.5"/>
 	<item name="bottledWater"/>
 	<item name="beer"/>
+	<item name="SoyMilk"/>
 	<item name="megaCrush" prob="0.15"/>
 </lootgroup>
 

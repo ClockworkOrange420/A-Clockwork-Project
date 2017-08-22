@@ -867,38 +867,169 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="plantedCorn1" count="2"/>
 		<ingredient name="plantedWheat1" count="2"/>
 	</recipe>
-	<recipe name="Flour" count="1" craft_time = "8" >
+	<recipe name="Flour" count="1" craft_time = "8" craft_area="woodTable" craft_tool="Mortar_and_Pestle" >
 		<ingredient name="Wheat" count="2"/>
 	</recipe>
-	<recipe name="Bread" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingGrill" >
+	<recipe name="cornMeal" count="1" craft_time = "8" craft_area="woodTable" craft_tool="Mortar_and_Pestle" >
+		<ingredient name="corn" count="1"/>
+	</recipe>
+	<recipe name="Dough" count="1" craft_time = "8" craft_area="woodTable" craft_tool="clubWood" >
+		<ingredient name="Flour" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
-		<ingredient name="Flour" count="3"/>
+	</recipe>
+	<recipe name="Pepperoni" count="8" craft_time = "8" craft_area="woodTable" craft_tool="huntingKnife" >
+		<ingredient name="Pork" count="1"/>
+	</recipe>
+	<recipe name="slicedHam" count="8" craft_time = "8" craft_area="woodTable" craft_tool="huntingKnife" >
+		<ingredient name="Pork" count="1"/>
+	</recipe>
+	<recipe name="slicedCheese" count="4" craft_time = "8" craft_area="woodTable" craft_tool="huntingKnife" >
+		<ingredient name="Cheese" count="1"/>
+	</recipe>
+	<recipe name="hamSandwich" count="1" craft_time = "8" craft_area="woodTable" craft_tool="huntingKnife" >
+		<ingredient name="slicedHam" count="4"/>
+		<ingredient name="slicedCheese" count="4"/>
+	</recipe>
+	<recipe name="Noodles" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
+		<ingredient name="Dough" count="1"/>
+	</recipe>
+	<recipe name="Noodles" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingPot" >
+		<ingredient name="Dough" count="1"/>
+	</recipe>
+	<recipe name="Noodles" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
+		<ingredient name="Dough" count="1"/>
+	</recipe>
+	<recipe name="Bread" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingGrill" >
+		<ingredient name="Dough" count="3"/>
 	</recipe>
 	<recipe name="Bread" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingGrill" >
-		<ingredient name="bottledWater" count="1"/>
-		<ingredient name="Flour" count="3"/>
+		<ingredient name="Dough" count="3"/>
 	</recipe>
 	<recipe name="Bread" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
-		<ingredient name="bottledWater" count="1"/>
-		<ingredient name="Flour" count="3"/>
+		<ingredient name="Dough" count="3"/>
+	</recipe>
+	<recipe name="Crackers" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingGrill" >
+		<ingredient name="Dough" count="1"/>
+	</recipe>
+	<recipe name="Crackers" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingGrill" >
+		<ingredient name="Dough" count="1"/>
+	</recipe>
+	<recipe name="Crackers" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
+		<ingredient name="Dough" count="1"/>
+	</recipe>
+	<recipe name="CrackersAndCheese" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingGrill" >
+		<ingredient name="Crackers" count="2"/>
+		<ingredient name="slicedCheese" count="4"/>
+	</recipe>
+	<recipe name="CrackersAndCheese" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingGrill" >
+		<ingredient name="Crackers" count="2"/>
+		<ingredient name="slicedCheese" count="4"/>
+	</recipe>
+	<recipe name="CrackersAndCheese" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
+		<ingredient name="Crackers" count="2"/>
+		<ingredient name="slicedCheese" count="4"/>
+	</recipe>
+	<recipe name="Pizza" count="1" craft_time = "16" craft_area="Old_Oven" craft_tool="cookingGrill" >
+		<ingredient name="Dough" count="1"/>
+		<ingredient name="Pepperoni" count="8"/>
+		<ingredient name="Cheese" count="1"/>
+		<ingredient name="mushrooms" count="3"/>
+	</recipe>
+	<recipe name="Pizza" count="1" craft_time = "16" craft_area="New_Oven" craft_tool="cookingGrill" >
+		<ingredient name="Dough" count="1"/>
+		<ingredient name="Pepperoni" count="8"/>
+		<ingredient name="Cheese" count="1"/>
+		<ingredient name="mushrooms" count="3"/>
+	</recipe>
+	<recipe name="Pizza" count="1" craft_time = "16" craft_area="campfire" craft_tool="cookingGrill" >
+		<ingredient name="Dough" count="1"/>
+		<ingredient name="Pepperoni" count="8"/>
+		<ingredient name="Cheese" count="1"/>
+		<ingredient name="mushrooms" count="3"/>
+	</recipe>
+	<recipe name="Cheese" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
+		<ingredient name="SoyMilk" count="4"/>
+	</recipe>
+	<recipe name="Cheese" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
+		<ingredient name="SoyMilk" count="4"/>
+	</recipe>
+	<recipe name="Cheese" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingPot" >
+		<ingredient name="SoyMilk" count="4"/>
+	</recipe>
+	<recipe name="SoyMilk" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
+		<ingredient name="SoyBeans" count="1"/>
+		<ingredient name="emptyJar" count="1"/>
+	</recipe>
+	<recipe name="SoyMilk" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
+		<ingredient name="SoyBeans" count="1"/>
+		<ingredient name="emptyJar" count="1"/>
+	</recipe>
+	<recipe name="SoyMilk" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingPot" >
+		<ingredient name="SoyBeans" count="1"/>
+		<ingredient name="emptyJar" count="1"/>
+	</recipe>
+	<recipe name="Yogurt" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
+		<ingredient name="SoyMilk" count="4"/>
+	</recipe>
+	<recipe name="Yogurt" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
+		<ingredient name="SoyMilk" count="4"/>
+	</recipe>
+	<recipe name="Yogurt" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingPot" >
+		<ingredient name="SoyMilk" count="4"/>
+	</recipe>
+	<recipe name="BlueberryYogurt" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
+		<ingredient name="SoyMilk" count="3"/>
+		<ingredient name="blueberries" count="1"/>
+	</recipe>
+	<recipe name="BlueberryYogurt" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
+		<ingredient name="SoyMilk" count="3"/>
+		<ingredient name="blueberries" count="1"/>
+	</recipe>
+	<recipe name="BlueberryYogurt" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingPot" >
+		<ingredient name="SoyMilk" count="3"/>
+		<ingredient name="blueberries" count="1"/>
+	</recipe>
+	<recipe name="Pancakes" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
+		<ingredient name="SoyMilk" count="4"/>
+		<ingredient name="Dough" count="1"/>
+	</recipe>
+	<recipe name="Pancakes" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingGrill" >
+		<ingredient name="SoyMilk" count="4"/>
+		<ingredient name="Dough" count="1"/>
+	</recipe>
+	<recipe name="Pancakes" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingGrill" >
+		<ingredient name="SoyMilk" count="4"/>
+		<ingredient name="Dough" count="1"/>
+	</recipe>
+	<recipe name="BlueberryPancakes" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
+		<ingredient name="SoyMilk" count="2"/>
+		<ingredient name="Dough" count="1"/>
+		<ingredient name="blueberries" count="2"/>
+	</recipe>
+	<recipe name="BlueberryPancakes" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingGrill" >
+		<ingredient name="SoyMilk" count="2"/>
+		<ingredient name="Dough" count="1"/>
+		<ingredient name="blueberries" count="2"/>
+	</recipe>
+	<recipe name="BlueberryPancakes" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingGrill" >
+		<ingredient name="SoyMilk" count="2"/>
+		<ingredient name="Dough" count="1"/>
+		<ingredient name="blueberries" count="2"/>
 	</recipe>
 	<recipe name="blueberryPie" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="blueberries" count="4"/>
 		<ingredient name="egg" count="2"/>
-		<ingredient name="Flour" count="1"/>
-		<ingredient name="bottledWater" count="1"/>
+		<ingredient name="Dough" count="1"/>
 	</recipe>
 	<recipe name="blueberryPie" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
 		<ingredient name="blueberries" count="4"/>
 		<ingredient name="egg" count="2"/>
-		<ingredient name="Flour" count="1"/>
-		<ingredient name="bottledWater" count="1"/>
+		<ingredient name="Dough" count="1"/>
 	</recipe>
 	<recipe name="blueberryPie" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingPot" >
 		<ingredient name="blueberries" count="4"/>
 		<ingredient name="egg" count="2"/>
-		<ingredient name="Flour" count="1"/>
-		<ingredient name="bottledWater" count="1"/>
+		<ingredient name="Dough" count="1"/>
 	</recipe>
 	<recipe name="Blueberry_Jam" count="1" craft_time = "8" >
 		<ingredient name="bottledWater" count="1"/>
@@ -979,6 +1110,18 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="Grilled_Pork" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingGrill" >
 		<ingredient name="Pork" count="1"/>
+	</recipe>
+	<recipe name="HoneyHam" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
+		<ingredient name="Pork" count="1"/>
+		<ingredient name="foodHoney" count="2"/>
+	</recipe>
+	<recipe name="HoneyHam" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingGrill" >
+		<ingredient name="Pork" count="1"/>
+		<ingredient name="foodHoney" count="2"/>
+	</recipe>
+	<recipe name="HoneyHam" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingGrill" >
+		<ingredient name="Pork" count="1"/>
+		<ingredient name="foodHoney" count="2"/>
 	</recipe>
 	<recipe name="Grilled_Rabbit" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
 		<ingredient name="Rabbit" count="1"/>
@@ -1252,9 +1395,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="cornMeal" count="3"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="cornMeal" count="1" craft_time = "4" >
-		<ingredient name="corn" count="1"/>
-	</recipe>
 	<recipe name="cornOnTheCob" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="corn" count="3"/>
 		<ingredient name="bottledWater" count="1"/>
@@ -1305,15 +1445,18 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="Chicken_Noodle_Soup" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
-		<ingredient name="Chicken" count="2"/>
+		<ingredient name="Chicken" count="1"/>
+		<ingredient name="Noodles" count="1"/>
 	</recipe>
 	<recipe name="Chicken_Noodle_Soup" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
-		<ingredient name="Chicken" count="2"/>
+		<ingredient name="Chicken" count="1"/>
+		<ingredient name="Noodles" count="1"/>
 	</recipe>
 	<recipe name="Chicken_Noodle_Soup" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
-		<ingredient name="Chicken" count="2"/>
+		<ingredient name="Chicken" count="1"/>
+		<ingredient name="Noodles" count="1"/>
 	</recipe>
 	<recipe name="Creamed_Corn" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="bottledWater" count="1"/>
@@ -2870,14 +3013,17 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="steelPolish" count="1" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="Flour" count="1"/>
+		<ingredient name="oil" count="1"/>
 		<ingredient name="animalFat" count="1"/>
 	</recipe>
 	<recipe name="steelPolish" count="1" craft_time = "8" craft_exp_gain="14" craft_area="Old_Oven" craft_tool="beaker" >
 		<ingredient name="Flour" count="1"/>
+		<ingredient name="oil" count="1"/>
 		<ingredient name="animalFat" count="1"/>
 	</recipe>
 	<recipe name="steelPolish" count="1" craft_time = "8" craft_exp_gain="14" craft_area="New_Oven" craft_tool="beaker" >
 		<ingredient name="Flour" count="1"/>
+		<ingredient name="oil" count="1"/>
 		<ingredient name="animalFat" count="1"/>
 	</recipe>
 	<recipe name="steelPolish" count="1" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
@@ -2993,15 +3139,45 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="snowberryExtract" count="1" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="snowberryPlant" count="1"/>
-		<ingredient name="cornMeal" count="1"/>
+		<ingredient name="grainAlcohol" count="1"/>
 	</recipe>
 	<recipe name="snowberryExtract" count="1" craft_time = "8" craft_exp_gain="27" craft_area="Old_Oven" craft_tool="beaker" >
 		<ingredient name="snowberryPlant" count="1"/>
-		<ingredient name="cornMeal" count="1"/>
+		<ingredient name="grainAlcohol" count="1"/>
 	</recipe>
 	<recipe name="snowberryExtract" count="1" craft_time = "8" craft_exp_gain="27" craft_area="New_Oven" craft_tool="beaker" >
 		<ingredient name="snowberryPlant" count="1"/>
-		<ingredient name="cornMeal" count="1"/>
+		<ingredient name="grainAlcohol" count="1"/>
+	</recipe>
+	<recipe name="lotusExtract" count="1" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="snowberryPlant" count="1"/>
+		<ingredient name="grainAlcohol" count="1"/>
+	</recipe>
+	<recipe name="lotusExtract" count="1" craft_time = "8" craft_exp_gain="27" craft_area="Old_Oven" craft_tool="beaker" >
+		<ingredient name="snowberryPlant" count="1"/>
+		<ingredient name="grainAlcohol" count="1"/>
+	</recipe>
+	<recipe name="lotusExtract" count="1" craft_time = "8" craft_exp_gain="27" craft_area="New_Oven" craft_tool="beaker" >
+		<ingredient name="snowberryPlant" count="1"/>
+		<ingredient name="grainAlcohol" count="1"/>
+	</recipe>
+	<recipe name="megaCrush" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
+		<ingredient name="snowberryExtract" count="1"/>
+		<ingredient name="lotusExtract" count="1"/>
+		<ingredient name="blueberries" count="2"/>
+		<ingredient name="bottledWater" count="1"/>
+	</recipe>
+	<recipe name="megaCrush" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
+		<ingredient name="snowberryExtract" count="1"/>
+		<ingredient name="lotusExtract" count="1"/>
+		<ingredient name="blueberries" count="2"/>
+		<ingredient name="bottledWater" count="1"/>
+	</recipe>
+	<recipe name="megaCrush" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingPot" >
+		<ingredient name="snowberryExtract" count="1"/>
+		<ingredient name="lotusExtract" count="1"/>
+		<ingredient name="blueberries" count="2"/>
+		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="snowberryJuice" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="snowberryExtract" count="1"/>
