@@ -1087,17 +1087,17 @@ snowberryPlant feeds you for 90 sec. -->
 <buff id="MeatFruit5Deactivator" duration="1" actions="debuff(MeatFruit5);debuff(Bifecta5)"/>
 <buff id="MeatFruit5Deactivator2" duration="1" actions="debuff(MeatFruit5D);debuff(Bifecta5)"/>
 <buff id="MeatFruit5D" duration="0" ondebuff="MeatFruit5Deactivator" debuffif="Meat lequal 1" />
-<buff id="MeatFruit5" duration="0" ondebuff="MeatFruit5Deactivator2" requires="PositiveFruit5" debuffif="Fruit lequal 1" actions="buff(Bifecta5);buff(MeatFruit5D);Buff(MeatFruitGrain5);Buff(BMeatFruitGrain5);Buff(MeatFruitDairy5);Buff(BMeatFruitDairy5);Buff(MeatFruitVeg5);Buff(BMeatFruitVeg5)"/>
+<buff id="MeatFruit5" duration="0" ondebuff="MeatFruit5Deactivator2" requires="PositiveFruit5" debuffif="Fruit lequal 1" actions="buff(Bifecta5);buff(MeatFruit5D);buff(MeatFruitGrain5);buff(BMeatFruitGrain5);buff(MeatFruitDairy5);buff(BMeatFruitDairy5);buff(MeatFruitVeg5);buff(BMeatFruitVeg5)"/>
 
 <buff id="10MeatFruit5Deactivator" duration="1" actions="debuff(10MeatFruit5);debuff(Bifecta5)"/>
 <buff id="10MeatFruit5Deactivator2" duration="1" actions="debuff(10MeatFruit5D);debuff(Bifecta5)"/>
 <buff id="10MeatFruit5D" duration="0" ondebuff="10MeatFruit5Deactivator" debuffif="Meat lequal 1" />
-<buff id="10MeatFruit5" duration="0" ondebuff="10MeatFruit5Deactivator2" requires="PositiveFruit10" debuffif="Fruit lequal 1" actions="buff(Bifecta5);buff(10MeatFruit5D);Buff(10MeatFruitGrain5);Buff(10BMeatFruitGrain5);Buff(10MeatFruitDairy5);Buff(10BMeatFruitDairy5);Buff(10MeatFruitVeg5);Buff(10BMeatFruitVeg5)"/>
+<buff id="10MeatFruit5" duration="0" ondebuff="10MeatFruit5Deactivator2" requires="PositiveFruit10" debuffif="Fruit lequal 1" actions="buff(Bifecta5);buff(10MeatFruit5D);buff(10MeatFruitGrain5);buff(10BMeatFruitGrain5);buff(10MeatFruitDairy5);buff(10BMeatFruitDairy5);buff(10MeatFruitVeg5);buff(10BMeatFruitVeg5)"/>
 
 <buff id="MeatFruit10Deactivator" duration="1" actions="debuff(MeatFruit10);debuff(Bifecta10)"/>
 <buff id="MeatFruit10Deactivator2" duration="1" actions="debuff(MeatFruit10D);debuff(Bifecta10)"/>
 <buff id="MeatFruit10D" duration="0" ondebuff="MeatFruit10Deactivator" debuffif="Meat lequal 5" />
-<buff id="MeatFruit10" duration="0" ondebuff="MeatFruit10Deactivator2" requires="PositiveFruit10" debuffif="Fruit lequal 5" actions="buff(Bifecta10);buff(MeatFruit10D);Buff(MeatFruitGrain10);Buff(MeatFruitDairy10);Buff(MeatFruitVeg10)"/>
+<buff id="MeatFruit10" duration="0" ondebuff="MeatFruit10Deactivator2" requires="PositiveFruit10" debuffif="Fruit lequal 5" actions="buff(Bifecta10);buff(MeatFruit10D);buff(MeatFruitGrain10);buff(MeatFruitDairy10);buff(MeatFruitVeg10)"/>
 
 <buff id="MeatGrain5Deactivator" duration="1" actions="debuff(MeatGrain5);debuff(Bifecta5)"/>
 <buff id="MeatGrain5Deactivator2" duration="1" actions="debuff(MeatGrain5D);debuff(Bifecta5)"/>
@@ -1143,7 +1143,6 @@ snowberryPlant feeds you for 90 sec. -->
 <buff id="MeatVeg10Deactivator2" duration="1" actions="debuff(MeatVeg10D);debuff(Bifecta10)"/>
 <buff id="MeatVeg10D" duration="0" ondebuff="MeatVeg10Deactivator" debuffif="Meat lequal 5" />
 <buff id="MeatVeg10" duration="0" ondebuff="MeatVeg10Deactivator2" requires="PositiveVeg10" debuffif="Veg lequal 5" actions="buff(Bifecta10);buff(MeatVeg10D);buff(MeatVegFruit10);buff(MeatVegGrain10);buff(MeatVegDairy10)"/>
-
 
 <buff id="GrainFruit5Deactivator" duration="1" actions="debuff(GrainFruit5);debuff(Bifecta5)"/>
 <buff id="GrainFruit5Deactivator2" duration="1" actions="debuff(GrainFruit5D);debuff(Bifecta5)"/>
