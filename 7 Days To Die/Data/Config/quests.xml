@@ -283,8 +283,8 @@
 		<objective type="Wear" id="animalHideBoots" />
 		<objective type="Wear" id="animalHideGloves" />
 		
-		<reward type="SkillPoints" value="1" />
-		<reward type="Quest" id="quest_Armored01" />
+		<reward type="SkillPoints" value="1" /><!--
+		<reward type="Quest" id="quest_Armored01" />-->
     </quest>
 	
 	<!-- Basic Survival 9 - Craft Leather Armor /> -->
@@ -309,8 +309,8 @@
 		<objective type="Wear" id="leatherBoots" />
 		<objective type="Wear" id="leatherGloves" />
 		
-		<reward type="SkillPoints" value="1" />
-		<reward type="Quest" id="quest_Armored02" />
+		<reward type="SkillPoints" value="1" /><!--
+		<reward type="Quest" id="quest_Armored02" />-->
     </quest>
 	
 	<!-- Basic Survival 9 - Craft Scrap Armor /> -->
@@ -335,8 +335,8 @@
 		<objective type="Wear" id="scrapBoots" />
 		<objective type="Wear" id="scrapGloves" />
 		
-		<reward type="SkillPoints" value="1" />
-		<reward type="Quest" id="quest_Armored03" />
+		<reward type="SkillPoints" value="1" /><!--
+		<reward type="Quest" id="quest_Armored03" />-->
     </quest>
 	
 	<!-- Basic Survival 9 - Craft military Armor /> -->
@@ -361,8 +361,8 @@
 		<objective type="Wear" id="militaryBoots" />
 		<objective type="Wear" id="militaryGloves" />
 		
-		<reward type="SkillPoints" value="1" />
-		<reward type="Quest" id="quest_Armored04" />
+		<reward type="SkillPoints" value="1" /><!--
+		<reward type="Quest" id="quest_Armored04" />-->
     </quest>
 	
 	<!-- Basic Survival 9 - Craft Iron Armor /> -->
@@ -387,8 +387,8 @@
 		<objective type="Wear" id="ironBoots" />
 		<objective type="Wear" id="ironGloves" />
 		
-		<reward type="SkillPoints" value="1" />
-		<reward type="Quest" id="quest_Armored05" />
+		<reward type="SkillPoints" value="1" /><!--
+		<reward type="Quest" id="quest_Armored05" />-->
     </quest>
 	
 	<!-- Basic Survival 4 - Craft an Iron Club /> -->	
@@ -612,7 +612,7 @@
     </quest>
 	
 	<!--Armored to the core-->
-	
+	<!--
 	<quest id="quest_Armored01" group_name_key="quest_Armored0" name_key="quest_Armored01" subtitle_key="quest_Armored01_subtitle" description_key="quest_Armored01_description" icon="ui_game_symbol_defense" 
 	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
@@ -681,7 +681,7 @@
 		
 		<reward type="Item" id="forgedIron" value="500" />
 		<reward type="SkillPoints" value="10" />
-	</quest>
+	</quest>-->
 	
 	<!--Melee Weapons-->
 	
