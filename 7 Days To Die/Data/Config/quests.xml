@@ -613,7 +613,17 @@
 	
 	<!--Armored to the core-->
 	
-	<quest id="quest_Armored01" group_name_key="quest_Armored0" name_key="quest_Armored01" subtitle_key="quest_Armored01_subtitle" description_key="quest_Armored01_description" icon="ui_game_symbol_defense" 
+	<quest id="quest_Armored00" group_name_key="Admin Aromor Quest Activation!" name_key="Admin Aromor Quest Activation!" subtitle_key="Activates armor quests!" description_key="Activates armor quests" icon="ui_game_symbol_defense" 
+	repeatable="true" category_key="Quest" difficulty="medium">
+	
+		<reward type="Quest" id="quest_Armored01" />
+		<reward type="Quest" id="quest_Armored02" />
+		<reward type="Quest" id="quest_Armored03" />
+		<reward type="Quest" id="quest_Armored04" />
+		<reward type="Quest" id="quest_Armored05" />
+	</quest>
+	
+	<quest id="quest_Armored01" group_name_key="Armored To The Core" name_key="How thick is your hide?" subtitle_key="Kill 50 zombies while wearing hide armor" description_key="Put your home made hide armor to the test and kill 50 zombies." icon="ui_game_symbol_defense" 
 	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
@@ -627,7 +637,7 @@
 		<reward type="SkillPoints" value="10" />
 	</quest>
 	
-	<quest id="quest_Armored02" group_name_key="quest_Armored0" name_key="quest_Armored02" subtitle_key="quest_Armored02_subtitle" description_key="quest_Armored02_description" icon="ui_game_symbol_defense" 
+	<quest id="quest_Armored02" group_name_key="Armored To The Core" name_key="Tough as leather" subtitle_key="Kill 50 zombies while wearing leather armor" description_key="Put your home made leather armor to the test and kill 50 zombies." icon="ui_game_symbol_defense" 
 	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
@@ -641,7 +651,7 @@
 		<reward type="SkillPoints" value="10" />
 	</quest>
 	
-	<quest id="quest_Armored03" group_name_key="quest_Armored0" name_key="quest_Armored03" subtitle_key="quest_Armored03_subtitle" description_key="quest_Armored03_description" icon="ui_game_symbol_defense" 
+	<quest id="quest_Armored03" group_name_key="Armored To The Core" name_key="So you think you can scrap" subtitle_key="Kill 50 zombies while wearing scrap armor" description_key="Put your home made scrap armor to the test and kill 50 zombies." icon="ui_game_symbol_defense" 
 	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
@@ -651,11 +661,11 @@
 		<requirement type="Wearing" id="scrapBoots" />
 		<requirement type="Wearing" id="scrapGloves" />
 		
-		<reward type="Item" id="scrapIron" value="500" />
+		<reward type="Item" id="scrapIron" value="50" />
 		<reward type="SkillPoints" value="10" />
 	</quest>
 	
-	<quest id="quest_Armored04" group_name_key="quest_Armored0" name_key="quest_Armored04" subtitle_key="quest_Armored04_subtitle" description_key="quest_Armored04_description" icon="ui_game_symbol_defense" 
+	<quest id="quest_Armored04" group_name_key="Armored To The Core" name_key="Military grade" subtitle_key="Kill 50 zombies while wearing military armor" description_key="Put your home made hide military armor to the test and kill 50 zombies." icon="ui_game_symbol_defense" 
 	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
@@ -665,11 +675,11 @@
 		<requirement type="Wearing" id="militaryBoots" />
 		<requirement type="Wearing" id="militaryGloves" />
 		
-		<reward type="Item" id="militaryFiber" value="500" />
+		<reward type="Item" id="militaryFiber" value="50" />
 		<reward type="SkillPoints" value="10" />
 	</quest>
 	
-	<quest id="quest_Armored05" group_name_key="quest_Armored0" name_key="quest_Armored05" subtitle_key="quest_Armored05_subtitle" description_key="quest_Armored05_description" icon="ui_game_symbol_defense" 
+	<quest id="quest_Armored05" group_name_key="Armored To The Core" name_key="Iron maiden" subtitle_key="Kill 50 zombies while wearing iron armor" description_key="Put your home made iron armor to the test and kill 50 zombies." icon="ui_game_symbol_defense" 
 	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="50"  />
 		
@@ -679,7 +689,7 @@
 		<requirement type="Wearing" id="ironBoots" />
 		<requirement type="Wearing" id="ironGloves" />
 		
-		<reward type="Item" id="forgedIron" value="500" />
+		<reward type="Item" id="forgedIron" value="50" />
 		<reward type="SkillPoints" value="10" />
 	</quest>
 	

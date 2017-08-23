@@ -7870,6 +7870,12 @@
 			<property name="QuestGiven" value="quest_ZombieSlayer05"/>
 		</property>
 	</item>
+	<item id="1229" name="qt_Armored">
+		<property name="Extends" value="treasureQuestMaster"/>
+		<property class="Action1">
+			<property name="QuestGiven" value="quest_Armored00"/>
+		</property>
+	</item>
 	<!-- * * * * * * * * * * other stuff * * * * * * * * * * -->
 	<item id="1300" name="yuccaFibers">
 		<!-- scrap material -->
