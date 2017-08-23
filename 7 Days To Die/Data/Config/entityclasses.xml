@@ -109,7 +109,7 @@
 	<!--property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityAnimalBear" /-->
 	<!--property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityAnimalStag" /-->
 	<property name="MaxHealth" value="150"/>
-	<property name="MaxViewAngle" value="360"/>
+	<property name="MaxViewAngle" value="270"/>
 	<property name="HandItem" value="handZombie"/>
 	<property name="Weight" value="70"/>
 	<property name="Immunity" value="sickness;disease;bleeding;wellness"/>
