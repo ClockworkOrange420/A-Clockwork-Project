@@ -314,7 +314,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="2" stat="food" amount="-1" rate="30"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
 </buff>
-<buff id="infection4" buffif="infected gequal 3840" actions="setvar(infected, 0);kill" icon="ui_game_symbol_infection" name_key="infection4" description_key="infection4Desc" tooltip_key="infection4Tooltip"/>
+<buff id="infection4" buffif="infected gequal 3840" actions="setvar(infected, 0);kill" icon="ui_game_symbol_infection" name_key="infection4" description_key="infection4Desc" tooltip_key="infection4Tooltip" type="sickness"/>
 
 <buff id="firstAid" duration="60" stack="extend" type="healthup" icon="ui_game_symbol_medical" name_key="firstAid" description_key="firstAidDesc" tooltip_key="firstAidTooltip" causes="firstAidBandage">
 	<modify id="1" stat="health" amount="0.5" rate="1"/>
@@ -629,7 +629,7 @@ snowberryPlant feeds you for 90 sec. -->
 
 <buff id="bleedingBurningSmall" duration="1" actions="buff(burningSmall);buff(bleeding)" />
 
-<buff id="FatigueMain" duration="0" buffif="coretemp lequal 300" actions="increment(fatigue, 1, 50t, 0, 0)"/>
+<buff id="FatigueMain" duration="0" buffif="coretemp lequal 300" actions="increment(fatigue, 1, 50t, 0, 0)" type="staminadown"/>
 <buff id="rested" duration="0" buffif="fatigue less 1" debuffif="fatigue gequal 8" actions="debuff(sleepingChairEffect2);debuff(sleepingCouchEffect2);debuff(sleepingBagEffect2);debuff(sleepingBedEffect2);debuff(sleepingBigBedEffect2)" icon="ui_game_symbol_map_bed" name_key="Well rested" description_key="You are well rested." tooltip_key="Well rested" />
 <buff id="tired" buffif="fatigue gequal 24" debuffif="fatigue lequal 23" mutex="prettyTired,veryTired,extremelyTired,insanelyTired,deadtiredWarning" icon="ui_game_symbol_character" name_key="Tired" description_key="You are tired and should get some rest" tooltip_key="You are tired">
 	<modify id="0" stat="stamina" amount="-1.5" rate="2"/>
@@ -654,7 +654,7 @@ snowberryPlant feeds you for 90 sec. -->
 	<modify id="0" stat="stamina" amount="-2" rate="2"/>
 	<modify id="0" stat="speedmodifier" setValue="0.50"/>
 </buff>
-<buff id="deadTired" buffif="fatigue gequal 168" actions="setvar(fatigue, 0);kill"/>
+<buff id="deadTired" buffif="fatigue gequal 168" actions="setvar(fatigue, 0);kill" type="staminadown"/>
 
 <buff id="HygieneLock" duration="0"/>
 <buff id="HygieneLockRemover" duration="1" actions="debuff(HygieneLock)"/>
