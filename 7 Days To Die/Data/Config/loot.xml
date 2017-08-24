@@ -634,10 +634,14 @@
 	<item name="moldyBread"/>
 </lootgroup>
 
+<lootgroup name="weaponsPistols">
+	<item name="gunPistol"/>
+	<item name="gunPistolSilenced"/>
+</lootgroup>
+
 <lootgroup name="weaponsPistol+ammo" count="all">
 	<item name="9mmBullet" count="1,30"/>
-	<item name="gunPistol" count="1"/>
-	<item name="gunPistolSilenced" count="1"/>
+	<item group="weaponsPistols" count="1"/>
 </lootgroup>
 
 <lootgroup name="toiletLoot" count="1">
