@@ -2371,6 +2371,10 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
+	<recipe name="opaqueBusinessGlass" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+		<ingredient name="unit_glass" count="10"/>
+		<ingredient name="unit_clay" count="1"/>
+	</recipe>
 	<recipe name="glassBusinessCTRSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
