@@ -20,19 +20,18 @@
 	<hub_rules>
 		<hub_rule name="rural">
 			<hub_type value="rural"/>
-			<width value="100, 100" />
-			<height value="100, 100" />
+			<width value="168, 250" />
+			<height value="168, 250" />
 			<path_material value="asphalt" />
 			<path_radius value="10" />
 			<prefab_rule name="default"/>
 			<street_gen level="10" length_multiplier="4">
-				<axiom value="[F]"/>
-				<rule char="J" replace_with="[KYX*]"/>
-				<rule char="K" replace_with="[F+F-F]"/>
-				<rule char="L" replace_with="[*F]"/>
-				<rule char="Y" replace_with="-FF[YX]*"/>
-				<rule char="X" replace_with="+FF[XY]*"/>
-				<alt_commands chars="J,K,L,Y,X"/>
+				<axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+				<rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+				<rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+				<rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+				<rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+				<alt_commands chars="T,I,N,K"/>
 			</street_gen>
 		</hub_rule>
 		<hub_rule name="townSmall">
@@ -43,13 +42,12 @@
 			<path_radius value="10" />
 			<prefab_rule name="default"/>
 			<street_gen level="15" length_multiplier="4">
-				<axiom value="[FF*L]+[FFJK]+[FF*L]+[FFJK]"/>
-				<rule char="J" replace_with="[KYX*]"/>
-				<rule char="K" replace_with="[F+F-F]"/>
-				<rule char="L" replace_with="[*F]"/>
-				<rule char="Y" replace_with="-FF[YX]*"/>
-				<rule char="X" replace_with="+FF[XY]*"/>
-				<alt_commands chars="J,K,L,Y,X"/>
+				<axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+				<rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+				<rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+				<rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+				<rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+				<alt_commands chars="T,I,N,K"/>
 			</street_gen>
 		</hub_rule>
 		<hub_rule name="townLarge">
@@ -60,13 +58,12 @@
 			<path_radius value="10" />
 			<prefab_rule name="default"/>
 			<street_gen level="20" length_multiplier="4">
-				<axiom value="[FF*L]+[FFJK]+[FF*L]+[FFJK]"/>
-				<rule char="J" replace_with="[KYX*]"/>
-				<rule char="K" replace_with="[F+F-F]"/>
-				<rule char="L" replace_with="[*F]"/>
-				<rule char="Y" replace_with="-FF[YX]*"/>
-				<rule char="X" replace_with="+FF[XY]*"/>
-				<alt_commands chars="J,K,L,Y,X"/>
+				<axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+				<rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+				<rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+				<rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+				<rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+				<alt_commands chars="T,I,N,K"/>
 			</street_gen>
 		</hub_rule>
 		<hub_rule name="citySmall">
@@ -77,13 +74,12 @@
 			<path_radius value="10" />
 			<prefab_rule name="default"/>
 			<street_gen level="20" length_multiplier="4">
-				<axiom value="[FF*L]+[FFJK]+[FF*L]+[FFJK]"/>
-				<rule char="J" replace_with="[KYX*]"/>
-				<rule char="K" replace_with="[F+F-F]"/>
-				<rule char="L" replace_with="[*F]"/>
-				<rule char="Y" replace_with="-FF[YX]*"/>
-				<rule char="X" replace_with="+FF[XY]*"/>
-				<alt_commands chars="J,K,L,Y,X"/>
+				<axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+				<rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+				<rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+				<rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+				<rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+				<alt_commands chars="T,I,N,K"/>
 			</street_gen>
 		</hub_rule>
 		<hub_rule name="cityLarge">
@@ -115,7 +111,6 @@
 	</hub_rules>
 	<wilderness_rules>
 		<wilderness_rule name="wildernessDefault" spawn_min_max="12,24">
-			<!-- If you want more/less wilderness pois increase spawn_min_max="0,0" max is "60,60" thats 60 wilderness pois per cell -->
 			<path_material value="gravel" />
 			<path_radius value="2" />
 			<path_adjust_terrain value="false"/>
