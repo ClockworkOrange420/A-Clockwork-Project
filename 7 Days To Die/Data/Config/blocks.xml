@@ -14876,7 +14876,7 @@
 		<property name="AmmoItem" value="9mmBullet"/>
 		<property name="TurnSpeed" value="22.5"/>
 		<property name="MaxDistance" value="30"/>
-		<property name="EntityDamage" value="22"/>
+		<property name="EntityDamage" value="15"/>
 		<!-- 120 dps, 270 / burst -->
 		<property name="BlockDamage" value="1"/>
 		<property name="RaySpread" value="2.6"/>
@@ -14891,7 +14891,7 @@
 		<property name="PitchRange" value="90"/>
 		<property name="ParticlesMuzzleFire" value="nozzleflashuzi"/>
 		<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
-		<property name="DamageBonus.head" value="3"/>
+		<property name="DamageBonus.head" value="2"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.wood" value="2"/>
 		<property name="DamageBonus.earth" value="0.2"/>
@@ -14930,7 +14930,7 @@
 		<!-- does not use the damage value -->
 		<property name="TurnSpeed" value="22.5"/>
 		<property name="MaxDistance" value="15"/>
-		<property name="EntityDamage" value="11"/>
+		<property name="EntityDamage" value="6"/>
 		<!-- 180 dps, 440 / burst -->
 		<property name="BlockDamage" value="1"/>
 		<property name="RaySpread" value="5.2"/>
@@ -14946,7 +14946,7 @@
 		<property name="PitchRange" value="90"/>
 		<property name="ParticlesMuzzleFire" value="nozzleflash_shotgun"/>
 		<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
-		<property name="DamageBonus.head" value="3"/>
+		<property name="DamageBonus.head" value="2"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.wood" value="2"/>
 		<property name="DamageBonus.earth" value="0.2"/>
