@@ -1843,7 +1843,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="cntBeerCooler" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="scrapIronPlating" count="2"/>
+		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="shortMetalPipe" count="3"/>
 		<ingredient name="electricParts" count="5"/>
 		<ingredient name="electronicParts" count="1"/>
