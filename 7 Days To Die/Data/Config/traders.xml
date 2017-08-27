@@ -600,7 +600,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="cobblestones" count="2,8"/> <!-- 70 -->
 			<item name="concreteMix" count="5,20"/> <!-- 20 -->
 			<item name="nail" count="3,15"/> <!-- 10 -->
-			<item name="steelPolish" count="5,35" prob="2"/>
 			<item group="landMines" count="1" prob="0.3"/>
 		</trader_item_group>
 

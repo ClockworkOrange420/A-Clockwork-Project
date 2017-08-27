@@ -1297,7 +1297,7 @@
 	<item id="85" name="handZombieHazMat">
 		<property name="Extends" value="handMaster"/>
 		<property name="CreativeMode" value="None"/>
-		<property name="HoldType" value="24"/>
+		<property name="HoldType" value="9"/>
 		<property class="Action0">
 			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
 			<property name="Buff_chance" value="1,0.04,0.3,0.01,0.2,0.3,0.4,0.5"/>
@@ -1306,7 +1306,7 @@
 	<item id="86" name="handZombieWorker">
 		<property name="Extends" value="handMaster"/>
 		<property name="CreativeMode" value="None"/>
-		<property name="HoldType" value="24"/>
+		<property name="HoldType" value="9"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="150"/>
@@ -1317,7 +1317,7 @@
 	<item id="87" name="handZombieFootballPlayer">
 		<property name="Extends" value="handMaster"/>
 		<property name="CreativeMode" value="None"/>
-		<property name="HoldType" value="24"/>
+		<property name="HoldType" value="9"/>
 		<property class="Action0">
 			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
 			<property name="Buff_chance" value="1,0.04,0.5,0.01,0.2,0.3,0.4,0.5"/>
@@ -1330,6 +1330,18 @@
 			<property name="DamageEntity" value="16"/>
 			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
 			<property name="Buff_chance" value="1,0.02,0.1,0.01,0.2,0.3,0.4,0.5"/>
+		</property>
+	</item>
+	<item id="89" name="handZombieBurningCrawler">
+		<property name="Extends" value="handMaster"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="HoldType" value="24"/>
+		<property class="Action0">
+			<property name="DamageEntity" value="8"/>
+			<property name="DamageBlock" value="2"/>
+			<property name="Delay" value="2.0"/>
+			<property name="Buff" value="sprainedLeg,infection,burningSmall"/>
+			<property name="Buff_chance" value="0.2,0.025,0.5"/>
 		</property>
 	</item>
 	<item id="90" name="handZombieFeral">
@@ -1403,7 +1415,7 @@
 	<item id="98" name="handZombieHazMatFeral">
 		<property name="Extends" value="handZombieHazMat"/>
 		<property name="CreativeMode" value="None"/>
-		<property name="HoldType" value="24"/>
+		<property name="HoldType" value="9"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="40"/>
@@ -1412,7 +1424,7 @@
 	<item id="99" name="handZombieWorkerFeral">
 		<property name="Extends" value="handZombieWorker"/>
 		<property name="CreativeMode" value="None"/>
-		<property name="HoldType" value="24"/>
+		<property name="HoldType" value="9"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="200"/>
@@ -1421,7 +1433,7 @@
 	<item id="100" name="handZombieFootballPlayerFeral">
 		<property name="Extends" value="handZombieFootballPlayer"/>
 		<property name="CreativeMode" value="None"/>
-		<property name="HoldType" value="24"/>
+		<property name="HoldType" value="9"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="40"/>
@@ -1516,7 +1528,7 @@
 			<property name="Sound_start" value="repair_block"/>
 			<property name="ActionExp" value="1"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
-			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlating,concreteMix,cobblestones,yuccaFibers"/>
+			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPlating,concreteMix,cobblestones,yuccaFibers"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="5,10"/>
@@ -1872,7 +1884,7 @@
 			<property name="Repair_amount" value="350"/>
 			<property name="Upgrade_hit_offset" value="-1"/>
 			<property name="Sound_start" value="repair_block"/>
-			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlating,concreteMix,cobblestones,yuccaFibers"/>
+			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPlating,concreteMix,cobblestones,yuccaFibers"/>
 			<property name="ActionExp" value="1"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
@@ -1925,7 +1937,7 @@
 			<property name="Repair_amount" value="250"/>
 			<property name="Upgrade_hit_offset" value="-2"/>
 			<property name="Sound_start" value="repair_block"/>
-			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlating,concreteMix,cobblestones,yuccaFibers,nail"/>
+			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPlating,concreteMix,cobblestones,yuccaFibers,nail"/>
 			<property name="ActionExp" value="1"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
@@ -1990,7 +2002,7 @@
 			<property name="Upgrade_hit_offset" value="-3"/>
 			<property name="Repair_action_sound" value="nailgun_fire"/>
 			<property name="Upgrade_action_sound" value="nailgun_fire"/>
-			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,stainlessSteelPlating,concreteMix,cobblestones,yuccaFibers,nail"/>
+			<property name="Allowed_upgrade_items" value="electronicParts,electricParts,mechanicalParts,scrapIronPlating,gasCan,wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPlating,concreteMix,cobblestones,yuccaFibers,nail"/>
 			<!--<property name="Restricted_upgrade_items" value="concrete"/>-->
 			<property name="ActionExp" value="1"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
@@ -8637,18 +8649,17 @@
 		<property name="EconomicValue" value="100"/>
 		<property name="Group" value="Chemicals"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
-	</item>
+	</item><!--
 	<item id="1361" name="steelPolish">
 		<property name="Meshfile" value="Items/Food/coffeePrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="Weight" value="0"/>
 		<property name="HoldType" value="3"/>
 		<property name="Stacknumber" value="250"/>
-		<!-- STK resource -->
 		<property name="EconomicValue" value="35"/>
 		<property name="Group" value="Chemicals"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
-	</item>
+	</item>-->
 	<item id="1362" name="paint">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
@@ -10792,7 +10803,7 @@
 		<property name="DescriptionKey" value="scrapIronPlatingDesc"/>
 		<property name="Group" value="Resources"/>
 	</item>
-	<item id="1655" name="stainlessSteelPlating">
+	<item id="1655" name="steelPlating">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="CustomIcon" value="steelPlate"/>
@@ -10801,7 +10812,7 @@
 		<property name="EconomicValue" value="1000"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Weight" value="100"/>
-		<property name="DescriptionKey" value="stainlessSteelPlatingDesc"/>
+		<property name="DescriptionKey" value="steelPlatingDesc"/>
 		<property name="Group" value="Resources"/>
 	</item>
 	<item id="1656" name="Yogurt">
