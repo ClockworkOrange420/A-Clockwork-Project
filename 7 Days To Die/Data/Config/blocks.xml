@@ -8510,7 +8510,7 @@
 	<block id="842" name="treeForestGrassDiagonal">
 		<property name="Extends" value="treeGrassMaster" param1="CustomIcon"/>
 		<property name="Class" value="Tallgrass"/>
-		<property name="Texture" value="561,562,563,564,565,563"/>
+		<property name="Texture" value="561,562,563,564,562,563"/>
 	</block>
 	<block id="843" name="solidWoodFrameWedgeCNRInsideBottom">
 		<property name="Extends" value="woodFrameWedgeCNRInsideBottom"/>
