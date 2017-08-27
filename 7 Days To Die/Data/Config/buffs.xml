@@ -296,7 +296,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0);increment(fatigue, 1, 100t, 0, 0);increment(@wellness, -0.1, 100t, 0, 0)" type="sickness"/>
 <buff id="infectionNotification" ondebuff="MetabolizeInfectionN" buffif="infected gequal 240" mutex="cured,infection1,infection2,infection3" debuffif="infected less 1" type="sickness" icon="ui_game_symbol_infection" name_key="Minor Infection" description_key="Close inspection reveals a minor infection." tooltip_key="Minor Infection" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
 	<modify id="1" stat="health" amount="-1" rate="60"/>
-	<modify id="2" stat="food" amount="-1" rate="30"/>
+	<modify id="2" stat="food" amount="-1" rate="60"/>
 	<modify id="3" stat="water" amount="-1" rate="30"/>
 </buff>
 <buff id="infection1" ondebuff="MetabolizeInfection1" buffif="infected gequal 960" debuffif="infected lequal 959" mutex="infection2,infection3" actions="debuff(infectionNotification)" type="sickness" icon="ui_game_symbol_infection" name_key="Infection" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics,herbalAntibiotics,Honey_Poultice">
@@ -764,7 +764,7 @@ snowberryPlant feeds you for 90 sec. -->
 
 <buff id="eatFruit" duration="1" actions="increment(Fruit, 1, 0, 0, 1);max(Fruit, 50)"/>
 <buff id="MetabolizeFruit" buffif="Fruit greater 0" debuffif="Fruit less 1" actions="increment(Fruit, -0.0286, 2t, 0, 0);min(Fruit, 0) "/>
-<buff id="MetabolizeFruit2" requires="infectionNotification" buffif="Fruit greater 0" debuffif="Fruit less 1" actions="increment(Fruit, -0.0914, 2t, 0, 0);min(Fruit, 0) "/><!--100/60/3*30=16.6 10 166t-->
+<buff id="MetabolizeFruit2" requires="infectionNotification" buffif="Fruit greater 0" debuffif="Fruit less 1" actions="increment(Fruit, -0.0314, 2t, 0, 0);min(Fruit, 0) "/><!--100/60/3*30=16.6 10 166t-->
 <buff id="MetabolizeFruit3" requires="infection1" buffif="Fruit greater 0" debuffif="Fruit less 1" actions="increment(Fruit, -0.0914, 2t, 0, 0);min(Fruit, 0) "/><!--100/60/3*30=16.6=1/16.6-0.02857=X=1/X=29.4*2-->
 <buff id="MetabolizeFruit4" requires="infection2" buffif="Fruit greater 0" debuffif="Fruit less 1" actions="increment(Fruit, -0.0914, 2t, 0, 0);min(Fruit, 0) "/><!--100/60/3*30=16.6-0.02857=X=1/X=29.4*2-->
 <buff id="MetabolizeFruit5" requires="infection3" buffif="Fruit greater 0" debuffif="Fruit less 1" actions="increment(Fruit, -0.0914, 2t, 0, 0);min(Fruit, 0) "/><!--100/60/3*30=16.6-0.02857=X=1/X=29.4*2-->
@@ -783,7 +783,7 @@ snowberryPlant feeds you for 90 sec. -->
 
 <buff id="eatVeg" duration="1" actions="increment(Veg, 2, 0, 0, 1);max(Veg, 50)"/>
 <buff id="MetabolizeVeg" buffif="Veg greater 0" debuffif="Veg less 1" actions="increment(Veg, -0.0286, 2t, 0, 0);min(Veg, 0)"/>
-<buff id="MetabolizeVeg2" requires="infectionNotification" buffif="Veg greater 0" debuffif="Veg less 1" actions="increment(Veg, -0.0914, 2t, 0, 0);min(Veg, 0) "/>
+<buff id="MetabolizeVeg2" requires="infectionNotification" buffif="Veg greater 0" debuffif="Veg less 1" actions="increment(Veg, -0.0314, 2t, 0, 0);min(Veg, 0) "/>
 <buff id="MetabolizeVeg3" requires="infection1" buffif="Veg greater 0" debuffif="Veg less 1" actions="increment(Veg, -0.0914, 2t, 0, 0);min(Veg, 0) "/>
 <buff id="MetabolizeVeg4" requires="infection2" buffif="Veg greater 0" debuffif="Veg less 1" actions="increment(Veg, -0.0914, 2t, 0, 0);min(Veg, 0) "/>
 <buff id="MetabolizeVeg5" requires="infection3" buffif="Veg greater 0" debuffif="Veg less 1" actions="increment(Veg, -0.0914, 2t, 0, 0);min(Veg, 0) "/>
@@ -801,7 +801,7 @@ snowberryPlant feeds you for 90 sec. -->
 
 <buff id="eatMeat" duration="1" actions="increment(Meat, 4, 0, 0, 1);max(Meat, 50)"/>
 <buff id="MetabolizeMeat" buffif="Meat greater 0" debuffif="Meat less 1" actions="increment(Meat, -0.0114, 2t, 0, 0);min(Meat, 0)"/>
-<buff id="MetabolizeMeat2" requires="infectionNotification" buffif="Meat greater 0" debuffif="Meat less 1" actions="increment(Meat, -0.0365, 2t, 0, 0);min(Meat, 0) "/>
+<buff id="MetabolizeMeat2" requires="infectionNotification" buffif="Meat greater 0" debuffif="Meat less 1" actions="increment(Meat, -0.0125, 2t, 0, 0);min(Meat, 0) "/>
 <buff id="MetabolizeMeat3" requires="infection1" buffif="Meat greater 0" debuffif="Meat less 1" actions="increment(Meat, -0.0365, 2t, 0, 0);min(Meat, 0) "/>
 <buff id="MetabolizeMeat4" requires="infection2" buffif="Meat greater 0" debuffif="Meat less 1" actions="increment(Meat, -0.0365, 2t, 0, 0);min(Meat, 0) "/>
 <buff id="MetabolizeMeat5" requires="infection3" buffif="Meat greater 0" debuffif="Meat less 1" actions="increment(Meat, -0.0365, 2t, 0, 0);min(Meat, 0) "/>
@@ -821,7 +821,7 @@ snowberryPlant feeds you for 90 sec. -->
 
 <buff id="eatGrain" duration="1" actions="increment(Grain, 1, 0, 0, 1);max(Grain, 50)"/>
 <buff id="MetabolizeGrain" buffif="Grain greater 0" debuffif="Grain less 1" actions="increment(Grain, -0.0286, 2t, 0, 0);min(Grain, 0)"/>
-<buff id="MetabolizeGrain2" requires="infectionNotification" buffif="Grain greater 0" debuffif="Grain less 1" actions="increment(Grain, -0.0914, 2t, 0, 0);min(Grain, 0) "/>0.06-
+<buff id="MetabolizeGrain2" requires="infectionNotification" buffif="Grain greater 0" debuffif="Grain less 1" actions="increment(Grain, -0.0314, 2t, 0, 0);min(Grain, 0) "/>0.06-
 <buff id="MetabolizeGrain3" requires="infection1" buffif="Grain greater 0" debuffif="Grain less 1" actions="increment(Grain, -0.0914, 2t, 0, 0);min(Grain, 0) "/>
 <buff id="MetabolizeGrain4" requires="infection2" buffif="Grain greater 0" debuffif="Grain less 1" actions="increment(Grain, -0.0914, 2t, 0, 0);min(Grain, 0) "/>
 <buff id="MetabolizeGrain5" requires="infection3" buffif="Grain greater 0" debuffif="Grain less 1" actions="increment(Grain, -0.0914, 2t, 0, 0);min(Grain, 0) "/>
@@ -840,7 +840,7 @@ snowberryPlant feeds you for 90 sec. -->
 
 <buff id="eatDairy" duration="1" actions="increment(Dairy, 1, 0, 0, 1);max(Dairy, 50)"/>
 <buff id="MetabolizeDairy" buffif="Dairy greater 0" debuffif="Dairy less 1" actions="increment(Dairy, -0.0286, 2t, 0, 0);min(Dairy, 0)"/>
-<buff id="MetabolizeDairy2" requires="infectionNotification" buffif="Dairy greater 0" debuffif="Dairy less 1" actions="increment(Dairy, -0.0914, 2t, 0, 0);min(Dairy, 0) "/>
+<buff id="MetabolizeDairy2" requires="infectionNotification" buffif="Dairy greater 0" debuffif="Dairy less 1" actions="increment(Dairy, -0.0314, 2t, 0, 0);min(Dairy, 0) "/>
 <buff id="MetabolizeDairy3" requires="infection1" buffif="Dairy greater 0" debuffif="Dairy less 1" actions="increment(Dairy, -0.0914, 2t, 0, 0);min(Dairy, 0) "/>
 <buff id="MetabolizeDairy4" requires="infection2" buffif="Dairy greater 0" debuffif="Dairy less 1" actions="increment(Dairy, -0.0914, 2t, 0, 0);min(Dairy, 0) "/>
 <buff id="MetabolizeDairy5" requires="infection3" buffif="Dairy greater 0" debuffif="Dairy less 1" actions="increment(Dairy, -0.0914, 2t, 0, 0);min(Dairy, 0) "/>
