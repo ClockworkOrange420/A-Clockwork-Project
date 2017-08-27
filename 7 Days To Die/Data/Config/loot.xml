@@ -1643,9 +1643,7 @@
 
 <!-- zombie nurse, medical supplies -->
 <lootcontainer id="21" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-	<item group="junk" prob="1.5"/>
 	<item group="medicine"/>
-	<item name="oldCash" count="1,20" prob="0.5"/>
 </lootcontainer>
 
 <!-- garage stuff, tools, etc -->
