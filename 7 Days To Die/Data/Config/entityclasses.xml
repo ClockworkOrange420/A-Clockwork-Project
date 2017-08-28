@@ -112,7 +112,7 @@
 	<property name="MaxViewAngle" value="270"/>
 	<property name="HandItem" value="handZombie"/>
 	<property name="Weight" value="70"/>
-	<property name="Immunity" value="sickness;disease;bleeding;wellness"/>
+	<property name="Immunity" value="sickness;disease;bleeding;wellness;staminadown"/>
 
 	<property name="WanderSpeed" value="0.08"/>
 	<property name="ApproachSpeed" value="0.2"/>
