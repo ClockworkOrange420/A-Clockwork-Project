@@ -427,7 +427,7 @@
 	</perk>
 	<perk name="Mining Tool Crafting" icon="tool_smithing" description_key="Unlocks the ability to make better mining tools." title_key="Mining Tool Crafting" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="20"/>
-		<requirement skill_level="1" required_skill_name="Mining Tools" required_skill_level="20"/>
+		<requirement skill_level="1" required_skill_name="Mining Tools" required_skill_level="10"/>
 		<requirement skill_level="2" required_skill_name="craftSkillTools" required_skill_level="40"/>
 		<requirement skill_level="2" required_skill_name="Mining Tools" required_skill_level="40"/>
 		<requirement skill_level="3" required_skill_name="craftSkillTools" required_skill_level="60"/>
