@@ -323,7 +323,7 @@
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="1"/>
 		<property name="UpgradeRated.ToBlock" value="air" />
-		<property name="UpgradeRated.Rate" value="7" />
+		<property name="UpgradeRated.Rate" value="6" />
 		<drop event="Harvest" name="femur" count="2" tool_category="Butcher" />
 		<drop event="Harvest" name="rottingFlesh" count="2" tool_category="Butcher" />
 		<drop event="Destroy" name="femur" count="1" />
