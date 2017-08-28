@@ -553,8 +553,8 @@
 		<recipe name="Ink" unlock_level="1"/>
 		<recipe name="beer" unlock_level="2"/>
 		<recipe name="grainAlcohol" unlock_level="2"/>
-		<recipe name="snowberryExtract" unlock_level="2"/>
-		<recipe name="lotusExtract" unlock_level="2"/>
+		<recipe name="snowberryExtract" unlock_level="3"/>
+		<recipe name="lotusExtract" unlock_level="3"/>
 		<recipe name="omnigel" unlock_level="4"/>
 	</perk>
 	<perk name="ChemStationPerk" icon="resource" description_key="Unlocks the Chemistry Station and Omnigel" title_key="Chemistry Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
