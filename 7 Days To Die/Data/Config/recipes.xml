@@ -3163,17 +3163,17 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="snowberryJuice" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
-		<ingredient name="snowberryExtract" count="1"/>
+		<ingredient name="snowberryPlant" count="2"/>
 		<ingredient name="blueberries" count="2"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="snowberryJuice" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
-		<ingredient name="snowberryExtract" count="1"/>
+		<ingredient name="snowberryPlant" count="2"/>
 		<ingredient name="blueberries" count="2"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="snowberryJuice" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingPot" >
-		<ingredient name="snowberryExtract" count="1"/>
+		<ingredient name="snowberryPlant" count="2"/>
 		<ingredient name="blueberries" count="2"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
