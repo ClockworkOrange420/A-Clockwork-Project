@@ -300,6 +300,7 @@
 
 	<entitygroup name="FriendlyAnimalsForest">
 		<entity name="animalRabbit" />
+		<entity name="animalChicken" />
 		<entity name="animalBoar"/>
 		<entity name="animalStag"/>
 		<entity name="zombieSpider"/>
@@ -316,9 +317,10 @@
 	</entitygroup>
 
 	<entitygroup name="FriendlyAnimalsBurntForest">
+		<entity name="animalRabbit" />
 		<entity name="animalChicken" />
-		<entity name="animalStag" prob="0.4" />
-		<entity name="animalBoar" prob="0.4" />
+		<entity name="animalStag" />
+		<entity name="animalBoar" />
 		<entity name="zombieBurnt" prob="6" />
 	</entitygroup>
 
@@ -432,7 +434,6 @@
 		<entity name="animalZombieDog" />
 		<entity name="animalBoar" />
 		<entity name="animalChicken" />
-		<entity name="zombieFarmer" />
 	</entitygroup>
 
 	<entitygroup name="ZombieSoldierGroup">
