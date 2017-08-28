@@ -5212,7 +5212,7 @@
 		<property name="OpenSound" value="open_door_jail"/>
 		<property name="CloseSound" value="close_door_jail"/>
 		<property class="RepairItems">
-			<property name="forgedSteel" value="20"/>
+			<property name="forgedSteel" value="5"/>
 		</property>
 		<!--<property class="UpgradeBlock"><property name="ToBlock" value="commercialDoor1_v2"/><property name="Item" value="wood"/><property name="ItemCount" value="10"/><property name="UpgradeHitCount" value="4"/></property><property name="CustomUpgradeSound" value="place_block_wood"/>-->
 		<drop event="Harvest" name="spring" count="0,2" prob="1" tool_category="Disassemble"/>
@@ -6457,8 +6457,8 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="ironDoor1_v1"/>
 			<property name="Item" value="scrapIronPlating"/>
-			<property name="ItemCount" value="2"/>
-			<property name="UpgradeHitCount" value="6"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
 		<drop event="Harvest" name="scrapIron" count="3" tool_category="Harvest"/>
@@ -11470,8 +11470,8 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="vaultDoor01"/>
 			<property name="Item" value="steelPlating"/>
-			<property name="ItemCount" value="2"/>
-			<property name="UpgradeHitCount" value="6"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="DowngradeBlock" value="metalReinforcedDoorWooden"/>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
@@ -11501,8 +11501,8 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="vaultDoor01"/>
 			<property name="Item" value="steelPlating"/>
-			<property name="ItemCount" value="2"/>
-			<property name="UpgradeHitCount" value="6"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
 		<property name="DowngradeBlock" value="ironDoor1_v2"/>
@@ -13431,13 +13431,13 @@
 		<property name="OpenSound" value="open_door_vault"/>
 		<property name="CloseSound" value="close_door_vault"/>
 		<property class="RepairItems">
-			<property name="forgedSteel" value="10"/>
+			<property name="forgedSteel" value="5"/>
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="vaultDoor03"/>
 			<property name="Item" value="steelPlating"/>
-			<property name="ItemCount" value="2"/>
-			<property name="UpgradeHitCount" value="6"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
 		<drop event="Harvest" name="scrapIron" count="25" tool_category="Harvest"/>
@@ -13478,7 +13478,7 @@
 		<property name="OpenSound" value="open_door_vault"/>
 		<property name="CloseSound" value="close_door_vault"/>
 		<property class="RepairItems">
-			<property name="forgedSteel" value="10"/>
+			<property name="forgedSteel" value="5"/>
 		</property>
 		<property name="DowngradeBlock" value="vaultDoor01"/>
 		<drop event="Harvest" name="scrapIron" count="10" tool_category="Harvest"/>

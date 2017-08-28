@@ -2621,7 +2621,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="feather" count="1"/>
 	</recipe>
 	<recipe name="ironDoor1_v1" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="scrapIronPlating" count="2"/>
+		<ingredient name="scrapIronPlating" count="1"/>
 	</recipe>
 	<recipe name="keystoneBlock" count="1" craft_area="workbench" >
 		<ingredient name="steelPlating" count="2"/>
@@ -2637,7 +2637,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="animalHide" count="1"/>
 	</recipe>
 	<recipe name="cntLockers" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="scrapIronPlating" count="2"/>
+		<ingredient name="scrapIronPlating" count="1"/>
 	</recipe>
 	<recipe name="machete" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Smithing_Table" craft_tool="anvil" >
 		<ingredient name="forgedSteel" count="10"/>
@@ -3286,7 +3286,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="scrapPlastics" count="8"/>
 	</recipe>
 	<recipe name="vaultDoor01" count="1" craft_time = "20" craft_exp_gain="45" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="steelPlating" count="2"/>
+		<ingredient name="steelPlating" count="1"/>
 		<ingredient name="spring" count="2"/>
 		<ingredient name="mechanicalParts" count="2"/>
 	</recipe>
@@ -3296,7 +3296,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="mechanicalParts" count="2"/>
 	</recipe>
 	<recipe name="jailDoor" count="1" craft_time = "20" craft_exp_gain="45" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="steelPlating" count="4"/>
+		<ingredient name="steelPlating" count="1"/>
 		<ingredient name="spring" count="2"/>
 		<ingredient name="mechanicalParts" count="2"/>
 	</recipe>
