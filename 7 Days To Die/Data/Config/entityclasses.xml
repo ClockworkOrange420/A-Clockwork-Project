@@ -155,7 +155,7 @@
 	<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 	<property name="SoundSleeperSense" value="sleepersense"/>
 	<property name="SoundSleeperBackToSleep" value="sleeperbacktosleep"/>
-	<property name="TimeStayAfterDeath" value="3"/>
+	<property name="TimeStayAfterDeath" value="120"/>
 	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="LootListOnDeath" value="15"/>
