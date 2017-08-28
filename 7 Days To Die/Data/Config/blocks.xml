@@ -7189,8 +7189,9 @@
 		<property name="UpgradeRated.BlockCombined" value="gore" />
 		<property name="UpgradeRated.ToBlock" value="gore" />
 		<property name="UpgradeRated.Rate" value="1" />
-		<property name="HeatMapStrength" value="2"/>
+		<property name="HeatMapStrength" value="2.0"/>
 		<property name="HeatMapTime" value="1200"/>
+		<property name="HeatMapFrequency" value="1"/>
 		<!-- dummy loot list, will be overridden by the zombie that died -->
 		<drop event="Harvest" name="femur" count="2" tool_category="Butcher"/>
 		<drop event="Harvest" name="rottingFlesh" count="2" tool_category="Butcher"/>
