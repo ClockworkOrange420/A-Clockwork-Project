@@ -700,7 +700,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 
 <buff id="extractMix" duration="20" stack="extend" icon="ui_game_symbol_run" name_key="Extract Mix" description_key="One hell of a drug." tooltip_key="One hell of a drug">
 	<modify id="0" stat="speedmodifier" modifyMaxValue="1.01"/>
-	<modify id="1" stat="speedmodifier" modifyValue="0.5"/>
+	<modify id="1" stat="speedmodifier" modifyValue="0.35"/>
 </buff>
 
 <!--Nutrition System 100% uptime for metabolic rates 1/1 ratio with food loss-->
