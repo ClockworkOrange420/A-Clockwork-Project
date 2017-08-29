@@ -59,6 +59,7 @@
 		<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_RefinedPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="EconomicValue" value="100"/>
+		<property name="SellableToTrader" value="true"/>
 		<property name="RepairTools" value="forgedIron"/>
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="SoundJammed" value="ItemNeedsRepair"/>
@@ -79,6 +80,7 @@
 		<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_BarbedPrefab"/>
 		<property name="RepairTools" value="forgedIron"/>
 		<property name="EconomicValue" value="192"/>
+		<property name="SellableToTrader" value="true"/>
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Buff" value="bleeding,criticalBlunt,stunned"/>
@@ -97,6 +99,7 @@
 		<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_SpikedPrefab"/>
 		<property name="RepairTools" value="forgedIron"/>
 		<property name="EconomicValue" value="300"/>
+		<property name="SellableToTrader" value="true"/>
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Buff" value="bleeding,criticalBlunt,stunned"/>
@@ -335,7 +338,7 @@
 		<property name="HoldType" value="47"/>
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="FuelValue" value="12"/>
-		<property name="EconomicValue" value="600"/>
+		<property name="EconomicValue" value="800"/>
 		<property name="SoundJammed" value="ItemNeedsRepair"/>
 		<property name="SoundDestroy" value="metaldestroy1"/>
 		<property class="Action0">
@@ -2130,6 +2133,7 @@
 		<property name="SoundJammed" value="ItemNeedsRepair"/>
 		<property name="SoundDestroy" value="metaldestroy1"/>
 		<property name="EconomicValue" value="216"/>
+		<property name="SellableToTrader" value="false"/>
 		<property class="Action0">
 			<property name="Class" value="DisconnectPower"/>
 		</property>
@@ -2463,6 +2467,7 @@
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="EconomicValue" value="6"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 	</item>
 	<item id="161" name="gasCan">
@@ -2473,7 +2478,7 @@
 		<property name="Stacknumber" value="1000"/>
 		<!-- STK resource -->
 		<property name="FuelValue" value="2"/>
-		<property name="EconomicValue" value="83"/>
+		<property name="EconomicValue" value="200"/>
 		<!-- oil barrel 500 -->
 		<property name="EconomicBundleSize" value="100"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -2522,6 +2527,7 @@
 		<property name="Material" value="metal"/>
 		<property name="EconomicValue" value="25"/>
 		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="true"/>
 		<property class="Action1">
 			<property name="Velocity" value="55"/>
 			<property name="Gravity" value="-4"/>
@@ -3303,6 +3309,7 @@
 	<item id="260" name="partsHandlebars">
 		<property name="Extends" value="partsMaster"/>
 		<property name="PartType" value="Pump"/>
+		<property name="Weight" value="30"/>
 		<property name="EconomicValue" value="306"/>
 		<property class="Attributes">
 			<!-- One tank = 200 gas.  6000 / 3 = 2000 shots or 10 tanks until the item breaks -->
@@ -3435,6 +3442,8 @@
 		<property name="Material" value="metal"/>
 		<property name="RepairTools" value="repairKit"/>
 		<property name="HoldType" value="45"/>
+		<property name="Weight" value="30"/>
+		<property name="EconomicValue" value="400"/>
 		<property class="Attributes">
 			<property name="VehicleSteering" value="2,2"/>
 			<property name="VehicleMaxSteeringAngle" value="10,10"/>
@@ -8232,6 +8241,7 @@
 		<!-- STK resource -->
 		<property name="DropScale" value="1"/>
 		<property name="EconomicValue" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="EconomicBundleSize" value="70"/>
 		<property name="Group" value="Resources"/>
 	</item>
@@ -8242,7 +8252,7 @@
 		<property name="HoldType" value="45"/>
 		<property name="Stacknumber" value="1000"/>
 		<!-- STK resource -->
-		<property name="EconomicValue" value="10"/>
+		<property name="EconomicValue" value="30"/>
 		<property name="EconomicBundleSize" value="70"/>
 		<property name="Group" value="Building,Resources"/>
 	</item>
@@ -8254,7 +8264,7 @@
 		<property name="HoldType" value="34"/>
 		<property name="Stacknumber" value="1000"/>
 		<!-- STK resource -->
-		<property name="EconomicValue" value="9"/>
+		<property name="EconomicValue" value="30"/>
 		<property name="EconomicBundleSize" value="20"/>
 		<property name="Group" value="Resources"/>
 	</item>
@@ -8302,6 +8312,7 @@
 		<property name="RepairAmount" value="100"/>
 		<property name="Weight" value="1"/>
 		<property name="EconomicValue" value="200"/>
+		<property name="EconomicBundleSize" value="10"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
 		<property name="Group" value="Resources,Clothing"/>
 	</item>
@@ -8413,9 +8424,7 @@
 		<property name="FuelValue" value="1"/>
 		<property name="Weight" value="1"/>
 		<property name="Stacknumber" value="500"/>
-		<!-- STK resource -->
-		<!--<property name="EconomicValue" value="5"/><property name="EconomicBundleSize" value="50"/>-->
-		<property name="EconomicValue" value="7"/>
+		<property name="EconomicValue" value="10"/>
 		<property name="Group" value="Resources"/>
 	</item>
 	<item id="1337" name="snowberryPlant">
@@ -8670,6 +8679,7 @@
 		<property name="Group" value="Resources"/>
 		<property name="EconomicValue" value="12"/>
 		<property name="EconomicBundleSize" value="50"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="PickupJournalEntry" value="paintingTip"/>
 	</item>
@@ -8909,20 +8919,20 @@
 		<property name="HoldType" value="45"/>
 		<property name="Stacknumber" value="250"/>
 		<!-- STK loot -->
-		<property name="EconomicValue" value="250"/>
+		<property name="EconomicValue" value="500"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property name="Group" value="Resources"/>
 		<property name="DescriptionKey" value="rareOresGroupDesc"/>
 	</item>
 	<item id="1391" name="goldNugget">
 		<property name="Extends" value="silverNugget"/>
-		<property name="EconomicValue" value="700"/>
+		<property name="EconomicValue" value="1200"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property name="DescriptionKey" value="rareOresGroupDesc"/>
 	</item>
 	<item id="1392" name="rawDiamond">
 		<property name="Extends" value="silverNugget"/>
-		<property name="EconomicValue" value="1500"/>
+		<property name="EconomicValue" value="2500"/>
 		<property name="CraftingIngredientTime" value="60"/>
 		<property name="DescriptionKey" value="rareOresGroupDesc"/>
 	</item>
@@ -9449,7 +9459,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="45"/>
-		<property name="EconomicValue" value="12"/>
+		<property name="EconomicValue" value="100"/>
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="CustomIcon" value="potassiumNitratePowder"/>
 		<property name="CustomIconTint" value="514163"/>
@@ -10515,7 +10525,7 @@
 		<property name="HoldType" value="47"/>
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="FuelValue" value="12"/>
-		<property name="EconomicValue" value="10"/>
+		<property name="EconomicValue" value="100"/>
 		<property name="SoundDestroy" value="wooddestroy1"/>
 		<property name="CraftingIngredientTime" value="10"/>
 		<property class="Action0">
@@ -10589,6 +10599,7 @@
 		<property name="Material" value="cloth"/>
 		<property name="HoldType" value="14"/>
 		<property name="EconomicValue" value="5"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Stacknumber" value="25"/>
 		<property name="FuelValue" value="1"/>
 		<property class="Action1">
@@ -10753,7 +10764,7 @@
 		<property name="Material" value="organic"/>
 		<property name="Stacknumber" value="50"/>
 		<!-- STK food -->
-		<property name="EconomicValue" value="52"/>
+		<property name="EconomicValue" value="25"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="2.1"/>
@@ -11006,7 +11017,6 @@
 		<property name="Material" value="plants"/>
 		<property name="HoldType" value="21"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="SellableToTrader" value="false"/>
 		<!-- STK resource -->
 		<property class="Action0">
 			<property name="Class" value="PlaceAsBlock"/>
@@ -11237,6 +11247,7 @@
 		<property name="HoldType" value="31"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="10"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Stacknumber" value="50"/>
 		<property class="Action1">
 			<!-- UseAction -->
