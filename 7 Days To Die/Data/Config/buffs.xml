@@ -669,7 +669,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 <buff id="eatsnowberryJuiceTrigger" duration="1" actions="increment(CTRsnowberry, 20, 0, 0, 1);buff(snowberryWarmingBuff)"/>
 <buff id="eatSnowberryExtractTrigger" duration="1" actions="increment(CTRsnowberry, 120, 0, 0, 1)"/>
 
-<buff id="metabolizeSnowberryBuff" buffif="CTRsnowberry greater 0" debuffif="CTRsnowberry less 1" actions="increment(CTRsnowberry, -4, 12, 0, 0);min(CTRsnowberry, 0)"/>
+<buff id="metabolizeSnowberryBuff" buffif="CTRsnowberry greater 0" debuffif="CTRsnowberry less 1" actions="increment(CTRsnowberry, -10, 30, 0, 0);min(CTRsnowberry, 0)"/>
 
 <buff id="snowberryPoisonBuff" duration="0" buffif="CTRsnowberry gequal 61" debuffif="CTRsnowberry lequal 1"
 	castsound="Player_*sick5" causes="snowberryPlant,snowberryJuice,snowberryExtract"
@@ -684,7 +684,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 
 
 <buff id="eatLotusExtractTrigger" duration="1" actions="increment(CTRlotus, 20, 0, 0, 1)"/>
-<buff id="MetabolizeLotusExtract" buffif="CTRlotus greater 0" debuffif="CTRlotus less 1" actions="increment(CTRlotus, -4, 12, 0, 0);min(CTRlotus, 0) "/>
+<buff id="MetabolizeLotusExtract" buffif="CTRlotus greater 0" debuffif="CTRlotus less 1" actions="increment(CTRlotus, -10, 30, 0, 0);min(CTRlotus, 0) "/>
 
 <buff id="lotusEuphoricBuff" duration="0" mutex="lotusPoisonBuff" buffif="CTRlotus gequal 20" debuffif="CTRlotus lequal 1" actions="increment(fatigue, -0.5, 50t, 0, 0)" icon="ui_game_symbol_drunk" name_key="Euphoria" description_key="A euphoric sensation washes over you and you get tired slower, can no longer be stunned and heal bones faster" tooltip_key="A little more couldnt hurt">
 	<modify id="3" buff="brokenLeg" tickrate="2"/>
