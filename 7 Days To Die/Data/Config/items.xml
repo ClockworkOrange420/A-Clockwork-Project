@@ -11278,7 +11278,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="21"/>
 		<property name="Stacknumber" value="15"/>
-		<property name="EconomicValue" value="150"/>
+		<property name="EconomicValue" value="250"/>
 		<property name="CustomIcon" value="potassiumNitratePowder"/>
 		<property name="CustomIconTint" value="8B0000"/>
 		<property name="CraftingIngredientTime" value="20"/>
