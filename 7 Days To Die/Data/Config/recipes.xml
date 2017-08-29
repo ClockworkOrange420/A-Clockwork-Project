@@ -867,6 +867,10 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="plantedCorn1" count="2"/>
 		<ingredient name="plantedWheat1" count="2"/>
 	</recipe>
+	<recipe name="ExtractMix" count="1" craft_time = "30" craft_area="woodTable" craft_tool="Mortar_and_Pestle" >
+		<ingredient name="snowberryExtract" count="1"/>
+		<ingredient name="lotusExtract" count="1"/>
+	</recipe>
 	<recipe name="Flour" count="1" craft_time = "8" craft_area="woodTable" craft_tool="Mortar_and_Pestle" >
 		<ingredient name="Wheat" count="2"/>
 	</recipe>
@@ -3120,43 +3124,43 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="snow" count="1" craft_time = "1" craft_exp_gain="0" >
 		<ingredient name="snowBall" count="20"/>
 	</recipe>
-	<recipe name="snowberryExtract" count="1" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
+	<recipe name="snowberryExtract" count="1" craft_time = "10" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="snowberryPlant" count="1"/>
 		<ingredient name="grainAlcohol" count="1"/>
 	</recipe>
-	<recipe name="snowberryExtract" count="1" craft_time = "8" craft_exp_gain="27" craft_area="Old_Oven" craft_tool="beaker" >
+	<recipe name="snowberryExtract" count="1" craft_time = "20" craft_exp_gain="27" craft_area="Old_Oven" craft_tool="beaker" >
 		<ingredient name="snowberryPlant" count="1"/>
 		<ingredient name="grainAlcohol" count="1"/>
 	</recipe>
-	<recipe name="snowberryExtract" count="1" craft_time = "8" craft_exp_gain="27" craft_area="New_Oven" craft_tool="beaker" >
+	<recipe name="snowberryExtract" count="1" craft_time = "20" craft_exp_gain="27" craft_area="New_Oven" craft_tool="beaker" >
 		<ingredient name="snowberryPlant" count="1"/>
 		<ingredient name="grainAlcohol" count="1"/>
 	</recipe>
-	<recipe name="lotusExtract" count="1" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
+	<recipe name="lotusExtract" count="1" craft_time = "10" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="forestFlowerPlant" count="1"/>
 		<ingredient name="grainAlcohol" count="1"/>
 	</recipe>
-	<recipe name="lotusExtract" count="1" craft_time = "8" craft_exp_gain="27" craft_area="Old_Oven" craft_tool="beaker" >
+	<recipe name="lotusExtract" count="1" craft_time = "20" craft_exp_gain="27" craft_area="Old_Oven" craft_tool="beaker" >
 		<ingredient name="forestFlowerPlant" count="1"/>
 		<ingredient name="grainAlcohol" count="1"/>
 	</recipe>
-	<recipe name="lotusExtract" count="1" craft_time = "8" craft_exp_gain="27" craft_area="New_Oven" craft_tool="beaker" >
+	<recipe name="lotusExtract" count="1" craft_time = "20" craft_exp_gain="27" craft_area="New_Oven" craft_tool="beaker" >
 		<ingredient name="forestFlowerPlant" count="1"/>
 		<ingredient name="grainAlcohol" count="1"/>
 	</recipe>
-	<recipe name="megaCrush" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingPot" >
+	<recipe name="megaCrush" count="1" craft_time = "30" craft_area="campfire" craft_tool="cookingPot" >
 		<ingredient name="snowberryExtract" count="1"/>
 		<ingredient name="lotusExtract" count="1"/>
 		<ingredient name="blueberries" count="2"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="megaCrush" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
+	<recipe name="megaCrush" count="1" craft_time = "30" craft_area="Old_Oven" craft_tool="cookingPot" >
 		<ingredient name="snowberryExtract" count="1"/>
 		<ingredient name="lotusExtract" count="1"/>
 		<ingredient name="blueberries" count="2"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="megaCrush" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingPot" >
+	<recipe name="megaCrush" count="1" craft_time = "30" craft_area="New_Oven" craft_tool="cookingPot" >
 		<ingredient name="snowberryExtract" count="1"/>
 		<ingredient name="lotusExtract" count="1"/>
 		<ingredient name="blueberries" count="2"/>

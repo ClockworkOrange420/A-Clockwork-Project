@@ -11273,4 +11273,25 @@
 		<property name="DescriptionKey" value="lotusExtractDesc"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	</item>
+	<item id="1676" name="ExtractMix">
+		<property name="Meshfile" value="Items/Food/cornmealPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="21"/>
+		<property name="Stacknumber" value="15"/>
+		<property name="EconomicValue" value="150"/>
+		<property name="CustomIcon" value="potassiumNitratePowder"/>
+		<property name="CustomIconTint" value="8B0000"/>
+		<property name="CraftingIngredientTime" value="20"/>
+		<property class="Action1">
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.5"/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_stamina" value="100"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Buff" value="eatLotusExtractTrigger,eatsnowberryJuiceTrigger,extractMix"/>
+		</property>
+		<property name="Group" value="Science"/>
+		<property name="DescriptionKey" value="ExtractMixDesc"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
+	</item>
 </items>
