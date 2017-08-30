@@ -202,14 +202,13 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="0" stat="stamina" amount="-5" rate="1"/>
 	<modify id="0" stat="speedmodifier" setValue="0.40"/>
 </buff>
-<!--Modded-->
-<!-- todo ideally this buff is only applied on a critical hit to the heart region and not applied to zombies. Armor would limit this too -->
+
 <buff id="arrowCriticalBleedout" duration="50" actions="buff(woundActivatorClean);buff(woundActivatorDirty);buff(woundActivatorGrimy);buff(woundActivatorFilthy);buff(woundActivatorInfectious);debuff(fullBuff)" causes="arrow,ironArrow,steelArrow,ironCrossbowBolt,steelCrossbowBolt,explodingCrossbowBolt" type="bleeding"
 	icon="ui_game_symbol_critical" name_key="arrowCriticalBleedout" description_key="arrowCriticalBleedoutDesc" tooltip_key="arrowCriticalBleedoutTooltip">
 	<modify id="0" stat="stamina" amount="-1" rate="1" type="bleeding"/>
 	<modify id="1" stat="health" amount="-1" rate="1" type="bleeding"/>
 </buff>
-<!--End-->
+
 <buff id="CoffeeStaminaBoost" duration="180" stack="extend" type="staminaup" icon="ui_game_symbol_coffee"
 	name_key="caffeineBuzz" description_key="caffeineBuzzDesc" tooltip_key="caffeineBuzzTooltip" causes="coffee">
 	<modify id="0" stat="stamina" amount="3" rate="1"/>
@@ -252,17 +251,12 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="1" stat="health" amount="-5" rate="60"/>
 </buff>
 
-<!--Modded-->
-
 <buff id="foodPoisoning" duration="120" actions="increment(@wellness, -0.5, 30, 0, 0)" type="sickness" icon="ui_game_symbol_food_poisoning" name_key="foodPoisoning" description_key="foodPoisoningDesc" tooltip_key="foodPoisoningTooltip" causes="moldyBread,shamSandwich,rawMeat,rottingFlesh,egg">
 	<modify id="0" stat="stamina" amount="-10" rate="1"/>
 </buff>
 
-<!--End-->
 <buff id="steroids" duration="3000" actions="addimmunity(sickness)" icon="ui_game_symbol_pills" name_key="steroids" description_key="steroidsDesc" tooltip_key="steroidsTooltip"/>
-<!--
-<buff id="cured" duration="3000" stack="reset" icon="ui_game_symbol_pills" name_key="cured" description_key="curedDesc" tooltip_key="curedTooltip"/>
--->
+
 <buff id="smelly" duration="30" smell="largeSmell" icon="ui_game_symbol_dysentery" name_key="smelly" description_key="smellyDesc" tooltip_key="smellyTooltip"/>
 
 <!--Modded-->
@@ -333,8 +327,6 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="1" stat="health" amount="-15" rate="1"/>
 </buff>
 
-<!--Modded-->
-
 <buff id="brokenLeg" duration="9000" stack="reset" actions="debuff(firstAid);debuff(splint);debuff(sprainedLeg);buff(woundActivatorClean);buff(woundActivatorDirty);buff(woundActivatorGrimy);buff(woundActivatorFilthy);buff(woundActivatorInfectious)" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="brokenLeg" description_key="brokenLegDesc" tooltip_key="brokenLegTooltip" cures="splint">
 	<modify id="0" stat="speedmodifier" mulValue="0.6"/>
 </buff>
@@ -348,22 +340,6 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="sprainedLeg" type="speedmodifier" duration="2400" actions="debuff(firstAid);debuff(splint)" icon="ui_game_symbol_brokenbone" name_key="sprainedLeg" description_key="sprainedLegDesc" tooltip_key="sprainedLegTooltip" cures="splint">
 	<modify id="0" stat="speedmodifier" mulValue="0.80"/>			
 </buff>
-
-<!--End-->
-<!--
-<buff id="brokenLeg" duration="9000" stack="reset" actions="debuff(firstAid);debuff(splint);debuff(sprainedLeg)" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="brokenLeg" description_key="brokenLegDesc" tooltip_key="brokenLegTooltip" cures="splint">
-	<modify id="0" stat="speedmodifier" mulValue="0.6"/>
-</buff>	
-
-<buff id="splint" overrides="brokenLeg,sprainedLeg" type="speedmodifier" overrideicon="true" icon="ui_game_symbol_splint" name_key="splintedLeg" description_key="splintedLegDesc" tooltip_key="splintedLegTooltip">
-	<modify id="0" stat="speedmodifier" mulValue="1.2"/>
-	<modify id="1" buff="brokenLeg" tickrate="2"/>
-	<modify id="2" buff="sprainedLeg" tickrate="2"/>
-</buff>
-	
-<buff id="sprainedLeg" mutex="brokenLeg" type="speedmodifier" duration="2400" actions="debuff(firstAid);debuff(splint)" icon="ui_game_symbol_brokenbone" name_key="sprainedLeg" description_key="sprainedLegDesc" tooltip_key="sprainedLegTooltip" cures="splint">
-	<modify id="0" stat="speedmodifier" mulValue="0.80"/>			
-</buff>-->
 
 <buff id="stunned" mutex="stunCooldown,painkillerBuff,Buzzed,Drunk,stunned,lotusEuphoricBuff" duration="4" onexpired="stunCooldown" type="speedmodifier" icon="ui_game_symbol_stunned" name_key="stunned" description_key="stunnedDesc" tooltip_key="stunnedTooltip">
 	<modify id="0" stat="speedmodifier" mulValue="0.1"/>
@@ -415,13 +391,21 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 	<modify id="1" stat="health" amount="-1" rate="30"/>
 </buff>
 
-<buff id="cannotBreath" mutex="drowning" duration="20" stack="discard" actions="debuff(freshAir);debuff(burningSmall);debuff(burning);debuff(burningMolotov)" onexpired="drowning" notificationClass="UnderwaterBuffNotification" icon="ui_game_symbol_oxygen" name_key="cannotBreathe" description_key="cannotBreatheDesc" tooltip_key="cannotBreatheTooltip"/>
 
-<buff id="drowning" duration="0" stack="discard" actions="damage(0,4,0,0);debuff(burningSmall);debuff(burning);debuff(burningMolotov)" type="drowning" icon="ui_game_symbol_oxygen" name_key="drowning" description_key="drowningDesc" tooltip_key="drowningTooltip">
+
+<buff id="splashing"  requires="treading" onexpired="splashing2" duration="1" castsound="bucketbail_water" onexpiredsound="bucketplace_water" />
+<buff id="splashing2"  requires="treading" onexpired="splashing" duration="1" castsound="bucketbail_water" onexpiredsound="Mybullethitwater"/>
+
+<buff id="treading" buffif="+water > 120" debuffif="-water > 0.1" ondebuff="freshAir" actions="buff(treadingWrn);buff(splashing)" icon="server_difficulty" name_key="Extremely Exhausted" description_key="You are extremely tired from swimming for too long, get out of the water now!" tooltip_key="Get out of the water now!"/>
+<buff id="treadingWrn" duration="30" debuffif="-water > 0.1" stack="discard" onexpired="cannotBreath" />
+
+<buff id="cannotBreath" mutex="drowning" duration="20" stack="discard" actions="debuff(freshAir);debuff(burningSmall);debuff(burning);debuff(burningMolotov)" onexpired="drowning" notificationClass="UnderwaterBuffNotification" icon="ui_game_symbol_oxygen" name_key="Cannot Breathe" description_key="You cannot Breathe." tooltip_key="You cannot breathe"/>
+
+<buff id="drowning" duration="0" stack="discard" actions="damage(0,4,0,0);debuff(burningSmall);debuff(burning);debuff(burningMolotov)" type="drowning" icon="ui_game_symbol_oxygen" name_key="Drowning" description_key="You are now drowning." tooltip_key="You are now drowning">
 	<modify id="1" stat="health" amount="-14" rate="4"/>
 </buff>
 
-<buff id="freshAir" duration="1" stack="discard" actions="debuff(cannotBreath);debuff(cannotBreatheWrn);debuff(drowning)" />
+<buff id="freshAir" mutex="treading" duration="1" stack="discard" actions="debuff(cannotBreath);debuff(drowning)" />
 
 <buff id="smell" duration="0" icon="ui_game_symbol_smell" name_key="smell" description_key="smellDesc" tooltip_key="smellTooltip"/>
 

@@ -851,8 +851,6 @@
 	<LocalCrouchVolumeScale name="0.5"/> <CrouchNoiseScale name="1"/> <NoiseScale name="1"/> <MaxVoices name="4"/> <MaxRepeatRate name="1.5"/> </SoundDataNode>
 
 
-
-
 	<!-- Animal Sounds -->
 
   <!-- Boar SFX -->
@@ -1736,6 +1734,21 @@
 	<AudioClip ClipName="Sounds/ImpactSurface/bullethitwater3"/>
 	<LocalCrouchVolumeScale name="1.0"/> <CrouchNoiseScale name="0.5"/> <NoiseScale name="1"/> <MaxVoices name="3"/> <MaxRepeatRate name="0.01"/> </SoundDataNode>
 
+<SoundDataNode name="Mybullethitwater"> <AudioSource name="Sounds/AudioSource_Impact"/>
+	<Noise ID="2" range="7" volume="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/ImpactSurface/bullethitwater3"/>
+	<AudioClip ClipName="Sounds/ImpactSurface/bullethitwater3"/>
+	<AudioClip ClipName="Sounds/ImpactSurface/bullethitwater3"/>
+	<AudioClip ClipName="Sounds/ImpactSurface/bullethitwater3"/>
+	<AudioClip ClipName="Sounds/ImpactSurface/bullethitwater3"/>
+	<AudioClip ClipName="Sounds/ImpactSurface/bullethitwater3"/>
+	<AudioClip ClipName="Sounds/ImpactSurface/bullethitwater3"/>
+	<AudioClip ClipName="Sounds/ImpactSurface/organichitwater1"/>
+	<AudioClip ClipName="Sounds/ImpactSurface/organichitwater1"/>
+	<AudioClip ClipName="Sounds/ImpactSurface/bullethitwater2"/>
+	<LocalCrouchVolumeScale name="1.0"/> <CrouchNoiseScale name="0.5"/> <NoiseScale name="1"/> <MaxVoices name="3"/> <MaxRepeatRate name="0.01"/> </SoundDataNode>
+
+	
 <SoundDataNode name="bullethitwood"> <AudioSource name="Sounds/AudioSource_Impact"/>
 	<Noise ID="2" range="7" volume="11" time="4" muffled_when_crouched="0.5"/>
 	<AudioClip ClipName="Sounds/ImpactSurface/bullethitwood1"/>
