@@ -1065,7 +1065,7 @@
 				</panel>
 			</rect>
 			<!--Modded-->
-			<grid name="buffs" rows="12" cols="2" pos="3,-43" cell_width="161" cell_height="30" repeat_content="true" controller="ActiveBuffList">
+			<grid name="buffs" rows="12" cols="1" pos="3,-43" cell_width="314" cell_height="30" repeat_content="true" controller="ActiveBuffList">
 				<active_buff_entry />
 			</grid>
 			<!--End Modded-->
