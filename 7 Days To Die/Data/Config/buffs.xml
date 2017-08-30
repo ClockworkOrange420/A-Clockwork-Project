@@ -396,7 +396,16 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 <buff id="splashing"  requires="treading" onexpired="splashing2" duration="1" castsound="bucketbail_water" onexpiredsound="bucketplace_water" />
 <buff id="splashing2"  requires="treading" onexpired="splashing" duration="1" castsound="bucketbail_water" onexpiredsound="Mybullethitwater"/>
 
-<buff id="treading" buffif="+water > 120" debuffif="-water > 0.1" ondebuff="freshAir" actions="buff(treadingWrn);buff(splashing)" icon="server_difficulty" name_key="Extremely Exhausted" description_key="You are extremely tired from swimming for too long, get out of the water now!" tooltip_key="Get out of the water now!"/>
+<buff id="splashing3"  requires="treading3" onexpired="splashing4" duration="1" castsound="bucketbail_water" onexpiredsound="bucketplace_water" />
+<buff id="splashing4"  requires="treading3" onexpired="splashing3" duration="1" castsound="bucketbail_water" onexpiredsound="Mybullethitwater"/>
+
+
+<buff id="treading2" debuffif="-water > 30" icon="server_difficulty" name_key="Cannot Swim" description_key="You are too tired to swim right now!" tooltip_key="Too tired to swim!"/>
+<buff id="treading3" requires="treading2" mutex="treading" ondebuff="freshAir" buffif="+water > 1" debuffif="-water > 0.1" actions="buff(cannotBreath);buff(splashing3)" />
+<buff id="treading4" debuffif="-water > 0.1" ondebuff="freshAir"/>
+
+
+<buff id="treading" buffif="+water > 120" debuffif="-water > 0.1" ondebuff="freshAir" actions="buff(treadingWrn);buff(treading2);buff(splashing)"/>
 <buff id="treadingWrn" duration="30" debuffif="-water > 0.1" stack="discard" onexpired="cannotBreath" />
 
 <buff id="cannotBreath" mutex="drowning" duration="20" stack="discard" actions="debuff(freshAir);debuff(burningSmall);debuff(burning);debuff(burningMolotov)" onexpired="drowning" notificationClass="UnderwaterBuffNotification" icon="ui_game_symbol_oxygen" name_key="Cannot Breathe" description_key="You cannot Breathe." tooltip_key="You cannot breathe"/>
