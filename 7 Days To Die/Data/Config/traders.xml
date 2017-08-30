@@ -299,9 +299,9 @@ quality_mod: adjusts the price range of all items with a quality level.
 
 		<trader_item_group name="weaponsMelee">
 			<item name="clubIron"/>
+			<item name="huntingKnife"/>
 			<item name="clubBarbed" prob="0.7"/>
 			<item name="clubSpiked" prob="0.5"/>
-			<item name="huntingKnife" prob="0.5"/>
 			<item name="machete" prob="0.2"/>
 		</trader_item_group>
 
@@ -604,7 +604,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 		</trader_item_group>
 
 		<trader_item_group name="generalResources"> <!-- bundle size -->
-			<item name="wood" count="10,50"/> <!-- 50 -->
+			<item name="wood" count="50,250"/> <!-- 50 -->
 			<item name="yuccaFibers" count="5,40"/> <!-- 50 -->
 			<item name="crushedSand" count="10,40"/> <!-- 50 -->
 			<item name="scrapIron" count="15,80"/> <!-- 10 -->
@@ -665,7 +665,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="wrench" prob="0.8"/>
 			<item name="Scythe"/>
 			<item name="repairKit" count="1,4"/>
-			<item name="wood" count="50,250"/>
 			<item name="anvil" count="1"/>
 			<item name="toolAndDieSet" prob="0.6"/>
 			<item name="calipers" prob="0.6"/>
