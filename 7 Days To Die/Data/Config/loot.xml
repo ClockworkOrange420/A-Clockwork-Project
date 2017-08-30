@@ -819,9 +819,10 @@
 <lootgroup name="weaponsMelee">
 	<item name="clubWood"/>
 	<item name="clubIron"/>
+	<item name="huntingKnife"/>
+	<item name="sledgehammer" prob="0.2"/>
 	<item name="clubBarbed" prob="0.2"/>
 	<item name="clubSpiked" prob="0.15"/>
-	<item name="huntingKnife" prob="0.2"/>
 	<item name="machete" prob="0.1"/>
 </lootgroup>
 
@@ -1072,6 +1073,7 @@
 <lootgroup name="sinkTools">
 	<item name="clawHammer"/>
 	<item name="wrench"/>
+	<item name="huntingKnife"/>
 </lootgroup>
 
 <lootgroup name="cupboard">
@@ -1099,7 +1101,7 @@
 	<item name="ironArrowHead" count="1,12"/>
 	<item name="steelArrowHead" count="1,10" prob="0.08"/>
 	<item name="Geometry_Set" count="1" prob="0.08"/>
-	<item name="Schematic_Page" count="1" prob="0.1"/>
+	<item name="Schematic_Page" count="1" prob="0.11"/>
 	<item name="candyTin"/>
 	<item name="emptyJar" count="1,2"/>
 	<item name="canEmpty" count="1,3"/>
@@ -1124,7 +1126,7 @@
 	<item name="ductTape" count="1,3"/>
 	<item group="rottenFood" count="1,2"/>
 	<item group="books"/>
-	<item group="seeds" count="1,3"/>
+	<item group="seeds" count="1,3"/> 	
 	<item group="questChallenge" count="1" prob="0.11"/> 	<!-- 0.06 = .23 % -->
 	<item group="treasureMaps" count="1" prob="0.092"/>
 </lootgroup>
@@ -1133,7 +1135,7 @@
 	<item name="smallEngine"/>
 	<item group="motorToolParts" count="1" prob="5"/>
 	<item group="nailgunParts" count="1" prob="5"/>
-	<item group="weaponsCompoundBowParts" count="1" prob="5"/>
+	<item group="weaponsBasicGuns+ammo" count="1" prob="5"/>
 	<item name="minibikeWheels"/>
 </lootgroup>
 
@@ -1271,7 +1273,6 @@
 	<item group="motorToolParts"/>
 	<item group="nailgunParts"/>
 	<item group="weaponsCompoundBowParts"/>
-	<item name="sledgehammer"/>
 	<item name="pickaxeSteel"/>
 	<item name="fireaxeSteel"/>
 	<item name="shovelSteel"/>
@@ -1287,9 +1288,11 @@
 	<item name="pickaxeIron"/>
 	<item name="shovelIron"/>
 	<item name="fireaxeIron"/>
+	<item name="huntingKnife"/>
 	<item name="padlock"/>
 	<item name="hoeIron"/>
 	<item name="clawHammer"/>
+	<item name="sledgehammer"/>
 	<item name="wrench"/>
 	<item name="repairKit" count="1,4"/>
 	<item group="nailgun+parts"/>
@@ -1311,6 +1314,7 @@
 	<item name="anvil" count="1"/>
 	<item name="ironDoor1_v1"/>
 	<item name="sledgehammer"/>
+	<item name="huntingKnife"/>
 	<item group="nailgun+parts"/>
 	<item name="calipers"/>
 	<item name="toolAndDieSet"/>
@@ -1381,15 +1385,15 @@
 </lootgroup>
 
 <lootgroup name="backpacks">
-	<item group="weaponsCommonParts" prob="0.6"/>
-	<item group="motorToolParts" prob="0.6"/>
-	<item group="nailgunParts" prob="0.6"/>
-	<item group="weaponsCompoundBowParts" prob="0.6"/>
+	<item group="weaponsCommonParts"/>
+	<item group="motorToolParts"/>
+	<item group="nailgunParts"/>
+	<item group="weaponsCompoundBowParts"/>
 	<item group="cupboard"/>
-	<item group="weaponsBasicGuns+ammo" prob="0.6"/>
-	<item group="weaponsMelee" prob="0.6"/>
-	<item group="Armor" prob="0.6"/>
-	<item name="flashlight02" prob="0.3"/>
+	<item group="weaponsBasicGuns+ammo"/>
+	<item group="weaponsMelee"/>
+	<item group="Armor"/>
+	<item name="flashlight02"/>
 </lootgroup>
 
 <lootgroup name="airdropMedicine">
@@ -1445,6 +1449,7 @@
 	<item name="miningHelmet"/>
 	<item name="flashlight02" prob="0.3"/>
 	<item name="calipers" prob="0.15"/>
+	<item name="toolAndDieSet" prob="0.15"/>
 	<item name="minibikeChassis" prob="0.4"/>
 	<item name="minibikeSeat" prob="0.4"/>
 	<item name="minibikeHandlebars" prob="0.4"/>
@@ -1647,7 +1652,7 @@
 </lootcontainer>
 
 <!-- air conditioners-->
-<lootcontainer id="20" count="0,2" size="4,3" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" open_time="4" loot_quality_template="baseTemplate">
+<lootcontainer id="20" count="0,2" size="4,4" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" open_time="4" loot_quality_template="baseTemplate">
 	<item group="metalpipe"/>
 </lootcontainer>
 
@@ -2148,6 +2153,7 @@
 	<item group="farmCrops"/>
 	<item group="seeds"/>
 	<item name="beer"/>
+	<item name="huntingKnife"/>
 	<item group="weaponsCompoundBowParts" prob="0.15"/>
 	<item name="compoundBow" prob="0.08"/>
 </lootcontainer>

@@ -283,8 +283,8 @@
 		<requirement skill_level="3" required_skill_name="Blade Weapons" required_skill_level="50"/>
 		<requirement skill_level="4" required_skill_name="craftSkillWeapons" required_skill_level="70"/>
 		<requirement skill_level="4" required_skill_name="Blade Weapons" required_skill_level="70"/>
-		<recipe name="ironTippedSpear" unlock_level="1"/>
-		<recipe name="huntingKnife" unlock_level="2"/>
+		<recipe name="huntingKnife" unlock_level="1"/>
+		<recipe name="ironTippedSpear" unlock_level="2"/>
 		<recipe name="steelTippedSpear" unlock_level="3"/>
 		<recipe name="machete" unlock_level="4"/>
 	</perk>
