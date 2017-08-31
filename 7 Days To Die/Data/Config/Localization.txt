@@ -5221,6 +5221,12 @@ Shotguns,items,Book,New,Shotguns,,,,
 ShotgunsDesc,items,Book,New,Study the knowledge of shotguns.,,,,
 Under_Construction,items,Book,New,Under Construction,,,,
 Under_ConstructionDesc,items,Book,New,Study the knowledge of construction.,,,,
+electricMachete,items,Melee,New,Electric Machete,,,,
+electricMacheteDesc,items,Melee,New,"Great for electrifying zombies, chopping zombies limbs off and gutting animals for meat.",Idéale pour démembrer des zombies et étriper des animaux pour leur viande.,"Eignet sich prima dafür, Zombiegliedmaßen abzuschlagen und Tiere auszuweiden.",,Excelente para cortarles las extremidades a los zombis y destripar animales para conseguir carne.
+electricSledgehammer,items,Melee,New,Electric Sledgehammer,,,,
+electricSledgehammerDesc,items,Melee,New,The sledgehammer is one of the best weapons for cracking skulls while electrifying zombies with a better chance to score a critical blow.,La masse en fer est l'une des meilleures armes pour défoncer des crânes avec de grandes chances de porter un coup critique.,"Der Vorschlaghammer ist eine der besten Waffen, wenn es darum geht, Schädel zu brechen. Mit ihm hast du eine erhöhte Chance, einen kritischen Treffer zu landen.",,El mazo es una de las mejores armas para destrozar cráneos. Aumenta la probabilidad de asestar golpes críticos.
+electricClubSpiked,items,Melee,New,Electric Spiked Club,,,,
+electricClubSpikedDesc,items,Melee,New,A badass club with sharp spikes. Added chance for bleeding and elctrifying zomibies.,Une massue trop cool hérissée de pointes coupantes. Augmente les chances d'infliger une hémorragie.,Ein cooler Knüppel mit scharfen Nägeln. Erhöhte Chance auf Blutungen.,,Una intimidante garrote con clavos afilados. Posibilidad adicional de hemorragia.
 plantedForestFlower3Harvest_Player,blocks,Farming,KgNone,Blue Lotus (Harvestable),,,,
 plantedForestFlower3Harvest,blocks,Farming,KgNone,Blue Lotus (Harvestable),,,,
 plantedForestFlower1,blocks,Farming,New,Blue Lotus Seed,,,,

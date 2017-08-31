@@ -274,7 +274,7 @@
 	</perk>
 	
 	<!--Melee Weapon Unlocks-->
-	<perk name="Blade Weapon Crafting" icon="knife" description_key="Unlocks the ability to make better blade weapons." title_key="Blade Weapon Crafting" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
+	<perk name="Blade Weapon Crafting" icon="knife" description_key="Unlocks the ability to make better blade weapons." title_key="Blade Weapon Crafting" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
 		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="Blade Weapons" required_skill_level="10"/>
 		<requirement skill_level="2" required_skill_name="craftSkillWeapons" required_skill_level="30"/>
@@ -283,12 +283,15 @@
 		<requirement skill_level="3" required_skill_name="Blade Weapons" required_skill_level="50"/>
 		<requirement skill_level="4" required_skill_name="craftSkillWeapons" required_skill_level="70"/>
 		<requirement skill_level="4" required_skill_name="Blade Weapons" required_skill_level="70"/>
+		<requirement skill_level="5" required_skill_name="craftSkillWeapons" required_skill_level="90"/>
+		<requirement skill_level="5" required_skill_name="Blade Weapons" required_skill_level="90"/>
 		<recipe name="huntingKnife" unlock_level="1"/>
 		<recipe name="ironTippedSpear" unlock_level="2"/>
 		<recipe name="steelTippedSpear" unlock_level="3"/>
 		<recipe name="machete" unlock_level="4"/>
+		<recipe name="electricMachete" unlock_level="5"/>
 	</perk>
-	<perk name="Blunt Weapon Crafting" icon="club" description_key="Unlocks the ability to make better blunt weapons." title_key="Blunt Weapon Crafting" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
+	<perk name="Blunt Weapon Crafting" icon="club" description_key="Unlocks the ability to make better blunt weapons." title_key="Blunt Weapon Crafting" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
 		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="Blunt Weapons" required_skill_level="10"/>
 		<requirement skill_level="2" required_skill_name="craftSkillWeapons" required_skill_level="30"/>
@@ -297,10 +300,14 @@
 		<requirement skill_level="3" required_skill_name="Blunt Weapons" required_skill_level="50"/>
 		<requirement skill_level="4" required_skill_name="craftSkillWeapons" required_skill_level="70"/>
 		<requirement skill_level="4" required_skill_name="Blunt Weapons" required_skill_level="70"/>
+		<requirement skill_level="5" required_skill_name="craftSkillWeapons" required_skill_level="90"/>
+		<requirement skill_level="5" required_skill_name="Blunt Weapons" required_skill_level="90"/>
 		<recipe name="clubIron" unlock_level="1"/>
 		<recipe name="clubBarbed" unlock_level="2"/>
 		<recipe name="sledgehammer" unlock_level="3"/>
+		<recipe name="electricSledgehammer" unlock_level="4"/>
 		<recipe name="clubSpiked" unlock_level="4"/>
+		<recipe name="electricClubSpiked" unlock_level="5"/>
 	</perk>
 	
 	<!--Ranged Weapon Unlocks-->

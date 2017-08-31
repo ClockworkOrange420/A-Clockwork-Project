@@ -20,7 +20,12 @@
 			<property name="Sphere" value="0.2"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="7"/>
-			<!-- 10 is the break even point with maxed Athletics and Sexosaurus, standing still -->
+			<property name="DamageBonus.plants" value="0.01"/>
+			<property name="DamageBonus.leaves" value="25"/>
+			<property name="DamageBonus.wood" value="0.01"/>
+			<property name="DamageBonus.earth" value="0.01"/>
+			<property name="DamageBonus.stone" value="0.01"/>
+			<property name="DamageBonus.metal" value="0.5"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
@@ -101,7 +106,6 @@
 		<property name="EconomicValue" value="300"/>
 		<property name="SellableToTrader" value="true"/>
 		<property class="Action0">
-			<!-- AttackAction -->
 			<property name="Buff" value="bleeding,criticalBlunt,stunned"/>
 			<property name="Buff_chance" value="0.5,0.3,0.3"/>
 		</property>
@@ -133,10 +137,14 @@
 			<property name="Stamina_usage" value="9"/>
 			<property name="Buff" value="criticalBlunt,stunned,sprainedLeg"/>
 			<property name="Buff_chance" value="0.4,0.4,0.3"/>
-			<property name="DamageBonus.wood" value="2"/>
+			<property name="DamageBonus.plants" value="0.01"/>
+			<property name="DamageBonus.leaves" value="25"/>
+			<property name="DamageBonus.wood" value="0.5"/>
+			<property name="DamageBonus.earth" value="0.01"/>
+			<property name="DamageBonus.stone" value="0.01"/>
+			<property name="DamageBonus.metal" value="0.5"/>
 			<property name="DamageBonus.head" value="2"/>
-			<property name="DamageBonus.metal" value=".5"/>
-			<property name="DamageBonus.concrete" value="2"/>
+			<property name="DamageBonus.concrete" value="1"/>
 			<property name="ActionExp" value="7"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 			<property name="ToolCategory.Harvest" value="1"/>
@@ -349,8 +357,12 @@
 			<property name="Sphere" value="0.1"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="6.51"/>
-			<property name="DamageBonus.crops" value="0.01"/>
-			<property name="DamageBonus.wood" value="1"/>
+			<property name="DamageBonus.plants" value="0.01"/>
+			<property name="DamageBonus.leaves" value="25"/>
+			<property name="DamageBonus.wood" value="0.01"/>
+			<property name="DamageBonus.earth" value="0.01"/>
+			<property name="DamageBonus.stone" value="0.01"/>
+			<property name="DamageBonus.metal" value="0.5"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.organic" value="3"/>
 			<property name="ToolCategory.Butcher" value="1" param1="10"/>
@@ -8635,7 +8647,7 @@
 		<property name="Group" value="Resources,Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 	</item>
-	<!--<item id="1358" name="macheteBlade"><property name="CustomIcon" value="machete"/> <property name="CustomIconTint" value="a0a0ff"/><property name="Meshfile" value="Items/Misc/sackPrefab"/><property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/><property name="Material" value="metal"/><property name="HoldType" value="45"/><property name="Stacknumber" value="50"/><property name="EconomicValue" value="600"/><property name="Group" value="Resources,Ammo/Weapons"/><property name="CraftingSkillGroup" value="craftSkillWeapons"/></item>-->
+	<!--Free-->
 	<item id="1359" name="repairKit">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
@@ -11304,5 +11316,29 @@
 		<property name="Group" value="Science"/>
 		<property name="DescriptionKey" value="ExtractMixDesc"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
+	</item>
+	<item id="1677" name="electricMachete">
+		<property name="Extends" value="machete"/>
+		<property class="Action0">
+			<property name="Buff" value="shockingBuff"/>
+			<property name="Buff_chance" value="0.7"/>
+		</property>
+		<property name="DescriptionKey" value="electricMacheteDesc"/>
+	</item>
+	<item id="1678" name="electricSledgehammer">
+		<property name="Extends" value="sledgehammer"/>
+		<property class="Action0">
+			<property name="Buff" value="shockingBuff,criticalBlunt,stunned,sprainedLeg"/>
+			<property name="Buff_chance" value="0.7,0.4,0.4,0.3"/>
+		</property>
+		<property name="DescriptionKey" value="electricSledgehammerDesc"/>
+	</item>
+	<item id="1679" name="electricClubSpiked">
+		<property name="Extends" value="clubSpiked"/>
+		<property class="Action0">
+			<property name="Buff" value="shockingBuff,bleeding,criticalBlunt,stunned"/>
+			<property name="Buff_chance" value="0.7,0.5,0.3,0.3"/>
+		</property>
+		<property name="DescriptionKey" value="electricClubSpikedDesc"/>
 	</item>
 </items>

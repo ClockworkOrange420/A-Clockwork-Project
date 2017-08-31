@@ -1843,6 +1843,11 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="nail" count="10"/>
 		<ingredient name="wood" count="10"/>
 	</recipe>
+	<recipe name="electricClubSpiked" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Smithing_Table" craft_tool="wrench" >
+		<ingredient name="clubSpiked" count="1"/>
+		<ingredient name="partsNailgun_battery" count="1" />
+		<ingredient name="ductTape" count="1"/>
+	</recipe>
 	<recipe name="clubWood" count="1" craft_time = "12" craft_exp_gain="40" >
 		<ingredient name="wood" count="10"/>
 	</recipe>
@@ -2646,6 +2651,11 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="leather" count="4"/>
 		<ingredient name="ductTape" count="2"/>
 	</recipe>
+	<recipe name="electricMachete" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Smithing_Table" craft_tool="wrench" >
+		<ingredient name="machete" count="1"/>
+		<ingredient name="partsNailgun_battery" count="1" />
+		<ingredient name="ductTape" count="1"/>
+	</recipe>
 	<recipe name="metalReinforcedWoodDrawBridge" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIronPlating" count="20"/>
 		<ingredient name="wood" count="1000"/>
@@ -3117,6 +3127,11 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="sledgehammer" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Smithing_Table" craft_tool="anvil" >
 		<ingredient name="forgedIron" count="30"/>
 		<ingredient name="wood" count="20"/>
+	</recipe>
+	<recipe name="electricSledgehammer" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Smithing_Table" craft_tool="wrench" >
+		<ingredient name="sledgehammer" count="1"/>
+		<ingredient name="partsNailgun_battery" count="1" />
+		<ingredient name="ductTape" count="1"/>
 	</recipe>
 	<recipe name="snow" count="1" craft_time = "1" craft_exp_gain="0" >
 		<ingredient name="snowBall" count="20"/>
