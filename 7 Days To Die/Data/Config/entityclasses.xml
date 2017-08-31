@@ -837,6 +837,7 @@
 	<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense"/>
 	<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep"/>
 	<property name="HandItem" value="handZombieBurning"/>
+	<property name="HandItemCrawler" value="handZombieBurningCrawler"/>
 	<property name="MaxHealth" value="80"/>
 	<property name="ExperienceGain" value="200"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
