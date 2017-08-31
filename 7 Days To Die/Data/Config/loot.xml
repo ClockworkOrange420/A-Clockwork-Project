@@ -820,10 +820,13 @@
 	<item name="clubWood"/>
 	<item name="clubIron"/>
 	<item name="huntingKnife"/>
-	<item name="sledgehammer" prob="0.2"/>
-	<item name="clubBarbed" prob="0.2"/>
-	<item name="clubSpiked" prob="0.15"/>
-	<item name="machete" prob="0.1"/>
+	<item name="sledgehammer"/>
+	<item name="clubBarbed"/>
+	<item name="clubSpiked" prob="0.2"/>
+	<item name="machete" prob="0.2"/>
+	<item name="electricMachete" prob="0.1"/>
+	<item name="electricSledgehammer" prob="0.1"/>
+	<item name="electricClubSpiked" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="weaponsCrossbow+ammo" count="all">
