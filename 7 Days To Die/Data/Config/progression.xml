@@ -5,7 +5,7 @@
 	max_level="200"
 	exp_to_level="20500"
 	experience_multiplier="1"
-	skill_points_per_level="7"
+	skill_points_per_level="8"
 	skill_point_multiplier="0"/>
 	<!-- A15: 8000 XP for level 1 and 134k for level 199, total cumulative of 9MXP; XPRequired = exp_to_level * experience_multiplier ^ level -->
 	<!-- A16: 8300 XP for level 1, total cumulative of 11MXP -->
@@ -38,7 +38,7 @@
 		</effect>
 	</player_skill>
 	
-	<player_skill name="Barter" exp_to_level="2000" skill_point_cost_per_level="0" icon="coin" description_key="barterDesc" title_key="barter" group="scavenging">
+	<player_skill name="Barter" skill_point_cost_per_level="0" icon="coin" description_key="barterDesc" title_key="barter" group="scavenging">
 		<effect name="Bartering">
 			<add skill_level="1,10" value="0.00,0.15"/>
 			<add skill_level="10,20" value="0.15,0.23"/>
@@ -724,6 +724,20 @@
 	<perk name="paintMetal" icon="paint_brush" description_key="This skill can be purchased with skill points." title_key="paintMagazineMetal" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="painting">
 		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="20"/>
 		<material_group name="txGroupMetal" unlock_level="1"/>
+	</perk>
+	
+	<perk name="Health Nut" icon="medical" description_key="Raise your minimum wellness with every rank of this perk." title_key="Health Nut" max_level="4" skill_point_cost_per_level="10" skill_point_cost_multiplier="0" always_fire="true" group="health">
+		<requirement perk_level="1" required_skill_name="Athletics" required_skill_level="10"/>
+		<requirement perk_level="2" required_skill_name="Athletics" required_skill_level="30"/>
+		<requirement perk_level="3" required_skill_name="Athletics" required_skill_level="50"/>
+		<requirement perk_level="4" required_skill_name="Athletics" required_skill_level="70"/>
+		<effect name="MinWellness">
+			<setvalue perk_level="0" value="30"/>
+			<setvalue perk_level="1" value="40"/>
+			<setvalue perk_level="2" value="50"/>
+			<setvalue perk_level="3" value="60"/>
+			<setvalue perk_level="4" value="70"/>
+		</effect>
 	</perk>
 	
 	<perk name="Quality Joe" always_fire="true" icon="quality_joe" description_key="qualityJoeDesc" title_key="qualityJoe" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="scavenging">
