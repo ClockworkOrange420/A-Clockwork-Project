@@ -225,7 +225,7 @@
 	
 	<!--Perk Recipe Unlocks-->
 	
-	<perk name="Light Armor" icon="light_armor" description_key="clothingArmorDesc" title_key="Light Armor" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
+	<perk name="Light Armor" always_fire="true" icon="light_armor" description_key="clothingArmorDesc" title_key="Light Armor" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
 		<requirement perk_level="1" required_skill_name="Tailoring" required_skill_level="10"/>
 		<requirement perk_level="2" required_skill_name="Tailoring" required_skill_level="30"/>
 		<requirement perk_level="3" required_skill_name="Tailoring" required_skill_level="50"/>
@@ -241,7 +241,7 @@
 		</effect>
 	</perk>
 	
-	<perk name="Medium Armor" icon="ui_game_symbol_armor_leather" description_key="clothingArmorDesc" title_key="Medium Armor" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
+	<perk name="Medium Armor" always_fire="true" icon="ui_game_symbol_armor_leather" description_key="clothingArmorDesc" title_key="Medium Armor" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
 		<requirement perk_level="1" required_skill_name="Leatherworking" required_skill_level="10"/>
 		<requirement perk_level="2" required_skill_name="Leatherworking" required_skill_level="30"/>
 		<requirement perk_level="3" required_skill_name="Leatherworking" required_skill_level="50"/>
@@ -257,7 +257,7 @@
 		</effect>
 	</perk>
 	
-	<perk name="Heavy Armor" icon="ui_game_symbol_armor_iron" description_key="clothingArmorDesc" title_key="Heavy Armor" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
+	<perk name="Heavy Armor" always_fire="true" icon="ui_game_symbol_armor_iron" description_key="clothingArmorDesc" title_key="Heavy Armor" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
 		<requirement perk_level="1" required_skill_name="craftSkillArmor" required_skill_level="10"/>
 		<requirement perk_level="2" required_skill_name="craftSkillArmor" required_skill_level="30"/>
 		<requirement perk_level="3" required_skill_name="craftSkillArmor" required_skill_level="50"/>
