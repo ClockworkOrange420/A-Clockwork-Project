@@ -2425,7 +2425,7 @@
 		<property name="Meshfile" value="Items/Weapons/Ranged/SawedOffPumpShotgun/shotgunShellPrefab"/>
 		<property name="Material" value="brass"/>
 		<property name="HoldType" value="21"/>
-		<property name="Stacknumber" value="128"/>
+		<property name="Stacknumber" value="250"/>
 		<!-- STK ammo -->
 		<property name="EconomicValue" value="56"/>
 		<property class="Attributes">
