@@ -1302,7 +1302,7 @@
 	</block>
 	<block id="141" name="rScrapIronMaster">
 		<property name="Group" value="Building"/>
-		<property name="Material" value="Mmetal_medium"/>
+		<property name="Material" value="Mmetal_hard"/>
 		<property name="Texture" value="352"/>
 		<!-- <property name="ImposterExchange" value="imposterBlock" param1="110"/> -->
 		<property name="CreativeMode" value="None"/>
