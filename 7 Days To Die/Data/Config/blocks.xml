@@ -16337,14 +16337,14 @@
 		<property name="Shape" value="Grass"/>
 		<property name="Mesh" value="grass"/>
 		<property name="CreativeMode" value="Dev"/>
-		<property name="Texture" value="201"/>
+		<property name="Texture" value="377"/>
 		<property name="PlantGrowing.Next" value="plantedWheat3Harvest_Player"/>
 		<drop event="Destroy" name="plantedWheat1" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="80" name="plantedWheat3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="treeBrownGrassDiagonal"/>
-		<property name="Texture" value="201"/>
+		<property name="Texture" value="377"/>
 		<drop event="Harvest" name="plantedWheat1" count="1" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="plantedWheat1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="Wheat" count="1" tool_category="Crops"/>
@@ -17701,7 +17701,7 @@
 	<block id="978" name="plantedWheat3Harvest_Player">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="treeBrownGrassDiagonal"/>
-		<property name="Texture" value="201"/>
+		<property name="Texture" value="377"/>
 		<property name="DowngradeBlock" value="plantedWheat1"/>
 		<drop event="Harvest" name="plantedWheat1" count="1" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="plantedWheat1" count="1" prob="0.25" tool_category="CropsSeed"/>

@@ -1100,10 +1100,18 @@
 	<item name="rawDiamond" count="1,2" prob="0.1"/> <!-- 1500 -->
 </lootgroup>
 
+<lootgroup name="junkParts">
+	<item group="weaponsCompoundBowParts"/>
+	<item group="weaponsCommonParts"/>
+	<item group="nailgunParts"/>
+	<item group="motorToolParts"/>
+</lootgroup>
+
 <lootgroup name="junk">
 	<item name="ironArrowHead" count="1,12"/>
 	<item name="steelArrowHead" count="1,10" prob="0.08"/>
 	<item name="Geometry_Set" count="1" prob="0.08"/>
+	<item group="junkParts" count="1" prob="0.08"/>
 	<item name="Schematic_Page" count="1" prob="0.11"/>
 	<item name="candyTin"/>
 	<item name="emptyJar" count="1,2"/>
@@ -1112,7 +1120,6 @@
 	<item name="paper" count="1,6" prob="0.7"/>
 	<item name="oldCash" count="1,6" prob="0.3"/>
 	<item name="cloth" count="1,4"/>
-	<item name="Silencer" count="1"/>
 	<item group="trophyGroup"/>
 	<item name="glassCTRSheet"/>
 	<item name="gunPowder" count="3,6"/>
@@ -1129,7 +1136,7 @@
 	<item name="ductTape" count="1,3"/>
 	<item group="rottenFood" count="1,2"/>
 	<item group="books"/>
-	<item group="seeds" count="1,3"/> 	
+	<item group="seeds" count="1,3"/>
 	<item group="questChallenge" count="1" prob="0.11"/> 	<!-- 0.06 = .23 % -->
 	<item group="treasureMaps" count="1" prob="0.092"/>
 </lootgroup>
