@@ -405,7 +405,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 <buff id="treading4" debuffif="-water > 0.1" ondebuff="freshAir"/>
 
 
-<buff id="treading" buffif="+water > 120" debuffif="-water > 0.1" ondebuff="freshAir" actions="buff(treadingWrn);buff(treading2);buff(splashing)"/>
+<buff id="treading" buffif="+water > 240" debuffif="-water > 0.1" ondebuff="freshAir" actions="buff(treadingWrn);buff(treading2);buff(splashing)"/>
 <buff id="treadingWrn" duration="30" debuffif="-water > 0.1" stack="discard" onexpired="cannotBreath" />
 
 <buff id="cannotBreath" mutex="drowning" duration="20" stack="discard" actions="debuff(freshAir);debuff(burningSmall);debuff(burning);debuff(burningMolotov)" onexpired="drowning" notificationClass="UnderwaterBuffNotification" icon="ui_game_symbol_oxygen" name_key="Cannot Breathe" description_key="You cannot Breathe." tooltip_key="You cannot breathe"/>
