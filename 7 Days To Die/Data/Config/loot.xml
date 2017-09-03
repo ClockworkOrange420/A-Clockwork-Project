@@ -1081,8 +1081,8 @@
 
 <lootgroup name="cupboard">
 	<item name="canEmpty" count="1,3"/>
-	<item name="Crackers" count="1,3"/>
-	<item name="Noodles" count="1,3"/>
+	<item name="Crackers" count="1,3" prob="0.5"/>
+	<item name="Noodles" count="1,3" prob="0.5"/>
 	<item group="cannedfood" prob="0.5"/>
 	<item group="seeds" count="1,3" prob="0.5"/>
 	<item group="farmCrops" count="1,3" prob="0.5"/>
