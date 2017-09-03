@@ -11364,8 +11364,8 @@
 		<property class="Action0">
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="150"/>
-			<property name="Buff" value="shockingBuff,infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="1,1,0.04,0.3,0.01,0.2,0.3,0.4,0.5"/>
+			<property name="Buff" value="shockingBuff,infectionActivatorHygiene,bleeding,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
+			<property name="Buff_chance" value="1,1,0.04,0.01,0.2,0.3,0.4,0.5"/>
 		</property>
 	</item>
 	<item id="1681" name="handZombieWorkerFeral">
