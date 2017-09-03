@@ -1041,9 +1041,42 @@
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
+<entity_class name="zombieElectricUtilityWorker" extends="zombieTemplateMale">
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Male2/zombiemale2alert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Male2/zombiemale2attack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense"/>
+	<property name="Mesh" value="Zombies/zombieStandardWorkerRagdoll"/>
+	<property name="AvatarController" value="AvatarZombie01Controller"/>
+	<property name="Buffs" value="zombieElectricBuff"/>
+	<property name="Immunity" value="sickness;disease;bleeding;wellness;armordown"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="WalkType" value="6"/>
+	<property name="MaxHealth" value="200"/>
+	<property name="ExperienceGain" value="200"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="HandItem" value="handZombieElectricWorker"/>
+	<property name="LootListOnDeath" value="74"/>
+	<property name="TintMaterial2" value="41,41,41"/>
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
+</entity_class>
+
 <!-- Missing: zombieUtilityWorkerRadiated -->
 
 <entity_class name="zombieUtilityWorkerFeral" extends="zombieUtilityWorker">
+	<property name="MaxHealth" value="400"/>
+	<property name="ExperienceGain" value="400"/>
+	<property name="HandItem" value="handZombieWorkerFeral"/>
+	<property name="ApproachSpeed" value="1.35"/>
+	<property name="NightApproachSpeed" value="1.35"/>
+	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
+</entity_class>
+
+<entity_class name="zombieElectricUtilityWorkerFeral" extends="zombieElectricUtilityWorker">
 	<property name="MaxHealth" value="400"/>
 	<property name="ExperienceGain" value="400"/>
 	<property name="HandItem" value="handZombieWorkerFeral"/>
