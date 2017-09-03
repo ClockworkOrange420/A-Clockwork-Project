@@ -417,10 +417,10 @@
 		<entity name="animalZombieVulture"/>
 		<entity name="animalSnake"/>
 		<entity name="animalWolf" prob="0.3"/>
+		<entity name="animalZombieDog" prob="0.3"/>
 		<entity name="animalBear" prob="0.05"/>
 		<entity name="animalDireWolf" prob="0.05"/>
 		<entity name="animalZombieBear" prob="0.05"/>
-		<entity name="animalZombieDog" prob="0.05"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
 		<entity name="zombieJoe"/>
@@ -482,10 +482,10 @@
 		<entity name="animalZombieVulture"/>
 		<entity name="animalSnake"/>
 		<entity name="animalWolf" prob="0.3"/>
+		<entity name="animalZombieDog" prob="0.3"/>
 		<entity name="animalBear" prob="0.05"/>
 		<entity name="animalDireWolf" prob="0.05"/>
 		<entity name="animalZombieBear" prob="0.05"/>
-		<entity name="animalZombieDog" prob="0.05"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
 		<entity name="zombieJoe"/>
@@ -547,10 +547,10 @@
 		<entity name="animalZombieVulture"/>
 		<entity name="animalSnake"/>
 		<entity name="animalWolf" prob="0.3"/>
+		<entity name="animalZombieDog" prob="0.3"/>
 		<entity name="animalBear" prob="0.05"/>
 		<entity name="animalDireWolf" prob="0.05"/>
 		<entity name="animalZombieBear" prob="0.05"/>
-		<entity name="animalZombieDog" prob="0.05"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
 		<entity name="zombieJoe"/>
@@ -624,10 +624,10 @@
 		<entity name="animalZombieVulture"/>
 		<entity name="animalSnake"/>
 		<entity name="animalWolf" prob="0.3"/>
+		<entity name="animalZombieDog" prob="0.3"/>
 		<entity name="animalBear" prob="0.05"/>
 		<entity name="animalDireWolf" prob="0.05"/>
 		<entity name="animalZombieBear" prob="0.05"/>
-		<entity name="animalZombieDog" prob="0.05"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
 		<entity name="zombieJoe"/>
