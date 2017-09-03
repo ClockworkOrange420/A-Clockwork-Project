@@ -662,16 +662,16 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 </buff>
 
 <buff id="shockingBuff" duration="5" type="armordown" stack="reset" actions="increment(shocking, 5, 0, 0, 1);max(shocking, 5)" castsound="electric_fence_impact" icon="ui_game_symbol_electric_power" name_key="shockedBuffName" description_key="shockedBuffDesc" tooltip_key="shockedBuffTooltip">
-	<modify id="0" stat="health" amount="-3" rate="0.5"/>
+	<modify id="0" stat="health" amount="-3" rate="0.5" type="armordown"/>
 </buff>
 <buff id="MetabolizeShock" type="armordown" buffif="shocking greater 0" debuffif="shocking less 1" actions="increment(shocking, -1, 1, 0, 0);min(shocking, 0);buff(shockedBuff2)"/>
 
 
 <buff id="shockedBuff2" type="armordown" requires="MetabolizeShock" duration="1" stack="reset" onexpired="shockedBuff3" actions="attach(ParticleEffects/p_electric_shock, @impact)">
-<modify id="1" stat="speedmodifier" setValue="0.3"/>
+<modify id="1" stat="speedmodifier" setValue="0.3" type="armordown"/>
 </buff>
 <buff id="shockedBuff3" type="armordown" requires="MetabolizeShock" duration="1" stack="reset" onexpired="shockedBuff2" actions="attach(ParticleEffects/p_electric_shock, @impact)">
-<modify id="1" stat="speedmodifier" setValue="0.3"/>
+<modify id="1" stat="speedmodifier" setValue="0.3" type="armordown"/>
 </buff>
 
 <buff id="eatSnowberryTrigger" duration="1" actions="increment(CTRsnowberry, 10, 0, 0, 1)"/>
