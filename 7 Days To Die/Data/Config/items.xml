@@ -10375,6 +10375,20 @@
 		<property name="HoldType" value="3"/>
 		<property name="EconomicValue" value="15"/>
 		<property name="Stacknumber" value="50"/>
+		<property class="Action0">
+			<!-- UseAction -->
+			<property name="Class" value="UseOther"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="1"/>
+			<property name="Gain_water" value="0"/>
+			<property name="Gain_stamina" value="40"/>
+			<property name="Sound_start" value="player_drinking"/>
+			<property name="Create_item" value="emptyJar"/>
+			<property name="Buff" value="eatFruit,recoveringTiny"/>
+			<property name="Debuff" value="dysentery,dysentery2"/>
+		</property>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -10385,9 +10399,9 @@
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="40"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="recoveringTiny"/>
 			<property name="Create_item" value="emptyJar"/>
 			<property name="Buff" value="eatFruit,recoveringTiny"/>
+			<property name="Debuff" value="dysentery,dysentery2"/>
 		</property>
 		<property name="DescriptionKey" value="honeyPoulticeDesc"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
