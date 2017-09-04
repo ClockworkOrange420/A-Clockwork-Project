@@ -131,7 +131,6 @@ built-in buff variables:
 <!-- This buff is called on the first time the player spawns into the game and on respawning the player after each death. Can not add buffs. -->
 <buff id="initvars" duration="1" actions="setvar(beers,0);setvar(BDKbloodLoss,0);setvar(CTRbed,0);setvar(CTRbedroll,0);setvar(CTRbigbed,0);setvar(CTRblockBurn2,0);setvar(CTRblockBurn3,0);setvar(CTRroadrun,0);setvar(CTRsnowberry,0);setvar(CTRtrapDmg1,0);setvar(CTRbluePill,0)"/>
 
-<!--Modded-->
 <buff id="woundActivatorClean" duration="30" onexpired="infection" requires="clean" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" type="sickness"/>
 <buff id="woundActivatorDirty" duration="15" onexpired="infection" requires="dirty" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" type="sickness"/>
 <buff id="woundActivatorGrimy" duration="10" onexpired="infection" requires="grimy" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" type="sickness"/>
@@ -142,9 +141,34 @@ built-in buff variables:
 	<modify id="1" stat="health" amount="-1" rate="1"/>
 </buff>
 
-<!--End-->
+<buff id="venomActivator" duration="1" mutex="vemonImmunity" type="healthdown" actions="buff(venomBad);buff(venom)"/>
 
-<!--
+<buff id="venom" duration="2400t" castsound="Player_*sick5" stack="discard" mutex="vemonImmunity" type="healthdown" actions="increment(venomGood, 1, 100t, 0, 0);damage(1,50t,0,0)" icon="ui_game_symbol_skull" name_key="Venomous Poison" description_key="You are poisoned with snake venom, there is no cure for it but you can build up an immunity to it." tooltip_key="Venomous Poison">
+	<modify id="0" stat="stamina" amount="-1" rate="3"/>
+</buff>
+
+<buff id="vemonImmunity" type="healthdown" buffif="venomGood gequal 100" debuffif="venomGood less 1" actions="debuff(venom)" icon="server_cheat" name_key="Venom Immunity" description_key="You are now immune to venom." tooltip_key="Venom Immunity"/>
+
+<buff id="venomBad" duration="1" stack="discard" requires="venom" mutex="vemonImmunity" type="healthdown" actions="increment(venomBad, 50, 0, 0, 1)"/>
+
+<buff id="MetabolizeVenomBad" buffif="venomBad greater 0" debuffif="venomBad less 1" actions="increment(venomBad, -10, 100t, 0, 0);min(venomBad, 0)"/>
+
+<buff id="venomSick" stack="discard" castsound="Player_*sick5" mutex="vemonImmunity,venomExtremelySick" buffif="venomBad gequal 50" debuffif="venomBad less 1" type="healthdown" actions="damage(4,50t,0,0)" icon="ui_game_symbol_skull" name_key="Venom Sickness" description_key="You are very sick from venom poisoning." tooltip_key="Very Sick Venomous Poisoning">
+	<modify id="0" stat="stamina" amount="-1" rate="3"/>
+	<modify id="3" stat="water" amount="-1" rate="30"/>
+	<modify id="0" stat="speedmodifier" setValue="0.90"/>
+</buff>
+
+<buff id="venomExtremelySick" stack="discard" castsound="Player_*sick5" mutex="vemonImmunity" buffif="venomBad gequal 100" debuffif="venomBad lequal 50" type="healthdown" actions="damage(9,50t,0,0);debuff(venomSick)" icon="ui_game_symbol_skull" name_key="Venom Extreme Sickness" description_key="You are extremely sick from venom poisoning, any more will kill you instantly." tooltip_key="Extremely Sick Venomous Poisoning">
+	<modify id="0" stat="stamina" amount="-1" rate="2"/>
+	<modify id="3" stat="water" amount="-2" rate="30"/>
+	<modify id="0" stat="speedmodifier" setValue="0.60"/>
+</buff>
+
+<buff id="vemonDeath" type="healthdown" buffif="venomBad gequal 150" actions="debuff(venom);debuff(venomStack);debuff(vemonImmunity);setvar(venomGood, 0);setvar(venomBad, 0);kill"/>
+
+
+<!--increment(variable, amount, frequency, duration, count) damage(amount,frequency,duration,count)
 Drunkeness: Starts with the DrinkBeer buff, which is triggered by the Beer item each time a beer is consumed.
 
 DrinkBeer has no icon specified so it is invisible to the player, you can use hidden buffs to perform some more
@@ -241,12 +265,12 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 </buff>
 
 <buff id="dysentery" mutex="cured,dysentery2" type="sickness" actions="increment(@wellness, -0.02, 30t, 0, 0)" duration="2400" onexpired="dysentery2"
-	icon="ui_game_symbol_dysentery" castsound="playersick" name_key="dysentery" description_key="dysenteryDesc" tooltip_key="dysenteryTooltip" cures="goldenRodTea,redTea,herbalAntibiotics,antibiotics" causes="bottledRiverWater,canMurkyWater">
+	icon="ui_game_symbol_dysentery" name_key="dysentery" description_key="dysenteryDesc" tooltip_key="dysenteryTooltip" cures="goldenRodTea,redTea,herbalAntibiotics,antibiotics" causes="bottledRiverWater,canMurkyWater">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
 </buff>
 
 <buff id="dysentery2" duration="0" actions="increment(@wellness, -0.25, 100t, 0, 0)" type="sickness"
-	icon="ui_game_symbol_dysentery" castsound="playersick" name_key="dysentery2" description_key="dysentery2Desc" tooltip_key="dysentery2Tooltip" cures="herbalAntibiotics,antibiotics" causes="bottledRiverWater,canMurkyWater">
+	icon="ui_game_symbol_dysentery" name_key="dysentery2" description_key="dysentery2Desc" tooltip_key="dysentery2Tooltip" cures="herbalAntibiotics,antibiotics" causes="bottledRiverWater,canMurkyWater">
 	<modify id="0" stat="stamina" amount="-2" rate="1"/>
 	<modify id="1" stat="health" amount="-5" rate="60"/>
 </buff>
@@ -259,7 +283,6 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 
 <buff id="smelly" duration="30" smell="largeSmell" icon="ui_game_symbol_dysentery" name_key="smelly" description_key="smellyDesc" tooltip_key="smellyTooltip"/>
 
-<!--Modded-->
 <buff id="recoveryRemover" duration="1" actions="debuff(recoveringCommon)"/>
 <buff id="cured" duration="1200t" stack="reset" actions="debuff(recovering);debuff(recoveringSmall);debuff(recoveringTiny);debuff(recovering2);debuff(recovering3);debuff(recovering4);setvar(infected, 0)" icon="ui_game_symbol_muscle" name_key="cured" description_key="curedDesc" tooltip_key="curedTooltip"/>
 <buff id="recoveringCommon" duration="0"/>
@@ -391,8 +414,6 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 	<modify id="1" stat="health" amount="-1" rate="30"/>
 </buff>
 
-
-
 <buff id="splashing"  requires="treading" onexpired="splashing2" duration="1" castsound="bucketbail_water" onexpiredsound="bucketplace_water" />
 <buff id="splashing2"  requires="treading" onexpired="splashing" duration="1" castsound="bucketbail_water" onexpiredsound="Mybullethitwater"/>
 
@@ -477,7 +498,6 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 	<modify id="0" stat="speedmodifier" mulValue="0.4"/>
 </buff>
 
-<!--Modded-->
 <buff id="sleepingChairTrigger" duration="1" actions="setvar(CTRChair, 3)"/>
 <buff id="sleepingChairEffect" duration="0" buffif="CTRChair greater 0" debuffif="CTRChair less 1" actions="increment(CTRChair, -0.75, 1, 0, 0)" name_key="You Are Resting" description_key="You are resting and will recover from fatigue slowly." tooltip_key="You are resting" icon="ui_game_symbol_chair"/>
 <buff id="sleepingChairEffect2" duration="0" mutex="rested" buffif="CTRChair greater 0" debuffif="CTRChair less 1" actions="increment(fatigue, -1, 1, 0, 0)"/>
@@ -514,14 +534,12 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 <buff id="radiation" type="sickness" buffif="radiation greater 0" debuffif="radiation equals 0" icon="ui_game_symbol_radiation" name_key="radiation" description_key="radiationDesc" tooltip_key="radiationTooltip">
 </buff>
 
-<!--Modded-->
-
 <buff id="bloodDrawTrigger" duration="1" actions="increment(BDKbloodLoss, 50, 1, 0, 0)" />
 <buff id="bloodDrawDecay" duration="0" buffif="BDKbloodLoss greater 0" debuffif="BDKbloodLoss less 1" actions="increment(BDKbloodLoss, -5, 50t, 0, 0)" />
 <buff id="bloodBagDecay" duration="1" actions="increment(BDKbloodLoss, -25, 1, 0, 0)" />
 
 <buff id="bloodDrawWarn" stack="discard" mutex="bloodDrawWeak,bloodDrawSick" buffif="BDKbloodLoss greater 100" debuffif="BDKbloodLoss lequal 50" duration="0"
-	icon="ui_game_symbol_food_poisoning" name_key="Slight Blood Loss" description_key="You are feeling slightly weak from blood loss but nothing serious" tooltip_key="Slight Blood Loss Nothing Serious" >
+	icon="ui_game_symbol_skull" name_key="Slight Blood Loss" description_key="You are feeling slightly weak from blood loss but nothing serious" tooltip_key="Slight Blood Loss Nothing Serious" >
 	<modify id="1" stat="stamina" amount="-0.5" rate="1"/>
 </buff>
 
@@ -641,7 +659,6 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 <buff id="rinsingOff" duration="1" mutex="fullyClean" actions="increment(hygiene, -600, 0, 0, 1);min(hygiene, 0)" icon="ui_game_symbol_water" name_key="Rinsing off" description_key="Rinsing off will not get you completly clean." tooltip_key="Rinsing off"/>
 <buff id="rinsingOffSmall" duration="1" mutex="fullyClean" actions="increment(hygiene, -300, 0, 0, 1);min(hygiene, 0)" icon="ui_game_symbol_water" name_key="Rinsing off" description_key="Rinsing off will not get you completly clean." tooltip_key="Rinsing off"/>
 <buff id="bathing" buffif="+water > 5" debuffif="-water > 1" mutex="fullyClean" actions="increment(hygiene, -120, 1, 0, 0)" icon="ui_game_symbol_water" name_key="Bathing" description_key="You are bathing and will become clean over time." tooltip_key="Bathing"/>
-<!--End-->
 
 <buff id="zombieElectricBuff" duration="0" actions="attach(ParticleEffects/p_electric_shock, @impact)" icon="ui_game_symbol_electric_power"/>
 
@@ -653,8 +670,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 	<modify id="0" stat="health" amount="15" rate="10" />
 </buff>
 
-
-<buff id="shockedBuff" duration="4.5" type="armordown" stack="discard" debuffif="ShockAmount equals 0" buffif="ShockAmount greater 0"
+<buff id="shockedBuff" duration="4.5" type="armordown" stack="reset" debuffif="ShockAmount equals 0" buffif="ShockAmount greater 0"
 	actions="attach(ParticleEffects/p_electric_shock, @impact)" castsound="electric_fence_impact"
 	icon="ui_game_symbol_electric_power" name_key="shockedBuffName" description_key="shockedBuffDesc" tooltip_key="shockedBuffTooltip">
 	<modify id="0" stat="health" amount="-3" rate="0.5" type="armordown"/>
@@ -666,10 +682,10 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 </buff>
 <buff id="MetabolizeShock" type="armordown" buffif="shocking greater 0" debuffif="shocking less 1" actions="increment(shocking, -1, 1, 0, 0);min(shocking, 0);buff(shockedBuff2)"/>
 
-
 <buff id="shockedBuff2" type="armordown" requires="MetabolizeShock" duration="1" stack="reset" onexpired="shockedBuff3" actions="attach(ParticleEffects/p_electric_shock, @impact)">
 <modify id="1" stat="speedmodifier" setValue="0.3" type="armordown"/>
 </buff>
+
 <buff id="shockedBuff3" type="armordown" requires="MetabolizeShock" duration="1" stack="reset" onexpired="shockedBuff2" actions="attach(ParticleEffects/p_electric_shock, @impact)">
 <modify id="1" stat="speedmodifier" setValue="0.3" type="armordown"/>
 </buff>
@@ -682,7 +698,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 
 <buff id="snowberryPoisonBuff" duration="0" buffif="CTRsnowberry gequal 61" debuffif="CTRsnowberry lequal 1"
 	castsound="Player_*sick5" causes="snowberryPlant,snowberryJuice,snowberryExtract"
-	type="disease" icon="ui_game_symbol_skull" name_key="snowberryPoisonName" description_key="snowberryPoisonDesc" tooltip_key="snowberryPoisonTooltip">
+	type="disease" icon="ui_game_symbol_food_poisoning" name_key="snowberryPoisonName" description_key="snowberryPoisonDesc" tooltip_key="snowberryPoisonTooltip">
 	<modify id="0" stat="health" amount="-1" rate="15"/>
 </buff>
 
@@ -701,7 +717,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 </buff>
 <buff id="lotusPoisonBuff" duration="0" buffif="CTRlotus gequal 61" debuffif="CTRlotus lequal 1" actions="increment(fatigue, 0.25, 50t, 0, 0);debuff(lotusEuphoricBuff)"
 	castsound="Player_*sick5" causes="lotusExtract"
-	type="disease" icon="ui_game_symbol_skull" name_key="Lotus Poisoning" description_key="Euphoric but dangerous" tooltip_key="You are not feeling well">
+	type="disease" icon="ui_game_symbol_food_poisoning" name_key="Lotus Poisoning" description_key="Euphoric but dangerous" tooltip_key="You are not feeling well">
 	<modify id="0" stat="health" amount="-1" rate="15"/>
 	<modify id="1" stat="speedmodifier" setValue="0.70"/>
 </buff>
@@ -733,7 +749,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 
 
 <buff id="NutritionStart" duration="3" mutex="NutritionStartLock" buffif="coretemp lequal 300" onexpired="NutritionReset" />
-<buff id="NutritionReset" duration="3" onexpired="NutritionStartLock" mutex="NutritionStartLock" actions="setvar(Nutrition, 360)" />
+<buff id="NutritionReset" duration="3" onexpired="NutritionStartLock" mutex="NutritionStartLock" actions="setvar(Nutrition, 360);setvar(venomGood, 0);setvar(venomBad, 0)" />
 <buff id="NutritionStartLock"/>
 <buff id="NutritionLowLock" buffif="Nutrition lequal 0" debuffif="Nutrition gequal 1" />
 <buff id="NutritionHighLock" buffif="Nutrition gequal 648" debuffif="Nutrition lequal 647" />

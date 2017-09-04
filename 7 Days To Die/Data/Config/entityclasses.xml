@@ -112,7 +112,7 @@
 	<property name="MaxViewAngle" value="360"/>
 	<property name="HandItem" value="handZombie"/>
 	<property name="Weight" value="70"/>
-	<property name="Immunity" value="sickness;disease;bleeding;wellness;staminadown"/>
+	<property name="Immunity" value="sickness;disease;bleeding;wellness;staminadown;healthdown"/>
 
 	<property name="WanderSpeed" value="0.08"/>
 	<property name="ApproachSpeed" value="0.2"/>
@@ -215,11 +215,11 @@
 	<property name="MaxHealth" value="750"/>
 	<property name="ExperienceGain" value="750"/>
 	<property name="LootListOnDeath" value="61"/>
-	<property name="HeadDismemberThreshold" value="0.2"/>
-	<property name="LowerLegDismemberThreshold" value="0.105"/>
-	<property name="UpperLegDismemberThreshold" value="0.105"/>
-	<property name="LowerArmDismemberThreshold" value="0.063"/>
-	<property name="UpperArmDismemberThreshold" value="0.063"/>
+	<property name="HeadDismemberThreshold" value="0.27"/>
+	<property name="LowerLegDismemberThreshold" value="0.225"/>
+	<property name="UpperLegDismemberThreshold" value="0.225"/>
+	<property name="LowerArmDismemberThreshold" value="0.105"/>
+	<property name="UpperArmDismemberThreshold" value="0.105"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/feral_rad"/>-->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
@@ -234,20 +234,16 @@
 	<property name="Buffs" value="zombieRadiatedBuff80"/>
 	<!-- Radiated zombie decap rules -->
 	<property name="HeadDismemberBaseChance" value="0"/>
-	<property name="HeadDismemberBonusChance" value="0.05"/>
-	<property name="HeadDismemberThreshold" value="0.23"/> <!-- if the total damage exceeds that value, there is a chance for dismemberment -->
-	<property name="LowerLegDismemberThreshold" value="0.175"/>
-	<property name="LowerLegDismemberBaseChance" value="0"/>
-	<property name="LowerLegDismemberBonusChance" value="0.09"/>
-	<property name="UpperLegDismemberThreshold" value="0.175"/>
-	<property name="UpperLegDismemberBaseChance" value="0"/>
-	<property name="UpperLegDismemberBonusChance" value="0.09"/>
-	<property name="LowerArmDismemberThreshold" value="0.105"/>
-	<property name="LowerArmDismemberBaseChance" value="0"/>
-	<property name="LowerArmDismemberBonusChance" value="0.09"/>
-	<property name="UpperArmDismemberThreshold" value="0.105"/>
-	<property name="UpperArmDismemberBaseChance" value="0"/>
-	<property name="UpperArmDismemberBonusChance" value="0.09"/>
+	<property name="HeadDismemberBonusChance" value="0.06"/>
+	<property name="HeadDismemberThreshold" value="0.3"/> <!-- if the total damage exceeds that value, there is a chance for dismemberment -->
+	<property name="LowerLegDismemberThreshold" value="0.325"/>
+	<property name="LowerLegDismemberBaseChance" value="-.15"/>
+	<property name="UpperLegDismemberThreshold" value="0.325"/>
+	<property name="UpperLegDismemberBaseChance" value="-.15"/>
+	<property name="LowerArmDismemberThreshold" value="0.255"/>
+	<property name="LowerArmDismemberBaseChance" value="-.15"/>
+	<property name="UpperArmDismemberThreshold" value="0.255"/>
+	<property name="UpperArmDismemberBaseChance" value="-.15"/>
 	<property name="LegCrawlerThreshold" value="0"/> <!-- at like .175 nearly every zombie knocked down from a leg hit turns into a crawler -->
 	<property name="LegCrippleThreshold" value="0.01"/>
 	<property name="KnockdownProneDamageThreshold" value="0.5"/>
@@ -1808,7 +1804,7 @@
 	<!--property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityAnimalBear" /-->
 	<!--property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityAnimalStag" /-->
 	<property name="MaxHealth" value="60"/>
-	<property name="HandItem" value="handZombie"/>
+	<property name="HandItem" value="handSnake"/>
 	<property name="Weight" value="70"/>
 	<property name="WanderSpeed" value="0.08"/>
 	<property name="WalkType" value="7"/>
@@ -1835,6 +1831,7 @@
 		<property name="state0" value="DeathTrigger"/>
 	</property>
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="2"/>
+	<drop event="Harvest" name="venomGland" tool_category="Butcher" count="1"/>
 </entity_class>
 
 <entity_class name="animalBoar" extends="animalTemplateHostile">
@@ -1916,7 +1913,7 @@
 	<property name="Explosion.ParticleIndex" value="6"/>
 	<property name="Explosion.RadiusBlocks" value="6"/>
 	<property name="Explosion.RadiusEntities" value="6"/>
-	<property name="Immunity" value="sickness;disease;bleeding;wellness;staminadown;armordown"/>
+	<property name="Immunity" value="sickness;disease;bleeding;wellness;staminadown;armordown;healthdown"/>
 	<property name="RotateToGround" value="true"/>
 	<property name="Faction" value="none"/>
 	<property name="MapIcon" value="ui_game_symbol_minibike"/>

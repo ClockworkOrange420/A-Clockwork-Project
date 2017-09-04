@@ -653,22 +653,30 @@
 		<entity name="zombieSoldier"/>
 		<entity name="zombieMaleHazmat"/>
 	</entitygroup>
+	
+	<entitygroup name="SnakeGroup">
+		<entity name="animalSnake"/>
+	</entitygroup>
 
 	<entitygroup name="ZombieDogGroup">
 		<entity name="animalZombieDog"/>
+		<entity name="animalSnake"/>
 	</entitygroup>
 
 	<entitygroup name="WolfGroup">
 		<entity name="animalWolf"/>
+		<entity name="animalSnake"/>
 	</entitygroup>
 
 	<entitygroup name="WolfPack">
 		<entity name="animalWolf"/>
+		<entity name="animalSnake"/>
 		<entity name="animalDireWolf" prob="0.5"/>
 	</entitygroup>
 
 	<entitygroup name="VultureGroup">
 		<entity name="animalZombieVulture"/>
+		<entity name="animalSnake"/>
 	</entitygroup>
 
 	<entitygroup name="ZombieBusinessManGroup">
@@ -718,6 +726,7 @@
 		<entity name="animalZombieDog"/>
 		<entity name="animalBoar"/>
 		<entity name="animalChicken"/>
+		<entity name="animalSnake"/>
 	</entitygroup>
 
 	<entitygroup name="ZombieSoldierGroup">
@@ -782,10 +791,12 @@
 	<entitygroup name="ZombieAnimalsGroup">
 		<entity name="animalZombieDog" prob="4"/>
 		<entity name="animalZombieBear"/>
+		<entity name="animalSnake"/>
 	</entitygroup>
 
 	<entitygroup name="ZombieBearsGroup">
 		<entity name="animalZombieBear"/>
+		<entity name="animalSnake"/>
 	</entitygroup>
 
 	<entitygroup name="BanditGroup">
