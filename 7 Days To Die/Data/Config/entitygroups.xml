@@ -387,10 +387,10 @@
 	<entitygroup name="EnemyAnimalsSnow">
 		<entity name="animalZombieVulture"/>
 		<entity name="animalWolf" prob="0.3"/>
+		<entity name="animalZombieDog" prob="0.3"/>
 		<entity name="animalBear" prob="0.05"/>
 		<entity name="animalDireWolf" prob="0.05"/>
 		<entity name="animalZombieBear" prob="0.05"/>
-		<entity name="animalZombieDog" prob="0.05"/>
 		<entity name="zombieSnow" prob="3"/>
 		<entity name="zombieUtilityWorker"/>
 		<entity name="zombieFemaleFat"/>
