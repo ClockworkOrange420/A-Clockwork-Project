@@ -99,176 +99,176 @@ There is a console command: forcegamestage
 
 	<spawner name="WanderingHorde"> <!-- These will wrap around at 50. -->
 		<!-- Will probably have to undo that later. Rev 19924 /19944 -->
-		<gamestage stage="01"><spawn group="scoutHordeStageGS1"	num="15" maxAlive="15" duration="09"/></gamestage>
+		<gamestage stage="01"><spawn group="ZombiesAll"	num="15" maxAlive="15" duration="09"/></gamestage>
 		<gamestage stage="02"><spawn group="ZombieGhostTownGroup"	num="15" maxAlive="15" duration="09"/></gamestage>
-		<gamestage stage="03"><spawn group="scoutHordeStageGS5"	num="16" maxAlive="16" duration="09"/></gamestage>
+		<gamestage stage="03"><spawn group="ZombiesAll"	num="16" maxAlive="16" duration="09"/></gamestage>
 		<gamestage stage="04"><spawn group="ZombieDogGroup"		num="05" maxAlive="05" duration="09"/></gamestage>
-		<gamestage stage="05"><spawn group="feralHordeStageGS1"	num="16" maxAlive="16" duration="09"/></gamestage>
+		<gamestage stage="05"><spawn group="ZombiesAll"	num="16" maxAlive="16" duration="09"/></gamestage>
 		<gamestage stage="06"><spawn group="ZombieBusinessManGroup"	num="15" maxAlive="15" duration="09"/></gamestage>
-		<gamestage stage="07"><spawn group="feralHordeStageGS4"	num="16" maxAlive="16" duration="09"/></gamestage>
+		<gamestage stage="07"><spawn group="ZombiesAll"	num="16" maxAlive="16" duration="09"/></gamestage>
 		<gamestage stage="08"><spawn group="VultureGroup"			num="05" maxAlive="05" duration="09"/></gamestage>
-		<gamestage stage="09"><spawn group="scoutHordeStageGS8"	num="15" maxAlive="15" duration="09"/></gamestage>
+		<gamestage stage="09"><spawn group="ZombiesAll"	num="15" maxAlive="15" duration="09"/></gamestage>
 		<gamestage stage="10"><spawn group="SnakeGroup"	num="17" maxAlive="17" duration="09"/></gamestage>
-		<gamestage stage="11"><spawn group="scoutHordeStageGS14"	num="13" maxAlive="13" duration="09"/></gamestage>
+		<gamestage stage="11"><spawn group="ZombiesAll"	num="13" maxAlive="13" duration="09"/></gamestage>
 		<gamestage stage="12"><spawn group="WolfGroup"			num="04" maxAlive="04" duration="09"/></gamestage>
-		<gamestage stage="13"><spawn group="feralHordeStageGS7"	num="15" maxAlive="15" duration="09"/></gamestage>
-		<gamestage stage="14"><spawn group="feralHordeStageGS10"	num="17" maxAlive="17" duration="09"/></gamestage>
+		<gamestage stage="13"><spawn group="ZombiesAll"	num="15" maxAlive="15" duration="09"/></gamestage>
+		<gamestage stage="14"><spawn group="ZombiesAll"	num="17" maxAlive="17" duration="09"/></gamestage>
 		<gamestage stage="15"><spawn group="ZombieBikerBarGroup"	num="16" maxAlive="16" duration="09"/></gamestage>
-		<gamestage stage="16"><spawn group="feralHordeStageGS13"	num="17" maxAlive="17" duration="09"/></gamestage>
-		<gamestage stage="17"><spawn group="scoutHordeStageGS18"	num="17" maxAlive="17" duration="09"/></gamestage>
+		<gamestage stage="16"><spawn group="ZombiesAll"	num="17" maxAlive="17" duration="09"/></gamestage>
+		<gamestage stage="17"><spawn group="ZombiesAll"	num="17" maxAlive="17" duration="09"/></gamestage>
 		<gamestage stage="18"><spawn group="ZombieSoldierGroup"	num="18" maxAlive="18" duration="09"/></gamestage>
-		<gamestage stage="19"><spawn group="scoutHordeStageGS27"	num="16" maxAlive="16" duration="09"/></gamestage>
+		<gamestage stage="19"><spawn group="ZombiesAll"	num="16" maxAlive="16" duration="09"/></gamestage>
 		<gamestage stage="20"><spawn group="ZombieDogGroup"		num="08" maxAlive="08" duration="09"/></gamestage>
-		<gamestage stage="21"><spawn group="feralHordeStageGS16"	num="18" maxAlive="18" duration="09"/></gamestage>
+		<gamestage stage="21"><spawn group="ZombiesAll"	num="18" maxAlive="18" duration="09"/></gamestage>
 		<gamestage stage="22"><spawn group="ZombieFarmGroup"	num="16" maxAlive="16" duration="09"/></gamestage>
-		<gamestage stage="23"><spawn group="feralHordeStageGS23"	num="17" maxAlive="17" duration="09"/></gamestage>
+		<gamestage stage="23"><spawn group="ZombiesAll"	num="17" maxAlive="17" duration="09"/></gamestage>
 		<gamestage stage="24"><spawn group="ZombieGhostTownGroup"	num="16" maxAlive="16" duration="09"/></gamestage>
 		<gamestage stage="25"><spawn group="SnakeGroup"	num="17" maxAlive="17" duration="09"/></gamestage>
-		<gamestage stage="26"><spawn group="scoutHordeStageGS36"	num="15" maxAlive="15" duration="09"/></gamestage>
+		<gamestage stage="26"><spawn group="ZombiesAll"	num="15" maxAlive="15" duration="09"/></gamestage>
 		<gamestage stage="27"><spawn group="VultureGroup"			num="09" maxAlive="09" duration="09"/></gamestage>
-		<gamestage stage="28"><spawn group="scoutHordeStageGS41"	num="18" maxAlive="18" duration="09"/></gamestage>
+		<gamestage stage="28"><spawn group="ZombiesAll"	num="18" maxAlive="18" duration="09"/></gamestage>
 		<gamestage stage="29"><spawn group="ZombieUtilityWorkerGroup"	num="16" maxAlive="16" duration="09"/></gamestage>
-		<gamestage stage="30"><spawn group="feralHordeStageGS31"	num="30" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="31"><spawn group="feralHordeStageGS35"	num="35" maxAlive="35" duration="09"/></gamestage>
+		<gamestage stage="30"><spawn group="ZombiesAll"	num="30" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="31"><spawn group="ZombiesAll"	num="35" maxAlive="35" duration="09"/></gamestage>
 		<gamestage stage="32"><spawn group="ZombieBadassGroup"	num="40" maxAlive="40" duration="09"/></gamestage>
-		<gamestage stage="33"><spawn group="scoutHordeStageGS52"	num="50" maxAlive="50" duration="09"/></gamestage>
+		<gamestage stage="33"><spawn group="ZombiesAll"	num="50" maxAlive="50" duration="09"/></gamestage>
 		<gamestage stage="34"><spawn group="ZombieDogGroup"		num="12" maxAlive="12" duration="09"/></gamestage>
-		<gamestage stage="35"><spawn group="scoutHordeStageGS58"	num="55" maxAlive="55" duration="09"/></gamestage>
+		<gamestage stage="35"><spawn group="ZombiesAll"	num="55" maxAlive="55" duration="09"/></gamestage>
 		<gamestage stage="36"><spawn group="ZombieFootballStadiumGroup"	num="60" maxAlive="60" duration="09"/></gamestage>
-		<gamestage stage="37"><spawn group="feralHordeStageGS40"	num="65" maxAlive="65" duration="09"/></gamestage>
+		<gamestage stage="37"><spawn group="ZombiesAll"	num="65" maxAlive="65" duration="09"/></gamestage>
 		<gamestage stage="38"><spawn group="ZombieAnimalsGroup"	num="15" maxAlive="15" duration="09"/></gamestage>
-		<gamestage stage="39"><spawn group="feralHordeStageGS44"	num="70" maxAlive="70" duration="09"/></gamestage>
-		<gamestage stage="40"><spawn group="feralHordeStageGS49"	num="75" maxAlive="75" duration="09"/></gamestage>
+		<gamestage stage="39"><spawn group="ZombiesAll"	num="70" maxAlive="70" duration="09"/></gamestage>
+		<gamestage stage="40"><spawn group="ZombiesAll"	num="75" maxAlive="75" duration="09"/></gamestage>
 		<gamestage stage="41"><spawn group="WolfPack"			num="10" maxAlive="10" duration="09"/></gamestage>
-		<gamestage stage="42"><spawn group="scoutHordeStageGS64"	num="80" maxAlive="80" duration="09"/></gamestage>
+		<gamestage stage="42"><spawn group="ZombiesAll"	num="80" maxAlive="80" duration="09"/></gamestage>
 		<gamestage stage="43"><spawn group="SnakeGroup"	num="85" maxAlive="85" duration="09"/></gamestage>
-		<gamestage stage="44"><spawn group="ZombieSoldierGroup"	num="21" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="44"><spawn group="ZombiesAll"	num="21" maxAlive="30" duration="09"/></gamestage>
 		<gamestage stage="45"><spawn group="ZombieBikerBarGroup"	num="90" maxAlive="90" duration="09"/></gamestage>
-		<gamestage stage="46"><spawn group="feralHordeStageGS54"	num="95" maxAlive="95" duration="09"/></gamestage>
+		<gamestage stage="46"><spawn group="ZombiesAll"	num="95" maxAlive="95" duration="09"/></gamestage>
 		<gamestage stage="47"><spawn group="VultureGroup"			num="15" maxAlive="15" duration="09"/></gamestage>
-		<gamestage stage="48"><spawn group="feralHordeStageGS59"	num="100" maxAlive="100" duration="09"/></gamestage>
-		<gamestage stage="49"><spawn group="feralHordeStageGS64"	num="100" maxAlive="100" duration="09"/></gamestage>
+		<gamestage stage="48"><spawn group="ZombiesAll"	num="100" maxAlive="100" duration="09"/></gamestage>
+		<gamestage stage="49"><spawn group="ZombiesAll"	num="100" maxAlive="100" duration="09"/></gamestage>
 		<gamestage stage="50"><spawn group="ZombieBearsGroup"		num="06" maxAlive="06" duration="09"/></gamestage>
-		<gamestage stage="51"><spawn group="feralHordeStageGS69"	num="100" maxAlive="100" duration="09"/></gamestage>
-		<gamestage stage="52"><spawn group="feralHordeStageGS74"	num="100" maxAlive="100" duration="09"/></gamestage>
+		<gamestage stage="51"><spawn group="ZombiesAll"	num="100" maxAlive="100" duration="09"/></gamestage>
+		<gamestage stage="52"><spawn group="ZombiesAll"	num="100" maxAlive="100" duration="09"/></gamestage>
 		<gamestage stage="53"><spawn group="ZombieGhostTownGroup"	num="100" maxAlive="100" duration="9"/></gamestage>
-		<gamestage stage="54"><spawn group="scoutHordeStageGS76" num="100" maxAlive="100" duration="9"/></gamestage>
-		<gamestage stage="55"><spawn group="scoutHordeStageGS82" num="100" maxAlive="100" duration="9"/></gamestage>
+		<gamestage stage="54"><spawn group="ZombiesAll" num="100" maxAlive="100" duration="9"/></gamestage>
+		<gamestage stage="55"><spawn group="ZombiesAll" num="100" maxAlive="100" duration="9"/></gamestage>
 		<gamestage stage="56"><spawn group="ZombieBadassGroup" num="100" maxAlive="100" duration="9"/></gamestage>
-		<gamestage stage="57"><spawn group="scoutHordeStageGS96" num="100" maxAlive="100" duration="9"/></gamestage>
-		<gamestage stage="58"><spawn group="feralHordeStageGS103" num="100" maxAlive="100" duration="9"/></gamestage>
+		<gamestage stage="57"><spawn group="ZombiesAll" num="100" maxAlive="100" duration="9"/></gamestage>
+		<gamestage stage="58"><spawn group="ZombiesAll" num="100" maxAlive="100" duration="9"/></gamestage>
 		<gamestage stage="59"><spawn group="ZombieUtilityWorkerGroup" num="105" maxAlive="105" duration="9"/></gamestage>
-		<gamestage stage="60"><spawn group="scoutHordeStageGS117" num="107" maxAlive="107" duration="9"/></gamestage>
-		<gamestage stage="61"><spawn group="feralHordeStageGS127" num="114" maxAlive="114" duration="9"/></gamestage>
+		<gamestage stage="60"><spawn group="ZombiesAll" num="107" maxAlive="107" duration="9"/></gamestage>
+		<gamestage stage="61"><spawn group="ZombiesAll" num="114" maxAlive="114" duration="9"/></gamestage>
 		<gamestage stage="62"><spawn group="ZombieBusinessManGroup" num="120" maxAlive="120" duration="9"/></gamestage>
-		<gamestage stage="63"><spawn group="scoutHordeStageGS140" num="128" maxAlive="128" duration="9"/></gamestage>
-		<gamestage stage="64"><spawn group="feralHordeStageGS153" num="135" maxAlive="135" duration="9"/></gamestage>
+		<gamestage stage="63"><spawn group="ZombiesAll" num="128" maxAlive="128" duration="9"/></gamestage>
+		<gamestage stage="64"><spawn group="ZombiesAll" num="135" maxAlive="135" duration="9"/></gamestage>
 		<gamestage stage="65"><spawn group="ZombieFarmGroup" num="20" maxAlive="20" duration="9"/></gamestage>
-		<gamestage stage="66"><spawn group="scoutHordeStageGS164" num="149" maxAlive="149" duration="9"/></gamestage>
-		<gamestage stage="67"><spawn group="feralHordeStageGS174" num="156" maxAlive="156" duration="9"/></gamestage>
+		<gamestage stage="66"><spawn group="ZombiesAll" num="149" maxAlive="149" duration="9"/></gamestage>
+		<gamestage stage="67"><spawn group="ZombiesAll" num="156" maxAlive="156" duration="9"/></gamestage>
 		<gamestage stage="68"><spawn group="ZombieDogGroup" num="25" maxAlive="25" duration="9"/></gamestage>
-		<gamestage stage="69"><spawn group="scoutHordeStageGS189" num="172" maxAlive="172" duration="9"/></gamestage>
-		<gamestage stage="70"><spawn group="feralHordeStageGS202" num="180" maxAlive="180" duration="9"/></gamestage>
+		<gamestage stage="69"><spawn group="ZombiesAll" num="172" maxAlive="172" duration="9"/></gamestage>
+		<gamestage stage="70"><spawn group="ZombiesAll" num="180" maxAlive="180" duration="9"/></gamestage>
 		<gamestage stage="71"><spawn group="ZombieFootballStadiumGroup" num="188" maxAlive="188" duration="9"/></gamestage>
-		<gamestage stage="72"><spawn group="scoutHordeStageGS216" num="196" maxAlive="196" duration="9"/></gamestage>
-		<gamestage stage="73"><spawn group="feralHordeStageGS232" num="204" maxAlive="204" duration="9"/></gamestage>
+		<gamestage stage="72"><spawn group="ZombiesAll" num="196" maxAlive="196" duration="9"/></gamestage>
+		<gamestage stage="73"><spawn group="ZombiesAll" num="204" maxAlive="204" duration="9"/></gamestage>
 		<gamestage stage="74"><spawn group="WolfPack" num="212" maxAlive="25" duration="25"/></gamestage>
-		<gamestage stage="75"><spawn group="scoutHordeStageGS243" num="220" maxAlive="220" duration="9"/></gamestage>
-		<gamestage stage="76"><spawn group="feralHordeStageGS255" num="228" maxAlive="228" duration="9"/></gamestage>
+		<gamestage stage="75"><spawn group="ZombiesAll" num="220" maxAlive="220" duration="9"/></gamestage>
+		<gamestage stage="76"><spawn group="ZombiesAll" num="228" maxAlive="228" duration="9"/></gamestage>
 		<gamestage stage="77"><spawn group="SnakeGroup" num="30" maxAlive="30" duration="9"/></gamestage>
-		<gamestage stage="78"><spawn group="scoutHordeStageGS272" num="246" maxAlive="246" duration="9"/></gamestage>
-		<gamestage stage="79"><spawn group="feralHordeStageGS287" num="254" maxAlive="254" duration="9"/></gamestage>
+		<gamestage stage="78"><spawn group="ZombiesAll" num="246" maxAlive="246" duration="9"/></gamestage>
+		<gamestage stage="79"><spawn group="ZombiesAll" num="254" maxAlive="254" duration="9"/></gamestage>
 		<gamestage stage="80"><spawn group="ZombieSoldierGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="81"><spawn group="scoutHordeStageGS301" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="82"><spawn group="feralHordeStageGS312" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="81"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="82"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="83"><spawn group="ZombieBikerBarGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="84"><spawn group="scoutHordeStageGS332" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="85"><spawn group="feralHordeStageGS346" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="84"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="85"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="86"><spawn group="VultureGroup" num="30" maxAlive="30" duration="9"/></gamestage>
-		<gamestage stage="87"><spawn group="scoutHordeStageGS364" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="88"><spawn group="feralHordeStageGS381" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="87"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="88"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="89"><spawn group="ZombieBearsGroup" num="12" maxAlive="12" duration="9"/></gamestage>
-		<gamestage stage="90"><spawn group="scoutHordeStageGS396" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="91"><spawn group="feralHordeStageGS407" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="90"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="91"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="92"><spawn group="ZombieGhostTownGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="93"><spawn group="scoutHordeStageGS430" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="94"><spawn group="feralHordeStageGS444" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="93"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="94"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="95"><spawn group="ZombieBadassGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="96"><spawn group="scoutHordeStageGS488" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="97"><spawn group="feralHordeStageGS463" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="96"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="97"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="98"><spawn group="ZombieUtilityWorkerGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="99"><spawn group="scoutHordeStageGS500" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="100"><spawn group="feralHordeStageGS482" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="99"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="100"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="101"><spawn group="ZombieBusinessManGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="102"><spawn group="scoutHordeStageGS524" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="103"><spawn group="feralHordeStageGS501" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="102"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="103"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="104"><spawn group="ZombieFarmGroup" num="25" maxAlive="25" duration="9"/></gamestage>
-		<gamestage stage="105"><spawn group="scoutHordeStageGS548" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="106"><spawn group="feralHordeStageGS520" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="105"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="106"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="107"><spawn group="ZombieDogGroup" num="20" maxAlive="20" duration="9"/></gamestage>
-		<gamestage stage="108"><spawn group="scoutHordeStageGS573" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="109"><spawn group="feralHordeStageGS540" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="108"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="109"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="110"><spawn group="ZombieFootballStadiumGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="111"><spawn group="scoutHordeStageGS598" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="112"><spawn group="feralHordeStageGS560" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="111"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="112"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="113"><spawn group="WolfPack" num="20" maxAlive="20" duration="9"/></gamestage>
-		<gamestage stage="114"><spawn group="scoutHordeStageGS623" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="115"><spawn group="feralHordeStageGS580" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="114"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="115"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="116"><spawn group="SnakeGroup" num="30" maxAlive="30" duration="9"/></gamestage>
-		<gamestage stage="117"><spawn group="feralHordeStageGS600" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="118"><spawn group="scoutHordeStageGS649" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="117"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="118"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="119"><spawn group="ZombieSoldierGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="120"><spawn group="feralHordeStageGS620" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="121"><spawn group="scoutHordeStageGS675" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="120"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="121"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="122"><spawn group="ZombieBikerBarGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="123"><spawn group="feralHordeStageGS641" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="124"><spawn group="scoutHordeStageGS702" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="123"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="124"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="125"><spawn group="VultureGroup" num="30" maxAlive="30" duration="9"/></gamestage>
-		<gamestage stage="126"><spawn group="feralHordeStageGS662" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="127"><spawn group="scoutHordeStageGS729" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="126"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="127"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="128"><spawn group="ZombieBearsGroup" num="15" maxAlive="15" duration="9"/></gamestage>
-		<gamestage stage="129"><spawn group="feralHordeStageGS683" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="130"><spawn group="scoutHordeStageGS756" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="129"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="130"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="131"><spawn group="ZombieGhostTownGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="132"><spawn group="feralHordeStageGS704" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="133"><spawn group="scoutHordeStageGS783" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="132"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="133"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="134"><spawn group="ZombieBadassGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="135"><spawn group="feralHordeStageGS726" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="136"><spawn group="scoutHordeStageGS811" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="135"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="136"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="137"><spawn group="ZombieUtilityWorkerGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="138"><spawn group="feralHordeStageGS747" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="139"><spawn group="scoutHordeStageGS839" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="138"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="139"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="140"><spawn group="ZombieBusinessManGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="141"><spawn group="feralHordeStageGS769" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="142"><spawn group="scoutHordeStageGS868" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="141"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="142"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="143"><spawn group="ZombieFarmGroup" num="30" maxAlive="30" duration="9"/></gamestage>
-		<gamestage stage="144"><spawn group="feralHordeStageGS791" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="145"><spawn group="scoutHordeStageGS896" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="144"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="145"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="146"><spawn group="ZombieDogGroup" num="20" maxAlive="20" duration="9"/></gamestage>
-		<gamestage stage="147"><spawn group="feralHordeStageGS813" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="148"><spawn group="scoutHordeStageGS925" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="147"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="148"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="149"><spawn group="ZombieFootballStadiumGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="150"><spawn group="feralHordeStageGS836" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="151"><spawn group="scoutHordeStageGS955" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="150"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="151"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="152"><spawn group="WolfPack" num="20" maxAlive="20" duration="9"/></gamestage>
-		<gamestage stage="153"><spawn group="feralHordeStageGS858" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="154"><spawn group="scoutHordeStageGS985" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="153"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="154"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="155"><spawn group="SnakeGroup" num="30" maxAlive="30" duration="9"/></gamestage>
-		<gamestage stage="156"><spawn group="feralHordeStageGS881" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="157"><spawn group="scoutHordeStageGS1015" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="156"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="157"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="158"><spawn group="ZombieSoldierGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="159"><spawn group="feralHordeStageGS904" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="160"><spawn group="scoutHordeStageGS1045" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="159"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="160"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="161"><spawn group="ZombieBikerBarGroup" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="162"><spawn group="feralHordeStageGS927" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="163"><spawn group="scoutHordeStageGS1075" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="162"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="163"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="164"><spawn group="VultureGroup" num="30" maxAlive="30" duration="9"/></gamestage>
-		<gamestage stage="165"><spawn group="feralHordeStageGS951" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="166"><spawn group="scoutHordeStageGS1106" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="165"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="166"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 		<gamestage stage="167"><spawn group="ZombieBearsGroup" num="15" maxAlive="15" duration="9"/></gamestage>
-		<gamestage stage="168"><spawn group="feralHordeStageGS974" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="169"><spawn group="scoutHordeStageGS1137" num="256" maxAlive="256" duration="9"/></gamestage>
-		<gamestage stage="170"><spawn group="feralHordeStageGS974" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="168"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="169"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
+		<gamestage stage="170"><spawn group="ZombiesAll" num="256" maxAlive="256" duration="9"/></gamestage>
 	</spawner>
 
 	<!-- <group name="S_Default_XS" emptyChance="0.5" decoyChance="0.2" decoy1hpChance="0.5">

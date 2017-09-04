@@ -23,6 +23,7 @@
 		<entity name="zombieStripper" prob="0.3"/>
 		<entity name="zombieSoldier" prob="0.3"/>
 		<entity name="zombieFatHawaiian" prob="0.3"/>
+		<entity name="zombieMaleHazmat" prob="0.3"/>
 		<entity name="zombieElectricUtilityWorker" prob="0.5"/>
 	</entitygroup>
 
@@ -50,6 +51,7 @@
 		<entity name="zombieStripper" prob="0.3"/>
 		<entity name="zombieSoldier" prob="0.3"/>
 		<entity name="zombieFatHawaiian" prob="0.3"/>
+		<entity name="zombieMaleHazmat" prob="0.3"/>
 		<entity name="zombieElectricUtilityWorker" prob="0.5"/>
 	</entitygroup>
 
