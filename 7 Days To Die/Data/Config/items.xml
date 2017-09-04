@@ -11403,7 +11403,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="1"/>
 			<property name="Gain_wellness" value="0"/>
-			<property name="Sound_start" value="player_eating"/>
+			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="venomActivator"/>
 		</property>
 		<property class="Action1">
@@ -11415,7 +11415,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="1"/>
 			<property name="Gain_wellness" value="0"/>
-			<property name="Sound_start" value="player_eating"/>
+			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="venomActivator"/>
 		</property>
 		<property name="DescriptionKey" value="venomGlandDesc"/>
