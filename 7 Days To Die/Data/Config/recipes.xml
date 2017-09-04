@@ -881,9 +881,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="Flour" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="Pepperoni" count="8" craft_time = "8" craft_area="woodTable" craft_tool="huntingKnife" >
-		<ingredient name="Pork" count="1"/>
-	</recipe>
 	<recipe name="slicedHam" count="8" craft_time = "8" craft_area="woodTable" craft_tool="huntingKnife" >
 		<ingredient name="Pork" count="1"/>
 	</recipe>
@@ -935,19 +932,19 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="Pizza" count="1" craft_time = "16" craft_area="Old_Oven" craft_tool="cookingGrill" >
 		<ingredient name="Dough" count="1"/>
-		<ingredient name="Pepperoni" count="8"/>
+		<ingredient name="slicedHam" count="8"/>
 		<ingredient name="Cheese" count="1"/>
 		<ingredient name="mushrooms" count="3"/>
 	</recipe>
 	<recipe name="Pizza" count="1" craft_time = "16" craft_area="New_Oven" craft_tool="cookingGrill" >
 		<ingredient name="Dough" count="1"/>
-		<ingredient name="Pepperoni" count="8"/>
+		<ingredient name="slicedHam" count="8"/>
 		<ingredient name="Cheese" count="1"/>
 		<ingredient name="mushrooms" count="3"/>
 	</recipe>
 	<recipe name="Pizza" count="1" craft_time = "16" craft_area="campfire" craft_tool="cookingGrill" >
 		<ingredient name="Dough" count="1"/>
-		<ingredient name="Pepperoni" count="8"/>
+		<ingredient name="slicedHam" count="8"/>
 		<ingredient name="Cheese" count="1"/>
 		<ingredient name="mushrooms" count="3"/>
 	</recipe>
@@ -1035,11 +1032,11 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="egg" count="2"/>
 		<ingredient name="Dough" count="1"/>
 	</recipe>
-	<recipe name="Blueberry_Jam" count="1" craft_time = "8" >
+	<recipe name="Blueberry_Jam" count="1" craft_time = "8" craft_area="woodTable" craft_tool="Mortar_and_Pestle" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="blueberries" count="2"/>
 	</recipe>
-	<recipe name="Cornbread_and_Jam" count="1" craft_time = "8" >
+	<recipe name="Cornbread_and_Jam" count="1" craft_time = "8" craft_area="woodTable" craft_tool="huntingKnife" >
 		<ingredient name="Blueberry_Jam" count="1"/>
 		<ingredient name="cornBread" count="1"/>
 	</recipe>

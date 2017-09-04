@@ -344,10 +344,10 @@ If you do not declare them, the decorations of the main biome are used.
 				<layer depth="3" blockname="bedrock"/>
 			</layers>
 			<decorations>
-				<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.0004"/>
+				<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.0002"/>
 				<decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.0005"/>
 				<decoration type="block" blockname="plantedChrysanthemum3Harvest" prob="0.0005"/>
-				<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0004"/>
+				<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0002"/>
 				<decoration type="block" blockname="plantedCotton3Harvest" prob="0.0005"/>
 				<decoration type="block" blockname="forestFlower" prob ="0.0005"/>
 				<decoration type="block" blockname="rock01" prob ="0.01"/>
@@ -454,13 +454,13 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="rock04" prob=".005"/>
 			<decoration type="block" blockname="rockResource02" prob ="0.0005" rotatemax="3"/>
 			<decoration type="block" blockname="cntBirdnest" prob ="0.002"/>
-			<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.0004"/>
+			<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.0002"/>
 			<decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.0005"/>
 			<decoration type="block" blockname="plantedChrysanthemum3Harvest" prob="0.0005"/>
-			<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0004"/>
+			<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0002"/>
 			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.0005"/>
 			<decoration type="block" blockname="forestFlower" prob ="0.0005"/>
-			<decoration type="block" blockname="treeAzalea" prob="0.003"/>
+			<decoration type="block" blockname="treeAzalea" prob="0.0005"/>
 			<decoration type="block" blockname="treeBirch10m" prob="0.0016" rotatemax="7"/>
 			<decoration type="block" blockname="treeBirch12m" prob="0.0018" rotatemax="7"/>
 			<decoration type="block" blockname="treeBirch15m" prob="0.005" rotatemax="7"/>
@@ -480,7 +480,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="treeMountainPine19m" prob="0.0002" rotatemax="7"/>
 			<decoration type="block" blockname="treeMountainPineDry" prob="0.0002" rotatemax="7"/>
 			<decoration type="block" blockname="treeMountainPine20m" prob="0.0002" rotatemax="7"/>
-			<decoration type="block" blockname="snowberry3Harvest" prob ="0.0005"/>
+			<decoration type="block" blockname="snowberry3Harvest" prob ="0.0002"/>
 			<decoration type="block" blockname="treePlainsGrassDiagonal" prob ="0.0007" rotatemax="7"/>
 			<decoration type="block" blockname="treeBrownGrassDiagonal" prob ="0.0007" rotatemax="7"/>
 			<decoration type="block" blockname="treeForestGrassDiagonal" prob ="0.25" rotatemax="7"/>
@@ -529,10 +529,10 @@ If you do not declare them, the decorations of the main biome are used.
 				<layer depth="3" blockname="bedrock"/>
 			</layers>
 			<decorations>
-				<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.0004"/>
+				<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.0002"/>
 				<decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.0005"/>
 				<decoration type="block" blockname="plantedChrysanthemum3Harvest" prob="0.0005"/>
-				<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0004"/>
+				<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0002"/>
 				<decoration type="block" blockname="plantedCotton3Harvest" prob="0.0005"/>
 				<decoration type="block" blockname="snowberry3Harvest" prob ="0.0001"/>
 				<decoration type="block" blockname="forestFlower" prob ="0.0005"/>
@@ -635,10 +635,10 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="prefab" name="rock_form02" prob="0.0007" rotatemax="7"/>
 			<decoration type="prefab" name="rock_form01" prob="0.0007" rotatemax="7"/>
 			<decoration type="prefab" name="resource_lead_pile" prob=".0007" rotatemax="7"/>
-			<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.0004"/>
+			<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.0002"/>
 			<decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.0005"/>
 			<decoration type="block" blockname="plantedChrysanthemum3Harvest" prob="0.0005"/>
-			<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0004"/>
+			<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0002"/>
 			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.0005"/>
 			<decoration type="block" blockname="forestFlower" prob ="0.0005"/>
 			<decoration type="block" blockname="treeAzalea" prob="0.0005"/>
@@ -659,7 +659,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="treeBurntPine01" prob="0.0007" rotatemax="7"/>
 			<decoration type="block" blockname="treeBurntPine02" prob="0.0007" rotatemax="7"/>
 			<decoration type="block" blockname="treeBurntPine03" prob="0.0007" rotatemax="7"/>
-			<decoration type="block" blockname="snowberry3Harvest" prob ="0.0005"/>
+			<decoration type="block" blockname="snowberry3Harvest" prob ="0.0002"/>
 			<decoration type="block" blockname="treePlainsGrassDiagonal" prob ="0.0007" rotatemax="7"/>
 			<decoration type="block" blockname="treeForestGrassDiagonal" prob ="0.0535" rotatemax="7"/>
 			<decoration type="block" blockname="treeTallGrassDiagonal" prob ="0.0535" rotatemax="7"/>
@@ -752,13 +752,13 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="treeBurntPine03" prob="0.0005" rotatemax="7"/>
 				<decoration type="block" blockname="treeMaple17m" prob="0.00015" rotatemax="7"/>
 				<decoration type="block" blockname="treeDesertShrub" prob="0.0005" rotatemax="7"/>
-				<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.0004"/>
+				<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.0002"/>
 				<decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.0005"/>
 				<decoration type="block" blockname="plantedChrysanthemum3Harvest" prob="0.0005"/>
-				<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0004"/>
+				<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0002"/>
 				<decoration type="block" blockname="plantedCotton3Harvest" prob="0.0005"/>
 				<decoration type="block" blockname="forestFlower" prob ="0.0005"/>
-				<decoration type="block" blockname="plantedCorn3Harvest" prob="0.0005"/>
+				<decoration type="block" blockname="plantedCorn3Harvest" prob="0.0002"/>
 				<decoration type="block" blockname="lootPlainsHelper" prob="0.00025"/>
 				<decoration type="block" blockname="treePlainsGrassDiagonal" prob ="0.15" rotatemax="7"/>
 				<decoration type="block" blockname="treeBrownGrassDiagonal" prob ="0.05" rotatemax="7"/>
@@ -832,13 +832,13 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="rockResource" prob ="0.0004" rotatemax="3"/>
 			<decoration type="block" blockname="rockResource02" prob ="0.0004" rotatemax="3"/>
 			<decoration type="block" blockname="lootPlainsHelper" prob="0.00025"/>
-			<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.0004"/>
+			<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.0002"/>
 			<decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.0005"/>
 			<decoration type="block" blockname="plantedChrysanthemum3Harvest" prob="0.0005"/>
-			<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0004"/>
+			<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0002"/>
 			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.0005"/>
 			<decoration type="block" blockname="forestFlower" prob ="0.0005"/>
-			<decoration type="block" blockname="plantedCorn3Harvest" prob="0.0005"/>
+			<decoration type="block" blockname="plantedCorn3Harvest" prob="0.0002"/>
 			<decoration type="block" blockname="treeDesertShrub" prob ="0.0007"/>
 			<decoration type="block" blockname="treeDeadShrub" prob ="0.0005"/>
 			<decoration type="block" blockname="cntBirdnest" prob ="0.00025"/>

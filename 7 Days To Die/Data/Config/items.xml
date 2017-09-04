@@ -6565,7 +6565,6 @@
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Create_item" value="emptyJar"/>
-			<property name="Buff" value="2eatFruit"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -6589,11 +6588,10 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="3"/>
+			<property name="Gain_food" value="1"/>
 			<property name="Gain_water" value="1"/>
 			<property name="Gain_stamina" value="10"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="3eatFruit"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<!-- ,Medicine -->
@@ -6635,10 +6633,9 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="-10"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="-0.15"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Create_item" value="canEmpty"/>
-			<property name="Buff" value="eatMeat,eatSmallBad"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -6661,10 +6658,9 @@
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="-2"/>
 			<property name="Gain_gas" value="0"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="-0.15"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Create_item" value="canEmpty"/>
-			<property name="Buff" value="5eatMeat"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -6684,7 +6680,6 @@
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="-5"/>
 			<property name="Gain_gas" value="0"/>
-			<property name="Buff" value="eatMeat"/>
 		</property>
 	</item>
 	<item id="714" name="canMiso">
@@ -6694,7 +6689,6 @@
 		<property class="Action1">
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="10"/>
-			<property name="Buff" value="5eatGrain"/>
 		</property>
 	</item>
 	<item id="715" name="canPasta">
@@ -6703,7 +6697,6 @@
 		<property class="Action1">
 			<property name="Gain_food" value="7"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Buff" value="7eatGrain"/>
 		</property>
 	</item>
 	<item id="716" name="canPeas">
@@ -6712,7 +6705,6 @@
 		<property class="Action1">
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Buff" value="5eatVeg"/>
 		</property>
 	</item>
 	<item id="717" name="canPears">
@@ -6721,7 +6713,6 @@
 		<property class="Action1">
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="10"/>
-			<property name="Buff" value="5eatFruit"/>
 		</property>
 	</item>
 	<item id="718" name="canSoup">
@@ -6730,7 +6721,6 @@
 		<property class="Action1">
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="10"/>
-			<property name="Buff" value="5eatVeg"/>
 		</property>
 	</item>
 	<item id="719" name="canStock">
@@ -6739,7 +6729,6 @@
 		<property class="Action1">
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="10"/>
-			<property name="Buff" value="5eatVeg"/>
 		</property>
 	</item>
 	<item id="720" name="canTuna">
@@ -6748,7 +6737,6 @@
 		<property class="Action1">
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="-2"/>
-			<property name="Buff" value="5eatMeat"/>
 		</property>
 	</item>
 	<item id="723" name="canHam">
@@ -6766,10 +6754,9 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="-5"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="-0.15"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Create_item" value="canEmpty"/>
-			<property name="Buff" value="eatMeat"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -6778,7 +6765,6 @@
 		<property name="Meshfile" value="Items/Food/can_salmonPrefab"/>
 		<property class="Action1">
 			<property name="Gain_food" value="5"/>
-			<property name="Buff" value="5eatMeat"/>
 		</property>
 	</item>
 	<item id="725" name="snowberryExtract">
@@ -6820,7 +6806,6 @@
 			<property name="Gain_food" value="2"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="eatVeg"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -6841,7 +6826,6 @@
 			<property name="Gain_stamina" value="2"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="6eatVeg"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -6862,7 +6846,6 @@
 			<property name="Gain_food" value="2"/>
 			<property name="Gain_water" value="-10"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="2eatGrain"/>
 		</property>
 		<property name="Group" value="Resources,Food/Cooking"/>
 	</item>
@@ -6881,9 +6864,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="6eatGrain"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -6904,10 +6886,11 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="0"/>
+			<property name="Gain_wellness" value="-1"/>
 			<property name="Gain_sickness" value="30"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="foodPoisoning,6eatGrain,eatMedBad"/>
-			<property name="Buff_chance" value="0.5,1,1"/>
+			<property name="Buff" value="foodPoisoning"/>
+			<property name="Buff_chance" value="0.5"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="CraftingIngredientTime" value="60"/>
@@ -6931,10 +6914,10 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="8"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="-0.15"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="foodPoisoning,5eatGrain,5eatMeat,eatSmallBad"/>
-			<property name="Buff_chance" value="0.5,1,1,1"/>
+			<property name="Buff" value="foodPoisoning"/>
+			<property name="Buff_chance" value="0.25"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -6955,10 +6938,11 @@
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
+			<property name="Gain_wellness" value="-0.5"/>
 			<property name="Gain_sickness" value="30"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="foodPoisoning,eatMeat,eatSmallBad"/>
-			<property name="Buff_chance" value="0.5,1,1"/>
+			<property name="Buff" value="foodPoisoning"/>
+			<property name="Buff_chance" value="0.5"/>
 		</property>
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -6978,12 +6962,12 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="-5"/>
 			<property name="Gain_water" value="-5"/>
 			<property name="Gain_stamina" value="-20"/>
 			<property name="Gain_sickness" value="30"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="foodPoisoning,eatMeat,eatLargeBad"/>
+			<property name="Buff" value="foodPoisoning"/>
 		</property>
 		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="95"/>
@@ -7007,7 +6991,6 @@
 			<property name="Gain_water" value="-5"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="eatMeat"/>
 		</property>
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -7027,9 +7010,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="-2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="eatMeat"/>
 		</property>
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -7049,9 +7031,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.15"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="eatMeat"/>
 		</property>
 		<property name="Smell" value="smallSmell"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -7072,9 +7053,9 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="30"/>
 			<property name="Gain_water" value="5"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.25"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="30eatMeat,stewWarming"/>
+			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -7104,7 +7085,6 @@
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="eatVeg"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -7132,7 +7112,6 @@
 			<property name="Gain_water" value="1"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="eatFruit"/>
 		</property>
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -7154,7 +7133,8 @@
 			<property name="Gain_stamina" value="0"/>
 			<property name="Gain_sickness" value="30"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="2eatDairy,eatSmallBad"/>
+			<property name="Buff" value="foodPoisoning"/>
+			<property name="Buff_chance" value="0.1"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -7173,9 +7153,8 @@
 			<property name="Gain_food" value="4"/>
 			<property name="Gain_water" value="2"/>
 			<property name="Gain_stamina" value="0"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.15"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="4eatDairy"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -7193,9 +7172,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="5"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.25"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="4eatDairy,2eatGrain,4eatFruit"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -7214,9 +7192,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="6eatVeg"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -7234,9 +7211,8 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="12"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="8eatMeat,4eatDairy"/>
 		</property>
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -7267,7 +7243,6 @@
 			<property name="Gain_water" value="1"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="eatVeg"/>
 		</property>
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -7286,9 +7261,9 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="5"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.25"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="10eatVeg,stewWarming"/>
+			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -7312,7 +7287,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="15"/>
 			<property name="Gain_sickness" value="15"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="-0.15"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="dysentery,extinguishFireBuff"/>
 			<property name="Buff_chance" value="0.5,1"/>
@@ -7362,7 +7337,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="15"/>
 			<property name="Gain_sickness" value="15"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="-0.15"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="dysentery,extinguishFireBuff"/>
 			<property name="Buff_chance" value="0.5,1"/>
@@ -8455,7 +8430,7 @@
 		<property class="Action1">
 			<property name="Delay" value="1.5"/>
 			<property name="Gain_food" value="2"/>
-			<property name="Buff" value="eatSnowberryTrigger,2eatFruit"/>
+			<property name="Buff" value="eatSnowberryTrigger"/>
 			<property name="Gain_water" value="0"/>
 		</property>
 		<property name="Group" value="Food/Cooking,Science"/>
@@ -9382,7 +9357,6 @@
 			<property name="Gain_water" value="2"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="2eatFruit"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="tomatoDesc"/>
@@ -9411,7 +9385,6 @@
 			<property name="Gain_stamina" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="eatGrain"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="wheatDesc"/>
@@ -9433,9 +9406,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_stamina" value="3"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="6eatVeg"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="mushroomGrilledDesc"/>
@@ -9458,9 +9430,8 @@
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="2"/>
 			<property name="Gain_stamina" value="2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="6eatVeg"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="cornGrilledDesc"/>
@@ -9571,9 +9542,8 @@
 			<property name="Gain_stamina" value="5"/>
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="10"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.15"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="6eatFruit"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="tomatoSoupDesc"/>
@@ -9677,9 +9647,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.15"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="6eatGrain"/>
 		</property>
 		<property name="DescriptionKey" value="breadDesc"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -9900,10 +9869,11 @@
 			<property name="Gain_food" value="12"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
+			<property name="Gain_wellness" value="-0.5"/>
 			<property name="Gain_sickness" value="30"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="foodPoisoning,12eatMeat,eatSmallBad"/>
-			<property name="Buff_chance" value="0.5,1,1"/>
+			<property name="Buff" value="foodPoisoning"/>
+			<property name="Buff_chance" value="0.5"/>
 		</property>
 		<property name="DescriptionKey" value="rawBearDesc"/>
 		<property name="Smell" value="ExLargeSmell"/>
@@ -9926,10 +9896,11 @@
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
+			<property name="Gain_wellness" value="-0.5"/>
 			<property name="Gain_sickness" value="30"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="foodPoisoning,8eatMeat,eatSmallBad"/>
-			<property name="Buff_chance" value="0.5,1,1"/>
+			<property name="Buff" value="foodPoisoning"/>
+			<property name="Buff_chance" value="0.5"/>
 		</property>
 		<property name="DescriptionKey" value="rawPorkDesc"/>
 		<property name="Smell" value="ExLargeSmell"/>
@@ -9952,10 +9923,11 @@
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
+			<property name="Gain_wellness" value="-0.5"/>
 			<property name="Gain_sickness" value="30"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="foodPoisoning,5eatMeat,eatSmallBad"/>
-			<property name="Buff_chance" value="0.5,1,1"/>
+			<property name="Buff" value="foodPoisoning"/>
+			<property name="Buff_chance" value="0.5"/>
 		</property>
 		<property name="DescriptionKey" value="rawRabbitDesc"/>
 		<property name="Smell" value="ExLargeSmell"/>
@@ -9978,10 +9950,11 @@
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
+			<property name="Gain_wellness" value="-0.5"/>
 			<property name="Gain_sickness" value="30"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="foodPoisoning,5eatMeat,eatSmallBad"/>
-			<property name="Buff_chance" value="0.5,1,1"/>
+			<property name="Buff" value="foodPoisoning"/>
+			<property name="Buff_chance" value="0.5"/>
 		</property>
 		<property name="DescriptionKey" value="rawChickenDesc"/>
 		<property name="Smell" value="ExLargeSmell"/>
@@ -10001,9 +9974,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="12"/>
 			<property name="Gain_water" value="-2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="12eatMeat"/>
 		</property>
 		<property name="DescriptionKey" value="grilledBearDesc"/>
 		<property name="Smell" value="mediumSmell"/>
@@ -10023,9 +9995,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="-2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="8eatMeat"/>
 		</property>
 		<property name="DescriptionKey" value="grilledPorkDesc"/>
 		<property name="Smell" value="mediumSmell"/>
@@ -10045,9 +10016,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="-2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="5eatMeat"/>
 		</property>
 		<property name="DescriptionKey" value="grilledRabbitDesc"/>
 		<property name="Smell" value="mediumSmell"/>
@@ -10067,9 +10037,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="-2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="5eatMeat"/>
 		</property>
 		<property name="DescriptionKey" value="grilledChickenDesc"/>
 		<property name="Smell" value="mediumSmell"/>
@@ -10089,9 +10058,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="12"/>
 			<property name="Gain_water" value="2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.15"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="12eatMeat"/>
 		</property>
 		<property name="DescriptionKey" value="boiledBearDesc"/>
 		<property name="Smell" value="smallSmell"/>
@@ -10111,9 +10079,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.15"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="8eatMeat"/>
 		</property>
 		<property name="DescriptionKey" value="boiledPorkDesc"/>
 		<property name="Smell" value="mediumSmell"/>
@@ -10133,9 +10100,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.15"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="5eatMeat"/>
 		</property>
 		<property name="DescriptionKey" value="boiledRabbitDesc"/>
 		<property name="Smell" value="mediumSmell"/>
@@ -10155,9 +10121,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.15"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="5eatMeat"/>
 		</property>
 		<property name="DescriptionKey" value="boiledChickenDesc"/>
 		<property name="Smell" value="mediumSmell"/>
@@ -10180,7 +10145,6 @@
 			<property name="Gain_water" value="-5"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="12eatMeat"/>
 		</property>
 		<property name="DescriptionKey" value="charredBearDesc"/>
 		<property name="Smell" value="largeSmell"/>
@@ -10203,7 +10167,6 @@
 			<property name="Gain_water" value="-5"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="8eatMeat"/>
 		</property>
 		<property name="DescriptionKey" value="charredPorkDesc"/>
 		<property name="Smell" value="largeSmell"/>
@@ -10226,7 +10189,6 @@
 			<property name="Gain_water" value="-5"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="5eatMeat"/>
 		</property>
 		<property name="DescriptionKey" value="charredRabbitDesc"/>
 		<property name="Smell" value="largeSmell"/>
@@ -10249,7 +10211,6 @@
 			<property name="Gain_water" value="-5"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="5eatMeat"/>
 		</property>
 		<property name="DescriptionKey" value="charredChickenDesc"/>
 		<property name="Smell" value="largeSmell"/>
@@ -10270,9 +10231,9 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="22"/>
 			<property name="Gain_water" value="5"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.25"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="12eatMeat,10eatVeg"/>
+			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="DescriptionKey" value="bearStewDesc"/>
 		<property name="Smell" value="exLargeSmell"/>
@@ -10280,24 +10241,17 @@
 	</item>
 	<item id="1615" name="Creamed_Corn">
 		<property name="Extends" value="Tomato_Soup"/>
-		<property class="Action1">
-			<property name="Buff" value="6eatVeg"/>
-		</property>
 		<property name="DescriptionKey" value="creamedCornDesc"/>
 	</item>
 	<item id="1616" name="Chicken_Noodle_Soup">
 		<property name="Extends" value="Tomato_Soup"/>
 		<property class="Action1">
 			<property name="Gain_food" value="7"/>
-			<property name="Buff" value="5eatMeat,eatGrain"/>
 		</property>
 		<property name="DescriptionKey" value="chickenNoodleSoupDesc"/>
 	</item>
 	<item id="1617" name="Mushroom_Soup">
 		<property name="Extends" value="Tomato_Soup"/>
-		<property class="Action1">
-			<property name="Buff" value="6eatVeg"/>
-		</property>
 		<property name="DescriptionKey" value="mushroomSoupDesc"/>
 	</item>
 	<item id="1618" name="Venison_Stew">
@@ -10315,9 +10269,9 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="20"/>
 			<property name="Gain_water" value="5"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.25"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="eatMeat,10eatVeg"/>
+			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="DescriptionKey" value="venisonStewDesc"/>
 		<property name="Smell" value="exLargeSmell"/>
@@ -10341,7 +10295,6 @@
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Create_item" value="emptyJar"/>
-			<property name="Buff" value="2eatFruit"/>
 		</property>
 		<property name="DescriptionKey" value="blueberryJamDesc"/>
 		<property name="DropScale" value="4"/>
@@ -10362,9 +10315,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="2eatFruit,6eatGrain"/>
 		</property>
 		<property name="DescriptionKey" value="cornBreadAndJamDesc"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -10386,7 +10338,7 @@
 			<property name="Gain_stamina" value="40"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Create_item" value="emptyJar"/>
-			<property name="Buff" value="eatFruit,recoveringTiny"/>
+			<property name="Buff" value="recoveringTiny"/>
 			<property name="Debuff" value="dysentery,dysentery2"/>
 		</property>
 		<property class="Action1">
@@ -10400,7 +10352,7 @@
 			<property name="Gain_stamina" value="40"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Create_item" value="emptyJar"/>
-			<property name="Buff" value="eatFruit,recoveringTiny"/>
+			<property name="Buff" value="recoveringTiny"/>
 			<property name="Debuff" value="dysentery,dysentery2"/>
 		</property>
 		<property name="DescriptionKey" value="honeyPoulticeDesc"/>
@@ -10512,9 +10464,9 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="20"/>
 			<property name="Gain_water" value="5"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.25"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="eatMeat,10eatVeg"/>
+			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="DescriptionKey" value="chickenStewDesc"/>
 		<property name="Smell" value="exLargeSmell"/>
@@ -10535,9 +10487,9 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="20"/>
 			<property name="Gain_water" value="5"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.25"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="eatMeat,10eatVeg"/>
+			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="DescriptionKey" value="rabbitStewDesc"/>
 		<property name="Smell" value="exLargeSmell"/>
@@ -10729,10 +10681,11 @@
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
+			<property name="Gain_wellness" value="-0.5"/>
 			<property name="Gain_sickness" value="30"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="foodPoisoning,eatMeat,eatSmallBad"/>
-			<property name="Buff_chance" value="0.5,1,1"/>
+			<property name="Buff" value="foodPoisoning"/>
+			<property name="Buff_chance" value="0.5"/>
 		</property>
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -10755,7 +10708,6 @@
 			<property name="Gain_water" value="-5"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="eatMeat"/>
 		</property>
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -10775,9 +10727,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="-2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="eatMeat"/>
 		</property>
 		<property name="Smell" value="mediumSmell"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -10797,9 +10748,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.15"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="eatMeat"/>
 		</property>
 		<property name="Smell" value="smallSmell"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -10819,9 +10769,9 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="20"/>
 			<property name="Gain_water" value="5"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.25"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="eatMeat,10eatVeg"/>
+			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="DescriptionKey" value="wolfMeatStewDesc"/>
 		<property name="Smell" value="exLargeSmell"/>
@@ -10868,7 +10818,6 @@
 			<property name="Gain_water" value="2"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="4eatDairy"/>
 		</property>
 		<property name="DescriptionKey" value="YogurtDesc"/>
 		<property name="DropScale" value="4"/>
@@ -10891,7 +10840,6 @@
 			<property name="Gain_water" value="2"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="3eatDairy,eatFruit"/>
 		</property>
 		<property name="DescriptionKey" value="BlueberryYogurtDesc"/>
 		<property name="DropScale" value="4"/>
@@ -10914,7 +10862,6 @@
 			<property name="Gain_water" value="2"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="4eatDairy"/>
 		</property>
 		<property name="DescriptionKey" value="CheeseDesc"/>
 		<property name="DropScale" value="4"/>
@@ -10941,7 +10888,6 @@
 			<property name="Gain_sickness" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Buff" value="eatDairy"/>
 		</property>
 		<property name="DescriptionKey" value="SoyMilkDesc"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -10962,9 +10908,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="20"/>
 			<property name="Gain_water" value="-2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.15"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="4eatDairy,8eatMeat,2eatGrain,6eatVeg"/>
 		</property>
 		<property name="DescriptionKey" value="PizzaDesc"/>
 		<property name="DropScale" value="4"/>
@@ -10985,9 +10930,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="12"/>
 			<property name="Gain_water" value="-2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="8eatMeat,4eatFruit"/>
 		</property>
 		<property name="DescriptionKey" value="HoneyHamDesc"/>
 		<property name="Smell" value="mediumSmell"/>
@@ -11010,7 +10954,6 @@
 			<property name="Gain_water" value="-2"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="2eatGrain"/>
 		</property>
 		<property name="DescriptionKey" value="CrackersDesc"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -11032,7 +10975,6 @@
 			<property name="Gain_water" value="-2"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="4eatGrain,4eatDairy"/>
 		</property>
 		<property name="DescriptionKey" value="CrackersAndCheeseDesc"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -11057,7 +10999,6 @@
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="eatVeg"/>
 		</property>
 		<property name="EconomicValue" value="12"/>
 		<property name="EconomicBundleSize" value="5"/>
@@ -11081,9 +11022,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="-2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.15"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="2eatGrain,4eatDairy"/>
 		</property>
 		<property name="DescriptionKey" value="PancakesDesc"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -11103,9 +11043,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="-2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.15"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="2eatGrain,2eatDairy,2eatFruit"/>
 		</property>
 		<property name="DescriptionKey" value="BlueberryPancakesDesc"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -11141,7 +11080,6 @@
 			<property name="Gain_stamina" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="2eatGrain"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="NoodlesDesc"/>
@@ -11187,13 +11125,13 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="2"/>
-			<property name="Gain_water" value="-10"/>
+			<property name="Gain_wellness" value="0.1"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="2eatGrain"/>
 		</property>
 		<property name="Group" value="Resources,Food/Cooking"/>
 		<property name="DescriptionKey" value="DoughDesc"/>
-	</item>
+	</item><!--
 	<item id="1671" name="Pepperoni">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
@@ -11203,7 +11141,6 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property class="Action1">
-			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -11212,12 +11149,11 @@
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="1eatMeat"/>
 		</property>
 		<property name="DescriptionKey" value="PepperoniDesc"/>
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
-	</item>
+	</item>-->
 	<item id="1672" name="slicedHam">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
@@ -11235,8 +11171,8 @@
 			<property name="Gain_food" value="1"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
+			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="1eatMeat"/>
 		</property>
 		<property name="DescriptionKey" value="slicedHamDesc"/>
 		<property name="Smell" value="ExLargeSmell"/>
@@ -11259,8 +11195,8 @@
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="4eatMeat,4eatDairy"/>
 		</property>
 		<property name="DescriptionKey" value="rawPorkDesc"/>
 		<property name="Smell" value="ExLargeSmell"/>
@@ -11284,7 +11220,6 @@
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
-			<property name="Buff" value="eatDairy"/>
 		</property>
 		<property name="DescriptionKey" value="slicedCheeseDesc"/>
 		<property name="DropScale" value="4"/>
