@@ -145,6 +145,7 @@ built-in buff variables:
 
 <buff id="venom" duration="2400t" castsound="Player_*sick5" stack="discard" mutex="vemonImmunity" type="healthdown" actions="increment(venomGood, 1, 100t, 0, 0);damage(1,50t,0,0)" icon="ui_game_symbol_skull" name_key="Venomous Poison" description_key="You are poisoned with snake venom, there is no cure for it but you can build up an immunity to it." tooltip_key="Venomous Poison">
 	<modify id="0" stat="stamina" amount="-1" rate="3"/>
+	<modify id="3" stat="water" amount="-1" rate="60"/>
 </buff>
 
 <buff id="vemonImmunity" type="healthdown" buffif="venomGood gequal 100" debuffif="venomGood less 1" actions="debuff(venom)" icon="server_cheat" name_key="Venom Immunity" description_key="You are now immune to venom." tooltip_key="Venom Immunity"/>
