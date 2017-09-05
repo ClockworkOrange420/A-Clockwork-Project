@@ -10888,6 +10888,7 @@
 			<property name="Gain_sickness" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_drinking"/>
+			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="DescriptionKey" value="SoyMilkDesc"/>
 		<property name="Group" value="Food/Cooking"/>
