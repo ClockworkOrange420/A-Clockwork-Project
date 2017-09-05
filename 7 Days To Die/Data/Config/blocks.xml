@@ -12461,7 +12461,6 @@
 		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="wallTorch"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="Class" value="Torch"/>
 		<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
 	</block>
 	<block id="1352" name="flagstoneStairs25">
@@ -12480,7 +12479,6 @@
 		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="candleWall"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="Class" value="Torch"/>
 		<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
 	</block>
 	<block id="1354" name="candleTablePlayer">
