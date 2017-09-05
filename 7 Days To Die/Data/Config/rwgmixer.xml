@@ -341,16 +341,19 @@
 			<prefab rule="pondGroup" min_count="1" max_count="2"/>
 			<prefab rule="waterGroup" min_count="1" max_count="2"/>
 			<prefab name="oldwest_church" max_count="1"/>
-			<prefab name="oldwest_hotel_01" max_count="2"/>
-			<prefab name="oldwest_hotel_02" max_count="2"/>
+			<prefab rule="oldwestHotelGroup" min_count="1" max_count="3"/>
 			<prefab name="oldwest_jail" max_count="1"/>
-			<prefab rule="oldwestShopGroup" min_count="1" max_count="4"/>
+			<prefab rule="oldwestShopGroup" min_count="2" max_count="4"/>
 			<prefab rule="armyGroup" max_count="1"/>
 			<prefab name="trailer_park_01" min_count="1" max_count="1"/>
 		</prefab_rule>
 		<prefab_rule name="pondGroup">
 			<prefab name="pond02" max_count="1" prob="10"/>
 			<prefab name="pond01" max_count="1" prob="10"/>
+		</prefab_rule>
+		<prefab_rule name="oldwestHotelGroup">
+			<prefab name="oldwest_hotel_01" max_count="1" prob="10"/>
+			<prefab name="oldwest_hotel_02" max_count="1" prob="10"/>
 		</prefab_rule>
 		<prefab_rule name="oldwestShopGroup">
 			<prefab name="oldwest_md_shop_01" max_count="1" prob="10"/>
