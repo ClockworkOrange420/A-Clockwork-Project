@@ -6633,7 +6633,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="-10"/>
-			<property name="Gain_wellness" value="-0.15"/>
+			<property name="Gain_wellness" value="-0.05"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Create_item" value="canEmpty"/>
 		</property>
@@ -6658,7 +6658,7 @@
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="-2"/>
 			<property name="Gain_gas" value="0"/>
-			<property name="Gain_wellness" value="-0.15"/>
+			<property name="Gain_wellness" value="-0.05"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Create_item" value="canEmpty"/>
 		</property>
@@ -6754,7 +6754,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="-5"/>
-			<property name="Gain_wellness" value="-0.15"/>
+			<property name="Gain_wellness" value="-0.05"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Create_item" value="canEmpty"/>
 		</property>
@@ -6914,7 +6914,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="8"/>
-			<property name="Gain_wellness" value="-0.15"/>
+			<property name="Gain_wellness" value="-0.05"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Buff" value="foodPoisoning"/>
 			<property name="Buff_chance" value="0.25"/>
