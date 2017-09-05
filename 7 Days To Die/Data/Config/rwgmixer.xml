@@ -341,50 +341,50 @@
 			<prefab rule="pondGroup" min_count="1" max_count="2"/>
 			<prefab rule="waterGroup" min_count="1" max_count="2"/>
 			<prefab name="oldwest_church" max_count="1"/>
-			<prefab rule="oldwestHotelGroup" min_count="1" max_count="3"/>
+			<prefab rule="oldwestHotelGroup" min_count="1" max_count="2"/>
 			<prefab name="oldwest_jail" max_count="1"/>
 			<prefab rule="oldwestShopGroup" min_count="2" max_count="4"/>
 			<prefab rule="armyGroup" max_count="1"/>
 			<prefab name="trailer_park_01" min_count="1" max_count="1"/>
 		</prefab_rule>
 		<prefab_rule name="pondGroup">
-			<prefab name="pond02" max_count="1" prob="10"/>
-			<prefab name="pond01" max_count="1" prob="10"/>
+			<prefab name="pond02" prob="50"/>
+			<prefab name="pond01" prob="50"/>
 		</prefab_rule>
 		<prefab_rule name="oldwestHotelGroup">
-			<prefab name="oldwest_hotel_01" max_count="1" prob="10"/>
-			<prefab name="oldwest_hotel_02" max_count="1" prob="10"/>
+			<prefab name="oldwest_hotel_01" prob="50"/>
+			<prefab name="oldwest_hotel_02" prob="50"/>
 		</prefab_rule>
 		<prefab_rule name="oldwestShopGroup">
-			<prefab name="oldwest_md_shop_01" max_count="1" prob="10"/>
-			<prefab name="oldwest_md_shop_02" max_count="1" prob="10"/>
-			<prefab name="oldwest_md_shop_03" max_count="1" prob="10"/>
-			<prefab name="oldwest_md_shop_04" max_count="1" prob="10"/>
-			<prefab name="oldwest_sm_shop_01" max_count="1" prob="10"/>
-			<prefab name="oldwest_sm_shop_02" max_count="1" prob="10"/>
-			<prefab name="oldwest_sm_shop_03" max_count="1" prob="10"/>
+			<prefab name="oldwest_md_shop_01" prob="50"/>
+			<prefab name="oldwest_md_shop_02" prob="50"/>
+			<prefab name="oldwest_md_shop_03" prob="50"/>
+			<prefab name="oldwest_md_shop_04" prob="50"/>
+			<prefab name="oldwest_sm_shop_01" prob="50"/>
+			<prefab name="oldwest_sm_shop_02" prob="50"/>
+			<prefab name="oldwest_sm_shop_03" prob="50"/>
 		</prefab_rule>
 		<prefab_rule name="waterGroup">
-			<prefab name="water_tower_01" max_count="1" prob="10"/>
-			<prefab name="water_tower_02" max_count="1" prob="10"/>
-			<prefab name="water_tower_03" max_count="1" prob="10"/>
-			<prefab name="oldwest_watertower" max_count="1" prob="10"/>
+			<prefab name="water_tower_01" prob="50"/>
+			<prefab name="water_tower_02" prob="50"/>
+			<prefab name="water_tower_03" prob="50"/>
+			<prefab name="oldwest_watertower" prob="50"/>
 		</prefab_rule>
 		<prefab_rule name="armyGroup">
-			<prefab name="army_camp_01" max_count="1" prob="10"/>
-			<prefab name="army_camp_02" max_count="1" prob="10"/>
-			<prefab name="army_camp_03" max_count="1" prob="10"/>
+			<prefab name="army_camp_01" prob="50"/>
+			<prefab name="army_camp_02" prob="50"/>
+			<prefab name="army_camp_03" prob="50"/>
 		</prefab_rule>
 		<prefab_rule name="barnGroup">
-			<prefab name="barn_01" max_count="1" prob="10"/>
-			<prefab name="barn_02" max_count="1" prob="10"/>
-			<prefab name="barn_03" max_count="1" prob="10"/>
+			<prefab name="barn_01" prob="50"/>
+			<prefab name="barn_02" prob="50"/>
+			<prefab name="barn_03" prob="50"/>
 		</prefab_rule>
 		<prefab_rule name="shedGroup">
-			<prefab name="farm_shed1" max_count="1" prob="10"/>
-			<prefab name="farm_shed2" max_count="1" prob="10"/>
-			<prefab name="farm_shed3" max_count="1" prob="10"/>
-			<prefab name="farm_shed4" max_count="1" prob="10"/>
+			<prefab name="farm_shed1" prob="50"/>
+			<prefab name="farm_shed2" prob="50"/>
+			<prefab name="farm_shed3" prob="50"/>
+			<prefab name="farm_shed4" prob="50"/>
 		</prefab_rule>
 		<prefab_rule name="wildernessGroup">
 			<prefab rule="traderGroup" min_count="1" max_count="1"/>
