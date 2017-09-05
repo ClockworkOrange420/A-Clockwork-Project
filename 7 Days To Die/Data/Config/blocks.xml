@@ -15030,6 +15030,7 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="Stacknumber" value="50"/>
 		<property name="Class" value="TorchHeatMap"/>
+		<property name="BuffsWhenWalkedOn" value="burningSmall"/>
 		<property name="HeatMapStrength" value="4.05"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="15"/>
