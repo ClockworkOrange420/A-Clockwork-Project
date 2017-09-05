@@ -297,10 +297,6 @@
 			<prefab name="vacant_lot_sm_01"/>
 			<prefab name="vacant_lot_sm_02"/>
 			<prefab name="army_barracks_01" />
-			<prefab name="parking_lot_01"/>
-			<prefab name="parking_lot_02"/>
-			<prefab name="parking_lot_03"/>
-			<prefab name="parking_garage_01"/>
 			<prefab name="mp_waste_bldg_01_white" />
 			<prefab name="mp_waste_bldg_03_white" />
 			<prefab name="mp_waste_bldg_04_white" />
