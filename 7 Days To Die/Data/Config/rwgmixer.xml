@@ -110,7 +110,7 @@
 		</hub_rule>
 	</hub_rules>
 	<wilderness_rules>
-		<wilderness_rule name="wildernessDefault" spawn_min_max="12,24">
+		<wilderness_rule name="wildernessDefault" spawn_min_max="16,24">
 			<path_material value="gravel" />
 			<path_radius value="2" />
 			<path_adjust_terrain value="false"/>
@@ -128,270 +128,228 @@
 			<prefab rule="ruralGroup"/>
 			<prefab rule="detailFillerGroup"/>
 		</prefab_rule>
-		<prefab_rule name="defaultTowns">
-			<prefab rule="residentialOldGroup"/>
-			<prefab rule="residentialNewGroup"/>
-			<prefab rule="downtownTownGroup"/>
-			<prefab rule="ruralGroup"/>
-			<prefab rule="detailFillerGroup"/>
-		</prefab_rule>
 		<prefab_rule name="residentialOldGroup">
-			<prefab name="abandoned_house_01" max_count="3"/>
-			<prefab name="abandoned_house_02" max_count="3"/>
-			<prefab name="abandoned_house_03" max_count="3"/>
-			<prefab name="abandoned_house_04" max_count="3"/>
-			<prefab name="abandoned_house_05" max_count="3"/>
-			<prefab name="abandoned_house_06" max_count="3"/>
-			<prefab name="abandoned_house_07" max_count="3"/>
-			<prefab name="abandoned_house_08" max_count="3"/>
-			<prefab name="bombshelter_lg_01" max_count="2"/>
-			<prefab name="bombshelter_md_01" max_count="2"/>
-			<prefab name="cemetery_01" max_count="1"/>
-			<prefab name="cemetery_02" max_count="1"/>
-			<prefab name="church_graveyard1" max_count="1"/>
-			<prefab name="garagebrick" max_count="3"/>
-			<prefab name="garageblue1" max_count="3"/>
-			<prefab name="garageyellow1" max_count="3"/>
-			<prefab name="garagewhite1" max_count="3"/>
-			<prefab name="garagetan1" max_count="3"/>
-			<prefab name="garagestucco1" max_count="3"/>
-			<prefab name="garagegreen1" max_count="3"/>
-			<prefab name="garageburnt1" max_count="3"/>
-			<prefab name="houseburnt1" max_count="3"/>
-			<prefab name="houseburnt2" max_count="3"/>
-			<prefab name="houseburnt3" max_count="3"/>
-			<prefab name="houseburnt3b" max_count="3"/>
-			<prefab name="houseburnt4" max_count="3"/>
-			<prefab name="houseburnt5" max_count="3"/>
-			<prefab name="housewhite1basement" max_count="6"/>
-			<prefab name="housewhitepyramid3" max_count="10"/>
-			<prefab name="housetanpyramid2" max_count="10"/>
-			<prefab name="housewhitepyramid1" max_count="10"/>
-			<prefab name="housewhitepyramid2" max_count="10"/>
-			<prefab name="housegreen1" max_count="6"/>
-			<prefab name="houseblue1" max_count="6"/>
-			<prefab name="housestucco1" max_count="6"/>
-			<prefab name="housestucco2" max_count="6"/>
-			<prefab name="housestucco3" max_count="6"/>
-			<prefab name="housebrick1" max_count="6"/>
-			<prefab name="housewhite1" max_count="6"/>
-			<prefab name="housewhite2" max_count="6"/>
-			<prefab name="housetan2" max_count="6"/>
-			<prefab name="houseyellow1" max_count="6"/>
-			<prefab name="houseyellowpyramid3" max_count="10"/>
-			<prefab name="house_trailer_blue_01" max_count="10"/>
-			<prefab name="house_trailer_burnt_01" max_count="10"/>
-			<prefab name="house_trailer_green_01" max_count="10"/>
-			<prefab name="house_trailer_tan_01" max_count="10"/>
-			<prefab name="house_trailer_white_01" max_count="10"/>
-			<prefab name="house_trailer_yellow_01" max_count="10"/>
-			<prefab name="trailer_01" max_count="10"/>
-			<prefab name="trailer_02" max_count="10"/>
-			<prefab name="trailer_03" max_count="10"/>
-			<prefab name="trailer_04" max_count="10"/>
-			<prefab name="trailer_park_01" max_count="10"/>
+			<prefab name="abandoned_house_01"/>
+			<prefab name="abandoned_house_02"/>
+			<prefab name="abandoned_house_03"/>
+			<prefab name="abandoned_house_04"/>
+			<prefab name="abandoned_house_05"/>
+			<prefab name="abandoned_house_06"/>
+			<prefab name="abandoned_house_07"/>
+			<prefab name="abandoned_house_08"/>
+			<prefab name="bombshelter_lg_01" max_count="1"/>
+			<prefab name="bombshelter_md_01" max_count="1"/>
+			<prefab name="cemetery_01" />
+			<prefab name="cemetery_02" />
+			<prefab name="church_graveyard1"/>
+			<prefab name="garagebrick"/>
+			<prefab name="garageblue1"/>
+			<prefab name="garageyellow1"/>
+			<prefab name="garagewhite1"/>
+			<prefab name="garagetan1"/>
+			<prefab name="garagestucco1"/>
+			<prefab name="garagegreen1"/>
+			<prefab name="garageburnt1"/>
+			<prefab name="houseburnt1"/>
+			<prefab name="houseburnt2"/>
+			<prefab name="houseburnt3"/>
+			<prefab name="houseburnt3b"/>
+			<prefab name="houseburnt4"/>
+			<prefab name="houseburnt5"/>
+			<prefab name="housewhite1basement"/>
+			<prefab name="housewhitepyramid3"/>
+			<prefab name="housetanpyramid2"/>
+			<prefab name="housewhitepyramid1"/>
+			<prefab name="housewhitepyramid2"/>
+			<prefab name="housegreen1"/>
+			<prefab name="houseblue1"/>
+			<prefab name="housestucco1"/>
+			<prefab name="housestucco2"/>
+			<prefab name="housestucco3"/>
+			<prefab name="housebrick1"/>
+			<prefab name="housewhite1"/>
+			<prefab name="housewhite2"/>
+			<prefab name="housetan2"/>
+			<prefab name="houseyellow1"/>
+			<prefab name="houseyellowpyramid3"/>
+			<prefab name="house_trailer_blue_01" />
+			<prefab name="house_trailer_burnt_01" />
+			<prefab name="house_trailer_green_01" />
+			<prefab name="house_trailer_tan_01" />
+			<prefab name="house_trailer_white_01" />
+			<prefab name="house_trailer_yellow_01" />
+			<prefab name="trailer_01" />
+			<prefab name="trailer_02" />
+			<prefab name="trailer_03" />
+			<prefab name="trailer_04" />
+			<prefab name="trailer_park_01" min_count="1"/>
 		</prefab_rule>
 		<prefab_rule name="residentialNewGroup">
-			<prefab name="house_new_mansion_01" min_count="1" max_count="3"/>
-			<prefab name="house_new_mansion_02" min_count="1" max_count="3"/>
-			<prefab name="house_new_mansion_03" min_count="1" max_count="3"/>
-			<prefab name="house_new_01" max_count="6"/>
-			<prefab name="house_new_02" max_count="6"/>
-			<prefab name="house_new_03" max_count="6"/>
-			<prefab name="house_new_04" max_count="6"/>
-			<prefab name="house_new_05" max_count="6"/>
-			<prefab name="house_new_06" max_count="6"/>
-			<prefab name="houseranchwhite1" max_count="6"/>
-			<prefab name="houseranchtan1" max_count="6"/>
-			<prefab name="houseranchtan2" max_count="6"/>
-			<prefab name="houseranchblue1" max_count="6"/>
-			<prefab name="church_sm_01" max_count="2"/>
+			<prefab name="house_new_mansion_01"/>
+			<prefab name="house_new_mansion_02"/>
+			<prefab name="house_new_mansion_03"/>
+			<prefab name="house_new_01"/>
+			<prefab name="house_new_02"/>
+			<prefab name="house_new_03"/>
+			<prefab name="house_new_04"/>
+			<prefab name="house_new_05"/>
+			<prefab name="house_new_06"/>
+			<prefab name="houseranchwhite1"/>
+			<prefab name="houseranchtan1"/>
+			<prefab name="houseranchtan2"/>
+			<prefab name="houseranchblue1"/>
+			<prefab name="church_sm_01"/>
 			<prefab name="hospital_01_rg"  max_count="1"/>
 			<prefab name="school_01" min_count="1" max_count="1"/>
 			<prefab name="school_k6_01" min_count="1" max_count="1"/>
-			<prefab name="school_daycare_01" min_count="1" max_count="2"/>
+			<prefab name="school_daycare_01" min_count="1" max_count="1"/>
 			<prefab name="football_stadium"  max_count="1"/>
-			<prefab name="apartment_adobe_red_5_flr" max_count="4" />
-			<prefab name="apartment_brick_6_flr" max_count="4" />
-			<prefab name="funeral_home_01" min_count="1" max_count="1" />
+			<prefab name="apartment_adobe_red_5_flr" max_count="1" />
+			<prefab name="apartment_brick_6_flr" max_count="1" />
+			<prefab name="funeral_home_01" max_count="1" />
 		</prefab_rule>
 		<prefab_rule name="commercialGroup">
-			<prefab name="store_gun_sm_01" max_count="3" prob="0.6"/>
-			<prefab name="store_gun_lg_01" max_count="1" prob="0.4"/>
-			<prefab name="store_pharmacy_sm_01" min_count="3" max_count="1"/>
-			<prefab name="store_hardware_sm_01" max_count="3" prob="0.6"/>
-			<prefab name="store_hardware_lg_01" max_count="1" prob="0.4"/>
-			<prefab name="store_book_sm_01" max_count="3" prob="0.6"/>
-			<prefab name="store_book_lg_01" max_count="1" prob="0.4"/>
-			<prefab name="store_grocery_lg_01" max_count="1" prob="0.4"/>
-			<prefab name="store_grocery_sm_01" max_count="3" prob="0.6"/>
-			<prefab name="store_bank_lg_01" max_count="1"/>
+			<prefab name="store_gun_sm_01" prob="0.6"/>
+			<prefab name="store_gun_lg_01" prob="0.4"/>
+			<prefab name="store_pharmacy_sm_01" />
+			<prefab name="store_hardware_sm_01" prob="0.6"/>
+			<prefab name="store_hardware_lg_01" prob="0.4"/>
+			<prefab name="store_book_sm_01" prob="0.6"/>
+			<prefab name="store_book_lg_01" prob="0.4"/>
+			<prefab name="store_grocery_lg_01" prob="0.4"/>
+			<prefab name="store_grocery_sm_01" prob="0.6"/>
+			<prefab name="store_bank_lg_01" />
 			<prefab name="gas_station1" max_count="1"/>
 			<prefab name="gas_station2" max_count="1"/>
 			<prefab name="gas_station3" max_count="1"/>
 			<prefab name="gas_station4" max_count="1"/>
 			<prefab name="gas_station5" max_count="1"/>
-			<prefab name="diner_01" min_count="1" max_count="3"/>
-			<prefab name="diner_02" min_count="1" max_count="3"/>
-			<prefab name="fastfood_01" min_count="1" max_count="3"/>
-			<prefab name="fastfood_02" min_count="1" max_count="3"/>
-			<prefab name="fastfood_03" min_count="1" max_count="3"/>
+			<prefab name="diner_01" max_count="2"/>
+			<prefab name="diner_02" max_count="2"/>
+			<prefab name="fastfood_01" max_count="2"/>
+			<prefab name="fastfood_02" max_count="2"/>
+			<prefab name="fastfood_03" max_count="2"/>
 			<prefab name="carlot_01" max_count="2"/>
 			<prefab name="carlot_02" max_count="2"/>
-			<prefab name="store_autoparts_01" max_count="3"/>
+			<prefab name="store_autoparts_01" max_count="1"/>
 			<prefab name="skate_park_01"  max_count="1"/>
-			<prefab name="store_laundry_01" min_count="1" max_count="3" />
-			<prefab name="store_salon" min_count="1" max_count="4" />
-		</prefab_rule>
-		<prefab_rule name="downtownTownGroup">
-			<prefab name="store_gun_sm_01" max_count="3" prob="0.6"/>
-			<prefab name="store_pharmacy_sm_01" min_count="3" max_count="1"/>
-			<prefab name="store_hardware_sm_01" max_count="3" prob="0.6"/>
-			<prefab name="store_book_sm_01" max_count="3" prob="0.6"/>
-			<prefab name="store_grocery_sm_01" max_count="3" prob="0.6"/>
-			<prefab name="gas_station1" max_count="2"/>
-			<prefab name="gas_station2" max_count="2"/>
-			<prefab name="gas_station3" max_count="2"/>
-			<prefab name="gas_station4" max_count="2"/>
-			<prefab name="gas_station5" max_count="2"/>
-			<prefab name="diner_01" min_count="1" max_count="3"/>
-			<prefab name="diner_02" min_count="1" max_count="3"/>
-			<prefab name="fastfood_01" min_count="1" max_count="3"/>
-			<prefab name="fastfood_02" min_count="1" max_count="3"/>
-			<prefab name="fastfood_03" min_count="1" max_count="3"/>
-			<prefab name="store_autoparts_01" max_count="3"/>
-			<prefab name="skate_park_01"  max_count="1"/>
-			<prefab name="store_laundry_01" min_count="1" max_count="3" />
-			<prefab name="store_salon" min_count="1" max_count="4" />
-			<prefab name="business_red_brick_01" max_count="2"/>
-			<prefab name="business_red_brick_02" max_count="2"/>
-			<prefab name="business_red_brick_03" max_count="2"/>
-			<prefab name="business_red_brick_04" max_count="2"/>
-			<prefab name="business_red_brick_05" max_count="2"/>
-			<prefab name="business_red_brick_06" max_count="2"/>
-			<prefab name="business_red_brick_07" max_count="2"/>
-			<prefab name="business_tan_brick_01" max_count="2"/>
-			<prefab name="business_tan_brick_02" max_count="2"/>
-			<prefab name="business_tan_brick_03" max_count="2"/>
-			<prefab name="business_tan_brick_04" max_count="2"/>
-			<prefab name="business_tan_brick_05" max_count="2"/>
-			<prefab name="post_office_sm_01" max_count="1" />
-			<prefab name="bar_sm_01" max_count="1"/>
+			<prefab name="store_laundry_01" max_count="1" />
+			<prefab name="store_salon" max_count="1" />
 		</prefab_rule>
 		<prefab_rule name="downtownGroup">
-			<prefab name="business_red_brick_01" max_count="2"/>
-			<prefab name="business_red_brick_02" max_count="2"/>
-			<prefab name="business_red_brick_03" max_count="2"/>
-			<prefab name="business_red_brick_04" max_count="2"/>
-			<prefab name="business_red_brick_05" max_count="2"/>
-			<prefab name="business_red_brick_06" max_count="2"/>
-			<prefab name="business_red_brick_07" max_count="2"/>
-			<prefab name="business_tan_brick_01" max_count="2"/>
-			<prefab name="business_tan_brick_02" max_count="2"/>
-			<prefab name="business_tan_brick_03" max_count="2"/>
-			<prefab name="business_tan_brick_04" max_count="2"/>
-			<prefab name="business_tan_brick_05" max_count="2"/>
-			<prefab name="business_strip_old_01" max_count="5"/>
-			<prefab name="business_strip_old_02" max_count="5"/>
+			<prefab name="business_red_brick_01"/>
+			<prefab name="business_red_brick_02"/>
+			<prefab name="business_red_brick_03"/>
+			<prefab name="business_red_brick_04"/>
+			<prefab name="business_red_brick_05"/>
+			<prefab name="business_red_brick_06"/>
+			<prefab name="business_red_brick_07"/>
+			<prefab name="business_tan_brick_01"/>
+			<prefab name="business_tan_brick_02"/>
+			<prefab name="business_tan_brick_03"/>
+			<prefab name="business_tan_brick_04" />
+			<prefab name="business_tan_brick_05"/>
+			<prefab name="business_strip_old_01" max_count="1"/>
+			<prefab name="business_strip_old_02" max_count="1"/>
 			<prefab name="courthouse_med_01" max_count="1" />
 			<prefab name="courthouse_med_02" max_count="1" />
 			<prefab name="post_office_sm_01" max_count="1" />
 			<prefab name="post_office_med_01" max_count="1" />
 			<prefab name="mp_waste_bldg_governer_08" max_count="1"/>
-			<prefab name="police_station1" min_count="1" max_count="2"/>
-			<prefab name="hotel_roadside_01" max_count="2"/>
-			<prefab name="hotel_roadside_02" max_count="2"/>
-			<prefab name="hotel_ostrich" max_count="2"/>
-			<prefab name="hotel_new_01" max_count="2"/>
+			<prefab name="police_station1" min_count="1" max_count="1"/>
+			<prefab name="hotel_roadside_01" max_count="1"/>
+			<prefab name="hotel_roadside_02" max_count="1"/>
+			<prefab name="hotel_ostrich" max_count="1"/>
+			<prefab name="hotel_new_01" max_count="1"/>
 			<prefab name="prison_01" max_count="1"/>
-			<prefab name="parking_lot_01" max_count="4"/>
-			<prefab name="parking_lot_02" max_count="4"/>
-			<prefab name="parking_lot_03" max_count="4"/>
-			<prefab name="parking_garage_01" max_count="2"/>
-			<prefab name="theater_01"  max_count="3"/>
-			<prefab name="bar_theater_01"  max_count="2"/>
-			<prefab name="bar_stripclub_01" max_count="2"/>
-			<prefab name="bar_sm_01" max_count="3"/>
-			<prefab name="fire_station_01" max_count="2"/>
-			<prefab name="fire_station_02" max_count="2"/>
-			<prefab rule="skyscrapers" min_count="2" max_count="12"/>
-			<prefab name="store_pawn_01" max_count="3" />
+			<prefab name="parking_lot_01"/>
+			<prefab name="parking_lot_02"/>
+			<prefab name="parking_lot_03"/>
+			<prefab name="parking_garage_01"/>
+			<prefab name="theater_01"  max_count="1"/>
+			<prefab name="bar_theater_01"  max_count="1"/>
+			<prefab name="bar_stripclub_01"/>
+			<prefab name="bar_sm_01"/>
+			<prefab name="fire_station_01" max_count="1"/>
+			<prefab name="fire_station_02" max_count="1"/>
+			<prefab rule="skyscrapers" min_count="2"/>
+			<prefab name="store_pawn_01" max_count="1" />
 		</prefab_rule>
 		<prefab_rule name="skyscrapers">
-			<prefab name="skyscraper_01" max_count="4" prob="50"/>
-			<prefab name="skyscraper_02" max_count="4" prob="50"/>
-			<prefab name="skyscraper_03" max_count="4" prob="50"/>
-			<prefab name="skyscraper_04" max_count="4" prob="50"/>
+			<prefab name="skyscraper_01" max_count="1" prob="50"/>
+			<prefab name="skyscraper_02" max_count="1" prob="50"/>
+			<prefab name="skyscraper_03" max_count="1" prob="50"/>
+			<prefab name="skyscraper_04" max_count="1" prob="50"/>
 		</prefab_rule>
 		<prefab_rule name="industrialGroup">
 			<prefab name="utility_waterworks_01" max_count="1"/>
-			<prefab name="utility_electric_co_01" max_count="1"/>
+			<prefab name="utility_electric_co_01" />
 			<prefab name="utility_refinery_01" max_count="1"/>
-			<prefab name="settlement_01" max_count="1"/>
+			<prefab name="settlement_01" />
 			<prefab name="factory_lg_01" max_count="1"/>
 			<prefab name="factory_lg_02" max_count="1"/>
 			<prefab name="installation_red_mesa" max_count="1"/>
 			<prefab name="sawmill_01_snow" max_count="1"/>
-			<prefab name="junkyard_lg_01" max_count="2"/>
-			<prefab name="junkyard_med_01" max_count="2"/>
-			<prefab name="vacant_lot_med_01" max_count="1"/>
-			<prefab name="vacant_lot_med_02" max_count="1"/>
-			<prefab name="vacant_lot_sm_01" max_count="1"/>
-			<prefab name="vacant_lot_sm_02" max_count="1"/>
-			<prefab name="army_barracks_01" max_count="1"/>
-			<prefab name="mp_waste_bldg_01_white" max_count="2"/>
-			<prefab name="mp_waste_bldg_03_white" max_count="2"/>
-			<prefab name="mp_waste_bldg_04_white" max_count="2"/>
-			<prefab name="mp_waste_bldg_01_red" max_count="2"/>
-			<prefab name="mp_waste_bldg_02_red" max_count="2"/>
-			<prefab name="mp_waste_bldg_03_red" max_count="2"/>
-			<prefab name="mp_waste_bldg_04_red" max_count="2"/>
-			<prefab name="mp_waste_bldg_01_tan" max_count="2"/>
-			<prefab name="mp_waste_bldg_02_tan" max_count="2"/>
-			<prefab name="mp_waste_bldg_03_tan" max_count="2"/>
-			<prefab name="mp_waste_bldg_04_tan" max_count="2"/>
-			<prefab name="mp_waste_bldg_04_grey" max_count="2"/>
-			<prefab name="mp_waste_bldg_05_grey" max_count="2"/>
-			<prefab name="mp_waste_bldg_06_grey" max_count="2"/>
-			<prefab name="waste_rubble_bldg_01" max_count="2"/>
-			<prefab name="waste_rubble_bldg_02" max_count="2"/>
-			<prefab name="waste_rubble_bldg_03" max_count="2"/>
-			<prefab name="waste_rubble_bldg_04" max_count="2"/>
-			<prefab name="waste_rubble_bldg_05" max_count="2"/>
-			<prefab name="waste_rubble_bldg_06" max_count="2"/>
-			<prefab name="waste_rubble_bldg_07" max_count="2"/>
-			<prefab name="waste_rubble_bldg_08" max_count="2"/>
-			<prefab name="waste_rubble_bldg_09" max_count="2"/>
-			<prefab name="mp_waste_sewer_hole_1" max_count="1"/>
+			<prefab name="junkyard_lg_01" />
+			<prefab name="junkyard_med_01" />
+			<prefab name="vacant_lot_med_01"/>
+			<prefab name="vacant_lot_med_02"/>
+			<prefab name="vacant_lot_sm_01"/>
+			<prefab name="vacant_lot_sm_02"/>
+			<prefab name="army_barracks_01" />
+			<prefab name="mp_waste_bldg_01_white" />
+			<prefab name="mp_waste_bldg_03_white" />
+			<prefab name="mp_waste_bldg_04_white" />
+			<prefab name="mp_waste_bldg_01_red" />
+			<prefab name="mp_waste_bldg_02_red" />
+			<prefab name="mp_waste_bldg_03_red" />
+			<prefab name="mp_waste_bldg_04_red" />
+			<prefab name="mp_waste_bldg_01_tan" />
+			<prefab name="mp_waste_bldg_02_tan" />
+			<prefab name="mp_waste_bldg_03_tan" />
+			<prefab name="mp_waste_bldg_04_tan" />
+			<prefab name="mp_waste_bldg_04_grey" />
+			<prefab name="mp_waste_bldg_05_grey" />
+			<prefab name="mp_waste_bldg_06_grey" />
+			<prefab name="waste_rubble_bldg_01" />
+			<prefab name="waste_rubble_bldg_02" />
+			<prefab name="waste_rubble_bldg_03" />
+			<prefab name="waste_rubble_bldg_04" />
+			<prefab name="waste_rubble_bldg_05" />
+			<prefab name="waste_rubble_bldg_06" />
+			<prefab name="waste_rubble_bldg_07" />
+			<prefab name="waste_rubble_bldg_08" />
+			<prefab name="waste_rubble_bldg_09" />
+			<prefab name="mp_waste_sewer_hole_1" />
 		</prefab_rule>
 		<prefab_rule name="ruralGroup">
-			<prefab name="barn_01" max_count="2"/>
-			<prefab name="barn_02" max_count="2"/>
-			<prefab name="barn_03" max_count="2"/>
-			<prefab name="farm_shed1" max_count="2"/>
-			<prefab name="farm_shed2" max_count="2"/>
-			<prefab name="farm_shed3" max_count="2"/>
-			<prefab name="farm_shed4" max_count="2"/>
-			<prefab name="oldwest_stables" max_count="2"/>
-			<prefab name="pond02" max_count="4"/>
-			<prefab name="pond01" max_count="4"/>
-			<prefab name="water_tower_01" max_count="1"/>
-			<prefab name="water_tower_02" max_count="1"/>
-			<prefab name="oldwest_watertower" max_count="1"/>
-			<prefab name="oldwest_church" max_count="1"/>
-			<prefab name="oldwest_hotel_01" max_count="2"/>
-			<prefab name="oldwest_hotel_02" max_count="2"/>
-			<prefab name="oldwest_jail" max_count="1"/>
-			<prefab name="oldwest_md_shop_01" max_count="4"/>
-			<prefab name="oldwest_md_shop_02" max_count="4"/>
-			<prefab name="oldwest_md_shop_03" max_count="4"/>
-			<prefab name="oldwest_md_shop_04" max_count="4"/>
-			<prefab name="oldwest_sm_shop_01" max_count="4"/>
-			<prefab name="oldwest_sm_shop_02" max_count="4"/>
-			<prefab name="oldwest_sm_shop_03" max_count="4"/>
-			<prefab name="army_camp_01" max_count="1"/>
-			<prefab name="army_camp_02" max_count="1"/>
-			<prefab name="army_camp_03" max_count="1"/>
+			<prefab name="barn_01" />
+			<prefab name="barn_02" />
+			<prefab name="barn_03" />
+			<prefab name="farm_shed1" />
+			<prefab name="farm_shed2" />
+			<prefab name="farm_shed3" />
+			<prefab name="farm_shed4" />
+			<prefab name="oldwest_stables" />
+			<prefab name="pond02"/>
+			<prefab name="pond01"/>
+			<prefab name="water_tower_01" />
+			<prefab name="water_tower_02" />
+			<prefab name="oldwest_watertower" />
+			<prefab name="oldwest_church"/>
+			<prefab name="oldwest_hotel_01"/>
+			<prefab name="oldwest_hotel_02"/>
+			<prefab name="oldwest_jail"/>
+			<prefab name="oldwest_md_shop_01"/>
+			<prefab name="oldwest_md_shop_02"/>
+			<prefab name="oldwest_md_shop_03"/>
+			<prefab name="oldwest_md_shop_04"/>
+			<prefab name="oldwest_sm_shop_01"/>
+			<prefab name="oldwest_sm_shop_02"/>
+			<prefab name="oldwest_sm_shop_03"/>
+			<prefab name="army_camp_01" />
+			<prefab name="army_camp_02" />
+			<prefab name="army_camp_03" />
 		</prefab_rule>
 		<prefab_rule name="wildernessGroup">
 			<prefab rule="traderGroup" min_count="1" max_count="1"/>
@@ -404,10 +362,10 @@
 			<prefab name="cabin_snow_hidden_01"/>
 			<prefab name="ranger_station1" />
 			<prefab name="snowy_ski_lodge" />
-			<prefab name="utility_celltower_01" prob="0.1"/>
-			<prefab name="utility_celltower_02" prob="0.1"/>
-			<prefab name="bombshelter_lg_01" prob="0.05"/>
-			<prefab name="bombshelter_md_01" prob="0.05"/>
+			<prefab name="utility_celltower_01" min_count="1" max_count="1"/>
+			<prefab name="utility_celltower_02" min_count="1" max_count="1"/>
+			<prefab name="bombshelter_lg_01" prob="0.8"/>
+			<prefab name="bombshelter_md_01" prob="0.8"/>
 			<prefab name="campsite_01" />
 			<prefab name="campsite_02" />
 			<prefab name="campsite_03" />
@@ -416,7 +374,7 @@
 			<prefab name="campsite_06a" />
 			<prefab name="campsite_07" />
 			<prefab name="campsite_07a" />
-			<prefab name="indian_burial_grounds_01" prob="0.05"/>
+			<prefab name="indian_burial_grounds_01" prob="0.1"/>
 			<prefab name="oldwest_graveyard"/>
 			<prefab name="cave_01" max_count="1"/>
 			<prefab name="cave_02" max_count="1"/>
@@ -424,21 +382,21 @@
 			<prefab name="cave_04" max_count="1"/>
 		</prefab_rule>
 		<prefab_rule name="detailFillerGroup">
-			<prefab name="mailbox1" max_count="1" prob="0.25"/>
-			<prefab name="street_light_01" max_count="1" prob="0.25"/>
-			<prefab name="street_light_02" max_count="1" prob="0.25"/>
-			<prefab name="sign_slow" max_count="4"/>
-			<prefab name="sign_speed_25" max_count="4"/>
-			<prefab name="sign_speed_35" max_count="4"/>
-			<prefab name="sign_speed_45" max_count="4"/>
-			<prefab name="sign_73_north" max_count="2"/>
-			<prefab name="sign_73_south" max_count="2"/>
-			<prefab name="sign_albuquerque" max_count="2"/>
-			<prefab name="sign_phoenix" max_count="2"/>
-			<prefab name="tree_burntpine_01" max_count="4"/>
-			<prefab name="tree_burntpine_02" max_count="4"/>
-			<prefab name="tree_burntpine_03" max_count="4"/>
-			<prefab name="water_tower_03" max_count="1"/>
+			<prefab name="mailbox1" prob="0.25"/>
+			<prefab name="street_light_01" prob="0.25"/>
+			<prefab name="street_light_02" prob="0.25"/>
+			<prefab name="sign_slow"/>
+			<prefab name="sign_speed_25"/>
+			<prefab name="sign_speed_35"/>
+			<prefab name="sign_speed_45"/>
+			<prefab name="sign_73_north"/>
+			<prefab name="sign_73_south"/>
+			<prefab name="sign_albuquerque"/>
+			<prefab name="sign_phoenix"/>
+			<prefab name="tree_burntpine_01"/>
+			<prefab name="tree_burntpine_02"/>
+			<prefab name="tree_burntpine_03"/>
+			<prefab name="water_tower_03" />
 		</prefab_rule>
 		<prefab_rule name="traderGroup">
 			<prefab name="settlement_trader_01" />
