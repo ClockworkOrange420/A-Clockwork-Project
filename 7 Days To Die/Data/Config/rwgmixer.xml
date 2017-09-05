@@ -226,11 +226,11 @@
 			<prefab name="store_grocery_lg_01" max_count="1" prob="0.4"/>
 			<prefab name="store_grocery_sm_01" max_count="3" prob="0.6"/>
 			<prefab name="store_bank_lg_01" max_count="1"/>
-			<prefab name="gas_station1" max_count="2"/>
-			<prefab name="gas_station2" max_count="2"/>
-			<prefab name="gas_station3" max_count="2"/>
-			<prefab name="gas_station4" max_count="2"/>
-			<prefab name="gas_station5" max_count="2"/>
+			<prefab name="gas_station1" max_count="1"/>
+			<prefab name="gas_station2" max_count="1"/>
+			<prefab name="gas_station3" max_count="1"/>
+			<prefab name="gas_station4" max_count="1"/>
+			<prefab name="gas_station5" max_count="1"/>
 			<prefab name="diner_01" min_count="1" max_count="3"/>
 			<prefab name="diner_02" min_count="1" max_count="3"/>
 			<prefab name="fastfood_01" min_count="1" max_count="3"/>
@@ -314,7 +314,7 @@
 			<prefab name="bar_sm_01" max_count="3"/>
 			<prefab name="fire_station_01" max_count="2"/>
 			<prefab name="fire_station_02" max_count="2"/>
-			<prefab rule="skyscrapers" min_count="12"/>
+			<prefab rule="skyscrapers" min_count="2" max_count="12"/>
 			<prefab name="store_pawn_01" max_count="3" />
 		</prefab_rule>
 		<prefab_rule name="skyscrapers">
@@ -326,14 +326,12 @@
 		<prefab_rule name="industrialGroup">
 			<prefab name="utility_waterworks_01" max_count="1"/>
 			<prefab name="utility_electric_co_01" max_count="1"/>
-			<prefab name="utility_refinery_01" max_count="3"/>
+			<prefab name="utility_refinery_01" max_count="1"/>
 			<prefab name="settlement_01" max_count="1"/>
-			<prefab name="factory_lg_01" max_count="5"/>
-			<prefab name="factory_lg_02" max_count="5"/>
+			<prefab name="factory_lg_01" max_count="1"/>
+			<prefab name="factory_lg_02" max_count="1"/>
 			<prefab name="installation_red_mesa" max_count="1"/>
-			<prefab name="sawmill_01_snow" max_count="3"/>
-			<prefab name="utility_celltower_01" max_count="1"/>
-			<prefab name="utility_celltower_02" max_count="1"/>
+			<prefab name="sawmill_01_snow" max_count="1"/>
 			<prefab name="junkyard_lg_01" max_count="2"/>
 			<prefab name="junkyard_med_01" max_count="2"/>
 			<prefab name="vacant_lot_med_01" max_count="1"/>
@@ -406,6 +404,10 @@
 			<prefab name="cabin_snow_hidden_01"/>
 			<prefab name="ranger_station1" />
 			<prefab name="snowy_ski_lodge" />
+			<prefab name="utility_celltower_01" prob="0.1"/>
+			<prefab name="utility_celltower_02" prob="0.1"/>
+			<prefab name="bombshelter_lg_01" prob="0.05"/>
+			<prefab name="bombshelter_md_01" prob="0.05"/>
 			<prefab name="campsite_01" />
 			<prefab name="campsite_02" />
 			<prefab name="campsite_03" />
