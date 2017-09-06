@@ -1203,6 +1203,11 @@
 	<item name="leatherDusterBlack"/>
 </lootgroup>
 
+<lootgroup name="clothes+Hats">
+	<item group="clothes"/>
+	<item group="hats"/>
+</lootgroup>
+
 <lootgroup name="warmClothes">
 	<item group="pufferCoatAll"/>
 	<item group="skullCapAll"/>
@@ -1786,8 +1791,7 @@
 
 <!-- lockers -->
 <lootcontainer id="43" count="0,2" size="4,3" sound_open="UseActions/open_locker" sound_close="UseActions/close_locker" loot_quality_template="baseTemplate">
-	<item group="clothes" prob="28"/>
-	<item group="hats" prob="10"/>
+	<item group="clothes+Hats" prob="20"/>
 	<item group="ammo" prob="0.2"/>
 	<item group="weaponsCommonParts" prob="0.2"/>
 	<item group="weaponsCompoundBowParts" prob="0.2"/>
@@ -1805,11 +1809,11 @@
 
 <!-- file cabinet -->
 <lootcontainer id="44" count="0,2" size="2,4" sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet" loot_quality_template="baseTemplate">
-	<item group="ammo" prob="0.05"/>
-	<item group="rareBooks" count="1" prob="0.2"/>
+	<item group="ammo" prob="0.1"/>
+	<item group="books" count="0,1"/>
 	<item name="paper" count="5,10"/>
-	<item name="oldCash" count="1,6" prob="0.3"/>
-	<item name="painkillers" prob="0.1"/>
+	<item name="oldCash" count="1,6"/>
+	<item name="painkillers" prob="0.3"/>
 	<item group="trophyGroup"/>
 	<item name="padlock" prob="0.5"/>
 	<item name="Geometry_Set" count="1" prob="0.3"/>
