@@ -1853,6 +1853,7 @@
 
 <!-- bookcase -->
 <lootcontainer id="49" count="0,1" size="4,3" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="baseTemplate">
+	<item name="paper" count="5,10"/>
 	<item group="books"/>
 </lootcontainer>
 
@@ -1922,6 +1923,7 @@
 
 <!-- Bookstore bookcase -->
 <lootcontainer id="60" count="0,1" size="4,3" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="baseTemplate">
+	<item name="paper" count="5,10"/>
 	<item group="books"/>
 </lootcontainer>
 
