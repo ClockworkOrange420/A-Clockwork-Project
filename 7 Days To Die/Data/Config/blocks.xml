@@ -7174,9 +7174,6 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Tag" value="Gore"/>
-		<property name="HeatMapStrength" value="0.5"/>
-		<property name="HeatMapTime" value="1200"/>
-		<property name="HeatMapFrequency" value="1"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="FallDamage" value="false"/>
 		<property name="LootList" value="37"/>
