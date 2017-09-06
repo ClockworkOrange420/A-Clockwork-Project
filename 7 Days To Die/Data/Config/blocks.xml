@@ -309,7 +309,7 @@
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="PlantGrowing.GrowOnTop" value="treeTallGrassDiagonal"/>
 		<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
-	</block>
+	</block><!--
 	<block id="21" name="gore">
 		<property name="Class" value="Gore"/>
 		<property name="Tag" value="Gore"/>
@@ -328,7 +328,7 @@
 		<drop event="Harvest" name="rottingFlesh" count="2" tool_category="Butcher" />
 		<drop event="Destroy" name="femur" count="1" />
 		<drop event="Destroy" name="rottingFlesh" count="1" />
-	</block>
+	</block>-->
 	<block id="22" name="fertileFarmland">
 		<property name="Material" value="Mfarmland"/>
 		<property name="Shape" value="Terrain"/>
@@ -7177,27 +7177,28 @@
 			<property name="ToBlock" value="steelEighth"/>
 		</property>
 		<property name="DowngradeBlock" value="scrapIronEighth"/>
-	</block><!--
+	</block>
 	<block id="701" name="GoreBlock1Prefab">
-		<property name="Class" value="UpgradeRated" />
+		<property name="Class" value="Gore"/>
 		<property name="CreativeMode" value="Dev"/>
-		<property name="Material" value="organic"/>
-		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="Entities/Gore/gore_block1_Prefab"/>
+		<property name="Material" value="organic" />
+		<property name="Shape" value="Terrain" />
+		<property name="Mesh" value="terrain" />
+		<property name="Texture" value="2" />
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="IsTerrainDecoration" value="true"/>
-		<property name="FallDamage" value="false"/>
+		<property name="Tag" value="Gore"/>
 		<property name="HeatMapStrength" value="0.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="1"/>
-		<drop event="Harvest" name="femur" count="2" tool_category="Butcher"/>
-		<drop event="Harvest" name="rottingFlesh" count="2" tool_category="Butcher"/>
-		<drop event="Destroy" name="femur" count="1" tool_category="Harvest"/>
-		<drop event="Destroy" name="rottingFlesh" count="1" tool_category="Harvest"/>
-		<property name="DroppedEntityClass" value="EvisceratedRemains"/>
-	</block>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="FallDamage" value="false"/>
+		<property name="LootList" value="37"/>
+		<drop event="Harvest" name="femur" count="2" tool_category="Butcher" />
+		<drop event="Harvest" name="rottingFlesh" count="2" tool_category="Butcher" />
+		<drop event="Destroy" name="femur" count="1" />
+		<drop event="Destroy" name="rottingFlesh" count="1" />
+	</block><!--
 	<block id="702" name="GoreBlock1BonesPrefab">
 		<property name="Class" value="Gore"/>
 		<property name="CreativeMode" value="Dev"/>
