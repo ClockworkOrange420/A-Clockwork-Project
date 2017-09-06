@@ -2630,7 +2630,9 @@
 	</block>
 	<block id="267" name="animalGore">
 		<property name="CreativeMode" value="Dev"/>
-		<!--<property name="Class" value="Gore"/>-->
+		<property name="Class" value="UpgradeRated"/>
+		<property name="UpgradeRated.ToBlock" value="air"/>
+		<property name="UpgradeRated.Rate" value="6"/>
 		<property name="Material" value="organic"/>
 		<property name="Shape" value="ModelEntity"/>
 		<!-- A ModelEntity does NOT need a texture entry. -->
@@ -5207,6 +5209,7 @@
 		<property name="Tag" value="Door"/>
 		<property name="Place" value="Door"/>
 		<property name="PlaceEverywhere" value="true"/>
+		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Model" value="Entities/Doors/jail_doorPrefab"/>
 		<property name="ModelOffset" value="0,.5,0"/>
 		<property name="MultiBlockDim" value="2,2,1"/>
@@ -6261,6 +6264,7 @@
 		<property name="Place" value="Door"/>
 		<!-- build restriction -->
 		<property name="PlaceEverywhere" value="true"/>
+		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Model" value="Entities/Doors/wooden_door_v1Prefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
 		<property name="ImposterExchange" value="imposterCTRPlate" param1="35"/>
@@ -11467,6 +11471,7 @@
 		<property name="Place" value="Door"/>
 		<!-- build restriction -->
 		<property name="PlaceEverywhere" value="true"/>
+		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Model" value="Entities/Doors/steel_door_1_v1Prefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
@@ -13424,6 +13429,7 @@
 		<property name="Place" value="Door"/>
 		<!-- build restriction -->
 		<property name="PlaceEverywhere" value="true"/>
+		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Model" value="Entities/Doors/steel_door_2_v1Prefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
