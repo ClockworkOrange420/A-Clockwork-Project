@@ -358,6 +358,7 @@
 		<entity name="animalRabbit"/>
 		<entity name="animalChicken"/>
 		<entity name="animalBoar"/>
+		<entity name="animalSnake"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
 		<entity name="zombieJoe"/>
@@ -454,6 +455,7 @@
 		<entity name="animalChicken"/>
 		<entity name="animalBoar"/>
 		<entity name="animalStag"/>
+		<entity name="animalSnake"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
 		<entity name="zombieJoe"/>
@@ -519,6 +521,7 @@
 		<entity name="animalChicken"/>
 		<entity name="animalBoar"/>
 		<entity name="animalStag"/>
+		<entity name="animalSnake"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
 		<entity name="zombieJoe"/>
@@ -584,6 +587,7 @@
 		<entity name="animalChicken"/>
 		<entity name="animalBoar"/>
 		<entity name="animalStag"/>
+		<entity name="animalSnake"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
 		<entity name="zombieJoe"/>
