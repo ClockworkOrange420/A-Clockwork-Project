@@ -4105,7 +4105,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="FuelValue" value="300"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="IsTerrainDecoration" value="true"/>
-		<property name="BuffsWhenWalkedOn" value="bleeding,woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious"/>
+		<property name="BuffsWhenWalkedOn" value="bleeding"/>
 		<property class="RepairItems">
 			<property name="wood" value="1"/>
 		</property>
@@ -4210,7 +4210,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="FuelValue" value="300"/>
 		<!--property name="DontDamageOnTouch" value="true" /-->
-		<property name="BuffsWhenWalkedOn" value="bleeding,woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious"/>
+		<property name="BuffsWhenWalkedOn" value="bleeding"/>
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
@@ -4359,7 +4359,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Texture" value="518"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="FuelValue" value="150"/>
-		<property name="BuffsWhenWalkedOn" value="bleeding,woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious"/>
+		<property name="BuffsWhenWalkedOn" value="bleeding"/>
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 			<property name="Barbed_Wire" value="10"/>
@@ -10141,7 +10141,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="ImposterExclude" value="true"/>
 		<property name="ShapeMinBB" value="0.3,0,0.3"/>
 		<property name="Group" value="Tools/Traps"/>
-		<property name="BuffsWhenWalkedOn" value="bleeding,woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious"/>
+		<property name="BuffsWhenWalkedOn" value="bleeding"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="10"/>
 		</property>
@@ -13263,7 +13263,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="ImposterExchange" value="imposterPyramid" param1="112"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="UseGlobalUV" value="Local"/>
-		<property name="BuffsWhenWalkedOn" value="bleeding,woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious"/>
+		<property name="BuffsWhenWalkedOn" value="bleeding"/>
 		<property class="RepairItems">
 			<property name="forgedSteel" value="5"/>
 		</property>
@@ -16681,7 +16681,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="UseGlobalUV" value="Local"/>
 		<property name="CustomIcon" value="steelLogSpike6"/>
 		<property name="CustomIconTint" value="194F5A"/>
-		<property name="BuffsWhenWalkedOn" value="bleedingBurningSmall,woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious"/>
+		<property name="BuffsWhenWalkedOn" value="bleedingBurningSmall"/>
 		<property class="RepairItems">
 			<property name="gasCan" value="4"/>
 		</property>
