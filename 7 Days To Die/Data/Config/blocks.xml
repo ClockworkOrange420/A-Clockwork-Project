@@ -14305,7 +14305,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="TakeDelay" value="15"/>
 		<property name="DescriptionKey" value="workbenchDesc"/>
 		<property name="EconomicValue" value="776"/>
-		<property name="Group" value="Building,Science"/>
+		<property name="Group" value="Building"/>
 	</block>
 	<block id="1564" name="treePlantedWinterPine1m">
 		<property name="Extends" value="treePlantedMountainPine1m"/>
