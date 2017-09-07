@@ -9052,7 +9052,7 @@
 		<property name="Stacknumber" value="500"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="38"/>
-		<property name="Group" value="Resources,Chemicals"/>
+		<property name="Group" value="Resources,Chemicals,Science"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	</item>
 	<item id="1440" name="ductTape">
@@ -9064,7 +9064,7 @@
 		<property name="EconomicValue" value="49"/>
 		<property name="Stacknumber" value="500"/>
 		<!-- STK resource -->
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Resources,Science"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	</item>
 	<item id="1441" name="spring">
