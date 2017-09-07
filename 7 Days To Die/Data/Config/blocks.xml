@@ -15772,6 +15772,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Harvest" name="scrapIron" count="3" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="250"/>
 		<property name="TakeDelay" value="5"/>
 		<property name="EconomicValue" value="72"/>
