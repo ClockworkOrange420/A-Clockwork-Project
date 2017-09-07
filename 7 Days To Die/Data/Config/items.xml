@@ -6278,7 +6278,7 @@
 			<property name="Debuff" value="bleeding,arrowCriticalBleedout,woundActivatorClean,woundActivatorDirty,woundActivatorGrimy,woundActivatorFilthy,woundActivatorInfectious"/>
 			<property name="ActionExp" value="10"/>
 		</property>
-		<property name="Group" value="Science,Basics"/>
+		<property name="Group" value="Basics"/>
 		<property name="DescriptionKey" value="bandageDesc"/>
 		<property name="PickupJournalEntry" value="firstAidTip"/>
 	</item>
@@ -6292,6 +6292,7 @@
 			<property name="Buff" value="firstAid"/>
 		</property>
 		<property name="DescriptionKey" value="firstAidBandageDesc"/>
+		<property name="Group" value="Science"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="CraftingIngredientExp" value="2"/>
 	</item>
@@ -6309,6 +6310,7 @@
 			<property name="Buff" value="firstAidLarge"/>
 		</property>
 		<property name="DescriptionKey" value="firstAidKitDesc"/>
+		<property name="Group" value="Science"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	</item>
 	<item id="661" name="bloodDrawKit">
@@ -6334,7 +6336,7 @@
 			<property name="Create_item" value="bloodBag"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Science"/>
 		<property name="ActionExp" value="10"/>
 	</item>
 	<item id="662" name="bloodBag">
@@ -8313,7 +8315,7 @@
 		<property name="Stacknumber" value="1000"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="32"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Resources,Tools/Traps"/>
 		<property name="CraftingIngredientExp" value="15"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
@@ -8329,7 +8331,7 @@
 		<property name="Stacknumber" value="1000"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="50"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Resources,Tools/Traps"/>
 		<property name="CraftingIngredientExp" value="15"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
@@ -8344,7 +8346,7 @@
 		<property name="Stacknumber" value="1000"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="32"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Resources,Tools/Traps"/>
 		<property name="CraftingIngredientExp" value="15"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
@@ -8463,7 +8465,7 @@
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Resources,Ammo/Weapons"/>
 	</item>
 	<item id="1341" name="ironArrowHead">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -8477,7 +8479,7 @@
 		<property name="RepairAmount" value="100"/>
 		<property name="EconomicValue" value="12"/>
 		<property name="EconomicBundleSize" value="5"/>
-		<property name="Group" value="Resources,Ammo/Weapons"/>
+		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 	</item>
 	<item id="1342" name="steelArrowHead">
@@ -8492,7 +8494,7 @@
 		<property name="RepairAmount" value="100"/>
 		<property name="EconomicValue" value="40"/>
 		<property name="EconomicBundleSize" value="5"/>
-		<property name="Group" value="Resources,Ammo/Weapons"/>
+		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 	</item>
 	<item id="1345" name="coal">
@@ -8543,7 +8545,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="36"/>
 		<property name="EconomicBundleSize" value="5"/>
-		<property name="Group" value="Resources,Ammo/Weapons"/>
+		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 	</item>
 	<item id="1349" name="bulletCasing">
@@ -8554,7 +8556,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="25"/>
 		<property name="EconomicBundleSize" value="5"/>
-		<property name="Group" value="Resources,Ammo/Weapons"/>
+		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 	</item>
 	<item id="1350" name="bulletTip">
@@ -8566,7 +8568,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="25"/>
 		<property name="EconomicBundleSize" value="5"/>
-		<property name="Group" value="Resources,Ammo/Weapons"/>
+		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 	</item>
 	<item id="1353" name="nail">
@@ -8598,7 +8600,7 @@
 			<property name="EntityDamage" value="5,10"/>
 			<property name="BlockDamage" value="1,2"/>
 		</property>
-		<property name="Group" value="Ammo/Weapons"/>
+		<property name="Group" value="Resources,Ammo/Weapons"/>
 	</item>
 	<item id="1354" name="rocketTip">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -8608,7 +8610,7 @@
 		<property name="Stacknumber" value="500"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="151"/>
-		<property name="Group" value="Resources,Ammo/Weapons"/>
+		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 	</item>
 	<item id="1355" name="rocketCasing">
@@ -8619,7 +8621,7 @@
 		<property name="Stacknumber" value="500"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="77"/>
-		<property name="Group" value="Resources,Ammo/Weapons"/>
+		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 	</item>
 	<!--Free-->
@@ -8633,7 +8635,7 @@
 		<property name="EconomicValue" value="186"/>
 		<property name="RepairTime" value="2.5"/>
 		<property name="RepairAmount" value="1000"/>
-		<property name="Group" value="Resources,Ammo/Weapons"/>
+		<property name="Group" value="Resources,Science"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	</item>
 	<item id="1360" name="oil">
