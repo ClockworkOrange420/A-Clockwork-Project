@@ -572,7 +572,7 @@
 		<requirement skill_level="1" required_skill_name="Leatherworking" required_skill_level="10"/>
 		<recipe name="leather" unlock_level="1"/>
 	</perk>
-	<perk name="Concrete Mixing" icon="resource" description_key="Unlocks the ability to make bricks, cement, concrete mix and the cement mixer." title_key="Concrete Mixing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+	<perk name="Concrete Mixing" icon="resource" description_key="Unlocks the ability to make bricks, cement, concrete mix and the cement mixer." title_key="Concrete Mixing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="crafting">
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
 		<requirement skill_level="1" required_skill_name="Mining Tools" required_skill_level="20"/>
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="20"/>
@@ -600,10 +600,10 @@
 	</perk>
 	<!--Electrical Unlocks-->
 	<perk name="electricBasicsPerk" icon="electric_power" description_key="electricBasicsDesc" title_key="Electricity Basics" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
-		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="5"/>
-		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="5"/>
-		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="5"/>
-		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="5"/>
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="10"/>
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 		<recipe name="electricwirerelay" unlock_level="1"/>
 		<recipe name="ceilingLight01_player" unlock_level="1"/>
 		<recipe name="porchLight01_player" unlock_level="1"/>
@@ -696,8 +696,10 @@
 		<requirement skill_level="3" required_skill_name="craftSkillMiscellaneous" required_skill_level="50"/>
 		<requirement skill_level="3" required_skill_name="craftSkillTools" required_skill_level="50"/>
 		<requirement skill_level="3" required_skill_name="Construction Tools" required_skill_level="50"/>
+		<recipe name="spring" unlock_level="1"/>
 		<recipe name="insulator" unlock_level="1"/>
 		<recipe name="electricParts" unlock_level="2"/>
+		<recipe name="mechanicalParts" unlock_level="2"/>
 		<recipe name="electronicParts" unlock_level="3"/>
 	</perk>
 	<!--Decoration-->

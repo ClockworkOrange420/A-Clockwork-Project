@@ -8315,10 +8315,10 @@
 		<property name="Stacknumber" value="1000"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="32"/>
-		<property name="Group" value="Resources,Tools/Traps"/>
+		<property name="Group" value="Resources,Science"/>
 		<property name="CraftingIngredientExp" value="15"/>
 		<property name="CraftingIngredientTime" value="2"/>
-		<property name="CraftingSkillGroup" value="craftSkillTools"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<!-- <property name="RepairTime" value="2"/><property name="RepairAmount" value="400"/> -->
 	</item>
 	<item id="1332" name="electronicParts">
@@ -8331,10 +8331,10 @@
 		<property name="Stacknumber" value="1000"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="50"/>
-		<property name="Group" value="Resources,Tools/Traps"/>
+		<property name="Group" value="Resources,Science"/>
 		<property name="CraftingIngredientExp" value="15"/>
 		<property name="CraftingIngredientTime" value="2"/>
-		<property name="CraftingSkillGroup" value="craftSkillTools"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<!-- <property name="RepairTime" value="2"/><property name="RepairAmount" value="400"/> -->
 	</item>
 	<item id="1333" name="mechanicalParts">
@@ -8346,10 +8346,9 @@
 		<property name="Stacknumber" value="1000"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="32"/>
-		<property name="Group" value="Resources,Tools/Traps"/>
+		<property name="Group" value="Resources"/>
 		<property name="CraftingIngredientExp" value="15"/>
 		<property name="CraftingIngredientTime" value="2"/>
-		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 		<!-- <property name="RepairTime" value="2"/><property name="RepairAmount" value="400"/> -->
 	</item>
 	<item id="1334" name="cottonPlant">
@@ -9079,7 +9078,6 @@
 		<property name="Weight" value="10"/>
 		<property name="EconomicValue" value="22"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	</item>
 	<item id="1442" name="cookingGrill">
 		<property name="Meshfile" value="Items/Crafting/cooking_grill"/>
