@@ -2,10 +2,14 @@
 <!-- ****************************  Imposter Shapes  **************************** -->
 <!-- ****************************  Master Material Blocks  **************************** -->
 <!-- ****************************  Main Blocks  **************************** -->
-<!-- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Models that are no longer used:<property name="Model" value="Entities/Buildings/window03Prefab"/>Textures that are no longer used: 	378 	404 	405 	406 	425 	426 	432 	433 	444 437 424 431 Blocks  437-462 are all unique models but commented out so that the assets are unused. Should they be fixed or cleaned out? Right now they are only detrius... -->
-<!-- When using "Extends", keep in mind that the block also inherits any upgrade / downgrade properties. (see XML.txt) Forge weight: We have auto-scaling based on resources IF there is a recipe for the block.  Gazz -->
-<!-- t,b,n,w,s,e note that new shapes texture directions do not match old shapes for north south east and west<property name="Texture" value="573,574,576,577,575,578"/>tbnsew:<property name="Texture" value="547,67,575,576,577,578"/>-->
-<!-- 547 bull, 67 book, 575 n, 576 s, 577 e, 578 w -->
+<!-- Models that are no longer used:<property name="Model" value="Entities/Buildings/window03Prefab"/>
+Textures that are no longer used: 378 404 405 406 425 426 432 433 444 437 424 431
+Blocks  437-462 are all unique models but commented out so that the assets are unused. Should they be fixed or cleaned out? Right now they are only detrius...
+When using "Extends", keep in mind that the block also inherits any upgrade / downgrade properties. (see XML.txt) 
+Forge weight: We have auto-scaling based on resources IF there is a recipe for the block.  Gazz
+t,b,n,w,s,e note that new shapes texture directions do not match old shapes for north south east and west
+<property name="Texture" value="573,574,576,577,575,578"/>tbnsew:<property name="Texture" value="547,67,575,576,577,578"/>
+547 bull, 67 book, 575 n, 576 s, 577 e, 578 w -->
 <blocks>
 	<block id="0" name="air">
 		<property name="Material" value="air"/>
@@ -1321,7 +1325,6 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="CreativeMode" value="None"/>
 		<property name="Collide" value="movement,melee,rocket"/>
-		<!-- -rocket -->
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcreteMaster"/>
 			<property name="Item" value="concreteMix"/>
@@ -1390,7 +1393,6 @@
 		<property name="ImposterExclude" value="true"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Collide" value="movement,melee,rocket"/>
-		<!-- -rocket -->
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="5"/>
@@ -1489,7 +1491,6 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="CreativeMode" value="None"/>
 		<property name="Collide" value="movement,melee,rocket"/>
-		<!-- -rocket -->
 		<property name="FuelValue" value="150"/>
 		<property class="RepairItems">
 			<property name="wood" value="5"/>
@@ -2734,7 +2735,6 @@
 	<block id="277" name="painting01">
 		<property name="Material" value="glass"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property name="Texture" value="334,335,335,335,335,335"/>
@@ -2812,7 +2812,7 @@
 		<property name="Shape" value="New"/>
 		<property name="Model" value="security_gate_centered"/>
 		<property name="Texture" value="446"/>
-		<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+		<property name="Collide" value="movement,melee,rocket"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="10"/>
 		</property>
@@ -2908,7 +2908,6 @@
 		<property name="Material" value="stone"/>
 		<property name="MaxDamage" value="20"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -2968,7 +2967,6 @@
 		<property name="Material" value="MstoneNoGlue"/>
 		<property name="MaxDamage" value="100"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Crafting/campfirePrefab"/>
 		<property name="ImposterDontBlock" value="true"/>
@@ -3002,7 +3000,6 @@
 		<property name="Material" value="MmetalNoGlue"/>
 		<property name="MaxDamage" value="100"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3104,7 +3101,6 @@
 		<property name="DescriptionKey" value="lightPOIGroupDesc"/>
 		<property name="Material" value="Mmetal_frame"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Light" value="0.5"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
@@ -3119,6 +3115,7 @@
 		<!-- HV: mounted lamp -->
 		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="TakeDelay" value="-1"/>
 		<property name="Group" value="Science"/>
 		<property name="EconomicValue" value="76"/>
@@ -3139,7 +3136,6 @@
 		<property name="Extends" value="porchLight01"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Model" value="Entities/Lighting/ceilingLight01Prefab"/>
 		<property name="HandleFace" value="Top"/>
 		<drop event="Destroy" count="0"/>
@@ -3200,7 +3196,6 @@
 		<property name="Class" value="Loot"/>
 		<property name="Material" value="Mmetal_thin"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3220,7 +3215,6 @@
 	<block id="328" name="pew_segment01">
 		<property name="Material" value="wood_regular"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3245,7 +3239,6 @@
 		<property name="Class" value="Loot"/>
 		<property name="Material" value="wood_regular"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3298,7 +3291,6 @@
 		<property name="Class" value="Loot"/>
 		<property name="Material" value="Mmetal_thin"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3313,7 +3305,6 @@
 		<property name="Class" value="Loot"/>
 		<property name="Material" value="Mmetal_thin"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3348,7 +3339,6 @@
 		<property name="Class" value="Loot"/>
 		<property name="Material" value="cloth"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3367,7 +3357,6 @@
 		<property name="CustomIcon" value="cntChest01"/>
 		<property name="Material" value="wood_regular"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3486,7 +3475,6 @@
 		<property name="LPHardnessScale" value="0"/>
 		<!-- disable LP for TNT blocks -->
 		<property name="EconomicValue" value="400"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="351" name="wallTorch">
 		<property name="CreativeMode" value="Dev"/>
@@ -3495,7 +3483,6 @@
 		<property name="Material" value="wood_weak"/>
 		<property name="MaxDamage" value="1"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
@@ -3513,7 +3500,6 @@
 	<block id="352" name="graveStone01">
 		<property name="Material" value="stone"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3586,7 +3572,6 @@
 	<block id="363" name="poleTop01">
 		<property name="Material" value="metal"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3613,6 +3598,7 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="TakeDelay" value="10"/>
 		<property name="Group" value="Science"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	</block>
 	<block id="365" name="airConditioner">
 		<property name="Material" value="metal"/>
@@ -3629,13 +3615,11 @@
 		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="450"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="366" name="cntDeskSafe">
 		<property name="Class" value="SecureLoot"/>
 		<property name="Material" value="Mmetal_hard"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3658,7 +3642,6 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="Material" value="Mmetal_hard"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3697,12 +3680,10 @@
 		<property name="Model" value="LootContainers/mailbox03" param1="main_mesh"/>
 	</block>
 	<block id="372" name="treasureChest">
-		<!-- do not rename -->
 		<property name="Class" value="Loot"/>
 		<property name="CustomIcon" value="cntChest01"/>
 		<property name="Material" value="wood_regular"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3744,7 +3725,6 @@
 	<block id="374" name="cinderBlocks01">
 		<property name="Material" value="rubble"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3810,7 +3790,6 @@
 		<property name="Class" value="TNT"/>
 		<property name="Material" value="MDynamite"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -3885,7 +3864,6 @@
 		<property name="ImposterExchange" value="imposterBlock" param1="144"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Collide" value="movement,melee,rocket"/>
-		<!-- -rocket -->
 		<property class="RepairItems">
 			<property name="shortMetalPipe" value="10"/>
 		</property>
@@ -4057,7 +4035,6 @@
 		<property name="Mesh" value="cutout"/>
 		<property name="Texture" value="310"/>
 		<property name="Collide" value="movement,melee,rocket"/>
-		<!-- -rocket -->
 	</block>
 	<block id="403" name="pouredConcreteSupport">
 		<property name="CreativeMode" value="Player"/>
@@ -4247,7 +4224,7 @@
 		<drop event="Harvest" name="wood" count="2" tool_category="Harvest"/>
 		<drop event="Destroy" name="wood" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="Group" value="Tools/Traps"/>
 		<property name="DescriptionKey" value="woodLogSpike1Desc"/>
 		<property name="EconomicValue" value="30"/>
 		<property name="EconomicBundleSize" value="20"/>
@@ -4328,7 +4305,6 @@
 		<property name="Material" value="cloth"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -4371,7 +4347,6 @@
 		<property name="Class" value="TrunkTip"/>
 		<property name="Material" value="MbarbedFence"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Damage" value="1"/>
 		<property name="Damage_received" value="6"/>
 		<property name="Shape" value="New"/>
@@ -4393,7 +4368,7 @@
 		<drop event="Harvest" name="scrapIron" count="3" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<property name="CanPlayersSpawnOn" value="false"/>
-		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="Group" value="Tools/Traps"/>
 		<property name="EconomicValue" value="11"/>
 	</block>
 	<block id="431" name="mineCandyTin">
@@ -4457,7 +4432,6 @@
 	<block id="434" name="cntToilet01">
 		<property name="Material" value="Mmetal_weak"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -4519,7 +4493,6 @@
 	<block id="464" name="bed01Frame">
 		<property name="Material" value="Mmetal_weak"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -4543,7 +4516,6 @@
 		<drop event="Harvest" name="cloth" count="2" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<property name="EconomicValue" value="60"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="466" name="mattressFlat">
 		<property name="DescriptionKey" value="bedGroupDesc"/>
@@ -4564,17 +4536,14 @@
 		<drop event="Harvest" name="cloth" count="2" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<property name="EconomicValue" value="60"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="467" name="shapedChargeBlockTest">
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Class" value="TNT"/>
 		<property name="CustomIcon" value="tnt"/>
 		<property name="CustomIconTint" value="00a000"/>
-		<!-- new icon xxx -->
 		<property name="Material" value="MDynamite"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<!--<property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/><property name="Mesh" value="models"/><property name="Model" value="LootContainers/safe_wall" param1="main_mesh"/><property name="Place" value="TowardsPlacerInverted"/>-->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
@@ -4605,7 +4574,6 @@
 		<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
 		<property name="Material" value="wood_weak"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -4942,7 +4910,6 @@
 	<block id="517" name="rebarDestroyed">
 		<property name="Material" value="Mmetal_medium"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="New"/>
 		<property name="Model" value="rebar"/>
 		<property name="Texture" value="571"/>
@@ -5057,7 +5024,6 @@
 	<block id="524" name="storeShelving01Top">
 		<property name="Extends" value="storeShelving01"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Model" value="Commercial/store_shelving01_top" param1="main_mesh"/>
 	</block>
 	<block id="525" name="storeShelving01TopDouble">
@@ -5205,7 +5171,6 @@
 		<property name="Material" value="Msteel"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Collide" value="movement,melee,rocket,bullet"/>
-		<!-- -rocket -->
 		<property name="Tag" value="Door"/>
 		<property name="Place" value="Door"/>
 		<property name="PlaceEverywhere" value="true"/>
@@ -5278,7 +5243,6 @@
 		<property name="Class" value="Loot"/>
 		<property name="Material" value="wood_weak"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -5379,7 +5343,6 @@
 	<block id="552" name="tv">
 		<property name="Material" value="MelectronicParts"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -5455,7 +5418,6 @@
 		<property name="Class" value="Loot"/>
 		<property name="Material" value="metal"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -5467,7 +5429,6 @@
 		<drop event="Harvest" name="scrapIron" count="10" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<property name="EconomicValue" value="250"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="558" name="ironBarsCentered">
 		<property name="CustomIcon" value="ironBars"/>
@@ -5480,7 +5441,6 @@
 		<property name="UseGlobalUV" value="Local"/>
 		<property name="Place" value="TowardsPlacer"/>
 		<property name="Collide" value="movement,melee,rocket"/>
-		<!-- -rocket -->
 		<property class="RepairItems">
 			<property name="shortMetalPipe" value="4"/>
 			<property name="forgedIron" value="3"/>
@@ -5872,7 +5832,7 @@
 		<property name="Model" value="siding_burnt01"/>
 		<property name="CustomIcon" value="burntWoodBlock1"/>
 		<property name="LightOpacity" value="3"/>
-		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="Group" value="Tools/Traps"/>
 	</block>
 	<block id="594" name="woodWedgeCNRInsideBottom">
 		<property name="Extends" value="woodMaster"/>
@@ -5995,7 +5955,7 @@
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<drop event="Destroy" name="brokenGlass" count="1" tool_category="Harvest"/>
 		<property name="EconomicValue" value="10"/>
-		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="Group" value="Tools/Traps"/>
 	</block>
 	<block id="607" name="trapGlassBusinessSheet1x1">
 		<property name="Extends" value="trapGlassBusinessCTRSheet1x1"/>
@@ -6021,7 +5981,6 @@
 		<property name="ImposterExclude" value="false"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="85"/>
 		<property name="Collide" value="movement,melee,rocket"/>
-		<!-- -rocket -->
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="solidWoodFrameBlock"/>
 			<property name="ItemCount" value="3"/>
@@ -6061,7 +6020,6 @@
 	<block id="619" name="faucet02">
 		<property name="Material" value="Mmetal_thin"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -6069,12 +6027,10 @@
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Weight" value="24"/>
 		<property name="EconomicValue" value="40"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="620" name="faucet04">
 		<property name="Material" value="Mmetal_thin"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -6082,12 +6038,10 @@
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Weight" value="16"/>
 		<property name="EconomicValue" value="20"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="621" name="faucetBrass02">
 		<property name="Material" value="brass"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -6095,12 +6049,10 @@
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Weight" value="25"/>
 		<property name="EconomicValue" value="125"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="622" name="faucetBrass04">
 		<property name="Material" value="brass"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -6108,7 +6060,6 @@
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Weight" value="16"/>
 		<property name="EconomicValue" value="80"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="623" name="cntFileCabinet">
 		<property name="Class" value="Loot"/>
@@ -6123,13 +6074,11 @@
 		<drop event="Destroy" name="scrapIron" count="1,5" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="60"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="624" name="cntCooler">
 		<property name="Class" value="Loot"/>
 		<property name="Material" value="Mplastics"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="282"/>
 		<property name="Mesh" value="models"/>
@@ -6147,12 +6096,10 @@
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
 		<property name="EconomicValue" value="300"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="625" name="schoolDesk">
 		<property name="Material" value="wood_weak"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="282"/>
 		<property name="Mesh" value="models"/>
@@ -6175,12 +6122,10 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="LootList" value="43"/>
 		<property name="EconomicValue" value="60"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="627" name="fountain">
 		<property name="Material" value="metal"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="282"/>
 		<property name="Mesh" value="models"/>
@@ -6188,7 +6133,6 @@
 		<drop event="Destroy" name="scrapIron" count="1,5" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="60"/>
-		<!-- disassemble value -->
 		<property name="DescriptionKey" value="decorativeBlockGroupDesc"/>
 	</block>
 	<block id="628" name="cntGunSafe">
@@ -6229,11 +6173,9 @@
 		<drop event="Destroy" name="scrapIron" count="3" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="80"/>
-		<!-- disassemble value -->
 		<property name="ImposterExchange" value="imposterBlock" param1="116"/>
 	</block>
 	<block id="630" name="rockResource">
-		<!-- biome decoration -->
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Material" value="Mboulder"/>
 		<!--property name="StabilitySupport" value="false" NOT SUPPORTED FOR MULTIBLOCKS! /-->
@@ -6262,13 +6204,11 @@
 		<property name="FuelValue" value="300"/>
 		<property name="Tag" value="Door"/>
 		<property name="Place" value="Door"/>
-		<!-- build restriction -->
 		<property name="PlaceEverywhere" value="true"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Model" value="Entities/Doors/wooden_door_v1Prefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
 		<property name="ImposterExchange" value="imposterCTRPlate" param1="35"/>
-		<!-- door replacer -->
 		<property name="Mesh-Damage-1" value="Door/Door_DMG0"/>
 		<property name="Mesh-Damage-2" value="Door/Door_DMG1"/>
 		<property name="Mesh-Damage-3" value="Door/Door_DMG2"/>
@@ -6359,7 +6299,6 @@
 		<property name="CustomIcon" value="cntChest01"/>
 		<property name="Material" value="wood+wood"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -6385,7 +6324,6 @@
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="640" name="rockResource02">
-		<!-- biome decoration -->
 		<property name="Extends" value="rockResource"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Model" value="Entities/Resources/rock_resource02Prefab"/>
@@ -6408,12 +6346,10 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
 		<property name="Place" value="Door"/>
-		<!-- build restriction -->
 		<property name="PlaceEverywhere" value="true"/>
 		<property name="Model" value="Entities/Doors/wooden_door_v2Prefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
 		<property name="ImposterExchange" value="imposterCTRPlate" param1="35"/>
-		<!-- door replacer -->
 		<property name="Mesh-Damage-1" value="Door/Door_DMG0"/>
 		<property name="Mesh-Damage-2" value="Door/Door_DMG1"/>
 		<property name="Mesh-Damage-3" value="Door/Door_DMG2"/>
@@ -6445,12 +6381,10 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
 		<property name="Place" value="Door"/>
-		<!-- build restriction -->
 		<property name="PlaceEverywhere" value="true"/>
 		<property name="Model" value="Entities/Doors/wooden_door_v3Prefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
 		<property name="ImposterExchange" value="imposterCTRPlate" param1="35"/>
-		<!-- door replacer -->
 		<property name="Mesh-Damage-1" value="Door/Door_DMG0"/>
 		<property name="Mesh-Damage-2" value="Door/Door_DMG1"/>
 		<property name="Mesh-Damage-3" value="Door/Door_DMG2"/>
@@ -6553,7 +6487,6 @@
 		<property name="Model" value="Plate"/>
 		<property name="DowngradeBlock" value="steelPlate"/>
 	</block>
-	<!-- Window02 Prefab Versions -->
 	<block id="655" name="window02Frame">
 		<property name="Material" value="wood_weak"/>
 		<property name="LightOpacity" value="0"/>
@@ -6562,7 +6495,6 @@
 		<property name="Tag" value="Window"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Collide" value="movement,melee,rocket"/>
-		<!-- -rocket -->
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="Buildings/window02_frame" param1="main_mesh"/>
 		<property name="ModelOffset" value="0,0.5,0"/>
@@ -6605,7 +6537,6 @@
 		<property name="LightOpacity" value="0"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="Stacknumber" value="10"/>
-		<!-- build restriction -->
 		<property name="Class" value="VendingMachine"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/LootContainers/vending_machine_playerPrefab"/>
@@ -6756,7 +6687,6 @@
 	<block id="671" name="treeCactus04">
 		<property name="Extends" value="treeCactus01"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Model" value="Entities/Plants/cactus04Prefab"/>
 		<property name="ModelOffset" value="0,0.45,0"/>
 		<property name="MultiBlockDim" value="1,1,1"/>
@@ -7181,8 +7111,8 @@
 		<drop event="Harvest" name="rottingFlesh" count="2" tool_category="Butcher" />
 		<drop event="Destroy" name="femur" count="1" />
 		<drop event="Destroy" name="rottingFlesh" count="1" />
-	</block><!--
-	<block id="702" name="GoreBlock1BonesPrefab">
+	</block>
+	<!--<block id="702" name="GoreBlock1BonesPrefab">
 		<property name="Class" value="Gore"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Material" value="organic"/>
@@ -7197,7 +7127,6 @@
 		<drop event="Destroy" count="0"/>
 	</block>-->
 	<block id="703" name="rWoodLogSpike2">
-		<!-- log spike 2 rWood -->
 		<property name="Extends" value="woodLogSpike1"/>
 		<property name="Material" value="wood+wood"/>
 		<property name="Damage" value="6"/>
@@ -7216,7 +7145,6 @@
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="704" name="rWoodMetalLogSpike3">
-		<!-- log spike 3 wood+metal -->
 		<property name="Extends" value="rWoodLogSpike2" param1="RepairItems"/>
 		<property name="Damage" value="5"/>
 		<property name="Damage_received" value="10"/>
@@ -7551,7 +7479,6 @@
 		<drop event="Destroy" name="wood" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="30"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="738" name="brickWedgeTipCNRFullTop">
 		<property name="Extends" value="brickMaster"/>
@@ -7660,17 +7587,13 @@
 		<property name="Material" value="metal"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="MaxDamage" value="10000"/>
-		<!-- need higher hit points to account for their area -->
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Texture" value="241"/>
-		<!-- intentionally generates wood hit sounds -->
 		<property name="Model" value="Entities/Doors/bridge_woodPrefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
 		<!-- <property name="Mesh-Damage-1" value="Door/Door_DMG0"/> -->
 		<property name="MultiBlockDim" value="4,1,6"/>
 		<property name="ImposterExchange" value="imposterDontBlockHalf" param1="120"/>
-		<!--property name="Tag" value="Door" /-->
-		<!-- this signals the path finder that it shall try doors prefered, we don't want this on draw bridges -->
 		<property name="OpenSound" value="open_bridge"/>
 		<property name="CloseSound" value="close_bridge"/>
 		<property name="Place" value="DrawBridge"/>
@@ -8907,7 +8830,6 @@
 		<property name="MultiBlockDim" value="1,1,1"/>
 		<property name="ImposterExchange" value="imposterDontBlockSheet" param1="43"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
@@ -9497,7 +9419,6 @@
 		<drop event="Destroy" name="scrapIron" count="4" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="60"/>
-		<!-- disassemble value -->
 		<property name="ImposterExchange" value="imposterBlock" param1="43"/>
 	</block>
 	<block id="945" name="cntWashingMachine">
@@ -9521,7 +9442,6 @@
 		<drop event="Destroy" name="scrapIron" count="5" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="60"/>
-		<!-- disassemble value -->
 		<property name="ImposterExchange" value="imposterBlock" param1="77"/>
 	</block>
 	<block id="946" name="cntTrashCompactor">
@@ -9544,7 +9464,6 @@
 		<drop event="Destroy" name="scrapIron" count="5" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="60"/>
-		<!-- disassemble value -->
 		<property name="ImposterExchange" value="imposterBlock" param1="77"/>
 	</block>
 	<block id="947" name="rScrapIronWedgeStairs">
@@ -10218,11 +10137,10 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Mesh" value="cutout"/>
 		<property name="Collide" value="melee,rocket"/>
-		<!-- -rocket -->
 		<property name="Texture" value="68"/>
 		<property name="ImposterExclude" value="true"/>
 		<property name="ShapeMinBB" value="0.3,0,0.3"/>
-		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="Group" value="Tools/Traps"/>
 		<property name="BuffsWhenWalkedOn" value="bleeding"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="10"/>
@@ -10234,7 +10152,6 @@
 	<block id="1096" name="cable1">
 		<property name="Material" value="Mmetal_thin"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="billboard"/>
@@ -10312,7 +10229,6 @@
 		<property name="Class" value="Loot"/>
 		<property name="LootList" value="76"/>
 		<property name="EconomicValue" value="100"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="1105" name="cntGreenDrawer">
 		<property name="Extends" value="greenDrawer"/>
@@ -10320,7 +10236,6 @@
 		<property name="Class" value="Loot"/>
 		<property name="LootList" value="77"/>
 		<property name="EconomicValue" value="100"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="1106" name="shutters1Plate">
 		<property name="Extends" value="woodPlate"/>
@@ -10496,7 +10411,6 @@
 		<property name="Material" value="MmetalNoGlue"/>
 		<property name="MaxDamage" value="25"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -10763,13 +10677,11 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
 		<property name="Place" value="Door"/>
-		<!-- build restriction -->
 		<property name="PlaceEverywhere" value="true"/>
 		<property name="Model" value="Entities/Doors/commercial_door_1_v1Prefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property name="ImposterExchange" value="imposterCTRPlate" param1="9"/>
-		<!-- door replacer -->
 		<property name="Mesh-Damage-1" value="Door/Door_DMG0"/>
 		<property name="Mesh-Damage-2" value="Door/Door_DMG1"/>
 		<property name="Mesh-Damage-3" value="Door/Door_DMG2"/>
@@ -10820,13 +10732,11 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
 		<property name="Place" value="Door"/>
-		<!-- build restriction -->
 		<property name="PlaceEverywhere" value="true"/>
 		<property name="Model" value="Entities/Doors/commercial_door_1_v3Prefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property name="ImposterExchange" value="imposterCTRPlate" param1="9"/>
-		<!-- door replacer -->
 		<property name="Mesh-Damage-1" value="Door/Door_DMG0"/>
 		<property name="Mesh-Damage-2" value="Door/Door_DMG1"/>
 		<property name="Mesh-Damage-3" value="Door/Door_DMG2"/>
@@ -10895,10 +10805,8 @@
 		<property name="ModelOffset" value="0,0,0"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property name="ImposterExchange" value="imposterCTRPlate" param1="25"/>
-		<!-- door replacer -->
 		<property name="Tag" value="Door"/>
 		<property name="Place" value="Door"/>
-		<!-- build restriction -->
 		<property name="PlaceEverywhere" value="true"/>
 		<property name="Mesh-Damage-1" value="Door/Door_DMG0"/>
 		<property name="Mesh-Damage-2" value="Door/Door_DMG1"/>
@@ -10987,7 +10895,6 @@
 		<property name="Model" value="Entities/Doors/house_frontDoor1_v3Prefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
 		<property name="ImposterExchange" value="imposterCTRPlate" param1="25"/>
-		<!-- door replacer -->
 		<property name="OpenSound" value="open_door_wood"/>
 		<property name="CloseSound" value="close_door_wood"/>
 		<property name="DowngradeBlock" value="houseFrontDoor1_v2"/>
@@ -11466,7 +11373,6 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
 		<property name="Place" value="Door"/>
-		<!-- build restriction -->
 		<property name="PlaceEverywhere" value="true"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Model" value="Entities/Doors/steel_door_1_v1Prefab"/>
@@ -11528,7 +11434,6 @@
 		<property name="Material" value="wood_regular"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
 		<property name="PlaceEverywhere" value="true"/>
@@ -11612,7 +11517,6 @@
 	<block id="1255" name="torchWallHolder">
 		<property name="Material" value="Mmetal_weak"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -12047,7 +11951,6 @@
 		<property name="Material" value="wood_weak"/>
 		<property name="MaxDamage" value="1"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -12343,7 +12246,6 @@
 		<property name="Material" value="MmetalNoGlue"/>
 		<property name="MaxDamage" value="250"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -12358,7 +12260,6 @@
 		<property name="Material" value="MmetalNoGlue"/>
 		<property name="MaxDamage" value="250"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -12369,13 +12270,11 @@
 		<drop event="Destroy" name="oldCash" count="1,3" prob="0.05" tool_category="Disassemble"/>
 		<drop event="Destroy" name="scrapIron" count="1,3" tool_category="Harvest"/>
 		<property name="EconomicValue" value="250"/>
-		<!-- disassemble value -->
 	</block>
 	<!-- 5 Free -->
 	<block id="1346" name="shoppingCartEmpty">
 		<property name="Material" value="metal"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -12387,13 +12286,11 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 		<property name="EconomicValue" value="100"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="1347" name="cntShoppingCart">
 		<property name="Class" value="Loot"/>
 		<property name="Material" value="metal"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -12408,7 +12305,6 @@
 	<block id="1348" name="shoppingBasketEmpty">
 		<property name="Material" value="metal"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -12421,7 +12317,6 @@
 		<property name="Class" value="Loot"/>
 		<property name="Material" value="metal"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -12836,12 +12731,10 @@
 		<drop event="Destroy" name="wood" count="1,3" tool_category="Harvest"/>
 		<!-- property name="FallOver" value="false" /-->
 		<property name="EconomicValue" value="20"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="1403" name="emberPile1">
 		<property name="Material" value="wood_weak"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -12866,7 +12759,6 @@
 	<block id="1405" name="emberPile3">
 		<property name="Material" value="wood_weak"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -12880,7 +12772,6 @@
 	<block id="1406" name="emberPile4">
 		<property name="Material" value="wood_weak"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -12897,7 +12788,6 @@
 		<property name="Class" value="Mine"/>
 		<property name="Material" value="MLandMine"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property name="Texture" value="352"/>
@@ -12949,7 +12839,6 @@
 		<property name="Model" value="Buildings/window03_wood_broke2" param1="main_mesh"/>
 		<property name="Place" value="TowardsPlacer"/>
 		<property name="Collide" value="movement,melee,rocket"/>
-		<!-- -rocket -->
 		<property class="RepairItems">
 			<property name="wood" value="5"/>
 		</property>
@@ -13110,7 +12999,6 @@
 		<property name="ImposterExclude" value="true"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Collide" value="movement,melee,rocket"/>
-		<!-- -rocket -->
 	</block>
 	<!-- 1 Free -->
 	<block id="1424" name="steelStairs25">
@@ -13141,7 +13029,6 @@
 		<property name="CustomIcon" value="cntDeskSafe"/>
 		<property name="Material" value="Mmetal_hard"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -13164,7 +13051,6 @@
 		<property name="CustomIcon" value="cntWallSafe"/>
 		<property name="Material" value="Mmetal_hard"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -13391,7 +13277,7 @@
 		<drop event="Harvest" name="scrapIron" count="2" tool_category="Harvest"/>
 		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="Group" value="Tools/Traps"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<!-- x Free -->
@@ -13424,7 +13310,6 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
 		<property name="Place" value="Door"/>
-		<!-- build restriction -->
 		<property name="PlaceEverywhere" value="true"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Model" value="Entities/Doors/steel_door_2_v1Prefab"/>
@@ -13472,7 +13357,6 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
 		<property name="Place" value="Door"/>
-		<!-- build restriction -->
 		<property name="PlaceEverywhere" value="true"/>
 		<property name="Model" value="Entities/Doors/steel_door_2_v3Prefab"/>
 		<property name="ModelOffset" value="0,0,0"/>
@@ -13667,12 +13551,10 @@
 		<property name="Material" value="Mmetal_medium"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Tag" value="Door"/>
 		<property name="PlaceEverywhere" value="true"/>
 		<property name="Place" value="Door"/>
-		<!-- build restriction -->
 		<property name="Model" value="Entities/Doors/scrap_hatch_v1Prefab"/>
 		<property name="ModelOffset" value="0,.5,0"/>
 		<property name="MultiBlockDim" value="1,1,1"/>
@@ -13778,7 +13660,6 @@
 	<block id="1469" name="vaultHatch_v1">
 		<property name="Extends" value="vaultDoor01"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Model" value="Entities/Doors/steel_hatch_v1Prefab"/>
 		<property name="ModelOffset" value="0,.5,0"/>
 		<property name="MultiBlockDim" value="1,1,1"/>
@@ -13805,7 +13686,6 @@
 		<property name="Extends" value="vaultDoor03"/>
 		<property name="DescriptionKey" value="doorGroupDesc"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Model" value="Entities/Doors/steel_hatch_v3Prefab"/>
 		<property name="ModelOffset" value="0,.5,0"/>
 		<property name="MultiBlockDim" value="1,1,1"/>
@@ -14184,7 +14064,6 @@
 		<property name="LightOpacity" value="0"/>
 		<drop event="Harvest" name="electricParts" count="2,6" tool_category="Disassemble"/>
 		<property name="EconomicValue" value="150"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="1546" name="metalPipeStraight">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
@@ -14194,7 +14073,6 @@
 		<property name="Texture" value="523"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="EconomicValue" value="30"/>
-		<!-- disassemble value -->
 	</block>
 	<!-- Disabling for Chris because long custom shapes are out of spec.<block id="1547" name="metalPipeStraightLong"><property name="Material" value="metal"/><property name="Shape" value="New"/><property name="LightOpacity" value="6"/><property name="Model" value="pipe_straight_long"/><property name="MultiBlockDim" value="1,1,3"/><property name="Texture" value="520"/><drop event="Destroy" name="scrapIron" count="10,25" tool_category="Harvest"/><drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/></block>-->
 	<block id="1548" name="metalPipeCorner">
@@ -14205,7 +14083,6 @@
 		<property name="Texture" value="520"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="EconomicValue" value="30"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="1549" name="metalPipeJoint">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
@@ -14215,7 +14092,6 @@
 		<property name="Texture" value="520"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="EconomicValue" value="30"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="1550" name="metalPipeCap">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
@@ -14225,7 +14101,6 @@
 		<property name="Texture" value="521"/>
 		<property name="ImposterExclude" value="true"/>
 		<property name="EconomicValue" value="30"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="1551" name="industrialLight01">
 		<property name="Class" value="Light"/>
@@ -14234,7 +14109,6 @@
 		<property name="Group" value="Science"/>
 		<property name="Material" value="Mmetal_thin"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="ModelEntity"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Light" value="0.5"/>
@@ -14247,11 +14121,11 @@
 			<property name="electronicParts" value="2"/>
 		</property>
 		<drop event="Harvest" name="electricParts" count="1,4" tool_category="Disassemble"/>
-		<!-- HV: mounted fluorescent lamp -->
 		<drop event="Harvest" name="electronicParts" count="1,2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapPlastics" count="1,2" tool_category="Disassemble"/>
 		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="TakeDelay" value="-1"/>
 		<property name="EconomicValue" value="175"/>
 	</block>
@@ -14265,7 +14139,6 @@
 		<property name="Texture" value="524,521,521,521,521,521"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="EconomicValue" value="30"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="1553" name="metalPipeFlange">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
@@ -14275,7 +14148,6 @@
 		<property name="Texture" value="520"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="EconomicValue" value="30"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="1554" name="electricalBox01">
 		<property name="Extends" value="controlPanelBase01"/>
@@ -14369,7 +14241,6 @@
 	<block id="1562" name="bedroll">
 		<property name="Material" value="cloth"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="MaxDamage" value="100"/>
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
@@ -14935,6 +14806,7 @@
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="109"/>
 		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="PickupJournalEntry" value="cameraTip"/>
 	</block>
 	<block id="1679" name="shotgunTurret">
@@ -14994,6 +14866,7 @@
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="109"/>
 		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="PickupJournalEntry" value="cameraTip"/>
 	</block>
 	<!-- Free -->
@@ -15190,7 +15063,6 @@
 	<block id="1903" name="sandbag_2">
 		<property name="Extends" value="sandbag_1"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Model" value="OutdoorDecor/sandbag_2" param1="main_mesh"/>
 		<property name="DowngradeBlock" value="sandbag_3"/>
 	</block>
@@ -15217,7 +15089,6 @@
 	<block id="1905" name="sandbag_4">
 		<property name="Extends" value="sandbag_1"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Model" value="OutdoorDecor/sandbag_4" param1="main_mesh"/>
 	</block>
 	<block id="1906" name="sandbagCorner">
@@ -15239,7 +15110,6 @@
 	<block id="1909" name="sandbagCornerDMG1">
 		<property name="Extends" value="sandbag_1"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Model" value="OutdoorDecor/sandbag_corner_dmg1" param1="main_mesh"/>
 		<property name="MultiBlockDim" value="2,1,1"/>
 		<property name="IsTerrainDecoration" value="true"/>
@@ -15251,7 +15121,6 @@
 		<property name="DescriptionKey" value="sandbagsGroupDesc"/>
 		<property name="Material" value="sand"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -15312,7 +15181,6 @@
 		<property name="DescriptionKey" value="sandbagsGroupDesc"/>
 		<property name="Material" value="sand"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -15375,7 +15243,6 @@
 		<property name="IndexName" value="TraderOnOff"/>
 		<property name="CustomIcon" value="signShopOpenSwitch"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 		<property name="Model" value="Entities/Signs/sign_open_Prefab"/>
@@ -15389,7 +15256,6 @@
 		<property name="TakeDelay" value="-1"/>
 		<property name="Group" value="Science,Decor/Miscellaneous"/>
 		<property name="EconomicValue" value="150"/>
-		<!-- disassemble value -->
 	</block>
 	<block id="1928" name="loudspeaker">
 		<property name="CustomIcon" value="speaker"/>
@@ -15421,7 +15287,6 @@
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="EconomicValue" value="60"/>
-		<!-- disassemble value -->
 		<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 	</block>
@@ -15742,6 +15607,7 @@
 		<drop event="Harvest" name="scrapIron" count="20" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="EconomicValue" value="500"/>
 	</block>
@@ -15762,6 +15628,7 @@
 		</property>
 		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="250"/>
 		<property name="TakeDelay" value="5"/>
 		<property name="EconomicValue" value="50"/>
@@ -15794,6 +15661,7 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Destroy" name="solarbank" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="EconomicValue" value="2000"/>
@@ -15828,6 +15696,7 @@
 		<drop event="Harvest" name="scrapIron" count="20" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="EconomicValue" value="400"/>
@@ -15850,6 +15719,7 @@
 		<drop event="Harvest" name="electricParts" count="1" prob="0.2" tool_category="Disassemble"/>
 		<drop event="Destroy" name="scrapIron" count="1,5" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="250"/>
 		<property name="TakeDelay" value="5"/>
 		<property name="EconomicValue" value="28"/>
@@ -15877,6 +15747,7 @@
 		<drop event="Harvest" name="mechanicalParts" count="1" tool_category="Disassemble"/>
 		<drop event="Destroy" name="scrapIron" count="5" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="TakeDelay" value="5"/>
 		<property name="EconomicValue" value="124"/>
 		<property name="PickupJournalEntry" value="triggerDelayDurationTip,passthroughTriggeringTip"/>
@@ -15928,6 +15799,7 @@
 		<drop event="Harvest" name="scrapIron" count="2" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="250"/>
 		<property name="TakeDelay" value="5"/>
 		<property name="EconomicValue" value="119"/>
@@ -15946,7 +15818,6 @@
 		<property name="RunningSoundBreaking" value="bladetrap_dm1_lp"/>
 		<property name="RunningSoundBroken" value="bladetrap_dm2_lp"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Electrical/trap_spinning_bladePrefab"/>
 		<property name="HandleFace" value="Bottom"/>
@@ -15975,6 +15846,7 @@
 		<drop event="Harvest" name="scrapIron" count="1,5" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="TakeDelay" value="10"/>
 	</block>
@@ -16004,6 +15876,7 @@
 		<drop event="Harvest" name="steelDart" count="1,5" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="TakeDelay" value="10"/>
 		<property name="EconomicValue" value="220"/>
@@ -16066,6 +15939,7 @@
 		<drop event="Harvest" name="scrapIron" count="25"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="TakeDelay" value="5"/>
 		<property name="EconomicValue" value="524"/>
 		<property name="DescriptionKey" value="pressureplateDesc"/>
@@ -16097,6 +15971,7 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="EconomicValue" value="310"/>
 		<property name="Group" value="Science"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="TakeDelay" value="10"/>
 		<property name="PickupJournalEntry" value="cameraTip"/>
@@ -16113,7 +15988,6 @@
 			<property name="electronicParts" value="2"/>
 		</property>
 		<drop event="Harvest" name="electricParts" count="1,4" tool_category="Disassemble"/>
-		<!-- HV: mounted fluorescent lamp -->
 		<drop event="Harvest" name="electronicParts" count="1,2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapPlastics" count="1,2" tool_category="Disassemble"/>
 		<property name="TakeDelay" value="5"/>
@@ -16132,7 +16006,6 @@
 		<property name="CustomIcon" value="ceilingLight01"/>
 		<property name="RuntimeSwitch" value="true"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Model" value="Entities/Lighting/player_ceilingLight01Prefab"/>
 		<property name="HandleFace" value="Top"/>
 		<property name="TakeDelay" value="5"/>
@@ -16167,7 +16040,6 @@
 			<property name="electronicParts" value="2"/>
 		</property>
 		<drop event="Harvest" name="electricParts" count="1,4" tool_category="Disassemble"/>
-		<!-- HV: mounted fluorescent lamp -->
 		<drop event="Harvest" name="electronicParts" count="1,2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapPlastics" count="1,2" tool_category="Disassemble"/>
 		<property name="Model" value="Entities/Lighting/player_ceilingLight07Prefab"/>
@@ -16189,6 +16061,7 @@
 			<property name="electricParts" value="1"/>
 		</property>
 		<property name="Group" value="Science"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<drop event="Harvest" name="electricParts" count="1" tool_category="Disassemble"/>
 		<drop event="Destroy" name="wood" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.3" stick_chance="1"/>
@@ -16220,6 +16093,7 @@
 		<drop event="Harvest" name="scrapIron" count="2" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="EconomicValue" value="62"/>
 	</block>
 	<block id="2030" name="motionsensor">
@@ -16244,6 +16118,7 @@
 		<drop event="Harvest" name="scrapIron" count="1" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="EconomicValue" value="135"/>
 		<property name="PickupJournalEntry" value="cameraTip,triggerDelayDurationTip,passthroughTriggeringTip"/>
 	</block>
@@ -17576,7 +17451,6 @@
 		<property name="RunningSoundBreaking" value="bladetrap_dm1_lp"/>
 		<property name="RunningSoundBroken" value="bladetrap_dm2_lp"/>
 		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Electrical/trap_spinning_bladePrefab"/>
 		<property name="HandleFace" value="Bottom"/>
