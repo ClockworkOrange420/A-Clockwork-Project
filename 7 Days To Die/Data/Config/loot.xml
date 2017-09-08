@@ -250,19 +250,13 @@
 
 	<placeholder name="lootWorkstationsHelper">
 		<block name="forge" prob="30"/>
-		<block name="workbench" prob="30"/>
-		<block name="chemistryStation" prob="20"/>
-		<block name="cementMixer" prob="20"/>
 	</placeholder>
 
 	<placeholder name="lootWorkstationsBustedHelper">
 		<block name="forge" prob="1"/>
 		<block name="cntCollapsedForge" prob="10"/>
-		<block name="workbench" prob="1"/>
 		<block name="cntCollapsedWorkbench" prob="10"/>
-		<block name="cementMixer" prob="0.6"/>
 		<block name="cntCollapsedCementMixer" prob="6"/>
-		<block name="chemistryStation" prob="0.6"/>
 		<block name="cntCollapsedChemistryStation" prob="6"/>
 	</placeholder>
 
@@ -271,22 +265,19 @@
 		<block name="cntCollapsedForge" prob="10"/>
 	</placeholder>
 	<placeholder name="lootWorkbenchBustedHelper">
-		<block name="workbench" prob="1"/>
 		<block name="cntCollapsedWorkbench" prob="10"/>
 	</placeholder>
 	<placeholder name="lootCementMixerBustedHelper">
-		<block name="cementMixer" prob="0.6"/>
 		<block name="cntCollapsedCementMixer" prob="6"/>
 	</placeholder>
 	<placeholder name="lootChemistryStationBustedHelper">
-		<block name="chemistryStation" prob="0.6"/>
 		<block name="cntCollapsedChemistryStation" prob="6"/>
 	</placeholder>
 
 	<!-- Note that these cannot reference themselves -->
 	<placeholder name="lootConstructionSuppliesHelper">
 		<block name="cntLootCrateConstructionSupplies" prob="16"/>
-		<block name="cementMixer" prob="0.2"/>
+		<block name="cntCollapsedCementMixer" prob="0.2"/>
 		<block name="cntCollapsedGeneratorbank" prob="0.25"/>
 		<block name="cntCollapsedBatterybank" prob="0.1"/>
 		<block name="cntLootCrateWorkingStiffs"/>
