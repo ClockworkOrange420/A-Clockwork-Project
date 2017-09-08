@@ -982,7 +982,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="forge_category" value="wood" />
 	<property name="Hardness" type="float" value="1" />
 	<property name="stepsound" value="cloth" />
-	<property name="stability_glue" value="5" />
+	<property name="stability_glue" value="0" />
 	<property name="Mass" type="int" value="5" />
 	<property name="StabilitySupport" value="false" />
 	<property name="MaxDamage" value="100" />
