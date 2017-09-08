@@ -4199,7 +4199,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Class" value="TrunkTip"/>
 		<property name="Damage" value="5"/>
 		<property name="Damage_received" value="35"/>
-		<property name="Material" value="wood_regular"/>
+		<property name="Material" value="logSpikes"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="cone1m"/>

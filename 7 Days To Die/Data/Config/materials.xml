@@ -85,7 +85,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="forge_category" value="wood" />
 	<property name="Hardness" type="float" value="1" />
 	<property name="stepsound" value="wood" />
-	<property name="stability_glue" value="1" />
+	<property name="stability_glue" value="0" />
 	<property name="Mass" type="int" value="1" />
 	<property name="MaxDamage" value="50" />
 	<property name="movement_factor" value="0.6" />
@@ -736,6 +736,18 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
     <property name="stability_glue" value="20" />
     <property name="Mass" type="int" value="5" />
 	<property name="MaxDamage" value="20" />
+	<property name="Experience" value="0"/>
+</material>
+
+<material id="logSpikes">
+	<property name="damage_category" value="wood" />
+	<property name="surface_category" value="wood" />
+	<property name="forge_category" value="wood" />
+	<property name="Hardness" type="float" value="1" />
+	<property name="stepsound" value="wood" />
+	<property name="stability_glue" value="0" />
+	<property name="Mass" type="int" value="5" />
+	<property name="MaxDamage" value="750" />
 	<property name="Experience" value="0"/>
 </material>
 
