@@ -6669,20 +6669,18 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="IsPlant" value="true"/>
 		<property name="CanPlayersSpawnOn" value="false"/>
 		<drop event="Harvest" name="yuccaFibers" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" name="foodYuccaFruit" count="3" tool_category="Harvest"/>
+		<drop event="Destroy" name="foodYuccaFruit" count="1" prob="0.5" tool_category="Harvest"/>
 		<drop event="Destroy" name="yuccaFibers" count="5" tool_category="Harvest"/>
 	</block>
 	<block id="669" name="treeCactus02">
 		<property name="Extends" value="treeCactus01"/>
 		<property name="Model" value="Entities/Trees/Saguaro_Cactus_16Prefab"/>
 		<property name="MultiBlockDim" value="1,4,1"/>
-		<drop event="Destroy" name="foodYuccaFruit" count="3" tool_category="Harvest"/>
 	</block>
 	<block id="670" name="treeCactus03">
 		<property name="Extends" value="treeCactus01"/>
 		<property name="Model" value="Entities/Trees/Saguaro_Cactus_13Prefab"/>
 		<property name="MultiBlockDim" value="1,3,1"/>
-		<drop event="Destroy" name="foodYuccaFruit" count="2" tool_category="Harvest"/>
 	</block>
 	<block id="671" name="treeCactus04">
 		<property name="Extends" value="treeCactus01"/>
@@ -6690,21 +6688,18 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Model" value="Entities/Plants/cactus04Prefab"/>
 		<property name="ModelOffset" value="0,0.45,0"/>
 		<property name="MultiBlockDim" value="1,1,1"/>
-		<drop event="Destroy" name="foodYuccaFruit" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="672" name="treeCactus05">
 		<property name="Extends" value="treeCactus01"/>
 		<property name="Model" value="Entities/Plants/cactus05Prefab"/>
 		<property name="ModelOffset" value="0,0.45,0"/>
 		<property name="MultiBlockDim" value="1,1,1"/>
-		<drop event="Destroy" name="foodYuccaFruit" count="1" tool_category="Harvest"/>
 	</block>
 	<block id="673" name="treeCactus06">
 		<property name="Extends" value="treeCactus01"/>
 		<property name="Model" value="Entities/Plants/cactus06Prefab"/>
 		<property name="ModelOffset" value="0,0.45,0"/>
 		<property name="MultiBlockDim" value="1,1,1"/>
-		<drop event="Destroy" name="foodYuccaFruit" count="2" tool_category="Harvest"/>
 	</block>
 	<block id="674" name="treePlantedMountainPine1m">
 		<property name="Extends" value="treeMasterGrowing" param1="CustomIcon,DescriptionKey"/>
