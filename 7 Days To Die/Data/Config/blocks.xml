@@ -6669,7 +6669,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="IsPlant" value="true"/>
 		<property name="CanPlayersSpawnOn" value="false"/>
 		<drop event="Harvest" name="yuccaFibers" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" name="foodYuccaFruit" count="1" prob="0.5" tool_category="Harvest"/>
+		<drop event="Destroy" name="foodYuccaFruit" count="1" prob="0.75" tool_category="Harvest"/>
 		<drop event="Destroy" name="yuccaFibers" count="5" tool_category="Harvest"/>
 	</block>
 	<block id="669" name="treeCactus02">
@@ -8543,7 +8543,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Harvest" name="plantedYucca1" count="1" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="plantedYucca1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="plantedYucca1" count="1" tool_category="Crops"/>
-		<drop event="Harvest" name="foodYuccaFruit" count="1" prob="0.5" tool_category="Crops"/>
+		<drop event="Harvest" name="foodYuccaFruit" count="1" prob="0.75" tool_category="Crops"/>
 	</block>
 	<block id="854" name="plantedAloe3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
