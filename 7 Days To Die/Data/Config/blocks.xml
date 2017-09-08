@@ -8622,12 +8622,13 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Material" value="hay"/>
 		<property name="Texture" value="196"/>
 		<property name="FuelValue" value="8"/>
-		<property name="CanPickup" value="true"/>
+		<property name="CanPickup" value="false"/>
 		<property name="FallDamage" value="false"/>
 		<property class="RepairItems">
 			<property name="yuccaFibers" value="10"/>
 		</property>
-		<drop event="Destroy" name="hayBaleBlock" count="1" tool_category="Harvest"/>
+		<drop event="Harvest" name="yuccaFibers" count="5" tool_category="Harvest"/>
+		<drop event="Destroy" name="yuccaFibers" count="5" tool_category="Harvest"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="20"/>
 		<property name="SellableToTrader" value="false"/>
