@@ -1799,7 +1799,7 @@
 	<property name="MaxHealth" value="60"/>
 	<property name="HandItem" value="handSnake"/>
 	<property name="Weight" value="70"/>
-	<property name="WanderSpeed" value="0.08"/>
+	<property name="WanderSpeed" value="0.5"/>
 	<property name="WalkType" value="7"/>
 	<property name="SoundHurt" value="Animals/Snake/snakepain"/>
 	<property name="SoundDeath" value="Animals/Snake/snakedeath"/>
