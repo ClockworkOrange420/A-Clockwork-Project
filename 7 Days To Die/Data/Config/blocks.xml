@@ -7123,7 +7123,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 	</block>-->
 	<block id="703" name="rWoodLogSpike2">
 		<property name="Extends" value="woodLogSpike1"/>
-		<property name="Material" value="wood+wood"/>
+		<property name="Material" value="rLogSpikes"/>
 		<property name="Damage" value="6"/>
 		<property name="Damage_received" value="35"/>
 		<property name="Texture" value="379"/>
@@ -13180,7 +13180,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="rWoodLogSpike2" param1="DowngradeBlock,RepairItems"/>
 		<property name="Damage" value="7"/>
 		<property name="Damage_received" value="35"/>
-		<property name="Material" value="Mmetal_medium"/>
+		<property name="Material" value="MmetalSpikes"/>
 		<property name="Texture" value="307"/>
 		<property name="ImposterExchange" value="imposterPyramid" param1="87"/>
 		<property class="RepairItems">
@@ -13202,7 +13202,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="scrapIronLogSpike4"/>
 		<property name="Damage" value="8"/>
 		<property name="Damage_received" value="35"/>
-		<property name="Material" value="Mmetal_hard"/>
+		<property name="Material" value="rMmetalSpikes"/>
 		<property name="Texture" value="352"/>
 		<property name="ImposterExchange" value="imposterPyramid" param1="110"/>
 		<property class="UpgradeBlock">
@@ -13251,7 +13251,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Class" value="TrunkTip"/>
 		<property name="Damage" value="9"/>
 		<property name="Damage_received" value="35"/>
-		<property name="Material" value="Msteel"/>
+		<property name="Material" value="MsteelSpike"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="cone1m"/>
@@ -16667,7 +16667,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="MaxDamage" value="2"/>
 		<property name="Damage" value="9"/>
 		<property name="Damage_received" value="1"/>
-		<property name="Material" value="Msteel"/>
+		<property name="Material" value="MsteelSpike"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="cone1m"/>
