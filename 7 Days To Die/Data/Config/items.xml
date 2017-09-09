@@ -2074,7 +2074,6 @@
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="1"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
-			<!-- xxx trains blade weapons SUPER fast but ActionExp cannot be set lower than 1 -->
 		</property>
 		<property name="Group" value="Tools/Traps"/>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
@@ -9217,8 +9216,8 @@
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="Buff" value="bleeding"/>
 			<property name="Buff_chance" value="0.25"/>
-			<property name="ActionExp" value="10"/>
-			<property name="ActionExpBonusMultiplier" value="4"/>
+			<property name="ActionExp" value="6"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="5,10"/>
@@ -9257,8 +9256,8 @@
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="Buff" value="bleeding"/>
 			<property name="Buff_chance" value="0.25"/>
-			<property name="ActionExp" value="10"/>
-			<property name="ActionExpBonusMultiplier" value="4"/>
+			<property name="ActionExp" value="6"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="10,20"/>
@@ -9297,8 +9296,8 @@
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="Buff" value="bleeding"/>
 			<property name="Buff_chance" value="0.25"/>
-			<property name="ActionExp" value="10"/>
-			<property name="ActionExpBonusMultiplier" value="4"/>
+			<property name="ActionExp" value="6"/>
+			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="15,30"/>
