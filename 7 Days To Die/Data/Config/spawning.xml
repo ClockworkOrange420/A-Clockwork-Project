@@ -37,26 +37,26 @@
 
     <biome name="forest">
         <spawn maxcount="3" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
-		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
-		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsForest" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="FriendlyAnimalsForest" spawnDeadChance="0" />
     </biome>
 
     <biome name="pine_forest">
         <spawn maxcount="3" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
-		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
-		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsForest" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="FriendlyAnimalsForest" spawnDeadChance="0" />
     </biome>
 
     <biome name="plains">
         <spawn maxcount="2" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
-		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsPlains" spawnDeadChance="0" />
-		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsPlains" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="EnemyAnimalsPlains" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="FriendlyAnimalsPlains" spawnDeadChance="0" />
     </biome>
 
     <biome name="desert">
         <spawn maxcount="2" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
-		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsDesert" spawnDeadChance="0" />
-		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsDesert" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="EnemyAnimalsDesert" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="FriendlyAnimalsDesert" spawnDeadChance="0" />
     </biome>
 
     <biome name="wasteland">
@@ -68,13 +68,13 @@
 
     <biome name="burnt_forest">
         <spawn maxcount="2" respawndelay="4" time="Any"   entitygroup="ZombiesBurntForest" />
-		<spawn maxcount="1" respawndelay="7" time="Any"   entitygroup="EnemyAnimalsBurntForest" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any"   entitygroup="EnemyAnimalsBurntForest" spawnDeadChance="0" />
 		</biome>
 
     <biome name="snow">
 		<spawn maxcount="3" respawndelay="4" time="Any" entitygroup="SnowZombies" />
-		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0" />
-		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsSnow" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="FriendlyAnimalsSnow" spawnDeadChance="0" />
 	</biome>
 
 
