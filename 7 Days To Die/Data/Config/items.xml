@@ -11269,7 +11269,7 @@
 	</item>
 	<item id="1677" name="electricMachete">
 		<property name="Extends" value="machete"/>
-		<property name="EconomicValue" value="1000"/>
+		<property name="EconomicValue" value="1500"/>
 		<property class="Action0">
 			<property name="Buff" value="shockingBuff"/>
 			<property name="Buff_chance" value="0.7"/>
@@ -11278,7 +11278,7 @@
 	</item>
 	<item id="1678" name="electricSledgehammer">
 		<property name="Extends" value="sledgehammer"/>
-		<property name="EconomicValue" value="800"/>
+		<property name="EconomicValue" value="1000"/>
 		<property class="Action0">
 			<property name="Buff" value="shockingBuff,criticalBlunt,stunned,sprainedLeg"/>
 			<property name="Buff_chance" value="0.7,0.4,0.4,0.3"/>
@@ -11287,7 +11287,7 @@
 	</item>
 	<item id="1679" name="electricClubSpiked">
 		<property name="Extends" value="clubSpiked"/>
-		<property name="EconomicValue" value="800"/>
+		<property name="EconomicValue" value="1000"/>
 		<property class="Action0">
 			<property name="Buff" value="shockingBuff,bleeding,criticalBlunt,stunned"/>
 			<property name="Buff_chance" value="0.7,0.5,0.3,0.3"/>
