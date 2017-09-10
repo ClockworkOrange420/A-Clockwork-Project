@@ -519,8 +519,6 @@
 	<entitygroup name="FriendlyAnimalsBurntForest">
 		<entity name="animalRabbit"/>
 		<entity name="animalChicken"/>
-		<entity name="animalBoar"/>
-		<entity name="animalStag"/>
 		<entity name="animalSnake"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
@@ -622,8 +620,8 @@
 		<entity name="animalSnake"/>
 		<entity name="animalZombieVulture"/>
 		<entity name="animalWolf"/>
-		<entity name="animalDireWolf" prob="0.15"/>
-		<entity name="animalBear" prob="0.15"/>
+		<entity name="animalDireWolf" prob="0.3"/>
+		<entity name="animalBear" prob="0.3"/>
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsWasteland" >
