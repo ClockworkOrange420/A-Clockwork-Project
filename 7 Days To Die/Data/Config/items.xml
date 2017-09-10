@@ -1481,7 +1481,7 @@
 			<property name="DamageEntity" value="10"/>
 			<property name="DamageBlock" value="10"/>
 			<property name="Buff" value="infectionActivatorHygiene,bleeding,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
-			<property name="Buff_chance" value="1,0.3,0.01,0.2,0.3,0.4,1"/>
+			<property name="Buff_chance" value="1,0.4,0.01,0.2,0.3,0.4,1"/>
 		</property>
 	</item>
 	<item id="104" name="handAnimalWolf">
