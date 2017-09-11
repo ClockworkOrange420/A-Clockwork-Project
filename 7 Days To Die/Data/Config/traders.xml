@@ -609,8 +609,8 @@ quality_mod: adjusts the price range of all items with a quality level.
 
 		<trader_item_group name="generalResources"> <!-- bundle size -->
 			<item name="wood" count="50,250"/> <!-- 50 -->
-			<item name="yuccaFibers" count="5,40"/> <!-- 50 -->
-			<item name="crushedSand" count="10,40"/> <!-- 50 -->
+			<item name="rockSmall" count="20,40"/> <!-- 50 -->
+			<item name="crushedSand" count="20,40"/> <!-- 50 -->
 			<item name="scrapIron" count="15,80"/> <!-- 10 -->
 			<item name="scrapPlastics" count="30,150"/>
 			<item name="forgedIron" count="5,50"/>
