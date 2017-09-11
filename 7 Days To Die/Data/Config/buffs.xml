@@ -131,6 +131,10 @@ built-in buff variables:
 <!-- This buff is called on the first time the player spawns into the game and on respawning the player after each death. Can not add buffs. -->
 <buff id="initvars" duration="1" actions="setvar(beers,0);setvar(BDKbloodLoss,0);setvar(CTRbed,0);setvar(CTRbedroll,0);setvar(CTRbigbed,0);setvar(CTRblockBurn2,0);setvar(CTRblockBurn3,0);setvar(CTRroadrun,0);setvar(CTRsnowberry,0);setvar(CTRtrapDmg1,0);setvar(CTRbluePill,0)"/>
 
+<buff id="GameStart" duration="3" mutex="GameStartLock" buffif="coretemp lequal 300" onexpired="GameReset" />
+<buff id="GameReset" duration="3" onexpired="GameStartLock" mutex="GameStartLock" actions="setvar(venomGood, 0);setvar(venomBad, 0);setvar(infected, 0);setvar(CTRChair, 0);setvar(fatigue, 0);setvar(CTRlotus, 0);setvar(shocking, 0);setvar(hygiene, 0)" />
+<buff id="GameStartLock"/>
+
 <buff id="woundActivatorClean" duration="20" onexpired="infection" requires="clean" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" type="sickness"/>
 <buff id="woundActivatorDirty" duration="15" onexpired="infection" requires="dirty" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" type="sickness"/>
 <buff id="woundActivatorGrimy" duration="10" onexpired="infection" requires="grimy" mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" type="sickness"/>
