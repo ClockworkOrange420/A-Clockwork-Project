@@ -599,27 +599,27 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="animalHideBoots" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
-		<ingredient name="animalHide" count="10"/>
+		<ingredient name="animalHide" count="5"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="animalHideGloves" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
-		<ingredient name="animalHide" count="10"/>
+		<ingredient name="animalHide" count="5"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="animalHideHood" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
-		<ingredient name="animalHide" count="16"/>
+		<ingredient name="animalHide" count="8"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="animalHideChestArmor" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
-		<ingredient name="animalHide" count="20"/>
+		<ingredient name="animalHide" count="10"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="animalHideLegArmor" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
-		<ingredient name="animalHide" count="20"/>
+		<ingredient name="animalHide" count="10"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="animalHidePoncho" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
-		<ingredient name="animalHide" count="20"/>
+		<ingredient name="animalHide" count="10"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
 	<recipe name="scrapHelmet" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Smithing_Table" craft_tool="anvil" >
