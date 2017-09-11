@@ -2526,7 +2526,7 @@
 		<property name="Group" value="Ammo/Weapons,Basics"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="10,20"/>
+			<property name="EntityDamage" value="10,15"/>
 			<property name="BlockDamage" value="1,5"/>
 			<property name="ApplyBuff" value="0.25,0.25" param1="arrowCriticalBleedout"/>
 		</property>
@@ -2545,7 +2545,7 @@
 		</property>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="20,30"/>
+			<property name="EntityDamage" value="15,20"/>
 			<property name="BlockDamage" value="5,10"/>
 			<property name="ApplyBuff" value="0.35,0.35" param1="arrowCriticalBleedout"/>
 		</property>
@@ -2560,7 +2560,7 @@
 			<property name="LifeTime" value="12"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="30,40"/>
+			<property name="EntityDamage" value="20,25"/>
 			<property name="BlockDamage" value="5,10"/>
 			<property name="ApplyBuff" value="0.5,0.5" param1="arrowCriticalBleedout"/>
 		</property>
@@ -2581,7 +2581,7 @@
 			<property name="DamageBonus.wood" value="2"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="30,40"/>
+			<property name="EntityDamage" value="15,20"/>
 			<property name="BlockDamage" value="6,11"/>
 			<property name="ApplyBuff" value="1,1" param1="burning"/>
 		</property>
@@ -2616,7 +2616,7 @@
 		</property>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="25,45"/>
+			<property name="EntityDamage" value="20,25"/>
 			<property name="BlockDamage" value="6,10"/>
 			<property name="ApplyBuff" value="0.35,0.35" param1="arrowCriticalBleedout"/>
 		</property>
@@ -2636,7 +2636,7 @@
 			<property name="LifeTime" value="12"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="35,55"/>
+			<property name="EntityDamage" value="25,30"/>
 			<property name="BlockDamage" value="6,11"/>
 			<property name="ApplyBuff" value="0.5,0.5" param1="arrowCriticalBleedout"/>
 		</property>
@@ -2668,7 +2668,7 @@
 			<property name="Explosion.DamageBonus.water" value="0.1"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="35,55"/>
+			<property name="EntityDamage" value="25,30"/>
 			<property name="BlockDamage" value="6,11"/>
 			<property name="ApplyBuff" value="0,0" param1="arrowCriticalBleedout"/>
 		</property>
