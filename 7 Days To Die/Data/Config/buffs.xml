@@ -668,11 +668,11 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 <buff id="zombieElectricBuff" duration="0" actions="attach(ParticleEffects/p_electric_shock, @impact)" icon="ui_game_symbol_electric_power"/>
 
 <buff id="zombieRadiatedBuff40" duration="0" icon="ui_game_symbol_fire">
-	<modify id="0" stat="health" amount="10" rate="10" />
+	<modify id="0" stat="health" amount="40" rate="10" />
 </buff>
 
 <buff id="zombieRadiatedBuff80" duration="0" icon="ui_game_symbol_fire">
-	<modify id="0" stat="health" amount="15" rate="10" />
+	<modify id="0" stat="health" amount="80" rate="10" />
 </buff>
 
 <buff id="shockedBuff" duration="4.5" type="armordown" stack="reset" debuffif="ShockAmount equals 0" buffif="ShockAmount greater 0"
