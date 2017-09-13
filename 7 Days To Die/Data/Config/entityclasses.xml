@@ -1346,7 +1346,7 @@
 	<property name="MaxViewAngle" value="180"/>
 	<property name="WanderSpeed" value="0.7"/>
 	<property name="PanicSpeed" value="2.0"/>
-
+	<property name="Immunity" value="sickness;disease;wellness;staminadown"/>
 	<!-- Stealth settings -->
 	<property name="SightRange" value="30"/> <!-- distance in m -->
 	<property name="SightScale" value="-2,150"/>
@@ -1495,7 +1495,7 @@
 	<property name="NightApproachSpeed" value="1.4"/>
 	<property name="MaxTurnSpeed" value="360"/>
 	<property name="IsEnemyEntity" value="true"/>
-
+	<property name="Immunity" value="sickness;disease;wellness;staminadown"/>
 	<!-- Stealth settings -->
 	<property name="SightRange" value="40"/> <!-- distance in m -->
 	<property name="SightScale" value="-2,150"/>
