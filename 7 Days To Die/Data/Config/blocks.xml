@@ -13457,7 +13457,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Model" value="Entities/Vehicles/car03_dmg1_Prefab"/>
 		<property name="MultiBlockDim" value="2,2,6"/>
 		<property name="ShowModelOnFall" value="false"/>
-		<drop event="Harvest" name="smallEngine" count="1" prob="0.18" tool_category="Disassemble"/>
+		<drop event="Harvest" name="smallEngine" count="1" prob="0.25" tool_category="Disassemble"/>
 		<drop event="Harvest" name="carBattery" count="1" prob="0.2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="radiator" count="1" prob="0.5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="oil" count="1,3" prob="0.5" tool_category="Disassemble"/>
