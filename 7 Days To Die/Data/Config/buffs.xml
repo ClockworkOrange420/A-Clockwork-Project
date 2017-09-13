@@ -289,7 +289,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="smelly" duration="30" smell="largeSmell" icon="ui_game_symbol_dysentery" name_key="smelly" description_key="smellyDesc" tooltip_key="smellyTooltip"/>
 
 <buff id="recoveryRemover" duration="1" actions="debuff(recoveringCommon)"/>
-<buff id="cured" duration="1200t" stack="reset" actions="debuff(recovering);debuff(recoveringSmall);debuff(recoveringTiny);debuff(recovering2);debuff(recovering3);debuff(recovering4);setvar(infected, 0)" icon="ui_game_symbol_muscle" name_key="cured" description_key="curedDesc" tooltip_key="curedTooltip"/>
+<buff id="cured" duration="1200t" stack="reset" actions="debuff(recoveringCommon);debuff(recovering);debuff(recoveringSmall);debuff(recoveringTiny);debuff(recovering2);debuff(recovering3);debuff(recovering4);setvar(infected, 0)" icon="ui_game_symbol_muscle" name_key="cured" description_key="curedDesc" tooltip_key="curedTooltip"/>
 <buff id="recoveringCommon" duration="0"/>
 <buff id="recovering" duration="2400t" onexpired="recoveryRemover" ondebuff="recoveryRemover" requires="infectionBase" mutex="cured,recoveringSmall,recoveringTiny" stack="reset" actions="increment(infected, -1, 1t, 0, 0);buff(recoveringCommon);increment(@wellness, 0.25, 100t, 0, 0)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
 <buff id="recoveringSmall" duration="1200t" onexpired="recoveryRemover" ondebuff="recoveryRemover" requires="infectionBase" mutex="cured,recovering,recoveringTiny" stack="reset" actions="increment(infected, -1, 1t, 0, 0);buff(recoveringCommon);increment(@wellness, 0.25, 100t, 0, 0)" icon="ui_game_symbol_pills" name_key="Recovering" description_key="You are recovering from an infection, sleeping in a bed increases recovery rate." tooltip_key="Recovering from infection"/>
@@ -576,8 +576,8 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 
 <buff id="autogendertest" duration="1" castsound="Player_*painlg1"/>
 
-<buff id="fullBuff" mutex="bleeding,infectionBase" buffif="food > 0.75" debuffif="food lequal 0.75" icon="ui_game_symbol_natural_healing" name_key="fullBuff" description_key="fullBuffDesc" tooltip_key="fullBuffTooltip">
-	<modify id="0" stat="health" amount="1" rate="5" />
+<buff id="fullBuff" mutex="bleeding" buffif="food > 0.75" debuffif="food lequal 0.75" icon="ui_game_symbol_natural_healing" name_key="fullBuff" description_key="fullBuffDesc" tooltip_key="fullBuffTooltip">
+	<modify id="0" stat="health" amount="1" rate="10" />
 </buff>
 
 <buff id="cured2" stack="reset" duration="2400t" actions="increment(@wellness, 0.5, 1200t, 0, 0)" icon="ui_game_symbol_pills" name_key="Vitamins" description_key="Increases wellness slowly over time." tooltip_key="Slowly Increases Wellness." />
