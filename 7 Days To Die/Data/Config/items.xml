@@ -11240,6 +11240,7 @@
 			<property name="Gain_health" value="-10"/>
 			<property name="Gain_stamina" value="10"/>
 			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_eating"/>
 			<property name="Buff" value="eatLotusExtractTrigger"/>
 		</property>
 		<property name="Group" value="Science"/>
@@ -11261,6 +11262,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_stamina" value="100"/>
 			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_eating"/>
 			<property name="Buff" value="eatLotusExtractTrigger,eatsnowberryJuiceTrigger,extractMix"/>
 		</property>
 		<property name="Group" value="Science"/>
