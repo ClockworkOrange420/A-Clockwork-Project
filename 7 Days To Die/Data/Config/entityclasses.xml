@@ -1049,7 +1049,7 @@
 	<property name="Mesh" value="Zombies/zombieStandardWorkerRagdoll"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="Buffs" value="zombieElectricBuff"/>
-	<property name="Immunity" value="sickness;disease;bleeding;wellness;armordown"/>
+	<property name="Immunity" value="sickness;disease;bleeding;wellness;armordown;staminadown;healthdown"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="6"/>
 	<property name="MaxHealth" value="200"/>
@@ -1543,7 +1543,7 @@
 	<property name="SoundSense" value="Enemies/Zombie_Dogs/zombiedogsense"/>
 	<property name="SoundGiveUp" value="Enemies/Zombie_Dogs/zombiedoggiveup"/>
 	<property name="ExperienceGain" value="120"/>
-	<property name="Immunity" value="sickness;disease;bleeding;wellness"/>
+	<property name="Immunity" value="sickness;disease;bleeding;wellness;staminadown;healthdown"/>
 	<property name="AITask-1" value="BreakDoor"/>
 	<property name="AITask-2" value="BreakBlock"/>
 	<property name="AITask-3" value="Territorial"/>
@@ -1737,7 +1737,7 @@
 	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
 	<property name="HandItem" value="handAnimalZombieVulture"/>
 	<property name="MaxHealth" value="50"/>
-	<property name="Immunity" value="sickness;disease;bleeding;wellness"/>
+	<property name="Immunity" value="sickness;disease;bleeding;wellness;staminadown;healthdown"/>
 	<property class="MechanimAttackTriggers">
 		<property name="state0" value="AttackTrigger"/>
 	</property>
