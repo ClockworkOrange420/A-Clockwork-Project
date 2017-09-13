@@ -5411,7 +5411,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Basics,Building"/>
 		<property name="DescriptionKey" value="forgeDesc"/>
-		<property name="EconomicValue" value="214"/>
+		<property name="EconomicValue" value="1000"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="557" name="cntMunitionsBox">
 		<!-- military ammo -->
@@ -14233,6 +14234,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="TakeDelay" value="15"/>
 		<property name="DescriptionKey" value="cementMixerDesc"/>
 		<property name="EconomicValue" value="1544"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Building,Science"/>
 	</block>
 	<block id="1562" name="bedroll">
@@ -14300,8 +14302,9 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="TakeDelay" value="15"/>
+		<property name="SellableToTrader" value="false"/>
 		<property name="DescriptionKey" value="workbenchDesc"/>
-		<property name="EconomicValue" value="776"/>
+		<property name="EconomicValue" value="2000"/>
 		<property name="Group" value="Building,Basics"/>
 	</block>
 	<block id="1564" name="treePlantedWinterPine1m">
@@ -16300,7 +16303,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="DescriptionKey" value="dewCollectorDesc"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Building"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="EconomicValue" value="1200"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -16343,7 +16346,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="DescriptionKey" value="chickenCoopDesc"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Building"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="EconomicValue" value="1000"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -16452,7 +16455,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="researchTableDesc"/>
 		<property name="Group" value="Building"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="EconomicValue" value="1000"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -16494,7 +16497,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="ovenDesc"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="EconomicValue" value="250"/>
+		<property name="EconomicValue" value="500"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -16534,7 +16537,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="ovenDesc"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="EconomicValue" value="800"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -16568,7 +16571,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="tailoringTableDesc"/>
 		<property name="Group" value="Building"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="EconomicValue" value="800"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -16597,7 +16600,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="smithingTableDesc"/>
 		<property name="Group" value="Building"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="EconomicValue" value="2000"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -16652,7 +16655,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Building"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="EconomicValue" value="900"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="DescriptionKey" value="ammunitionTableDesc"/>
