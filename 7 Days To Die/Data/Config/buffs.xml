@@ -369,7 +369,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="0" stat="speedmodifier" mulValue="0.80"/>			
 </buff>
 
-<buff id="stunned" mutex="stunCooldown,painkillerBuff,Buzzed,Drunk,stunned,lotusEuphoricBuff" actions="increment(@wellness, -0.5, 0, 0, 1)" duration="4" onexpired="stunCooldown" type="speedmodifier" icon="ui_game_symbol_stunned" name_key="stunned" description_key="stunnedDesc" tooltip_key="stunnedTooltip">
+<buff id="stunned" mutex="stunCooldown,painkillerBuff,Buzzed,Drunk,lotusEuphoricBuff" actions="increment(@wellness, -0.5, 0, 0, 1)" duration="4" onexpired="stunCooldown" type="speedmodifier" icon="ui_game_symbol_stunned" name_key="stunned" description_key="stunnedDesc" tooltip_key="stunnedTooltip">
 	<modify id="0" stat="speedmodifier" mulValue="0.1"/>
 </buff>
 <buff id="stunCooldown" duration="3" stack="discard"/>
@@ -728,7 +728,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 </buff>
 <buff id="lotusDeath" buffif="CTRlotus gequal 100" actions="setvar(CTRlotus, 0);setvar(fatigue, 0);kill"/>
 
-<buff id="extractMix" duration="20" stack="extend" icon="ui_game_symbol_run" name_key="Extract Mix" description_key="One hell of a drug." tooltip_key="One hell of a drug">
+<buff id="extractMix" duration="60" stack="extend" icon="ui_game_symbol_run" name_key="Extract Mix" description_key="One hell of a drug." tooltip_key="One hell of a drug">
 	<modify id="0" stat="speedmodifier" modifyMaxValue="1.01"/>
 	<modify id="1" stat="speedmodifier" modifyValue="0.35"/>
 </buff>
