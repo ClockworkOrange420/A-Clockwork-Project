@@ -1126,7 +1126,6 @@
 	<item group="rottenFood" count="1,2"/>
 	<item group="books" prob="0.11"/>
 	<item group="seeds" count="1,2"/>
-	<item group="farmCrops" count="1,2"/>
 	<item group="questChallenge" count="1" prob="0.11"/> 	<!-- 0.06 = .23 % -->
 	<item group="treasureMaps" count="1" prob="0.092"/>
 </lootgroup>
