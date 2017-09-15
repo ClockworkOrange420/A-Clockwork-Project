@@ -490,6 +490,7 @@
 		<entity name="animalBear" prob="0.2"/>
 		<entity name="animalDireWolf" prob="0.2"/>
 		<entity name="animalZombieBear" prob="0.1"/>
+		<entity name="zombieBurnt" prob="6"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
 		<entity name="zombieJoe"/>
@@ -520,6 +521,7 @@
 		<entity name="animalRabbit"/>
 		<entity name="animalChicken"/>
 		<entity name="animalSnake"/>
+		<entity name="zombieBurnt" prob="6"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
 		<entity name="zombieJoe"/>
