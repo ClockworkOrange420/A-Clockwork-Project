@@ -1379,7 +1379,7 @@
 	<property name="PhysicsBody" value="Stag"/>
 	<property name="Faction" value="animals"/>
 	<property name="CanClimbLadders" value="false"/>
-	<property name="MaxHealth" value="80"/>
+	<property name="MaxHealth" value="120"/>
 	<property name="MaxViewAngle" value="180"/>
 	<property name="WanderSpeed" value="0.7"/>
 	<property name="PanicSpeed" value="3.0"/>
@@ -1835,7 +1835,7 @@
 	<property name="PhysicsBody" value="boar"/>
 	<property name="Mesh" value="Animals/Boar/AnimalBoarStandardRagdoll"/>
 	<property name="HandItem" value="handAnimalWolf"/>
-	<property name="MaxHealth" value="120"/>
+	<property name="MaxHealth" value="140"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="RagdollOnDeathChance" value=".5"/>
