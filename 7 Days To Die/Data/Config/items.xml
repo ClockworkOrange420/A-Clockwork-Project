@@ -1209,7 +1209,7 @@
 		<property class="Action0">
 			<property name="Range" value="1.75"/>
 			<property name="DamageEntity" value="40"/>
-			<property name="DamageBlock" value="60"/>
+			<property name="DamageBlock" value="50"/>
 			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
 			<property name="Buff_chance" value="1,0.3,0.25,0.01,0.2,0.3,0.4,1"/>
 		</property>
@@ -1276,7 +1276,7 @@
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="30"/>
-			<property name="DamageBlock" value="50"/>
+			<property name="DamageBlock" value="40"/>
 			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
 			<property name="Buff_chance" value="1,0.2,0.3,0.01,0.2,0.3,0.4,1"/>
 		</property>
@@ -1323,7 +1323,7 @@
 		<property name="HoldType" value="9"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="20"/>
-			<property name="DamageBlock" value="80"/>
+			<property name="DamageBlock" value="60"/>
 			<property name="Buff" value="infectionActivatorHygiene,bleeding,stunned,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
 			<property name="Buff_chance" value="1,0.04,0.25,0.01,0.2,0.3,0.4,1"/>
 		</property>
@@ -1352,7 +1352,7 @@
 		<property name="HoldType" value="24"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="8"/>
-			<property name="DamageBlock" value="2"/>
+			<property name="DamageBlock" value="10"/>
 			<property name="Delay" value="2.0"/>
 			<property name="Buff" value="infectionActivatorHygiene,sprainedLeg,burningSmall,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
 			<property name="Buff_chance" value="1,0.2,0.5,0.01,0.2,0.3,0.4,1"/>
@@ -1363,7 +1363,7 @@
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="20"/>
-			<property name="DamageBlock" value="40"/>
+			<property name="DamageBlock" value="30"/>
 		</property>
 	</item>
 	<item id="91" name="handZombie02Feral">
@@ -1371,7 +1371,7 @@
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="20"/>
-			<property name="DamageBlock" value="40"/>
+			<property name="DamageBlock" value="30"/>
 		</property>
 	</item>
 	<item id="92" name="handZombieBurningFeral">
@@ -1387,7 +1387,7 @@
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="40"/>
-			<property name="DamageBlock" value="120"/>
+			<property name="DamageBlock" value="60"/>
 		</property>
 		<property class="Action1">
 			<!-- Fire action -->
@@ -1399,7 +1399,7 @@
 		<property name="CreativeMode" value="None"/>
 		<property class="Action1">
 			<property name="DamageEntity" value="20"/>
-			<property name="DamageBlock" value="300"/>
+			<property name="DamageBlock" value="180"/>
 		</property>
 	</item>
 	<item id="95" name="handAnimalZombieDogFeral">
@@ -1407,7 +1407,7 @@
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="22"/>
-			<property name="DamageBlock" value="36"/>
+			<property name="DamageBlock" value="25"/>
 		</property>
 	</item>
 	<item id="96" name="handZombieStrongFeral">
@@ -1415,7 +1415,7 @@
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="20"/>
-			<property name="DamageBlock" value="100"/>
+			<property name="DamageBlock" value="50"/>
 		</property>
 	</item>
 	<item id="97" name="handAnimalZombieBearFeral">
@@ -1432,7 +1432,7 @@
 		<property name="HoldType" value="9"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="20"/>
-			<property name="DamageBlock" value="40"/>
+			<property name="DamageBlock" value="35"/>
 		</property>
 	</item>
 	<item id="99" name="handZombieWorkerFeral">
@@ -1441,7 +1441,7 @@
 		<property name="HoldType" value="9"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="20"/>
-			<property name="DamageBlock" value="160"/>
+			<property name="DamageBlock" value="60"/>
 		</property>
 	</item>
 	<item id="100" name="handZombieFootballPlayerFeral">
@@ -1458,7 +1458,7 @@
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="16"/>
-			<property name="DamageBlock" value="40"/>
+			<property name="DamageBlock" value="30"/>
 		</property>
 	</item>
 	<item id="102" name="handZombieBehemoth">
@@ -1466,7 +1466,7 @@
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
 			<property name="DamageEntity" value="80"/>
-			<property name="DamageBlock" value="400"/>
+			<property name="DamageBlock" value="150"/>
 			<property name="Range" value="2.0"/>
 			<property name="Block_range" value="3"/>
 			<property name="Sphere" value="2"/>
