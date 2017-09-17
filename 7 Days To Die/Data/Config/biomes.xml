@@ -350,9 +350,9 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0002"/>
 				<decoration type="block" blockname="plantedCotton3Harvest" prob="0.0005"/>
 				<decoration type="block" blockname="forestFlower" prob ="0.0005"/>
-				<decoration type="block" blockname="treeAzalea" prob="0.001"/>
-				<decoration type="block" blockname="treePlainsTree" prob="0.001"/>
-				<decoration type="block" blockname="treeDeadPineLeaf" prob ="0.0008" rotatemax="7" />
+				<decoration type="block" blockname="treeAzalea" prob="0.002"/>
+				<decoration type="block" blockname="treePlainsTree" prob="0.002"/>
+				<decoration type="block" blockname="treeDeadPineLeaf" prob ="0.001" rotatemax="7" />
 				<decoration type="block" blockname="rock01" prob ="0.01"/>
 				<decoration type="block" blockname="rock02" prob ="0.01"/>
 				<decoration type="block" blockname="rock04" prob ="0.01"/>
@@ -463,9 +463,9 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0002"/>
 			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.0005"/>
 			<decoration type="block" blockname="forestFlower" prob ="0.0005"/>
-			<decoration type="block" blockname="treeAzalea" prob="0.001"/>
-			<decoration type="block" blockname="treePlainsTree" prob="0.001"/>
-			<decoration type="block" blockname="treeDeadPineLeaf" prob ="0.0008" rotatemax="7" />
+			<decoration type="block" blockname="treeAzalea" prob="0.002"/>
+			<decoration type="block" blockname="treePlainsTree" prob="0.002"/>
+			<decoration type="block" blockname="treeDeadPineLeaf" prob ="0.001" rotatemax="7" />
 			<decoration type="block" blockname="treeBirch10m" prob="0.0016" rotatemax="7"/>
 			<decoration type="block" blockname="treeBirch12m" prob="0.0018" rotatemax="7"/>
 			<decoration type="block" blockname="treeBirch15m" prob="0.005" rotatemax="7"/>
@@ -541,9 +541,9 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="plantedCotton3Harvest" prob="0.0005"/>
 				<decoration type="block" blockname="snowberry3Harvest" prob ="0.0001"/>
 				<decoration type="block" blockname="forestFlower" prob ="0.0005"/>
-				<decoration type="block" blockname="treeAzalea" prob="0.001"/>
-				<decoration type="block" blockname="treePlainsTree" prob="0.001"/>
-				<decoration type="block" blockname="treeDeadPineLeaf" prob ="0.0008" rotatemax="7" />
+				<decoration type="block" blockname="treeAzalea" prob="0.002"/>
+				<decoration type="block" blockname="treePlainsTree" prob="0.002"/>
+				<decoration type="block" blockname="treeDeadPineLeaf" prob ="0.001" rotatemax="7" />
 				<decoration type="block" blockname="rock01" prob ="0.01"/>
 				<decoration type="block" blockname="rock02" prob ="0.01"/>
 				<decoration type="block" blockname="rock04" prob ="0.01"/>
@@ -649,9 +649,9 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="plantedWheat3Harvest" prob="0.0002"/>
 			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.0005"/>
 			<decoration type="block" blockname="forestFlower" prob ="0.0005"/>
-			<decoration type="block" blockname="treeAzalea" prob="0.001"/>
-			<decoration type="block" blockname="treePlainsTree" prob="0.001"/>
-			<decoration type="block" blockname="treeDeadPineLeaf" prob ="0.0008" rotatemax="7" />
+			<decoration type="block" blockname="treeAzalea" prob="0.002"/>
+			<decoration type="block" blockname="treePlainsTree" prob="0.002"/>
+			<decoration type="block" blockname="treeDeadPineLeaf" prob ="0.001" rotatemax="7" />
 			<decoration type="block" blockname="rock01" prob ="0.001"/>
 			<decoration type="block" blockname="rock02" prob ="0.001"/>
 			<decoration type="block" blockname="rock04" prob ="0.001"/>
