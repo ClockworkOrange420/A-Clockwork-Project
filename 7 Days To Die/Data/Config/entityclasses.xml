@@ -1077,7 +1077,7 @@
 <entity_class name="zombieElectricUtilityWorkerFeral" extends="zombieElectricUtilityWorker">
 	<property name="MaxHealth" value="400"/>
 	<property name="ExperienceGain" value="400"/>
-	<property name="HandItem" value="handZombieWorkerFeral"/>
+	<property name="HandItem" value="handZombieElectricWorkerFeral"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
