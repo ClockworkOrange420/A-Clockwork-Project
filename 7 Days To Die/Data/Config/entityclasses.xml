@@ -1366,6 +1366,7 @@
 </entity_class>
 
 <entity_class name="animalStag" extends="animalTemplateTimid">
+	<property name="EntityType" value="Animal"/>
 	<property name="HasRagdoll" value="true"/>
 	<property name="Mesh" value="Animals/Stag/STAG"/>
 	<property name="ModelType" value="Standard"/>
@@ -1400,6 +1401,7 @@
 </entity_class>
 
 <entity_class name="animalRabbit" extends="animalTemplateTimid">
+	<property name="EntityType" value="Animal"/>
 	<property name="Mesh" value="Animals/Rabbit/RABBIT"/>
 	<property name="Prefab" value="NPC"/>
 	<property name="Class" value="EntityAnimalRabbit"/>
@@ -1421,6 +1423,7 @@
 </entity_class>
 
 <entity_class name="animalChicken" extends="animalTemplateTimid">
+	<property name="EntityType" value="Animal"/>
 	<property name="Mesh" value="Animals/CHICKEN/chickenPrefab"/>
 	<property name="Prefab" value="NPC"/>
 	<property name="Class" value="EntityAnimalRabbit"/>
@@ -1573,6 +1576,7 @@
 </entity_class>
 
 <entity_class name="animalBear" extends="animalTemplateHostile">
+	<property name="EntityType" value="Animal"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="HasRagdoll" value="true"/>
@@ -1643,6 +1647,7 @@
 </entity_class>
 
 <entity_class name="animalWolf" extends="animalTemplateHostile">
+	<property name="EntityType" value="Animal"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="HasRagdoll" value="true"/>
@@ -1704,6 +1709,7 @@
 </entity_class>
 
 <entity_class name="animalDireWolf" extends="animalWolf">
+	<property name="EntityType" value="Animal"/>
 	<property name="Mesh" value="Animals/Wolf/animalStandardDireWolfRagdoll"/>
 	<property name="HandItem" value="handAnimalZombieDogFeral"/>
 	<property name="MaxHealth" value="300"/>
@@ -1829,6 +1835,7 @@
 </entity_class>
 
 <entity_class name="animalBoar" extends="animalTemplateHostile">
+	<property name="EntityType" value="Animal"/>
 	<property name="IsEnemyEntity" value="false"/><!-- override hostile template setting so he can spawn in safe zones -->
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
@@ -1970,18 +1977,18 @@
 	<property name="LootListOnDeath" value="41"/> <!-- used to determine container X/Y size -->
 	<property name="Faction" value="none"/>
 </entity_class>
-<!--
+
 <entity_class name="DroppedLootContainer">
 	<property name="Mesh" value="LootContainers/backpack_droppedPrefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
 	<property name="Parent" value="Backpack"/>
-	<property name="TimeStayAfterDeath" value="60"/>
+	<property name="TimeStayAfterDeath" value="0"/>
 	<property name="IsEnemyEntity" value="false"/>
 	<property name="LootListOnDeath" value="47"/>
 	<property name="Faction" value="none"/>
-</entity_class>
+</entity_class><!--
 
 <entity_class name="EvisceratedRemains">
 	<property name="Mesh" value="Gore/gore_block1_bonesPrefab"/>
