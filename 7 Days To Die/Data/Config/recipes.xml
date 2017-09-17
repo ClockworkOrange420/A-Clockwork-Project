@@ -2623,9 +2623,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
 	</recipe>
-	<recipe name="ironDoor1_v1" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="scrapIronPlating" count="1"/>
-	</recipe>
 	<recipe name="keystoneBlock" count="1" craft_area="workbench" >
 		<ingredient name="steelPlating" count="2"/>
 	</recipe>
@@ -3108,6 +3105,8 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="secureDoorWooden" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
+		<ingredient name="spring" count="2"/>
+		<ingredient name="mechanicalParts" count="2"/>
 	</recipe>
 	<recipe name="shortMetalPipe" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Pipe_Mold" material_based="true" >
 		<ingredient name="unit_iron" count="5"/>
@@ -3298,16 +3297,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="glassBusinessSheet" count="1"/>
 		<ingredient name="scrapPlastics" count="8"/>
 	</recipe>
-	<recipe name="vaultDoor01" count="1" craft_time = "20" craft_exp_gain="45" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="steelPlating" count="1"/>
-		<ingredient name="spring" count="2"/>
-		<ingredient name="mechanicalParts" count="2"/>
-	</recipe>
-	<recipe name="vaultHatch_v1" count="1" craft_time = "20" craft_exp_gain="45" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="steelPlating" count="1"/>
-		<ingredient name="spring" count="2"/>
-		<ingredient name="mechanicalParts" count="2"/>
-	</recipe>
 	<recipe name="jailDoor" count="1" craft_time = "20" craft_exp_gain="45" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="steelPlating" count="1"/>
 		<ingredient name="spring" count="2"/>
@@ -3411,6 +3400,8 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="woodHatch1_v1" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
+		<ingredient name="spring" count="2"/>
+		<ingredient name="mechanicalParts" count="2"/>
 	</recipe>
 	<recipe name="woodCatwalk" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
