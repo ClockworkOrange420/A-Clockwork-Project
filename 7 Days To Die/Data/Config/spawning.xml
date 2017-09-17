@@ -68,14 +68,14 @@
 
     <biome name="burnt_forest">
         <spawn maxcount="3" respawndelay="4" time="Any"   entitygroup="ZombiesBurntForest" />
-		<spawn maxcount="2" respawndelay="4" time="Any"   entitygroup="EnemyAnimalsBurntForest" spawnDeadChance="0" />
-		<spawn maxcount="2" respawndelay="4" time="Any"   entitygroup="FriendlyAnimalsBurntForest" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any"   entitygroup="EnemyAnimalsBurntForest" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any"   entitygroup="FriendlyAnimalsBurntForest" spawnDeadChance="0" />
 		</biome>
 
     <biome name="snow">
 		<spawn maxcount="3" respawndelay="4" time="Any" entitygroup="SnowZombies" />
-		<spawn maxcount="2" respawndelay="4" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0" />
-		<spawn maxcount="2" respawndelay="4" time="Any" entitygroup="FriendlyAnimalsSnow" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="FriendlyAnimalsSnow" spawnDeadChance="0" />
 	</biome>
 
 
