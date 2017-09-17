@@ -1573,6 +1573,7 @@
 </entity_class>
 
 <entity_class name="animalBear" extends="animalTemplateHostile">
+	<property name="EntityType" value="Animal"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="HasRagdoll" value="true"/>
@@ -1630,6 +1631,7 @@
 </entity_class>
 
 <entity_class name="animalZombieBear" extends="animalBear">
+	<property name="EntityType" value="Zombie"/>
 	<property name="MaxHealth" value="2400"/>
 	<property name="ExperienceGain" value="1200"/>
 	<property name="HandItem" value="handAnimalZombieBear"/>
@@ -1642,6 +1644,7 @@
 </entity_class>
 
 <entity_class name="animalWolf" extends="animalTemplateHostile">
+	<property name="EntityType" value="Animal"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="HasRagdoll" value="true"/>
@@ -1703,6 +1706,7 @@
 </entity_class>
 
 <entity_class name="animalDireWolf" extends="animalWolf">
+	<property name="EntityType" value="Animal"/>
 	<property name="Mesh" value="Animals/Wolf/animalStandardDireWolfRagdoll"/>
 	<property name="HandItem" value="handAnimalZombieDogFeral"/>
 	<property name="MaxHealth" value="300"/>
@@ -1828,6 +1832,7 @@
 </entity_class>
 
 <entity_class name="animalBoar" extends="animalTemplateHostile">
+	<property name="EntityType" value="Animal"/>
 	<property name="IsEnemyEntity" value="false"/><!-- override hostile template setting so he can spawn in safe zones -->
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
