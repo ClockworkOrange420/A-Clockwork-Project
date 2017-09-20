@@ -151,8 +151,10 @@ built-in buff variables:
 	<modify id="0" stat="stamina" amount="-1" rate="3"/>
 	<modify id="1" stat="water" amount="-1" rate="60"/>
 </buff>
+<buff id="MetabolizeVenomGood" buffif="venomGood greater 0" debuffif="venomGood less 1" actions="increment(venomGood, -24, 3600t, 0, 0);min(venomGood, 0)"/>
 
-<buff id="vemonImmunity" type="healthdown" buffif="venomGood gequal 100" debuffif="venomGood less 1" actions="debuff(venom)" icon="server_cheat" name_key="Venom Immunity" description_key="You are now immune to venom." tooltip_key="Venom Immunity"/>
+
+<buff id="vemonImmunity" type="healthdown" buffif="venomGood gequal 100" actions="debuff(venom);debuff(venomSick);debuff(venomExtremelySick)" icon="server_cheat" name_key="Venom Immunity" description_key="You are now immune to venom." tooltip_key="Venom Immunity"/>
 
 <buff id="venomBad" duration="1" stack="discard" requires="venom" mutex="vemonImmunity" type="healthdown" actions="increment(venomBad, 50, 0, 0, 1)"/>
 
