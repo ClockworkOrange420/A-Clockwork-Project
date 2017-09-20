@@ -1640,6 +1640,7 @@
 	<property name="HandItem" value="handAnimalZombieBear"/>
 	<property name="ReplaceMaterial0" value="Materials/UMAFur_ZombieBear"/>
 	<property name="DeadBodyHitPoints" value="600"/>
+	<property name="Immunity" value="sickness;disease;bleeding;wellness;staminadown;healthdown"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="6" />
 	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="10" />
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="6" />
