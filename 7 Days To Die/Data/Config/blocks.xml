@@ -7687,7 +7687,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 	</block>
 	<block id="759" name="plantedCoffee1">
 		<property name="Extends" value="cropsGrowingMaster"/>
-		<property name="CustomIcon" value="coffeeBeans"/>
+		<property name="CustomIcon" value="plantedCoffee1"/>
 		<property name="Texture" value="393"/>
 		<property name="PlantGrowing.Next" value="plantedCoffee2"/>
 		<property name="CraftingIngredientTime" value="5"/>
@@ -17482,7 +17482,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 	<!--Free-->
 	<block id="972" name="plantedSoy1">
 		<property name="Extends" value="cropsGrowingMaster"/>
-		<property name="CustomIcon" value="SoyBeans"/>
+		<property name="CustomIcon" value="plantedSoy1"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 		<property name="Collide" value="melee"/>
