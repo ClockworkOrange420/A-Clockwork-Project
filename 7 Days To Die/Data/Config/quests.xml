@@ -701,7 +701,7 @@
 		
 		<requirement type="Holding" id="clubWood" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponMelee02" group_name_key="Join The Club" name_key="Join The Club 2/5" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a iron club." icon="ui_game_symbol_zombie" 
@@ -710,7 +710,7 @@
 		
 		<requirement type="Holding" id="clubIron" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponMelee03" group_name_key="Join The Club" name_key="Join The Club 3/5" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a barbed club." icon="ui_game_symbol_zombie" 
@@ -719,7 +719,7 @@
 		
 		<requirement type="Holding" id="clubBarbed" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponMelee04" group_name_key="Join The Club" name_key="Join The Club 4/5" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a sledgehammer." icon="ui_game_symbol_zombie" 
@@ -728,7 +728,7 @@
 		
 		<requirement type="Holding" id="sledgehammer" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponMelee05" group_name_key="Join The Club" name_key="Join The Club 5/5" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a spiked club." icon="ui_game_symbol_zombie" 
@@ -737,7 +737,7 @@
 		
 		<requirement type="Holding" id="clubSpiked" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponMelee06" group_name_key="Slice and Dice" name_key="Slice and Dice 1/2" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a hunting knife." icon="ui_game_symbol_zombie" 
@@ -746,7 +746,7 @@
 		
 		<requirement type="Holding" id="huntingKnife" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponMelee07" group_name_key="Slice and Dice" name_key="Slice and Dice 2/2" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a machete." icon="ui_game_symbol_zombie" 
@@ -755,7 +755,7 @@
 		
 		<requirement type="Holding" id="machete" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<!--Ranged Weapons-->
@@ -766,7 +766,7 @@
 		
 		<requirement type="Holding" id="gunPistol" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponRanged02" group_name_key="Itchy Trigger Finger" name_key="Itchy Trigger Finger 2/9" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a smg." icon="ui_game_symbol_zombie" 
@@ -775,7 +775,7 @@
 		
 		<requirement type="Holding" id="gunMP5" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponRanged03" group_name_key="Itchy Trigger Finger" name_key="Itchy Trigger Finger 3/9" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a sawed-off Shotgun." icon="ui_game_symbol_zombie" 
@@ -784,7 +784,7 @@
 		
 		<requirement type="Holding" id="gunSawedOffPumpShotgun" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponRanged04" group_name_key="Itchy Trigger Finger" name_key="Itchy Trigger Finger 4/9" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a Pump Shotgun." icon="ui_game_symbol_zombie" 
@@ -793,7 +793,7 @@
 		
 		<requirement type="Holding" id="gunPumpShotgun" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponRanged05" group_name_key="Itchy Trigger Finger" name_key="Itchy Trigger Finger 5/9" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a Magnum." icon="ui_game_symbol_zombie" 
@@ -802,7 +802,7 @@
 		
 		<requirement type="Holding" id="gun44Magnum" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponRanged06" group_name_key="Itchy Trigger Finger" name_key="Itchy Trigger Finger 6/9" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a Hunting Rifle." icon="ui_game_symbol_zombie" 
@@ -811,7 +811,7 @@
 		
 		<requirement type="Holding" id="gunHuntingRifle" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponRanged07" group_name_key="Itchy Trigger Finger" name_key="Itchy Trigger Finger 7/9" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a Ak47." icon="ui_game_symbol_zombie" 
@@ -820,7 +820,7 @@
 		
 		<requirement type="Holding" id="gunAK47" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponRanged08" group_name_key="Itchy Trigger Finger" name_key="Itchy Trigger Finger 8/9" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a Sniper Rifle." icon="ui_game_symbol_zombie" 
@@ -829,7 +829,7 @@
 		
 		<requirement type="Holding" id="gunSniperRifle" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponRanged09" group_name_key="Itchy Trigger Finger" name_key="Itchy Trigger Finger 9/9" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a Rocket Launcher." icon="ui_game_symbol_zombie" 
@@ -838,7 +838,7 @@
 		
 		<requirement type="Holding" id="gunRocketLauncher" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponRanged10" group_name_key="Strait as an Arrow" name_key="Strait as an arrow 1/3" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a wooden bow." icon="ui_game_symbol_zombie" 
@@ -847,7 +847,7 @@
 		
 		<requirement type="Holding" id="woodenBow" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponRanged11" group_name_key="Strait as an Arrow" name_key="Strait as an arrow 2/3" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a compound bow." icon="ui_game_symbol_zombie" 
@@ -856,7 +856,7 @@
 		
 		<requirement type="Holding" id="compoundBow" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	<quest id="quest_WeaponRanged12" group_name_key="Strait as an Arrow" name_key="Strait as an arrow 3/3" subtitle_key="Kill 50 zombies" description_key="Kill 50 zombies with a crossbow." icon="ui_game_symbol_zombie" 
@@ -865,7 +865,7 @@
 		
 		<requirement type="Holding" id="crossbow" />
 		
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 	</quest>
 	
 	
@@ -892,26 +892,26 @@
 		<reward type="Quest" id="quest_ZombieSlayer03" />
 	</quest>
 	
-	<quest id="quest_ZombieSlayer03" group_name_key="Humanity's Last Hope" name_key="Time heals all wounds" subtitle_key="Kill 100 Zombies" description_key="It becomes easier with time" icon="ui_game_symbol_zombie" 
+	<quest id="quest_ZombieSlayer03" group_name_key="Humanity's Last Hope" name_key="Time heals all wounds" subtitle_key="Kill 50 Zombies" description_key="It becomes easier with time" icon="ui_game_symbol_zombie" 
 	repeatable="true" category_key="Quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"  />
+		<objective type="ZombieKill" value="50"  />
 		
-		<reward type="SkillPoints" value="5" />
+		<reward type="SkillPoints" value="10" />
 		<reward type="Quest" id="quest_ZombieSlayer04" />
 	</quest>
 	
-	<quest id="quest_ZombieSlayer04" group_name_key="Humanity's Last Hope" name_key="A taste for blood" subtitle_key="Kill 250 Zombies" description_key="Emotionally numb, you no longer stop to think about your actions and accept your fate." icon="ui_game_symbol_zombie" 
+	<quest id="quest_ZombieSlayer04" group_name_key="Humanity's Last Hope" name_key="A taste for blood" subtitle_key="Kill 100 Zombies" description_key="Emotionally numb, you no longer stop to think about your actions and accept your fate." icon="ui_game_symbol_zombie" 
 	repeatable="true" category_key="Quest" difficulty="hard">
-		<objective type="ZombieKill" value="250"  />
+		<objective type="ZombieKill" value="100"  />
 		
-		<reward type="SkillPoints" value="15" />
+		<reward type="SkillPoints" value="20" />
 		<reward type="Item" id="qt_zombieRepeat" value="1" />
 		
 	</quest>
 	
-	<quest id="quest_ZombieSlayer05" group_name_key="Humanity's Last Hope" name_key="killin's as easy as breathing" subtitle_key="Kill 100 Zombies" description_key="There may be some hope left after all. Kill Them All!" icon="ui_game_symbol_zombie" 
+	<quest id="quest_ZombieSlayer05" group_name_key="Humanity's Last Hope" name_key="killin's as easy as breathing" subtitle_key="Kill 50 Zombies" description_key="There may be some hope left after all. Kill Them All!" icon="ui_game_symbol_zombie" 
 	repeatable="true" offer_key="quest_ZombieSlayer05_offer" category_key="Quest" difficulty="hard">
-		<objective type="ZombieKill" value="100"  />
+		<objective type="ZombieKill" value="50"  />
 		
 		<reward type="SkillPoints" value="5" />
 	</quest>

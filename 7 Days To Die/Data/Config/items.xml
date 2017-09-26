@@ -7535,7 +7535,7 @@
 			<property name="Class" value="LearnRecipe"/>
 			<!--<property name="Recipes_to_learn" value="sledgehammer,crossbow"/><property name="Skills_to_gain" value="craftSkillGuns,9mm Round Crafting"/>-->
 			<property name="Delay" value="1"/>
-			<property name="ActionExp" value="1000"/>
+			<property name="ActionExp" value="500"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 			<!-- When first learned the multiplier is applied. After that only the action exp is applied but it's applied for EACH item in the book. -->
 			<property name="Sound_start" value="recipe_unlocked"/>
@@ -7618,6 +7618,7 @@
 		<property name="DescriptionKey" value="AthleticsDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Athletics_Skill"/>
+			<property name="ActionExp" value="1000"/>
 		</property>
 	</item>
 	<item id="912" name="Bladed_Weapons">
