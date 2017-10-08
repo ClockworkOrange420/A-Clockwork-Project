@@ -163,13 +163,13 @@ built-in buff variables:
 <buff id="venomSick" stack="discard" castsound="Player_*sick5" mutex="vemonImmunity,venomExtremelySick" buffif="venomBad gequal 50" debuffif="venomBad less 1" type="healthdown" actions="damage(4,50t,0,0);increment(@wellness, -0.5, 50t, 0, 0)" icon="ui_game_symbol_skull" name_key="Venom Sickness" description_key="You are very sick from venom poisoning." tooltip_key="Very Sick Venomous Poisoning">
 	<modify id="0" stat="stamina" amount="-1" rate="3"/>
 	<modify id="1" stat="water" amount="-1" rate="30"/>
-	<modify id="2" stat="speedmodifier" setValue="0.90"/>
+	<modify id="2" stat="speedmodifier" mulValue="0.90"/>
 </buff>
 
 <buff id="venomExtremelySick" stack="discard" castsound="Player_*sick5" mutex="vemonImmunity" buffif="venomBad gequal 100" debuffif="venomBad lequal 50" type="healthdown" actions="damage(9,50t,0,0);debuff(venomSick);increment(@wellness, -0.5, 50t, 0, 0)" icon="ui_game_symbol_skull" name_key="Venom Extreme Sickness" description_key="You are extremely sick from venom poisoning, any more will kill you instantly." tooltip_key="Extremely Sick Venomous Poisoning">
 	<modify id="0" stat="stamina" amount="-1" rate="2"/>
 	<modify id="1" stat="water" amount="-2" rate="30"/>
-	<modify id="2" stat="speedmodifier" setValue="0.60"/>
+	<modify id="2" stat="speedmodifier" mulValue="0.60"/>
 </buff>
 
 <buff id="vemonDeath" type="healthdown" buffif="venomBad gequal 150" actions="debuff(venom);debuff(venomStack);debuff(vemonImmunity);setvar(venomGood, 0);setvar(venomBad, 0);kill"/>
@@ -690,11 +690,11 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 <buff id="MetabolizeShock" type="armordown" buffif="shocking greater 0" debuffif="shocking less 1" actions="increment(shocking, -1, 1, 0, 0);min(shocking, 0);buff(shockedBuff2)"/>
 
 <buff id="shockedBuff2" type="armordown" requires="MetabolizeShock" duration="1" stack="reset" onexpired="shockedBuff3" actions="attach(ParticleEffects/p_electric_shock, @impact)">
-<modify id="1" stat="speedmodifier" setValue="0.3" type="armordown"/>
+<modify id="1" stat="speedmodifier" mulValue="0.3" type="armordown"/>
 </buff>
 
 <buff id="shockedBuff3" type="armordown" requires="MetabolizeShock" duration="1" stack="reset" onexpired="shockedBuff2" actions="attach(ParticleEffects/p_electric_shock, @impact)">
-<modify id="1" stat="speedmodifier" setValue="0.3" type="armordown"/>
+<modify id="1" stat="speedmodifier" mulValue="0.3" type="armordown"/>
 </buff>
 
 <buff id="eatSnowberryTrigger" duration="1" actions="increment(CTRsnowberry, 10, 0, 0, 1)"/>
@@ -726,7 +726,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 	castsound="Player_*sick5" causes="lotusExtract"
 	type="disease" icon="ui_game_symbol_food_poisoning" name_key="Lotus Poisoning" description_key="Euphoric but dangerous" tooltip_key="You are not feeling well">
 	<modify id="0" stat="health" amount="-1" rate="15"/>
-	<modify id="1" stat="speedmodifier" setValue="0.70"/>
+	<modify id="1" stat="speedmodifier" mulValue="0.70"/>
 </buff>
 <buff id="lotusDeath" buffif="CTRlotus gequal 100" actions="setvar(CTRlotus, 0);setvar(fatigue, 0);kill"/>
 
