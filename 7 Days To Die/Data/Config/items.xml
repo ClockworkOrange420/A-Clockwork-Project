@@ -367,6 +367,7 @@
 			<property name="DamageBonus.organic" value="3"/>
 			<property name="ToolCategory.Butcher" value="1" param1="10"/>
 			<property name="ToolCategory.Harvest" value="1"/>
+			<property name="ToolCategory.Crops" value="1"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
