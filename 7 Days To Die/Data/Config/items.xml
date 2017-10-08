@@ -371,28 +371,6 @@
 			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
-		<property class="Action1">
-			<property name="Class" value="Melee"/>
-			<property name="Delay" value="0.2"/>
-			<property name="Range" value="1"/>
-			<property name="Block_range" value="4"/>
-			<property name="Sphere" value="0.1"/>
-			<property name="DamageEntity" value="1"/>
-			<property name="DamageBlock" value="1"/>
-			<property name="Sound_start" value="swoosh"/>
-			<property name="Stamina_usage" value="1"/>
-			<property name="DamageBonus.crops" value="0.01"/>
-			<property name="DamageBonus.plants" value="0.01"/>
-			<property name="DamageBonus.leaves" value="25"/>
-			<property name="DamageBonus.wood" value="0.01"/>
-			<property name="DamageBonus.head" value="0.01"/>
-			<property name="DamageBonus.earth" value="0.01"/>
-			<property name="DamageBonus.stone" value="0.01"/>
-			<property name="DamageBonus.organic" value="0.01"/>
-			<property name="ToolCategory.Crops" value="1"/>
-			<property name="ActionExp" value="1"/>
-			<property name="ActionExpBonusMultiplier" value="1"/>
-		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="15,30"/>
 			<property name="BlockDamage" value="5,10"/>
