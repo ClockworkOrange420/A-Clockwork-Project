@@ -8466,7 +8466,7 @@
 		<property name="HoldType" value="45"/>
 		<property name="Stacknumber" value="500"/>
 		<!-- STK resource -->
-		<property name="Weight" value="5"/>
+		<property name="Weight" value="4"/>
 		<property name="RepairTime" value="1"/>
 		<property name="RepairAmount" value="100"/>
 		<property name="EconomicValue" value="40"/>
