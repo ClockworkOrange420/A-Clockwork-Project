@@ -389,8 +389,8 @@
 		<entity name="animalZombieVulture"/>
 		<entity name="animalWolf" prob="0.3"/>
 		<entity name="animalZombieDog" prob="0.2"/>
-		<entity name="animalBear" prob="0.3"/>
-		<entity name="animalDireWolf" prob="0.2"/>
+		<entity name="animalBear" prob="0.15"/>
+		<entity name="animalDireWolf" prob="0.15"/>
 		<entity name="animalZombieBear" prob="0.1"/>
 		<entity name="zombieSnow" prob="3"/>
 		<entity name="zombieUtilityWorker"/>
@@ -419,10 +419,10 @@
 	<entitygroup name="EnemyAnimalsForest">
 		<entity name="animalZombieVulture"/>
 		<entity name="animalSnake"/>
-		<entity name="animalWolf" prob="0.3"/>
+		<entity name="animalWolf" prob="0.2"/>
 		<entity name="animalZombieDog" prob="0.3"/>
-		<entity name="animalBear" prob="0.2"/>
-		<entity name="animalDireWolf" prob="0.2"/>
+		<entity name="animalBear" prob="0.15"/>
+		<entity name="animalDireWolf" prob="0.15"/>
 		<entity name="animalZombieBear" prob="0.1"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
@@ -485,10 +485,10 @@
 	<entitygroup name="EnemyAnimalsBurntForest">
 		<entity name="animalZombieVulture"/>
 		<entity name="animalSnake"/>
-		<entity name="animalWolf" prob="0.3"/>
+		<entity name="animalWolf" prob="0.2"/>
 		<entity name="animalZombieDog" prob="0.3"/>
-		<entity name="animalBear" prob="0.2"/>
-		<entity name="animalDireWolf" prob="0.2"/>
+		<entity name="animalBear" prob="0.15"/>
+		<entity name="animalDireWolf" prob="0.15"/>
 		<entity name="animalZombieBear" prob="0.1"/>
 		<entity name="zombieBurnt" prob="6"/>
 		<entity name="zombieSpider"/>
@@ -551,10 +551,10 @@
 	<entitygroup name="EnemyAnimalsPlains">
 		<entity name="animalZombieVulture"/>
 		<entity name="animalSnake"/>
-		<entity name="animalWolf" prob="0.3"/>
+		<entity name="animalWolf" prob="0.2"/>
 		<entity name="animalZombieDog" prob="0.3"/>
-		<entity name="animalBear" prob="0.2"/>
-		<entity name="animalDireWolf" prob="0.2"/>
+		<entity name="animalBear" prob="0.15"/>
+		<entity name="animalDireWolf" prob="0.15"/>
 		<entity name="animalZombieBear" prob="0.1"/>
 		<entity name="zombieSpider"/>
 		<entity name="zombieBoe"/>
