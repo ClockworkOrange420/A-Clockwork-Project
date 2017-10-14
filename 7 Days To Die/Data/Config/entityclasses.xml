@@ -247,6 +247,7 @@
 <entity_class name="zombieWightFeralRadiated" extends="zombieWightFeral">
 	<property name="MaxHealth" value="1100"/>
 	<property name="ExperienceGain" value="1100"/>
+	<property name="LootListOnDeath" value="26"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/feral_rad"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/rad_eye"/>
@@ -751,7 +752,6 @@
 	<property name="ExperienceGain" value="700"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
-	<property name="LootListOnDeath" value="66"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -808,6 +808,7 @@
 	<property name="HandItem" value="handZombie02Feral"/>
 	<property name="MaxHealth" value="450"/>
 	<property name="ExperienceGain" value="450"/>
+	<property name="LootListOnDeath" value="26"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/spider_rad"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/rad_eye"/>
@@ -998,8 +999,8 @@
 
 <entity_class name="zombieFatCopFeral" extends="zombieFatCop">
 	<property name="HandItem" value="handZombieCopFeral"/>
-	<property name="MaxHealth" value="1000"/>
-	<property name="ExperienceGain" value="1000"/>
+	<property name="MaxHealth" value="900"/>
+	<property name="ExperienceGain" value="900"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
@@ -1011,6 +1012,7 @@
 <entity_class name="zombieFatCopFeralRadiated" extends="zombieFatCopFeral">
 	<property name="MaxHealth" value="1200"/>
 	<property name="ExperienceGain" value="1200"/>
+	<property name="LootListOnDeath" value="26"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/cop_rad"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/rad_eye"/>
