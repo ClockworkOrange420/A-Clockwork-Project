@@ -454,7 +454,7 @@
 			<module name="scaleLandBase" type="ScaleBiasOutput">
 				<property name="sourceModule" value="landT"/>
 				<property name="scale" value="0.15"/>
-				<property name="bias" value="0.15"/>
+				<property name="bias" value="0.01"/>
 			</module>
 			<module name="land" type="ClampOutput">
 				<property name="sourceModule" value="scaleLandBase"/>
@@ -472,13 +472,13 @@
 			<module name="scaleLandBase2" type="ScaleBiasOutput">
 				<property name="sourceModule" value="landT2"/>
 				<property name="scale" value="0.15"/>
-				<property name="bias" value="0.143"/>
+				<property name="bias" value="0.03"/>
 			</module>
 			<module name="land2" type="ClampOutput">
 				<property name="sourceModule" value="scaleLandBase2"/>
 				<property name="bounds" value="0.05,0.25"/>
 			</module>
-			<module name="mountainsBase" type="FastNoise" no_seed="true">
+			<module name="mountainsBase" type="FastNoise" no_seed="true"><!--<property name="displacement" value="-0.5"/>-->
 				<property name="frequency" value="0.25"/>
 			</module>
 			<module name="mountainsT" type="FastTurbulence">
@@ -490,7 +490,7 @@
 			<module name="mountainsScaled" type="ScaleBiasOutput">
 				<property name="sourceModule" value="mountainsT"/>
 				<property name="scale" value="0.5"/>
-				<property name="bias" value="-0.4"/>
+				<property name="bias" value="0.01"/>
 			</module>
 			<module name="mountainsOutput" type="ClampOutput">
 				<property name="sourceModule" value="mountainsScaled"/>
@@ -503,14 +503,14 @@
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="land"/>
 				<property name="sourceModule2" value="land2"/>
-				<property name="bounds" value="2500,3000"/>
+				<property name="bounds" value="3000,5000"/>
 				<property name="edgeFalloff" value="32"/>
 			</module>
 			<module name="landMnt2" type="Add" no_seed="true">
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="mountainsOutput"/>
 				<property name="sourceModule2" value="land"/>
-				<property name="bounds" value="0,3000"/>
+				<property name="bounds" value="0,5000"/>
 				<!-- want more mountais? make value="" closer "0,2500" etc,. -->
 				<property name="edgeFalloff" value="32"/>
 			</module>
@@ -518,13 +518,12 @@
 				<property name="controlModule" value="Control"/>
 				<property name="sourceModule1" value="landMnt2"/>
 				<property name="sourceModule2" value="land"/>
-				<property name="bounds" value="0,3000"/>
+				<property name="bounds" value="0,5000"/>
 				<!-- want more mountais? make value="" closer "0,2500" etc,. -->
 				<property name="edgeFalloff" value="32"/>
 			</module>
 			<module name="WaterBase" type="FastBillow" no_seed="true">
 				<property name="frequency" value="1.5"/>
-				<property name="displacement" value="-0.5"/>
 			</module>
 			<module name="WaterOutput" type="BiasOutput">
 				<property name="sourceModule" value="WaterBase"/>
