@@ -11181,7 +11181,7 @@
 			<property name="Gain_wellness" value="0.04"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
-		<property name="DescriptionKey" value="rawPorkDesc"/>
+		<property name="DescriptionKey" value="hamSandwichDesc"/>
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
