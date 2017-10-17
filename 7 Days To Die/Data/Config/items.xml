@@ -1577,7 +1577,7 @@
 			<property name="DamageBonus.organic" value="1"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
-			<property name="ToolCategory.Butcher" value="0.25" param1="10"/>
+			<property name="ToolCategory.Butcher" value="0.5" param1="10"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 		</property>
 		<property class="Attributes">
