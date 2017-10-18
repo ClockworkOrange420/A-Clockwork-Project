@@ -1126,6 +1126,7 @@
 	<item group="rottenFood" count="1,2"/>
 	<item group="books" prob="0.11"/>
 	<item group="seeds" count="1,2"/>
+	<item name="padlock" count="1" prob="0.1"/>
 	<item group="questChallenge" count="1" prob="0.11"/> 	<!-- 0.06 = .23 % -->
 	<item group="treasureMaps" count="1" prob="0.092"/>
 </lootgroup>
@@ -1293,7 +1294,6 @@
 	<item name="shovelIron"/>
 	<item name="fireaxeIron"/>
 	<item name="huntingKnife"/>
-	<item name="padlock"/>
 	<item name="hoeIron"/>
 	<item name="clawHammer"/>
 	<item name="sledgehammer"/>
