@@ -103,7 +103,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="gunPowder" count="1"/>
 		<ingredient name="paper" count="1"/>
 	</recipe>
-	<recipe name="burningBarrelPlayer" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" >
+	<recipe name="burningBarrelPlayer" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" >
 		<ingredient name="scrapIronPlating" count="1"/>
 		<ingredient name="wood" count="20"/>
 		<ingredient name="gasCan" count="1"/>
@@ -750,12 +750,12 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="unit_iron" count="200"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="arrow" count="1" craft_time = "4" craft_exp_gain="1" >
+	<recipe name="arrow" count="1" craft_time = "4" craft_exp_gain="4" >
 		<ingredient name="rockSmall" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
 	</recipe>
-	<recipe name="arrow" count="1" craft_time = "4" craft_exp_gain="1" craft_area="Ammunition_Table" >
+	<recipe name="arrow" count="1" craft_time = "4" craft_exp_gain="4" craft_area="Ammunition_Table" >
 		<ingredient name="rockSmall" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
@@ -772,7 +772,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="feather" count="1" craft_time = "1" craft_exp_gain="0" craft_area="Ammunition_Table" >
 		<ingredient name="flamingArrow" count="1"/>
 	</recipe>
-	<recipe name="asphalt2" count="1" craft_time = "4" craft_exp_gain="9" craft_area="cementMixer" >
+	<recipe name="asphalt2" count="1" craft_time = "4" craft_exp_gain="14" craft_area="cementMixer" >
 		<ingredient name="crushedSand" count="5"/>
 		<ingredient name="rockSmall" count="10"/>
 		<ingredient name="oilShale" count="5"/>
@@ -783,42 +783,42 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="partsAuger_parts" count="1"/>
 		<ingredient name="partsAuger_blade" count="1"/>
 	</recipe>
-	<recipe name="awningBlock" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+	<recipe name="awningBlock" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="wood" count="4"/>
 		<ingredient name="cloth" count="10"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
-	<recipe name="awningRamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+	<recipe name="awningRamp" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="wood" count="4"/>
 		<ingredient name="cloth" count="10"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
-	<recipe name="awningCNRFull" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+	<recipe name="awningCNRFull" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="wood" count="4"/>
 		<ingredient name="cloth" count="10"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
-	<recipe name="awningCNRInside" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+	<recipe name="awningCNRInside" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="wood" count="4"/>
 		<ingredient name="cloth" count="10"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
-	<recipe name="awningGable" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+	<recipe name="awningGable" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="wood" count="4"/>
 		<ingredient name="cloth" count="10"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
-	<recipe name="awningPyramid" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+	<recipe name="awningPyramid" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="wood" count="4"/>
 		<ingredient name="cloth" count="10"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
-	<recipe name="awningCNRRound" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+	<recipe name="awningCNRRound" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="wood" count="4"/>
 		<ingredient name="cloth" count="10"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
-	<recipe name="awningCNRRoundTop" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
+	<recipe name="awningCNRRoundTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="wood" count="4"/>
 		<ingredient name="cloth" count="10"/>
 		<ingredient name="Cordage" count="1"/>
@@ -1591,52 +1591,52 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="electronicParts" count="3" />
 		<ingredient name="partsNailgun_battery" count="1" />
 	</recipe><!--
-	<recipe name="hiddenGlassPlacement" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="hiddenGlassPlacement" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
 		<ingredient name="glassShowerBlock" count="4" />
 	</recipe>
-	<recipe name="hiddenSteelPlacement" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="hiddenSteelPlacement" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
 		<ingredient name="forgedSteel" count="30" />
 	</recipe>
-	<recipe name="hiddenRScrapIronPlacement" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="hiddenRScrapIronPlacement" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
 		<ingredient name="scrapIronPlating" count="3" />
 	</recipe>
-	<recipe name="hiddenScrapIronPlacement" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="hiddenScrapIronPlacement" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
 		<ingredient name="scrapIronPlating" count="2" />
 	</recipe>
-	<recipe name="hiddenRConcretePlacement" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="hiddenRConcretePlacement" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
 		<ingredient name="concreteMix" count="10"/>
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="hiddenConcretePlacement" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="hiddenConcretePlacement" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
 		<ingredient name="concreteMix" count="10"/>
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="hiddenCobblestonePlacement" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="hiddenCobblestonePlacement" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
 		<ingredient name="cobblestones" count="20"/>
 	</recipe>
-	<recipe name="hiddenBrickBlockPlacement" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="hiddenBrickBlockPlacement" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
 		<ingredient name="Bricks" count="12"/>
 		<ingredient name="concreteMix" count="8"/>
 	</recipe>
-	<recipe name="hiddenRWoodPlacement" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="hiddenRWoodPlacement" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
 		<ingredient name="wood" count="30"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
-	<recipe name="hiddenWoodPlacement" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="hiddenWoodPlacement" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
 		<ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>-->
-	<recipe name="cntTrapChestUpgrade" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="cntTrapChestUpgrade" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="spring" count="10" />
 		<ingredient name="tnt" count="5"/>
 		<ingredient name="nail" count="10"/>
@@ -1675,13 +1675,13 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="20" />
 		<ingredient name="nail" count="10"/>
 	</recipe>
-	<recipe name="Cordage" count="1" craft_time = "4" craft_exp_gain="9" >
+	<recipe name="Cordage" count="1" craft_time = "4" craft_exp_gain="14" >
 		<ingredient name="yuccaFibers" count="2"/>
 	</recipe>
-	<recipe name="Cordage" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Tailoring_Table" >
+	<recipe name="Cordage" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" >
 		<ingredient name="yuccaFibers" count="2"/>
 	</recipe>
-	<recipe name="barbedFence" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="barbedFence" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="Barbed_Wire" count="10"/>
 		<ingredient name="wood" count="10"/>
 	</recipe>
@@ -1727,35 +1727,35 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="Mortar_and_Pestle" count="1" craft_time = "30" craft_exp_gain="100" craft_area="forge" material_based="true" >
 		<ingredient name="unit_clay" count="25"/>
 	</recipe>
-	<recipe name="Bricks" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" material_based="true" >
+	<recipe name="Bricks" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" material_based="true" >
 		<ingredient name="unit_clay" count="5"/>
 		<ingredient name="unit_stone" count="5"/>
 	</recipe>
-	<recipe name="brickBlock" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickBlock" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="brickCNRFull" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickCNRFull" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="brickCNRInside" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickCNRInside" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="brickCNRRamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickCNRRamp" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="brickStairs25" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickStairs25" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="brickPlate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickPlate" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="brickRamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickRamp" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
@@ -1775,7 +1775,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="unit_lead" count="1"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="burntForestGround" count="1" craft_time = "4" craft_exp_gain="9" >
+	<recipe name="burntForestGround" count="1" craft_time = "4" craft_exp_gain="14" >
 		<ingredient name="dirtFragment" count="20"/>
 	</recipe>
 	<recipe name="camoNetBlock" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
@@ -1937,19 +1937,19 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="electricParts" count="4"/>
 		<ingredient name="electronicParts" count="1"/>
 	</recipe>
-	<recipe name="cntMailbox" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="cntMailbox" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="scrapIron" count="4"/>
 		<ingredient name="wood" count="5"/>
 	</recipe>
-	<recipe name="cntMailBox01" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="cntMailBox01" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="scrapIron" count="4"/>
 		<ingredient name="wood" count="5"/>
 	</recipe>
-	<recipe name="cntMailBox02" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="cntMailBox02" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="scrapIron" count="4"/>
 		<ingredient name="wood" count="5"/>
 	</recipe>
-	<recipe name="cntMailBox03" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="cntMailBox03" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="scrapIron" count="4"/>
 		<ingredient name="wood" count="5"/>
 	</recipe>
@@ -1998,160 +1998,160 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="mechanicalParts" count="1"/>
 		<ingredient name="wood" count="4"/>
 	</recipe>
-	<recipe name="cobblestoneRamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneRamp" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneWedge" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneWedge" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneWedgeTip" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneWedgeTip" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneWedgeTipCNRFullBottom" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneWedgeTipCNRFullBottom" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestonePlate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestonePlate" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneCNRFull" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneCNRFull" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneCNRInside" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneCNRInside" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestonePillar100" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestonePillar100" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestonePillar50" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestonePillar50" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestonePole" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestonePole" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneBlock" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneBlock" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneWedgeCNRInsideTop" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneWedgeCNRInsideTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneCNRRampFiller" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneCNRRampFiller" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneArrowSlitHalf" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneArrowSlitHalf" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneStairs25CornerCNR" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneStairs25CornerCNR" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneWedgeTipStairs" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneWedgeTipStairs" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneWedgeStairs" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneWedgeStairs" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneWedgeCNRInsideBottom" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneWedgeCNRInsideBottom" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneWedgeIncline" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneWedgeIncline" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneCNRRamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneCNRRamp" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestonePyramid" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestonePyramid" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneHalf" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneHalf" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneArch" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneArch" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneCTRpole" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneCTRpole" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cobblestoneWedgeTipCNRFullTop" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="cobblestoneWedgeTipCNRFullTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneRamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneRamp" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneCNRFull" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneCNRFull" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneHalf" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneHalf" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneCNRInside" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneCNRInside" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneArrowSlitHalf" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneArrowSlitHalf" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneBlock" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneBlock" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneStairs25" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneStairs25" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneStairs50" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneStairs50" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneWedge" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneWedge" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneWedgeTip" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneWedgeTip" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstonePlate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstonePlate" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstonePillar100" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstonePillar100" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstonePillar50" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstonePillar50" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneWedgeStairs" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneWedgeStairs" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneWedgeTipStairs" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneWedgeTipStairs" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneWedgeTipCNRFullTop" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneWedgeTipCNRFullTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneWedgeTipCNRFullBottom" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneWedgeTipCNRFullBottom" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneWedgeCNRInsideBottom" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneWedgeCNRInsideBottom" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneWedgeCNRInsideTop" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneWedgeCNRInsideTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneArch" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneArch" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneCNRRampFiller" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneCNRRampFiller" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneStairs25CornerCNR" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneStairs25CornerCNR" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstonePole" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstonePole" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneCTRpole" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneCTRpole" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneWedgeIncline" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneWedgeIncline" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstoneCNRRamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstoneCNRRamp" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="flagstonePyramid" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="flagstonePyramid" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
 	<recipe name="cobblestones" count="1" craft_time = "1" craft_exp_gain="0" craft_area="cementMixer" >
@@ -2162,67 +2162,67 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="crushedSand" count="1"/>
 		<ingredient name="cement" count="1"/>
 	</recipe>
-	<recipe name="pouredConcreteBlock" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteBlock" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteArrowSlitHalf" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteArrowSlitHalf" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteCNRFull" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteCNRFull" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteCNRInside" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteCNRInside" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteCNRRamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteCNRRamp" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteCNRRound" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteCNRRound" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteCNRRoundTop" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteCNRRoundTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteCTRPlate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteCTRPlate" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteHalf" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteHalf" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcretePillar100" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcretePillar100" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcretePillar50" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcretePillar50" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcretePlate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcretePlate" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcretePole" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcretePole" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcretePyramid" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcretePyramid" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteQuarter" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteQuarter" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteRamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteRamp" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteStairs25" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteStairs25" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteStairs50" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteStairs50" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteSupport" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteSupport" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteWedge" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteWedge" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteWedgeTip" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteWedgeTip" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="cookingGrill" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
@@ -2252,15 +2252,15 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="paper" count="8"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
-	<recipe name="emptyJar" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Empty_Jar_Mold" material_based="true" >
+	<recipe name="emptyJar" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Empty_Jar_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="endTable" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="endTable" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="endTableLamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="endTableLamp" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="endTable" count="1"/>
 		<ingredient name="headlight" count="1"/>
 		<ingredient name="electricParts" count="3"/>
@@ -2308,7 +2308,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="foodYuccaFruit" count="4"/>
 		<ingredient name="emptyJar" count="1"/>
 	</recipe>
-	<recipe name="forestGround" count="1" craft_time = "4" craft_exp_gain="9" >
+	<recipe name="forestGround" count="1" craft_time = "4" craft_exp_gain="14" >
 		<ingredient name="dirtFragment" count="20"/>
 	</recipe>
 	<recipe name="forge" count="1" craft_time = "60" craft_exp_gain="134" >
@@ -2317,15 +2317,15 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="bellows" count="1"/>
 		<ingredient name="shortMetalPipe" count="1"/>
 	</recipe>
-	<recipe name="forgedIron" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="anvil" material_based="true" >
+	<recipe name="forgedIron" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="anvil" material_based="true" >
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="forgedSteel" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="anvil" material_based="true" >
+	<recipe name="forgedSteel" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="anvil" material_based="true" >
 		<ingredient name="unit_iron" count="20"/>
 		<ingredient name="unit_clay" count="10"/>
 	</recipe>
-	<recipe name="garageDoorMetal_v1" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="garageDoorMetal_v1" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="scrapIronPlating" count="10"/>
 		<ingredient name="spring" count="6"/>
 		<ingredient name="mechanicalParts" count="12"/>
@@ -2354,79 +2354,79 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="gasCan" count="600" craft_time = "12" craft_exp_gain="40" craft_area="workbench" >
 		<ingredient name="oilBarrel" count="1"/>
 	</recipe>
-	<recipe name="glassCTRSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassCTRSheet" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="20"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassShowerBlock" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassShowerBlock" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassShowerRamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassShowerRamp" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassIndustrialCTRPlate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassIndustrialCTRPlate" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassIndustrial02CTRPlate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassIndustrial02CTRPlate" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassBusinessSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassBusinessSheet" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="opaqueBusinessGlass" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="opaqueBusinessGlass" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassBusinessCTRSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassBusinessCTRSheet" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassBusinessBlock" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassBusinessBlock" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassBusinessPlate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassBusinessPlate" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassBusinessPlateCurved" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassBusinessPlateCurved" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassBulletproofBlock" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassBulletproofBlock" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
 		<ingredient name="unit_iron" count="20"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="glassBulletproofPlate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassBulletproofPlate" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
 		<ingredient name="unit_iron" count="20"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="glassBulletproofCTRPlate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassBulletproofCTRPlate" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
 		<ingredient name="unit_iron" count="20"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="glassBulletproofPlateCurved" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassBulletproofPlateCurved" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
 		<ingredient name="unit_iron" count="20"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="glassBulletproofRamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
+	<recipe name="glassBulletproofRamp" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Glass_Pane_Mold" material_based="true" >
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
@@ -2445,14 +2445,14 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="femur" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="grass" count="1" craft_time = "4" craft_exp_gain="9" >
+	<recipe name="grass" count="1" craft_time = "4" craft_exp_gain="14" >
 		<ingredient name="dirtFragment" count="20"/>
 	</recipe>
-	<recipe name="gravel" count="1" craft_time = "4" craft_exp_gain="9" craft_area="cementMixer" >
+	<recipe name="gravel" count="1" craft_time = "4" craft_exp_gain="14" craft_area="cementMixer" >
 		<ingredient name="crushedSand" count="10"/>
 		<ingredient name="rockSmall" count="10"/>
 	</recipe>
-	<recipe name="gravel" count="1" craft_time = "4" craft_exp_gain="9" >
+	<recipe name="gravel" count="1" craft_time = "4" craft_exp_gain="14" >
 		<ingredient name="crushedSand" count="10"/>
 		<ingredient name="rockSmall" count="10"/>
 	</recipe>
@@ -2536,7 +2536,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="partsSniperRifle_stock" count="1"/>
 		<ingredient name="partsSniperRifle_parts" count="1"/>
 	</recipe>
-	<recipe name="hayBaleBlock" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" >
+	<recipe name="hayBaleBlock" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" >
 		<ingredient name="yuccaFibers" count="10"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
@@ -2596,12 +2596,12 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="wood" count="8"/>
 	</recipe>
-	<recipe name="ironArrow" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Ammunition_Table" >
+	<recipe name="ironArrow" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Ammunition_Table" >
 		<ingredient name="ironArrowHead" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
 	</recipe>
-	<recipe name="ironArrow" count="1" craft_time = "4" craft_exp_gain="9" >
+	<recipe name="ironArrow" count="1" craft_time = "4" craft_exp_gain="14" >
 		<ingredient name="ironArrowHead" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
@@ -2610,15 +2610,15 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="unit_iron" count="2"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="ironBars" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="ironBars" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="shortMetalPipe" count="4"/>
 		<ingredient name="forgedIron" count="3"/>
 	</recipe>
-	<recipe name="ironBarsCentered" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="ironBarsCentered" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="shortMetalPipe" count="4"/>
 		<ingredient name="forgedIron" count="3"/>
 	</recipe>
-	<recipe name="ironCrossbowBolt" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Ammunition_Table" >
+	<recipe name="ironCrossbowBolt" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Ammunition_Table" >
 		<ingredient name="ironArrowHead" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="feather" count="1"/>
@@ -2626,14 +2626,14 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="keystoneBlock" count="1" craft_area="workbench" >
 		<ingredient name="steelPlating" count="2"/>
 	</recipe>
-	<recipe name="ladderWood" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="ladderWood" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="3"/>
 	</recipe>
-	<recipe name="leather" count="2" craft_time = "4" craft_exp_gain="9" >
+	<recipe name="leather" count="2" craft_time = "4" craft_exp_gain="14" >
 		<ingredient name="animalHide" count="1"/>
 	</recipe>
-	<recipe name="leather" count="2" craft_time = "4" craft_exp_gain="9" craft_area="Tailoring_Table" >
+	<recipe name="leather" count="2" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" >
 		<ingredient name="animalHide" count="1"/>
 	</recipe>
 	<recipe name="cntLockers" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
@@ -2650,97 +2650,97 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="partsNailgun_battery" count="1" />
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
-	<recipe name="metalReinforcedWoodDrawBridge" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalReinforcedWoodDrawBridge" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIronPlating" count="20"/>
 		<ingredient name="wood" count="1000"/>
 		<ingredient name="spring" count="20"/>
 		<ingredient name="mechanicalParts" count="30"/>
 	</recipe>
-	<recipe name="metalSignLetter_a" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_a" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_b" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_b" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_c" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_c" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_d" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_d" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_e" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_e" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_f" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_f" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_g" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_g" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_h" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_h" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_i" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_i" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_j" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_j" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_k" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_k" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_l" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_l" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_m" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_m" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_n" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_n" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_o" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_o" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_p" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_p" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_q" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_q" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_r" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_r" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_s" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_s" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_t" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_t" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_u" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_u" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_v" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_v" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_w" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_w" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_x" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_x" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_y" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_y" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalSignLetter_z" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="metalSignLetter_z" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="metalTrussingBlock" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="metalTrussingBlock" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
-	<recipe name="metalTrussingRamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="metalTrussingRamp" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
-	<recipe name="metalTrussingSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="metalTrussingSheet" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
 	<recipe name="mineAirFilter" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
@@ -2776,16 +2776,16 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="cloth" count="1"/>
 		<ingredient name="grainAlcohol" count="1"/>
 	</recipe>
-	<recipe name="canEmpty" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="canEmpty" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="1"/>
 	</recipe>
-	<recipe name="candyTin" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="candyTin" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="1"/>
 	</recipe>
-	<recipe name="hubcap" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="hubcap" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="scrapIron" count="2"/>
 	</recipe>
-	<recipe name="airFilter" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="airFilter" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="scrapIron" count="3"/>
 		<ingredient name="cloth" count="1"/>
 	</recipe>
@@ -2852,23 +2852,23 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="oilBarrel" count="1" craft_time = "8" craft_exp_gain="0" >
 		<ingredient name="gasCan" count="600"/>
 	</recipe>
-	<recipe name="oldChair" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="oldChair" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="3"/>
 	</recipe>
-	<recipe name="chair01" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="chair01" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="3"/>
 	</recipe>
-	<recipe name="pew_segment01" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="pew_segment01" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="pew_segment02" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="pew_segment02" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="pew_segment03" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="pew_segment03" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
@@ -2907,25 +2907,25 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="gunPowder" count="10"/>
 		<ingredient name="shortMetalPipe" count="1"/>
 	</recipe>
-	<recipe name="plainsGround" count="1" craft_time = "4" craft_exp_gain="9" >
+	<recipe name="plainsGround" count="1" craft_time = "4" craft_exp_gain="14" >
 		<ingredient name="dirtFragment" count="20"/>
 	</recipe>
-	<recipe name="playerSignWood1x1" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="playerSignWood1x1" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="nail" count="4"/>
 		<ingredient name="wood" count="10"/>
 	</recipe>
-	<recipe name="playerSignWood1x3" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="playerSignWood1x3" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="nail" count="10"/>
 		<ingredient name="wood" count="30"/>
 	</recipe>
-	<recipe name="playerSignWood2x5" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="playerSignWood2x5" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="nail" count="20"/>
 		<ingredient name="wood" count="100"/>
 	</recipe>
-	<recipe name="scrapIronPlating" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="scrapIronPlating" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<recipe name="steelPlating" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="steelPlating" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedSteel" count="5"/>
 	</recipe>
 	<recipe name="rScrapIronPlateMine" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Ammunition_Table" craft_tool="toolAndDieSet" >
@@ -2934,21 +2934,21 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="ductTape" count="1"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
-	<recipe name="railingOldWoodSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="railingOldWoodSheet" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="2"/>
 	</recipe>
-	<recipe name="railingWoodWhiteSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="railingWoodWhiteSheet" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="2"/>
 	</recipe>
-	<recipe name="railingWroughtIronSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="railingWroughtIronSheet" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="shortMetalPipe" count="5"/>
 	</recipe>
-	<recipe name="railingMetalSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="railingMetalSheet" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="shortMetalPipe" count="5"/>
 	</recipe>
-	<recipe name="railingBlackSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="railingBlackSheet" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="shortMetalPipe" count="5"/>
 	</recipe>
 	<recipe name="repairKit" count="1" craft_time = "8" craft_exp_gain="27" >
@@ -2975,7 +2975,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="crushedSand" count="1" craft_time = "1" craft_exp_gain="0" craft_area="cementMixer" >
 		<ingredient name="rockSmall" count="1"/>
 	</recipe>
-	<recipe name="sand" count="1" craft_time = "4" craft_exp_gain="9" craft_area="cementMixer" >
+	<recipe name="sand" count="1" craft_time = "4" craft_exp_gain="14" craft_area="cementMixer" >
 		<ingredient name="crushedSand" count="20"/>
 	</recipe>
 	<recipe name="sandbag_1" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
@@ -3102,13 +3102,13 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="5"/>
 		<ingredient name="Cordage" count="5"/>
 	</recipe>
-	<recipe name="secureDoorWooden" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="secureDoorWooden" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 		<ingredient name="spring" count="2"/>
 		<ingredient name="mechanicalParts" count="2"/>
 	</recipe>
-	<recipe name="shortMetalPipe" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="Pipe_Mold" material_based="true" >
+	<recipe name="shortMetalPipe" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="Pipe_Mold" material_based="true" >
 		<ingredient name="unit_iron" count="5"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
@@ -3189,7 +3189,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="blueberries" count="2"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="sod" count="1" craft_time = "4" craft_exp_gain="9" >
+	<recipe name="sod" count="1" craft_time = "4" craft_exp_gain="14" >
 		<ingredient name="dirtFragment" count="20"/>
 	</recipe>
 	<recipe name="splint" count="1" craft_time = "8" craft_exp_gain="18" >
@@ -3230,7 +3230,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="Cordage" count="1"/>
 		<ingredient name="wood" count="5"/>
 	</recipe>
-	<recipe name="storeShelving01" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="storeShelving01" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="5"/>
 	</recipe>
 	<recipe name="tallow" count="1" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
@@ -3302,90 +3302,90 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="spring" count="2"/>
 		<ingredient name="mechanicalParts" count="2"/>
 	</recipe>
-	<recipe name="whitePicketFenceSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="whitePicketFenceSheet" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="3"/>
 	</recipe>
-	<recipe name="window03Wood" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="window03Wood" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="8"/>
 		<ingredient name="glassCTRSheet" count="1"/>
 	</recipe>
-	<recipe name="window02" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="window02" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="8"/>
 		<ingredient name="glassCTRSheet" count="1"/>
 	</recipe>
-	<recipe name="woodFenceFarmSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFenceFarmSheet" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="3"/>
 	</recipe>
-	<recipe name="woodFenceSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFenceSheet" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="3"/>
 	</recipe>
-	<recipe name="woodFrameBlock" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameBlock" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodFrameHalf" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameHalf" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodFrameCNRFull" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameCNRFull" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodFrameCNRInside" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameCNRInside" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodFrameRamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameRamp" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodFrameWedge" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameWedge" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodEighth" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodEighth" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodCNRRound" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodCNRRound" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodCNRRoundTop" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodCNRRoundTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodPyramid" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodPyramid" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodLogPillar100" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodLogPillar100" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="20"/>
 	</recipe>
 	<recipe name="woodLogSpike1" count="1" craft_time = "8" craft_exp_gain="18" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="20"/>
 	</recipe>
-	<recipe name="woodPillar100" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodPillar100" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodPlate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodPlate" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 	</recipe>
-	<recipe name="woodPole" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodPole" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 	</recipe>
-	<recipe name="woodStairs25" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodStairs25" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodSupport" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodSupport" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 	</recipe>
-	<recipe name="woodTable" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodTable" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
@@ -3393,53 +3393,53 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="10"/>
 		<ingredient name="Cordage" count="1"/>
 	</recipe>
-	<recipe name="woodArrowSlitHalf" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodArrowSlitHalf" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodHatch1_v1" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodHatch1_v1" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 		<ingredient name="spring" count="2"/>
 		<ingredient name="mechanicalParts" count="2"/>
 	</recipe>
-	<recipe name="woodCatwalk" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodCatwalk" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodCatwalkRailing" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodCatwalkRailing" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodRailing" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodRailing" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="3"/>
 	</recipe>
-	<recipe name="woodCatwalkRailingCNR" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodCatwalkRailingCNR" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodCatwalkWedgeRailing" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodCatwalkWedgeRailing" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodStairs50" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodStairs50" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodStairsBoard" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodStairsBoard" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodStairsBoardRailing" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodStairsBoardRailing" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodWedgeTip" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodWedgeTip" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="signShopColdBeer" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="signShopColdBeer" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="nail" count="4"/>
 		<ingredient name="wood" count="5"/>
 	</recipe>
@@ -3506,150 +3506,150 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="mechanicalParts" count="1"/>
 	</recipe>
-	<recipe name="wroughtIronFenceSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="forge" craft_tool="anvil" material_based="true" >
+	<recipe name="wroughtIronFenceSheet" count="1" craft_time = "4" craft_exp_gain="14" craft_area="forge" craft_tool="anvil" material_based="true" >
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="looseBoardsTrapBlock1x1" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="looseBoardsTrapBlock1x1" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="looseBoardsTrapBlock3x3" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="looseBoardsTrapBlock3x3" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="nail" count="30"/>
 		<ingredient name="wood" count="180"/>
 	</recipe>
-	<recipe name="looseBoardsTrapPlate1x1" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="looseBoardsTrapPlate1x1" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="nail" count="5"/>
 		<ingredient name="wood" count="20"/>
 	</recipe>
-	<recipe name="trapGlassBusinessSheet1x1" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="trapGlassBusinessSheet1x1" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="glassBusinessSheet" count="1"/>
 		<ingredient name="nail" count="5"/>
 		<ingredient name="wood" count="10"/>
 	</recipe>
-	<recipe name="trapGlassBusinessCTRSheet1x1" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="trapGlassBusinessCTRSheet1x1" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="glassBusinessSheet" count="1"/>
 		<ingredient name="nail" count="5"/>
 		<ingredient name="wood" count="10"/>
 	</recipe>
-	<recipe name="woodFrameWedgeIncline" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameWedgeIncline" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="pouredConcreteWedgeIncline" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteWedgeIncline" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="brickWedgeIncline" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickWedgeIncline" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="woodFrameWedgeStairs" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameWedgeStairs" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodFrameWedgeTipStairs" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameWedgeTipStairs" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="woodFrameWedgeTipCNRFullTop" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameWedgeTipCNRFullTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="pouredConcreteWedgeTipStairs" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteWedgeTipStairs" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteWedgeStairs" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteWedgeStairs" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="pouredConcreteWedgeTipCNRFullTop" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteWedgeTipCNRFullTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="brickWedgeStairs" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickWedgeStairs" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="brickWedgeTipStairs" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickWedgeTipStairs" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="brickWedgeTipCNRFullTop" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickWedgeTipCNRFullTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="woodFrameWedgeTipCNRFullBottom" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameWedgeTipCNRFullBottom" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="pouredConcreteWedgeTipCNRFullBottom" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteWedgeTipCNRFullBottom" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="brickWedgeTipCNRFullBottom" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickWedgeTipCNRFullBottom" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="woodFrameWedgeCNRInsideBottom" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameWedgeCNRInsideBottom" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="pouredConcreteWedgeCNRInsideBottom" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteWedgeCNRInsideBottom" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="brickWedgeCNRInsideBottom" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickWedgeCNRInsideBottom" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="woodFrameWedgeCNRInsideTop" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameWedgeCNRInsideTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="pouredConcreteWedgeCNRInsideTop" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteWedgeCNRInsideTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="brickWedgeCNRInsideTop" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickWedgeCNRInsideTop" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="woodFrameStairs25CornerCNR" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameStairs25CornerCNR" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="pouredConcreteStairs25CornerCNR" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteStairs25CornerCNR" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="brickStairs25CornerCNR" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickStairs25CornerCNR" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="woodCTRpole" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodCTRpole" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="pouredConcreteCTRpole" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteCTRpole" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="brickCTRpole" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickCTRpole" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="woodFrameCNRRampFiller" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameCNRRampFiller" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="pouredConcreteCNRRampFiller" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteCNRRampFiller" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="brickCNRRampFiller" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickCNRRampFiller" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="woodFrameArch" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+	<recipe name="woodFrameArch" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
-	<recipe name="pouredConcreteArch" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="pouredConcreteArch" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="brickArch" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="brickArch" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
@@ -3709,35 +3709,35 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="1"/>
 	</recipe>
-	<recipe name="ceilingLight01_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="ceilingLight01_player" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="4"/>
 	</recipe>
-	<recipe name="porchLight01_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="porchLight01_player" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="6"/>
 	</recipe>
-	<recipe name="wallLight01_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="wallLight01_player" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="6"/>
 	</recipe>
-	<recipe name="ceilingLight02_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="ceilingLight02_player" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="7"/>
 	</recipe>
-	<recipe name="industrialLight01_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="industrialLight01_player" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="5"/>
 		<ingredient name="electronicParts" count="3"/>
 		<ingredient name="scrapPlastics" count="1"/>
 	</recipe>
-	<recipe name="ceilingLight07_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="ceilingLight07_player" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="5"/>
 		<ingredient name="electronicParts" count="3"/>
 		<ingredient name="scrapPlastics" count="3"/>
 	</recipe>
-	<recipe name="headlight" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="headlight" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="glassCTRSheet" count="2"/>
 		<ingredient name="electricParts" count="6"/>
 		<ingredient name="scrapPlastics" count="3"/>
@@ -3754,11 +3754,11 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="electricParts" count="8"/>
 		<ingredient name="ductTape" count="2"/>
 	</recipe>
-	<recipe name="speaker" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="speaker" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="4"/>
 		<ingredient name="electricParts" count="3"/>
 	</recipe>
-	<recipe name="switch" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="switch" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
 		<ingredient name="electricParts" count="1"/>
@@ -3788,7 +3788,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="electricParts" count="2"/>
 		<ingredient name="electronicParts" count="3"/>
 	</recipe>
-	<recipe name="electricfencepost" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="electricfencepost" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="electricParts" count="2"/>
 	</recipe>
@@ -3802,7 +3802,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="mechanicalParts" count="6"/>
 		<ingredient name="electricParts" count="4"/>
 	</recipe>
-	<recipe name="steelDart" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Smithing_Table" craft_tool="Nail_Mold" >
+	<recipe name="steelDart" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Smithing_Table" craft_tool="Nail_Mold" >
 		<ingredient name="steelArrowHead" count="1"/>
 	</recipe>
 	<recipe name="shotgunTurret" count="1" craft_time = "30" craft_exp_gain="67" craft_area="workbench" craft_tool="wrench" >
@@ -3852,7 +3852,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="10"/>
 		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
-	<recipe name="loudspeaker" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="loudspeaker" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="electronicParts" count="10"/>
 		<ingredient name="electricParts" count="5"/>
 		<ingredient name="animalHide" count="3"/>
@@ -4281,103 +4281,103 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 	</recipe>
-	<recipe name="Armor_Smithing" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Armor_Smithing" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>
-	<recipe name="Chemistry_For_Dummies" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Chemistry_For_Dummies" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>
-	<recipe name="Gun_Smithing" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Gun_Smithing" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe><!--
-	<recipe name="Medical_Book" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Medical_Book" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>-->
-	<recipe name="Leatherworking" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Leatherworking" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>
-	<recipe name="Tailoring" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Tailoring" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>
-	<recipe name="Tool_Smithing" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Tool_Smithing" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>
-	<recipe name="Weapon_Smithing" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Weapon_Smithing" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>
-	<recipe name="Archery" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Archery" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>
-	<recipe name="Athletics" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Athletics" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>
-	<recipe name="Bladed_Weapons" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Bladed_Weapons" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>
-	<recipe name="Blunt_Weapons" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Blunt_Weapons" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>
-	<recipe name="How_Mining_Works" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="How_Mining_Works" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>
-	<recipe name="Pistols" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Pistols" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>
-	<recipe name="Rifles" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Rifles" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>
-	<recipe name="Shotguns" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Shotguns" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
 		<ingredient name="Schematic_Page" count="2"/>
 	</recipe>
-	<recipe name="Under_Construction" count="1" craft_time = "4" craft_exp_gain="9" craft_area="Research_Table" craft_tool="Geometry_Set" >
+	<recipe name="Under_Construction" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Research_Table" craft_tool="Geometry_Set" >
 		<ingredient name="paper" count="5"/>
 		<ingredient name="Ink" count="1"/>
 		<ingredient name="feather" count="1"/>
@@ -4436,13 +4436,13 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="Ink" count="1"/>
 	</recipe>
 	<!--End of Fake Recipes-->
-	<recipe name="graveStone01" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="graveStone01" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="graveStone02" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="graveStone02" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="graveStone03" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+	<recipe name="graveStone03" count="1" craft_time = "4" craft_exp_gain="14" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 </recipes>
