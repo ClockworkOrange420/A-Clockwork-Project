@@ -4167,7 +4167,7 @@
 		<property name="Encumbrance" value="0.05"/>
 		<property name="Material" value="MmilitaryFiber"/>
 		<property name="RepairTools" value="militaryFiber"/>
-		<property name="EconomicValue" value="1600"/>
+		<property name="EconomicValue" value="400"/>
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="EquipSlot" value="Hands"/>
 		<property name="HoldType" value="45"/>
@@ -4224,7 +4224,7 @@
 	<item id="393" name="militaryLegArmor">
 		<!-- militaryArmor -->
 		<property name="Extends" value="militaryGloves"/>
-		<property name="EconomicValue" value="3200"/>
+		<property name="EconomicValue" value="500"/>
 		<property name="EquipSlot" value="Legs"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
@@ -4240,7 +4240,7 @@
 	<item id="394" name="militaryVest">
 		<!-- militaryArmor -->
 		<property name="Extends" value="militaryGloves"/>
-		<property name="EconomicValue" value="3200"/>
+		<property name="EconomicValue" value="500"/>
 		<property name="EquipSlot" value="Chest"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
@@ -4660,7 +4660,7 @@
 		<property name="Material" value="metal"/>
 		<property name="RepairTools" value="forgedIron"/>
 		<property name="HoldType" value="45"/>
-		<property name="EconomicValue" value="1200"/>
+		<property name="EconomicValue" value="150"/>
 		<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
 		<property name="EquipSlot" value="Head"/>
 		<property name="Degradation" value="250" param1="true"/>
@@ -4698,7 +4698,7 @@
 		<property name="HoldType" value="7"/>
 		<property name="EquipSlot" value="Head"/>
 		<property name="DegradationBreaksAfter" value="false"/>
-		<property name="EconomicValue" value="1000"/>
+		<property name="EconomicValue" value="400"/>
 		<property class="Attributes">
 			<!-- ironArmor -->
 			<property name="ConcussiveProtection" value="0.26,0.65"/>
@@ -4729,7 +4729,7 @@
 		<property name="HoldType" value="7"/>
 		<property name="EquipSlot" value="Head"/>
 		<property name="DegradationBreaksAfter" value="false"/>
-		<property name="EconomicValue" value="400"/>
+		<property name="EconomicValue" value="80"/>
 		<property name="Encumbrance" value="0"/>
 		<property class="Attributes">
 			<!-- scrapArmor -->
@@ -4774,7 +4774,7 @@
 		<property name="HoldType" value="45"/>
 		<property name="EquipSlot" value="Head"/>
 		<property name="FuelValue" value="16"/>
-		<property name="EconomicValue" value="1600"/>
+		<property name="EconomicValue" value="200"/>
 		<property name="Degradation" value="250" param1="true"/>
 		<property class="Attributes">
 			<!-- clothGeneric -->
@@ -4812,7 +4812,7 @@
 		<property name="EquipSlot" value="Eyes"/>
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="Encumbrance" value="0"/>
-		<property name="EconomicValue" value="150"/>
+		<property name="EconomicValue" value="50"/>
 		<property class="Attributes">
 			<!-- clothGeneric -->
 			<property name="ConcussiveProtection" value="0.065,0.13"/>
@@ -4856,7 +4856,7 @@
 		<property name="HoldType" value="45"/>
 		<property name="EquipSlot" value="Eyes"/>
 		<property name="DegradationBreaksAfter" value="false"/>
-		<property name="EconomicValue" value="2000"/>
+		<property name="EconomicValue" value="500"/>
 		<property name="ActivateObject" value="NightVision"/>
 		<property name="ImageEffectOnActive" value="NightVision"/>
 		<property name="PlaySoundOnActive" value="nightvision_toggle"/>
@@ -4941,7 +4941,7 @@
 		<property name="RepairTools" value="animalHide"/>
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="FuelValue" value="75"/>
-		<property name="EconomicValue" value="480"/>
+		<property name="EconomicValue" value="250"/>
 		<property name="EquipSlot" value="Chest"/>
 		<property class="Attributes">
 			<!-- hideArmor -->
@@ -5347,7 +5347,7 @@
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="EquipSlot" value="Chest"/>
 		<property name="FuelValue" value="80"/>
-		<property name="EconomicValue" value="800"/>
+		<property name="EconomicValue" value="200"/>
 		<property class="Attributes">
 			<!-- hideArmor -->
 			<property name="ConcussiveProtection" value="0.07,0.35"/>
@@ -5376,7 +5376,7 @@
 		<property name="Extends" value="leatherDuster"/>
 		<property name="CustomIcon" value="leatherDuster"/>
 		<property name="CustomIconTint" value="60,60,60"/>
-		<property name="EconomicValue" value="1200"/>
+		<property name="EconomicValue" value="250"/>
 		<property class="UMA">
 			<property name="Overlay0Tint" value="60,60,60"/>
 		</property>
@@ -5389,7 +5389,7 @@
 		<property name="Material" value="cloth"/>
 		<property name="RepairTools" value="cloth"/>
 		<property name="FuelValue" value="6"/>
-		<property name="EconomicValue" value="800"/>
+		<property name="EconomicValue" value="300"/>
 		<property name="HoldType" value="45"/>
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="EquipSlot" value="Chest"/>
@@ -5646,7 +5646,7 @@
 		<property name="RepairTools" value="cloth"/>
 		<property name="Weight" value="30"/>
 		<property name="FuelValue" value="6"/>
-		<property name="EconomicValue" value="800"/>
+		<property name="EconomicValue" value="100"/>
 		<property name="HoldType" value="45"/>
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="EquipSlot" value="Chest"/>
