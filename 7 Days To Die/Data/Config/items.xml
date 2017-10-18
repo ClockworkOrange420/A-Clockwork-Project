@@ -4811,6 +4811,7 @@
 		<property name="HoldType" value="45"/>
 		<property name="EquipSlot" value="Eyes"/>
 		<property name="DegradationBreaksAfter" value="false"/>
+		<property name="Insulation" value="-5"/>
 		<property name="Encumbrance" value="0"/>
 		<property name="EconomicValue" value="50"/>
 		<property class="Attributes">
