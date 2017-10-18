@@ -240,7 +240,6 @@
 	<!--Build a Smithing Table-->
 	<quest id="quest_BasicSurvival13" group_name_key="Basic Survival" name_key="Smithing table" subtitle_key="Craft a smithing table" description_key="To Craft a smithing table gather or craft forged iron, once you have the ingredients access your workbench and navigate to the Building category, highlight the recipe and click the craft button. You must occupy the workbench while this completes to recieve credit." icon="ui_game_symbol_wrench" category_key="Quest">
 		
-		<objective type="FetchKeep" id="forgedIron" value="40" />
 		
 		<objective type="Craft" id="Smithing_Table" value="1" />
 		<objective type="BlockPlace" id="Smithing_Table" value="1" />
