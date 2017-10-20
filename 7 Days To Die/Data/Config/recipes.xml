@@ -4273,7 +4273,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="Ink" count="1" craft_time = "4" craft_exp_gain="14" craft_area="New_Oven" craft_tool="beaker" >
 		<ingredient name="blueberries" count="5"/>
-		<ingredient name="animalFat" count="1"/>
+		<ingredient name="animalFat" count="5"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="qt_zombieRepeat1" count="1" craft_time = "4" craft_exp_gain="0" craft_area="Research_Table" >
