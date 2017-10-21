@@ -16598,8 +16598,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="forgedIron" value="40"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
-		<drop event="Harvest" name="ScrapIron" count="15" tool_category="Disassemble"/>
-		<drop event="Destroy" name="ScrapIron" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="scrapIron" count="15" tool_category="Disassemble"/>
+		<drop event="Destroy" name="scrapIron" count="5" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="smithingTableDesc"/>
 		<property name="Group" value="Building"/>
@@ -16654,7 +16654,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="TakeDelay" value="15"/>
 		<drop event="Harvest" name="scrapIron" count="3" tool_category="Disassemble"/>
 		<drop event="Harvest" name="ductTape" count="5" tool_category="Disassemble"/>
-		<drop event="Destroy" name="ScrapIron" count="2" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Building"/>
