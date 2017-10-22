@@ -11302,7 +11302,7 @@
 		<property name="Extends" value="handMaster"/>
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
-			<property name="DamageEntity" value="8"/>
+			<property name="DamageEntity" value="10"/>
 			<property name="DamageBlock" value="20"/>
 			<property name="Buff" value="infectionActivatorHygiene,venomActivator,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious"/>
 			<property name="Buff_chance" value="1,0.3,0.01,0.2,0.3,0.4,1"/>
