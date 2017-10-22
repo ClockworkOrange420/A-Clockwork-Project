@@ -142,7 +142,7 @@ If you do not declare them, the decorations of the main biome are used.
 		<weather>
 			<Temperature min="-90" max="-70" prob="0"/>
 			<Fog min="0" max="0" prob="0.9"/>
-			<Fog min="100" max="100" prob="0.1"/>
+			<Fog min="10" max="10" prob="0.1"/>
 			<!-- Cloud Density *Must be above 60 to Rain* -->
 			<CloudThickness min="0" max="100" prob="0.5"/>
 			<CloudThickness min="95" max="100" prob="0.5"/>
@@ -310,7 +310,7 @@ If you do not declare them, the decorations of the main biome are used.
 		<weather>
 			<Temperature min="-35" max="5" prob="1"/>
 			<Fog min="0" max="0" prob="0.9"/>
-			<Fog min="100" max="100" prob="0.1"/>
+			<Fog min="10" max="30" prob="0.1"/>
 			<CloudThickness min="0" max="0" prob="0.2"/>
 			<CloudThickness min="10" max="70" prob="0.5"/>
 			<CloudThickness min="100" max="100" prob="0.3"/>
@@ -501,7 +501,7 @@ If you do not declare them, the decorations of the main biome are used.
 		<weather>
 			<Temperature min="-50" max="-10" prob="1"/>
 			<Fog min="0" max="0" prob="0.9"/>
-			<Fog min="100" max="100" prob="0.1"/>
+			<Fog min="10" max="30" prob="0.1"/>
 			<CloudThickness min="0" max="0" prob="0.2"/>
 			<CloudThickness min="10" max="70" prob="0.5"/>
 			<CloudThickness min="100" max="100" prob="0.3"/>
@@ -684,7 +684,7 @@ If you do not declare them, the decorations of the main biome are used.
 		<weather>
 			<Temperature min="-5" max="-10" prob="1"/>
 			<Fog min="0" max="0" prob="0.9"/>
-			<Fog min="100" max="100" prob="0.1"/>
+			<Fog min="10" max="30" prob="0.1"/>
 			<CloudThickness min="0" max="0" prob="0.2"/>
 			<CloudThickness min="10" max="70" prob="0.5"/>
 			<CloudThickness min="100" max="100" prob="0.3"/>
@@ -868,8 +868,7 @@ If you do not declare them, the decorations of the main biome are used.
 		<weather>
 			<Temperature min="20" max="30" prob="1"/>
 			<CloudThickness min="5" max="50" prob="1"/>
-			<Fog min="0" max="0" prob="0.9"/>
-			<Fog min="100" max="100" prob="0.1"/>
+			<Fog min="0" max="0" prob="1"/>
 			<CloudThickness min="0" max="0" prob="0.3"/>
 			<CloudThickness min="10" max="70" prob="0.6"/>
 			<CloudThickness min="100" max="100" prob="0.1"/>
@@ -1040,7 +1039,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<Temperature min="0" max="10" prob="1"/>
 			<CloudThickness min="5" max="50" prob="1"/>
 			<Fog min="0" max="0" prob="0.9"/>
-			<Fog min="100" max="100" prob="0.1"/>
+			<Fog min="10" max="30" prob="0.1"/>
 			<CloudThickness min="0" max="0" prob="0.3"/>
 			<CloudThickness min="10" max="70" prob="0.6"/>
 			<CloudThickness min="100" max="100" prob="0.1"/>
@@ -1207,7 +1206,7 @@ If you do not declare them, the decorations of the main biome are used.
 		<weather>
 			<Temperature min="-40" max="40" prob="1"/>
 			<Fog min="0" max="0" prob="0.8"/>
-			<Fog min="100" max="100" prob="0.2"/>
+			<Fog min="10" max="40" prob="0.2"/>
 			<CloudThickness min="0" max="0" prob="0.2"/>
 			<CloudThickness min="10" max="70" prob="0.5"/>
 			<CloudThickness min="100" max="100" prob="0.3"/>
@@ -1601,7 +1600,7 @@ If you do not declare them, the decorations of the main biome are used.
 		<weather>
 			<Temperature min="-15" max="15" prob="1"/>
 			<Fog min="0" max="0" prob=".9"/>
-			<Fog min="100" max="100" prob=".1"/>
+			<Fog min="10" max="30" prob=".1"/>
 			<CloudThickness min="0" max="0" prob=".2"/>
 			<CloudThickness min="10" max="70" prob=".5"/>
 			<CloudThickness min="100" max="100" prob=".3"/>
@@ -1732,7 +1731,7 @@ If you do not declare them, the decorations of the main biome are used.
 		<weather>
 			<Temperature min="5" max="15" prob="1"/>
 			<Fog min="0" max="0" prob=".8"/>
-			<Fog min="100" max="100" prob=".2"/>
+			<Fog min="10" max="30" prob=".2"/>
 			<CloudThickness min="0" max="0" prob=".2"/>
 			<CloudThickness min="10" max="70" prob=".5"/>
 			<CloudThickness min="100" max="100" prob=".3"/>
