@@ -1100,8 +1100,6 @@
 	<item name="ironArrowHead" count="1,12"/>
 	<item name="steelArrowHead" count="1,10" prob="0.08"/>
 	<item name="Geometry_Set" count="1" prob="0.08"/>
-	<item group="junkParts" count="1" prob="0.08"/>
-	<item name="Schematic_Page" count="1" prob="0.11"/>
 	<item name="candyTin"/>
 	<item name="emptyJar" count="1,2"/>
 	<item name="canEmpty" count="1,3"/>
@@ -1128,6 +1126,8 @@
 	<item group="books" prob="0.11"/>
 	<item group="seeds" count="1,2"/>
 	<item name="padlock" count="1" prob="0.1"/>
+	<item group="junkParts" count="1" prob="0.12"/>
+	<item name="Schematic_Page" count="1" prob="0.12"/>
 	<item group="questChallenge" count="1" prob="0.11"/> 	<!-- 0.06 = .23 % -->
 	<item group="treasureMaps" count="1" prob="0.092"/>
 </lootgroup>
