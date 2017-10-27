@@ -63,7 +63,7 @@
 	<!-- Basic Survival 1 - Craft a Stone Axe /> -->
 	<quest id="quest_BasicSurvivalStoneAxe" group_name_key="Basic Survival" name_key="Stone Axe" subtitle_key="Craft a Stone Axe" description_key="Craft a Stone Axe to help you defend yourself and gather crafting ingredients. Gather the ingredients by attacking grass, stone, or wood objects. You can also pick up small stones by looking at them and using the Pickup action. Once you have the ingredients, access the Inventory and locate Stone Axe in the Basics category of the Crafting window." icon="ui_game_symbol_hammer" category_key="Quest">
 		
-		<objective type="FetchKeep" id="wood" value="2" />
+		<objective type="FetchKeep" id="wood" value="5" />
 		<objective type="FetchKeep" id="rockSmall" value="2" />
 		<objective type="FetchKeep" id="Cordage" value="1" />
 		
