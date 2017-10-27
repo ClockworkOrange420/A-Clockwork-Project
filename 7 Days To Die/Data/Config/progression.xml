@@ -3,7 +3,7 @@
 <progression>
 <player
 	max_level="200"
-	exp_to_level="10000"
+	exp_to_level="11000"
 	experience_multiplier="1"
 	skill_points_per_level="8"
 	skill_point_multiplier="0"/>
@@ -66,13 +66,13 @@
 		</effect>
 	</action_skill>
 	
-	<action_skill name="Mining Tools" skill_point_cost_per_level="0" icon="mining" description_key="Do more damage with mining tools. Gain skill by using items from this group." title_key="Mining Tools" group="tools">
+	<action_skill name="Mining Tools" exp_to_level="2000" skill_point_cost_per_level="0" icon="mining" description_key="Do more damage with mining tools. Gain skill by using items from this group." title_key="Mining Tools" group="tools">
 		<effect name="BlockDamage">
 			<multiply skill_level="1,100" value="1,2"/>
 		</effect>
 	</action_skill>
 	
-	<action_skill name="Construction Tools" skill_point_cost_per_level="0" icon="resource" description_key="Do more damage and harvest faster with construction tools including the stone axe, wrench, hammer and the nailgun. Gain skill by using items from this group." title_key="Construction Tools" group="tools">
+	<action_skill name="Construction Tools" exp_to_level="2000" skill_point_cost_per_level="0" icon="resource" description_key="Do more damage and harvest faster with construction tools including the stone axe, wrench, hammer and the nailgun. Gain skill by using items from this group." title_key="Construction Tools" group="tools">
 		<effect name="BlockDamage">
 			<multiply skill_level="1,100" value="1,2"/>
 		</effect>

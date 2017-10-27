@@ -7620,6 +7620,7 @@
 		<property name="DescriptionKey" value="How_Mining_WorksDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Mining_Tools_Skill"/>
+			<property name="ActionExp" value="1000"/>
 		</property>
 	</item>
 	<item id="915" name="Pistols">
@@ -7648,6 +7649,7 @@
 		<property name="DescriptionKey" value="Under_ConstructionDesc"/>
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="Construction_Tools_Skill"/>
+			<property name="ActionExp" value="1000"/>
 		</property>
 	</item>
 	<item id="919" name="qt_zombieRepeat">
