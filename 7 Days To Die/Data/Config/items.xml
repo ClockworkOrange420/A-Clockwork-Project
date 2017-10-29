@@ -9188,13 +9188,13 @@
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
-			<property name="Delay" value="1.5"/>
+			<property name="Delay" value="1.2"/>
 			<property name="Range" value="2.4"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="DamageEntity" value="8"/>
 			<property name="DamageBlock" value="0.4"/>
 			<property name="Sound_start" value="swoosh"/>
-			<property name="Stamina_usage" value="8"/>
+			<property name="Stamina_usage" value="6"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="Buff" value="bleeding"/>
@@ -9228,13 +9228,13 @@
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
-			<property name="Delay" value="1.5"/>
+			<property name="Delay" value="1.2"/>
 			<property name="Range" value="2.4"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="DamageEntity" value="15"/>
 			<property name="DamageBlock" value="0.4"/>
 			<property name="Sound_start" value="swoosh"/>
-			<property name="Stamina_usage" value="8"/>
+			<property name="Stamina_usage" value="6.25"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="Buff" value="bleeding"/>
@@ -9268,13 +9268,13 @@
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
-			<property name="Delay" value="1.5"/>
+			<property name="Delay" value="1.2"/>
 			<property name="Range" value="2.4"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="0.4"/>
 			<property name="Sound_start" value="swoosh"/>
-			<property name="Stamina_usage" value="8"/>
+			<property name="Stamina_usage" value="6.51"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="Buff" value="bleeding"/>
