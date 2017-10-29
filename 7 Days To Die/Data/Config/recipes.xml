@@ -888,8 +888,9 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="Cheese" count="1"/>
 	</recipe>
 	<recipe name="hamSandwich" count="1" craft_time = "8" craft_area="woodTable" craft_tool="huntingKnife" >
-		<ingredient name="slicedHam" count="4"/>
-		<ingredient name="slicedCheese" count="4"/>
+		<ingredient name="slicedHam" count="2"/>
+		<ingredient name="slicedCheese" count="2"/>
+		<ingredient name="Bread" count="1"/>
 	</recipe>
 	<recipe name="Noodles" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingPot" >
 		<ingredient name="Dough" count="1"/>
@@ -918,15 +919,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="Crackers" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
 		<ingredient name="Dough" count="1"/>
 	</recipe>
-	<recipe name="CrackersAndCheese" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingGrill" >
-		<ingredient name="Crackers" count="2"/>
-		<ingredient name="slicedCheese" count="4"/>
-	</recipe>
-	<recipe name="CrackersAndCheese" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingGrill" >
-		<ingredient name="Crackers" count="2"/>
-		<ingredient name="slicedCheese" count="4"/>
-	</recipe>
-	<recipe name="CrackersAndCheese" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
+	<recipe name="CrackersAndCheese" count="1" craft_time = "8" craft_area="woodTable" >
 		<ingredient name="Crackers" count="2"/>
 		<ingredient name="slicedCheese" count="4"/>
 	</recipe>

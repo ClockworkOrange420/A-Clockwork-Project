@@ -11178,10 +11178,10 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="8"/>
+			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
-			<property name="Gain_wellness" value="0.02"/>
+			<property name="Gain_wellness" value="0.025"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="hamSandwichDesc"/>
