@@ -9199,7 +9199,7 @@
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="Buff" value="bleeding"/>
 			<property name="Buff_chance" value="0.25"/>
-			<property name="ActionExp" value="6"/>
+			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
@@ -9239,7 +9239,7 @@
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="Buff" value="bleeding"/>
 			<property name="Buff_chance" value="0.25"/>
-			<property name="ActionExp" value="6"/>
+			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
@@ -9279,7 +9279,7 @@
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="Buff" value="bleeding"/>
 			<property name="Buff_chance" value="0.25"/>
-			<property name="ActionExp" value="6"/>
+			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property class="Attributes">
