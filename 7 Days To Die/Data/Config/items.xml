@@ -6544,7 +6544,7 @@
 			<property name="Gain_food" value="2"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="40"/>
-			<property name="Gain_wellness" value="0.15"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
