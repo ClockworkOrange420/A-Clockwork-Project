@@ -1107,15 +1107,15 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="HoneyHam" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
 		<ingredient name="Pork" count="1"/>
-		<ingredient name="foodHoney" count="2"/>
+		<ingredient name="foodHoney" count="1"/>
 	</recipe>
 	<recipe name="HoneyHam" count="1" craft_time = "8" craft_area="Old_Oven" craft_tool="cookingGrill" >
 		<ingredient name="Pork" count="1"/>
-		<ingredient name="foodHoney" count="2"/>
+		<ingredient name="foodHoney" count="1"/>
 	</recipe>
 	<recipe name="HoneyHam" count="1" craft_time = "8" craft_area="New_Oven" craft_tool="cookingGrill" >
 		<ingredient name="Pork" count="1"/>
-		<ingredient name="foodHoney" count="2"/>
+		<ingredient name="foodHoney" count="1"/>
 	</recipe>
 	<recipe name="Grilled_Rabbit" count="1" craft_time = "8" craft_area="campfire" craft_tool="cookingGrill" >
 		<ingredient name="Rabbit" count="1"/>
