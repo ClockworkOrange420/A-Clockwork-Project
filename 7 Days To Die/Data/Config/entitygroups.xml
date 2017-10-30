@@ -739,7 +739,6 @@
 		<entity name="zombieFemaleFat"/>
 		<entity name="animalZombieDog"/>
 		<entity name="animalBoar"/>
-		<entity name="animalChicken"/>
 		<entity name="animalSnake"/>
 	</entitygroup>
 
