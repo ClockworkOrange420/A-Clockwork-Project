@@ -1108,6 +1108,7 @@
 			<property name="DamageBlock" value="20"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="DamageBonus.glass" value="1"/>
+			<property name="DamageBonus.metal" value="0.5"/>
 		</property>
 	</item>
 	<item id="70" name="handPlayer">
@@ -1705,7 +1706,7 @@
 			<property name="DamageBonus.wood" value="0.3"/>
 			<property name="DamageBonus.stone" value="0.5"/>
 			<property name="DamageBonus.metal" value="0.25"/>
-			<property name="DamageBonus.organic" value="2"/>
+			<property name="DamageBonus.organic" value="3"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
@@ -1748,7 +1749,7 @@
 			<property name="DamageBonus.wood" value="0.25"/>
 			<property name="DamageBonus.stone" value="0.5"/>
 			<property name="DamageBonus.metal" value="0.25"/>
-			<property name="DamageBonus.organic" value="2"/>
+			<property name="DamageBonus.organic" value="3"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
@@ -1778,7 +1779,7 @@
 			<property name="Delay" value="1.2"/>
 			<property name="Stamina_usage" value="7"/>
 			<property name="DamageBonus.earth" value="1"/>
-			<property name="DamageBonus.organic" value="2"/>
+			<property name="DamageBonus.organic" value="3"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="8,19"/>
