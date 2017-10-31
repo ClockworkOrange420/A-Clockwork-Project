@@ -13328,13 +13328,13 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="forgedSteel" value="5"/>
 		</property>
 		<property class="UpgradeBlock">
-			<property name="ToBlock" value="vaultDoor03"/>
+			<property name="ToBlock" value="vaultDoor02"/>
 			<property name="Item" value="steelPlating"/>
 			<property name="ItemCount" value="1"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
-		<drop event="Harvest" name="scrapIron" count="25" tool_category="Harvest"/>
+		<drop event="Harvest" name="scrapIron" count="10" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Building"/>
@@ -13373,7 +13373,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property class="RepairItems">
 			<property name="forgedSteel" value="5"/>
 		</property>
-		<property name="DowngradeBlock" value="vaultDoor01"/>
+		<property name="DowngradeBlock" value="vaultDoor02"/>
 		<drop event="Harvest" name="scrapIron" count="10" tool_category="Harvest"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
@@ -13668,7 +13668,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="OpenSound" value="open_hatch_vault"/>
 		<property name="CloseSound" value="close_hatch_vault"/>
 		<property class="UpgradeBlock">
-			<property name="ToBlock" value="vaultHatch_v3"/>
+			<property name="ToBlock" value="vaultHatch_v2"/>
 		</property>
 		<property name="EconomicValue" value="432"/>
 	</block>
@@ -13693,7 +13693,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="ImposterExchange" value="imposterPlate" param1="77"/>
 		<property name="OpenSound" value="open_hatch_vault"/>
 		<property name="CloseSound" value="close_hatch_vault"/>
-		<property name="DowngradeBlock" value="vaultHatch_v1"/>
+		<property name="DowngradeBlock" value="vaultHatch_v2"/>
 	</block>
 	<block id="1472" name="waterSource8">
 		<property name="Class" value="Liquidv2"/>
