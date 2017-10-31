@@ -4811,7 +4811,7 @@
 		<property name="HoldType" value="45"/>
 		<property name="EquipSlot" value="Eyes"/>
 		<property name="DegradationBreaksAfter" value="false"/>
-		<property name="Insulation" value="-5"/>
+		<property name="Insulation" value="-3"/>
 		<property name="Encumbrance" value="0"/>
 		<property name="EconomicValue" value="50"/>
 		<property class="Attributes">
@@ -4969,6 +4969,7 @@
 	</item>
 	<item id="482" name="bandana">
 		<!-- bandanaMaster -->
+		<property name="Insulation" value="-3"/>
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="cloth"/>
