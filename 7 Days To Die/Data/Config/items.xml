@@ -1108,6 +1108,7 @@
 			<property name="DamageBlock" value="20"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="DamageBonus.glass" value="1"/>
+			<property name="DamageBonus.stone" value="0.75"/>
 			<property name="DamageBonus.metal" value="0.5"/>
 		</property>
 	</item>
