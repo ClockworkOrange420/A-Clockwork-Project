@@ -7111,7 +7111,7 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="2"/>
+			<property name="Gain_food" value="3"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
 			<property name="Gain_sickness" value="30"/>
@@ -7133,10 +7133,10 @@
 			<property name="Delay" value="2.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="4"/>
+			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
-			<property name="Gain_wellness" value="0.067"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -7153,9 +7153,9 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="10"/>
+			<property name="Gain_food" value="12"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0.34"/>
+			<property name="Gain_wellness" value="0.4"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -7193,8 +7193,8 @@
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="12"/>
-			<property name="Gain_wellness" value="0.1"/>
+			<property name="Gain_food" value="14"/>
+			<property name="Gain_wellness" value="0.12"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Smell" value="largeSmell"/>
