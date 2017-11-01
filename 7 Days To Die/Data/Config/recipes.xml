@@ -1476,6 +1476,11 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="coffeeBeans" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
+	<recipe name="Yeast" count="1" craft_time = "4" craft_exp_gain="84" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="bottledWater" count="1"/>
+		<ingredient name="cornMeal" count="1"/>
+		<ingredient name="Flour" count="1"/>
+	</recipe>
 	<recipe name="Yeast" count="1" craft_time = "8" craft_exp_gain="84" craft_area="Old_Oven" craft_tool="beaker" >
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="cornMeal" count="1"/>

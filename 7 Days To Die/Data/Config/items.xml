@@ -3371,7 +3371,7 @@
 		<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	</item>
 	<item id="270" name="minibikeSeat">
-		<property name="DescriptionKey" value="minibikePartsGroupDesc"/>
+		<property name="DescriptionKey" value="minibikeSeatDesc"/>
 		<property name="VehicleSlotType" value="seat"/>
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
@@ -3551,7 +3551,7 @@
 	</item>
 	<item id="283" name="partsCompoundBow_string">
 		<property name="Extends" value="partsMaster"/>
-		<property name="DescriptionKey" value="partsCompoundBowGroupDesc"/>
+		<property name="DescriptionKey" value="partsCompoundBow_stringDesc"/>
 		<property name="PartType" value="Barrel"/>
 		<property name="Material" value="MmilitaryFiber"/>
 		<property name="Weight" value="5"/>

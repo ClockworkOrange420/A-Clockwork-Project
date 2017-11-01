@@ -3300,6 +3300,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="LootList" value="16"/>
 		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
 		<property name="EconomicValue" value="40"/>
+		<property name="DescriptionKey" value="cntTrash_can01Desc"/>
 	</block>
 	<block id="336" name="cntBin">
 		<property name="Class" value="Loot"/>
@@ -3314,6 +3315,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="LootList" value="2"/>
 		<drop event="Destroy" name="scrapIron" count="1" tool_category="Harvest"/>
 		<property name="EconomicValue" value="20"/>
+		<property name="DescriptionKey" value="cntBinDesc"/>
 	</block>
 	<block id="337" name="cntNightstand">
 		<property name="Class" value="Loot"/>
@@ -3350,6 +3352,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		</property>
 		<drop event="Harvest" name="scrapPlastics" count="3" tool_category="Harvest"/>
 		<drop event="Destroy" name="scrapPlastics" count="2" tool_category="Harvest"/>
+		<property name="DescriptionKey" value="cntSuitcaseDesc"/>
 	</block>
 	<block id="339" name="cntStorageChest">
 		<property name="CreativeMode" value="Player"/>
@@ -3509,6 +3512,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.5" stick_chance="1"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
+		<property name="DescriptionKey" value="decorationStoneBlockGroupDesc"/>
 	</block>
 	<block id="353" name="graveStone02">
 		<property name="Extends" value="graveStone01"/>
@@ -4035,6 +4039,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Mesh" value="cutout"/>
 		<property name="Texture" value="310"/>
 		<property name="Collide" value="movement,melee,rocket"/>
+		<property name="DescriptionKey" value="metalTrussingBlockDesc"/>
 	</block>
 	<block id="403" name="pouredConcreteSupport">
 		<property name="CreativeMode" value="Player"/>
@@ -6175,6 +6180,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="80"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="116"/>
+		<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	</block>
 	<block id="630" name="rockResource">
 		<property name="CreativeMode" value="Dev"/>
@@ -7478,6 +7484,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Destroy" name="wood" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="30"/>
+		<property name="DescriptionKey" value="cntBookcaseDesc"/>
 	</block>
 	<block id="738" name="brickWedgeTipCNRFullTop">
 		<property name="Extends" value="brickMaster"/>
@@ -8057,6 +8064,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Destroy" name="cloth" count="1,3" tool_category="Harvest"/>
 		<property name="EconomicValue" value="20"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
+		<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
 	</block>
 	<block id="800" name="iBeamCornerCentered">
 		<property name="Extends" value="iBeam"/>
@@ -8347,6 +8355,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
+		<property name="DescriptionKey" value="woodFrameGroupDesc"/>
 	</block>
 	<block id="834" name="concreteStairs50">
 		<property name="Material" value="Mconcrete"/>
@@ -9421,6 +9430,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="60"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="43"/>
+		<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	</block>
 	<block id="945" name="cntWashingMachine">
 		<property name="Class" value="Loot"/>
@@ -9765,7 +9775,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcreteArrowSlitHalf"/>
 		</property>
-		<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
 	</block>
 	<block id="1034" name="stainlessSteelCNRRampFiller">
 		<property name="Extends" value="stainlessSteelMaster"/>
@@ -9879,7 +9888,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcreteArrowSlitHalf"/>
 		</property>
-		<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
 	</block>
 	<block id="1056" name="cntGreenDrawerInsecure">
 		<property name="CreativeMode" value="Player"/>
@@ -10071,6 +10079,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
 		<drop event="Destroy" name="wood" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
+		<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	</block>
 	<block id="1076" name="cntWallOven">
 		<property name="Class" value="Loot"/>
@@ -11598,6 +11607,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
 		<drop event="Destroy" name="wood" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
+		<property name="DescriptionKey" value="cntBookcaseDesc"/>
 	</block>
 	<block id="1261" name="cntBeerCooler">
 		<property name="Class" value="Loot"/>
@@ -15278,6 +15288,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Science"/>
+		<property name="DescriptionKey" value="speakerDesc"/>
 	</block>
 	<block id="1929" name="barStool">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
@@ -17263,6 +17274,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
+		<property name="DescriptionKey" value="asphaltDesc"/>
 	</block>
 	<block id="955" name="autoTurretBroken">
 		<property name="Material" value="Mmetal_medium"/>
@@ -17480,7 +17492,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="bedroll"/>
 		<property name="Class" value="SleepingBag"/>
 		<property name="CustomIcon" value="bedroll"/>
-		<property name="DescriptionKey" value="bedGroupDesc"/>
+		<property name="DescriptionKey" value="bedrollPlayerDesc"/>
 	</block>
 	<!--Free-->
 	<block id="972" name="plantedSoy1">
