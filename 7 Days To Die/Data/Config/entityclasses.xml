@@ -1990,7 +1990,7 @@
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityBackpack"/>
 	<property name="Parent" value="Backpack"/>
-	<property name="TimeStayAfterDeath" value="1200"/> <!-- player death backpacks will go poof after this many seconds. 0 means 0, not infinite. -->
+	<property name="TimeStayAfterDeath" value="7200"/> <!-- player death backpacks will go poof after this many seconds. 0 means 0, not infinite. -->
 	<property name="IsEnemyEntity" value="false"/>
 	<property name="LootListOnDeath" value="41"/> <!-- used to determine container X/Y size -->
 	<property name="Faction" value="none"/>
