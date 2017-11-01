@@ -6563,12 +6563,6 @@
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 		<property class="Action0">
-			<!-- UseAction -->
-			<property name="Class" value="PlaceAsBlock"/>
-			<property name="Delay" value="0.5"/>
-			<property name="Blockname" value="plantedYucca1"/>
-		</property>
-		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -6577,6 +6571,11 @@
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="2"/>
 			<property name="Sound_start" value="player_eating"/>
+		</property>
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock"/>
+			<property name="Delay" value="0.5"/>
+			<property name="Blockname" value="plantedYucca1"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<!-- ,Medicine -->
@@ -6779,11 +6778,6 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property class="Action0">
-			<property name="Class" value="PlaceAsBlock"/>
-			<property name="Delay" value="0.5"/>
-			<property name="Blockname" value="plantedCorn1"/>
-		</property>
-		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -6791,6 +6785,11 @@
 			<property name="Gain_food" value="2"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
+		</property>
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock"/>
+			<property name="Delay" value="0.5"/>
+			<property name="Blockname" value="plantedCorn1"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -7057,11 +7056,6 @@
 		<property name="CraftingIngredientTime" value="10"/>
 		<!-- 14 is large round hold -->
 		<property class="Action0">
-			<property name="Class" value="PlaceAsBlock"/>
-			<property name="Delay" value="0.5"/>
-			<property name="Blockname" value="plantedPotato1"/>
-		</property>
-		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -7070,6 +7064,11 @@
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
+		</property>
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock"/>
+			<property name="Delay" value="0.5"/>
+			<property name="Blockname" value="plantedPotato1"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -7084,11 +7083,6 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="8"/>
 		<property class="Action0">
-			<property name="Class" value="PlaceAsBlock"/>
-			<property name="Delay" value="0.5"/>
-			<property name="Blockname" value="plantedBlueberry1"/>
-		</property>
-		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -7097,6 +7091,11 @@
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
+		</property>
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock"/>
+			<property name="Delay" value="0.5"/>
+			<property name="Blockname" value="plantedBlueberry1"/>
 		</property>
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -7214,12 +7213,6 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property class="Action0">
-			<!-- UseAction -->
-			<property name="Class" value="PlaceAsBlock"/>
-			<property name="Delay" value="0.5"/>
-			<property name="Blockname" value="plantedMushroom1"/>
-		</property>
-		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -7228,6 +7221,11 @@
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
+		</property>
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock"/>
+			<property name="Delay" value="0.5"/>
+			<property name="Blockname" value="plantedMushroom1"/>
 		</property>
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -8069,13 +8067,11 @@
 		<property name="Stacknumber" value="50"/>
 		<!-- STK resource -->
 		<property class="Action0">
-			<!-- UseAction -->
 			<property name="Class" value="PlaceAsBlock"/>
 			<property name="Delay" value="0.5"/>
 			<property name="Blockname" value="plantedHop1"/>
 		</property>
 		<property class="Action1">
-			<!-- UseAction -->
 			<property name="Class" value="PlaceAsBlock"/>
 			<property name="Delay" value="0.5"/>
 			<property name="Blockname" value="plantedHop1"/>
@@ -8095,7 +8091,11 @@
 		<property name="Stacknumber" value="50"/>
 		<!-- STK resource -->
 		<property class="Action0">
-			<!-- UseAction -->
+			<property name="Class" value="PlaceAsBlock"/>
+			<property name="Delay" value="0.5"/>
+			<property name="Blockname" value="plantedAloe1"/>
+		</property>
+		<property class="Action1">
 			<property name="Class" value="PlaceAsBlock"/>
 			<property name="Delay" value="0.5"/>
 			<property name="Blockname" value="plantedAloe1"/>
@@ -8115,7 +8115,11 @@
 		<property name="Stacknumber" value="50"/>
 		<!-- STK resource -->
 		<property class="Action0">
-			<!-- UseAction -->
+			<property name="Class" value="PlaceAsBlock"/>
+			<property name="Delay" value="0.5"/>
+			<property name="Blockname" value="plantedChrysanthemum1"/>
+		</property>
+		<property class="Action1">
 			<property name="Class" value="PlaceAsBlock"/>
 			<property name="Delay" value="0.5"/>
 			<property name="Blockname" value="plantedChrysanthemum1"/>
@@ -8343,13 +8347,11 @@
 		<property name="Stacknumber" value="50"/>
 		<!-- STK resource -->
 		<property class="Action0">
-			<!-- UseAction -->
 			<property name="Class" value="PlaceAsBlock"/>
 			<property name="Delay" value="0.5"/>
 			<property name="Blockname" value="plantedCotton1"/>
 		</property>
 		<property class="Action1">
-			<!-- UseAction -->
 			<property name="Class" value="PlaceAsBlock"/>
 			<property name="Delay" value="0.5"/>
 			<property name="Blockname" value="plantedCotton1"/>
@@ -8370,13 +8372,11 @@
 		<property name="Stacknumber" value="50"/>
 		<!-- STK resource -->
 		<property class="Action0">
-			<!-- UseAction -->
 			<property name="Class" value="PlaceAsBlock"/>
 			<property name="Delay" value="0.5"/>
 			<property name="Blockname" value="plantedGoldenrod1"/>
 		</property>
 		<property class="Action1">
-			<!-- UseAction -->
 			<property name="Class" value="PlaceAsBlock"/>
 			<property name="Delay" value="0.5"/>
 			<property name="Blockname" value="plantedGoldenrod1"/>
@@ -9330,11 +9330,6 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Stacknumber" value="50"/>
 		<property class="Action0">
-			<property name="Class" value="PlaceAsBlock"/>
-			<property name="Delay" value="0.5"/>
-			<property name="Blockname" value="plantedTomato1"/>
-		</property>
-		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
@@ -9344,6 +9339,11 @@
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
+		</property>
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock"/>
+			<property name="Delay" value="0.5"/>
+			<property name="Blockname" value="plantedTomato1"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="tomatoDesc"/>
@@ -9358,11 +9358,6 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Stacknumber" value="50"/>
 		<property class="Action0">
-			<property name="Class" value="PlaceAsBlock"/>
-			<property name="Delay" value="0.5"/>
-			<property name="Blockname" value="plantedWheat1"/>
-		</property>
-		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -9372,6 +9367,11 @@
 			<property name="Gain_stamina" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
+		</property>
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock"/>
+			<property name="Delay" value="0.5"/>
+			<property name="Blockname" value="plantedWheat1"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="wheatDesc"/>
@@ -10975,11 +10975,6 @@
 		<property name="Stacknumber" value="50"/>
 		<!-- STK resource -->
 		<property class="Action0">
-			<property name="Class" value="PlaceAsBlock"/>
-			<property name="Delay" value="0.5"/>
-			<property name="Blockname" value="plantedSoy1"/>
-		</property>
-		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
@@ -10988,6 +10983,11 @@
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
+		</property>
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock"/>
+			<property name="Delay" value="0.5"/>
+			<property name="Blockname" value="plantedSoy1"/>
 		</property>
 		<property name="EconomicValue" value="12"/>
 		<property name="EconomicBundleSize" value="5"/>
@@ -11081,13 +11081,11 @@
 		<property name="Stacknumber" value="50"/>
 		<!-- STK resource -->
 		<property class="Action0">
-			<!-- UseAction -->
 			<property name="Class" value="PlaceAsBlock"/>
 			<property name="Delay" value="0.5"/>
 			<property name="Blockname" value="plantedForestFlower1"/>
 		</property>
 		<property class="Action1">
-			<!-- UseAction -->
 			<property name="Class" value="PlaceAsBlock"/>
 			<property name="Delay" value="0.5"/>
 			<property name="Blockname" value="plantedForestFlower1"/>
