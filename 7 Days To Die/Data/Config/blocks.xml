@@ -7109,9 +7109,9 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="FallDamage" value="false"/>
 		<property name="LootList" value="37"/>
-		<property name="HeatMapStrength" value="6.0"/>
+		<property name="HeatMapStrength" value="4.0"/>
 		<property name="HeatMapTime" value="1200"/>
-		<property name="HeatMapFrequency" value="15"/>
+		<property name="HeatMapFrequency" value="25"/>
 		<drop event="Harvest" name="femur" count="2" tool_category="Butcher" />
 		<drop event="Harvest" name="rottingFlesh" count="2" tool_category="Butcher" />
 		<drop event="Destroy" name="femur" count="1" />
@@ -12352,6 +12352,10 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="wallTorch"/>
 		<property name="Stacknumber" value="50"/>
+		<property name="Class" value="TorchHeatMap"/>
+		<property name="HeatMapStrength" value="4.05"/>
+		<property name="HeatMapTime" value="1200"/> <!-- str1, t600, f5 = 2.5; str1, t900, f5 = 4; str4.05, t1200, f15 = 4.05-8.1; -->
+		<property name="HeatMapFrequency" value="15"/>
 		<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
 	</block>
 	<block id="1352" name="flagstoneStairs25">
@@ -12370,6 +12374,10 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="candleWall"/>
 		<property name="Stacknumber" value="50"/>
+		<property name="Class" value="TorchHeatMap"/>
+		<property name="HeatMapStrength" value="1"/>
+		<property name="HeatMapTime" value="1200"/>
+		<property name="HeatMapFrequency" value="15"/>
 		<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
 	</block>
 	<block id="1354" name="candleTablePlayer">
@@ -14223,7 +14231,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="HeatMapStrength" value="0.5"/>
+		<property name="HeatMapStrength" value="1"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<!--<property name="CraftTimeMultiplier" value="0.5,1"/>-->
