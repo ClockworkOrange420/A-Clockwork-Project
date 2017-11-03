@@ -212,6 +212,7 @@
 	<property name="ArmsExplosionDamageMultiplier" value="1"/>
 	<property name="HeadExplosionDamageMultiplier" value="1"/>
 	<property name="ChestExplosionDamageMultiplier" value="1"/>
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
 <!-- Missing: zombieWight -->
@@ -1383,6 +1384,7 @@
 	<!--<property name="CorpseBlock" value="animalGore"/>
 	<property name="CorpseBlockChance" value="0"/>-->
 	<property name="DeadBodyHitPoints" value="350"/>
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
 <entity_class name="animalStag" extends="animalTemplateTimid">
@@ -1531,6 +1533,7 @@
 	<!--<property name="CorpseBlock" value="animalGore"/>
 	<property name="CorpseBlockChance" value="0"/>-->
 	<property name="DeadBodyHitPoints" value="350"/>
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
 <entity_class name="animalZombieDog" extends="animalTemplateHostile">
@@ -1848,7 +1851,7 @@
 		<property name="state0" value="DeathTrigger"/>
 	</property>
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1"/>
-	<drop event="Harvest" name="venomGland" tool_category="Butcher" count="1"/>
+	<drop event="Destroy" name="venomGland" tool_category="Butcher" count="1"/>
 	<drop event="Destroy" name="animalFat" tool_category="Butcher" count="1" />
 </entity_class>
 
