@@ -95,7 +95,7 @@ beerDesc,items,Food,EnChanged KgNone,"Gain stamina, bravado and stun immunity al
 ironFragment,items,Item,EnChanged KgNone,Raw Iron,Éclats de fer,Eisenbruchstücke,,Trozos de hierro
 ironFragmentDesc,items,Item,EnChanged KgNone,Raw iron should be smelted in a forge but can also be scrapped at a loss.,Objet essentiel pour forger. Il peut aussi servir à fabriquer des munitions de tromblon.,"Einer der wichtigsten Schmiedegegenstände, mit dem auch Munition für die Donnerbüchse gefertigt werden kann.",,Un objeto de forja básico que se puede usar también para fabricar munición para trabucos.
 leatherDesc,items,Item,EnChanged KgNone,"Leather can be used to make a variety of things including clothing, crossbows and bellows for a forge.\n [ Crafted in Tailoring Table. ]","Après avoir lu « Le livre du cuir », le cuir peut servir à fabriquer un tas de choses, comme des vêtements et des arbalètes.","Mit Leder kann eine Reihe von Sachen hergestellt werden, darunter Kleidung, Armbrüste und Blasebälge für die Schmiede.",,"El cuero se puede usar para fabricar varios objetos, como ropa o ballestas, una vez que has leído el libro del Cuero."
-rottingFleshDesc,items,Item,EnChanged KgNone,You can eat it but it is probably better used to make fertilizer in a cement mixer.,"Vous pouvez en manger, mais vous pouvez le regretter.","Du kannst es essen, solltest es aber wohl lassen.",,"Puedes comerla, pero probablemente no deberías."
+rottingFleshDesc,items,Item,EnChanged KgNone,You can eat it but it is probably better used to make compost at the chem lab.,"Vous pouvez en manger, mais vous pouvez le regretter.","Du kannst es essen, solltest es aber wohl lassen.",,"Puedes comerla, pero probablemente no deberías."
 painkillers,items,Medical,EnChanged KgNone,Painkillers,Antidouleurs,Schmerzmittel,,Analgésicos
 pickupCrops,UI,HUD,EnChanged KgNone,Press <{{0}}> to pick up: {0} {1},Appuyer sur <{{0}}> pour ramasser {0} {1},"<{{0}}> drücken, um {0} {1} aufzuheben",,Presiona <{{0}}> para recoger {0} {1}.
 pickupPrompt,UI,HUD,EnChanged KgNone,Press <{{0}}> to pick up: {0},Appuyer sur <{{0}}> pour ramasser {0},"<{{0}}> drücken, um {0} aufzuheben",,Presiona <{{0}}> para recoger {0}.
@@ -5044,7 +5044,7 @@ cordageDesc,items,Item,KgNone,A strong rope fashioned from plant fibers.\n [ Cra
 Bread,items,Item Food,KgNone,Bread,,,,
 breadDesc,items,Item Food,KgNone,Bread made of flour and water will fill you up and boost your wellness.,,,,
 Flour,items,Item Food,KgNone,Flour,,,,
-flourDesc,items,Item Food,KgNone,"A powder obtained by grinding grain, typically wheat, and used to make yeast, pastery and bread.",,,,
+flourDesc,items,Item Food,KgNone,"A powder obtained by grinding grain, typically wheat, and used to make yeast, pastery and bread.\n [ Crafted in Wood Table with a Mortar & Pestle. ]",,,,
 Compost,items,Item,KgNone,Compost,,,,
 compostDesc,items,Item,KgNone,decayed organic material used in a composter to make fertilizer.,,,,
 Trowel,items,Item,KgNone,Trowel,,,,
@@ -5054,7 +5054,7 @@ sewingMachineDesc,items,Item,KgNone,A machine for stitching together cloth or le
 Geometry_Set,items,Item,KgNone,Geometry Set,,,,
 geometrySetDesc,items,Item,KgNone,A collection of simple tools that you can use to draw and analyze shapes and angles.,,,,
 Ink,items,Item,KgNone,Ink,,,,
-inkDesc,items,Item,KgNone,"A colored fluid used for writing, drawing, printing, or duplicating.",,,,
+inkDesc,items,Item,KgNone,"A colored fluid used for writing, drawing, printing, or duplicating.\n [ Crafted in Old Oven with a Beaker and New Oven with a Beaker and Chemistry Station with a Beaker. ]",,,,
 Tomato_Soup,items,Item Food,KgNone,Tomato Soup,,,,
 tomatoSoupDesc,items,Item Food,KgNone,Tomato soup can keep the body and the soul together.,,,,
 Schematic_Page,items,Item,KgNone,Schematic Page,,,,
