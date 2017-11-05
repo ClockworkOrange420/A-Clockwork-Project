@@ -7111,7 +7111,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="LootList" value="37"/>
 		<property name="HeatMapStrength" value="6.0"/>
 		<property name="HeatMapTime" value="1200"/>
-		<property name="HeatMapFrequency" value="25"/>
+		<property name="HeatMapFrequency" value="15"/>
 		<drop event="Harvest" name="femur" count="2" tool_category="Butcher" />
 		<drop event="Harvest" name="rottingFlesh" count="2" tool_category="Butcher" />
 		<drop event="Destroy" name="femur" count="1" />
