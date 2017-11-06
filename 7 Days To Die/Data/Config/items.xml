@@ -284,8 +284,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="5"/>
 			<property name="DamageBonus.head" value="2"/>
-			<property name="DamageBonus.organic" value="8"/>
-			<property name="ToolCategory.Butcher" value="0.75"/>
+			<property name="ToolCategory.Butcher" value="0.75" param1="6"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
@@ -320,8 +319,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="5.5"/>
 			<property name="DamageBonus.head" value="2"/>
-			<property name="DamageBonus.organic" value="10"/>
-			<property name="ToolCategory.Butcher" value="1"/>
+			<property name="ToolCategory.Butcher" value="1" param1="6"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 			<property name="ActionExp" value="5"/>
@@ -364,8 +362,7 @@
 			<property name="DamageBonus.stone" value="0.01"/>
 			<property name="DamageBonus.metal" value="0.5"/>
 			<property name="DamageBonus.head" value="2"/>
-			<property name="DamageBonus.organic" value="4"/>
-			<property name="ToolCategory.Butcher" value="1"/>
+			<property name="ToolCategory.Butcher" value="1" param1="6"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ToolCategory.Crops" value="1"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
@@ -1507,10 +1504,9 @@
 			<property name="DamageBonus.earth" value="0.5"/>
 			<property name="DamageBonus.stone" value="1.5"/>
 			<property name="DamageBonus.metal" value="2"/>
-			<property name="DamageBonus.organic" value="5"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
-			<property name="ToolCategory.Butcher" value="0.25"/>
+			<property name="ToolCategory.Butcher" value="0.25" param1="10"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<!-- value = harvest event multiplier, param1 = damage multiplier if matching harvest event present ont he block -->
 		</property>
@@ -1576,10 +1572,9 @@
 			<property name="DamageBonus.stone" value="0.25"/>
 			<property name="DamageBonus.metal" value="0.25"/>
 			<property name="DamageBonus.earth" value="0.2"/>
-			<property name="DamageBonus.organic" value="5"/>
 			<property name="ActionExp" value="4"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
-			<property name="ToolCategory.Butcher" value="0.5"/>
+			<property name="ToolCategory.Butcher" value="0.5" param1="10"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 		</property>
 		<property class="Attributes">
