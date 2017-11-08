@@ -2236,6 +2236,8 @@
 		<property class="Attributes">
 			<property name="DegradationMax" value="500,500"/>
 			<property name="DegradationRate" value="10,2"/>
+			<property name="DismembermentBaseChance" value="0.01,0.05"/>
+			<property name="DismembermentBonus" value="0,0"/>
 		</property>
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
@@ -2289,6 +2291,8 @@
 		<property class="Attributes">
 			<property name="DegradationMax" value="500,500"/>
 			<property name="DegradationRate" value="5,1"/>
+			<property name="DismembermentBaseChance" value="0.01,0.05"/>
+			<property name="DismembermentBonus" value="0,0"/>
 		</property>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Archery"/>
@@ -3530,6 +3534,8 @@
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
 			<property name="DegradationRate" value="10,2"/>
+			<property name="DismembermentBaseChance" value="0.01,0.05"/>
+			<property name="DismembermentBonus" value="0,0"/>
 		</property>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
