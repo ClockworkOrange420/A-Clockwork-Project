@@ -1119,7 +1119,7 @@
 	<item name="nail" count="1,5"/>
 	<item name="Ink" count="1"/>
 	<item name="casinoCoin" count="3,6"/>
-	<item name="bulletCasing" count="3,20"/>
+	<item name="bulletCasing" count="30,60"/>
 	<item name="feather" count="3,6"/>
 	<item name="ductTape" count="1,3"/>
 	<item group="rottenFood" count="1,2"/>
@@ -1358,9 +1358,9 @@
 <lootgroup name="sportingGoods" count="1">
 	<item name="flashlight02"/>
 	<item group="weaponsMelee"/>
-	<item name="gunPowder" count="20,50"/>
-	<item name="bulletCasing" count="20,50"/>
-	<item name="bulletTip" count="20,50"/>
+	<item name="gunPowder" count="30,60"/>
+	<item name="bulletCasing" count="30,60"/>
+	<item name="bulletTip" count="30,60"/>
 	<item group="motorToolParts"/>
 	<item group="nailgunParts"/>
 	<item group="weaponsCompoundBowParts"/>
@@ -2269,8 +2269,8 @@
 	<item name="mechanicalParts" count="1,5"/>
 	<item name="electricParts" count="1,3"/>
 	<item name="electronicParts" count="1,2"/>
-	<item name="bulletCasing" count="1,20"/>
-	<item name="bulletTip" count="1,20"/>
+	<item name="bulletCasing" count="30,60"/>
+	<item name="bulletTip" count="30,60"/>
 	<item name="airFilter" count="1,3"/>
 	<item name="candyTin" count="1,3"/>
 	<item name="hubcap" count="1,3"/>
