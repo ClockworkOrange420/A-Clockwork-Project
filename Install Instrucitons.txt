@@ -2,11 +2,17 @@ Install Instrictions:
 
 -Open A Clockwork Project Master folder 
 
--then open the 7 Days To Die folder
+-Then open the 7 Days To Die folder
 
--Copy and Paste both the Data and Mods folders into your 7 Days To Die folder found here:
-
+-Copy and Paste the 7DaysToDie_Data, Data and Mods folders into your 7 Days To Die folder most commonly found here:
 
 C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die
 
 Merge, Copy and replace everything when prompted!
+
+Check out my Lets Play series showcasing the mod:
+https://www.youtube.com/c/ClockworkOrangeGaming
+
+If you wish to support me, links can be found on my channel and on the main mod page
+
+Enjoy!
