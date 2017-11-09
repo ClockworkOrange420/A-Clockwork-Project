@@ -2503,7 +2503,7 @@
 			<property name="DamageBonus.earth" value="0.1"/>
 			<property name="DamageBonus.metal" value="0.1"/>
 			<property name="DamageBonus.cloth" value="0.5"/>
-			<property name="ActionExp" value="10"/>
+			<property name="ActionExp" value="15"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
 		<property name="Group" value="Ammo/Weapons,Basics"/>
