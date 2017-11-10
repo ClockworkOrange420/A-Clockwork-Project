@@ -281,7 +281,8 @@
 			<property name="Stamina_usage" value="5"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.organic" value="4"/>
-			<property name="DamageBonus.earth" value="1"/>
+			<property name="DamageBonus.stone" value="0.5"/>
+			<property name="DamageBonus.metal" value="0.5"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
@@ -318,8 +319,9 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="5.5"/>
 			<property name="DamageBonus.head" value="2"/>
-			<property name="DamageBonus.organic" value="4"/>
-			<property name="DamageBonus.earth" value="1"/>
+			<property name="DamageBonus.organic" value="6"/>
+			<property name="DamageBonus.stone" value="0.5"/>
+			<property name="DamageBonus.metal" value="0.5"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
@@ -356,7 +358,7 @@
 			<property name="Sphere" value="0.1"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="6.51"/>
-			<property name="DamageBonus.organic" value="4"/>
+			<property name="DamageBonus.organic" value="1"/>
 			<property name="DamageBonus.stone" value="0.5"/>
 			<property name="DamageBonus.metal" value="0.5"/>
 			<property name="DamageBonus.head" value="2"/>
@@ -1701,7 +1703,7 @@
 			<property name="DamageBonus.wood" value="0.3"/>
 			<property name="DamageBonus.stone" value="0.5"/>
 			<property name="DamageBonus.metal" value="0.25"/>
-			<property name="DamageBonus.organic" value="5"/>
+			<property name="DamageBonus.organic" value="6"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
@@ -1744,7 +1746,7 @@
 			<property name="DamageBonus.wood" value="0.25"/>
 			<property name="DamageBonus.stone" value="0.5"/>
 			<property name="DamageBonus.metal" value="0.25"/>
-			<property name="DamageBonus.organic" value="5"/>
+			<property name="DamageBonus.organic" value="6"/>
 			<property name="ToolCategory.Harvest" value="1"/>
 			<property name="ActionExp" value="5"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
