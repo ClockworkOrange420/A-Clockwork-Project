@@ -3350,8 +3350,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property class="RepairItems">
 			<property name="scrapPlastics" value="10"/>
 		</property>
-		<drop event="Harvest" name="scrapPlastics" count="3" tool_category="Harvest"/>
-		<drop event="Destroy" name="scrapPlastics" count="2" tool_category="Harvest"/>
+		<drop event="Harvest" name="scrapPlastics" count="2" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapPlastics" count="5" tool_category="Harvest"/>
 		<property name="DescriptionKey" value="cntSuitcaseDesc"/>
 	</block>
 	<block id="339" name="cntStorageChest">
@@ -6095,10 +6095,10 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property class="RepairItems">
 			<property name="scrapPlastics" value="10"/>
 		</property>
-		<drop event="Harvest" name="scrapPlastics" count="3" tool_category="Harvest"/>
+		<drop event="Harvest" name="scrapPlastics" count="2" tool_category="Harvest"/>
 		<drop event="Harvest" name="wood" count="2" tool_category="Harvest"/>
 		<drop event="Harvest" name="nail" count="1" tool_category="DisassembleHammer"/>
-		<drop event="Destroy" name="scrapPlastics" count="2" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapPlastics" count="5" tool_category="Harvest"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
 		<property name="EconomicValue" value="300"/>
