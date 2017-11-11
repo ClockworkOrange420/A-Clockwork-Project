@@ -1114,7 +1114,7 @@
 	<item name="foodHoney" count="1"/>
 	<item name="shortMetalPipe" count="1"/>
 	<item name="fishingWeight" count="1,3"/>
-	<item name="scrapPlastics" count="1,2"/>
+	<item name="scrapPlastics" count="4,8"/>
 	<item name="glue" count="1,3"/>
 	<item name="nail" count="1,5"/>
 	<item name="Ink" count="1"/>
@@ -1330,7 +1330,7 @@
 	<item name="Fertilizer" count="1,3" prob="0.5"/>
 	<item group="electricalDevices" prob="1"/>
 	<item name="mechanicalParts" count="4,10" prob="1"/>
-	<item name="scrapPlastics" count="1,8" prob="0.4"/>
+	<item name="scrapPlastics" count="4,8" prob="0.4"/>
 	<item name="paint" count="50,150" prob="0.4"/>
 	<item name="paintTool" prob="0.4"/>
 	<item name="wireTool"/>
@@ -1465,7 +1465,7 @@
 	<item name="tshirtZUWhite" prob="2.5"/>
 	<item name="redDenimPants" prob="2.5"/>
 	<item name="runningShoes" prob="2.5"/>
-	<item name="scrapPlastics" count="1,3"/>
+	<item name="scrapPlastics" count="4,8"/>
 	<item name="painkillers"/>
 	<item name="bandage"/>
 	<item name="vitamins"/>
@@ -1720,7 +1720,7 @@
 
 <!-- tree hollowed stump, place where people stash things, -->
 <lootcontainer id="35" count="0,2" size="2,4" sound_open="UseActions/open_stump" sound_close="UseActions/close_stump" loot_quality_template="baseTemplate">
-	<item name="scrapPlastics" count="1,6" prob="2"/>
+	<item name="scrapPlastics" count="4,8" prob="2"/>
 	<item name="emptyJar" count="1,2" prob="2"/>
 	<item name="canEmpty" count="1,2" prob="5"/>
 	<item group="rottenFood" prob="1"/>
@@ -1861,7 +1861,7 @@
 	<item group="weaponsBasicGuns+ammo" prob="3"/>
 	<item group="weaponsMilitaryGuns+ammo"/>
 	<item name="mechanicalParts" count="1,5" prob="0.1"/>
-	<item name="scrapPlastics" count="1,6" prob="0.15"/>
+	<item name="scrapPlastics" count="4,8" prob="0.15"/>
 </lootcontainer>
 
 <!-- pop n pills -->
@@ -1959,7 +1959,7 @@
 	<item group="hazmatGear" count="1"/>
 	<item group="rareMedicine" prob="0.2"/>
 	<item name="grainAlcohol" count="1,4" prob="0.2"/>
-	<item name="scrapPlastics" count="1,5" prob="0.3"/>
+	<item name="scrapPlastics" count="4,8" prob="0.3"/>
 	<item name="paper" count="1,6" prob="0.3"/>
 	<item name="cloth" count="1,4" prob="0.3"/>
 	<item name="ductTape" count="1,3" prob="0.25"/>
@@ -2146,7 +2146,7 @@
 	<item group="junk" prob="2"/>
 	<item name="oldCash" count="4,45" prob="2"/>
 	<item name="casinoCoin" count="10,30"/>
-	<item name="scrapPlastics" count="2" prob="0.3"/>
+	<item name="scrapPlastics" count="4,8" prob="0.3"/>
 	<item name="bloodDrawKit" prob="0.3"/>
 	<item name="ExtractMix" count="1,3"/>
 	<item name="painkillers"/>
@@ -2175,7 +2175,7 @@
 
 <!-- car parts shipping crate -->
 <lootcontainer id="87" count="0,2" size="4,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
-	<item name="scrapPlastics" count="1,4" prob="0.15"/>
+	<item name="scrapPlastics" count="4,8" prob="0.15"/>
 	<item name="cloth" count="1,6"/>
 	<item name="leather" count="1,6"/>
 	<item name="ductTape" count="1,5" prob="0.4"/>
@@ -2264,7 +2264,7 @@
 	<item name="ironArrowHead" count="5,15"/>
 	<item name="steelArrowHead" count="5,10"/>
 	<item name="wood" count="10,30" prob="2"/>
-	<item name="scrapPlastics" count="1,5"/>
+	<item name="scrapPlastics" count="4,8"/>
 	<item name="mechanicalParts" count="1,5"/>
 	<item name="electricParts" count="1,3"/>
 	<item name="electronicParts" count="1,2"/>
