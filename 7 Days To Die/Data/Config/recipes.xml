@@ -3033,6 +3033,9 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="scrapIron" count="100" craft_time = "12" craft_exp_gain="40" craft_area="chemistryStation" >
 		<ingredient name="omnigel" count="10"/>
 	</recipe>
+	<recipe name="scrapPlastics" count="20" craft_time = "12" craft_exp_gain="40" craft_area="chemistryStation" >
+		<ingredient name="omnigel" count="10"/>
+	</recipe>
 	<recipe name="scrapLead" count="20" craft_time = "12" craft_exp_gain="40" craft_area="chemistryStation" >
 		<ingredient name="omnigel" count="10"/>
 	</recipe>

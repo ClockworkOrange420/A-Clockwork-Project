@@ -3897,7 +3897,7 @@ paintDesc,items,Item,New,Use a paint brush to paint building blocks. You can fin
 rareOresGroupDesc,items,Item,New,When mining you will occasionally find rare metals and ores. Surely they are worth something to someone.,,Untertage findest du manchmal auch seltene Erze. Bestimmt sind diese für irgendjemanden etwas wert.,,
 rawDiamond,items,Item,New,Raw Diamond,,Rohdiamant,,
 scrapPlastics,items,Item,New,Scrap Plastics,,,,
-scrapPlasticsDesc,items,Item,New,Bits of plastics that you may carefully mold into new shapes.,,,,
+scrapPlasticsDesc,items,Item,New,Bits of plastics that you may carefully mold into new shapes.\n [ Crafted in Chemistry Station with a Beaker ],,,,
 silverNugget,items,Item,New,Silver Nugget,,Silbernugget,,
 snowBall,items,Item,New,Snowball,,,,
 snowBallDesc,items,Item,New,"You know what to do! Turn it into first rate drinking water over a campfire, of course.",,,,
