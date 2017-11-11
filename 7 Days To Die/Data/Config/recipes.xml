@@ -118,7 +118,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="glue" count="1"/>
 	</recipe>
 	<recipe name="partsCompoundBow_string" count="1" craft_time = "30" craft_exp_gain="100" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
-		<ingredient name="militaryFiber" count="4"/>
+		<ingredient name="militaryFiber" count="5"/>
 	</recipe>
 	<recipe name="Dry Towel" count="1" craft_time = "6" craft_exp_gain="20" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="cloth" count="10"/>

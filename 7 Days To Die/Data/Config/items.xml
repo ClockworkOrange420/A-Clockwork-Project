@@ -3569,7 +3569,7 @@
 		<property name="DescriptionKey" value="partsCompoundBow_stringDesc"/>
 		<property name="PartType" value="Barrel"/>
 		<property name="Material" value="MmilitaryFiber"/>
-		<property name="Weight" value="4"/>
+		<property name="Weight" value="5"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
 		</property>
