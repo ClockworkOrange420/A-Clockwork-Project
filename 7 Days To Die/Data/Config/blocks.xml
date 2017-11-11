@@ -27,12 +27,12 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Weight" value="125"/>
 		<property name="Map.Color" value="100,100,100"/>
 		<property class="RepairItems">
-			<property name="rockSmall" value="20"/>
+			<property name="rockSmall" value="40"/>
 			<property name="scrapIron" value="2"/>
 		</property>
-		<drop event="Harvest" name="rockSmall" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="rockSmall" count="20" tool_category="Harvest"/>
 		<drop event="Harvest" name="scrapIron" count="2" tool_category="Harvest"/>
-		<drop event="Destroy" name="rockSmall" count="10" tool_category="Harvest"/>
+		<drop event="Destroy" name="rockSmall" count="20" tool_category="Harvest"/>
 		<drop event="Fall" name="rockSmall" count="20" prob="0.5" stick_chance="0"/>
 		<drop event="Fall" name="scrapIron" count="2" prob="0.5" stick_chance="0"/>
 		<property name="CanMobsSpawnOn" value="true"/>
@@ -51,10 +51,10 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Map.Color" value="50,120,55"/>
 		<property name="PlaceAltBlockValue" value="grassFromDirt,fertileDirt"/>
 		<property class="RepairItems">
-			<property name="dirtFragment" value="20"/>
+			<property name="dirtFragment" value="40"/>
 		</property>
-		<drop event="Harvest" name="dirtFragment" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" name="dirtFragment" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="dirtFragment" count="20" tool_category="Harvest"/>
+		<drop event="Destroy" name="dirtFragment" count="20" tool_category="Harvest"/>
 		<drop event="Fall" name="dirtFragment" count="20" prob="0.5" stick_chance="0"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="CanMobsSpawnOn" value="true"/>
@@ -72,10 +72,10 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="LPHardnessScale" value="2"/>
 		<property name="Map.Color" value="20,50,21"/>
 		<property class="RepairItems">
-			<property name="dirtFragment" value="20"/>
+			<property name="dirtFragment" value="40"/>
 		</property>
-		<drop event="Harvest" name="dirtFragment" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" name="dirtFragment" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="dirtFragment" count="20" tool_category="Harvest"/>
+		<drop event="Destroy" name="dirtFragment" count="20" tool_category="Harvest"/>
 		<drop event="Fall" name="dirtFragment" count="20" prob="0.5" stick_chance="0"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="CanMobsSpawnOn" value="true"/>
@@ -104,8 +104,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Mesh" value="terrain"/>
 		<property name="Texture" value="300"/>
 		<property name="DropScale" value="2"/>
-		<drop event="Harvest" name="potassiumNitratePowder" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" name="potassiumNitratePowder" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="potassiumNitratePowder" count="20" tool_category="Harvest"/>
+		<drop event="Destroy" name="potassiumNitratePowder" count="20" tool_category="Harvest"/>
 		<drop event="Fall" name="potassiumNitratePowder" count="20" prob="0.5" stick_chance="0"/>
 		<property name="CanMobsSpawnOn" value="true"/>
 	</block>
@@ -128,10 +128,10 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="DropScale" value="2"/>
 		<property name="Map.Color" value="167,136,107"/>
 		<property class="RepairItems">
-			<property name="crushedSand" value="20"/>
+			<property name="crushedSand" value="40"/>
 		</property>
-		<drop event="Harvest" name="crushedSand" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" name="crushedSand" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="crushedSand" count="20" tool_category="Harvest"/>
+		<drop event="Destroy" name="crushedSand" count="20" tool_category="Harvest"/>
 		<drop event="Fall" name="crushedSand" count="20" prob="0.5" stick_chance="0"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="CanMobsSpawnOn" value="true"/>
@@ -148,10 +148,10 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="DropScale" value="2"/>
 		<property name="Map.Color" value="230,230,255"/>
 		<property class="RepairItems">
-			<property name="snowBall" value="20"/>
+			<property name="snowBall" value="40"/>
 		</property>
-		<drop event="Harvest" name="snowBall" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" name="snowBall" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="snowBall" count="20" tool_category="Harvest"/>
+		<drop event="Destroy" name="snowBall" count="20" tool_category="Harvest"/>
 		<drop event="Fall" name="snowBall" count="20" prob="0.5" stick_chance="0"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="CanMobsSpawnOn" value="true"/>
@@ -167,10 +167,10 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Texture" value="301,570,570,570,570,570"/>
 		<property name="DropScale" value="2"/>
 		<property class="RepairItems">
-			<property name="clayLump" value="20"/>
+			<property name="clayLump" value="40"/>
 		</property>
-		<drop event="Harvest" name="clayLump" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" name="clayLump" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="clayLump" count="20" tool_category="Harvest"/>
+		<drop event="Destroy" name="clayLump" count="20" tool_category="Harvest"/>
 		<drop event="Fall" name="clayLump" count="20" prob="0.5" stick_chance="0"/>
 		<property name="CanMobsSpawnOn" value="true"/>
 		<property name="Map.Color" value="107,78,57"/>
@@ -212,12 +212,12 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Map.Color" value="107,78,57"/>
 		<property name="DropScale" value="2"/>
 		<property class="RepairItems">
-			<property name="crushedSand" value="15"/>
-			<property name="rockSmall" value="5"/>
+			<property name="crushedSand" value="30"/>
+			<property name="rockSmall" value="10"/>
 		</property>
-		<drop event="Harvest" name="crushedSand" count="7" tool_category="Harvest"/>
-		<drop event="Harvest" name="rockSmall" count="5" tool_category="Harvest"/>
-		<drop event="Destroy" name="crushedSand" count="8" tool_category="Harvest"/>
+		<drop event="Harvest" name="crushedSand" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="rockSmall" count="10" tool_category="Harvest"/>
+		<drop event="Destroy" name="crushedSand" count="20" tool_category="Harvest"/>
 		<drop event="Fall" name="crushedSand" count="15" prob="0.5" stick_chance="0"/>
 		<drop event="Fall" name="rockSmall" count="5" prob="0.5" stick_chance="0"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
@@ -270,10 +270,10 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="ImposterExchange" value="imposterBlock" param1="5"/>
 		<property name="DropScale" value="2"/>
 		<property name="Map.Color" value="158,139,124"/>
-		<drop event="Harvest" name="crushedSand" count="5" tool_category="Harvest"/>
-		<drop event="Harvest" name="rockSmall" count="5" tool_category="Harvest"/>
-		<drop event="Destroy" name="rockSmall" count="5" tool_category="Harvest"/>
-		<drop event="Destroy" name="crushedSand" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="crushedSand" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="rockSmall" count="10" tool_category="Harvest"/>
+		<drop event="Destroy" name="rockSmall" count="10" tool_category="Harvest"/>
+		<drop event="Destroy" name="crushedSand" count="10" tool_category="Harvest"/>
 		<drop event="Fall" name="crushedSand" count="5" prob="0.5" stick_chance="0"/>
 		<drop event="Fall" name="rockSmall" count="15" prob="0.5" stick_chance="0"/>
 		<property name="Group" value="Resources"/>
@@ -322,10 +322,10 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Texture" value="290,2,2,2,2,2"/>
 		<property name="DropScale" value="2"/>
 		<property class="RepairItems">
-			<property name="dirtFragment" value="20"/>
+			<property name="dirtFragment" value="40"/>
 		</property>
-		<drop event="Harvest" name="dirtFragment" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" name="dirtFragment" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="dirtFragment" count="20" tool_category="Harvest"/>
+		<drop event="Destroy" name="dirtFragment" count="20" tool_category="Harvest"/>
 		<drop event="Fall" name="dirtFragment" count="20" prob="0.5" stick_chance="0"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="CanMobsSpawnOn" value="false"/>
@@ -360,10 +360,10 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Map.Color" value="55,55,50"/>
 		<property name="PlaceAltBlockValue" value="burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundFromDirt,burntForestGroundWGrass1"/>
 		<property class="RepairItems">
-			<property name="dirtFragment" value="20"/>
+			<property name="dirtFragment" value="40"/>
 		</property>
-		<drop event="Harvest" name="dirtFragment" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" name="dirtFragment" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="dirtFragment" count="20" tool_category="Harvest"/>
+		<drop event="Destroy" name="dirtFragment" count="20" tool_category="Harvest"/>
 		<drop event="Fall" name="dirtFragment" count="20" prob="0.5" stick_chance="0"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="CanMobsSpawnOn" value="true"/>
@@ -381,10 +381,10 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Map.Color" value="35,80,45"/>
 		<property name="PlaceAltBlockValue" value="forestGroundFromDirt,forestGroundWGrass1"/>
 		<property class="RepairItems">
-			<property name="dirtFragment" value="20"/>
+			<property name="dirtFragment" value="40"/>
 		</property>
-		<drop event="Harvest" name="dirtFragment" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" name="dirtFragment" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="dirtFragment" count="20" tool_category="Harvest"/>
+		<drop event="Destroy" name="dirtFragment" count="20" tool_category="Harvest"/>
 		<drop event="Fall" name="dirtFragment" count="20" prob="0.5" stick_chance="0"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="CanMobsSpawnOn" value="true"/>
@@ -416,8 +416,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Mesh" value="terrain"/>
 		<property name="Texture" value="34"/>
 		<property name="DropScale" value="2"/>
-		<drop event="Harvest" name="coal" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" name="coal" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="coal" count="20" tool_category="Harvest"/>
+		<drop event="Destroy" name="coal" count="20" tool_category="Harvest"/>
 		<drop event="Fall" name="coal" count="20" prob="0.5" stick_chance="0"/>
 		<property name="Group" value="Resources"/>
 		<property name="CanMobsSpawnOn" value="true"/>
@@ -535,10 +535,10 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CanMobsSpawnOn" value="false"/>
 		<property name="DropScale" value="2"/>
 		<property class="RepairItems">
-			<property name="dirtFragment" value="20"/>
+			<property name="dirtFragment" value="40"/>
 		</property>
-		<drop event="Harvest" name="dirtFragment" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" name="dirtFragment" count="10" tool_category="Harvest"/>
+		<drop event="Harvest" name="dirtFragment" count="20" tool_category="Harvest"/>
+		<drop event="Destroy" name="dirtFragment" count="20" tool_category="Harvest"/>
 		<drop event="Fall" name="dirtFragment" count="20" prob="0.5" stick_chance="0"/>
 		<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
 	</block>

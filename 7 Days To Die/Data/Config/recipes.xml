@@ -1773,9 +1773,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="unit_lead" count="1"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="burntForestGround" count="1" craft_time = "4" craft_exp_gain="9" >
-		<ingredient name="dirtFragment" count="20"/>
-	</recipe>
 	<recipe name="camoNetBlock" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="cloth" count="10"/>
 		<ingredient name="Cordage" count="1"/>
@@ -2306,9 +2303,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="foodYuccaFruit" count="4"/>
 		<ingredient name="emptyJar" count="1"/>
 	</recipe>
-	<recipe name="forestGround" count="1" craft_time = "4" craft_exp_gain="9" >
-		<ingredient name="dirtFragment" count="20"/>
-	</recipe>
 	<recipe name="forge" count="1" craft_time = "60" craft_exp_gain="134" >
 		<ingredient name="rockSmall" count="50"/>
 		<ingredient name="clayLump" count="50"/>
@@ -2443,16 +2437,30 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="femur" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
+	<recipe name="snow" count="1" craft_time = "1" craft_exp_gain="0" >
+		<ingredient name="snowBall" count="40"/>
+	</recipe>
+	<recipe name="sand" count="1" craft_time = "4" craft_exp_gain="9" craft_area="cementMixer" >
+		<ingredient name="crushedSand" count="40"/>
+	</recipe>
 	<recipe name="grass" count="1" craft_time = "4" craft_exp_gain="9" >
+		<ingredient name="dirtFragment" count="40"/>
+	</recipe>
+	<recipe name="plainsGround" count="1" craft_time = "4" craft_exp_gain="9" >
+		<ingredient name="dirtFragment" count="40"/>
+	</recipe>
+	<recipe name="burntForestGround" count="1" craft_time = "4" craft_exp_gain="9" >
+		<ingredient name="dirtFragment" count="40"/>
+	</recipe>
+	<recipe name="forestGround" count="1" craft_time = "4" craft_exp_gain="9" >
+		<ingredient name="dirtFragment" count="40"/>
+	</recipe>
+	<recipe name="sod" count="1" craft_time = "4" craft_exp_gain="9" >
 		<ingredient name="dirtFragment" count="20"/>
 	</recipe>
 	<recipe name="gravel" count="1" craft_time = "4" craft_exp_gain="9" craft_area="cementMixer" >
-		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="rockSmall" count="10"/>
-	</recipe>
-	<recipe name="gravel" count="1" craft_time = "4" craft_exp_gain="9" >
-		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="rockSmall" count="10"/>
+		<ingredient name="crushedSand" count="20"/>
+		<ingredient name="rockSmall" count="20"/>
 	</recipe>
 	<recipe name="gun44Magnum" count="1" craft_area="assembly" >
 		<ingredient name="flashlight02" count="0"/>
@@ -2905,9 +2913,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="gunPowder" count="10"/>
 		<ingredient name="shortMetalPipe" count="1"/>
 	</recipe>
-	<recipe name="plainsGround" count="1" craft_time = "4" craft_exp_gain="9" >
-		<ingredient name="dirtFragment" count="20"/>
-	</recipe>
 	<recipe name="playerSignWood1x1" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="nail" count="4"/>
 		<ingredient name="wood" count="10"/>
@@ -2972,9 +2977,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="crushedSand" count="1" craft_time = "1" craft_exp_gain="0" craft_area="cementMixer" >
 		<ingredient name="rockSmall" count="1"/>
-	</recipe>
-	<recipe name="sand" count="1" craft_time = "4" craft_exp_gain="9" craft_area="cementMixer" >
-		<ingredient name="crushedSand" count="20"/>
 	</recipe>
 	<recipe name="sandbag_1" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="crushedSand" count="10"/>
@@ -3130,9 +3132,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="partsNailgun_battery" count="1" />
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
-	<recipe name="snow" count="1" craft_time = "1" craft_exp_gain="0" >
-		<ingredient name="snowBall" count="20"/>
-	</recipe>
 	<recipe name="snowberryExtract" count="1" craft_time = "10" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="snowberryPlant" count="1"/>
 		<ingredient name="grainAlcohol" count="1"/>
@@ -3190,9 +3189,6 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="blueberries" count="2"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="sod" count="1" craft_time = "4" craft_exp_gain="9" >
-		<ingredient name="dirtFragment" count="20"/>
-	</recipe>
 	<recipe name="splint" count="1" craft_time = "8" craft_exp_gain="18" >
 		<ingredient name="cloth" count="2"/>
 		<ingredient name="wood" count="2"/>
@@ -3218,8 +3214,8 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="feather" count="1"/>
 	</recipe>
 	<recipe name="stone" count="1" craft_area="cementMixer" >
-		<ingredient name="rockSmall" count="10"/>
-		<ingredient name="cement" count="10"/>
+		<ingredient name="rockSmall" count="20"/>
+		<ingredient name="cement" count="20"/>
 	</recipe>
 	<recipe name="stoneAxe" count="1" craft_time = "12" craft_exp_gain="40" >
 		<ingredient name="rockSmall" count="2"/>
