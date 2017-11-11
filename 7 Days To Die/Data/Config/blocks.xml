@@ -12634,7 +12634,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Collide" value="movement,melee"/>
 		<property name="Model" value="OutdoorDecor/stalactite01" param1="main_mesh"/>
 		<drop event="Harvest" name="potassiumNitratePowder" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="potassiumNitratePowder" count="10" tool_category="Harvest"/>
 		<drop event="Fall" name="potassiumNitratePowder" count="10" prob="0.5" stick_chance="0"/>
 	</block>
 	<block id="1385" name="stalactite02">
