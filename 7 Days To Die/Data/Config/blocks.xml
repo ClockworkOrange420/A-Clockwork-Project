@@ -270,6 +270,10 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="ImposterExchange" value="imposterBlock" param1="5"/>
 		<property name="DropScale" value="2"/>
 		<property name="Map.Color" value="158,139,124"/>
+		<property class="RepairItems">
+			<property name="crushedSand" value="20"/>
+			<property name="rockSmall" value="20"/>
+		</property>
 		<drop event="Harvest" name="crushedSand" count="10" tool_category="Harvest"/>
 		<drop event="Harvest" name="rockSmall" count="10" tool_category="Harvest"/>
 		<drop event="Destroy" name="rockSmall" count="10" tool_category="Harvest"/>
