@@ -2979,7 +2979,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="ParticleName" value="campfire"/>
 		<property name="ParticleOffset" value="0.5,0,0.5"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="HeatMapStrength" value="4"/>
+		<property name="HeatMapStrength" value="2.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<property name="BuffsWhenWalkedOn" value="burningSmall"/>
@@ -4282,7 +4282,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="HeatMapStrength" value="4"/>
+		<property name="HeatMapStrength" value="2.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
@@ -5396,7 +5396,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="ParticleOffset" value="0.5,0,0.5"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="HeatMapStrength" value="4"/>
+		<property name="HeatMapStrength" value="2.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<property name="BuffsWhenWalkedOn" value="burningSmall"/>
@@ -12916,7 +12916,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="UseGlobalUV" value="Local"/>
 		<property name="FuelValue" value="300"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="HeatMapStrength" value="4"/>
+		<property name="HeatMapStrength" value="2.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<property name="OnlySimpleRotations" value="true"/>
@@ -14224,7 +14224,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="HeatMapStrength" value="4"/>
+		<property name="HeatMapStrength" value="2.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<!--<property name="CraftTimeMultiplier" value="0.5,1"/>-->
@@ -14298,7 +14298,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="IsTerrainDecoration" value="true"/>
-		<property name="HeatMapStrength" value="4"/>
+		<property name="HeatMapStrength" value="2.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<property name="Stacknumber" value="1"/>
@@ -16451,7 +16451,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="HeatMapStrength" value="4"/>
+		<property name="HeatMapStrength" value="2.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<property class="Workstation">
@@ -16484,7 +16484,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CustomIcon" value="cntOven"/>
 		<property name="ParticleName" value="campfire"/>
 		<property name="ParticleOffset" value="0.5,0.5,0.5"/>
-		<property name="HeatMapStrength" value="4"/>
+		<property name="HeatMapStrength" value="2.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<property name="BuffsWhenWalkedOn" value="burningSmall"/>
@@ -16524,7 +16524,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CustomIcon" value="cntWallOven"/>
 		<property name="ParticleName" value="campfire"/>
 		<property name="ParticleOffset" value="0.5,0.4,0.5"/>
-		<property name="HeatMapStrength" value="4"/>
+		<property name="HeatMapStrength" value="2.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<property name="BuffsWhenWalkedOn" value="burningSmall"/>
@@ -16566,7 +16566,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Model" value="Furniture/desk01" param1="main_mesh"/>
 		<property name="CustomIcon" value="cntDesk01"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="HeatMapStrength" value="4"/>
+		<property name="HeatMapStrength" value="2.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<property name="OnlySimpleRotations" value="true"/>
@@ -16599,7 +16599,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Texture" value="282"/>
 		<property name="CustomIcon" value="rustyIronTable"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="HeatMapStrength" value="4"/>
+		<property name="HeatMapStrength" value="2.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<property name="OnlySimpleRotations" value="true"/>
@@ -16624,7 +16624,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="woodTable"/>
 		<property name="CustomIcon" value="woodTable"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="HeatMapStrength" value="4"/>
+		<property name="HeatMapStrength" value="2.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<property name="OnlySimpleRotations" value="true"/>
@@ -16652,7 +16652,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Texture" value="352"/>
 		<property name="CustomIcon" value="rScrapIronTable"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="HeatMapStrength" value="4"/>
+		<property name="HeatMapStrength" value="2.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<property name="OnlySimpleRotations" value="true"/>
