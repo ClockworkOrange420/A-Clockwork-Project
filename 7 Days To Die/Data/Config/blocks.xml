@@ -5362,8 +5362,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Harvest" name="electricParts" count="1,4" tool_category="Disassemble"/>
 		<!-- HV: mounted fluorescent lamp -->
 		<drop event="Harvest" name="electronicParts" count="1,2" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapPlastics" count="1,2" tool_category="Disassemble"/>
-		<drop event="Destroy" name="scrapPlastics" count="2" tool_category="Harvest"/>
+		<drop event="Harvest" name="scrapPlastics" count="2,3" tool_category="Disassemble"/>
+		<drop event="Destroy" name="scrapPlastics" count="3" tool_category="Harvest"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	</block>
