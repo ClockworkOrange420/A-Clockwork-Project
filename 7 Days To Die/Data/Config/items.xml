@@ -2409,7 +2409,7 @@
 		<property name="EconomicValue" value="56"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="100,150"/>
+			<property name="EntityDamage" value="60,125"/>
 			<property name="BlockDamage" value="40,60"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
