@@ -809,22 +809,70 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 	</block>
 	<block id="70" name="gravelPlusIron">
 		<property name="Extends" value="gravel"/>
+		<property class="RepairItems">
+			<property name="crushedSand" value="10"/>
+			<property name="rockSmall" value="10"/>
+			<property name="scrapIron" value="20"/>
+		</property>
+		<drop event="Harvest" name="crushedSand" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="rockSmall" count="5" tool_category="Harvest"/>
+		<drop event="Destroy" name="rockSmall" count="5" tool_category="Harvest"/>
+		<drop event="Destroy" name="crushedSand" count="5" tool_category="Harvest"/>
 		<drop event="Destroy" name="scrapIron" count="20" tool_category="Harvest"/>
+		<drop event="Fall" name="crushedSand" count="10" prob="0.5" stick_chance="0"/>
+		<drop event="Fall" name="rockSmall" count="10" prob="0.5" stick_chance="0"/>
+		<drop event="Fall" name="scrapIron" count="10" prob="0.5" stick_chance="0"/>
 		<property name="CreativeMode" value="Dev"/>
 	</block>
 	<block id="71" name="gravelPlusLead">
 		<property name="Extends" value="gravel"/>
+		<property class="RepairItems">
+			<property name="crushedSand" value="10"/>
+			<property name="rockSmall" value="10"/>
+			<property name="scrapLead" value="20"/>
+		</property>
+		<drop event="Harvest" name="crushedSand" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="rockSmall" count="5" tool_category="Harvest"/>
+		<drop event="Destroy" name="rockSmall" count="5" tool_category="Harvest"/>
+		<drop event="Destroy" name="crushedSand" count="5" tool_category="Harvest"/>
 		<drop event="Destroy" name="scrapLead" count="20" tool_category="Harvest"/>
+		<drop event="Fall" name="crushedSand" count="10" prob="0.5" stick_chance="0"/>
+		<drop event="Fall" name="rockSmall" count="10" prob="0.5" stick_chance="0"/>
+		<drop event="Fall" name="scrapLead" count="10" prob="0.5" stick_chance="0"/>
 		<property name="CreativeMode" value="Dev"/>
 	</block>
 	<block id="72" name="gravelPlusPotassium">
 		<property name="Extends" value="gravel"/>
+		<property class="RepairItems">
+			<property name="crushedSand" value="10"/>
+			<property name="rockSmall" value="10"/>
+			<property name="potassiumNitratePowder" value="20"/>
+		</property>
+		<drop event="Harvest" name="crushedSand" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="rockSmall" count="5" tool_category="Harvest"/>
+		<drop event="Destroy" name="rockSmall" count="5" tool_category="Harvest"/>
+		<drop event="Destroy" name="crushedSand" count="5" tool_category="Harvest"/>
 		<drop event="Destroy" name="potassiumNitratePowder" count="20" tool_category="Harvest"/>
+		<drop event="Fall" name="crushedSand" count="10" prob="0.5" stick_chance="0"/>
+		<drop event="Fall" name="rockSmall" count="10" prob="0.5" stick_chance="0"/>
+		<drop event="Fall" name="potassiumNitratePowder" count="10" prob="0.5" stick_chance="0"/>
 		<property name="CreativeMode" value="Dev"/>
 	</block>
 	<block id="73" name="gravelPlusCoal">
 		<property name="Extends" value="gravel"/>
+		<property class="RepairItems">
+			<property name="crushedSand" value="10"/>
+			<property name="rockSmall" value="10"/>
+			<property name="coal" value="20"/>
+		</property>
+		<drop event="Harvest" name="crushedSand" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" name="rockSmall" count="5" tool_category="Harvest"/>
+		<drop event="Destroy" name="rockSmall" count="5" tool_category="Harvest"/>
+		<drop event="Destroy" name="crushedSand" count="5" tool_category="Harvest"/>
 		<drop event="Destroy" name="coal" count="20" tool_category="Harvest"/>
+		<drop event="Fall" name="crushedSand" count="10" prob="0.5" stick_chance="0"/>
+		<drop event="Fall" name="rockSmall" count="10" prob="0.5" stick_chance="0"/>
+		<drop event="Fall" name="coal" count="10" prob="0.5" stick_chance="0"/>
 		<property name="CreativeMode" value="Dev"/>
 	</block>
 	<!-- DO NOT DEFINE TERRAIN BLOCKS OVER ID 127. Just don't. -->
