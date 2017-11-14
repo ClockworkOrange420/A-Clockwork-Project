@@ -809,22 +809,22 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 	</block>
 	<block id="70" name="gravelPlusIron">
 		<property name="Extends" value="gravel"/>
-		<drop event="Destroy" name="scrapIron" count="1" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapIron" count="20" tool_category="Harvest"/>
 		<property name="CreativeMode" value="Dev"/>
 	</block>
 	<block id="71" name="gravelPlusLead">
 		<property name="Extends" value="gravel"/>
-		<drop event="Destroy" name="scrapLead" count="1" tool_category="Harvest"/>
+		<drop event="Destroy" name="scrapLead" count="20" tool_category="Harvest"/>
 		<property name="CreativeMode" value="Dev"/>
 	</block>
 	<block id="72" name="gravelPlusPotassium">
 		<property name="Extends" value="gravel"/>
-		<drop event="Destroy" name="potassiumNitratePowder" count="1" tool_category="Harvest"/>
+		<drop event="Destroy" name="potassiumNitratePowder" count="20" tool_category="Harvest"/>
 		<property name="CreativeMode" value="Dev"/>
 	</block>
 	<block id="73" name="gravelPlusCoal">
 		<property name="Extends" value="gravel"/>
-		<drop event="Destroy" name="coal" count="1" tool_category="Harvest"/>
+		<drop event="Destroy" name="coal" count="20" tool_category="Harvest"/>
 		<property name="CreativeMode" value="Dev"/>
 	</block>
 	<!-- DO NOT DEFINE TERRAIN BLOCKS OVER ID 127. Just don't. -->
