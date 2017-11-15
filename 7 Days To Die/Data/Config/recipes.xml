@@ -111,6 +111,54 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="aloeCream" count="1" craft_time = "4" craft_exp_gain="14" >
 		<ingredient name="aloePlant" count="4"/>
 	</recipe>
+	<recipe name="plantedCoffee1" count="1" craft_time="1">
+		<ingredient name="coffeeBeans" count="1"/>
+	</recipe>
+	<recipe name="plantedCorn1" count="1" craft_time="1">
+		<ingredient name="corn" count="1"/>
+	</recipe>
+	<recipe name="plantedCotton1" count="1" craft_time="1">
+		<ingredient name="cottonPlant" count="1"/>
+	</recipe>
+	<recipe name="plantedGoldenrod1" count="1" craft_time="1">
+		<ingredient name="goldenrodPlant" count="1"/>
+	</recipe>
+	<recipe name="plantedHop1" count="1" craft_time="1">
+		<ingredient name="hopsFlower" count="1"/>
+	</recipe>
+	<recipe name="plantedMushroom1" count="1" craft_time="1">
+		<ingredient name="mushrooms" count="1"/>
+	</recipe>
+	<recipe name="plantedPotato1" count="1" craft_time="1">
+		<ingredient name="potato" count="1"/>
+	</recipe>
+	<recipe name="plantedYucca1" count="1" craft_time="1">
+		<ingredient name="foodYuccaFruit" count="1"/>
+	</recipe>
+	<recipe name="plantedAloe1" count="1" craft_time="1">
+		<ingredient name="aloePlant" count="1"/>
+	</recipe>
+	<recipe name="plantedBlueberry1" count="1" craft_time="1">
+		<ingredient name="blueberries" count="1"/>
+	</recipe>
+	<recipe name="plantedChrysanthemum1" count="1" craft_time="1">
+		<ingredient name="chrysanthemumPlant" count="1"/>
+	</recipe>
+	<recipe name="plantedTomato1" count="1" craft_time="1">
+		<ingredient name="Tomato" count="1"/>
+	</recipe>
+	<recipe name="plantedSoy1" count="1" craft_time="1">
+		<ingredient name="SoyBeans" count="1"/>
+	</recipe>
+	<recipe name="plantedWheat1" count="1" craft_time="1">
+		<ingredient name="Wheat" count="1"/>
+	</recipe>
+	<recipe name="plantedSnowberry1" count="1" craft_time="1">
+		<ingredient name="snowberryPlant" count="1"/>
+	</recipe>
+	<recipe name="plantedForestFlower1" count="1" craft_time="1">
+		<ingredient name="forestFlowerPlant" count="1"/>
+	</recipe>
 	<!--Clothing-->
 	<recipe name="militaryFiber" count="1" craft_time = "4" craft_exp_gain="14" craft_area="Tailoring_Table" craft_tool="Sewing_Machine" >
 		<ingredient name="cloth" count="1"/>
