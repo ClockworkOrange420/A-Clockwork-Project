@@ -4340,12 +4340,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="shortMetalPipe" value="20"/>
 			<property name="mechanicalParts" value="5"/>
 		</property>
-		<drop event="Harvest" name="beaker" count="2" tool_category="Disassemble"/>
-		<drop event="Harvest" name="wood" count="40" tool_category="Disassemble"/>
-		<drop event="Harvest" name="spring" count="10" tool_category="Disassemble"/>
-		<drop event="Harvest" name="shortMetalPipe" count="20" tool_category="Disassemble"/>
-		<drop event="Harvest" name="mechanicalParts" count="5" tool_category="Disassemble"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="chemistryStation" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Food/Cooking,Building,Science"/>
@@ -5451,11 +5447,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="clayLump" value="50"/>
 			<property name="animalHide" value="20"/>
 		</property>
-		<drop event="Harvest" name="rockSmall" count="15" tool_category="Disassemble"/>
-		<drop event="Harvest" name="clayLump" count="25" tool_category="Disassemble"/>
-		<drop event="Harvest" name="animalHide" count="10" tool_category="Disassemble"/>
-		<drop event="Harvest" name="rockSmall" count="10" tool_category="Harvest"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="forge" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Basics,Building"/>
@@ -12948,9 +12941,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="Modules" value="tools,output"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
-		<drop event="Harvest" name="wood" count="5" tool_category="Harvest"/>
-		<drop event="Harvest" name="nail" count="2" tool_category="DisassembleHammer"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="woodTable" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="EconomicValue" value="550"/>
@@ -14257,13 +14249,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="mechanicalParts" value="10"/>
 			<property name="electricParts" value="3"/>
 		</property>
-		<drop event="Harvest" name="scrapIron" count="20" tool_category="Disassemble"/>
-		<drop event="Harvest" name="spring" count="2" tool_category="Disassemble"/>
-		<drop event="Harvest" name="smallEngine" count="1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="mechanicalParts" count="5" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electricParts" count="2" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="5" tool_category="Harvest"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="cementMixer" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="DescriptionKey" value="cementMixerDesc"/>
@@ -14330,10 +14317,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="nail" value="20"/>
 			<property name="glue" value="10"/>
 		</property>
-		<drop event="Harvest" name="wood" count="25" tool_category="Disassemble"/>
-		<drop event="Harvest" name="nail" count="10" tool_category="Disassemble"/>
-		<drop event="Harvest" name="glue" count="5" tool_category="Disassemble"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="workbench" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="SellableToTrader" value="false"/>
@@ -15635,12 +15620,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="electricParts" value="10"/>
 			<property name="electronicParts" value="4"/>
 		</property>
-		<drop event="Harvest" name="scrapIron" count="30" tool_category="Disassemble"/>
-		<drop event="Harvest" name="mechanicalParts" count="3" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electricParts" count="3" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electronicParts" count="1,2" prob="0.6" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="20" tool_category="Harvest"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="generatorbank" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="TakeDelay" value="15"/>
@@ -15661,7 +15642,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property class="RepairItems">
 			<property name="forgedIron" value="2"/>
 		</property>
-		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="switch" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="250"/>
@@ -15692,8 +15674,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="electronicParts" value="3"/>
 			<property name="mechanicalParts" value="6"/>
 		</property>
-		<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
 		<drop event="Destroy" name="solarbank" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -15724,12 +15705,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="electronicParts" value="3"/>
 			<property name="scrapPlastics" value="6"/>
 		</property>
-		<drop event="Harvest" name="scrapIron" count="30" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electricParts" count="2,3" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electronicParts" count="1,2" prob="0.6" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapPlastics" count="1,2" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="20" tool_category="Harvest"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="batterybank" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="1"/>
@@ -15751,8 +15728,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property class="RepairItems">
 			<property name="forgedIron" value="1"/>
 		</property>
-		<drop event="Harvest" name="electricParts" count="1" prob="0.2" tool_category="Disassemble"/>
-		<drop event="Destroy" name="scrapIron" count="1,5" tool_category="Harvest"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="electricwirerelay" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="250"/>
@@ -15778,9 +15755,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="mechanicalParts" value="2"/>
 			<property name="electricParts" value="2"/>
 		</property>
-		<drop event="Harvest" name="electricParts" count="1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="mechanicalParts" count="1" tool_category="Disassemble"/>
-		<drop event="Destroy" name="scrapIron" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="pressureplate" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="TakeDelay" value="5"/>
@@ -15803,9 +15779,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="forgedIron" value="3"/>
 			<property name="electricParts" value="2"/>
 		</property>
-		<drop event="Harvest" name="electricParts" count="0,2" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="3" tool_category="Harvest"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="speaker" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="250"/>
@@ -15830,10 +15805,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="electricParts" value="1"/>
 			<property name="electronicParts" value="2"/>
 		</property>
-		<drop event="Harvest" name="electricParts" count="0,1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electronicParts" count="0,2" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="2" tool_category="Harvest"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="electrictimerrelay" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="250"/>
@@ -15907,10 +15880,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="mechanicalParts" value="6"/>
 			<property name="electricParts" value="4"/>
 		</property>
-		<drop event="Harvest" name="mechanicalParts" count="3,6" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electricParts" count="2,4" tool_category="Disassemble"/>
-		<drop event="Harvest" name="steelDart" count="1,5" tool_category="Disassemble"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="dartTrap" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="10"/>
@@ -15970,10 +15941,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="mechanicalParts" value="8"/>
 			<property name="electricParts" value="6"/>
 		</property>
-		<drop event="Harvest" name="electricParts" count="3" tool_category="Disassemble"/>
-		<drop event="Harvest" name="mechanicalParts" count="4" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="25"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="pressureplateLong" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="TakeDelay" value="5"/>
@@ -15998,10 +15967,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="electricParts" value="6"/>
 			<property name="forgedIron" value="10"/>
 		</property>
-		<drop event="Harvest" name="scrapIron" count="5" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electricParts" count="3" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="5" tool_category="Harvest"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="spotlightPlayer" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="IsTerrainDecoration" value="true"/>
@@ -16098,8 +16065,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		</property>
 		<property name="Group" value="Science"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
-		<drop event="Harvest" name="electricParts" count="1" tool_category="Disassemble"/>
-		<drop event="Destroy" name="wood" count="2" tool_category="Harvest"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="tripwirepost" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.3" stick_chance="1"/>
 		<property name="EconomicValue" value="16"/>
 		<property name="PickupJournalEntry" value="triggerDelayDurationTip,passthroughTriggeringTip"/>
@@ -16125,9 +16092,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="forgedIron" value="5"/>
 		</property>
 		<property name="Group" value="Tools/Traps,Science"/>
-		<drop event="Harvest" name="electricParts" count="0,1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="2" tool_category="Harvest"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="electricfencepost" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="EconomicValue" value="62"/>
@@ -16150,9 +16116,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="forgedIron" value="2"/>
 			<property name="electronicParts" value="1"/>
 		</property>
-		<drop event="Harvest" name="electronicParts" count="0,2" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="1" tool_category="Harvest"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="motionsensor" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="EconomicValue" value="135"/>
@@ -16251,7 +16216,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="wood" value="20"/>
 			<property name="nail" value="10"/>
 		</property>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="Empty_Composter" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="emptyComposterDesc"/>
 		<property name="TakeDelay" value="15"/>
@@ -16279,6 +16245,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
+		<property name="DowngradeBlock" value="Empty_Composter"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75"/>
 		<property name="Group" value="Building"/>
@@ -16325,11 +16292,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="animalHide" value="10"/>
 			<property name="ductTape" value="5"/>
 		</property>
-		<drop event="Harvest" name="scrapIron" count="5" tool_category="Disassemble"/>
-		<drop event="Harvest" name="wood" count="5" tool_category="Disassemble"/>
-		<drop event="Harvest" name="animalHide" count="5" tool_category="Disassemble"/>
-		<drop event="Harvest" name="ductTape" count="2" tool_category="Disassemble"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="dewCollector_filling" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75"  stick_chance="1"/>
 		<property name="DescriptionKey" value="dewCollectorDesc"/>
 		<property name="TakeDelay" value="15"/>
@@ -16351,8 +16315,16 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="86" name="chickenCoop_stage1">
-		<property name="Extends" value="burntWoodBlock6"/>
+		<property name="Mesh" value="opaque"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="siding_burnt06"/>
+		<property name="Texture" value="303,303,303,303,303,302"/>
+		<property name="ImposterExclude" value="false"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="85"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="Collide" value="movement,melee,rocket"/>
 		<property name="Material" value="wood_regular"/>
+		<property name="StabilitySupport" value="false"/>
 		<property name="CustomIcon" value="burntWoodBlock6"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="OnlySimpleRotations" value="true"/>
@@ -16368,12 +16340,9 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="nail" value="15"/>
 			<property name="glue" value="5"/>
 		</property>
-		<drop event="Harvest" name="wood" count="10" tool_category="Disassemble"/>
-		<drop event="Harvest" name="nail" count="5" tool_category="Disassemble"/>
-		<drop event="Harvest" name="glue" count="2" tool_category="Disassemble"/>
-		<drop event="Destroy" name="wood" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="chickenCoop_stage1" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
-		<drop event="Destroy" name="coal" count="0" tool_category="Harvest"/>
 		<property name="DescriptionKey" value="chickenCoopDesc"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Building"/>
@@ -16392,6 +16361,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Collide" value="movement,melee,rocket"/>
 		<property name="CustomIcon" value="burntWoodBlock4"/>
 		<property name="Material" value="wood_regular"/>
+		<property name="StabilitySupport" value="false"/>
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="chickenCoop_stage3"/>
@@ -16405,6 +16375,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="nail" value="15"/>
 			<property name="glue" value="5"/>
 		</property>
+		<property name="DowngradeBlock" value="chickenCoop_stage1"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Building"/>
@@ -16418,9 +16389,9 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="ImposterExchange" value="imposterBlock" param1="85"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Collide" value="movement,melee,rocket"/>
+		<property name="CustomIcon" value="burntWoodBlock3"/>
 		<property name="Material" value="wood_regular"/>
 		<property name="StabilitySupport" value="false"/>
-		<property name="CustomIcon" value="burntWoodBlock3"/>
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="chickenCoop_stage4"/>
@@ -16434,6 +16405,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="nail" value="15"/>
 			<property name="glue" value="5"/>
 		</property>
+		<property name="DowngradeBlock" value="chickenCoop_stage1"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Building"/>
@@ -16447,9 +16419,9 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="ImposterExchange" value="imposterBlock" param1="85"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Collide" value="movement,melee,rocket"/>
+		<property name="CustomIcon" value="burntWoodBlock1"/>
 		<property name="Material" value="wood_regular"/>
 		<property name="StabilitySupport" value="false"/>
-		<property name="CustomIcon" value="burntWoodBlock1"/>
 		<property name="Class" value="Loot"/>
 		<property name="LootList" value="101"/>
 		<property name="DowngradeBlock" value="chickenCoop_stage1"/>
@@ -16479,10 +16451,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="glue" value="5"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
-		<drop event="Harvest" name="wood" count="10" tool_category="Disassemble"/>
-		<drop event="Harvest" name="nail" count="5" tool_category="Disassemble"/>
-		<drop event="Harvest" name="glue" count="2" tool_category="Disassemble"/>
-		<drop event="Destroy" name="wood" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="Research_Table" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="researchTableDesc"/>
 		<property name="Group" value="Building"/>
@@ -16519,12 +16489,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="electronicParts" value="3"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
-		<drop event="Harvest" name="scrapIron" count="5" tool_category="Disassemble"/>
-		<drop event="Harvest" name="mechanicalParts" count="1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="spring" count="1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electricParts" count="1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electronicParts" count="2" tool_category="Disassemble"/>
-		<drop event="Destroy" name="scrapIron" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="Old_Oven" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="ovenDesc"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -16559,12 +16525,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="electronicParts" value="3"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
-		<drop event="Harvest" name="scrapIron" count="5" tool_category="Disassemble"/>
-		<drop event="Harvest" name="mechanicalParts" count="1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="spring" count="1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electricParts" count="1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electronicParts" count="2" tool_category="Disassemble"/>
-		<drop event="Destroy" name="scrapIron" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="New_Oven" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="ovenDesc"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -16595,10 +16557,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="glue" value="5"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
-		<drop event="Harvest" name="wood" count="10" tool_category="Disassemble"/>
-		<drop event="Harvest" name="nail" count="10" tool_category="Disassemble"/>
-		<drop event="Harvest" name="glue" count="2" tool_category="Disassemble"/>
-		<drop event="Destroy" name="wood" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="Tailoring_Table" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="tailoringTableDesc"/>
 		<property name="Group" value="Building"/>
@@ -16626,8 +16586,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="forgedIron" value="40"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
-		<drop event="Harvest" name="scrapIron" count="15" tool_category="Disassemble"/>
-		<drop event="Destroy" name="scrapIron" count="5" tool_category="Harvest"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="Smithing_Table" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="smithingTableDesc"/>
 		<property name="Group" value="Building"/>
@@ -16652,6 +16612,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="wood" value="10"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
 		<drop event="Destroy" name="Crafting_Table" count="1" tool_category="Disassemble"/>
 		<property name="Group" value="Building"/>
 		<property name="EconomicValue" value="500"/>
@@ -16680,10 +16641,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="ductTape" value="10"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
-		<drop event="Harvest" name="scrapIron" count="3" tool_category="Disassemble"/>
-		<drop event="Harvest" name="ductTape" count="5" tool_category="Disassemble"/>
-		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="Ammunition_Table" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Building"/>
 		<property name="EconomicValue" value="900"/>
@@ -17500,6 +17459,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="mechanicalParts" value="8"/>
 			<property name="electricParts" value="6"/>
 		</property>
+		<property name="DowngradeBlock" value="bladeTrapBroken"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Stacknumber" value="10"/>
