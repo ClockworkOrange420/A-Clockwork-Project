@@ -44,29 +44,36 @@
 		
 	<window name="HUDLeftStatBars">
 
-			<panel name="ClockworkWatch" backgroundcolor="[black]" controller="HUDStatBar">
+			<panel name="ClockworkSymbols" backgroundcolor="[black]" controller="HUDStatBar">
 				
-				<texture depth="1" pos="236,117" name="WatchBottom03" size="350,350" texture="@file:Mods\ACPIcons\UI\DWatchBottom.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
+				<sprite depth="1" pos="186,65" name="healthEmpty" size="97,70" atlas="ItemIconAtlas" sprite="ui_game_symbol_health2" justify="center" pivot="center" foregroundlayer="true"/>
+				<sprite depth="2" pos="186,65" name="healthEmpty" size="97,70" atlas="ItemIconAtlas" sprite="ui_game_symbol_health2" justify="center" pivot="center" foregroundlayer="true"/>
+				<sprite depth="3" pos="186,65" size="97,70" controller="HUDStatBar" stat_type="Health" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_health_full2" justify="center" pivot="center" type="filled" fill="0" foregroundlayer="true" filldirection="Vertical"/>
+				<label depth="4" pos="186,20" size="97,70" controller="HUDStatBar" stat_type="Health" name="TextContent" font_size="20" color="[white]" justify="center" pivot="center" text="{statcurrentwithmax}"/>
 				
-				<sprite depth="2" pos="180,123" size="308,208" controller="HUDStatBar" stat_type="Health" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="SemiCircle" justify="center" pivot="center" type="filled" fill="0" color="255,0,0" filldirection="Vertical"/>
-				<!--
-				<texture depth="3" pos="229,117" name="WatchMiddle" size="350,350" texture="@file:Mods\ACPIcons\UI\DWatchMiddle.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
-				-->
-				<sprite depth="4" pos="280,123" size="308,208" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="SemiCircle" justify="center" pivot="center" flip="Horizontally" type="filled" fill="0" color="0,0,255" filldirection="Vertical"/>
+				<sprite depth="1" pos="273,65" name="staminaEmpty" size="97,70" atlas="ItemIconAtlas" sprite="ui_game_symbol_stamina" justify="center" pivot="center" foregroundlayer="true"/>
+				<sprite depth="2" pos="273,65" name="staminaEmpty" size="97,70" atlas="ItemIconAtlas" sprite="ui_game_symbol_stamina" justify="center" pivot="center" foregroundlayer="true"/>
+				<sprite depth="3" pos="273,65" size="97,70" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_stamina_full" justify="center" pivot="center" type="filled" fill="0" foregroundlayer="true" filldirection="Vertical"/>
+				<label depth="4" pos="273,20" size="97,70" controller="HUDStatBar" stat_type="Stamina" name="TextContent" font_size="20" color="[white]" justify="center" pivot="center" text="{statcurrentwithmax}"/>
 				
-				<texture depth="5" pos="229,117" name="WatchMiddle02" size="350,350" texture="@file:Mods\ACPIcons\UI\DWatchMiddle02.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
 				
-				<sprite depth="6" pos="185,118" size="54,54" controller="PlayerStatsWindow" name="PlayerLevel"  visible="{statvisible}" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="{playerlevelfill}" color="255,255,0" filldirection="radial360"/>
-				<sprite depth="6" pos="272,118" size="54,54" controller="HUDStatBar" stat_type="Food" visible="{statvisible}" name="BarContent" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="0" color="0,255,0" filldirection="radial360"/>
-				<sprite depth="6" pos="229,74" size="48,48" controller="HUDStatBar" stat_type="Water" visible="{statvisible}" name="BarContent" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="0" color="0,0,255" filldirection="radial360"/>
+				<sprite depth="1" pos="447,65" name="waterEmpty" size="97,70" atlas="ItemIconAtlas" sprite="ui_game_symbol_thirst" justify="center" pivot="center" foregroundlayer="true"/>
+				<sprite depth="2" pos="447,65" name="waterEmpty" size="97,70" atlas="ItemIconAtlas" sprite="ui_game_symbol_thirst" justify="center" pivot="center" foregroundlayer="true"/>
+				<sprite depth="3" pos="447,65" size="97,70" controller="HUDStatBar" stat_type="Water" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_thirst_full" justify="center" pivot="center" type="filled" fill="0" foregroundlayer="true" filldirection="Vertical"/>
+				<label depth="4" pos="447,20" size="97,70" controller="HUDStatBar" stat_type="Water" name="TextContent" font_size="20" color="[white]" justify="center" pivot="center" text="{statcurrentwithmax}"/>
 				
-				<texture depth="7" pos="236,117" name="WatchTop03" size="350,350" texture="@file:Mods\ACPIcons\UI\DWatchTop.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
 				
-				<label depth="8" pos="277,80" size="240,240" name="TextContent" controller="PlayerStatsWindow" font_size="20" color="[beige]" justify="center" pivot="center" text="{playercoretemp}"/>
-				<label depth="8" pos="185,106" size="240,240" name="TextContent" controller="PlayerStatsWindow" font_size="16" color="[beige]" justify="center" pivot="center" text="{playerlevel}"/>
-				<label depth="8" pos="230,149" size="240,240" name="dayTimeLabel" controller="MapStats" text=" [DECEA3]{mapdaytime}[-]" font_size="22" justify="center" pivot="center"/>
-				<label depth="8" pos="181,80" size="240,240" name="elevLabel" controller="MapStats"   text=" [DECEA3]{mapelevation} M[-]" font_size="20" justify="center" pivot="center"/>
-				-->
+				<sprite depth="1" pos="360,65" name="foodEmpty" size="97,70" atlas="ItemIconAtlas" sprite="ui_game_symbol_food" justify="center" pivot="center" foregroundlayer="true"/>
+				<sprite depth="2" pos="360,65" name="foodEmpty" size="97,70" atlas="ItemIconAtlas" sprite="ui_game_symbol_food" justify="center" pivot="center" foregroundlayer="true"/>
+				<sprite depth="3" pos="360,65" size="97,70" controller="HUDStatBar" stat_type="Food" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_food_full" justify="center" pivot="center" type="filled" fill="0" foregroundlayer="true" filldirection="Vertical"/>
+				<label depth="4" pos="360,20" size="97,70" controller="HUDStatBar" stat_type="Food" name="TextContent" font_size="20" color="[white]" justify="center" pivot="center" text="{statcurrentwithmax}"/>
+				
+				
+				<sprite depth="1" pos="534,65" name="PlayerLevel" size="97,70" atlas="ItemIconAtlas" sprite="ui_game_symbol_level" justify="center" pivot="center" foregroundlayer="true"/>
+				<sprite depth="2" pos="534,65" name="PlayerLevel" size="97,70" atlas="ItemIconAtlas" sprite="ui_game_symbol_level" justify="center" pivot="center" foregroundlayer="true"/>
+				<sprite depth="3" pos="534,65" size="97,70" controller="PlayerStatsWindow" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_level_full" justify="center" pivot="center" type="filled" fill="{playerlevelfill}" foregroundlayer="true" filldirection="radial360"/>
+				<label depth="4" pos="534,20" size="97,70" name="TextContent" controller="PlayerStatsWindow" font_size="20" color="[white]" justify="center" pivot="center" text="{playerlevel}"/>
+				
 			</panel>
 		
 		<rect name="hud" pos="93,30" side="left" controller="BuffPopoutList" pivot="BottomLeft" >
@@ -184,10 +191,20 @@
 		</sprite>
 		<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0" >
 
-		</texture><!--Modded
-		<sprite pos="200,-60" sprite="" color="255,255,255,255" globalopacitymod="1.8">
-			<label depth="2" width="300" height="30" text="{daytitle}: {day|always}  {timetitle}: {time|always}" font_size="28" pivot="center" effect="outline" upper_case="true" justify="center"/>
-		</sprite>-->
+		</texture>
+		<!--Modded
+		<sprite depth="4" pos="60,-50" name="windowIcon" size="20,20" sprite="ui_game_symbol_clock" color="255,255,255,255" globalopacitymod="1.8"/>-->
+		<label depth="4" pos="150,-60" name="TextContent" size="300,30" text="{daytitle}: {day|always}  {timetitle}: {time|always}" font_size="28" color="[white]" pivot="center" effect="outline" justify="center" upper_case="true"/>
+		
+		<sprite depth="4" pos="247,-50" name="tempIcon" size="20,20" sprite="ui_game_symbol_temperature" color="255,255,255,255" globalopacitymod="1.8"/>
+		<label depth="4" pos="307,-60" name="TextContent" size="300,30" controller="PlayerStatsWindow" text="{playercoretemp}" font_size="28" color="[white]" pivot="center" effect="outline" justify="center" upper_case="true"/>
+		
+		<sprite depth="4" pos="360,-15" name="elevIcon" size="20,20" sprite="ui_game_symbol_climb" color="255,255,255,255" globalopacitymod="1.8"/>
+		<label depth="4" pos="420,-25" size="300,30" name="elevLabel" controller="MapStats" text="{mapelevation} M[-]" font_size="28" color="[white]" pivot="center" effect="outline" justify="center" upper_case="true"/>
+		
+		<sprite depth="4" pos="22,-15" name="windIcon" size="20,20" sprite="ui_game_symbol_wind" color="255,255,255,255" globalopacitymod="1.8"/>
+		<label depth="4" pos="-18,-25" name="windLabel" size="300,30" controller="MapStats" text="{mapwind} MPH[-]" font_size="28" color="[white]" pivot="center" effect="outline" justify="center" upper_case="true"/>
+		<!--End Modded-->
 	</window>
 
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
