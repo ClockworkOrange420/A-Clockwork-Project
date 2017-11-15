@@ -1766,6 +1766,8 @@
 	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
 	<property name="HandItem" value="handAnimalZombieVulture"/>
 	<property name="MaxHealth" value="50"/>
+	<property name="SightRange" value="120"/>
+	<property name="MaxTurnSpeed" value="145"/>
 	<property name="Immunity" value="sickness;disease;bleeding;wellness;staminadown;healthdown"/>
 	<property class="MechanimAttackTriggers">
 		<property name="state0" value="AttackTrigger"/>
@@ -1773,18 +1775,31 @@
 	<property class="MechanimAttackStates">
 		<property name="state0" value="Attack"/>
 	</property>
-	<property name="AITask-1" value="BreakDoor"/>
-	<property name="AITask-2" value="BreakBlock"/>
-	<property name="AITask-3" value="Territorial"/>
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="30"/>
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="25"/>
-	<property name="AITask-6" value="ApproachSpot"/>
-	<property name="AITask-7" value="Wander"/>
-	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
-	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityPlayer" param2="8"/>
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityAnimalStag"/>
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombie"/>
+	<property name="AITarget-1" value="BlockingTargetTask"/>
+	<property name="AITask-1" value="BreakDoor" param1="EntityPlayer" param2="5"/>
+	<property name="AITask-2" value="BreakBlock" param1="EntityPlayer" param2="5"/>	
+	<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityPlayer"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityPlayer" />
+	<property name="AITarget-3" value="SetAsTargetIfHurt" param1="EntityPlayer"/>
+	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" />
+	<property name="AITarget-4" value="SetAsTargetIfHurt" param1="EntityPlayer"/>
+	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityPlayer" />
+	<property name="AITarget-5" value="SetAsTargetIfHurt" param1="EntityPlayer"/>
+	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" />
+	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityPlayer"/>
+	<property name="AITask-7" value="ApproachAndAttackTarget" param1="EntityPlayer" />
+	<property name="AITarget-7" value="SetNearestEntityAsTarget" param1="EntityPlayer"/>
+	<property name="AITask-8" value="ApproachAndAttackTarget" param1="EntityPlayer" />
+	<property name="AITarget-8" value="SetNearestEntityAsTarget" param1="EntityPlayer"/>
+	<property name="AITask-9" value="ApproachAndAttackTarget" param1="EntityPlayer" />
+	<property name="AITarget-9" value="SetNearestEntityAsTarget" param1="EntityPlayer"/>
+	<property name="AITask-10" value="ApproachAndAttackTarget" param1="EntityPlayer" />
+	<property name="AITarget-10" value="SetNearestEntityAsTarget" param1="EntityPlayer"/>
+	<property name="AITask-11" value="ApproachAndAttackTarget" param1="EntityPlayer" />	
+	<property name="AITarget-11" value="SetNearestCorpseAsTarget" param1="EntityPlayer"/>
+	<property name="AITask-12" value="ApproachAndAttackTarget" param1="EntityPlayer" />
+	<property name="AITask-13" value="ApproachSpot"/>
+	<property name="AITask-14" value="Wander"/>
 	<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
 	<property name="SoundAlert" value="Animals/Vulture/vulturealert"/>
 	<property name="SoundHurt" value="Animals/Vulture/vulturepain"/>
