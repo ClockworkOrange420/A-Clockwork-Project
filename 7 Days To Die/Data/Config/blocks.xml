@@ -2609,8 +2609,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
-		<drop event="Harvest" name="plantedBlueberry1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedBlueberry1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="blueberries" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="blueberries" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -2646,8 +2644,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 		<property name="Collide" value="melee"/>
 		<property name="DowngradeBlock" value="plantedPotato1"/>
-		<drop event="Harvest" name="plantedPotato1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedPotato1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="potato" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="potato" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -5132,8 +5128,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="449"/>
 		<property name="DowngradeBlock" value="plantedHop1"/>
-		<drop event="Harvest" name="plantedHop1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedHop1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="hopsFlower" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="hopsFlower" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -5191,8 +5185,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="DowngradeBlock" value="plantedMushroom1"/>
-		<drop event="Harvest" name="plantedMushroom1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedMushroom1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="mushrooms" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="mushrooms" count="1" prob="0.25" tool_category="Crops"/>
 		<drop event="Destroy" count="0"/>
@@ -7312,8 +7304,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="plantedCotton3Harvest"/>
 		<property name="Texture" value="363"/>
-		<drop event="Harvest" name="plantedCotton1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedCotton1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="cottonPlant" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="cottonPlant" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -7774,8 +7764,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="395"/>
 		<property name="DowngradeBlock" value="plantedCoffee1"/>
-		<drop event="Harvest" name="plantedCoffee1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedCoffee1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="coffeeBeans" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="coffeeBeans" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -7805,8 +7793,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="plantedGoldenrod3Harvest"/>
 		<property name="Texture" value="362"/>
-		<drop event="Harvest" name="plantedGoldenrod1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedGoldenrod1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="goldenrodPlant" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="goldenrodPlant" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -8594,8 +8580,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 	<block id="852" name="forestFlower">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="567"/>
-		<drop event="Harvest" name="plantedForestFlower1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedForestFlower1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="forestFlowerPlant" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="forestFlowerPlant" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -8605,8 +8589,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
 		<property name="Collide" value="melee,movement,rocket"/>
-		<drop event="Harvest" name="plantedYucca1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedYucca1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="foodYuccaFruit" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="foodYuccaFruit" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -8617,8 +8599,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
 		<property name="Collide" value="melee,movement,rocket"/>
 		<property name="DowngradeBlock" value="plantedAloe1"/>
-		<drop event="Harvest" name="plantedAloe1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedAloe1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="aloePlant" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="aloePlant" count="1" prob="0.25" tool_category="Crops"/>
 		<property name="Group" value="Food/Cooking,Science"/>
@@ -8651,8 +8631,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 	<block id="857" name="snowberry3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="568"/>
-		<drop event="Harvest" name="plantedSnowberry1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedSnowberry1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="snowberryPlant" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="snowberryPlant" count="1" prob="0.25" tool_category="Crops"/>
 		<property name="DescriptionKey" value="snowberryPlantDesc"/>
@@ -8863,8 +8841,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 	<block id="884" name="plantedChrysanthemum3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="244"/>
-		<drop event="Harvest" name="plantedChrysanthemum1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedChrysanthemum1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="chrysanthemumPlant" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="chrysanthemumPlant" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -9097,8 +9073,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="MultiBlockDim" value="1,3,1"/>
 		<property name="Collide" value="melee"/>
 		<property name="Texture" value="529"/>
-		<drop event="Harvest" name="plantedCorn1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedCorn1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="corn" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="corn" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -12663,8 +12637,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Model" value="OutdoorDecor/mushroom01" param1="main_mesh"/>
 		<property name="HandleFace" value="Bottom"/>
 		<property name="IsTerrainDecoration" value="true"/>
-		<drop event="Harvest" name="plantedMushroom1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedMushroom1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="mushrooms" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="mushrooms" count="1" prob="0.25" tool_category="Crops"/>
 		<drop event="Destroy" count="0"/>
@@ -16226,8 +16198,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Texture" value="244"/>
 		<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
 		<property name="DowngradeBlock" value="plantedTomato1"/>
-		<drop event="Harvest" name="plantedTomato1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedTomato1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="Tomato" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="Tomato" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -16261,8 +16231,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="treeBrownGrassDiagonal"/>
 		<property name="Texture" value="377"/>
-		<drop event="Harvest" name="plantedWheat1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedWheat1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="Wheat" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="Wheat" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -17577,8 +17545,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 		<property name="Collide" value="melee"/>
-		<drop event="Harvest" name="plantedSoy1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedSoy1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="SoyBeans" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="SoyBeans" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -17589,8 +17555,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 		<property name="Collide" value="melee"/>
 		<property name="DowngradeBlock" value="plantedSoy1"/>
-		<drop event="Harvest" name="plantedSoy1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedSoy1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="SoyBeans" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="SoyBeans" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -17599,8 +17563,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CustomIcon" value="plantedGoldenrod3Harvest"/>
 		<property name="Texture" value="362"/>
 		<property name="DowngradeBlock" value="plantedGoldenrod1"/>
-		<drop event="Harvest" name="plantedGoldenrod1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedGoldenrod1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="goldenrodPlant" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="goldenrodPlant" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -17609,8 +17571,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CustomIcon" value="plantedChrysanthemum1"/>
 		<property name="Texture" value="244"/>
 		<property name="DowngradeBlock" value="plantedChrysanthemum1"/>
-		<drop event="Harvest" name="plantedChrysanthemum1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedChrysanthemum1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="chrysanthemumPlant" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="chrysanthemumPlant" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -17619,8 +17579,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CustomIcon" value="treeBrownGrassDiagonal"/>
 		<property name="Texture" value="377"/>
 		<property name="DowngradeBlock" value="plantedWheat1"/>
-		<drop event="Harvest" name="plantedWheat1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedWheat1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="Wheat" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="Wheat" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -17629,8 +17587,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CustomIcon" value="plantedCotton3Harvest"/>
 		<property name="Texture" value="363"/>
 		<property name="DowngradeBlock" value="plantedCotton1"/>
-		<drop event="Harvest" name="plantedCotton1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedCotton1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="cottonPlant" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="cottonPlant" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -17640,8 +17596,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
 		<property name="DowngradeBlock" value="plantedBlueberry1"/>
-		<drop event="Harvest" name="plantedBlueberry1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedBlueberry1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="blueberries" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="blueberries" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -17653,8 +17607,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
 		<property name="Collide" value="melee,movement,rocket"/>
 		<property name="DowngradeBlock" value="plantedYucca1"/>
-		<drop event="Harvest" name="plantedYucca1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedYucca1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="foodYuccaFruit" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="foodYuccaFruit" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -17669,8 +17621,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Collide" value="melee"/>
 		<property name="Texture" value="529"/>
 		<property name="DowngradeBlock" value="plantedCorn1"/>
-		<drop event="Harvest" name="plantedCorn1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedCorn1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="corn" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="corn" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -17704,8 +17654,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="snowberry3Harvest"/>
 		<property name="Texture" value="568"/>
-		<drop event="Harvest" name="plantedSnowberry1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedSnowberry1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="snowberryPlant" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="snowberryPlant" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -17739,8 +17687,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="forestFlower"/>
 		<property name="Texture" value="567"/>
-		<drop event="Harvest" name="plantedForestFlower1" count="1" tool_category="CropsSeed"/>
-		<drop event="Harvest" name="plantedForestFlower1" count="1" prob="0.25" tool_category="CropsSeed"/>
 		<drop event="Harvest" name="forestFlowerPlant" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="forestFlowerPlant" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
