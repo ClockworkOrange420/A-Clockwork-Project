@@ -10962,7 +10962,17 @@
 		<property name="Group" value="Resources,Food/Cooking"/>
 		<property name="DescriptionKey" value="DoughDesc"/>
 	</item>
-	<!--Free-->
+	<item id="1671" name="pomPom">
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="Mplastics"/>
+		<property name="Weight" value="8"/>
+		<property name="EconomicValue" value="25"/>
+		<property name="Stacknumber" value="10"/>
+		<property name="Group" value="Clothing"/>
+		<property name="DescriptionKey" value="pomPomDesc"/>
+	</item>
 	<item id="1672" name="slicedHam">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
