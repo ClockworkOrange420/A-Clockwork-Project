@@ -1089,8 +1089,9 @@
 	<item group="farmCrops" count="1,2" prob="0.5"/>
 	<item name="bottledWater" prob="0.5"/>
 	<item name="emptyJar" count="1,4"/>
-	<item group="sinkTools" count="1" prob="0.15"/>
-	<item name="potassiumNitratePowder" count="2,6" prob="0.15"/>
+	<item group="sinkTools" count="1" prob="0.2"/>
+	<item name="potassiumNitratePowder" count="20,60" prob="0.15"/>
+	<item name="coal" count="20,60" prob="0.15"/>
 	<item name="electricParts" count="1,2" prob="0.15"/>
 	<item name="paint" count="5,20" prob="0.15"/>
 </lootgroup>
@@ -1110,8 +1111,8 @@
 
 <lootgroup name="junk">
 	<item name="ironArrowHead" count="1,12"/>
-	<item name="steelArrowHead" count="1,10" prob="0.092"/>
-	<item name="Geometry_Set" count="1" prob="0.1"/>
+	<item name="steelArrowHead" count="1,10" prob="0.1"/>
+	<item name="Geometry_Set" count="1" prob="0.12"/>
 	<item name="candyTin"/>
 	<item name="emptyJar" count="1,2"/>
 	<item name="canEmpty" count="1,3"/>
@@ -1121,7 +1122,7 @@
 	<item name="cloth" count="1,4"/>
 	<item group="trophyGroup" count="1,4"/>
 	<item name="glassCTRSheet"/>
-	<item name="gunPowder" count="3,6"/>
+	<item name="gunPowder" count="30,60"/>
 	<item name="oil" count="2,6"/>
 	<item name="foodHoney" count="1"/>
 	<item name="shortMetalPipe" count="1"/>
@@ -1138,8 +1139,8 @@
 	<item group="books" prob="0.11"/>
 	<item group="seeds" count="1,2"/>
 	<item name="padlock" count="1" prob="0.1"/>
-	<item group="junkParts" count="1" prob="0.12"/>
-	<item name="Schematic_Page" count="1" prob="0.12"/>
+	<item group="junkParts" count="1" prob="0.15"/>
+	<item name="Schematic_Page" count="1" prob="0.15"/>
 	<item group="questChallenge" count="1" prob="0.11"/> 	<!-- 0.06 = .23 % -->
 	<item group="treasureMaps" count="1" prob="0.092"/>
 </lootgroup>
@@ -1504,8 +1505,8 @@
 	<item name="grainAlcohol" count="5,10"/>
 	<item name="vitamins" count="1,2"/>
 	<item name="animalFat" count="4,10"/>
-	<item name="coal" count="10,20" prob="2"/>
-	<item name="potassiumNitratePowder" count="10,20" prob="2"/>
+	<item name="coal" count="20,60" prob="2"/>
+	<item name="potassiumNitratePowder" count="20,60" prob="2"/>
 	<item name="glue" count="1,5"/>
 	<item name="oilShale" count="10,30"/>
 	<item name="painkillers" count="1,2"/>
@@ -1551,7 +1552,7 @@
 	<item name="scrapIron" count="1,15" prob="1.5"/>
 	<item name="emptyJar" count="1,2"/>
 	<item name="canEmpty" count="1,2"/>
-	<item name="coal" count="4,12" prob="0.5"/>
+	<item name="coal" count="20,60" prob="0.5"/>
 </lootcontainer>
 
 <!-- night stands and dressers, pistol, ammo, magazines, books -->
@@ -1582,9 +1583,10 @@
 	<item name="canEmpty" count="1,2"/>
 	<item group="farmCrops" count="1,3"/>
 	<item name="shortMetalPipe" count="1,2"/>
-	<item group="sinkTools" count="1" prob="0.3"/>
+	<item group="sinkTools" count="1" prob="0.35"/>
 	<item name="scrapLead" count="1,10"/>
-	<item name="potassiumNitratePowder" count="2,6"/>
+	<item name="potassiumNitratePowder" count="20,60"/>
+	<item name="coal" count="20,60"/>
 </lootcontainer>
 
 <!-- backpack, place where people stash things, -->
@@ -2058,7 +2060,7 @@
 
 <!-- cntFurnaceDrawer -->
 <lootcontainer id="76" count="0,1" size="3,3" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="baseTemplate">
-	<item name="coal" count="2,12" prob="1"/>
+	<item name="coal" count="20,60" prob="1"/>
 	<item name="femur" count="1,2" prob="0.1"/>
 </lootcontainer>
 
@@ -2262,7 +2264,7 @@
 	<item name="ironArrowHead" count="10,30"/>
 	<item name="steelArrowHead" count="10,20"/>
 	<item name="wood" count="20,80" prob="2"/>
-	<item name="coal" count="10,20"/>
+	<item name="coal" count="20,60"/>
 </lootcontainer>
 
 <!-- cntCollapsedWorkbench -->
@@ -2300,7 +2302,7 @@
 	<item name="rockSmall" count="40,120"/>
 	<item name="clayLump" count="40,120"/>
 	<item name="rottingFlesh" count="5,12"/>
-	<item name="potassiumNitratePowder" count="10,30"/>
+	<item name="potassiumNitratePowder" count="20,60"/>
 	<item name="crushedSand" count="40,120"/>
 	<item name="oilShale" count="20,120"/>
 	<item name="dirtFragment" count="40,120"/>
