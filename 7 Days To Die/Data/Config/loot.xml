@@ -504,6 +504,17 @@
 	<item name="skirtBlack"/>
 </lootgroup>
 
+<lootgroup name="skirtsAndShoes">
+	<item name="runningShoes"/>
+	<item name="tshirtZUWhite"/>
+	<item name="skirt"/>
+	<item name="skirtRed"/>
+	<item name="skirtBrown"/>
+	<item name="skirtGreen"/>
+	<item name="skirtBlue"/>
+	<item name="skirtBlack"/>
+</lootgroup>
+
 <lootgroup name="denimShortsPantsAll">
 	<item name="denimShortsPants"/>
 	<item name="denimShortsPantsRed"/>
@@ -591,6 +602,12 @@
 	<item name="flannelShirtGreen"/>
 	<item name="flannelShirtRed"/>
 	<item name="flannelShirtWhite"/>
+</lootgroup>
+
+<lootgroup name="skateboarder">
+	<item group="pantsAll"/>
+	<item group="hoodedSweatshirtAll"/>
+	<item name="runningShoes"/>
 </lootgroup>
 
 <lootgroup name="cowboyHatAll">
@@ -2063,9 +2080,7 @@
 
 <!-- ZombieCheerleader -->
 <lootcontainer id="79" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-	<item name="tshirtZUWhite"/>
-	<item group="skirtsAll" count="1"/>
-	<item name="runningShoes"/>
+	<item group="skirtsAndShoes" count="1"/>
 	<item group="junk"/>
 	<item group="questChallenge" count="1" prob="0.036"/>
 	<item group="treasureMaps" count="1" prob="0.031"/>
@@ -2073,11 +2088,10 @@
 
 <!-- ZombieSkateboarder -->
 <lootcontainer id="80" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-	<item group="junk" prob="2"/>
-	<item name="hoodedSweatshirtWhite" prob="1"/>
-	<item name="blackDenimPants" prob="1"/>
-	<item name="runningShoes" prob="1"/>
-	<item name="mechanicalParts" count="1,3" prob="1.5"/>
+	<item group="junk"/>
+	<item group="skateboarder" count="1"/>
+	<item name="mechanicalParts" count="1,3" prob="0.2"/>
+	<item group="weaponsMelee" prob="0.15"/>
 	<item group="questChallenge" count="1" prob="0.036"/>
 	<item group="treasureMaps" count="1" prob="0.031"/>
 </lootcontainer>
@@ -2086,8 +2100,8 @@
 <lootcontainer id="81" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="10"/>
 	<item group="weaponsMagnumParts" prob="1"/>
-	<item group="weaponsHuntingRifleParts" prob="1.2"/>
-	<item group="weaponsHuntingRifle+ammo" prob="3"/>
+	<item group="weaponsHuntingRifleParts" prob="1"/>
+	<item group="weaponsHuntingRifle+ammo" prob="1.2"/>
 	<item name="dynamite" count="1,3" prob="1"/>
 	<item group="cowboyHatAll" prob="1"/>
 	<item group="bandanaAll" prob="1"/>
@@ -2162,8 +2176,8 @@
 	<item group="farmCrops"/>
 	<item group="seeds"/>
 	<item name="beer"/>
-	<item group="weaponsCompoundBowParts" prob="0.15"/>
-	<item name="compoundBow" prob="0.08"/>
+	<item group="weaponsCompoundBowParts" prob="0.2"/>
+	<item name="compoundBow" prob="0.15"/>
 </lootcontainer>
 
 <!-- bookstore shipping crate -->
