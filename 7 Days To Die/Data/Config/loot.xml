@@ -505,14 +505,9 @@
 </lootgroup>
 
 <lootgroup name="skirtsAndShoes">
+	<item group="skirtsAll"/>
 	<item name="runningShoes"/>
 	<item name="tshirtZUWhite"/>
-	<item name="skirt"/>
-	<item name="skirtRed"/>
-	<item name="skirtBrown"/>
-	<item name="skirtGreen"/>
-	<item name="skirtBlue"/>
-	<item name="skirtBlack"/>
 </lootgroup>
 
 <lootgroup name="denimShortsPantsAll">
@@ -2177,7 +2172,7 @@
 	<item group="seeds"/>
 	<item name="beer"/>
 	<item group="weaponsCompoundBowParts" prob="0.2"/>
-	<item name="compoundBow" prob="0.15"/>
+	<item name="compoundBow" prob="0.1"/>
 </lootcontainer>
 
 <!-- bookstore shipping crate -->
