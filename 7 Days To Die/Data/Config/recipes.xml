@@ -1609,7 +1609,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="yuccaFibers" count="1"/>
 	</recipe>
 	<recipe name="Compost" count="1" craft_time = "4" craft_exp_gain="0" >
-		<ingredient name="shamSandwich" count="2"/>
+		<ingredient name="shamSandwich" count="1"/>
 		<ingredient name="yuccaFibers" count="1"/>
 	</recipe>
 	<recipe name="Compost" count="1" craft_time = "4" craft_exp_gain="0" >
