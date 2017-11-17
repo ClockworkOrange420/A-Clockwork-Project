@@ -10730,7 +10730,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_stamina" value="5"/>
 			<property name="Gain_food" value="0"/>
-			<property name="Gain_water" value="10"/>
+			<property name="Gain_water" value="20"/>
 			<property name="Gain_sickness" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_drinking"/>
