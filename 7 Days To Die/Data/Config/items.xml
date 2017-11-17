@@ -2940,7 +2940,7 @@
 		<property name="PartType" value="Barrel"/>
 		<property name="Weight" value="10"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="20,30"/>
+			<property name="EntityDamage" value="20,40"/>
 			<property name="BlockDamage" value="7,13"/>
 			<property name="DegradationMax" value="1000,1000"/>
 		</property>
@@ -2952,7 +2952,7 @@
 		<property name="PartType" value="Barrel"/>
 		<property name="Weight" value="25"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="18,28"/>
+			<property name="EntityDamage" value="15,35"/>
 			<property name="BlockDamage" value="6,10"/>
 			<property name="DegradationMax" value="1000,1000"/>
 		</property>
@@ -2998,7 +2998,7 @@
 		<property name="PartType" value="Barrel"/>
 		<property name="Weight" value="20"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="30,40"/>
+			<property name="EntityDamage" value="30,60"/>
 			<property name="BlockDamage" value="14,24"/>
 			<property name="DegradationMax" value="3000,3000"/>
 		</property>
@@ -3116,7 +3116,7 @@
 		<property name="PartType" value="Barrel"/>
 		<property name="Weight" value="25"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="20,30"/>
+			<property name="EntityDamage" value="20,40"/>
 			<property name="BlockDamage" value="3,5"/>
 			<property name="DegradationMax" value="3000,3000"/>
 		</property>
@@ -3163,7 +3163,7 @@
 		<property name="PartType" value="Barrel"/>
 		<property name="Weight" value="35"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="30,40"/>
+			<property name="EntityDamage" value="30,60"/>
 			<property name="BlockDamage" value="5,9.5"/>
 			<property name="DegradationMax" value="5000,5000"/>
 		</property>
@@ -3209,7 +3209,7 @@
 		<property name="PartType" value="Barrel"/>
 		<property name="Weight" value="35"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="30,40"/>
+			<property name="EntityDamage" value="30,60"/>
 			<property name="BlockDamage" value="8,14"/>
 			<property name="DegradationMax" value="2000,2000"/>
 		</property>
@@ -3255,7 +3255,7 @@
 		<property name="PartType" value="Barrel"/>
 		<property name="Weight" value="40"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="35,50"/>
+			<property name="EntityDamage" value="40,80"/>
 			<property name="BlockDamage" value="8,14"/>
 			<property name="DegradationMax" value="5000,5000"/>
 		</property>
