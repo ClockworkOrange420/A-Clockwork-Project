@@ -1799,8 +1799,8 @@
 <!-- gun safe -->
 <lootcontainer id="42" count="2,6" size="5,8" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="baseTemplate">
 	<item group="weaponsBasicGuns+ammo"/>
-	<item group="weaponsMilitaryGuns+ammo"/>
 	<item group="weaponsMilitaryParts"/>
+	<item group="weaponsMagnumParts"/>
 	<item name="oldCash" count="10,45" prob="0.03"/>
 </lootcontainer>
 
