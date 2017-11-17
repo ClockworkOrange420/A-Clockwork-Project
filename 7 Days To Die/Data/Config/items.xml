@@ -1074,7 +1074,7 @@
 			<property name="Zoom_max_in" value="40"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="4,6"/>
+			<property name="EntityDamage" value="4,7"/>
 			<property name="BlockDamage" value="1.6,5"/>
 			<property name="FalloffRange" value="15,25"/>
 			<property name="DegradationMax" value="1000,1000"/>
@@ -2394,7 +2394,7 @@
 		<property name="EconomicValue" value="17"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="5,10"/>
+			<property name="EntityDamage" value="4,8"/>
 			<property name="BlockDamage" value="4,9"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
@@ -2409,7 +2409,7 @@
 		<property name="EconomicValue" value="56"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="60,125"/>
+			<property name="EntityDamage" value="45,100"/>
 			<property name="BlockDamage" value="40,60"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
