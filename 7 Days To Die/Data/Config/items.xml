@@ -1048,7 +1048,7 @@
 			<!-- 49 -->
 			<property name="Magazine_size" value="1"/>
 			<property name="Magazine_items" value="blunderbussAmmo, Unload"/>
-			<property name="Magazine_item_ray_counts" value="10, 1"/>
+			<property name="Magazine_item_ray_counts" value="9, 1"/>
 			<property name="Magazine_item_ray_spreads" value="0.74, 0"/>
 			<!-- .74 -->
 			<property name="Reload_time" value="3.9"/>
@@ -1074,7 +1074,7 @@
 			<property name="Zoom_max_in" value="40"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="4,7"/>
+			<property name="EntityDamage" value="3,5"/>
 			<property name="BlockDamage" value="1.6,5"/>
 			<property name="FalloffRange" value="15,25"/>
 			<property name="DegradationMax" value="1000,1000"/>
@@ -2394,8 +2394,8 @@
 		<property name="EconomicValue" value="17"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="4,8"/>
-			<property name="BlockDamage" value="4,9"/>
+			<property name="EntityDamage" value="4,6"/>
+			<property name="BlockDamage" value="4,6"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 		<property name="Group" value="Ammo/Weapons"/>
@@ -2409,7 +2409,7 @@
 		<property name="EconomicValue" value="56"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="45,100"/>
+			<property name="EntityDamage" value="50,70"/>
 			<property name="BlockDamage" value="40,60"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
@@ -2998,7 +2998,7 @@
 		<property name="PartType" value="Barrel"/>
 		<property name="Weight" value="20"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="30,40"/>
+			<property name="EntityDamage" value="40,50"/>
 			<property name="BlockDamage" value="14,24"/>
 			<property name="DegradationMax" value="3000,3000"/>
 		</property>
@@ -3209,7 +3209,7 @@
 		<property name="PartType" value="Barrel"/>
 		<property name="Weight" value="35"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="30,40"/>
+			<property name="EntityDamage" value="40,50"/>
 			<property name="BlockDamage" value="8,14"/>
 			<property name="DegradationMax" value="2000,2000"/>
 		</property>
@@ -3255,7 +3255,7 @@
 		<property name="PartType" value="Barrel"/>
 		<property name="Weight" value="40"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="35,50"/>
+			<property name="EntityDamage" value="40,60"/>
 			<property name="BlockDamage" value="8,14"/>
 			<property name="DegradationMax" value="5000,5000"/>
 		</property>
