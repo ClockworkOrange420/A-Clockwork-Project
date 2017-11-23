@@ -237,7 +237,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 	</block>
 	<block id="15" name="asphalt">
 		<property name="Material" value="Mconcrete"/>
-		<property name="MaxDamage" value="1500"/>
+		<property name="MaxDamage" value="1000"/>
 		<property name="Shape" value="Terrain"/>
 		<property name="Mesh" value="terrain"/>
 		<property name="Texture" value="10"/>
@@ -248,6 +248,12 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="crushedSand" value="5"/>
 			<property name="rockSmall" value="10"/>
 			<property name="oilShale" value="5"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="pouredConcreteMaster"/>
+			<property name="Item" value="concreteMix"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<drop event="Harvest" name="crushedSand" count="5" tool_category="Harvest"/>
 		<drop event="Harvest" name="rockSmall" count="5" tool_category="Harvest"/>
@@ -17239,6 +17245,12 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="crushedSand" value="5"/>
 			<property name="rockSmall" value="10"/>
 			<property name="oilShale" value="5"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="pouredConcreteMaster"/>
+			<property name="Item" value="concreteMix"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<drop event="Harvest" name="crushedSand" count="5" tool_category="Harvest"/>
 		<drop event="Harvest" name="rockSmall" count="3" tool_category="Harvest"/>
