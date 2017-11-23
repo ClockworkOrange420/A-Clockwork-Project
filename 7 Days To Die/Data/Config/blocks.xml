@@ -17240,7 +17240,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 	<block id="954" name="asphalt2">
 		<property name="Material" value="Mconcrete"/>
 		<property name="CustomIcon" value="asphalt"/>
-		<property name="MaxDamage" value="1500"/>
+		<property name="MaxDamage" value="1000"/>
 		<property name="Shape" value="Terrain"/>
 		<property name="Mesh" value="terrain"/>
 		<property name="Texture" value="10"/>
