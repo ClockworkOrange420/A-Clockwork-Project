@@ -250,7 +250,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="oilShale" value="5"/>
 		</property>
 		<property class="UpgradeBlock">
-			<property name="ToBlock" value="pouredConcreteMaster"/>
+			<property name="ToBlock" value="pouredConcreteBlock"/>
 			<property name="Item" value="concreteMix"/>
 			<property name="ItemCount" value="10"/>
 			<property name="UpgradeHitCount" value="4"/>
@@ -651,6 +651,12 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Map.Color" value="204,177,131"/>
 		<property class="RepairItems">
 			<property name="concreteMix" value="10"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="pouredRConcreteBlock"/>
+			<property name="Item" value="concreteMix"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="Group" value="Building"/>
 		<drop event="Harvest" name="rockSmall" count="10" tool_category="Harvest"/>
@@ -17247,7 +17253,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="oilShale" value="5"/>
 		</property>
 		<property class="UpgradeBlock">
-			<property name="ToBlock" value="pouredConcreteMaster"/>
+			<property name="ToBlock" value="pouredConcreteBlock"/>
 			<property name="Item" value="concreteMix"/>
 			<property name="ItemCount" value="10"/>
 			<property name="UpgradeHitCount" value="4"/>
