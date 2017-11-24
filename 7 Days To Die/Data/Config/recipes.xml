@@ -3058,12 +3058,12 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="glue" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="omnigel" count="10" craft_time = "120" craft_exp_gain="268" craft_area="chemistryStation" craft_tool="beaker" >
-		<ingredient name="potato" count="4"/>
-		<ingredient name="blueberries" count="4"/>
-		<ingredient name="mushrooms" count="4"/>
-		<ingredient name="Wheat" count="4"/>
-		<ingredient name="Tomato" count="4"/>
+	<recipe name="omnigel" count="50" craft_time = "120" craft_exp_gain="268" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="potato" count="5"/>
+		<ingredient name="blueberries" count="5"/>
+		<ingredient name="mushrooms" count="5"/>
+		<ingredient name="Wheat" count="5"/>
+		<ingredient name="Tomato" count="5"/>
 	</recipe>
 	<recipe name="omnigel" count="1" craft_time = "12" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="rockSmall" count="100"/>
