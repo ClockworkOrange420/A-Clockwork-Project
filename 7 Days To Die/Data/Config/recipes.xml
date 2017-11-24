@@ -3058,18 +3058,18 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="glue" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="omnigel" count="100" craft_time = "120" craft_exp_gain="268" craft_area="chemistryStation" craft_tool="beaker" >
+	<recipe name="omnigel" count="10" craft_time = "120" craft_exp_gain="268" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="potato" count="4"/>
 		<ingredient name="blueberries" count="4"/>
 		<ingredient name="mushrooms" count="4"/>
 		<ingredient name="Wheat" count="4"/>
 		<ingredient name="Tomato" count="4"/>
 	</recipe>
-	<recipe name="omnigel" count="1" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
+	<recipe name="omnigel" count="1" craft_time = "12" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="rockSmall" count="100"/>
 	</recipe>
-	<recipe name="omnigel" count="1" craft_time = "4" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
-		<ingredient name="femur" count="25"/>
+	<recipe name="omnigel" count="1" craft_time = "12" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="femur" count="2"/>
 	</recipe>
 	<recipe name="Compost" count="1" craft_time = "4" craft_exp_gain="0" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="rottingFlesh" count="2"/>
