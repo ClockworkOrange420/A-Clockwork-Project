@@ -7341,7 +7341,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="20"/>
 			<property name="Gain_stamina" value="40"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.05"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="extinguishFireBuff"/>
 			<property name="Debuff" value="dysentery"/>
@@ -7364,7 +7364,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="20"/>
 			<property name="Gain_stamina" value="40"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.05"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="redTeaCooling,extinguishFireBuff"/>
 			<property name="Debuff" value="dysentery"/>
