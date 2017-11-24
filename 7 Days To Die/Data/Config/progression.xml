@@ -3,7 +3,7 @@
 <progression>
 <player
 	max_level="200"
-	exp_to_level="11000"
+	exp_to_level="10500"
 	experience_multiplier="1"
 	skill_points_per_level="8"
 	skill_point_multiplier="0"/>
@@ -29,7 +29,7 @@
 		</effect>
 	</player_skill>
 
-	<player_skill name="Scavenging" skill_point_cost_per_level="0" icon="loot_sack" description_key="scavengingDesc" title_key="scavenging" group="scavenging">
+	<player_skill name="Scavenging" exp_to_level="500" skill_point_cost_per_level="0" icon="loot_sack" description_key="scavengingDesc" title_key="scavenging" group="scavenging">
 		<effect name="LootTime">
 			<multiply skill_level="1,100" value="1,0.25"/>
 		</effect>
@@ -38,18 +38,18 @@
 		</effect>
 	</player_skill>
 	
-	<player_skill name="Barter" skill_point_cost_per_level="0" icon="coin" description_key="barterDesc" title_key="barter" group="scavenging">
+	<player_skill name="Barter" exp_to_level="500" skill_point_cost_per_level="5" icon="coin" description_key="barterDesc" title_key="barter" group="scavenging">
 		<effect name="Bartering">
-			<add skill_level="1,10" value="0.00,0.03"/>
-			<add skill_level="10,20" value="0.03,0.06"/>
-			<add skill_level="20,30" value="0.06,0.09"/>
-			<add skill_level="30,40" value="0.09,0.12"/>
-			<add skill_level="40,50" value="0.12,0.15"/>
-			<add skill_level="50,60" value="0.15,0.18"/>
-			<add skill_level="60,70" value="0.18,0.21"/>
-			<add skill_level="70,80" value="0.21,0.24"/>
-			<add skill_level="80,90" value="0.24,0.27"/>
-			<add skill_level="90,100" value="0.27,0.30"/>
+			<add skill_level="1,10" value="0.00,0.06"/>
+			<add skill_level="10,20" value="0.06,0.12"/>
+			<add skill_level="20,30" value="0.12,0.18"/>
+			<add skill_level="30,40" value="0.18,0.24"/>
+			<add skill_level="40,50" value="0.24,0.30"/>
+			<add skill_level="50,60" value="0.30,0.36"/>
+			<add skill_level="60,70" value="0.36,0.42"/>
+			<add skill_level="70,80" value="0.42,0.48"/>
+			<add skill_level="80,90" value="0.48,0.54"/>
+			<add skill_level="90,100" value="0.54,0.60"/>
 		</effect>
 	</player_skill>
 	
