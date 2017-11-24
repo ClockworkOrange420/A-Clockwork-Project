@@ -794,7 +794,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="potassiumNitratePowder" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="anvil" count="1" craft_time = "60" craft_exp_gain="200" craft_area="forge" material_based="true" >
+	<recipe name="anvil" count="1" craft_time = "60" craft_exp_gain="134" craft_area="forge" material_based="true" >
 		<ingredient name="unit_iron" count="200"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
@@ -3058,7 +3058,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="glue" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="omnigel" count="100" craft_time = "12" craft_exp_gain="40" craft_area="chemistryStation" craft_tool="beaker" >
+	<recipe name="omnigel" count="100" craft_time = "120" craft_exp_gain="268" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="potato" count="4"/>
 		<ingredient name="blueberries" count="4"/>
 		<ingredient name="mushrooms" count="4"/>
@@ -3864,7 +3864,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="electricParts" count="5"/>
 		<ingredient name="electronicParts" count="5"/>
 	</recipe>
-	<recipe name="smallEngine" count="1" craft_time = "60" craft_exp_gain="200" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="smallEngine" count="1" craft_time = "60" craft_exp_gain="134" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="400"/>
 		<ingredient name="mechanicalParts" count="6"/>
 		<ingredient name="spring" count="6"/>
