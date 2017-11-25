@@ -1632,6 +1632,9 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="foodYuccaFruit" count="1"/>
 		<ingredient name="yuccaFibers" count="1"/>
 	</recipe>
+	<recipe name="Compost" count="1" craft_time = "4" craft_exp_gain="0" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="rottingFlesh" count="2"/>
+	</recipe>
 	<recipe name="Remote" count="1" craft_time = "12" craft_exp_gain="40" craft_area="Smithing_Table" craft_tool="wrench" >
 		<ingredient name="scrapPlastics" count="5" />
 		<ingredient name="electronicParts" count="3" />
@@ -3058,21 +3061,27 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="glue" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="omnigel" count="50" craft_time = "120" craft_exp_gain="268" craft_area="chemistryStation" craft_tool="beaker" >
+	<recipe name="omnigel" count="50" craft_time = "300" craft_exp_gain="250" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="potato" count="5"/>
 		<ingredient name="blueberries" count="5"/>
 		<ingredient name="mushrooms" count="5"/>
 		<ingredient name="Wheat" count="5"/>
 		<ingredient name="Tomato" count="5"/>
 	</recipe>
-	<recipe name="omnigel" count="1" craft_time = "12" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
-		<ingredient name="rockSmall" count="100"/>
+	<recipe name="omnigel" count="10" craft_time = "60" craft_exp_gain="50" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="scrapIron" count="100"/>
 	</recipe>
-	<recipe name="omnigel" count="1" craft_time = "12" craft_exp_gain="14" craft_area="chemistryStation" craft_tool="beaker" >
-		<ingredient name="femur" count="2"/>
+	<recipe name="omnigel" count="10" craft_time = "60" craft_exp_gain="50" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="scrapLead" count="100"/>
 	</recipe>
-	<recipe name="Compost" count="1" craft_time = "4" craft_exp_gain="0" craft_area="chemistryStation" craft_tool="beaker" >
-		<ingredient name="rottingFlesh" count="2"/>
+	<recipe name="omnigel" count="10" craft_time = "60" craft_exp_gain="50" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="scrapBrass" count="100"/>
+	</recipe>
+	<recipe name="omnigel" count="10" craft_time = "60" craft_exp_gain="50" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="scrapPlastics" count="100"/>
+	</recipe>
+	<recipe name="omnigel" count="10" craft_time = "60" craft_exp_gain="50" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="femur" count="100"/>
 	</recipe>
 	<recipe name="oilShale" count="100" craft_time = "12" craft_exp_gain="40" craft_area="chemistryStation" >
 		<ingredient name="omnigel" count="10"/>
