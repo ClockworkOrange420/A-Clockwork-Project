@@ -294,13 +294,13 @@ If you do not declare them, the decorations of the main biome are used.
 		<weather>
 			<Temperature min="-35" max="5" prob="1"/>
 			<Fog min="0" max="0" prob="0.9"/>
-			<Fog min="10" max="30" prob="0.1"/>
+			<Fog min="10" max="10" prob="0.1"/>
 			<CloudThickness min="0" max="0" prob="0.2"/>
-			<CloudThickness min="10" max="70" prob="0.5"/>
-			<CloudThickness min="100" max="100" prob="0.3"/>
-			<Precipitation min="0" max="0" prob="0.0"/>
+			<CloudThickness min="10" max="50" prob="0.5"/>
+			<CloudThickness min="70" max="100" prob="0.3"/>
+			<Precipitation min="0" max="0" prob="0.75"/>
 			<!-- it has to be at least 70% cloudy before it can rain removing this second chance for it to not rain since it never rains any more-->
-			<Precipitation min="50" max="100" prob="0.75"/>
+			<Precipitation min="50" max="100" prob="0.25"/>
 			<Wind min="10" max="20" prob="0.9"/>
 			<Wind min="20" max="100" prob="0.1"/>
 		</weather>
@@ -556,12 +556,12 @@ If you do not declare them, the decorations of the main biome are used.
 		<weather>
 			<Temperature min="-50" max="-10" prob="1"/>
 			<Fog min="0" max="0" prob="0.9"/>
-			<Fog min="10" max="30" prob="0.1"/>
+			<Fog min="10" max="10" prob="0.1"/>
 			<CloudThickness min="0" max="0" prob="0.2"/>
-			<CloudThickness min="10" max="70" prob="0.5"/>
-			<CloudThickness min="100" max="100" prob="0.3"/>
-			<Precipitation min="0" max="0" prob="0.0"/>
-			<Precipitation min="50" max="100" prob="0.75"/>
+			<CloudThickness min="10" max="50" prob="0.5"/>
+			<CloudThickness min="70" max="100" prob="0.3"/>
+			<Precipitation min="0" max="0" prob="0.75"/>
+			<Precipitation min="50" max="100" prob="0.25"/>
 			<Wind min="10" max="20" prob="0.9"/>
 			<Wind min="20" max="100" prob="0.1"/>
 		</weather>
@@ -757,7 +757,7 @@ If you do not declare them, the decorations of the main biome are used.
 		<weather>
 			<Temperature min="-5" max="-10" prob="1"/>
 			<Fog min="0" max="0" prob="0.9"/>
-			<Fog min="10" max="30" prob="0.1"/>
+			<Fog min="10" max="10" prob="0.1"/>
 			<CloudThickness min="0" max="0" prob="0.2"/>
 			<CloudThickness min="10" max="70" prob="0.5"/>
 			<CloudThickness min="100" max="100" prob="0.3"/>
@@ -1157,7 +1157,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<Temperature min="0" max="10" prob="1"/>
 			<CloudThickness min="5" max="50" prob="1"/>
 			<Fog min="0" max="0" prob="0.9"/>
-			<Fog min="10" max="30" prob="0.1"/>
+			<Fog min="10" max="10" prob="0.1"/>
 			<CloudThickness min="0" max="0" prob="0.3"/>
 			<CloudThickness min="10" max="70" prob="0.6"/>
 			<CloudThickness min="100" max="100" prob="0.1"/>
@@ -1324,7 +1324,7 @@ If you do not declare them, the decorations of the main biome are used.
 		<weather>
 			<Temperature min="-40" max="40" prob="1"/>
 			<Fog min="0" max="0" prob="0.8"/>
-			<Fog min="10" max="40" prob="0.2"/>
+			<Fog min="10" max="30" prob="0.2"/>
 			<CloudThickness min="0" max="0" prob="0.2"/>
 			<CloudThickness min="10" max="70" prob="0.5"/>
 			<CloudThickness min="100" max="100" prob="0.3"/>
@@ -1877,7 +1877,7 @@ If you do not declare them, the decorations of the main biome are used.
 		<weather>
 			<Temperature min="-15" max="15" prob="1"/>
 			<Fog min="0" max="0" prob="0.9"/>
-			<Fog min="10" max="30" prob="0.1"/>
+			<Fog min="10" max="10" prob="0.1"/>
 			<CloudThickness min="0" max="0" prob="0.2"/>
 			<CloudThickness min="10" max="70" prob="0.5"/>
 			<CloudThickness min="100" max="100" prob="0.3"/>
@@ -1949,7 +1949,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<biome name="city_wasteland" biomemapcolor="#c0c0c0" >
 		<weather>
 			<Temperature min="5" max="15" prob="1"/>
-			<Fog min="10" max="40" prob="1"/>
+			<Fog min="10" max="10" prob="1"/>
 			<CloudThickness min="10" max="70" prob="0.1"/>
 			<CloudThickness min="70" max="100" prob="0.9"/>
 			<Precipitation min="100" max="100" prob="1"/>
@@ -2021,7 +2021,7 @@ If you do not declare them, the decorations of the main biome are used.
 		<weather>
 			<Temperature min="5" max="15" prob="1"/>
 			<Fog min="0" max="0" prob="0.8"/>
-			<Fog min="10" max="30" prob="0.2"/>
+			<Fog min="10" max="10" prob="0.2"/>
 			<CloudThickness min="0" max="0" prob="0.2"/>
 			<CloudThickness min="10" max="70" prob="0.5"/>
 			<CloudThickness min="100" max="100" prob="0.3"/>
