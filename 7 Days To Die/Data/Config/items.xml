@@ -1753,7 +1753,7 @@
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="8,19"/>
-			<property name="BlockDamage" value="20,25"/>
+			<property name="BlockDamage" value="25,30"/>
 			<!-- dirt blocks have up to 250 hp; skills + perks up to x4 the damage  -->
 			<property name="DegradationMax" value="1000,1000"/>
 			<property name="DegradationRate" value="5,2"/>
@@ -1780,7 +1780,7 @@
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="8,19"/>
-			<property name="BlockDamage" value="25,30"/>
+			<property name="BlockDamage" value="35,40"/>
 			<property name="DegradationMax" value="4000,4000"/>
 			<property name="DegradationRate" value="15,6"/>
 		</property>
