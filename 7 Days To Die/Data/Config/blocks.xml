@@ -463,7 +463,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Texture" value="308"/>
 		<property name="DropScale" value="2"/>
 		<property name="LPHardnessScale" value="2"/>
-		<property name="CanPickup" value="true"/>
 		<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="hardSod"/>
 		<property name="UpgradeRated.Rate" value="6"/>
