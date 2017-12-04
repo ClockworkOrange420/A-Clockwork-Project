@@ -4171,9 +4171,6 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="BuffsWhenWalkedOn" value="bleeding"/>
-		<property class="RepairItems">
-			<property name="wood" value="1"/>
-		</property>
 		<property name="DowngradeBlock" value="trapSpikesDamage1"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
