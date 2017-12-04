@@ -4183,47 +4183,25 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="trapSpikesNew"/>
 		<property name="Model" value="Traps/trap_spikes01_damage01" param1="main_mesh"/>
 		<property name="DowngradeBlock" value="trapSpikesDamage2"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="trapSpikesNew"/>
-			<property name="Item" value="wood"/>
-			<property name="ItemCount" value="5"/>
-			<property name="UpgradeHitCount" value="4"/>
-		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 	</block>
 	<block id="410" name="trapSpikesDamage2">
 		<property name="Extends" value="trapSpikesDamage1"/>
 		<property name="Model" value="Traps/trap_spikes01_damage02" param1="main_mesh"/>
 		<property name="DowngradeBlock" value="trapSpikesDamage3"/>
-		<property class="UpgradeBlock">
-			<property name="ItemCount" value="10"/>
-			<property name="ToBlock" value="trapSpikesNew"/>
-		</property>
 	</block>
 	<block id="411" name="trapSpikesDamage3">
 		<property name="Extends" value="trapSpikesDamage1"/>
 		<property name="Model" value="Traps/trap_spikes01_damage03" param1="main_mesh"/>
 		<property name="DowngradeBlock" value="trapSpikesDamage4"/>
-		<property class="UpgradeBlock">
-			<property name="ItemCount" value="15"/>
-			<property name="ToBlock" value="trapSpikesNew"/>
-		</property>
 	</block>
 	<block id="412" name="trapSpikesDamage4">
 		<property name="Extends" value="trapSpikesDamage1" param1="DowngradeBlock"/>
 		<property name="Model" value="Traps/trap_spikes01_damage04" param1="main_mesh"/>
-		<property class="UpgradeBlock">
-			<property name="ItemCount" value="20"/>
-			<property name="ToBlock" value="trapSpikesNew"/>
-		</property>
 	</block>
 	<block id="413" name="trapSpikesDamage5">
 		<property name="Extends" value="trapSpikesDamage1" param1="DowngradeBlock"/>
 		<property name="Model" value="Traps/trap_spikes01_damage04" param1="main_mesh"/>
-		<property class="UpgradeBlock">
-			<property name="ItemCount" value="15"/>
-			<property name="ToBlock" value="trapSpikesNew"/>
-		</property>
 	</block>
 	<block id="414" name="steelBlock">
 		<property name="Extends" value="steelMaster"/>
