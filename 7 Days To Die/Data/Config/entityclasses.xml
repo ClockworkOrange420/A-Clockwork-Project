@@ -1654,12 +1654,60 @@
 	<drop event="Destroy" name="femur" tool_category="Butcher" count="4" />
 </entity_class>
 
-<entity_class name="animalZombieBear" extends="animalBear">
+<entity_class name="animalZombieBear" extends="animalTemplateHostile">
 	<property name="EntityType" value="Zombie"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="HasRagdoll" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="RootMotion" value="true"/>
+	<property name="RagdollOnDeathChance" value=".5"/>
+	<property name="PhysicsBody" value="bear"/>
+	<property name="Mesh" value="Animals/Bear/animalBearStandardRagdoll"/>
 	<property name="MaxHealth" value="2400"/>
-	<property name="ExperienceGain" value="1200"/>
 	<property name="HandItem" value="handAnimalZombieBear"/>
 	<property name="ReplaceMaterial0" value="Materials/UMAFur_ZombieBear"/>
+	<property class="MechanimAttackTriggers">
+		<property name="state0" value="AttackTrigger"/>
+	</property>
+	<property class="MechanimAttackStates">
+		<property name="state0" value="Base Layer.Attack"/>
+	</property>
+	<property class="MechanimPainTriggers">
+		<property name="state0" value="PainTrigger"/>
+	</property>
+	<property class="MechanimPainStates">
+		<property name="state0" value="Base Layer.Pain"/>
+	</property>
+	<property class="MechanimDeathTriggers">
+		<property name="state0" value="DeathTrigger"/>
+	</property>
+	<property class="MechanimDeathStates">
+		<property name="state0" value="Base Layer.Death"/>
+	</property>
+	<property name="AITask-1" value="Swim"/>
+	<property name="AITask-2" value="BreakDoor"/>
+	<property name="AITask-3" value="BreakBlock"/>
+	<property name="AITask-4" value="Territorial"/>
+	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="40"/>
+	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="25"/>
+	<property name="AITask-7" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="30"/>
+	<property name="AITask-8" value="ApproachSpot"/>
+	<property name="AITask-9" value="Wander"/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+	<property name="AITarget-2" value="BlockingTargetTask"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityPlayer" param2="8"/>
+	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityPlayer"/>
+	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityPlayer"/>
+	<property name="SoundHurt" value="Animals/Bear/bearpain"/>
+	<property name="SoundDeath" value="Animals/Bear/beardeath"/>
+	<property name="SoundRandom" value="Animals/Bear/bearroam"/>
+	<property name="SoundSense" value="Animals/Bear/bearsense"/>
+	<property name="SoundAlert" value="Animals/Bear/bearalert"/>
+	<property name="SoundAttack" value="Animals/Bear/bearattack"/>
+	<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
+	<property name="SoundGiveUp" value="Animals/Bear/beargiveup"/>
+	<property name="ExperienceGain" value="1200"/>
 	<property name="DeadBodyHitPoints" value="600"/>
 	<property name="Immunity" value="sickness;disease;bleeding;wellness;staminadown;healthdown"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="6" />
