@@ -2506,7 +2506,7 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="forestGround" count="1" craft_time = "4" craft_exp_gain="9" >
 		<ingredient name="dirtFragment" count="40"/>
 	</recipe>
-	<recipe name="sod" count="1" craft_time = "4" craft_exp_gain="9" >
+	<recipe name="sod" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" >
 		<ingredient name="dirtFragment" count="20"/>
 	</recipe>
 	<recipe name="gravel" count="1" craft_time = "4" craft_exp_gain="9" craft_area="cementMixer" >
