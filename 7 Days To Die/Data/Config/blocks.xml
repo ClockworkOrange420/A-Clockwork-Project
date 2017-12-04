@@ -9095,8 +9095,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Collide" value="melee"/>
 		<property name="CanDecorateOnSlopes" value="true"/>
 		<property name="IsTerrainDecoration" value="true"/>
-		<property name="PlantGrowing.Next" value="treeTallGrassDiagonal"/>
-		<property name="PlantGrowing.GrowthRate" value="5"/>
+		<property name="PlantGrowing.Next" value="treeTallGrassDiagonal_Player"/>
+		<property name="PlantGrowing.GrowthRate" value="60"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<drop event="Destroy" name="yuccaFibers" count="1" tool_category="Harvest"/>
@@ -16642,7 +16642,12 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CustomIcon" value="dirt"/>
 		<property name="CanMobsSpawnOn" value="false"/>
 	</block>
-	<!--Free 99-->
+	<block id="99" name="treeTallGrassDiagonal_Player">
+		<property name="Extends" value="treeGrassMaster" param1="CustomIcon"/>
+		<property name="Class" value="Tallgrass"/>
+		<property name="Texture" value="39,40,364,365,39,364"/>
+		<property name="DowngradeBlock" value="treePlantedGrass"/>
+	</block>
 	<block id="100" name="trapSteelFireSpike">
 		<property name="Class" value="Damage"/>
 		<property name="MaxDamage" value="2"/>
