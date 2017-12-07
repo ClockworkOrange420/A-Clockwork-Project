@@ -17612,6 +17612,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="snowberry3Harvest"/>
 		<property name="Texture" value="568"/>
+		<property name="DowngradeBlock" value="plantedSnowberry1"/>
 		<drop event="Harvest" name="snowberryPlant" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="snowberryPlant" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
@@ -17645,6 +17646,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="forestFlower"/>
 		<property name="Texture" value="567"/>
+		<property name="DowngradeBlock" value="plantedForestFlower1"/>
 		<drop event="Harvest" name="forestFlowerPlant" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="forestFlowerPlant" count="1" prob="0.25" tool_category="Crops"/>
 	</block>
