@@ -3472,7 +3472,7 @@
 	</item>
 	<item id="276" name="partsNailgun_frame">
 		<property name="Extends" value="partsMaster"/>
-		<property name="DescriptionKey" value="partsNailgunGroupDesc"/>
+		<property name="DescriptionKey" value="partsNailgun_frameDesc"/>
 		<property name="PartType" value="Stock"/>
 		<property name="Material" value="Mplastics"/>
 		<property name="Weight" value="10"/>

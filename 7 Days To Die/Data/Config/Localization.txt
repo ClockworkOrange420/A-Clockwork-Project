@@ -3919,6 +3919,7 @@ partsCompoundBow_stringDesc,items,Part,New,Compound Bow String.\n [ Crafted in T
 partsCompoundBowGroupDesc,items,Part,New,A part of a compound bow. Assemble with other parts to create a complete compound bow once you've unlocked the compound bow.\n [ Crafted in Smithing Table with a Mold. ],,"Ein Teil eines Compoundbogens. Setze es mit den anderen Teilen zu einem Compoundbogens zusammen, wenn du das Buch „Compoundbogen“ gelesen hast.",,
 partsNailgun_battery,items,Part,New,Rechargeable Battery,,,,
 partsNailgun_frame,items,Part,New,Nailgun Frame,,,,
+partsNailgun_frameDesc,items,Part,New,A part of the nailgun. Assemble with other parts to create a complete nailgun once you've unlocked the perk.\n [ Crafted in Smithing Table with a Mold. ],,,,
 partsNailgun_parts,items,Part,New,Nailgun Parts,,,,
 partsNailgun_receiver,items,Part,New,Nailgun Receiver,,,,
 partsNailgunGroupDesc,items,Part,New,A part of the nailgun. Assemble with other parts to create a complete nailgun once you've unlocked the perk.\n [ Crafted in Forge with a Mold. ],,,,
