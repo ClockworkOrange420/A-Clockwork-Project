@@ -5145,9 +5145,17 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="PickupJournalEntry" value="farmingTip"/>
 	</block>
 	<block id="531" name="plantedMushroom2">
-		<property name="Extends" value="plantedMushroom1"/>
-		<property name="CreativeMode" value="Dev"/>
+		<property name="Material" value="Mmushrooms"/>
+		<property name="LightOpacity" value="0"/>
+		<property name="Shape" value="Ext3dModel"/>
+		<property name="Texture" value="293"/>
+		<property name="Mesh" value="models"/>
 		<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
+		<property name="MultiBlockDim" value="1,2,1"/>
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="Stacknumber" value="250"/>
+		<property name="HandleFace" value="Bottom"/>
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.Next" value="mushroom3Harvest"/>
 		<property name="PlantGrowing.GrowthRate" value="210"/>
@@ -9031,7 +9039,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 	</block>
 	<block id="901" name="plantedCorn2">
 		<!-- growing, stage 2 -->
-		<property name="Extends" value="plantedCorn1"/>
+		<property name="Extends" value="cropsGrowingMaster"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="plantedCorn3Harvest"/>
 		<property name="Shape" value="New"/>
@@ -9040,6 +9048,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="MultiBlockDim" value="1,3,1"/>
 		<property name="Collide" value="melee"/>
 		<property name="Texture" value="529"/>
+		<property name="Place" value="Door"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="PlantGrowing.Next" value="plantedCorn3Harvest_Player"/>
 		<drop event="Destroy" name="plantedCorn1" count="1" tool_category="Harvest"/>
 	</block>
