@@ -874,7 +874,7 @@ air,blocks,Terrain,KgNone,Air,Air,Luft,,Aire
 asphalt,blocks,Terrain,KgNone,Asphalt,Asphalte,Asphalt,,Asfalto
 asphaltDesc,blocks,Terrain,KgNone,Asphalt is made in a cement mixer and is a common material for building or repairing roads.,L'asphalte se prépare dans une bétonnière et représente un matériau commun pour la construction ou la réparation des routes.,"Asphalt wird in einem Zementmischer hergestellt und dient gewöhnlich dazu, Straßen zu bauen oder zu reparieren.",,El asfalto se hace en un mezclador de cemento y es un material común para construir o reparar carreteras.
 burntForestGround,blocks,Terrain,KgNone,Burnt Forest Ground,Sol de forêt brûlée,Verbrannter Waldboden,,Superficie forestal quemada
-burntForestGroundDesc,blocks,Terrain,KgNone,Replace missing pieces of terrain in the proper shade of soot.,Remplacez les morceaux de terrain manquants par de la suie.,Ersetze fehlende Terrainstücke in der richtigen Rußfarbe.,,Reemplaza las piezas de terreno que falten con el tono de hollín correspondiente.
+burntForestGroundDesc,blocks,Terrain,KgNone,Replace missing pieces of terrain in the proper shade of soot.\n [ Crafted in Workbench. ],Remplacez les morceaux de terrain manquants par de la suie.,Ersetze fehlende Terrainstücke in der richtigen Rußfarbe.,,Reemplaza las piezas de terreno que falten con el tono de hollín correspondiente.
 clay,blocks,Terrain,KgNone,Clay,Argile,Lehm,,Arcilla
 coalOre,blocks,Terrain,KgNone,Coal Ore,Minerai de charbon,Kohlenerz,,Mineral de carbón
 copperOre,blocks,Terrain,KgNone,Copper Ore,Minerai de cuivre,Kupfererz,,Mineral de cobre
@@ -887,9 +887,9 @@ fertileDirtDesc,blocks,Terrain,KgNone,Replace missing pieces of terrain. Eventua
 fertileFarmland,blocks,Terrain,KgNone,Fertile Farmland,Terre cultivable,Fruchtbares Ackerland,,Tierra de cultivo fértil
 fertileGrass,blocks,Terrain,KgNone,Fertile Grass,Herbe fertile,Fruchtbares Gras,,Hierba fértil
 forestGround,blocks,Terrain,KgNone,Forest Ground,Sol de forêt,Waldboden,,Superficie forestal
-forestGroundDesc,blocks,Terrain,KgNone,Replace missing pieces of terrain in the proper shade of green.,Remplacez les morceaux de terrain manquants par de la verdure.,Ersetze fehlende Terrainstücke mit dem richtigen Grünton.,,Reemplaza las piezas de terreno que falten con el tono de césped correspondiente.
+forestGroundDesc,blocks,Terrain,KgNone,Replace missing pieces of terrain in the proper shade of green.\n [ Crafted in Workbench. ],Remplacez les morceaux de terrain manquants par de la verdure.,Ersetze fehlende Terrainstücke mit dem richtigen Grünton.,,Reemplaza las piezas de terreno que falten con el tono de césped correspondiente.
 grass,blocks,Terrain,KgNone,Grassy Ground,Terrain herbeux,Grasboden,,Suelo de hierba
-grassDesc,blocks,Terrain,KgNone,Replace missing pieces of terrain in the proper shade of green.,Remplacez les morceaux de terrain manquants par de la verdure.,Ersetze fehlende Terrainstücke mit dem richtigen Grünton.,,Reemplaza las piezas de terreno que falten con el tono de césped correspondiente.
+grassDesc,blocks,Terrain,KgNone,Replace missing pieces of terrain in the proper shade of green.\n [ Crafted in Workbench. ],Remplacez les morceaux de terrain manquants par de la verdure.,Ersetze fehlende Terrainstücke mit dem richtigen Grünton.,,Reemplaza las piezas de terreno que falten con el tono de césped correspondiente.
 gravel,blocks,Terrain,KgNone,Gravel,Gravier,Kies,,Grava
 gravelDesc,blocks,Terrain,KgNone,This is gravel. Like rocks. Only smaller.\n [ Crafted in Cement Mixer. ],"Ceci est du gravier. C'est comme des cailloux, mais plus petit.",Das ist Kies. Wie Steine. Nur kleiner.,,"Esto es grava. Como rocas, pero más pequeñas."
 hardSod,blocks,Terrain,KgNone,Hard Sod,Motte dure,Hartes Rasenstück,,Césped duro
@@ -898,7 +898,7 @@ ironOre,blocks,Terrain,KgNone,Iron Ore,Minerai de fer,Eisenerz,,Mineral de hierr
 leadOre,blocks,Terrain,KgNone,Lead Ore,Minerai de plomb,Bleierz,,Mineral de plomo
 oilDeposit,blocks,Terrain,KgNone,Oil Deposit,Gisement de pétrole,Ölablagerung,,Depósito de aceite
 plainsGround,blocks,Terrain,KgNone,Plains Ground,Sol de plaine,Ebenenboden,,Llanuras
-plainsGroundDesc,blocks,Terrain,KgNone,Replace missing pieces of terrain in the proper shade of green.,Remplacez les morceaux de terrain manquants par de la verdure.,Ersetze fehlende Terrainstücke mit dem richtigen Grünton.,,Reemplaza las piezas de terreno que falten con el tono de césped correspondiente.
+plainsGroundDesc,blocks,Terrain,KgNone,Replace missing pieces of terrain in the proper shade of green.\n [ Crafted in Workbench. ],Remplacez les morceaux de terrain manquants par de la verdure.,Ersetze fehlende Terrainstücke mit dem richtigen Grünton.,,Reemplaza las piezas de terreno que falten con el tono de césped correspondiente.
 potassiumNitrate,blocks,Terrain,KgNone,Potassium Nitrate,Nitrate de potassium,Kaliumnitrat,,Nitrato de potasio
 radiated,blocks,Terrain,KgNone,Radiated Earth,Terre irradiée,Radioaktive Erde,,Tierra irradiada
 sand,blocks,Terrain,KgNone,Sand,Sable,Sand,,Arena
