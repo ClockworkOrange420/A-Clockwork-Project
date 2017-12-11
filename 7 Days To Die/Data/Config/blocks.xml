@@ -17479,7 +17479,19 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CustomIcon" value="bedroll"/>
 		<property name="DescriptionKey" value="bedrollPlayerDesc"/>
 	</block>
-	<!--Free-->
+	<block id="971" name="grassFromDirt2">
+		<property name="Extends" value="dirt"/>
+		<property name="CustomIcon" value="dirt"/>
+		<property name="CanMobsSpawnOn" value="false"/>
+		<property name="Class" value="PlantGrowing"/>
+		<property name="PlantGrowing.FertileLevel" value="0"/>
+		<property name="PlantGrowing.Next" value="grass"/>
+		<property name="PlantGrowing.GrowthRate" value="10"/>
+		<property name="PlantGrowing.IsRandom" value="true"/>
+		<property name="PlantGrowing.LightLevelStay" value="0"/>
+		<property name="PlantGrowing.GrowIfAnythinOnTop" value="false"/>
+		<property name="DescriptionKey" value="grassFromDirt2Desc"/>
+	</block>
 	<block id="972" name="plantedSoy1">
 		<property name="Extends" value="cropsGrowingMaster"/>
 		<property name="CustomIcon" value="plantedSoy1"/>

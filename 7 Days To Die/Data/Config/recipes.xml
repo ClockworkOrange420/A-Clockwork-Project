@@ -2494,6 +2494,9 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="sand" count="1" craft_time = "4" craft_exp_gain="9" craft_area="cementMixer" >
 		<ingredient name="crushedSand" count="40"/>
 	</recipe>
+	<recipe name="grassFromDirt2" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" >
+		<ingredient name="dirtFragment" count="40"/>
+	</recipe>
 	<recipe name="grass" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" >
 		<ingredient name="dirtFragment" count="40"/>
 	</recipe>
