@@ -17667,7 +17667,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="fertileDirt2"/>
-		<property name="PlantGrowing.GrowthRate" value="1"/>
+		<property name="PlantGrowing.GrowthRate" value="10"/>
 		<property name="PlantGrowing.IsRandom" value="true"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="PlantGrowing.GrowIfAnythinOnTop" value="false"/>
@@ -17679,7 +17679,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="fertileGrass2"/>
-		<property name="PlantGrowing.GrowthRate" value="1"/>
+		<property name="PlantGrowing.GrowthRate" value="10"/>
 		<property name="PlantGrowing.IsRandom" value="true"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="PlantGrowing.GrowIfAnythinOnTop" value="false"/>
@@ -17691,7 +17691,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CustomIcon" value="grass"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="grass"/>
-		<property name="PlantGrowing.GrowthRate" value="1"/>
+		<property name="PlantGrowing.GrowthRate" value="10"/>
 		<property name="PlantGrowing.IsRandom" value="true"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="PlantGrowing.GrowOnTop" value="treeTallGrassDiagonal"/>
