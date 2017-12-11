@@ -17479,19 +17479,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CustomIcon" value="bedroll"/>
 		<property name="DescriptionKey" value="bedrollPlayerDesc"/>
 	</block>
-	<block id="971" name="grassFromDirt2">
-		<property name="Extends" value="dirt"/>
-		<property name="CustomIcon" value="dirt"/>
-		<property name="CanMobsSpawnOn" value="false"/>
-		<property name="Class" value="PlantGrowing"/>
-		<property name="PlantGrowing.FertileLevel" value="0"/>
-		<property name="PlantGrowing.Next" value="grass"/>
-		<property name="PlantGrowing.GrowthRate" value="10"/>
-		<property name="PlantGrowing.IsRandom" value="true"/>
-		<property name="PlantGrowing.LightLevelStay" value="0"/>
-		<property name="PlantGrowing.GrowIfAnythinOnTop" value="false"/>
-		<property name="DescriptionKey" value="grassFromDirt2Desc"/>
-	</block>
+	<!--Free-->
 	<block id="972" name="plantedSoy1">
 		<property name="Extends" value="cropsGrowingMaster"/>
 		<property name="CustomIcon" value="plantedSoy1"/>
@@ -17671,6 +17659,43 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="DowngradeBlock" value="plantedForestFlower1"/>
 		<drop event="Harvest" name="forestFlowerPlant" count="1" tool_category="Crops"/>
 		<drop event="Harvest" name="forestFlowerPlant" count="1" prob="0.25" tool_category="Crops"/>
+	</block>
+	<block id="1014" name="grassFromDirt2">
+		<property name="Extends" value="dirt"/>
+		<property name="CustomIcon" value="dirt"/>
+		<property name="CanMobsSpawnOn" value="false"/>
+		<property name="Class" value="PlantGrowing"/>
+		<property name="PlantGrowing.FertileLevel" value="0"/>
+		<property name="PlantGrowing.Next" value="fertileDirt2"/>
+		<property name="PlantGrowing.GrowthRate" value="1"/>
+		<property name="PlantGrowing.IsRandom" value="true"/>
+		<property name="PlantGrowing.LightLevelStay" value="0"/>
+		<property name="PlantGrowing.GrowIfAnythinOnTop" value="false"/>
+		<property name="DescriptionKey" value="grassFromDirt2Desc"/>
+	</block>
+	<block id="1015" name="fertileDirt2">
+		<property name="Extends" value="dirt"/>
+		<property name="CanMobsSpawnOn" value="false"/>
+		<property name="Class" value="PlantGrowing"/>
+		<property name="PlantGrowing.FertileLevel" value="0"/>
+		<property name="PlantGrowing.Next" value="fertileGrass2"/>
+		<property name="PlantGrowing.GrowthRate" value="1"/>
+		<property name="PlantGrowing.IsRandom" value="true"/>
+		<property name="PlantGrowing.LightLevelStay" value="0"/>
+		<property name="PlantGrowing.GrowIfAnythinOnTop" value="false"/>
+	</block>
+	<block id="1016" name="fertileGrass2">
+		<property name="Extends" value="grass"/>
+		<property name="CanMobsSpawnOn" value="false"/>
+		<property name="Class" value="PlantGrowing"/>
+		<property name="CustomIcon" value="grass"/>
+		<property name="PlantGrowing.FertileLevel" value="0"/>
+		<property name="PlantGrowing.Next" value="grass"/>
+		<property name="PlantGrowing.GrowthRate" value="1"/>
+		<property name="PlantGrowing.IsRandom" value="true"/>
+		<property name="PlantGrowing.LightLevelStay" value="0"/>
+		<property name="PlantGrowing.GrowOnTop" value="treeTallGrassDiagonal"/>
+		<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
 	</block>
 </blocks>
 <!-- Block limit: No block can have an ID greater 2047. -->
