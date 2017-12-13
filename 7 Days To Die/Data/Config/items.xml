@@ -6522,7 +6522,7 @@
 		<property name="Material" value="organic"/>
 		<property name="EconomicValue" value="80"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="15"/>
 		<!-- STK food -->
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -7264,7 +7264,7 @@
 		<property name="Meshfile" value="Items/Food/bottledRiverWaterPrefab"/>
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="500"/>
+		<property name="Stacknumber" value="15"/>
 		<!-- STK resource -->
 		<property name="Weight" value="10"/>
 		<property name="EconomicValue" value="5"/>
@@ -8614,7 +8614,7 @@
 		<property name="Meshfile" value="Items/Food/emptyJarPrefab"/>
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="500"/>
+		<property name="Stacknumber" value="15"/>
 		<!-- STK resource -->
 		<property name="Weight" value="10"/>
 		<property name="EconomicValue" value="6"/>
@@ -10154,7 +10154,7 @@
 		<property name="HoldType" value="23"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="10"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="15"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -10197,7 +10197,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
 		<property name="EconomicValue" value="15"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="15"/>
 		<property class="Action0">
 			<!-- UseAction -->
 			<property name="Class" value="UseOther"/>
@@ -10717,7 +10717,7 @@
 		<property name="Meshfile" value="Items/Food/bottledRiverWaterPrefab"/>
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="15"/>
 		<!-- STK resource -->
 		<property name="Weight" value="10"/>
 		<property name="EconomicValue" value="10"/>
