@@ -9111,6 +9111,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<drop event="Destroy" name="yuccaFibers" count="1" tool_category="Harvest"/>
 		<property name="DropScale" value="2"/>
+		<property name="CanMobsSpawnOn" value="false"/>
 	</block>
 	<block id="910" name="brickWedgeCNRInsideBottom">
 		<property name="Extends" value="brickMaster"/>
@@ -16657,6 +16658,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Class" value="Tallgrass"/>
 		<property name="Texture" value="39,40,364,365,39,364"/>
 		<property name="DowngradeBlock" value="treePlantedGrass"/>
+		<property name="CanMobsSpawnOn" value="false"/>
 	</block>
 	<block id="100" name="trapSteelFireSpike">
 		<property name="Class" value="Damage"/>
@@ -17694,7 +17696,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="PlantGrowing.GrowthRate" value="10"/>
 		<property name="PlantGrowing.IsRandom" value="true"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
-		<property name="PlantGrowing.GrowOnTop" value="treeTallGrassDiagonal"/>
+		<property name="PlantGrowing.GrowOnTop" value="treeTallGrassDiagonal_Player"/>
 		<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
 	</block>
 	<block id="1017" name="grass2">
