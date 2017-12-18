@@ -2122,6 +2122,9 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="flagstoneRamp" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
+	<recipe name="flagstoneGable" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+		<ingredient name="cobblestones" count="10"/>
+	</recipe>
 	<recipe name="flagstoneCNRFull" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
@@ -3383,6 +3386,10 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
+	<recipe name="woodGable" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="wood" count="5"/>
+		<ingredient name="nail" count="5"/>
+	</recipe>
 	<recipe name="woodFrameHalf" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="5"/>
@@ -3620,6 +3627,10 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	</recipe>
 	<recipe name="pouredConcreteWedgeTipCNRFullTop" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	<recipe name="brickGable" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
+		<ingredient name="Bricks" count="5"/>
+		<ingredient name="concreteMix" count="5"/>
 	</recipe>
 	<recipe name="brickWedgeStairs" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="Trowel" >
 		<ingredient name="Bricks" count="5"/>
