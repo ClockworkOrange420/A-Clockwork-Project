@@ -3378,6 +3378,9 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="3"/>
 	</recipe>
+	<recipe name="shutters1Plate" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
+		<ingredient name="wood" count="10"/>
+	</recipe>
 	<recipe name="woodFenceSheet" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="clawHammer" >
 		<ingredient name="wood" count="5"/>
 		<ingredient name="nail" count="3"/>
