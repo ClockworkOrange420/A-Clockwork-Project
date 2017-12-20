@@ -247,10 +247,10 @@ camoNetSheet,blocks,Block,KgNone,Camo Netting,Filet de camouflage,Tarnnetz,,Red 
 cashRegisterEmpty,blocks,Block,KgNone,Cash Register Empty,Caisse enregistreuse vide,Registrierkasse leer,,Caja registradora vacía
 ceilingLight01,blocks,Block,EnChanged,Simple Light (POI),Luminaire de plafond 01,Deckenlampe 01 (POI),,Lámpara de techo 01
 ceilingLight02,blocks,Block,EnChanged,Silver Dome Light (POI),Luminaire de plafond 02,Deckenlampe 02 (POI),,Lámpara de techo 02
-ceilingLight02Brass,blocks,Block,EnChanged,Brass Dome Light (POI),Luminaire de plafond 02 en laiton,Deckenlampe 02 – Messing (POI),,Lámpara de techo de latón 02
-ceilingLight04,blocks,Block,EnChanged,Warehouse Ceiling Light (POI),Luminaire de plafond 04,Deckenlampe 04 (POI),,Lámpara de techo 04
-ceilingLight05,blocks,Block,EnChanged,Silver Glass Light (POI),Luminaire de plafond 05,Deckenlampe 05 (POI),,Lámpara de techo 05
-ceilingLight05Brass,blocks,Block,EnChanged,Brass Glass Light (POI),Luminaire de plafond 05 en laiton,Deckenlampe 05 – Messing (POI),,Lámpara de techo de latón 05
+ceilingLight02Brass,blocks,Block,EnChanged,Brass Dome Light,Luminaire de plafond 02 en laiton,Deckenlampe 02 – Messing (POI),,Lámpara de techo de latón 02
+ceilingLight04,blocks,Block,EnChanged,Warehouse Ceiling Light,Luminaire de plafond 04,Deckenlampe 04 (POI),,Lámpara de techo 04
+ceilingLight05,blocks,Block,EnChanged,Silver Glass Light,Luminaire de plafond 05,Deckenlampe 05 (POI),,Lámpara de techo 05
+ceilingLight05Brass,blocks,Block,EnChanged,Brass Glass Light,Luminaire de plafond 05 en laiton,Deckenlampe 05 – Messing (POI),,Lámpara de techo de latón 05
 ceilingLight07,blocks,Block,EnChanged,Fluorescent Light (POI),Luminaire de plafond 07,Deckenlampe 07 (POI),,Lámpara de techo 07
 chair01,blocks,Block,KgNone,Old Chair,Vieille chaise,Alter Stuhl,,Silla vieja
 chaulkboardPlate,blocks,Block,KgNone,Chalkboard Plate,Plaque de tableau noir,Kreidetafel-Platte,,Placa de pizarra
@@ -460,8 +460,8 @@ plainsCurb,blocks,Block,KgNone,Plains Curb,Bordure de chemin de plaines,Steppenr
 plainWoodWindowPlug,blocks,Block,KgNone,Plain Wood Window Plug,Volet en bois,Einfacher Holzfensterschallschutz,,Cierre de ventana de madera plana
 poleTop01,blocks,Block,KgNone,Pole Top01,Haut de poteau 01,Pfostenspitze 01,,Parte superior de poste 01
 porchLight01,blocks,Block,EnChanged,Old Outdoor Light (POI),Luminaire de porche 01,Verandalicht 01 (POI),,Lámpara de porche 01
-porchLight04,blocks,Block,EnChanged,Iron Outdoor Light (POI),Luminaire de porche 04,Verandalicht 04 (POI),,Lámpara de porche 04
-porchLight04Brass,blocks,Block,EnChanged,Brass Outdoor Light (POI),Luminaire de porche 04 en laiton,Verandalicht 04 – Messing (POI),,Lámpara de porche de latón 04
+porchLight04,blocks,Block,EnChanged,Iron Outdoor Light,Luminaire de porche 04,Verandalicht 04 (POI),,Lámpara de porche 04
+porchLight04Brass,blocks,Block,EnChanged,Brass Outdoor Light,Luminaire de porche 04 en laiton,Verandalicht 04 – Messing (POI),,Lámpara de porche de latón 04
 railingBlackSheet,blocks,Block,KgNone,Black Iron Railing,Rambarde en fer noir,Schwarzes Eisengeländer,,Barandilla de hierro negra
 railingGroupDesc,blocks,Block,KgNone,A railing is very useful for not falling from high places.\n [ Crafted in Workbench with a Wrench. ],Une rambarde permet d'éviter de tomber des espaces en hauteur.,"Ein Geländer ist sehr nützlich, um nicht von hochgelegenen Orten zu fallen.",,Una barandilla es muy útil para no caerte desde lugares altos.
 railingMetalSheet,blocks,Block,KgNone,Metal Railing,Rambarde en métal,Metallgeländer,,Barandilla de metal
