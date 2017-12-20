@@ -16892,10 +16892,8 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 			<property name="mechanicalParts" value="8"/>
 			<property name="electricParts" value="6"/>
 		</property>
-		<drop event="Harvest" name="mechanicalParts" count="4,8" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electricParts" count="3,6" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="1,5" tool_category="Disassemble"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="ceilingFan" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="10"/>
