@@ -16138,49 +16138,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="EconomicValue" value="135"/>
 		<property name="PickupJournalEntry" value="cameraTip,triggerDelayDurationTip,passthroughTriggeringTip"/>
 	</block>
-	<block id="2031" name="ceilingLight01CenteredNorth_player">
-		<property name="Extends" value="porchLight01"/>
-		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
-		<property name="CustomIcon" value="ceilingLight01"/>
-		<property name="ModelOffset" value="0,0.5,0.5"/>
-		<property name="RuntimeSwitch" value="true"/>
-		<property name="StabilitySupport" value="false"/>
-		<property name="Model" value="Entities/Lighting/player_ceilingLight01Prefab"/>
-		<property name="HandleFace" value="Top"/>
-		<property name="TakeDelay" value="5"/>
-	</block>
-	<block id="2032" name="ceilingLight02BrassCenteredNorth">
-		<property name="Extends" value="porchLight04Brass"/>
-		<property name="CustomIcon" value="ceilingLight02Brass"/>
-		<property name="CreativeMode" value="Dev"/>
-		<property name="Model" value="Entities/Lighting/ceilingLight02BrassPrefab"/>
-		<property name="ModelOffset" value="0,0.5,0.5"/>
-		<property name="HandleFace" value="Top"/>
-	</block>
-	<block id="2033" name="ceilingLight04CenteredNorth">
-		<property name="Extends" value="porchLight01"/>
-		<property name="CustomIcon" value="ceilingLight04"/>
-		<property name="CreativeMode" value="Dev"/>
-		<property name="Model" value="Entities/Lighting/ceilingLight04Prefab"/>
-		<property name="ModelOffset" value="0,0.5,0.5"/>
-		<property name="HandleFace" value="Top"/>
-	</block>
-	<block id="2034" name="ceilingLight05CenteredNorth">
-		<property name="Extends" value="porchLight01"/>
-		<property name="CustomIcon" value="ceilingLight05"/>
-		<property name="CreativeMode" value="Dev"/>
-		<property name="Model" value="Entities/Lighting/ceilingLight05Prefab"/>
-		<property name="ModelOffset" value="0,0.5,0.5"/>
-		<property name="HandleFace" value="Top"/>
-	</block>
-	<block id="2035" name="ceilingLight05BrassCenteredNorth">
-		<property name="Extends" value="porchLight04Brass"/>
-		<property name="CustomIcon" value="ceilingLight05Brass"/>
-		<property name="CreativeMode" value="Dev"/>
-		<property name="Model" value="Entities/Lighting/ceilingLight05BrassPrefab"/>
-		<property name="ModelOffset" value="0,0.5,0.5"/>
-		<property name="HandleFace" value="Top"/>
-	</block>
+	<!--Free 2031-2040 -->
 	<block id="2041" name="glassShowerRamp">
 		<property name="Material" value="glass"/>
 		<property name="Shape" value="New"/>
@@ -16745,446 +16703,165 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Group" value="Tools/Traps"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-	<block id="101" name="hiddenSteelPlacement">
-		<property name="Material" value="Msteel"/>
+	<!--Free 101-114 455-462 609-611 /750/ 865-866 -->
+	<block id="437" name="ceilingLight01CenteredNorth_player">
+		<property name="Extends" value="porchLight01"/>
+		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+		<property name="CustomIcon" value="ceilingLight01"/>
+		<property name="ModelOffset" value="0,0.5,0.5"/>
+		<property name="RuntimeSwitch" value="true"/>
 		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="Ext3dModel"/>
-		<property name="Mesh" value="models"/>
-		<property name="Model" value="Furniture/bed01_frame" param1="main_mesh"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property name="Place" value="Door"/>
-		<property name="PlaceEverywhere" value="true"/>
-		<property name="CanPickup" value="true"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenSteelClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="Group" value="Building"/>
-		<property name="DescriptionKey" value="hiddenDoorDesc"/>
+		<property name="Model" value="Entities/Lighting/player_ceilingLight01Prefab"/>
+		<property name="HandleFace" value="Top"/>
+		<property name="TakeDelay" value="5"/>
 	</block>
-	<block id="102" name="hiddenSteelOpen">
-		<property name="Extends" value="steelMaster"/>
-		<property name="Material" value="Msteel"/>
-		<property name="CustomIcon" value="steelBlock"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenSteelClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-	</block>
-	<block id="103" name="hiddenSteelClosed">
-		<property name="Extends" value="steelMaster"/>
-		<property name="Material" value="Msteel"/>
-		<property name="CustomIcon" value="steelBlock"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenSteelOpen"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-	</block>
-	<block id="104" name="hiddenRScrapIronPlacement">
-		<property name="Extends" value="rScrapIronMaster"/>
+	<block id="438" name="ceilingLight01CenteredEast_player">
+		<property name="Extends" value="porchLight01"/>
+		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+		<property name="CustomIcon" value="ceilingLight01"/>
+		<property name="ModelOffset" value="0.5,0.5,0"/>
+		<property name="RuntimeSwitch" value="true"/>
 		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="Ext3dModel"/>
-		<property name="Mesh" value="models"/>
-		<property name="Model" value="Furniture/bed01_frame" param1="main_mesh"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property name="Place" value="Door"/>
-		<property name="PlaceEverywhere" value="true"/>
-		<property name="CanPickup" value="true"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenRScrapIronClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="Group" value="Building"/>
-		<property name="DescriptionKey" value="hiddenDoorDesc"/>
+		<property name="Model" value="Entities/Lighting/player_ceilingLight01Prefab"/>
+		<property name="HandleFace" value="Top"/>
+		<property name="TakeDelay" value="5"/>
 	</block>
-	<block id="105" name="hiddenRScrapIronOpen">
-		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="CustomIcon" value="rScrapIronBlock"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenRScrapIronClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="DowngradeBlock" value="hiddenScrapIronOpen"/>
-	</block>
-	<block id="106" name="hiddenRScrapIronClosed">
-		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="CustomIcon" value="rScrapIronBlock"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenRScrapIronOpen"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="DowngradeBlock" value="hiddenScrapIronClosed"/>
-	</block>
-	<block id="107" name="hiddenScrapIronPlacement">
-		<property name="Extends" value="scrapIronMaster"/>
+	<block id="439" name="ceilingLight01CenteredNorthEast_player">
+		<property name="Extends" value="porchLight01"/>
+		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+		<property name="CustomIcon" value="ceilingLight01"/>
+		<property name="ModelOffset" value="0.5,0.5,0.5"/>
+		<property name="RuntimeSwitch" value="true"/>
 		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="Ext3dModel"/>
-		<property name="Mesh" value="models"/>
-		<property name="Model" value="Furniture/bed01_frame" param1="main_mesh"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property name="Place" value="Door"/>
-		<property name="PlaceEverywhere" value="true"/>
-		<property name="CanPickup" value="true"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenScrapIronClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="Group" value="Building"/>
-		<property name="DescriptionKey" value="hiddenDoorDesc"/>
+		<property name="Model" value="Entities/Lighting/player_ceilingLight01Prefab"/>
+		<property name="HandleFace" value="Top"/>
+		<property name="TakeDelay" value="5"/>
 	</block>
-	<block id="108" name="hiddenScrapIronOpen">
-		<property name="Extends" value="scrapIronMaster"/>
-		<property name="CustomIcon" value="rScrapIronBlock"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenScrapIronClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
+	<block id="440" name="ceilingLight02CenteredNorth_player">
+		<property name="Extends" value="porchLight01"/>
+		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+		<property name="CustomIcon" value="ceilingLight02"/>
+		<property name="ModelOffset" value="0,0.5,0.5"/>
+		<property name="RuntimeSwitch" value="true"/>
+		<property name="Model" value="Entities/Lighting/player_ceilingLight02Prefab"/>
+		<property name="HandleFace" value="Top"/>
+		<property name="TakeDelay" value="5"/>
 	</block>
-	<block id="109" name="hiddenScrapIronClosed">
-		<property name="Extends" value="scrapIronMaster"/>
-		<property name="CustomIcon" value="rScrapIronBlock"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenScrapIronOpen"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
+	<block id="441" name="ceilingLight02CenteredEast_player">
+		<property name="Extends" value="porchLight01"/>
+		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+		<property name="CustomIcon" value="ceilingLight02"/>
+		<property name="ModelOffset" value="0.5,0.5,0"/>
+		<property name="RuntimeSwitch" value="true"/>
+		<property name="Model" value="Entities/Lighting/player_ceilingLight02Prefab"/>
+		<property name="HandleFace" value="Top"/>
+		<property name="TakeDelay" value="5"/>
 	</block>
-	<block id="110" name="hiddenRConcretePlacement">
-		<property name="Extends" value="rConcreteMaster"/>
-		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="Ext3dModel"/>
-		<property name="Mesh" value="models"/>
-		<property name="Model" value="Furniture/bed01_frame" param1="main_mesh"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property name="Place" value="Door"/>
-		<property name="PlaceEverywhere" value="true"/>
-		<property name="CanPickup" value="true"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenRConcreteClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="Group" value="Building"/>
-		<property name="DescriptionKey" value="hiddenDoorDesc"/>
+	<block id="442" name="ceilingLight02CenteredNorthEast_player">
+		<property name="Extends" value="porchLight01"/>
+		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+		<property name="CustomIcon" value="ceilingLight02"/>
+		<property name="ModelOffset" value="0.5,0.5,0.5"/>
+		<property name="RuntimeSwitch" value="true"/>
+		<property name="Model" value="Entities/Lighting/player_ceilingLight02Prefab"/>
+		<property name="HandleFace" value="Top"/>
+		<property name="TakeDelay" value="5"/>
 	</block>
-	<block id="111" name="hiddenRConcreteOpen">
-		<property name="Extends" value="rConcreteMaster"/>
-		<property name="CustomIcon" value="rConcreteBlock"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenRConcreteClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="DowngradeBlock" value="hiddenConcreteOpen"/>
+	<block id="443" name="ceilingLight02BrassCenteredNorth">
+		<property name="Extends" value="porchLight04Brass"/>
+		<property name="CustomIcon" value="ceilingLight02Brass"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight02BrassPrefab"/>
+		<property name="ModelOffset" value="0,0.5,0.5"/>
+		<property name="HandleFace" value="Top"/>
 	</block>
-	<block id="112" name="hiddenRConcreteClosed">
-		<property name="Extends" value="rConcreteMaster"/>
-		<property name="CustomIcon" value="rConcreteBlock"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenRConcreteOpen"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="DowngradeBlock" value="hiddenConcreteClosed"/>
+	<block id="444" name="ceilingLight02BrassCenteredEast">
+		<property name="Extends" value="porchLight04Brass"/>
+		<property name="CustomIcon" value="ceilingLight02Brass"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight02BrassPrefab"/>
+		<property name="ModelOffset" value="0.5,0.5,0"/>
+		<property name="HandleFace" value="Top"/>
 	</block>
-	<block id="113" name="hiddenConcretePlacement">
-		<property name="Extends" value="concreteMaster"/>
-		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="Ext3dModel"/>
-		<property name="Mesh" value="models"/>
-		<property name="Model" value="Furniture/bed01_frame" param1="main_mesh"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property name="Place" value="Door"/>
-		<property name="PlaceEverywhere" value="true"/>
-		<property name="CanPickup" value="true"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenConcreteClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="Group" value="Building"/>
-		<property name="DescriptionKey" value="hiddenDoorDesc"/>
+	<block id="445" name="ceilingLight02BrassCenteredNorthEast">
+		<property name="Extends" value="porchLight04Brass"/>
+		<property name="CustomIcon" value="ceilingLight02Brass"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight02BrassPrefab"/>
+		<property name="ModelOffset" value="0.5,0.5,0.5"/>
+		<property name="HandleFace" value="Top"/>
 	</block>
-	<block id="114" name="hiddenConcreteOpen">
-		<property name="Extends" value="concreteMaster"/>
-		<property name="CustomIcon" value="concreteMaster"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenConcreteClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
+	<block id="446" name="ceilingLight04CenteredNorth">
+		<property name="Extends" value="porchLight01"/>
+		<property name="CustomIcon" value="ceilingLight04"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight04Prefab"/>
+		<property name="ModelOffset" value="0,0.5,0.5"/>
+		<property name="HandleFace" value="Top"/>
 	</block>
-	<block id="437" name="hiddenConcreteClosed">
-		<property name="Extends" value="concreteMaster"/>
-		<property name="CustomIcon" value="concreteMaster"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenConcreteOpen"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
+	<block id="447" name="ceilingLight04CenteredEast">
+		<property name="Extends" value="porchLight01"/>
+		<property name="CustomIcon" value="ceilingLight04"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight04Prefab"/>
+		<property name="ModelOffset" value="0.5,0.5,0"/>
+		<property name="HandleFace" value="Top"/>
 	</block>
-	<block id="438" name="hiddenCobblestonePlacement">
-		<property name="Extends" value="cobblestoneMaster"/>
-		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="Ext3dModel"/>
-		<property name="Mesh" value="models"/>
-		<property name="Model" value="Furniture/bed01_frame" param1="main_mesh"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property name="Place" value="Door"/>
-		<property name="PlaceEverywhere" value="true"/>
-		<property name="CanPickup" value="true"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenCobblestoneClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="Group" value="Building"/>
-		<property name="DescriptionKey" value="hiddenDoorDesc"/>
+	<block id="448" name="ceilingLight04CenteredNorthEast">
+		<property name="Extends" value="porchLight01"/>
+		<property name="CustomIcon" value="ceilingLight04"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight04Prefab"/>
+		<property name="ModelOffset" value="0.5,0.5,0.5"/>
+		<property name="HandleFace" value="Top"/>
 	</block>
-	<block id="439" name="hiddenCobblestoneOpen">
-		<property name="Extends" value="cobblestoneMaster"/>
-		<property name="CustomIcon" value="cobblestoneBlock"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenCobblestoneClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
+	<block id="449" name="ceilingLight05CenteredNorth">
+		<property name="Extends" value="porchLight01"/>
+		<property name="CustomIcon" value="ceilingLight05"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight05Prefab"/>
+		<property name="ModelOffset" value="0,0.5,0.5"/>
+		<property name="HandleFace" value="Top"/>
 	</block>
-	<block id="440" name="hiddenCobblestoneClosed">
-		<property name="Extends" value="cobblestoneMaster"/>
-		<property name="CustomIcon" value="cobblestoneBlock"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenCobblestoneOpen"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
+	<block id="450" name="ceilingLight05CenteredEast">
+		<property name="Extends" value="porchLight01"/>
+		<property name="CustomIcon" value="ceilingLight05"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight05Prefab"/>
+		<property name="ModelOffset" value="0.5,0.5,0"/>
+		<property name="HandleFace" value="Top"/>
 	</block>
-	<block id="444" name="hiddenBrickBlockPlacement">
-		<property name="Extends" value="brickMaster"/>
-		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="Ext3dModel"/>
-		<property name="Mesh" value="models"/>
-		<property name="Model" value="Furniture/bed01_frame" param1="main_mesh"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property name="Place" value="Door"/>
-		<property name="PlaceEverywhere" value="true"/>
-		<property name="CanPickup" value="true"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenBrickBlockClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="Group" value="Building"/>
-		<property name="DescriptionKey" value="hiddenDoorDesc"/>
+	<block id="451" name="ceilingLight05CenteredNorthEast">
+		<property name="Extends" value="porchLight01"/>
+		<property name="CustomIcon" value="ceilingLight05"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight05Prefab"/>
+		<property name="ModelOffset" value="0.5,0.5,0.5"/>
+		<property name="HandleFace" value="Top"/>
 	</block>
-	<block id="445" name="hiddenBrickBlockOpen">
-		<property name="Extends" value="brickMaster"/>
-		<property name="CustomIcon" value="brickBlock"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenBrickBlockClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
+	<block id="452" name="ceilingLight05BrassCenteredNorth">
+		<property name="Extends" value="porchLight04Brass"/>
+		<property name="CustomIcon" value="ceilingLight05Brass"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight05BrassPrefab"/>
+		<property name="ModelOffset" value="0,0.5,0.5"/>
+		<property name="HandleFace" value="Top"/>
 	</block>
-	<block id="446" name="hiddenBrickBlockClosed">
-		<property name="Extends" value="brickMaster"/>
-		<property name="CustomIcon" value="brickBlock"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenBrickBlockOpen"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
+	<block id="453" name="ceilingLight05BrassCenteredEast">
+		<property name="Extends" value="porchLight04Brass"/>
+		<property name="CustomIcon" value="ceilingLight05Brass"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight05BrassPrefab"/>
+		<property name="ModelOffset" value="0.5,0.5,0"/>
+		<property name="HandleFace" value="Top"/>
 	</block>
-	<block id="459" name="hiddenRWoodPlacement">
-		<property name="Extends" value="rWoodMaster"/>
-		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="Ext3dModel"/>
-		<property name="Mesh" value="models"/>
-		<property name="Model" value="Furniture/bed01_frame" param1="main_mesh"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property name="Place" value="Door"/>
-		<property name="PlaceEverywhere" value="true"/>
-		<property name="CanPickup" value="true"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenRWoodClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="Group" value="Building"/>
-		<property name="DescriptionKey" value="hiddenDoorDesc"/>
-	</block>
-	<block id="460" name="hiddenRWoodOpen">
-		<property name="Extends" value="rWoodMaster"/>
-		<property name="CustomIcon" value="rWoodBlock"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenRWoodClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="DowngradeBlock" value="hiddenWoodOpen"/>
-	</block>
-	<block id="461" name="hiddenRWoodClosed">
-		<property name="Extends" value="rWoodMaster"/>
-		<property name="CustomIcon" value="rWoodBlock"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenRWoodOpen"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="DowngradeBlock" value="hiddenWoodClosed"/>
-	</block>
-	<block id="462" name="hiddenWoodPlacement">
-		<property name="Extends" value="woodMaster"/>
-		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="Ext3dModel"/>
-		<property name="Mesh" value="models"/>
-		<property name="Model" value="Furniture/bed01_frame" param1="main_mesh"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property name="Place" value="Door"/>
-		<property name="PlaceEverywhere" value="true"/>
-		<property name="CanPickup" value="true"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenWoodClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="Group" value="Building"/>
-		<property name="DescriptionKey" value="hiddenDoorDesc"/>
-	</block>
-	<block id="609" name="hiddenWoodOpen">
-		<property name="Extends" value="woodMaster"/>
-		<property name="CustomIcon" value="woodBlock"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenWoodClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-	</block>
-	<block id="610" name="hiddenWoodClosed">
-		<property name="Extends" value="woodMaster"/>
-		<property name="CustomIcon" value="woodBlock"/>
-		<property name="MultiBlockDim" value="1,1,2"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenWoodOpen"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-	</block>
-	<block id="611" name="hiddenGlassPlacement">
-		<property name="Material" value="glass"/>
-		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="Ext3dModel"/>
-		<property name="Mesh" value="models"/>
-		<property name="Model" value="Furniture/bed01_frame" param1="main_mesh"/>
-		<property name="MultiBlockDim" value="1,2,2"/>
-		<property name="Place" value="Door"/>
-		<property name="PlaceEverywhere" value="true"/>
-		<property name="CanPickup" value="true"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenGlassClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property name="Group" value="Building"/>
-		<property name="DescriptionKey" value="hiddenDoorDesc"/>
-	</block>
-	<block id="750" name="hiddenGlassOpen">
-		<property name="Extends" value="glassShowerBlock"/>
-		<property name="CustomIcon" value="glassShowerBlock"/>
-		<property name="MultiBlockDim" value="1,2,1"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenGlassClosed"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-	</block>
-	<block id="865" name="hiddenGlassClosed">
-		<property name="Extends" value="glassShowerBlock"/>
-		<property name="CustomIcon" value="glassShowerBlock"/>
-		<property name="MultiBlockDim" value="1,2,2"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="hiddenGlassOpen"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-	</block>
-	<block id="866" name="cntTrapChestUpgrade">
-		<property name="Material" value="wood+wood"/>
-		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="Ext3dModel"/>
-		<property name="Mesh" value="models"/>
-		<property name="FuelValue" value="80"/>
-		<property name="Model" value="LootContainers/chest01" param1="main_mesh"/>
-		<property name="HandleFace" value="Bottom"/>
-		<property name="Place" value="TowardsPlacer"/>
-		<property name="CanPickup" value="true"/>
-		<property class="RepairItems">
-			<property name="wood" value="10"/>
-		</property>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="cntTrapChest"/>
-			<property name="Item" value="Remote"/>
-			<property name="ItemCount" value="0"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<drop event="Destroy" name="cntTrapChestUpgrade" count="1" tool_category="Harvest"/>
-		<property name="Group" value="Tools/Traps"/>
-		<property name="DescriptionKey" value="cntTrapChestUpgradeDesc"/>
+	<block id="454" name="ceilingLight05BrassCenteredNorthEast">
+		<property name="Extends" value="porchLight04Brass"/>
+		<property name="CustomIcon" value="ceilingLight05Brass"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight05BrassPrefab"/>
+		<property name="ModelOffset" value="0.5,0.5,0.5"/>
+		<property name="HandleFace" value="Top"/>
 	</block>
 	<block id="867" name="cntTrapChest">
 		<property name="Class" value="CarExplodeLoot"/>
@@ -17540,69 +17217,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CustomIcon" value="bedroll"/>
 		<property name="DescriptionKey" value="bedrollPlayerDesc"/>
 	</block>
-	<block id="965" name="ceilingLight01CenteredEast_player">
-		<property name="Extends" value="porchLight01"/>
-		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
-		<property name="CustomIcon" value="ceilingLight01"/>
-		<property name="ModelOffset" value="0.5,0.5,0"/>
-		<property name="RuntimeSwitch" value="true"/>
-		<property name="StabilitySupport" value="false"/>
-		<property name="Model" value="Entities/Lighting/player_ceilingLight01Prefab"/>
-		<property name="HandleFace" value="Top"/>
-		<property name="TakeDelay" value="5"/>
-	</block>
-	<block id="966" name="ceilingLight02BrassCenteredEast">
-		<property name="Extends" value="porchLight04Brass"/>
-		<property name="CustomIcon" value="ceilingLight02Brass"/>
-		<property name="CreativeMode" value="Dev"/>
-		<property name="Model" value="Entities/Lighting/ceilingLight02BrassPrefab"/>
-		<property name="ModelOffset" value="0.5,0.5,0"/>
-		<property name="HandleFace" value="Top"/>
-	</block>
-	<block id="967" name="ceilingLight04CenteredEast">
-		<property name="Extends" value="porchLight01"/>
-		<property name="CustomIcon" value="ceilingLight04"/>
-		<property name="CreativeMode" value="Dev"/>
-		<property name="Model" value="Entities/Lighting/ceilingLight04Prefab"/>
-		<property name="ModelOffset" value="0.5,0.5,0"/>
-		<property name="HandleFace" value="Top"/>
-	</block>
-	<block id="968" name="ceilingLight05CenteredEast">
-		<property name="Extends" value="porchLight01"/>
-		<property name="CustomIcon" value="ceilingLight05"/>
-		<property name="CreativeMode" value="Dev"/>
-		<property name="Model" value="Entities/Lighting/ceilingLight05Prefab"/>
-		<property name="ModelOffset" value="0.5,0.5,0"/>
-		<property name="HandleFace" value="Top"/>
-	</block>
-	<block id="969" name="ceilingLight05BrassCenteredEast">
-		<property name="Extends" value="porchLight04Brass"/>
-		<property name="CustomIcon" value="ceilingLight05Brass"/>
-		<property name="CreativeMode" value="Dev"/>
-		<property name="Model" value="Entities/Lighting/ceilingLight05BrassPrefab"/>
-		<property name="ModelOffset" value="0.5,0.5,0"/>
-		<property name="HandleFace" value="Top"/>
-	</block>
-	<block id="970" name="ceilingLight02CenteredEast_player">
-		<property name="Extends" value="porchLight01"/>
-		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
-		<property name="CustomIcon" value="ceilingLight02"/>
-		<property name="ModelOffset" value="0.5,0.5,0"/>
-		<property name="RuntimeSwitch" value="true"/>
-		<property name="Model" value="Entities/Lighting/player_ceilingLight02Prefab"/>
-		<property name="HandleFace" value="Top"/>
-		<property name="TakeDelay" value="5"/>
-	</block>
-	<block id="971" name="ceilingLight02CenteredNorth_player">
-		<property name="Extends" value="porchLight01"/>
-		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
-		<property name="CustomIcon" value="ceilingLight02"/>
-		<property name="ModelOffset" value="0,0.5,0.5"/>
-		<property name="RuntimeSwitch" value="true"/>
-		<property name="Model" value="Entities/Lighting/player_ceilingLight02Prefab"/>
-		<property name="HandleFace" value="Top"/>
-		<property name="TakeDelay" value="5"/>
-	</block>
+	<!--Free 965-971 -->
 	<block id="972" name="plantedSoy1">
 		<property name="Extends" value="cropsGrowingMaster"/>
 		<property name="CustomIcon" value="plantedSoy1"/>
