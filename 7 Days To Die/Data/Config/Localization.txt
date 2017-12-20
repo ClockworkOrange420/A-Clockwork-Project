@@ -248,9 +248,19 @@ cashRegisterEmpty,blocks,Block,KgNone,Cash Register Empty,Caisse enregistreuse v
 ceilingLight01,blocks,Block,EnChanged,Simple Light (POI),Luminaire de plafond 01,Deckenlampe 01 (POI),,Lámpara de techo 01
 ceilingLight02,blocks,Block,EnChanged,Silver Dome Light (POI),Luminaire de plafond 02,Deckenlampe 02 (POI),,Lámpara de techo 02
 ceilingLight02Brass,blocks,Block,EnChanged,Brass Dome Light,Luminaire de plafond 02 en laiton,Deckenlampe 02 – Messing (POI),,Lámpara de techo de latón 02
+ceilingLight02BrassCenteredEast,blocks,Block,EnChanged,Brass Dome Light Centered East,Luminaire de plafond 02 en laiton,Deckenlampe 02 – Messing (POI),,Lámpara de techo de latón 02
+ceilingLight02BrassCenteredNorth,blocks,Block,EnChanged,Brass Dome Light Centered North,Luminaire de plafond 02 en laiton,Deckenlampe 02 – Messing (POI),,Lámpara de techo de latón 02
+
+
 ceilingLight04,blocks,Block,EnChanged,Warehouse Ceiling Light,Luminaire de plafond 04,Deckenlampe 04 (POI),,Lámpara de techo 04
+ceilingLight04CenteredEast,blocks,Block,EnChanged,Warehouse Ceiling Light Centered East,Luminaire de plafond 04,Deckenlampe 04 (POI),,Lámpara de techo 04
+ceilingLight04CenteredNorth,blocks,Block,EnChanged,Warehouse Ceiling Light Centered North,Luminaire de plafond 04,Deckenlampe 04 (POI),,Lámpara de techo 04
 ceilingLight05,blocks,Block,EnChanged,Silver Glass Light,Luminaire de plafond 05,Deckenlampe 05 (POI),,Lámpara de techo 05
+ceilingLight05CenteredNorth,blocks,Block,EnChanged,Silver Glass Light Centered North,Luminaire de plafond 05,Deckenlampe 05 (POI),,Lámpara de techo 05
+ceilingLight05CenteredEast,blocks,Block,EnChanged,Silver Glass Light Centered East,Luminaire de plafond 05,Deckenlampe 05 (POI),,Lámpara de techo 05
 ceilingLight05Brass,blocks,Block,EnChanged,Brass Glass Light,Luminaire de plafond 05 en laiton,Deckenlampe 05 – Messing (POI),,Lámpara de techo de latón 05
+ceilingLight05BrassCenteredEast,blocks,Block,EnChanged,Brass Glass Light Centered East,Luminaire de plafond 05 en laiton,Deckenlampe 05 – Messing (POI),,Lámpara de techo de latón 05
+ceilingLight05BrassCenteredNorth,blocks,Block,EnChanged,Brass Glass Light Centered North,Luminaire de plafond 05 en laiton,Deckenlampe 05 – Messing (POI),,Lámpara de techo de latón 05
 ceilingLight07,blocks,Block,EnChanged,Fluorescent Light (POI),Luminaire de plafond 07,Deckenlampe 07 (POI),,Lámpara de techo 07
 chair01,blocks,Block,KgNone,Old Chair,Vieille chaise,Alter Stuhl,,Silla vieja
 chaulkboardPlate,blocks,Block,KgNone,Chalkboard Plate,Plaque de tableau noir,Kreidetafel-Platte,,Placa de pizarra
@@ -3651,7 +3661,11 @@ batterybank,blocks,Electricity,New,Battery Bank,,,,
 bladeTrap,blocks,Electricity,New,Blade Trap,,,,
 bladeTrapDesc,blocks,Electricity,New,Used to chop up zombies into many pieces. Just add zombies and stir.\n [ Crafted in Workbench with a Wrench. ],,,,
 ceilingLight01_player,blocks,Electricity,New,Simple Light,,,,
+ceilingLight01CenteredNorth_player,blocks,Electricity,New,Simple Light Centered North,,,,
+ceilingLight01CenteredEast_player,blocks,Electricity,New,Simple Light Centered East,,,,
 ceilingLight02_player,blocks,Electricity,New,Silver Dome Light,,,,
+ceilingLight02CenteredEast_player,blocks,Electricity,New,Silver Dome Light Centered East,,,,
+ceilingLight02CenteredNorth_player,blocks,Electricity,New,Silver Dome Light Centered North,,,,
 ceilingLight07_player,blocks,Electricity,New,Fluorescent Light,,,,
 dartTrap,blocks,Electricity,New,Dart Trap,,,,
 dartTrapDesc,blocks,Electricity,New,Launches metal darts when powered.\n [ Crafted in Workbench with a Wrench. ],,,,

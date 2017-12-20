@@ -16138,7 +16138,49 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="EconomicValue" value="135"/>
 		<property name="PickupJournalEntry" value="cameraTip,triggerDelayDurationTip,passthroughTriggeringTip"/>
 	</block>
-	<!-- n Free -->
+	<block id="2031" name="ceilingLight01CenteredNorth_player">
+		<property name="Extends" value="porchLight01"/>
+		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+		<property name="CustomIcon" value="ceilingLight01"/>
+		<property name="ModelOffset" value="0,0.5,0.5"/>
+		<property name="RuntimeSwitch" value="true"/>
+		<property name="StabilitySupport" value="false"/>
+		<property name="Model" value="Entities/Lighting/player_ceilingLight01Prefab"/>
+		<property name="HandleFace" value="Top"/>
+		<property name="TakeDelay" value="5"/>
+	</block>
+	<block id="2032" name="ceilingLight02BrassCenteredNorth">
+		<property name="Extends" value="porchLight04Brass"/>
+		<property name="CustomIcon" value="ceilingLight02Brass"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight02BrassPrefab"/>
+		<property name="ModelOffset" value="0,0.5,0.5"/>
+		<property name="HandleFace" value="Top"/>
+	</block>
+	<block id="2033" name="ceilingLight04CenteredNorth">
+		<property name="Extends" value="porchLight01"/>
+		<property name="CustomIcon" value="ceilingLight04"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight04Prefab"/>
+		<property name="ModelOffset" value="0,0.5,0.5"/>
+		<property name="HandleFace" value="Top"/>
+	</block>
+	<block id="2034" name="ceilingLight05CenteredNorth">
+		<property name="Extends" value="porchLight01"/>
+		<property name="CustomIcon" value="ceilingLight05"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight05Prefab"/>
+		<property name="ModelOffset" value="0,0.5,0.5"/>
+		<property name="HandleFace" value="Top"/>
+	</block>
+	<block id="2035" name="ceilingLight05BrassCenteredNorth">
+		<property name="Extends" value="porchLight04Brass"/>
+		<property name="CustomIcon" value="ceilingLight05Brass"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight05BrassPrefab"/>
+		<property name="ModelOffset" value="0,0.5,0.5"/>
+		<property name="HandleFace" value="Top"/>
+	</block>
 	<block id="2041" name="glassShowerRamp">
 		<property name="Material" value="glass"/>
 		<property name="Shape" value="New"/>
@@ -17498,7 +17540,69 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CustomIcon" value="bedroll"/>
 		<property name="DescriptionKey" value="bedrollPlayerDesc"/>
 	</block>
-	<!--Free-->
+	<block id="965" name="ceilingLight01CenteredEast_player">
+		<property name="Extends" value="porchLight01"/>
+		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+		<property name="CustomIcon" value="ceilingLight01"/>
+		<property name="ModelOffset" value="0.5,0.5,0"/>
+		<property name="RuntimeSwitch" value="true"/>
+		<property name="StabilitySupport" value="false"/>
+		<property name="Model" value="Entities/Lighting/player_ceilingLight01Prefab"/>
+		<property name="HandleFace" value="Top"/>
+		<property name="TakeDelay" value="5"/>
+	</block>
+	<block id="966" name="ceilingLight02BrassCenteredEast">
+		<property name="Extends" value="porchLight04Brass"/>
+		<property name="CustomIcon" value="ceilingLight02Brass"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight02BrassPrefab"/>
+		<property name="ModelOffset" value="0.5,0.5,0"/>
+		<property name="HandleFace" value="Top"/>
+	</block>
+	<block id="967" name="ceilingLight04CenteredEast">
+		<property name="Extends" value="porchLight01"/>
+		<property name="CustomIcon" value="ceilingLight04"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight04Prefab"/>
+		<property name="ModelOffset" value="0.5,0.5,0"/>
+		<property name="HandleFace" value="Top"/>
+	</block>
+	<block id="968" name="ceilingLight05CenteredEast">
+		<property name="Extends" value="porchLight01"/>
+		<property name="CustomIcon" value="ceilingLight05"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight05Prefab"/>
+		<property name="ModelOffset" value="0.5,0.5,0"/>
+		<property name="HandleFace" value="Top"/>
+	</block>
+	<block id="969" name="ceilingLight05BrassCenteredEast">
+		<property name="Extends" value="porchLight04Brass"/>
+		<property name="CustomIcon" value="ceilingLight05Brass"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Lighting/ceilingLight05BrassPrefab"/>
+		<property name="ModelOffset" value="0.5,0.5,0"/>
+		<property name="HandleFace" value="Top"/>
+	</block>
+	<block id="970" name="ceilingLight02CenteredEast_player">
+		<property name="Extends" value="porchLight01"/>
+		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+		<property name="CustomIcon" value="ceilingLight02"/>
+		<property name="ModelOffset" value="0.5,0.5,0"/>
+		<property name="RuntimeSwitch" value="true"/>
+		<property name="Model" value="Entities/Lighting/player_ceilingLight02Prefab"/>
+		<property name="HandleFace" value="Top"/>
+		<property name="TakeDelay" value="5"/>
+	</block>
+	<block id="971" name="ceilingLight02CenteredNorth_player">
+		<property name="Extends" value="porchLight01"/>
+		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+		<property name="CustomIcon" value="ceilingLight02"/>
+		<property name="ModelOffset" value="0,0.5,0.5"/>
+		<property name="RuntimeSwitch" value="true"/>
+		<property name="Model" value="Entities/Lighting/player_ceilingLight02Prefab"/>
+		<property name="HandleFace" value="Top"/>
+		<property name="TakeDelay" value="5"/>
+	</block>
 	<block id="972" name="plantedSoy1">
 		<property name="Extends" value="cropsGrowingMaster"/>
 		<property name="CustomIcon" value="plantedSoy1"/>
