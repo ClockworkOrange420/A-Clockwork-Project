@@ -15837,13 +15837,13 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="DamageReceived" value="4"/>
 		<property name="BreakingPercentage" value="0.5"/>
 		<property name="BrokenPercentage" value="0.25"/>
+		<property name="StabilitySupport" value="false"/>
 		<property name="ImpactSound" value="bladetrap_impact"/>
 		<property name="StartSound" value="bladetrap_startup"/>
 		<property name="StopSound" value="bladetrap_stop"/>
 		<property name="RunningSound" value="bladetrap_fire_lp"/>
 		<property name="RunningSoundBreaking" value="bladetrap_dm1_lp"/>
 		<property name="RunningSoundBroken" value="bladetrap_dm2_lp"/>
-		<property name="StabilitySupport" value="false"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Electrical/trap_spinning_bladePrefab"/>
 		<property name="HandleFace" value="Bottom"/>
@@ -16865,7 +16865,53 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="ModelOffset" value="0.5,0.5,0.5"/>
 		<property name="HandleFace" value="Top"/>
 	</block>
-	<!--Free 455-462 -->
+	<block id="455" name="ceilingFan">
+		<property name="Class" value="BladeTrap"/>
+		<property name="Material" value="Mmetal_light"/>
+		<property name="Damage" value="1"/>
+		<property name="DamageReceived" value="10"/>
+		<property name="StartSound" value="bladetrap_startup"/>
+		<property name="StopSound" value="bladetrap_stop"/>
+		<property name="RunningSound" value="bladetrap_fire_lp"/>
+		<property name="RunningSoundBreaking" value="bladetrap_dm1_lp"/>
+		<property name="RunningSoundBroken" value="bladetrap_dm2_lp"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Electrical/trap_spinning_bladePrefab"/>
+		<property name="HandleFace" value="Bottom"/>
+		<property name="MultiBlockDim" value="3,1,3"/>
+		<property name="ImposterExchange" value="imposterPlate" param1="111"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="RequiredPower" value="20"/>
+		<property name="EconomicValue" value="444"/>
+		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="ActivationDistance" value="6"/>
+		<property class="RepairItems">
+			<property name="forgedIron" value="10"/>
+			<property name="mechanicalParts" value="8"/>
+			<property name="electricParts" value="6"/>
+		</property>
+		<drop event="Harvest" name="mechanicalParts" count="4,8" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electricParts" count="3,6" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="1,5" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
+		<property name="Stacknumber" value="10"/>
+		<property name="TakeDelay" value="10"/>
+		<property name="DescriptionKey" value="ceilingFanDesc"/>
+	</block>
+	<block id="456" name="ceilingFanLight">
+		<property name="Extends" value="porchLight01"/>
+		<property name="DescriptionKey" value="ceilingFanLightDesc"/>
+		<property name="CustomIcon" value="ceilingLight02"/>
+		<property name="RuntimeSwitch" value="true"/>
+		<property name="Model" value="Entities/Lighting/player_ceilingLight02Prefab"/>
+		<property name="HandleFace" value="Bottom"/>
+		<property name="ModelOffset" value="0,0.8,0"/>
+		<property name="TakeDelay" value="5"/>
+	</block>
+	<!--Free 457-462 -->
 	<block id="866" name="cntTrapChestUpgrade">
 		<property name="Material" value="wood+wood"/>
 		<property name="StabilitySupport" value="false"/>

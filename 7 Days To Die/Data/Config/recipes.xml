@@ -3890,6 +3890,10 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="6"/>
 	</recipe>
+	<recipe name="ceilingFanLight" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="electricParts" count="7"/>
+	</recipe>
 	<recipe name="ceilingLight02_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="7"/>
@@ -3974,6 +3978,11 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="electricParts" count="2"/>
 	</recipe>
 	<recipe name="bladeTrap" count="1" craft_time = "30" craft_exp_gain="67" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="mechanicalParts" count="8"/>
+		<ingredient name="electricParts" count="6"/>
+	</recipe>
+	<recipe name="ceilingFan" count="1" craft_time = "30" craft_exp_gain="67" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="mechanicalParts" count="8"/>
 		<ingredient name="electricParts" count="6"/>
