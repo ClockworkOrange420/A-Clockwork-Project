@@ -3159,7 +3159,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Class" value="Light"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="DescriptionKey" value="lightPOIGroupDesc"/>
-		<property name="Material" value="Mmetal_frame"/>
+		<property name="Material" value="Mmetal_light"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="RuntimeSwitch" value="true"/>
 		<property name="Shape" value="ModelEntity"/>
@@ -16871,11 +16871,11 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="CustomIcon" value="bladeTrap"/>
 		<property name="Damage" value="1"/>
 		<property name="DamageReceived" value="10"/>
-		<property name="StartSound" value="bladetrap_startup"/>
-		<property name="StopSound" value="bladetrap_stop"/>
-		<property name="RunningSound" value="bladetrap_fire_lp"/>
-		<property name="RunningSoundBreaking" value="bladetrap_dm1_lp"/>
-		<property name="RunningSoundBroken" value="bladetrap_dm2_lp"/>
+		<property name="StartSound" value=""/>
+		<property name="StopSound" value=""/>
+		<property name="RunningSound" value=""/>
+		<property name="RunningSoundBreaking" value=""/>
+		<property name="RunningSoundBroken" value=""/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Electrical/trap_spinning_bladePrefab"/>
 		<property name="HandleFace" value="Bottom"/>
