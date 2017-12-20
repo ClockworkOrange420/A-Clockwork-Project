@@ -620,7 +620,7 @@ storeShelving01,blocks,Block,KgNone,Store Shelves,Rayonnage,Ladenregale,,Estante
 storeShelving01Double,blocks,Block,KgNone,Store Shelves Double,Double rayonnage,Doppelte Ladenregale,,Estanterías de almacenaje doble
 storeShelving01Top,blocks,Block,KgNone,Store Shelves (Top),Rayonnage (haut),Ladenregale (Oberteil),,Estanterías de almacenaje (superior)
 storeShelving01TopDouble,blocks,Block,KgNone,Store Shelves Double (Top),Double rayonnage (haut),Doppelte Ladenregale (Oberteil),,Estanterías de almacenaje doble (superior)
-streetLight01,blocks,Block,EnChanged,Street Light (POI),Lampadaire,Straßenlaterne (POI),,Farol
+streetLight01,blocks,Block,EnChanged,Street Light,Lampadaire,Straßenlaterne (POI),,Farol
 tireBlockMinibike,blocks,Block,KgNone,Tire (POI),Pneu,Reifen (POI),,Rueda
 torchWallHolder,blocks,Block,KgNone,Torch Wall Holder,Support mural pour torche,Fackel-Wandhalter,,Portantorchas de pared
 treeBirch10m,blocks,Block,KgNone,Tree Birch10m,Bouleau 10 m,Baum – Birke 10 m,,"Árbol: Abedul, 10 m"
