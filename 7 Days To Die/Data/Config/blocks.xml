@@ -3161,6 +3161,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="DescriptionKey" value="lightPOIGroupDesc"/>
 		<property name="Material" value="Mmetal_frame"/>
 		<property name="StabilitySupport" value="false"/>
+		<property name="RuntimeSwitch" value="true"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Light" value="0.5"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
@@ -3176,7 +3177,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<drop event="Destroy" name="scrapIron" count="2" tool_category="Harvest"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
-		<property name="TakeDelay" value="-1"/>
+		<property name="TakeDelay" value="5"/>
 		<property name="Group" value="Science"/>
 		<property name="EconomicValue" value="76"/>
 	</block>
