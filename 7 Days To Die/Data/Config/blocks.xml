@@ -6010,6 +6010,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		</property>
 		<property name="LightOpacity" value="1"/>
 	</block>
+	<!--Free 609-611 -->
 	<block id="612" name="burntWoodBlock1">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="Mesh" value="opaque"/>
@@ -7652,6 +7653,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<!-- This is how far away you can PLACE the block and how far away you can ACTIVATE it -->
 		<property name="Group" value="Science"/>
 	</block>
+	<!--Free 750 -->
 	<block id="751" name="cobblestoneWedge">
 		<property name="Extends" value="cobblestoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -16703,7 +16705,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Group" value="Tools/Traps"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-	<!--Free 101-114 455-462 609-611 /750/ -->
+	<!--Free 101-114 -->
 	<block id="437" name="ceilingLight01CenteredNorth_player">
 		<property name="Extends" value="porchLight01"/>
 		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
@@ -16863,6 +16865,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="ModelOffset" value="0.5,0.5,0.5"/>
 		<property name="HandleFace" value="Top"/>
 	</block>
+	<!--Free 455-462 -->
 	<block id="866" name="cntTrapChestUpgrade">
 		<property name="Material" value="wood+wood"/>
 		<property name="StabilitySupport" value="false"/>
