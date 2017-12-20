@@ -8318,7 +8318,23 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Map.Color" value="119,136,204"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 	</block>
-	<!-- 1 Free -->
+	<block id="827" name="woodBlockRelay">
+		<property name="Extends" value="woodMaster"/>
+		<property name="Class" value="Powered"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="RequiredPower" value="1"/>
+		<property name="Group" value="Science"/>
+		<property class="RepairItems">
+			<property name="forgedIron" value="1"/>
+		</property>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" name="woodBlockRelay" count="1" tool_category="Disassemble"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
+		<property name="Stacknumber" value="250"/>
+		<property name="TakeDelay" value="5"/>
+		<property name="EconomicValue" value="28"/>
+		<property name="DescriptionKey" value="woodBlockRelayDesc"/>
+	</block>
 	<block id="828" name="brickWedgeTipCNRFullBottom">
 		<property name="Extends" value="brickMaster"/>
 		<property name="Shape" value="New"/>

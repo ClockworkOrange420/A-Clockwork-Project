@@ -2948,7 +2948,7 @@
 	</item>
 	<item id="214" name="partsPistol_barrelSilenced">
 		<property name="Extends" value="partsMaster"/>
-		<property name="DescriptionKey" value="partsPistolGroupDesc"/>
+		<property name="DescriptionKey" value="partsPistol_barrelSilencedDesc"/>
 		<property name="PartType" value="Barrel"/>
 		<property name="Weight" value="25"/>
 		<property class="Attributes">

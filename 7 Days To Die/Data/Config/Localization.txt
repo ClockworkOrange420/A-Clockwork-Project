@@ -5195,6 +5195,7 @@ ExtractMixDesc,items,Food,New,Combines the effects of lotus extract and snow ber
 venomGland,items,Food,New,Venom Gland,,,,
 venomGlandDesc,items,Food,New,"Can be eaten to build up an immunity to venom, but if you are not carefull it can be deadly.",,,,
 partsPistol_barrelSilenced,items,Part,KgNone,Silenced Pistol Barrel,,,,
+partsPistol_barrelSilencedDesc,items,Part,KgNone,A part of the pistol. Crafted together using a silencer and pistol barrel.,,,,
 Silencer,items,Item,KgNone,Silencer,,,,
 SilencerDesc,items,Item,KgNone,Silencer can be applied to a pistol barrel.\n [ Crafted in Forge with a Silencer Mold. ],,,,
 Chemistry_For_Dummies,items,Book,New,Chemistry For Dummies,,,,
@@ -5237,6 +5238,8 @@ electricClubSpiked,items,Melee,New,Electric Spiked Club,,,,
 electricClubSpikedDesc,items,Melee,New,A badass club with sharp spikes. Added chance for bleeding and elctrifying zomibies.\n [ Crafted in Smithing Table with a Wrench. ],Une massue trop cool hérissée de pointes coupantes. Augmente les chances d'infliger une hémorragie.,Ein cooler Knüppel mit scharfen Nägeln. Erhöhte Chance auf Blutungen.,,Una intimidante garrote con clavos afilados. Posibilidad adicional de hemorragia.
 grassFromDirt2,blocks,Terrain,KgNone,Zombie Proof Grassy Ground,Terrain herbeux,Grasboden,,Suelo de hierba
 grassFromDirt2Desc,blocks,Terrain,KgNone,Replace missing pieces of terrain in the proper shade of green and will prevent zombie spawns.\n [ Crafted in Workbench. ],Remplacez les morceaux de terrain manquants par de la verdure.,Ersetze fehlende Terrainstücke mit dem richtigen Grünton.,,Reemplaza las piezas de terreno que falten con el tono de césped correspondiente.
+woodBlockRelay,blocks,Electricity,New,Wood Block Wire Relay,,,,
+woodBlockRelayDesc,blocks,Electricity,New,Used to connect and extend wires between electrical components with hidden wires.\n [ Crafted in Workbench with a Wrench. ],,,,
 plantedWheat1,blocks,Farming,New,Wheat Seed,,,,
 plantedTomato1,blocks,Farming,New,Tomato Seed,,,,
 plantedSoy1,blocks,Farming,New,Soy Seed,,,,

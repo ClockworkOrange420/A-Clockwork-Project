@@ -3780,6 +3780,11 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="1"/>
 	</recipe>
+	<recipe name="woodBlockRelay" count="1" craft_time = "12" craft_exp_gain="27" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="electricParts" count="1"/>
+		<ingredient name="wood" count="10"/>
+	</recipe>
 	<recipe name="ceilingLight01_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="4"/>
