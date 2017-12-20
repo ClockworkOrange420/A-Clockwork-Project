@@ -3789,11 +3789,15 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="4"/>
 	</recipe>
+	<recipe name="ceilingLight01CenteredNorth_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="electricParts" count="4"/>
+	</recipe>
 	<recipe name="ceilingLight01CenteredEast_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="4"/>
 	</recipe>
-	<recipe name="ceilingLight01CenteredNorth_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="ceilingLight01CenteredNorthEast_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="4"/>
 	</recipe>
@@ -3801,11 +3805,15 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="4"/>
 	</recipe>
+	<recipe name="ceilingLight04CenteredNorth" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="electricParts" count="4"/>
+	</recipe>
 	<recipe name="ceilingLight04CenteredEast" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="4"/>
 	</recipe>
-	<recipe name="ceilingLight04CenteredNorth" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="ceilingLight04CenteredNorthEast" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="4"/>
 	</recipe>
@@ -3813,20 +3821,19 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="4"/>
 	</recipe>
-	<recipe name="ceilingLight05CenteredEast" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
-		<ingredient name="forgedIron" count="2"/>
-		<ingredient name="electricParts" count="4"/>
-	</recipe>
 	<recipe name="ceilingLight05CenteredNorth" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="4"/>
 	</recipe>
-	<recipe name="ceilingLight05Brass" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="ceilingLight05CenteredEast" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
-		<ingredient name="scrapBrass" count="5"/>
 		<ingredient name="electricParts" count="4"/>
 	</recipe>
-	<recipe name="ceilingLight05BrassCenteredEast" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="ceilingLight05CenteredNorthEast" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="electricParts" count="4"/>
+	</recipe>
+	<recipe name="ceilingLight05Brass" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="scrapBrass" count="5"/>
 		<ingredient name="electricParts" count="4"/>
@@ -3836,7 +3843,17 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="scrapBrass" count="5"/>
 		<ingredient name="electricParts" count="4"/>
 	</recipe>
-	<recipe name="ceilingLight02BrassCenteredEast" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="ceilingLight05BrassCenteredEast" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="scrapBrass" count="5"/>
+		<ingredient name="electricParts" count="4"/>
+	</recipe>
+	<recipe name="ceilingLight05BrassCenteredNorthEast" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="scrapBrass" count="5"/>
+		<ingredient name="electricParts" count="4"/>
+	</recipe>
+	<recipe name="ceilingLight02Brass" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="scrapBrass" count="5"/>
 		<ingredient name="electricParts" count="4"/>
@@ -3846,7 +3863,12 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="scrapBrass" count="5"/>
 		<ingredient name="electricParts" count="4"/>
 	</recipe>
-	<recipe name="ceilingLight02Brass" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="ceilingLight02BrassCenteredEast" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="scrapBrass" count="5"/>
+		<ingredient name="electricParts" count="4"/>
+	</recipe>
+	<recipe name="ceilingLight02BrassCenteredNorthEast" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="scrapBrass" count="5"/>
 		<ingredient name="electricParts" count="4"/>
@@ -3872,11 +3894,15 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="7"/>
 	</recipe>
+	<recipe name="ceilingLight02CenteredNorth_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="electricParts" count="7"/>
+	</recipe>
 	<recipe name="ceilingLight02CenteredEast_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="7"/>
 	</recipe>
-	<recipe name="ceilingLight02CenteredNorth_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
+	<recipe name="ceilingLight02CenteredNorthEast_player" count="1" craft_time = "4" craft_exp_gain="9" craft_area="workbench" craft_tool="wrench" >
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="7"/>
 	</recipe>
