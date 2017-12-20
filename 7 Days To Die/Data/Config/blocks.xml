@@ -16868,6 +16868,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 	<block id="455" name="ceilingFan">
 		<property name="Class" value="BladeTrap"/>
 		<property name="Material" value="Mmetal_light"/>
+		<property name="CustomIcon" value="bladeTrap"/>
 		<property name="Damage" value="1"/>
 		<property name="DamageReceived" value="10"/>
 		<property name="StartSound" value="bladetrap_startup"/>
