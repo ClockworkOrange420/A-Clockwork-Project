@@ -3030,7 +3030,7 @@
 	<LocalCrouchVolumeScale name="1.0"/> <CrouchNoiseScale name="0.5"/> <NoiseScale name="1"/> <MaxVoices name="10"/> <MaxRepeatRate name="0.01"/> </SoundDataNode>
 
 <SoundDataNode name="batterybank_idle"> <AudioSource name="Sounds/AudioSource_Interact"/>
-	<AudioClip ClipName="Sounds/Electricity/BatteryBank/batterybank_idle_lp" Loop="true"/>
+	<AudioClip ClipName="Sounds/Electricity/BatteryBank/batterybank_idle_lp_ModdedOff" Loop="true"/>
 	<LocalCrouchVolumeScale name="1.0"/> <CrouchNoiseScale name="0.5"/> <NoiseScale name="1"/> <MaxVoices name="18"/> <MaxRepeatRate name="0.001"/> </SoundDataNode>
 
 <SoundDataNode name="batterybank_stop"> <AudioSource name="Sounds/AudioSource_Interact"/>
@@ -3087,7 +3087,7 @@
 	<LocalCrouchVolumeScale name="1.0"/> <CrouchNoiseScale name="0.5"/> <NoiseScale name="1"/> <MaxVoices name="10"/> <MaxRepeatRate name="0.01"/> </SoundDataNode>
 
 <SoundDataNode name="solarpanel_idle"> <AudioSource name="Sounds/AudioSource_Interact"/>
-	<AudioClip ClipName="Sounds/Electricity/SolarPanel/solarpanel_idle_lp" Loop="true"/>
+	<AudioClip ClipName="Sounds/Electricity/SolarPanel/solarpanel_idle_lp_ModdedOff" Loop="true"/>
 	<LocalCrouchVolumeScale name="1.0"/> <CrouchNoiseScale name="0.5"/> <NoiseScale name="1"/> <MaxVoices name="18"/> <MaxRepeatRate name="0.001"/> </SoundDataNode>
 
 <SoundDataNode name="solarpanel_off"> <AudioSource name="Sounds/AudioSource_Interact"/>
