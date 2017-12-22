@@ -8322,16 +8322,21 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 	</block>
 	<block id="827" name="woodBlockRelay">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Material" value="wood_regular"/>
+		<property name="Texture" value="241"/>
+		<property name="FuelValue" value="300"/>
+		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="Class" value="Powered"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="RequiredPower" value="1"/>
 		<property name="Group" value="Science"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="1"/>
+			<property name="wood" value="10"/>
 		</property>
 		<drop event="Harvest" count="0" tool_category="Disassemble"/>
 		<drop event="Destroy" name="woodBlockRelay" count="1" tool_category="Disassemble"/>
+		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Stacknumber" value="250"/>
 		<property name="TakeDelay" value="5"/>
@@ -15744,6 +15749,12 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Group" value="Science"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="1"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="woodBlockRelay"/>
+			<property name="Item" value="wood"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<drop event="Harvest" count="0" tool_category="Disassemble"/>
 		<drop event="Destroy" name="electricwirerelay" count="1" tool_category="Disassemble"/>
