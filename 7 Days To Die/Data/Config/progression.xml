@@ -4,7 +4,7 @@
 <player
 	max_level="200"
 	exp_to_level="10500"
-	experience_multiplier="1.002"
+	experience_multiplier="1.004"
 	skill_points_per_level="5"
 	skill_point_multiplier="0"/>
 	<!-- A15: 8000 XP for level 1 and 134k for level 199, total cumulative of 9MXP; XPRequired = exp_to_level * experience_multiplier ^ level -->
