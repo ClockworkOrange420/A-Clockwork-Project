@@ -3089,6 +3089,9 @@ ingredient in the list so ammo recipes have been re-ordered as a temp fix. -->
 	<recipe name="omnigel" count="10" craft_time = "60" craft_exp_gain="50" craft_area="chemistryStation" craft_tool="beaker" >
 		<ingredient name="femur" count="100"/>
 	</recipe>
+	<recipe name="omnigel" count="10" craft_time = "60" craft_exp_gain="50" craft_area="chemistryStation" craft_tool="beaker" >
+		<ingredient name="rottingFlesh" count="100"/>
+	</recipe>
 	<recipe name="oilShale" count="100" craft_time = "12" craft_exp_gain="40" craft_area="chemistryStation" >
 		<ingredient name="omnigel" count="10"/>
 	</recipe>
