@@ -2325,7 +2325,7 @@ t,b,n,w,s,e note that new shapes texture directions do not match old shapes for 
 		<property name="Extends" value="rWoodMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
-		<property name="Texture" value="44,379,379,379,379,379"/>
+		<property name="Texture" value="379,379,379,379,379,379"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredConcreteCNRInside"/>
 		</property>
