@@ -5022,13 +5022,13 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 
 	<item group="junk" prob="0.6"/>
 	<item group="groupAllArmor/Cloth" prob="0.2"/>
-	<item group="rottenFood" prob="0.2"/>
-	<item group="groupQuestChallenge" count="1" prob="0.191"/>
-	<item group="groupTreasureMaps" count="1" prob="0.161"/> 
+	<item group="rottenFood" prob="0.3"/>
+	<item group="groupQuestChallenge" count="0,2" prob="0.05"/>
+	<item group="groupTreasureMaps" count="0,1" prob="0.05"/> 
 	
-	<item group="cannedfood" count="1,2" prob="0.2"/>
-	<item name="drinkJarBeer" count="1,2" prob="0.2"/>
-	<item name="drinkJarBoiledWater" count="1,2" prob="0.2"/>
+	<item group="cannedfood" count="0,2" prob="0.2"/>
+	<item name="drinkJarBeer" count="0,2" prob="0.2"/>
+	<item name="drinkJarBoiledWater" count="0,2" prob="0.2"/>
 	
 	<item group="groupWeaponsToolsZombies" prob="0.2"/>
 </lootcontainer>
